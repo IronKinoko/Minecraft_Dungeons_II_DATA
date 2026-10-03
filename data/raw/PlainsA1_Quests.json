@@ -1,0 +1,858 @@
+{
+	"Name": "PlainsA1_Quests",
+	"DefaultQuestData":
+	{
+		"id": "PLa1_",
+		"id_tag": "None",
+		"initial_state": "Unlocked",
+		"quest_type": "SideQuest",
+		"RewardData":
+		{
+			"questSize":
+			{
+				"tagName": "SW.QuestSize.Small"
+			},
+			"areaRewardScalingTag":
+			{
+				"tagName": "SW.Area.Plains.A1"
+			},
+			"firstCompletionLootSourceData": [],
+			"lootSourceData": [
+				{
+					"lootSourceTag":
+					{
+						"tagName": "None"
+					},
+					"lootTags":
+					{
+						"gameplayTags": [
+							{
+								"tagName": "SW.Area.Plains.A1"
+							},
+							{
+								"tagName": "SW.Quest.Loot.AreaDropModifier"
+							}
+						]
+					}
+				}
+			]
+		},
+		"serialize_progress_for_quest": true,
+		"is_replayable": false,
+		"replay_whole_arc": false,
+		"replay_rule": "TimeBased",
+		"replay_delay_time": 30,
+		"UnlockBannerData":
+		{
+			"unlocksQuest": false,
+			"unlocksArea": false,
+			"unlocksTownContent": false,
+			"unlocksSoulStorm": false
+		},
+		"unlock_quests_timer_override": 0,
+		"name": "",
+		"comment": "",
+		"quest_arc": "",
+		"MetaData":
+		{
+			"keyValues": []
+		},
+		"prerequisites": []
+	},
+	"Quests": [
+		{
+			"id": "PLa1_S08_A",
+			"id_tag": "SW.Quest.Id.PLa1S08A",
+			"initial_state": "Locked",
+			"quest_type": "SideQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Small"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Plains.A1"
+				},
+				"firstCompletionLootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Artifact.CreeperCandle"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Rare"
+								}
+							]
+						}
+					}
+				],
+				"lootSourceData": []
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": false,
+				"unlocksArea": false,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": []
+			},
+			"prerequisites": [
+				"CA01"
+			],
+			"goals":
+			{
+				"name": "PLa1_S08_A_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "PLa1_S08_A_E01",
+						"comment": "Go to candlemaker",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "PLa1_S08_A_E01_Target"
+					},
+					{
+						"name": "PLa1_S08_A_I01",
+						"comment": "talk with candlemaker",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "PLa1_S08_A_I01_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "PLa1_S08_A_Sequence06",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "PLa1_S08_A_E09",
+								"comment": "go to alcove",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"destination": "PLa1_S08_A_E09_Target"
+							},
+							{
+								"name": "PLa1_S08_A_SM05",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"mob_types": [
+									"SW.Mob.Pillager",
+									"SW.Mob.Vindicator"
+								],
+								"mob_count": 6,
+								"volume_name": "PLa1_S08_A_SM05_Target",
+								"group_tag": "PLa1_S08_A_SM05_Group"
+							},
+							{
+								"name": "PLa1_S08_A_K05",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"TaskLocationOverrideType": "OtherTask",
+								"OtherTaskId": "PLa1_S08_A_SM05",
+								"kill_target": "PLa1_S08_A_SM05_Group",
+								"kill_target_types": [
+									"SW.Mob.Pillager",
+									"SW.Mob.Vindicator"
+								],
+								"kill_count": 6
+							},
+							{
+								"name": "PLa1_S08_A_I12",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "PLa1_S08_A_I12_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							}
+						]
+					},
+					{
+						"name": "PLa1_S08_A_E02",
+						"comment": "go to mill cellar",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "PLa1_S08_A_E02_Target"
+					},
+					{
+						"name": "PLa1_S08_A_I02",
+						"comment": "open mill cellar",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "PLa1_S08_A_I02_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "PLa1_S08_A_E03",
+						"comment": "enter mill cellar",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "PLa1_S08_A_E03_Target"
+					},
+					{
+						"name": "PLa1_S08_A_AS01",
+						"comment": "defeat illagers",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"arena_tag": "SW.ArenaSetup.PlainsA1.PLa1.S08.A.Arena02"
+					},
+					{
+						"name": "PLa1_S08_A_I03",
+						"comment": "pickup map",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "PLa1_S08_A_I03_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "PLa1_S08_A_Sequence02",
+						"comment": "Collect creeper candles x3",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "PLa1_S08_A_Sequence03",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "PLa1_S08_A_E04",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "PLa1_S08_A_E04_Target"
+									},
+									{
+										"name": "PLa1_S08_A_SM02",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"mob_types": [
+											"SW.Mob.Pillager",
+											"SW.Mob.Vindicator"
+										],
+										"mob_count": 6,
+										"volume_name": "PLa1_S08_A_SM02_Target",
+										"group_tag": "PLa1_S08_A_SM02_Group"
+									},
+									{
+										"name": "PLa1_S08_A_K02",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"TaskLocationOverrideType": "OtherTask",
+										"OtherTaskId": "PLa1_S08_A_SM02",
+										"kill_target": "PLa1_S08_A_SM02_Group",
+										"kill_target_types": [
+											"SW.Mob.Pillager",
+											"SW.Mob.Vindicator"
+										],
+										"kill_count": 6
+									},
+									{
+										"name": "PLa1_S08_A_I04",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "PLa1_S08_A_I04_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							},
+							{
+								"name": "PLa1_S08_A_Sequence04",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "PLa1_S08_A_E05",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "PLa1_S08_A_E05_Target"
+									},
+									{
+										"name": "PLa1_S08_A_SM03",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"mob_types": [
+											"SW.Mob.Pillager",
+											"SW.Mob.Vindicator"
+										],
+										"mob_count": 6,
+										"volume_name": "PLa1_S08_A_SM03_Target",
+										"group_tag": "PLa1_S08_A_SM03_Group"
+									},
+									{
+										"name": "PLa1_S08_A_K03",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"TaskLocationOverrideType": "OtherTask",
+										"OtherTaskId": "PLa1_S08_A_SM03",
+										"kill_target": "PLa1_S08_A_SM03_Group",
+										"kill_target_types": [
+											"SW.Mob.Pillager",
+											"SW.Mob.Vindicator"
+										],
+										"kill_count": 6
+									},
+									{
+										"name": "PLa1_S08_A_I05",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "PLa1_S08_A_I05_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							},
+							{
+								"name": "PLa1_S08_A_Sequence05",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "PLa1_S08_A_E06",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "PLa1_S08_A_E06_Target"
+									},
+									{
+										"name": "PLa1_S08_A_SM04",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"mob_types": [
+											"SW.Mob.Pillager",
+											"SW.Mob.Vindicator"
+										],
+										"mob_count": 6,
+										"volume_name": "PLa1_S08_A_SM04_Target",
+										"group_tag": "PLa1_S08_A_SM04_Group"
+									},
+									{
+										"name": "PLa1_S08_A_K04",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"TaskLocationOverrideType": "OtherTask",
+										"OtherTaskId": "PLa1_S08_A_SM04",
+										"kill_target": "PLa1_S08_A_SM04_Group",
+										"kill_target_types": [
+											"SW.Mob.Pillager",
+											"SW.Mob.Vindicator"
+										],
+										"kill_count": 6
+									},
+									{
+										"name": "PLa1_S08_A_I06",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "PLa1_S08_A_I06_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "PLa1_S08_A_E07",
+						"comment": "go to waterfall area",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "PLa1_S08_A_E07_Target"
+					},
+					{
+						"name": "PLa1_S08_A_Standard01",
+						"comment": "collect candles in area",
+						"show_progress": true,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "PLa1_S08_A_I08",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "PLa1_S08_A_I08_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "PLa1_S08_A_I09",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "PLa1_S08_A_I09_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "PLa1_S08_A_I10",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "PLa1_S08_A_I10_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "PLa1_S08_A_I11",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "PLa1_S08_A_I11_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							}
+						]
+					},
+					{
+						"name": "PLa1_S08_A_A01",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.PlainsA1.PLa1.S08.A.Arena01"
+					},
+					{
+						"name": "PLa1_S08_A_E08",
+						"comment": "go back to candlemaker",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "PLa1_S08_A_E08_Target"
+					},
+					{
+						"name": "PLa1_S08_A_I07",
+						"comment": "talk to candlemaker",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "PLa1_S08_A_I07_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					}
+				]
+			}
+		},
+		{
+			"id": "PLa1_S04_A",
+			"id_tag": "SW.Quest.Id.PLa1S04A",
+			"initial_state": "Locked",
+			"quest_type": "SideQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Small"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Plains.A1"
+				},
+				"firstCompletionLootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Armour.HoneySet.Helmet"
+								}
+							]
+						}
+					}
+				],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Area.Plains.A1"
+								},
+								{
+									"tagName": "SW.Quest.Loot.AreaDropModifier"
+								}
+							]
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": false,
+				"unlocksArea": false,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": []
+			},
+			"prerequisites": [
+				"CA01"
+			],
+			"goals":
+			{
+				"name": "PLa1_S04_A_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "PLa1_S04_A_E01",
+						"comment": "go find wood",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "PLa1_S04_A_E01_Target"
+					},
+					{
+						"name": "PLa1_S04_A_Standard01",
+						"comment": "",
+						"show_progress": true,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "PLa1_S04_A_I01",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "PLa1_S04_A_I01_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "PLa1_S04_A_I02",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "PLa1_S04_A_I02_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "PLa1_S04_A_I03",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "PLa1_S04_A_I03_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							}
+						]
+					},
+					{
+						"name": "PLa1_S04_A_E06",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "PLa1_S04_A_E06_Dest"
+					},
+					{
+						"name": "PLa1_S04_A_I12",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "PLa1_S04_A_I12_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "PLa1_S04_A_Sequence02",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "PLa1_S04_A_E02",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"destination": "PLa1_S04_A_E02_Target"
+							},
+							{
+								"name": "PLa1_S04_A_SM01",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"mob_types": [
+									"SW.Mob.Zombie",
+									"SW.Mob.Creeper"
+								],
+								"mob_count": 3,
+								"volume_name": "PLa1_S04_A_SM01_Vol",
+								"group_tag": "PLa1_S04_A_SM01_Group"
+							},
+							{
+								"name": "PLa1_S04_A_K01",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"TaskLocationOverrideType": "OtherTask",
+								"OtherTaskId": "PLa1_S04_A_SM01",
+								"kill_target": "PLa1_S04_A_SM01_Group",
+								"kill_target_types": [
+									"SW.Mob.Creeper",
+									"SW.Mob.Zombie"
+								],
+								"kill_count": 3
+							}
+						]
+					},
+					{
+						"name": "PLa1_S04_A_I04",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "PLa1_S04_A_I04_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "PLa1_S04_A_E03",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "PLa1_S04_A_E03_Target"
+					},
+					{
+						"name": "PLa1_S04_A_SM02",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"mob_types": [
+							"SW.Mob.Zombie",
+							"SW.Mob.Creeper"
+						],
+						"mob_count": 4,
+						"volume_name": "PLa1_S04_A_SM02_Vol",
+						"group_tag": "PLa1_S04_A_SM02_Group"
+					},
+					{
+						"name": "PLa1_S04_A_K02",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"TaskLocationOverrideType": "OtherTask",
+						"OtherTaskId": "PLa1_S04_A_SM02",
+						"kill_target": "PLa1_S04_A_SM02_Group",
+						"kill_target_types": [
+							"SW.Mob.Zombie",
+							"SW.Mob.Creeper"
+						],
+						"kill_count": 4
+					},
+					{
+						"name": "PLa1_S04_A_I05",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "PLa1_S04_A_I05_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "PLa1_S04_A_E04",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "PLa1_S04_A_E04_Target"
+					},
+					{
+						"name": "PLa1_S04_A_SM03",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"mob_types": [
+							"SW.Mob.Zombie",
+							"SW.Mob.Creeper"
+						],
+						"mob_count": 4,
+						"volume_name": "PLa1_S04_A_SM03_Vol",
+						"group_tag": "PLa1_S04_A_SM03_Group"
+					},
+					{
+						"name": "PLa1_S04_A_K03",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"TaskLocationOverrideType": "OtherTask",
+						"OtherTaskId": "PLa1_S04_A_SM03",
+						"kill_target": "PLa1_S04_A_SM03_Group",
+						"kill_target_types": [
+							"SW.Mob.Zombie",
+							"SW.Mob.Creeper"
+						],
+						"kill_count": 4
+					},
+					{
+						"name": "PLa1_S04_A_I06",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "PLa1_S04_A_I06_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "PLa1_S04_A_E05",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "PLa1_S04_A_E05_Target"
+					},
+					{
+						"name": "PLa1_S04_A_SM04",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"mob_types": [
+							"SW.Mob.Zombie",
+							"SW.Mob.Creeper"
+						],
+						"mob_count": 7,
+						"volume_name": "PLa1_S04_A_SM04_Vol",
+						"group_tag": "PLa1_S04_A_SM04_Group"
+					},
+					{
+						"name": "PLa1_S04_A_K04",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"TaskLocationOverrideType": "OtherTask",
+						"OtherTaskId": "PLa1_S04_A_SM04",
+						"kill_target": "PLa1_S04_A_SM04_Group",
+						"kill_target_types": [
+							"SW.Mob.Zombie",
+							"SW.Mob.Creeper"
+						],
+						"kill_count": 6
+					},
+					{
+						"name": "PLa1_S04_A_I07",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "PLa1_S04_A_I07_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "PLa1_S04_A_Standard02",
+						"comment": "",
+						"show_progress": true,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "PLa1_S04_A_I08",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "PLa1_S04_A_I08_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "PLa1_S04_A_I09",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "PLa1_S04_A_I09_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "PLa1_S04_A_I10",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "PLa1_S04_A_I10_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							}
+						]
+					},
+					{
+						"name": "PLa1_S04_A_MT01",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"npc_tag": "PLa1_S04_A_MT01_NPC_Target"
+					},
+					{
+						"name": "PLa1_S04_A_I11",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "PLa1_S04_A_I11_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					}
+				]
+			}
+		}
+	]
+}

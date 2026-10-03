@@ -1,0 +1,179 @@
+[
+	{
+		"Name": "GameplayIMC",
+		"TypeTag":
+		{
+			"TagName": "SW.Player"
+		},
+		"MappingContexts":
+		{
+			"MappingContextDefinitions": [
+				{
+					"InputMappingContext": "/Game/Spicewood/Core/Platform/Input/EnhancedInput/MappingContexts/IMC_AITestRunner.IMC_AITestRunner",
+					"Priority": 0,
+					"IsPlayerEditable": false,
+					"ApplyOnStart": true,
+					"IsTestContext": true,
+					"SpecificProfile":
+					{
+						"TagName": "SW.Input.Profile.InputType.Keyboard"
+					}
+				},
+				{
+					"InputMappingContext": "/Game/Spicewood/Core/Platform/Input/EnhancedInput/MappingContexts/IMC_SwitchSingleJoycon_Left.IMC_SwitchSingleJoycon_Left",
+					"Priority": 1,
+					"IsPlayerEditable": true,
+					"ApplyOnStart": true,
+					"IsTestContext": false,
+					"SpecificProfile":
+					{
+						"TagName": "SW.Input.Profile.InputType.Gamepad.SwitchSingleJoycon.Left"
+					}
+				},
+				{
+					"InputMappingContext": "/Game/Spicewood/Core/Platform/Input/EnhancedInput/MappingContexts/IMC_Switch_Interact.IMC_Switch_Interact",
+					"Priority": 2,
+					"IsPlayerEditable": true,
+					"ApplyOnStart": false,
+					"IsTestContext": false,
+					"SpecificProfile":
+					{
+						"TagName": "SW.Input.Profile.InputType.Gamepad.SwitchSingleJoycon.Left"
+					}
+				},
+				{
+					"InputMappingContext": "/Game/Spicewood/Core/Platform/Input/EnhancedInput/MappingContexts/IMC_Switch_Cancel.IMC_Switch_Cancel",
+					"Priority": 2,
+					"IsPlayerEditable": true,
+					"ApplyOnStart": false,
+					"IsTestContext": false,
+					"SpecificProfile":
+					{
+						"TagName": "SW.Input.Profile.InputType.Gamepad.SwitchSingleJoycon.Left"
+					}
+				},
+				{
+					"InputMappingContext": "/Game/Spicewood/Core/Platform/Input/EnhancedInput/MappingContexts/IMC_SwitchSingleJoycon_Right.IMC_SwitchSingleJoycon_Right",
+					"Priority": 1,
+					"IsPlayerEditable": true,
+					"ApplyOnStart": true,
+					"IsTestContext": false,
+					"SpecificProfile":
+					{
+						"TagName": "SW.Input.Profile.InputType.Gamepad.SwitchSingleJoycon.Right"
+					}
+				},
+				{
+					"InputMappingContext": "/Game/Spicewood/Core/Platform/Input/EnhancedInput/MappingContexts/IMC_Switch_Interact.IMC_Switch_Interact",
+					"Priority": 2,
+					"IsPlayerEditable": true,
+					"ApplyOnStart": false,
+					"IsTestContext": false,
+					"SpecificProfile":
+					{
+						"TagName": "SW.Input.Profile.InputType.Gamepad.SwitchSingleJoycon.Right"
+					}
+				},
+				{
+					"InputMappingContext": "/Game/Spicewood/Core/Platform/Input/EnhancedInput/MappingContexts/IMC_Switch_Cancel.IMC_Switch_Cancel",
+					"Priority": 2,
+					"IsPlayerEditable": true,
+					"ApplyOnStart": false,
+					"IsTestContext": false,
+					"SpecificProfile":
+					{
+						"TagName": "SW.Input.Profile.InputType.Gamepad.SwitchSingleJoycon.Right"
+					}
+				},
+				{
+					"InputMappingContext": "/Game/Spicewood/Core/Platform/Input/EnhancedInput/MappingContexts/IMC_SwitchGamepad.IMC_SwitchGamepad",
+					"Priority": 3,
+					"IsPlayerEditable": true,
+					"ApplyOnStart": true,
+					"IsTestContext": false,
+					"SpecificProfile":
+					{
+						"TagName": "SW.Input.Profile.InputType.Gamepad.Switch"
+					}
+				},
+				{
+					"InputMappingContext": "/Game/Spicewood/Core/Platform/Input/EnhancedInput/MappingContexts/IMC_Switch_Interact.IMC_Switch_Interact",
+					"Priority": 4,
+					"IsPlayerEditable": true,
+					"ApplyOnStart": false,
+					"IsTestContext": false,
+					"SpecificProfile":
+					{
+						"TagName": "SW.Input.Profile.InputType.Gamepad.Switch"
+					}
+				},
+				{
+					"InputMappingContext": "/Game/Spicewood/Core/Platform/Input/EnhancedInput/MappingContexts/IMC_Switch_Cancel.IMC_Switch_Cancel",
+					"Priority": 4,
+					"IsPlayerEditable": true,
+					"ApplyOnStart": false,
+					"IsTestContext": false,
+					"SpecificProfile":
+					{
+						"TagName": "SW.Input.Profile.InputType.Gamepad.Switch"
+					}
+				},
+				{
+					"InputMappingContext": "/Game/Spicewood/Core/Platform/Input/EnhancedInput/MappingContexts/IMC_DefaultGamepad.IMC_DefaultGamepad",
+					"Priority": 5,
+					"IsPlayerEditable": true,
+					"ApplyOnStart": true,
+					"IsTestContext": false,
+					"SpecificProfile":
+					{
+						"TagName": "SW.Input.Profile.InputType.Gamepad"
+					}
+				},
+				{
+					"InputMappingContext": "/Game/Spicewood/Core/Platform/Input/EnhancedInput/MappingContexts/IMC_DefaultGamepad_Interact.IMC_DefaultGamepad_Interact",
+					"Priority": 6,
+					"IsPlayerEditable": true,
+					"ApplyOnStart": false,
+					"IsTestContext": false,
+					"SpecificProfile":
+					{
+						"TagName": "SW.Input.Profile.InputType.Gamepad"
+					}
+				},
+				{
+					"InputMappingContext": "/Game/Spicewood/Core/Platform/Input/EnhancedInput/MappingContexts/IMC_Default_Cancel.IMC_Default_Cancel",
+					"Priority": 6,
+					"IsPlayerEditable": true,
+					"ApplyOnStart": false,
+					"IsTestContext": false,
+					"SpecificProfile":
+					{
+						"TagName": "SW.Input.Profile.InputType.Gamepad"
+					}
+				},
+				{
+					"InputMappingContext": "/Game/Spicewood/Core/Platform/Input/EnhancedInput/MappingContexts/IMC_DefaultKBM.IMC_DefaultKBM",
+					"Priority": 7,
+					"IsPlayerEditable": true,
+					"ApplyOnStart": true,
+					"IsTestContext": false,
+					"SpecificProfile":
+					{
+						"TagName": "SW.Input.Profile.InputType.Keyboard"
+					}
+				},
+				{
+					"InputMappingContext": "/Game/Spicewood/Core/Platform/Input/EnhancedInput/MappingContexts/IMC_Default_Cancel.IMC_Default_Cancel",
+					"Priority": 8,
+					"IsPlayerEditable": true,
+					"ApplyOnStart": false,
+					"IsTestContext": false,
+					"SpecificProfile":
+					{
+						"TagName": "SW.Input.Profile.InputType.Keyboard"
+					}
+				}
+			]
+		}
+	}
+]

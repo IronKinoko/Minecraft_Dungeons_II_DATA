@@ -1,0 +1,21 @@
+[
+	{
+		"Name": "Interaction",
+		"TypeTag":
+		{
+			"TagName": "SW.UI.Prompt.Interaction"
+		},
+		"ComponentDefinition":
+		{
+			"ClientComponents":
+			{
+				"(TagName=\"SW.ActorComponent.Interaction\")":
+				{
+					"Components": [
+						"/SpicewoodUI/Spicewood/UI/Widget/InWorldPrompts/BP_InWorldPromptGateComponent.BP_InWorldPromptGateComponent_C"
+					]
+				}
+			}
+		}
+	}
+]

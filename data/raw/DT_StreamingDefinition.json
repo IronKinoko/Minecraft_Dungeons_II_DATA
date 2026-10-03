@@ -1,0 +1,888 @@
+[
+	{
+		"Name": "WorldActor",
+		"TypeTag":
+		{
+			"TagName": "SW.WorldActor"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 1,
+			"ShouldSpawnConditions": [
+				"/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_True'"
+			],
+			"DespawnRadius": 2,
+			"ShouldDespawnConditions": [
+				"/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_False'"
+			],
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			}
+		}
+	},
+	{
+		"Name": "MapActor",
+		"TypeTag":
+		{
+			"TagName": "SW.MapActor"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 2000,
+			"DespawnRadius": 3000,
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Player",
+		"TypeTag":
+		{
+			"TagName": "SW.Player"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 1,
+			"ShouldSpawnConditions": [
+				"/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_True'"
+			],
+			"DespawnRadius": 2,
+			"ShouldDespawnConditions": [
+				"/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_False'"
+			],
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			}
+		}
+	},
+	{
+		"Name": "DefaultHostileMob",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Default.Hostile"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 4000,
+			"DespawnRadius": 4500,
+			"ShouldDespawnConditions": [
+				"/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_IsInstigatorActorAlive'"
+			],
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			}
+		}
+	},
+	{
+		"Name": "DefaultWorldMob",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Default.World"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 4000,
+			"DespawnRadius": 4500,
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			}
+		}
+	},
+	{
+		"Name": "DefaultCompanionMob",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Default.Companion"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 3000,
+			"DespawnRadius": 4000,
+			"ShouldDespawnConditions": [
+				"/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_False'"
+			],
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			}
+		}
+	},
+	{
+		"Name": "Chest",
+		"TypeTag":
+		{
+			"TagName": "SW.LootSource"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 3000,
+			"DespawnRadius": 4000,
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			}
+		}
+	},
+	{
+		"Name": "LootSpawnPoint",
+		"TypeTag":
+		{
+			"TagName": "SW.LootSpawnPoint"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 100,
+			"DespawnRadius": 200,
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			}
+		}
+	},
+	{
+		"Name": "Item",
+		"TypeTag":
+		{
+			"TagName": "SW.Item"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 3000,
+			"DespawnRadius": 4000,
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.CheckStale"
+			}
+		}
+	},
+	{
+		"Name": "Prop",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 3000,
+			"DespawnRadius": 4000,
+			"DestroyOnDespawn": true,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "MusicalGate",
+		"TypeTag":
+		{
+			"TagName": "SW.MapActor.MusicalGate"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 3000,
+			"DespawnRadius": 4000,
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "KeyGolem",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.KeyGolem"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 3000,
+			"DespawnRadius": 4000,
+			"ShouldDespawnConditions": [
+				"/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_IsNotFollowing'"
+			],
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "QuestCharacter",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.QuestCharacter"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 4000,
+			"ShouldSpawnConditions": [
+				"/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_QuestActorShouldSpawn'"
+			],
+			"DespawnRadius": 5000,
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			}
+		}
+	},
+	{
+		"Name": "QuestActor",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 4000,
+			"ShouldSpawnConditions": [
+				"/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_QuestActorShouldSpawn'"
+			],
+			"DespawnRadius": 5000,
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			}
+		}
+	},
+	{
+		"Name": "QuestVolume",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestVolume"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 3000,
+			"DespawnRadius": 4000,
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "NPC",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.Base"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 3000,
+			"ShouldSpawnConditions": [
+				"/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_CheckSoulStormNotInArea'"
+			],
+			"DespawnRadius": 4000,
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			}
+		}
+	},
+	{
+		"Name": "Cutscene",
+		"TypeTag":
+		{
+			"TagName": "SW.CutsceneTrigger"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 3000,
+			"DespawnRadius": 4000,
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "ArenaSetup",
+		"TypeTag":
+		{
+			"TagName": "SW.ArenaSetup"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 3000,
+			"DespawnRadius": 7000,
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			},
+			"InstanceDataToDeleteAtWorldReset":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.InstanceData.ASCData"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.InstanceData"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "ArenaGate",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.ArenaGate"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 3000,
+			"ShouldSpawnConditions": [
+				"/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_True'"
+			],
+			"DespawnRadius": 4000,
+			"ShouldDespawnConditions": [
+				"/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_False'"
+			],
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Projectile",
+		"TypeTag":
+		{
+			"TagName": "SW.Projectile"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 3000,
+			"DespawnRadius": 4000,
+			"DestroyOnDespawn": true,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.CheckStale"
+			}
+		}
+	},
+	{
+		"Name": "RedStoneNode",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.RedStoneNode"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 3000,
+			"ShouldSpawnConditions": [
+				"/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_True'"
+			],
+			"DespawnRadius": 4000,
+			"ShouldDespawnConditions": [
+				"/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_False'"
+			],
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			}
+		}
+	},
+	{
+		"Name": "AreaMarkup",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.AreaMarkup"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 3000,
+			"ShouldSpawnConditions": [
+				"/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_True'"
+			],
+			"DespawnRadius": 4000,
+			"ShouldDespawnConditions": [
+				"/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_False'"
+			],
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			}
+		}
+	},
+	{
+		"Name": "SeedSack",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.SeedSack"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 3000,
+			"DespawnRadius": 4000,
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			}
+		}
+	},
+	{
+		"Name": "SeedTrough",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.SeedTrough"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 3000,
+			"DespawnRadius": 4000,
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			}
+		}
+	},
+	{
+		"Name": "SmallEmeraldPot",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.Pot.Small.Emerald"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 3000,
+			"DespawnRadius": 4000,
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			}
+		}
+	},
+	{
+		"Name": "SmallSpringStonePot",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.Pot.Small.SpringStone"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 3000,
+			"DespawnRadius": 4000,
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			}
+		}
+	},
+	{
+		"Name": "LargeEmeraldPot",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.Pot.Large.Emerald"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 3000,
+			"DespawnRadius": 4000,
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			}
+		}
+	},
+	{
+		"Name": "LargeSpringStonePot",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.Pot.Large.SpringStone"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 3000,
+			"DespawnRadius": 4000,
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			}
+		}
+	},
+	{
+		"Name": "TargetDummy",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.TargetDummy"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 3500,
+			"ShouldSpawnConditions": [
+				"/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_IsInstigatorActorAlive'"
+			],
+			"DespawnRadius": 4500,
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			}
+		}
+	},
+	{
+		"Name": "VillagerSoulEngorgedPlains",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.VillagerSoulEngorged.Plains"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 3000,
+			"ShouldSpawnConditions": [
+				"/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_CheckSoulStormNotInArea'"
+			],
+			"DespawnRadius": 4000,
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			}
+		}
+	},
+	{
+		"Name": "MobType3",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Default.Type3"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 4000,
+			"DespawnRadius": 6000,
+			"ShouldDespawnConditions": [
+				"/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_IsInstigatorActorAlive'"
+			],
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			}
+		}
+	},
+	{
+		"Name": "TownPortal",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.TownTeleport.Portal"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 3000,
+			"DespawnRadius": 4000,
+			"ShouldDespawnConditions": [
+				"/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_False'"
+			],
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "DefaultArtifactSpawnedMob",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Default.ArtifactSpawned"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 3000,
+			"DespawnRadius": 4000,
+			"ShouldDespawnConditions": [
+				"/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_False'"
+			],
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			}
+		}
+	},
+	{
+		"Name": "QuestAudioActor",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestAudioActor"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 20000,
+			"ShouldSpawnConditions": [
+				"/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_QuestActorShouldSpawn'"
+			],
+			"DespawnRadius": 21000,
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			}
+		}
+	},
+	{
+		"Name": "StorminatorEasy",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.SoulStorm.Storminator.Easy"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 4500,
+			"DespawnRadius": 5000,
+			"ShouldDespawnConditions": [
+				"/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_True'"
+			],
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			},
+			"InstanceDataToDeleteAtWorldReset":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.InstanceData.ASCData"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.InstanceData"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "StorminatorMedium",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.SoulStorm.Storminator.Medium"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 4500,
+			"DespawnRadius": 5000,
+			"ShouldDespawnConditions": [
+				"/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_True'"
+			],
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			}
+		}
+	},
+	{
+		"Name": "StorminatorHard",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.SoulStorm.Storminator.Hard"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 4500,
+			"DespawnRadius": 5000,
+			"ShouldDespawnConditions": [
+				"/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_True'"
+			],
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			}
+		}
+	},
+	{
+		"Name": "Shieldinator",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.SoulStorm.Barrier"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 4000,
+			"DespawnRadius": 6000,
+			"ShouldDespawnConditions": [
+				"/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_IsInstigatorActorAlive'"
+			],
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			}
+		}
+	},
+	{
+		"Name": "SoulPukeProp",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.SoulPuke"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 3000,
+			"DespawnRadius": 4000,
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Evoker",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Evoker"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 4000,
+			"DespawnRadius": 4500,
+			"ShouldDespawnConditions": [
+				"/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_IsInstigatorActorAlive'"
+			],
+			"DestroyOnDespawn": false,
+			"PreFoldEvents":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.GameplayEvent.PreFold"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.GameplayEvent"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			}
+		}
+	},
+	{
+		"Name": "StorminatorChest",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.StorminatorChest"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 3000,
+			"DespawnRadius": 8000,
+			"DestroyOnDespawn": true,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			}
+		}
+	},
+	{
+		"Name": "DefaultPetMob",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Default.Pet"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 3000,
+			"DespawnRadius": 4000,
+			"ShouldDespawnConditions": [
+				"/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_False'"
+			],
+			"DestroyOnDespawn": false,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "SW.InstigatorHandlingMethod.IgnoreInstigator"
+			}
+		}
+	},
+	{
+		"Name": "HostileProp",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.Default.Hostile"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 3000,
+			"DespawnRadius": 4000,
+			"ShouldDespawnConditions": [
+				"/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_True'"
+			],
+			"DestroyOnDespawn": true,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Summoner",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.Summoner"
+		},
+		"ActorStreamingDefinition":
+		{
+			"SpawnRadius": 3000,
+			"DespawnRadius": 4000,
+			"ShouldDespawnConditions": [
+				"/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_True'"
+			],
+			"DestroyOnDespawn": true,
+			"InstigatorHandlingMethod":
+			{
+				"TagName": "None"
+			}
+		}
+	}
+]

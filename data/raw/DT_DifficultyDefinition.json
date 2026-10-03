@@ -1,0 +1,251 @@
+[
+	{
+		"Name": "Normal",
+		"TypeTag":
+		{
+			"TagName": "SW.Difficulty.Normal"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Difficulty"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"DifficultyDefinition":
+		{
+			"DifficultyScalar": 0,
+			"DifficultyCurveIncomingDamage":
+			{
+				"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_DifficultySettings.CT_DifficultySettings'",
+				"RowName": "NormalDifficultyMultiplier"
+			},
+			"DifficultyCurveOutgoingDamage":
+			{
+				"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_DifficultySettings.CT_DifficultySettings'",
+				"RowName": "NormalDifficultyMultiplier"
+			},
+			"Icon": "/OreUI/UI/Icons/Threat/T_UI_ThreatStandard.T_UI_ThreatStandard",
+			"DamageReceivedIcon": "None",
+			"DamageDealtIcon": "None",
+			"AudioTag":
+			{
+				"TagName": "SW.UI.Audio.ThreatSelect.Standard"
+			},
+			"ColorTag":
+			{
+				"TagName": "SW.UI.DesignToken.Color.Semantic.Threat.Standard"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_DifficultyDefinition.csv\", \"SW_Difficulty_Normal_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_DifficultyDefinition.csv\", \"SW_Difficulty_Normal_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description.DifficultyDamageReceived\")":
+				{
+					"Text": "LOCTABLE(\"DT_DifficultyDefinition.csv\", \"SW_Difficulty_Normal_SW_TextEntry_Description_DifficultyDamageReceived\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description.DifficultyDamageDealt\")":
+				{
+					"Text": "LOCTABLE(\"DT_DifficultyDefinition.csv\", \"SW_Difficulty_Normal_SW_TextEntry_Description_DifficultyDamageDealt\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "Low",
+		"TypeTag":
+		{
+			"TagName": "SW.Difficulty.Low"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Difficulty"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"DifficultyDefinition":
+		{
+			"DifficultyScalar": -1,
+			"DifficultyCurveIncomingDamage":
+			{
+				"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_DifficultySettings.CT_DifficultySettings'",
+				"RowName": "DifficultyMultiplierLowResistance"
+			},
+			"DifficultyCurveOutgoingDamage":
+			{
+				"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_DifficultySettings.CT_DifficultySettings'",
+				"RowName": "DifficultyMultiplierLowAttackPower"
+			},
+			"Icon": "/OreUI/UI/Icons/Threat/T_UI_ThreatLow.T_UI_ThreatLow",
+			"DamageReceivedIcon": "/Game/Spicewood/UI/HUD/ProgressionBanners/ThreatLevel/T_arrow_lower_png.T_arrow_lower_png",
+			"DamageDealtIcon": "/Game/Spicewood/UI/HUD/ProgressionBanners/ThreatLevel/T_arrow_lower_png.T_arrow_lower_png",
+			"AudioTag":
+			{
+				"TagName": "SW.UI.Audio.ThreatSelect.Low"
+			},
+			"ColorTag":
+			{
+				"TagName": "SW.UI.DesignToken.Color.Semantic.Threat.Low"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_DifficultyDefinition.csv\", \"SW_Difficulty_Low_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_DifficultyDefinition.csv\", \"SW_Difficulty_Low_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description.DifficultyDamageReceived\")":
+				{
+					"Text": "LOCTABLE(\"DT_DifficultyDefinition.csv\", \"SW_Difficulty_Low_SW_TextEntry_Description_DifficultyDamageReceived\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description.DifficultyDamageDealt\")":
+				{
+					"Text": "LOCTABLE(\"DT_DifficultyDefinition.csv\", \"SW_Difficulty_Low_SW_TextEntry_Description_DifficultyDamageDealt\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "High",
+		"TypeTag":
+		{
+			"TagName": "SW.Difficulty.High"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Difficulty"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"DifficultyDefinition":
+		{
+			"DifficultyScalar": 1,
+			"DifficultyCurveIncomingDamage":
+			{
+				"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_DifficultySettings.CT_DifficultySettings'",
+				"RowName": "DifficultyMultiplierHighResistance"
+			},
+			"DifficultyCurveOutgoingDamage":
+			{
+				"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_DifficultySettings.CT_DifficultySettings'",
+				"RowName": "DifficultyMultiplierHighAttackPower"
+			},
+			"Icon": "/OreUI/UI/Icons/Threat/T_UI_ThreatHigh.T_UI_ThreatHigh",
+			"DamageReceivedIcon": "/Game/Spicewood/UI/HUD/ProgressionBanners/ThreatLevel/T_arrow_higher_png.T_arrow_higher_png",
+			"DamageDealtIcon": "/Game/Spicewood/UI/HUD/ProgressionBanners/ThreatLevel/T_arrow_higher_png.T_arrow_higher_png",
+			"AudioTag":
+			{
+				"TagName": "SW.UI.Audio.ThreatSelect.High"
+			},
+			"ColorTag":
+			{
+				"TagName": "SW.UI.DesignToken.Color.Semantic.Threat.High"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_DifficultyDefinition.csv\", \"SW_Difficulty_High_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_DifficultyDefinition.csv\", \"SW_Difficulty_High_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description.DifficultyDamageReceived\")":
+				{
+					"Text": "LOCTABLE(\"DT_DifficultyDefinition.csv\", \"SW_Difficulty_High_SW_TextEntry_Description_DifficultyDamageReceived\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description.DifficultyDamageDealt\")":
+				{
+					"Text": "LOCTABLE(\"DT_DifficultyDefinition.csv\", \"SW_Difficulty_High_SW_TextEntry_Description_DifficultyDamageDealt\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	}
+]

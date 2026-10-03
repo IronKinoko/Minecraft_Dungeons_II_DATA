@@ -1,0 +1,101 @@
+[
+	{
+		"Name": "NewRow",
+		"TypeTag":
+		{
+			"TagName": "SW.UI.Cutscene.Cutscenes.CS01"
+		},
+		"CutsceneSubtitleData":
+		{
+			"CutsceneSubtitleData": "/Game/Spicewood/Sequences/Subtitles/DataAssets/CS01/DA_CS01.DA_CS01"
+		}
+	},
+	{
+		"Name": "NewRow_0",
+		"TypeTag":
+		{
+			"TagName": "SW.UI.Cutscene.Cutscenes.CS02"
+		},
+		"CutsceneSubtitleData":
+		{
+			"CutsceneSubtitleData": "/Game/Spicewood/Sequences/Subtitles/DataAssets/CS02/DA_CS02.DA_CS02"
+		}
+	},
+	{
+		"Name": "NewRow_1",
+		"TypeTag":
+		{
+			"TagName": "SW.UI.Cutscene.Cutscenes.CS06"
+		},
+		"CutsceneSubtitleData":
+		{
+			"CutsceneSubtitleData": "/Game/Spicewood/Sequences/Subtitles/DataAssets/CS06/DA_CS06.DA_CS06"
+		}
+	},
+	{
+		"Name": "NewRow_2",
+		"TypeTag":
+		{
+			"TagName": "SW.UI.Cutscene.Cutscenes.CS10"
+		},
+		"CutsceneSubtitleData":
+		{
+			"CutsceneSubtitleData": "/Game/Spicewood/Sequences/Subtitles/DataAssets/CS10/DA_CS10.DA_CS10"
+		}
+	},
+	{
+		"Name": "NewRow_3",
+		"TypeTag":
+		{
+			"TagName": "SW.UI.Cutscene.Cutscenes.CS14"
+		},
+		"CutsceneSubtitleData":
+		{
+			"CutsceneSubtitleData": "/Game/Spicewood/Sequences/Subtitles/DataAssets/CS14/DA_CS14.DA_CS14"
+		}
+	},
+	{
+		"Name": "NewRow_4",
+		"TypeTag":
+		{
+			"TagName": "SW.UI.Cutscene.Cutscenes.CS28"
+		},
+		"CutsceneSubtitleData":
+		{
+			"CutsceneSubtitleData": "/Game/Spicewood/Sequences/Subtitles/DataAssets/CS28/DA_CS28.DA_CS28"
+		}
+	},
+	{
+		"Name": "NewRow_5",
+		"TypeTag":
+		{
+			"TagName": "SW.UI.Cutscene.MiniScene.MS03"
+		},
+		"CutsceneSubtitleData":
+		{
+			"CutsceneSubtitleData": "/Game/Spicewood/Sequences/Subtitles/DataAssets/MS03/DA_MS03.DA_MS03"
+		}
+	},
+	{
+		"Name": "NewRow_6",
+		"TypeTag":
+		{
+			"TagName": "SW.UI.Cutscene.Miniscene.MS46"
+		},
+		"CutsceneSubtitleData":
+		{
+			"CutsceneSubtitleData": "/Game/Spicewood/Sequences/Subtitles/DataAssets/MS46/DA_MS46.DA_MS46"
+		}
+	},
+	{
+		"Name": "NewRow_7",
+		"TypeTag":
+		{
+			"TagName": "SW.UI.Cutscene.Miniscene.MS49"
+		},
+		"CutsceneSubtitleData":
+		{
+			"CutsceneSubtitleData": "/Game/Spicewood/Sequences/Subtitles/DataAssets/MS49/DA_MS49.DA_MS49"
+		}
+	}
+]

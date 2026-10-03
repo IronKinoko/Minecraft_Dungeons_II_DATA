@@ -1,0 +1,751 @@
+[
+	{
+		"Name": "Blub",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Cosmetic.Pet.Blub"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.Cosmetic.Pet"
+				},
+				{
+					"TagName": "SW.Item.Property.Significant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property.Cosmetic"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Friendlies/Pets/Blub/T_UI_Pet_Blub_Icon.T_UI_Pet_Blub_Icon",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PetTag"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Mob.Pet.Blub"
+				}
+			}
+		],
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionPet.csv\", \"SW_Item_Cosmetic_Pet_Blub_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionPet.csv\", \"SW_Item_Cosmetic_Pet_Blub_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.UnlockExplanation\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionPet.csv\", \"SW_Item_Cosmetic_Pet_Blub_SW_TextEntry_UnlockExplanation\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"GrantedAbilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SpawnPet",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.Pet.Blub"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.PetTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Mob.Pet.Blub"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnGameplayCue"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnDistanceOffset"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnHeightOffset"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RandomOffsetMaxDistance"
+						},
+						"Type": "Vector",
+						"Vector":
+						{
+							"X": 0,
+							"Y": 0,
+							"Z": 0
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				]
+			}
+		],
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": false,
+			"UpsellProduct":
+			{
+				"TagName": "SW.Product.DeluxeEdition"
+			}
+		}
+	},
+	{
+		"Name": "TwistedChicken",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Cosmetic.Pet.TwistedChicken"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.Cosmetic.Pet"
+				},
+				{
+					"TagName": "SW.Item.Property.Significant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property.Cosmetic"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Friendlies/Pets/TwistedChicken/T_UI_Pet_TwistedChicken_Icon.T_UI_Pet_TwistedChicken_Icon",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PetTag"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Mob.Pet.TwistedChicken"
+				}
+			}
+		],
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionPet.csv\", \"SW_Item_Cosmetic_Pet_TwistedChicken_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionPet.csv\", \"SW_Item_Cosmetic_Pet_TwistedChicken_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"GrantedAbilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SpawnPet",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.Pet.TwistedChicken"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.PetTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Mob.Pet.TwistedChicken"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnGameplayCue"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnDistanceOffset"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnHeightOffset"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RandomOffsetMaxDistance"
+						},
+						"Type": "Vector",
+						"Vector":
+						{
+							"X": 0,
+							"Y": 0,
+							"Z": 0
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				]
+			}
+		],
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": false,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "SlimeSupreme",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Cosmetic.Pet.SlimeSupreme"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.Cosmetic.Pet"
+				},
+				{
+					"TagName": "SW.Item.Property.Significant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property.Cosmetic"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Friendlies/Pets/SlimeSupreme/T_UI_Pet_SlimeSupreme_Icon.T_UI_Pet_SlimeSupreme_Icon",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PetTag"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Mob.Pet.SlimeSupreme"
+				}
+			}
+		],
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionPet.csv\", \"SW_Item_Cosmetic_Pet_SlimeSupreme_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionPet.csv\", \"SW_Item_Cosmetic_Pet_SlimeSupreme_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"GrantedAbilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SpawnPet",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.Pet.SlimeSupreme"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.PetTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Mob.Pet.SlimeSupreme"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnGameplayCue"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnDistanceOffset"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnHeightOffset"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RandomOffsetMaxDistance"
+						},
+						"Type": "Vector",
+						"Vector":
+						{
+							"X": 0,
+							"Y": 0,
+							"Z": 0
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				]
+			}
+		],
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": false,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		}
+	}
+]

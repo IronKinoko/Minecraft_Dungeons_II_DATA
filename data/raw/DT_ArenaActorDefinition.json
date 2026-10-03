@@ -1,0 +1,1031 @@
+[
+	{
+		"Name": "ArenaGate",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.ArenaGate"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize.Dynamic"
+				},
+				{
+					"TagName": "SW.Highlight.NoSilhouette"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize"
+				},
+				{
+					"TagName": "SW.ReplicationGraph"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Highlight"
+				}
+			]
+		},
+		"ActorReference": "None",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "Arena_Gate_1",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.ArenaGate.1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.PropActor.ArenaGate"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Core/Tools/Arena/BP_ArenaDoorBlocker_1.BP_ArenaDoorBlocker_1_C",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "Arena_Gate_2",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.ArenaGate.2"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.PropActor.ArenaGate"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Core/Tools/Arena/BP_ArenaDoorBlocker_2.BP_ArenaDoorBlocker_2_C",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "Arena_Gate_3",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.ArenaGate.3"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.PropActor.ArenaGate"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Core/Tools/Arena/BP_ArenaDoorBlocker_3.BP_ArenaDoorBlocker_3_C",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "Arena_Gate_4",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.ArenaGate.4"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.PropActor.ArenaGate"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Core/Tools/Arena/BP_ArenaDoorBlocker_4.BP_ArenaDoorBlocker_4_C",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "Arena_Gate_5",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.ArenaGate.5"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.PropActor.ArenaGate"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize.Dynamic.ExtendedCullDistance"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize.Dynamic"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize"
+				},
+				{
+					"TagName": "SW.ReplicationGraph"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Core/Tools/Arena/BP_ArenaDoorBlocker_5.BP_ArenaDoorBlocker_5_C",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "Arena_Gate_6",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.ArenaGate.6"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.PropActor.ArenaGate"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Core/Tools/Arena/BP_ArenaDoorBlocker_6.BP_ArenaDoorBlocker_6_C",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "Arena_Gate_7",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.ArenaGate.7"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.PropActor.ArenaGate"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Core/Tools/Arena/BP_ArenaDoorBlocker_7.BP_ArenaDoorBlocker_7_C",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "Arena_Gate_8",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.ArenaGate.8"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.PropActor.ArenaGate"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Core/Tools/Arena/BP_ArenaDoorBlocker_8.BP_ArenaDoorBlocker_8_C",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "Arena_Gate_9",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.ArenaGate.9"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.PropActor.ArenaGate"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Core/Tools/Arena/BP_ArenaDoorBlocker_9.BP_ArenaDoorBlocker_9_C",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "Arena_Gate_10",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.ArenaGate.10"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.PropActor.ArenaGate"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Core/Tools/Arena/BP_ArenaDoorBlocker_10.BP_ArenaDoorBlocker_10_C",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "Arena_Gate_11",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.ArenaGate.11"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.PropActor.ArenaGate"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Core/Tools/Arena/BP_ArenaDoorBlocker_11.BP_ArenaDoorBlocker_11_C",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "Arena_Gate_12",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.ArenaGate.12"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.PropActor.ArenaGate"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Core/Tools/Arena/BP_ArenaDoorBlocker_12.BP_ArenaDoorBlocker_12_C",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "Arena_Gate_13",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.ArenaGate.13"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.PropActor.ArenaGate"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Core/Tools/Arena/BP_ArenaDoorBlocker_13.BP_ArenaDoorBlocker_13_C",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "Arena_Gate_14",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.ArenaGate.14"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.PropActor.ArenaGate"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Core/Tools/Arena/BP_ArenaDoorBlocker_14.BP_ArenaDoorBlocker_14_C",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "Arena_Gate_38",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.ArenaGate.38"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.PropActor.ArenaGate"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Core/Tools/Arena/BP_ArenaDoorBlocker_38.BP_ArenaDoorBlocker_38_C",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "Arena_Gate_15",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.ArenaGate.15"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.PropActor.ArenaGate"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Core/Tools/Arena/BP_ArenaDoorBlocker_15.BP_ArenaDoorBlocker_15_C",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "Arena_Gate_17",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.ArenaGate.17"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.PropActor.ArenaGate"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Core/Tools/Arena/BP_ArenaDoorBlocker_17.BP_ArenaDoorBlocker_17_C",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	}
+]

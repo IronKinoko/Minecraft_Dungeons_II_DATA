@@ -1,0 +1,693 @@
+[
+	{
+		"Name": "PicnicBlanket",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.PicnicBlanket"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Consumable\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Consumable.Food"
+								},
+								"Weight": 100000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Consumable.Throwable.TNT"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ExceptFromDefaultLootTables"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "VillageMerchant",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.VillageMerchant"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Property.Armor"
+								},
+								"Weight": 2,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Property.MeleeWeapon"
+								},
+								"Weight": 2,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Property.RangedWeapon"
+								},
+								"Weight": 2,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Property.Artifact"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Property.Unique"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ExceptFromDefaultLootTables"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "EmeraldPot",
+		"TypeTag":
+		{
+			"TagName": "SW.LootSource.Pot.Emerald"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Emeralds\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 4,
+					"DropChancePerRoll": 0.5,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.Emerald"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "SpringStonePot",
+		"TypeTag":
+		{
+			"TagName": "SW.LootSource.Pot.SpringStone"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpringStone\")":
+				{
+					"NumberOfGuaranteedDrops": 3,
+					"NumberOfRandomRolls": 5,
+					"DropChancePerRoll": 0.5,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.SpringStone"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "StorminatorSpawned",
+		"TypeTag":
+		{
+			"TagName": "SW.SoulStorm.StorminatorSpawned"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Property.Gear"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "AllEnchantmentBooks",
+		"TypeTag":
+		{
+			"TagName": "SW.LootSource.EnchantmentBooksAll"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootSource.EnchantmentBooksExcludeQuestBooks"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.LootSource"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.EnchantedBook\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Property.EnchantmentBook"
+								},
+								"Weight": 100000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.SpringStone"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "EnchantmentBooksExcludeQuestBooks",
+		"TypeTag":
+		{
+			"TagName": "SW.LootSource.EnchantmentBooksExcludeQuestBooks"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.Piercing"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.Radiance"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.SoulInfusedPotion"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "EnchantmentBooksCommon",
+		"TypeTag":
+		{
+			"TagName": "SW.LootSource.EnchantmentBooks.Common"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.EnchantedBook\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.FireAspect"
+								},
+								"Weight": 1000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.FrostCrescent"
+								},
+								"Weight": 1000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.PoisonFog"
+								},
+								"Weight": 1000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.Channeling"
+								},
+								"Weight": 1000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.Dynamo"
+								},
+								"Weight": 1000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.Thundering"
+								},
+								"Weight": 1000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.Borealis"
+								},
+								"Weight": 1000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.ExpandedQuiver"
+								},
+								"Weight": 1000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.PotionSharing"
+								},
+								"Weight": 1000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.Blowback"
+								},
+								"Weight": 1000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.Unstoppable"
+								},
+								"Weight": 1000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.SpringStone"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "EnchantmentBooksDeepDark",
+		"TypeTag":
+		{
+			"TagName": "SW.LootSource.EnchantmentBooks.DeepDark"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.EnchantedBook\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.Ricochet"
+								},
+								"Weight": 2000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.SpringLoaded"
+								},
+								"Weight": 2000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.ShadowStrike"
+								},
+								"Weight": 2000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.Shockwave"
+								},
+								"Weight": 2000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.TempoTheft"
+								},
+								"Weight": 2000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.MultiRoll"
+								},
+								"Weight": 2000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.SpringStone"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "EnchantmentBooksMeadow",
+		"TypeTag":
+		{
+			"TagName": "SW.LootSource.EnchantmentBooks.Meadow"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.EnchantedBook\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.BurstBowstring"
+								},
+								"Weight": 2000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.CriticalQuiver"
+								},
+								"Weight": 2000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.LingeringPower"
+								},
+								"Weight": 2000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.Swirling"
+								},
+								"Weight": 2000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.PotionBarrier"
+								},
+								"Weight": 2000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.GuardingStrike"
+								},
+								"Weight": 2000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.SpringStone"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "EnchantmentBooksRavines",
+		"TypeTag":
+		{
+			"TagName": "SW.LootSource.EnchantmentBooks.Ravines"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.EnchantedBook\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.ChainReaction"
+								},
+								"Weight": 2000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.MultiPotion"
+								},
+								"Weight": 2000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.SoulAspect"
+								},
+								"Weight": 2000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.GravityPulse"
+								},
+								"Weight": 2000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.Arcane"
+								},
+								"Weight": 2000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.HealthSynergy"
+								},
+								"Weight": 2000,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.SpringStone"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	}
+]

@@ -1,0 +1,2658 @@
+[
+	{
+		"Name": "Armor",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplateGroup.Armor"
+		},
+		"TagList":
+		{
+		}
+	},
+	{
+		"Name": "Artifact",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplateGroup.Artifact"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Cooldown.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Cooldown.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Cooldown.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Vestige.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Vestige.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Vestige.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FireFocus.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FireFocus.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FireFocus.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.LightningFocus.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.LightningFocus.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.LightningFocus.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SoulFocus.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SoulFocus.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SoulFocus.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.PoisonFocus.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.PoisonFocus.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.PoisonFocus.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.BagOfSouls.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.BagOfSouls.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.BagOfSouls.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FrostFocus.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FrostFocus.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FrostFocus.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				}
+			]
+		}
+	},
+	{
+		"Name": "Weapon",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplateGroup.Weapon"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Sharpness.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Sharpness.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Sharpness.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.CriticalHit.I"
+					},
+					"Weight": 0.75,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.CriticalHit.II"
+					},
+					"Weight": 0.75,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.CriticalHit.III"
+					},
+					"Weight": 0.75,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.CriticalEdge.I"
+					},
+					"Weight": 0.75,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.CriticalEdge.II"
+					},
+					"Weight": 0.75,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.CriticalEdge.III"
+					},
+					"Weight": 0.75,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Power.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Power.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Power.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Knockback.I"
+					},
+					"Weight": 0.75,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Knockback.II"
+					},
+					"Weight": 0.75,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Knockback.III"
+					},
+					"Weight": 0.75,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Desperation.I"
+					},
+					"Weight": 0.3,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Desperation.II"
+					},
+					"Weight": 0.3,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Desperation.III"
+					},
+					"Weight": 0.3,
+					"Operation": "Set"
+				}
+			]
+		}
+	},
+	{
+		"Name": "Fighter",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplateGroup.Archetype.Fighter"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.RapidStrike.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.RapidStrike.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.RapidStrike.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Precision.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Precision.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Precision.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.MasterStrike.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.MasterStrike.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.MasterStrike.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Finesse.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Finesse.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Finesse.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Duelist.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Duelist.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Duelist.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Vanguard.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Vanguard.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Vanguard.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Committed.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Committed.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Committed.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Protection.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Protection.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Protection.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.ProjectileProtection.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.ProjectileProtection.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.ProjectileProtection.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				}
+			]
+		}
+	},
+	{
+		"Name": "Ranger",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplateGroup.Archetype.Ranger"
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "None"
+				},
+				"Type": "Int",
+				"Int": 0
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "None"
+				},
+				"Type": "Int",
+				"Int": 0
+			}
+		],
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SpeedBoost.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SpeedBoost.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SpeedBoost.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Reconstruction.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Reconstruction.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Reconstruction.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.EagleEye.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.EagleEye.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.EagleEye.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.MasterMarksman.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.MasterMarksman.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.MasterMarksman.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Sniper.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Sniper.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Sniper.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.MultiShot.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.MultiShot.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.MultiShot.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.ArrowBurst.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.ArrowBurst.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.ArrowBurst.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Sidestep.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Sidestep.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Sidestep.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.ProjectileProtection.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.ProjectileProtection.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.ProjectileProtection.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Supercharge.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Supercharge.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Supercharge.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.AmmoCapacity.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.AmmoCapacity.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.AmmoCapacity.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				}
+			]
+		}
+	},
+	{
+		"Name": "Tank",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplateGroup.Archetype.Tank"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Constitution.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Constitution.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Constitution.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Reeling.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Reeling.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Reeling.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Regeneration.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Regeneration.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Regeneration.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SweepingEdge.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SweepingEdge.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SweepingEdge.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Thorns.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Thorns.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Thorns.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.PotionMaster.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.PotionMaster.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.PotionMaster.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.PointBlank.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.PointBlank.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.PointBlank.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Resilience.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Resilience.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Resilience.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Protection.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Protection.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Protection.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.ProjectileProtection.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.ProjectileProtection.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.ProjectileProtection.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				}
+			]
+		}
+	},
+	{
+		"Name": "Trickster",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplateGroup.Archetype.Trickster"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Gambler.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Gambler.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Gambler.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SwiftSneak.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SwiftSneak.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SwiftSneak.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Acrobat.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Acrobat.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Acrobat.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.ShadowWalk.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.ShadowWalk.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.ShadowWalk.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Committed.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Committed.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Committed.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Finesse.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Finesse.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Finesse.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Deflect.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Deflect.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Deflect.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Sidestep.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Sidestep.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Sidestep.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.MasterStrike.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.MasterStrike.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.MasterStrike.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.MasterMarksman.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.MasterMarksman.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.MasterMarksman.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				}
+			]
+		}
+	},
+	{
+		"Name": "Mage",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplateGroup.Archetype.Mage"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Vestige.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Vestige.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Vestige.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Cooldown.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Cooldown.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Cooldown.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FireFocus.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FireFocus.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FireFocus.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.LightningFocus.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.LightningFocus.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.LightningFocus.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.PoisonFocus.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.PoisonFocus.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.PoisonFocus.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SoulFocus.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SoulFocus.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SoulFocus.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SoulSiphon.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SoulSiphon.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SoulSiphon.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.BagOfSouls.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.BagOfSouls.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.BagOfSouls.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.ElementalProtection.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.ElementalProtection.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.ElementalProtection.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FrostFocus.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FrostFocus.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FrostFocus.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				}
+			]
+		}
+	},
+	{
+		"Name": "Support",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplateGroup.Archetype.Support"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Expand.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Expand.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Expand.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Opportunist.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Opportunist.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Opportunist.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.PotionMaster.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.PotionMaster.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.PotionMaster.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Vivify.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Vivify.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Vivify.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Saboteur.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Saboteur.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Saboteur.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Chains.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Chains.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Chains.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.HealingFocus.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.HealingFocus.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.HealingFocus.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SoulSiphon.I"
+					},
+					"Weight": 0.5,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SoulSiphon.II"
+					},
+					"Weight": 0.5,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SoulSiphon.III"
+					},
+					"Weight": 0.5,
+					"Operation": "Set"
+				}
+			]
+		}
+	},
+	{
+		"Name": "Summoner",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplateGroup.Archetype.Summoner"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.BeastBoss.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.BeastBoss.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.BeastBoss.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Friendship.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Friendship.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Friendship.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FriendsForever.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FriendsForever.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FriendsForever.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.HealingFocus.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.HealingFocus.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.HealingFocus.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Vivify.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Vivify.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Vivify.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SoulSiphon.I"
+					},
+					"Weight": 0.5,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SoulSiphon.II"
+					},
+					"Weight": 0.5,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SoulSiphon.III"
+					},
+					"Weight": 0.5,
+					"Operation": "Set"
+				}
+			]
+		}
+	},
+	{
+		"Name": "Utility",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplateGroup.Archetype.Utility"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Looting.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Looting.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Looting.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Opulence.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Opulence.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Opulence.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Prospector.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Prospector.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Prospector.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Lucky.I"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Lucky.II"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.Lucky.III"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				}
+			]
+		}
+	},
+	{
+		"Name": "ElementalLightning",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplateGroup.Elemental.Lightning"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FireFocus.I"
+					},
+					"Weight": 0.5,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FireFocus.II"
+					},
+					"Weight": 0.5,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FireFocus.III"
+					},
+					"Weight": 0.5,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.PoisonFocus.I"
+					},
+					"Weight": 0.5,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.PoisonFocus.II"
+					},
+					"Weight": 0.5,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.PoisonFocus.III"
+					},
+					"Weight": 0.5,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FrostFocus.I"
+					},
+					"Weight": 0.5,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FrostFocus.II"
+					},
+					"Weight": 0.5,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FrostFocus.III"
+					},
+					"Weight": 0.5,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SoulFocus.I"
+					},
+					"Weight": 0.5,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SoulFocus.II"
+					},
+					"Weight": 0.5,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SoulFocus.III"
+					},
+					"Weight": 0.5,
+					"Operation": "Multiply"
+				}
+			]
+		}
+	},
+	{
+		"Name": "ElementalFire",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplateGroup.Elemental.Fire"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.LightningFocus.I"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.LightningFocus.II"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.LightningFocus.III"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.PoisonFocus.I"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.PoisonFocus.II"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.PoisonFocus.III"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FrostFocus.I"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FrostFocus.II"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FrostFocus.III"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SoulFocus.I"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SoulFocus.II"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SoulFocus.III"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				}
+			]
+		}
+	},
+	{
+		"Name": "ElementalPoison",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplateGroup.Elemental.Poison"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.LightningFocus.I"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.LightningFocus.II"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.LightningFocus.III"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FireFocus.I"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FireFocus.II"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FireFocus.III"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FrostFocus.I"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FrostFocus.II"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FrostFocus.III"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SoulFocus.I"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SoulFocus.II"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SoulFocus.III"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				}
+			]
+		}
+	},
+	{
+		"Name": "ElementalFrost",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplateGroup.Elemental.Frost"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.LightningFocus.I"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.LightningFocus.II"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.LightningFocus.III"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FireFocus.I"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FireFocus.II"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FireFocus.III"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.PoisonFocus.I"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.PoisonFocus.I"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.PoisonFocus.I"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SoulFocus.I"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SoulFocus.II"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.SoulFocus.III"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				}
+			]
+		}
+	},
+	{
+		"Name": "ElementalSoul",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplateGroup.Elemental.Soul"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.LightningFocus.I"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.LightningFocus.II"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.LightningFocus.III"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FireFocus.I"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FireFocus.II"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FireFocus.III"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.PoisonFocus.I"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.PoisonFocus.I"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.PoisonFocus.I"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FrostFocus.I"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FrostFocus.II"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplate.FrostFocus.III"
+					},
+					"Weight": 0.3,
+					"Operation": "Multiply"
+				}
+			]
+		}
+	}
+]

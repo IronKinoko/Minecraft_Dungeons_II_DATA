@@ -1,0 +1,84 @@
+[
+	{
+		"Name": "CA00_Villager_Rescue_01",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA00.Villager.Rescue.01"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA00_VillagerRescue_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Scared.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA00/CA00_DIA/dia_CA00_villager_rescue_01/dia_CA00_CAa1_villager_rescue_01_Line_00_activate.dia_CA00_CAa1_villager_rescue_01_Line_00_activate"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA00_VillagerRescue_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA00/CA00_DIA/dia_CA00_villager_rescue_01/dia_CA00_CAa1_villager_rescue_01_Line_01_activate.dia_CA00_CAa1_villager_rescue_01_Line_01_activate"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA00_I01"
+		}
+	},
+	{
+		"Name": "CA00_Villager_Gate01",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA00.Villager.Gate.01"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA00_Villager01_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Scared.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA00/CA00_DIA/dia_CA00_villager_gate01/dia_CA00_CAa1_villager_gate01_Line_00_activate.dia_CA00_CAa1_villager_gate01_Line_00_activate"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA00_I06"
+		}
+	},
+	{
+		"Name": "CA00_Villager_Docks01",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA00.Villager.QuestEnd"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA00_VillagerDocks01_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Scared.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA00/CA00_DIA/dia_CA00_Villager_Docks01/dia_CA00_Villager_Docks01_Line_00_Play.dia_CA00_Villager_Docks01_Line_00_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA00_VillagerDocks01_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA00/CA00_DIA/dia_CA00_Villager_Docks01/dia_CA00_Villager_Docks01_Line_01_Play.dia_CA00_Villager_Docks01_Line_01_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA00"
+		}
+	}
+]

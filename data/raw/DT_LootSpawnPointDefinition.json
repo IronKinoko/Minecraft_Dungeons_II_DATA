@@ -1,0 +1,120 @@
+[
+	{
+		"Name": "WoodenChest_3x3",
+		"TypeTag":
+		{
+			"TagName": "SW.LootSpawnPoint.WoodenChest.3x3"
+		},
+		"LootSpawnPointDefinition":
+		{
+			"LootActors":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.LootActor.WoodenChest"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.LootActor"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"XLength": 3,
+			"YLength": 3,
+			"UnitDimension": 100,
+			"AllowedOccupationCount": 2
+		},
+		"ActorReference": "/Game/Spicewood/Actors/Loot/BP_LootableSpawnPoint.BP_LootableSpawnPoint_C",
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootSpawnPoint"
+				},
+				{
+					"TagName": "SW.ActorFolding.AreaDespawn"
+				},
+				{
+					"TagName": "SW.Property.Editor.TypeSystemReload"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.ActorFolding"
+				},
+				{
+					"TagName": "SW.Property.Editor"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		}
+	},
+	{
+		"Name": "WoodenChest_1x1",
+		"TypeTag":
+		{
+			"TagName": "SW.LootSpawnPoint.WoodenChest.1x1"
+		},
+		"LootSpawnPointDefinition":
+		{
+			"LootActors":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.LootActor.WoodenChest"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.LootActor"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"XLength": 1,
+			"YLength": 1,
+			"UnitDimension": 100,
+			"AllowedOccupationCount": 1
+		},
+		"ActorReference": "/Game/Spicewood/Actors/Loot/BP_LootableSpawnPoint.BP_LootableSpawnPoint_C",
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootSpawnPoint"
+				},
+				{
+					"TagName": "SW.ActorFolding.AreaDespawn"
+				},
+				{
+					"TagName": "SW.Property.Editor.TypeSystemReload"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.ActorFolding"
+				},
+				{
+					"TagName": "SW.Property.Editor"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		}
+	}
+]

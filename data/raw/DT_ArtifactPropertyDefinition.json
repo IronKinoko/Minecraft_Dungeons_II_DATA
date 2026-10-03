@@ -1,0 +1,2217 @@
+[
+	{
+		"Name": "BaseArtifact",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Artifact.Regular.Pickup"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Artifact.Regular.Drop"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.Artifact"
+		},
+		"ActorReference": "None"
+	},
+	{
+		"Name": "RallyingHorn",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-RallyingHorn.ArtifactType-RallyingHorn",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.RallyingHorn"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/RallyingHorn/BP_RallyingHorn.BP_RallyingHorn_C"
+	},
+	{
+		"Name": "TotemOfRegeneration",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "/Game/Spicewood/Audio/Wwise/sfx_totemOfRegeneration_activate_Play.sfx_totemOfRegeneration_activate_Play",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-TotemOfRegeneration.ArtifactType-TotemOfRegeneration",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.TotemOfRegeneration"
+		},
+		"ActorReference": "/Game/Spicewood/Actors/Items/RegenerationTotem/BP_RegenerationTotem.BP_RegenerationTotem_C"
+	},
+	{
+		"Name": "PicnicBlanket",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-PicnicBlanket.ArtifactType-PicnicBlanket",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.PicnicBlanket"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/PicnicBlanket/BP_PicnicBlanket.BP_PicnicBlanket_C"
+	},
+	{
+		"Name": "SoulHarvester",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-SoulHarvester.ArtifactType-SoulHarvester",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.SoulHarvester"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/SoulHarvester/BP_SoulHarvester.BP_SoulHarvester_C"
+	},
+	{
+		"Name": "Corrupted_Beacon",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-CorruptedBeacon.ArtifactType-CorruptedBeacon",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.CorruptedBeacon"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/CorruptedBeacon/BP_CorruptedBeacon.BP_CorruptedBeacon_C"
+	},
+	{
+		"Name": "TotemOfCasting",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/5_artifact_activate/sfx_artifact_totemOfCasting_activate_Play.sfx_artifact_totemOfCasting_activate_Play",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-TotemOfCasting.ArtifactType-TotemOfCasting",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.TotemOfCasting"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/TotemOfCasting/BP_TotemOfCasting.BP_TotemOfCasting_C"
+	},
+	{
+		"Name": "TotemOfShielding",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/5_artifact_activate/sfx_artifact_totemOfShielding_activate_Play.sfx_artifact_totemOfShielding_activate_Play",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-TotemOfShielding.ArtifactType-TotemOfShielding",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.TotemOfShielding"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/TotemOfShielding/BP_TotemOfShielding_DropItem.BP_TotemOfShielding_DropItem_C"
+	},
+	{
+		"Name": "CorruptedSeeds",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-CorruptedSeeds.ArtifactType-CorruptedSeeds",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.CorruptedSeeds"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/CorruptedSeeds/BP_CorruptedSeeds.BP_CorruptedSeeds_C"
+	},
+	{
+		"Name": "DeathcapMushroom",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-DeathcapMushroom.ArtifactType-DeathcapMushroom",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.DeathcapMushroom"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/Mushrooms/Mushroom_Deathcap/BP_Deathcap_Mushroom.BP_Deathcap_Mushroom_C"
+	},
+	{
+		"Name": "SmokeBomb",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-SmokeBomb.ArtifactType-SmokeBomb",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.SmokeBomb"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/SmokeBomb/BP_SmokeBomb.BP_SmokeBomb_C"
+	},
+	{
+		"Name": "RedstoneMines",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-RedstoneMines.ArtifactType-RedstoneMines",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.RedstoneMines"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/RedstoneMineLauncher/BP_RedstoneMineLauncher.BP_RedstoneMineLauncher_C"
+	},
+	{
+		"Name": "WitchesBrew",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-WitchesBrew.ArtifactType-WitchesBrew",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.WitchesBrew"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/WitchesBrew/BP_WitchesBrew.BP_WitchesBrew_C"
+	},
+	{
+		"Name": "FireSatchel",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-FireSatchel.ArtifactType-FireSatchel",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.Satchel.Fire"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/Satchels/Satchel_Fire/BP_Satchel_Fire.BP_Satchel_Fire_C"
+	},
+	{
+		"Name": "FreezingSatchel",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-FreezingSatchel.ArtifactType-FreezingSatchel",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.Satchel.Freezing"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/Satchels/Satchel_Freezing/BP_Satchel_Freezing.BP_Satchel_Freezing_C"
+	},
+	{
+		"Name": "PoisonSatchel",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-PoisonSatchel.ArtifactType-PoisonSatchel",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.Satchel.Poison"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/Satchels/Satchel_Poison/BP_Satchel_Poison.BP_Satchel_Poison_C"
+	},
+	{
+		"Name": "ConductiveSatchel",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-ConductiveSatchel.ArtifactType-ConductiveSatchel",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.Satchel.Conductive"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/Satchels/Satchel_Conductive/BP_Satchel_Conductive.BP_Satchel_Conductive_C"
+	},
+	{
+		"Name": "CreeperCandle",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-CreeperCandle.ArtifactType-CreeperCandle",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.CreeperCandle"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/CreeperCandle/BP_Creeper_Candle.BP_Creeper_Candle_C"
+	},
+	{
+		"Name": "LightningRod",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-LightningRod.ArtifactType-LightningRod",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.LightningRod"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/LightningRod/BP_LightningRod.BP_LightningRod_C"
+	},
+	{
+		"Name": "MaimingMushroom",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-MaimingMushroom.ArtifactType-MaimingMushroom",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.MaimingMushroom"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/Mushrooms/Mushroom_Maiming/BP_Mushroom_Maiming.BP_Mushroom_Maiming_C"
+	},
+	{
+		"Name": "HasteMushroom",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-HasteMushroom.ArtifactType-HasteMushroom",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.HasteMushroom"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/Mushrooms/Mushroom_Haste/BP_Mushroom_Haste.BP_Mushroom_Haste_C"
+	},
+	{
+		"Name": "WarriorsDrums",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-WarriorsDrums.ArtifactType-WarriorsDrums",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.WarriorsDrums"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/Instruments/WarriorsDrum/BP_WarriorsDrum.BP_WarriorsDrum_C"
+	},
+	{
+		"Name": "FightersFife",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-FightersFife.ArtifactType-FightersFife",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.FightersFife"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/Instruments/FightersFife/BP_FightersFife.BP_FightersFife_C"
+	},
+	{
+		"Name": "CarapaceOcarina",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/5_artifact_activate/sfx_artifact_carapaceOcarina_activate_Play.sfx_artifact_carapaceOcarina_activate_Play",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-CarapaceOcarina.ArtifactType-CarapaceOcarina",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.CarapaceOcarina"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/Instruments/Carapace_Ocarina/BP_CarapaceOcarina.BP_CarapaceOcarina_C"
+	},
+	{
+		"Name": "Grindstone",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-Grindstone.ArtifactType-Grindstone",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.Grindstone"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/Grindstone/BP_Grindstone.BP_Grindstone_C"
+	},
+	{
+		"Name": "IronHideLute",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-IronHideLute.ArtifactType-IronHideLute",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.IronHideLute"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/Instruments/IronHideLute/BP_IronHideLute.BP_IronHideLute_C"
+	},
+	{
+		"Name": "WardingChimes",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/5_artifact_activate/sfx_item_artifact_wardingChimes_activate_Play.sfx_item_artifact_wardingChimes_activate_Play",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-WardingChimes.ArtifactType-WardingChimes",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.WardingChimes"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/Instruments/WardingChimes/BP_WardingChimes.BP_WardingChimes_C"
+	},
+	{
+		"Name": "WarBanner",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-WarBanner.ArtifactType-WarBanner",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.WarBanner"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/Warbanner/BP_Warbanner.BP_Warbanner_C"
+	},
+	{
+		"Name": "Honeypot",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-HoneyPot.ArtifactType-HoneyPot",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.Honeypot"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/Honeypot/BP_HonepotStorable.BP_HonepotStorable_C"
+	},
+	{
+		"Name": "FlameSceptre",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-FlameSceptre.ArtifactType-FlameSceptre",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.FlameSceptre"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/FlameSceptre/BP_FlameSceptre.BP_FlameSceptre_C"
+	},
+	{
+		"Name": "BlizzardStaff",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-BlizzardStaff.ArtifactType-BlizzardStaff",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.BlizzardStaff"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/BlizzardStaff/BP_BlizzardStaff.BP_BlizzardStaff_C"
+	},
+	{
+		"Name": "FireBracelet",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-FireBracelet.ArtifactType-FireBracelet",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.FireBracelet"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/Bracelet/Bracelet_Fire/BP_FireBracelet.BP_FireBracelet_C"
+	},
+	{
+		"Name": "FrostBracelet",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-FrostBracelet.ArtifactType-FrostBracelet",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.FrostBracelet"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/Bracelet/Bracelet_Freezing/BP_FrostBracelet.BP_FrostBracelet_C"
+	},
+	{
+		"Name": "ConductiveBracelet",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-ConductiveBracelet.ArtifactType-ConductiveBracelet",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.ConductiveBracelet"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/Bracelet/Bracelet_Conductive/BP_ConductiveBracelet.BP_ConductiveBracelet_C"
+	},
+	{
+		"Name": "PoisonBracelet",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-PoisonBracelet.ArtifactType-PoisonBracelet",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.PoisonBracelet"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/Bracelet/Bracelet_Poison/BP_PoisonBracelet.BP_PoisonBracelet_C"
+	},
+	{
+		"Name": "Powershaker",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-PowerShaker.ArtifactType-PowerShaker",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.Powershaker"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/Powershaker/BP_Powershaker.BP_Powershaker_C"
+	},
+	{
+		"Name": "FireworkQuiver",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-FireworkQuiver.ArtifactType-FireworkQuiver",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.FireworkQuiver"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/ElementalQuivers/Quiver_Firework/BP_FireworkQuiver.BP_FireworkQuiver_C"
+	},
+	{
+		"Name": "FlameQuiver",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-FlameQuiver.ArtifactType-FlameQuiver",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.FlameQuiver"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/ElementalQuivers/Quiver_Fire/BP_FlameQuiver.BP_FlameQuiver_C"
+	},
+	{
+		"Name": "PoisonQuiver",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-PoisonQuiver.ArtifactType-PoisonQuiver",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.PoisonQuiver"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/ElementalQuivers/Quiver_Poison/BP_PoisonQuiver.BP_PoisonQuiver_C"
+	},
+	{
+		"Name": "FrostQuiver",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-FrostQuiver.ArtifactType-FrostQuiver",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.FrostQuiver"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/ElementalQuivers/Quiver_Freezing/BP_FrostQuiver.BP_FrostQuiver_C"
+	},
+	{
+		"Name": "LightningQuiver",
+		"ArtifactItemAudios":
+		{
+			"OnArtifactStarted": "None",
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ArtifactType/ArtifactType-LightningQuiver.ArtifactType-LightningQuiver",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/2_artifact_pickUp/artifact_pickup.artifact_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/1_artifact_drop/artifact_drop.artifact_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/3_artifact_equip/artifact_equip.artifact_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Artifacts/4_artifact_unequip/artifact_unequip.artifact_unequip"
+		},
+		"SkipDisplayOnTags":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.Action.Melee"
+				},
+				{
+					"TagName": "SW.State.Action.HeavyJumpAttack"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged.Aiming"
+				},
+				{
+					"TagName": "SW.State.Action.Roll"
+				},
+				{
+					"TagName": "SW.State.Action.RevivingAlly"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.Action"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Action.Ranged"
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Artifact.LightningQuiver"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Artifacts/ElementalQuivers/Quiver_Conductive/BP_LightningQuiver.BP_LightningQuiver_C"
+	}
+]

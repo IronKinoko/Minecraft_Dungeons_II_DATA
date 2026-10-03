@@ -1,0 +1,26 @@
+[
+	{
+		"Name": "DLC_1",
+		"ProductTag":
+		{
+			"TagName": "SW.Product.DLC1"
+		},
+		"Title": "LOCTABLE(\"DLCLabels.csv\", \"DLC1_Title\")",
+		"Description": "LOCTABLE(\"DLCLabels.csv\", \"DLC1_Description\")",
+		"BackgroundImage": "/SpicewoodUI/Spicewood/UI/Widget/DLCUpsell/T_UI_Upsell_DLC1.T_UI_Upsell_DLC1",
+		"Type": "DLC",
+		"Availability": "LOCTABLE(\"DLCLabels.csv\", \"ComingSoon\")"
+	},
+	{
+		"Name": "DLC_2",
+		"ProductTag":
+		{
+			"TagName": "SW.Product.DLC2"
+		},
+		"Title": "LOCTABLE(\"DLCLabels.csv\", \"DLC2_Title\")",
+		"Description": "LOCTABLE(\"DLCLabels.csv\", \"DLC2_Description\")",
+		"BackgroundImage": "/SpicewoodUI/Spicewood/UI/Widget/DLCUpsell/T_UI_Upsell_DLC2.T_UI_Upsell_DLC2",
+		"Type": "DLC",
+		"Availability": "LOCTABLE(\"DLCLabels.csv\", \"ComingSoon\")"
+	}
+]

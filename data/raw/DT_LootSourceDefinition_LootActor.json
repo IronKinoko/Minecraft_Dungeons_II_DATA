@@ -1,0 +1,1305 @@
+[
+	{
+		"Name": "Chest",
+		"TypeTag":
+		{
+			"TagName": "SW.LootSource.Chest"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Consumable\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 1,
+					"DropChancePerRoll": 0.5,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Consumable.Food"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ExceptFromDefaultLootTables"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							}
+						]
+					}
+				},
+				"(TagName=\"SW.LootSlot.Emeralds\")":
+				{
+					"NumberOfGuaranteedDrops": 10,
+					"NumberOfRandomRolls": 10,
+					"DropChancePerRoll": 0.5,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.Emerald"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "WoodenChest",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.WoodenChest"
+		},
+		"LootDropDefinition":
+		{
+		}
+	},
+	{
+		"Name": "FancyChest",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.FancyChest"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "WellspringChest",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.WellspringChest"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "SeedTrough",
+		"TypeTag":
+		{
+			"TagName": "SW.LootSource.SeedTroughActor"
+		},
+		"LootDropDefinition":
+		{
+		}
+	},
+	{
+		"Name": "SeedSack",
+		"TypeTag":
+		{
+			"TagName": "SW.LootSource.SeedSackActor"
+		},
+		"LootDropDefinition":
+		{
+		}
+	},
+	{
+		"Name": "KeyChest",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.KeyChest"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Property.Armor"
+								},
+								"Weight": 2,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Property.MeleeWeapon"
+								},
+								"Weight": 2,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Property.RangedWeapon"
+								},
+								"Weight": 2,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Property.Artifact"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "FancyChest_Procedural",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.FancyChest.Procedural"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootActor.FancyChest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.LootActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.EnchantedBook\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 1,
+					"DropChancePerRoll": 0.5,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+					}
+				},
+				"(TagName=\"SW.LootSlot.SpringStone\")":
+				{
+					"NumberOfGuaranteedDrops": 4,
+					"NumberOfRandomRolls": 4,
+					"DropChancePerRoll": 0.5,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.SpringStone"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "WellspringChest_Procedural",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.WellspringChest.Procedural"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootActor.WellspringChest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.LootActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.EnchantedBook\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 1,
+					"DropChancePerRoll": 0.5,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+					}
+				},
+				"(TagName=\"SW.LootSlot.SpringStone\")":
+				{
+					"NumberOfGuaranteedDrops": 4,
+					"NumberOfRandomRolls": 4,
+					"DropChancePerRoll": 0.5,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.SpringStone"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "CampWoodenChest",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.CampWoodenChest"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.FireworkQuiver"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "StorminatorChest",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.StorminatorChest"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootActor.FancyChest"
+				},
+				{
+					"TagName": "SW.Trait.Fold.DestroyOnFold"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.LootActor"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Trait.Fold"
+				},
+				{
+					"TagName": "SW.Trait"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+		}
+	},
+	{
+		"Name": "StorminatorChestEasy",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.StorminatorChest.Easy"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootActor.StorminatorChest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.LootActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+					}
+				},
+				"(TagName=\"SW.LootSlot.SpringStone\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 2,
+					"DropChancePerRoll": 0.33,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.Springstone"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				},
+				"(TagName=\"SW.LootSlot.Emeralds\")":
+				{
+					"NumberOfGuaranteedDrops": 5,
+					"NumberOfRandomRolls": 10,
+					"DropChancePerRoll": 0.3,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.Emerald"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.EmeraldBlock"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "StorminatorChestMedium",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.StorminatorChest.Medium"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootActor.StorminatorChest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.LootActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+					}
+				},
+				"(TagName=\"SW.LootSlot.SpringStone\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 2,
+					"DropChancePerRoll": 0.33,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.Springstone"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				},
+				"(TagName=\"SW.LootSlot.Emeralds\")":
+				{
+					"NumberOfGuaranteedDrops": 5,
+					"NumberOfRandomRolls": 10,
+					"DropChancePerRoll": 0.3,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.Emerald"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.EmeraldBlock"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "StorminatorChestHard",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.StorminatorChest.Hard"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootActor.StorminatorChest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.LootActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 2,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+					}
+				},
+				"(TagName=\"SW.LootSlot.SpringStone\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 3,
+					"DropChancePerRoll": 0.33,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.Springstone"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				},
+				"(TagName=\"SW.LootSlot.Emeralds\")":
+				{
+					"NumberOfGuaranteedDrops": 5,
+					"NumberOfRandomRolls": 15,
+					"DropChancePerRoll": 0.3,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.Emerald"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.EmeraldBlock"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "SoulStormRewardChestLow",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.StorminatorChest.Final.Low"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootActor.StorminatorChest.Final"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.LootActor.StorminatorChest"
+				},
+				{
+					"TagName": "SW.LootActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 2,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+					}
+				},
+				"(TagName=\"SW.LootSlot.SpringStone\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 3,
+					"DropChancePerRoll": 0.33,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.Springstone"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				},
+				"(TagName=\"SW.LootSlot.Emeralds\")":
+				{
+					"NumberOfGuaranteedDrops": 5,
+					"NumberOfRandomRolls": 15,
+					"DropChancePerRoll": 0.3,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.Emerald"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.EmeraldBlock"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "SoulStormRewardChestMedium",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.StorminatorChest.Final.Medium"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootActor.StorminatorChest.Final"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.LootActor.StorminatorChest"
+				},
+				{
+					"TagName": "SW.LootActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 3,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+					}
+				},
+				"(TagName=\"SW.LootSlot.SpringStone\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 3,
+					"DropChancePerRoll": 0.33,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.Springstone"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				},
+				"(TagName=\"SW.LootSlot.Emeralds\")":
+				{
+					"NumberOfGuaranteedDrops": 5,
+					"NumberOfRandomRolls": 15,
+					"DropChancePerRoll": 0.3,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.Emerald"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.EmeraldBlock"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "SoulStormRewardChestHigh",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.StorminatorChest.Final.High"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootActor.StorminatorChest.Final"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.LootActor.StorminatorChest"
+				},
+				{
+					"TagName": "SW.LootActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 4,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+					}
+				},
+				"(TagName=\"SW.LootSlot.SpringStone\")":
+				{
+					"NumberOfGuaranteedDrops": 4,
+					"NumberOfRandomRolls": 3,
+					"DropChancePerRoll": 0.33,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.Springstone"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				},
+				"(TagName=\"SW.LootSlot.Emeralds\")":
+				{
+					"NumberOfGuaranteedDrops": 10,
+					"NumberOfRandomRolls": 15,
+					"DropChancePerRoll": 0.3,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.Emerald"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.EmeraldBlock"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "TalismansChest_Plummeting",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.TalismansChest.Plummeting"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootActor.TalismansChest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.LootActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Talismans\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Talisman.Plummeting"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "TalismansChest_PotionCooldown",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.TalismansChest.PotionCooldown"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootActor.TalismansChest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.LootActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Talismans\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Talisman.PotionCooldown"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "TalismansChest_SoulCapacity",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.TalismansChest.SoulCapacity"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootActor.TalismansChest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.LootActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Talismans\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Talisman.SoulCapacity"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "TalismansChest_EmeraldIncrease",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.TalismansChest.EmeraldIncrease"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootActor.TalismansChest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.LootActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Talismans\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Talisman.EmeraldIncrease"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "TalismansChest_DoubleDrop",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.TalismansChest.DoubleDrop"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootActor.TalismansChest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.LootActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Talismans\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Talisman.DoubleDrop"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "TalismansChest_FiringEmeralds",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.TalismansChest.FiringEmeralds"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootActor.TalismansChest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.LootActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Talismans\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Talisman.FiringEmeralds"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "TalismansChest_SpeedIncrement",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.TalismansChest.SpeedIncrement"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootActor.TalismansChest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.LootActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Talismans\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Talisman.SpeedIncrement"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "TalismansChest_RangedBuff",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.TalismansChest.RangedBuff"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootActor.TalismansChest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.LootActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Talismans\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Talisman.RangedBuff"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	}
+]

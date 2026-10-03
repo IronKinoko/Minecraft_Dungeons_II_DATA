@@ -1,0 +1,33 @@
+[
+	{
+		"Name": "NewRow",
+		"TypeTag":
+		{
+			"TagName": "SW.CurrencyProgression.Default"
+		},
+		"CurrencyProgressionData":
+		{
+			"PerLevelDefinitions":
+			{
+				"1":
+				{
+					"EmeraldAmount": 0,
+					"SpringStoneAmount": 0,
+					"EnchantmentBooksAmount": 0,
+					"UpgradeLevelMerchant": 1,
+					"UpgradeLevelEnchantsmith": 1,
+					"UpgradeLevelBlacksmith": 1
+				},
+				"15":
+				{
+					"EmeraldAmount": 300,
+					"SpringStoneAmount": 50,
+					"EnchantmentBooksAmount": 4,
+					"UpgradeLevelMerchant": 2,
+					"UpgradeLevelEnchantsmith": 2,
+					"UpgradeLevelBlacksmith": 1
+				}
+			}
+		}
+	}
+]

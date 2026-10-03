@@ -1,0 +1,813 @@
+[
+	{
+		"Name": "CA07_Cage01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA07.Cage.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				},
+				{
+					"TagName": "SW.State.Invulnerable"
+				},
+				{
+					"TagName": "SW.State.Unknockable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA07/BP_CA07_Cage01.BP_CA07_Cage01_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA07_Cage02",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA07.Cage.02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				},
+				{
+					"TagName": "SW.State.Invulnerable"
+				},
+				{
+					"TagName": "SW.State.Unknockable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA07/BP_CA07_Cage02.BP_CA07_Cage02_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA07_Cage03",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA07.Cage.03"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				},
+				{
+					"TagName": "SW.State.Invulnerable"
+				},
+				{
+					"TagName": "SW.State.Unknockable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA07/BP_CA07_Cage03.BP_CA07_Cage03_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA07_Cage04",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA07.Cage.04"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				},
+				{
+					"TagName": "SW.State.Invulnerable"
+				},
+				{
+					"TagName": "SW.State.Unknockable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA07/BP_CA07_Cage04.BP_CA07_Cage04_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA07_CrossroadsVillager01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA07.Villager.Crossroads.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA07/BP_CA07_Villager_Crossroads.BP_CA07_Villager_Crossroads_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA07_CapturedVillager01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA07.CapturedVillager.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA07/BP_CA07_CapturedVillager_01.BP_CA07_CapturedVillager_01_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA07_OasisVillager01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA07.OasisVillager.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA07/BP_CA07_OasisVillager01.BP_CA07_OasisVillager01_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA07_CapturedVillager02",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA07.CapturedVillager.02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA07/BP_CA07_CapturedVillager_02.BP_CA07_CapturedVillager_02_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA07_CapturedVillager03",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA07.CapturedVillager.03"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA07/BP_CA07_CapturedVillager_04.BP_CA07_CapturedVillager_04_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA07_OldVIllager01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA07.Villager.Old"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA07/BP_CA07_OldVillager01.BP_CA07_OldVillager01_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "PLa2_S15_A_QuestGiver",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.PLa2.S15.A.QuestGiver"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/PlainsA2/PLa2_S15_A/BP_PLa2_S15_A_QuestGiver.BP_PLa2_S15_A_QuestGiver_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "PLa2_S16_A_QuestGiver",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.PLa2.S16.A.QuestGiver"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/PlainsA2/PLa2_S16_A/BP_PLa2_S16_A_QuestGiver.BP_PLa2_S16_A_QuestGiver_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "PLa2_S16_A_QuestStart",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.PLa2.S16.A.QuestStart"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/PlainsA2/PLa2_S16_A/BP_PLa2_S16_A_QuestGiverStart.BP_PLa2_S16_A_QuestGiverStart_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "PLa2_S17_A_QuestGiver",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.PLa2.S17.A.QuestGiver"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/PlainsA2/PLa2_S17_A/BP_PLa2_S17_A_QuestGiver.BP_PLa2_S17_A_QuestGiver_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "PLa2_S17_A_InteractCage",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.PLa2.S17.A.InteractCage"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				},
+				{
+					"TagName": "SW.State.Invulnerable"
+				},
+				{
+					"TagName": "SW.State.Unknockable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/PlainsA2/PLa2_S17_A/BP_PLa2_S17_A_InteractCage.BP_PLa2_S17_A_InteractCage_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "PLa2_S17_A_CapturedVillage",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.PLa2.S17.A.VillageC"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/PlainsA2/PLa2_S17_A/BP_PLa2_S17_A_Captured.BP_PLa2_S17_A_Captured_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CT_S04_A_PlainsA2",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CT01.CT4"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CaretakerQuests/PlainsA2_S04/BP_Caretaker01_S04_PlainsA2.BP_Caretaker01_S04_PlainsA2_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	}
+]

@@ -1,0 +1,362 @@
+[
+	{
+		"Name": "CAa1_S03_A_QuestStart",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CAa1.S03.QuestStart"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_CarapaceA1.csv\", \"CAa1_S03_A_QuestStart_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Concerned.Caretaker"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/CAa1/S03_CAa1/S03_CAa1_DIA/CAa1_S03_A_QuestStart/dia_CAa1_S03_A_QuestStart_Line_00_activate.dia_CAa1_S03_A_QuestStart_Line_00_activate"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_CarapaceA1.csv\", \"CAa1_S03_A_QuestStart_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/CAa1/S03_CAa1/S03_CAa1_DIA/CAa1_S03_A_QuestStart/dia_CAa1_S03_A_QuestStart_Line_01_activate.dia_CAa1_S03_A_QuestStart_Line_01_activate"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CAa1_S03_A"
+		}
+	},
+	{
+		"Name": "CAa1_S03_A_I02",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CAa1.S03.I02"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_CarapaceA1.csv\", \"CAa1_S03_A_I02_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Happy.Caretaker.Toot"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/CAa1/S03_CAa1/S03_CAa1_DIA/CAa1_S03_A_I02/dia_CAa1_S03_A_I02_Line_01_activate.dia_CAa1_S03_A_I02_Line_01_activate"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CAa1_S03_A_I02"
+		}
+	},
+	{
+		"Name": "CA09_Caretaker01_Optional",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA09.Caretaker.01.Optional"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA09_Caretaker01_Dialogue2_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Concerned.Caretaker"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA09/CA09_DIA/dia_CA09_CAa1_Caretaker01_Optional/dia_CA09_Caretaker01_Optional_Line_00_Play.dia_CA09_Caretaker01_Optional_Line_00_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA09"
+		}
+	},
+	{
+		"Name": "CA09_I17",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA09.Caretaker.02"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA09_Caretaker04_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Sad.Caretaker"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA09/CA09_DIA/dia_CA09_CAa1_I17/dia_CA09_I17_Line_00_Play.dia_CA09_I17_Line_00_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA09_Caretaker04_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA09/CA09_DIA/dia_CA09_CAa1_I17/dia_CA09_I17_Line_01_Play.dia_CA09_I17_Line_01_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA09_Caretaker04_Dialogue1_Paragraph3\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA09/CA09_DIA/dia_CA09_CAa1_I17/dia_CA09_I17_Line_02_Play.dia_CA09_I17_Line_02_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA09_I17"
+		}
+	},
+	{
+		"Name": "CA09_I18",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA09.Caretaker.02.03"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA09_Caretaker04_Dialogue3_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Happy.Caretaker"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA09/CA09_DIA/dia_CA09_CAa1_I18/dia_CA09_I18_Line_00_Play.dia_CA09_I18_Line_00_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA09_Caretaker04_Dialogue3_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA09/CA09_DIA/dia_CA09_CAa1_I18/dia_CA09_I18_Line_01_Play.dia_CA09_I18_Line_01_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA09_I18"
+		}
+	},
+	{
+		"Name": "CA09_QuestStart",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA09.QuestGiver"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA09_QuestGiver_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Wave.Caretaker"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA09/CA09_DIA/dia_CA09_CAa1_QuestStart/dia_CA09_QuestStart_Line_00_Play.dia_CA09_QuestStart_Line_00_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA09_QuestGiver_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.PointL.Caretaker"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA09/CA09_DIA/dia_CA09_CAa1_QuestStart/dia_CA09_QuestStart_Line_01_Play.dia_CA09_QuestStart_Line_01_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA09_QuestGiver_Dialogue1_Paragraph3\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA09/CA09_DIA/dia_CA09_CAa1_QuestStart/dia_CA09_QuestStart_Line_02_Play.dia_CA09_QuestStart_Line_02_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA09_QuestGiver_Dialogue1_Paragraph4\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA09/CA09_DIA/dia_CA09_CAa1_QuestStart/dia_CA09_QuestStart_Line_03_Play.dia_CA09_QuestStart_Line_03_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA09_QuestGiver_Dialogue1_Paragraph5\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "None"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA09"
+		}
+	},
+	{
+		"Name": "CA09_I16_Hub",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA09.Caretaker.Hub"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA09_CaretakerHub_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Wave.Caretaker"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA09/CA09_DIA/dia_CA09_CAa1_I16_Hub/dia_CA09_I16_Hub_Line_00_Play.dia_CA09_I16_Hub_Line_00_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA09_CaretakerHub_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Concerned.Caretaker"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA09/CA09_DIA/dia_CA09_CAa1_I16_Hub/dia_CA09_I16_Hub_Line_01_Play.dia_CA09_I16_Hub_Line_01_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA09_CaretakerHub_Dialogue1_Paragraph3\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA09/CA09_DIA/dia_CA09_CAa1_I16_Hub/dia_CA09_I16_Hub_Line_02_Play.dia_CA09_I16_Hub_Line_02_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA09_I16"
+		}
+	},
+	{
+		"Name": "CAa1_S02_A_QuestStart",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CAa1.S02.A.QuestStart"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_CarapaceA1.csv\", \"CAa1_S02_A_QuestStart_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Concerned.Caretaker"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/CAa1/S02_CAa1/S02_CAa1_DIA/CAa1_S02_A_QuestStart/dia_CAa1_S02_A_QuestStart_Line_00_activate.dia_CAa1_S02_A_QuestStart_Line_00_activate"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_CarapaceA1.csv\", \"CAa1_S02_A_QuestStart_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/CAa1/S02_CAa1/S02_CAa1_DIA/CAa1_S02_A_QuestStart/dia_CAa1_S02_A_QuestStart_Line_01_activate.dia_CAa1_S02_A_QuestStart_Line_01_activate"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_CarapaceA1.csv\", \"CAa1_S02_A_QuestStart_Dialogue1_Paragraph3\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/CAa1/S02_CAa1/S02_CAa1_DIA/CAa1_S02_A_QuestStart/dia_CAa1_S02_A_QuestStart_Line_02_activate.dia_CAa1_S02_A_QuestStart_Line_02_activate"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CAa1_S02_A"
+		}
+	},
+	{
+		"Name": "CAa1_S02_A_Depowered01",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CAa1.S02.A.Depower01"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_CarapaceA1.csv\", \"CAa1_S02_A_I08_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/CAa1/S02_CAa1/S02_CAa1_DIA/CAa1_S02_A_Depowered01/dia_CAa1_S02_A_Depowered01_Line_00_activate.dia_CAa1_S02_A_Depowered01_Line_00_activate"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CAa1_S02_A_I08"
+		}
+	},
+	{
+		"Name": "CAa1_S02_A_Depowered02",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CAa1.S02.A.Depower02"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_CarapaceA1.csv\", \"CAa1_S02_A_I09_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/CAa1/S02_CAa1/S02_CAa1_DIA/CAa1_S02_A_Depowered02/dia_CAa1_S02_A_Depowered02_Line_00_activate.dia_CAa1_S02_A_Depowered02_Line_00_activate"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CAa1_S02_A_I09"
+		}
+	},
+	{
+		"Name": "CAa1_S02_A_Depowered03",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CAa1.S02.A.Depower03"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_CarapaceA1.csv\", \"CAa1_S02_A_I11_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/CAa1/S02_CAa1/S02_CAa1_DIA/CAa1_S02_A_Depowered02/dia_CAa1_S02_A_Depowered02_Line_00_activate.dia_CAa1_S02_A_Depowered02_Line_00_activate"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CAa1_S02_A_I11"
+		}
+	},
+	{
+		"Name": "CAa1_S02_A_QuestEnd",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CAa1.S02.A.QuestEnd"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_CarapaceA1.csv\", \"CAa1_S02_A_QuestEnd_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Sing.Caretaker"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/CAa1/S02_CAa1/S02_CAa1_DIA/CAa1_S02_A_QuestEnd/dia_CAa1_S02_A_QuestEnd_Line_00_activate.dia_CAa1_S02_A_QuestEnd_Line_00_activate"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CAa1_S02_A_I10"
+		}
+	}
+]

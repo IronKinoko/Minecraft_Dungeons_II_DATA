@@ -1,0 +1,360 @@
+[
+	{
+		"Name": "CA00_Dialogue_Villager01",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA00.Villager.01"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA00_Villager01_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Sad.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Unkillable/VillagerEmotions/Voice2/sfx_villagerVoice_02_yes_Play.sfx_villagerVoice_02_yes_Play"
+				},
+				{
+					"Text": "",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "None"
+				}
+			],
+			"DisplayInQuestJournal": false,
+			"QuestOrTaskId": ""
+		}
+	},
+	{
+		"Name": "CA01_QuestGiver01",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA01.QuestOffer"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA01_QuestGiver_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Talking.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA01/CA01_DIA/dia_CA01_PLa1_questGiver01/dia_CA01_PLa1_questGiver01_Line_00_activate.dia_CA01_PLa1_questGiver01_Line_00_activate"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA01_QuestGiver_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Talking.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA01/CA01_DIA/dia_CA01_PLa1_questGiver01/dia_CA01_PLa1_questGiver01_Line_01_activate.dia_CA01_PLa1_questGiver01_Line_01_activate"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA01_QuestGiver_Dialogue1_Paragraph3\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Talking.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA01/CA01_DIA/dia_CA01_PLa1_questGiver01/dia_CA01_PLa1_questGiver01_Line_02_activate.dia_CA01_PLa1_questGiver01_Line_02_activate"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA01"
+		}
+	},
+	{
+		"Name": "CA02_Cartographer_Dialogue01",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA04.QuestGiver.01"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA04_QuestGiver_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Excited.Villager"
+					},
+					"AudioEvent": "None"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA04_QuestGiver_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Talking.Villager"
+					},
+					"AudioEvent": "None"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA04_QuestGiver_Dialogue1_Paragraph3\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Talking.Villager"
+					},
+					"AudioEvent": "None"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA04_QuestGiver_Dialogue1_Paragraph4\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Talking.Villager"
+					},
+					"AudioEvent": "None"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA04"
+		}
+	},
+	{
+		"Name": "CA08_QuestGiver01",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA08.QuestOffer"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA08_QuestGiver_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "None"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA08_QuestGiver_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "None"
+				}
+			],
+			"DisplayInQuestJournal": false,
+			"QuestOrTaskId": ""
+		}
+	},
+	{
+		"Name": "CA08_QuestReturn",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA08.QuestReturn"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA08_QuestGiver_Dialogue1_Paragraph3\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "None"
+				}
+			],
+			"DisplayInQuestJournal": false,
+			"QuestOrTaskId": ""
+		}
+	},
+	{
+		"Name": "CA09_QuestGiver",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA09.QuestGiver"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA09_QuestGiver_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "None"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA09_QuestGiver_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "None"
+				}
+			],
+			"DisplayInQuestJournal": false,
+			"QuestOrTaskId": ""
+		}
+	},
+	{
+		"Name": "CA02_BR_QuestGiver",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.BossReplay.CA02.QuestGiver"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA02_BossReplay_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "None"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA02_B_BR"
+		}
+	},
+	{
+		"Name": "CA03_BR_QuestGiver",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.BossReplay.CA03.QuestGiver"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA03_BossReplay_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "None"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA03_BR"
+		}
+	},
+	{
+		"Name": "CA04_BR_QuestGiver",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.BossReplay.CA04.QuestGiver"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA04_BossReplay_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "None"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA04_BR"
+		}
+	},
+	{
+		"Name": "CA05_BR_QuestGiver",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.BossReplay.CA05.QuestGiver"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA05_BossReplay_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "None"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA05_BR"
+		}
+	},
+	{
+		"Name": "Pla1_S04_A_QuestGiver",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.PLa1.S04.A.QuestGiver"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_PlainsA1.csv\", \"Beekeeper_S04_A_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Curious.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Unkillable/VillagerEmotions/Voice2/sfx_villagerVoice_02_curious_Play.sfx_villagerVoice_02_curious_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_PlainsA1.csv\", \"Beekeeper_S04_A_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Unkillable/VillagerEmotions/Voice2/sfx_villagerVoice_02_distressed_Play.sfx_villagerVoice_02_distressed_Play"
+				}
+			],
+			"DisplayInQuestJournal": false,
+			"QuestOrTaskId": ""
+		}
+	},
+	{
+		"Name": "Pla1_S04_A_ReturnHoneycomb",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.PLa1.S04.A.ReturnHoneycomb"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_PlainsA1.csv\", \"Beekeeper_S04_A_Dialogue2_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Excited.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Unkillable/VillagerEmotions/Voice2/sfx_villagerVoice_02_excited_Play.sfx_villagerVoice_02_excited_Play"
+				}
+			],
+			"DisplayInQuestJournal": false,
+			"QuestOrTaskId": ""
+		}
+	},
+	{
+		"Name": "Pla1_S04_A_ReturnQuest",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.PLa1.S04.A.ReturnQuest"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_PlainsA1.csv\", \"Beekeeper_S04_A_Dialogue3_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Satisfied.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Unkillable/VillagerEmotions/Voice2/sfx_villagerVoice_02_yes_Play.sfx_villagerVoice_02_yes_Play"
+				}
+			],
+			"DisplayInQuestJournal": false,
+			"QuestOrTaskId": ""
+		}
+	}
+]

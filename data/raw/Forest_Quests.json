@@ -1,0 +1,414 @@
+{
+	"Name": "Forest_Quests",
+	"DefaultQuestData":
+	{
+		"id": "FOa1_",
+		"id_tag": "None",
+		"initial_state": "Locked",
+		"quest_type": "SideQuest",
+		"RewardData":
+		{
+			"questSize":
+			{
+				"tagName": "SW.QuestSize.Small"
+			},
+			"areaRewardScalingTag":
+			{
+				"tagName": "SW.Area.Forest.A1"
+			},
+			"firstCompletionLootSourceData": [],
+			"lootSourceData": [
+				{
+					"lootSourceTag":
+					{
+						"tagName": "None"
+					},
+					"lootTags":
+					{
+						"gameplayTags": [
+							{
+								"tagName": "SW.Area.Forest.A1"
+							},
+							{
+								"tagName": "SW.Quest.Loot.AreaDropModifier"
+							}
+						]
+					}
+				}
+			]
+		},
+		"serialize_progress_for_quest": true,
+		"is_replayable": false,
+		"replay_whole_arc": false,
+		"replay_rule": "TimeBased",
+		"replay_delay_time": 30,
+		"UnlockBannerData":
+		{
+			"unlocksQuest": false,
+			"unlocksArea": false,
+			"unlocksTownContent": false,
+			"unlocksSoulStorm": false
+		},
+		"unlock_quests_timer_override": 0,
+		"name": "",
+		"comment": "",
+		"quest_arc": "",
+		"MetaData":
+		{
+			"keyValues": []
+		},
+		"prerequisites": []
+	},
+	"Quests": [
+		{
+			"id": "FOa1_S08_A",
+			"id_tag": "SW.Quest.Id.FOa1S08A",
+			"initial_state": "Locked",
+			"quest_type": "SideQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Small"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Forest.A1"
+				},
+				"firstCompletionLootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Melee.Claws"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Rare"
+								}
+							]
+						}
+					}
+				],
+				"lootSourceData": []
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": false,
+				"unlocksArea": false,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": []
+			},
+			"prerequisites": [
+				"CA02_C"
+			],
+			"goals":
+			{
+				"name": "FOa1_S08_A_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "FOa1_S08_A_E03",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "FOa1_S08_A_E03_Dest"
+					},
+					{
+						"name": "FOa1_S08_A_I12",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "FOa1_S08_A_I12_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "FOa1_S08_A_Sequence02",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "FOa1_S08_A_E01",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"destination": "FOa1_S08_A_E01_Target"
+							},
+							{
+								"name": "FOa1_S08_A_AS01",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"arena_tag": "SW.ArenaSetup.ForestA1.FOa1.S08.A.Arena01"
+							}
+						]
+					},
+					{
+						"name": "FOa1_S08_A_Standard01",
+						"comment": "",
+						"show_progress": true,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "FOa1_S08_A_I01",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "FOa1_S08_A_I01_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							}
+						]
+					},
+					{
+						"name": "FOa1_S08_A_I05",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "FOa1_S08_A_I05_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "FOa1_S08_A_E04",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "FOa1_S08_A_E04_Dest"
+					},
+					{
+						"name": "FOa1_S08_A_I11",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "FOa1_S08_A_I11_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "FOa1_S08_A_E02",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "FOa1_S08_A_E02_Target"
+					},
+					{
+						"name": "FOa1_S08_A_AS02",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.ForestA1.FOa1.S08.A.Arena02"
+					},
+					{
+						"name": "FOa1_S08_A_Standard02",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "FOa1_S08_A_I06",
+								"comment": "Cage 4",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "FOa1_S08_A_I06_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "FOa1_S08_A_I07",
+								"comment": "Cage 5",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "FOa1_S08_A_I07_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "FOa1_S08_A_I08",
+								"comment": "Cage 6",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "FOa1_S08_A_I08_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							}
+						]
+					},
+					{
+						"name": "FOa1_S08_A_I10",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "FOa1_S08_A_I10_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					}
+				]
+			}
+		},
+		{
+			"id": "FOa1_S10_A",
+			"id_tag": "SW.Quest.Id.FOa1S10A",
+			"initial_state": "Locked",
+			"quest_type": "SideQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Small"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Forest.A1"
+				},
+				"firstCompletionLootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Armour.MushroomSet"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Rare"
+								}
+							]
+						}
+					}
+				],
+				"lootSourceData": []
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": false,
+				"unlocksArea": false,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "The Cleric's Apprentice",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": []
+			},
+			"prerequisites": [
+				"CA02_B"
+			],
+			"goals":
+			{
+				"name": "FOa1_S10_A_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "FOa1_S10_A_E01",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "FOa1_S10_A_E01_Dest"
+					},
+					{
+						"name": "FOa1_S10_A_I01",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "FOa1_S10_A_I01_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "FOa1_S10_A_A01",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.ForestA1.FOa1.S10.A.Arena01"
+					},
+					{
+						"name": "FOa1_S10_A_I02",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "FOa1_S10_A_I02_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "FOa1_S10_A_E02",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "FOa1_S10_A_E02_Dest"
+					},
+					{
+						"name": "FOa1_S10_A_SM01",
+						"comment": "spiders spawning near the satchel",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"mob_types": [
+							"SW.Mob.Spider"
+						],
+						"mob_count": 5,
+						"volume_name": "FOa1_S10_A_SM01_Vol",
+						"group_tag": ""
+					},
+					{
+						"name": "FOa1_S10_A_I03",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "FOa1_S10_A_I03_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "FOa1_S10_A_I04",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "FOa1_S10_A_I04_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					}
+				]
+			}
+		}
+	]
+}

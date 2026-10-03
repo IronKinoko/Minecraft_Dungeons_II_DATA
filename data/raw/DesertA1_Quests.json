@@ -1,0 +1,896 @@
+{
+	"Name": "DesertA1_Quests",
+	"DefaultQuestData":
+	{
+		"id": "DEa1_",
+		"id_tag": "None",
+		"initial_state": "Locked",
+		"quest_type": "SideQuest",
+		"RewardData":
+		{
+			"questSize":
+			{
+				"tagName": "SW.QuestSize.Small"
+			},
+			"areaRewardScalingTag":
+			{
+				"tagName": "SW.Area.Desert.A1"
+			},
+			"firstCompletionLootSourceData": [],
+			"lootSourceData": [
+				{
+					"lootSourceTag":
+					{
+						"tagName": "None"
+					},
+					"lootTags":
+					{
+						"gameplayTags": [
+							{
+								"tagName": "SW.Area.Desert.A1"
+							},
+							{
+								"tagName": "SW.Quest.Loot.AreaDropModifier"
+							}
+						]
+					}
+				}
+			]
+		},
+		"serialize_progress_for_quest": true,
+		"is_replayable": false,
+		"replay_whole_arc": false,
+		"replay_rule": "TimeBased",
+		"replay_delay_time": 30,
+		"UnlockBannerData":
+		{
+			"unlocksQuest": false,
+			"unlocksArea": false,
+			"unlocksTownContent": false,
+			"unlocksSoulStorm": false
+		},
+		"unlock_quests_timer_override": 0,
+		"name": "",
+		"comment": "",
+		"quest_arc": "",
+		"MetaData":
+		{
+			"keyValues": []
+		},
+		"prerequisites": []
+	},
+	"Quests": [
+		{
+			"id": "DEa1_S12_A",
+			"id_tag": "SW.Quest.Id.DEa1S12A",
+			"initial_state": "Locked",
+			"quest_type": "SideQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Large"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Desert.A1"
+				},
+				"firstCompletionLootSourceData": [],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Enchantment.SoulBlast"
+								}
+							]
+						}
+					},
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Talisman.StatusBuff"
+								}
+							]
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": false,
+				"unlocksArea": false,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": []
+			},
+			"prerequisites": [
+				"CA05"
+			],
+			"goals":
+			{
+				"name": "DEa1_S12_A_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "DEa1_S12_A_E01",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "DEa1_S12_A_E01Dest"
+					},
+					{
+						"name": "DEa1_S12_A_Standard01",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "DEa1_S12_A_I01",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "DEa1_S12_A_I01_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							}
+						]
+					},
+					{
+						"name": "DEa1_S12_A_Arena03",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.DesertA1.DEa1.S12.Tower.Tower03"
+					},
+					{
+						"name": "DEa1_S12_A_I11",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "DEa1_S12_A_I11_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "DEa1_S12_A_Standard02",
+						"comment": "",
+						"show_progress": true,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "DEa1_S12_A_Sequence02",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "DEa1_S12_A_E03",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "DEa1_S12_A_E03Dest"
+									},
+									{
+										"name": "DEa1_S12_A_E10",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "DEa1_S12_A_E10Dest"
+									},
+									{
+										"name": "DEa1_S12_A_E04",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "DEa1_S12_A_E04Dest"
+									},
+									{
+										"name": "DEa1_S12_A_Arena01",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"arena_tag": "SW.ArenaSetup.DesertA1.DEa1.S12.Tower.Tower01"
+									},
+									{
+										"name": "DEa1_S12_A_I05",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "DEa1_S12_A_I05_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							},
+							{
+								"name": "DEa1_S12_A_Sequence03",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "DEa1_S12_A_E05",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "DEa1_S12_A_E05Dest"
+									},
+									{
+										"name": "DEa1_S12_A_E06",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "DEa1_S12_A_E06Dest"
+									},
+									{
+										"name": "DEa1_S12_A_E11",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "DEa1_S12_A_E11Dest"
+									},
+									{
+										"name": "DEa1_S12_A_Arena02",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"arena_tag": "SW.ArenaSetup.DesertA1.DEa1.S12.Tower.Tower02"
+									},
+									{
+										"name": "DEa1_S12_A_I06",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "DEa1_S12_A_I06_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							},
+							{
+								"name": "DEa1_S12_A_Sequence04",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "DEa1_S12_A_E07",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "DEa1_S12_A_E07Dest"
+									},
+									{
+										"name": "DEa1_S12_A_E08",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "DEa1_S12_A_E08Dest"
+									},
+									{
+										"name": "DEa1_S12_A_SM01",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"mob_types": [
+											"SW.Mob.Pillager.SoulStated"
+										],
+										"mob_count": 1,
+										"volume_name": "DEa1_S12_A_SV01",
+										"group_tag": "DEa1_S12_A_K01_Target"
+									},
+									{
+										"name": "DEa1_S12_A_SM02",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"mob_types": [
+											"SW.Mob.Vindicator.SoulStated"
+										],
+										"mob_count": 1,
+										"volume_name": "DEa1_S12_A_SV02",
+										"group_tag": "DEa1_S12_A_K02_Target"
+									},
+									{
+										"name": "DEa1_S12_A_I07",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "DEa1_S12_A_I07_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "DEa1_S12_A_E09",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "DEa1_S12_A_E09Dest"
+					},
+					{
+						"name": "DEa1_S12_A_Sequence05",
+						"comment": "",
+						"show_progress": true,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "DEa1_S12_A_I08",
+								"comment": "",
+								"show_progress": true,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "DEa1_S12_A_I08_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "DEa1_S12_A_I09",
+								"comment": "",
+								"show_progress": true,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "DEa1_S12_A_I09_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "DEa1_S12_A_I10",
+								"comment": "",
+								"show_progress": true,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "DEa1_S12_A_I10_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							}
+						]
+					},
+					{
+						"name": "DEa1_S12_A_Arena04",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.DesertA1.DEa1.S12.Tower.Boss"
+					}
+				]
+			}
+		},
+		{
+			"id": "DEa1_S13_A",
+			"id_tag": "SW.Quest.Id.DEa1S13A",
+			"initial_state": "Locked",
+			"quest_type": "SideQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Large"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Desert.A1"
+				},
+				"firstCompletionLootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Melee.Pickaxe"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Special"
+								}
+							]
+						}
+					},
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Armour.FrostrimeSet"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Special"
+								}
+							]
+						}
+					}
+				],
+				"lootSourceData": []
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": false,
+				"unlocksArea": false,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": []
+			},
+			"prerequisites": [
+				"CA05"
+			],
+			"goals":
+			{
+				"name": "DEa1_S13_A_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "DEa1_S13_A_SM01",
+						"comment": "Spawning in the Illagers as player gets close to the entrance",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"mob_types": [
+							"SW.Mob.Vindicator",
+							"SW.Mob.Pillager"
+						],
+						"mob_count": 5,
+						"volume_name": "DEa1_S13_A_SM_SV01",
+						"group_tag": "DEa1_S13_A_K01_Enemies"
+					},
+					{
+						"name": "DEa1_S13_A_SM02",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"mob_types": [
+							"SW.Mob.Vindicator",
+							"SW.Mob.Pillager"
+						],
+						"mob_count": 5,
+						"volume_name": "DEa1_S13_A_SV02",
+						"group_tag": "DEa1_S13_A_K01_Enemies"
+					},
+					{
+						"name": "DEa1_S13_A_K01",
+						"comment": "Defeating the Illagers that were chasing the Villager",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"TaskLocationOverrideType": "OtherTask",
+						"OtherTaskId": "DEa1_S13_A_SM01",
+						"kill_target": "DEa1_S13_A_K01_Enemies",
+						"kill_target_types": [],
+						"kill_count": 10
+					},
+					{
+						"name": "DEa1_S13_A_I01",
+						"comment": "Speak to the villager about the mob you defeated.",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "DEa1_S13_A_I01_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "DEa1_S13_A_E02",
+						"comment": "Reaching the First Lot of Villagers",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "DEa1_S13_A_E02_Destination"
+					},
+					{
+						"name": "DEa1_S13_A_Standard01",
+						"comment": "Rescuing Mining Villagers",
+						"show_progress": true,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "DEa1_S13_A_I02",
+								"comment": "Rescuing Mining Villager 01",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "DEa1_S13_A_I02_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "DEa1_S13_A_I03",
+								"comment": "Rescuing Mining Villager 02",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "DEa1_S13_A_I03_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "DEa1_S13_A_I04",
+								"comment": "Rescuing Mining Villager 03",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "DEa1_S13_A_I04_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "DEa1_S13_A_I05",
+								"comment": "Rescuing Mining Villager 04",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "DEa1_S13_A_I05_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "DEa1_S13_A_I06",
+								"comment": "Rescuing Mining Villager 05",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "DEa1_S13_A_I06_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "DEa1_S13_A_I07",
+								"comment": "Rescuing Mining Villager 06",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "DEa1_S13_A_I07_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							}
+						]
+					},
+					{
+						"name": "DEa1_S13_A_E03",
+						"comment": "Reaching the Hall Entrance",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "DEa1_S13_A_E03_Destination"
+					},
+					{
+						"name": "DEa1_S13_A_E04",
+						"comment": "Reaching the Hall Interior",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"TaskLocationOverrideType": "OtherTask",
+						"OtherTaskId": "DEa1_S13_A_E03",
+						"destination": "DEa1_S13_A_E04_Destination"
+					},
+					{
+						"name": "DEa1_S13_A_I08",
+						"comment": "Interacting with Villagers in the Main Hall",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "DEa1_S13_A_I08_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "DEa1_S13_A_E05",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "DEa1_S13_A_E05_Destination"
+					},
+					{
+						"name": "DEa1_S13_A_E06",
+						"comment": "Reaching the Tower Interior",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"TaskLocationOverrideType": "LocationTag",
+						"TaskLocationTags": [
+							"SW.QuestLocation.DEa1.S13.A.E06"
+						],
+						"destination": "DEa1_S13_A_E06_Destination"
+					},
+					{
+						"name": "DEa1_S13_A_E07",
+						"comment": "Reaching the Top of the Tower",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"TaskLocationOverrideType": "LocationTag",
+						"TaskLocationTags": [
+							"SW.QuestLocation.DEa1.S13.A.E07"
+						],
+						"destination": "DEa1_S13_A_E07_Destination"
+					},
+					{
+						"name": "DEa1_S13_A_E08",
+						"comment": "Reaching the Illager Basecamp at the top of the Cliff",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "DEa1_S13_A_E08_Destination"
+					},
+					{
+						"name": "DEa1_S13_A_AS01",
+						"comment": "Arena Fight at top of Cliff",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.DesertA1.DEa1.S13.A.Arena.01"
+					},
+					{
+						"name": "DEa1_S13_A_E09",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "DEa1_S13_A_E09_Dest"
+					},
+					{
+						"name": "DEa1_S13_A_I09",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "DEa1_S13_A_I09_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					}
+				]
+			}
+		},
+		{
+			"id": "DEa1_S14_A",
+			"id_tag": "SW.Quest.Id.DEa1S14A",
+			"initial_state": "Locked",
+			"quest_type": "SideQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Small"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Desert.A1"
+				},
+				"firstCompletionLootSourceData": [],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Talisman.DropChance"
+								}
+							]
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": false,
+				"unlocksArea": false,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": []
+			},
+			"prerequisites": [
+				"CA05"
+			],
+			"goals":
+			{
+				"name": "DEa1_S14_A_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "DEa1_S14_A_E01",
+						"comment": "Get to ship entrance.",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "DEa1_S14_A_E01Dest"
+					},
+					{
+						"name": "DEa1_S14_A_E02",
+						"comment": "Arrive in the ice lagoon.",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "DEa1_S14_A_E02Dest"
+					},
+					{
+						"name": "DEa1_S14_A_E03",
+						"comment": "Find the entrance to the ice cave.",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "DEa1_S14_A_E03Dest"
+					},
+					{
+						"name": "DEa1_S14_A_I01",
+						"comment": "Interact with the ice cave gate.",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "DEa1_S14_A_I01_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "DEa1_S14_A_E04",
+						"comment": "Head to the shipwreck.",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "DEa1_S14_A_E04Dest"
+					},
+					{
+						"name": "DEa1_S14_A_E05",
+						"comment": "Head deeper into the shipwreck.",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "DEa1_S14_A_E05Dest"
+					},
+					{
+						"name": "DEa1_S14_A_Arena01",
+						"comment": "Arena drops objective.",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.DesertA1.HalfShip02.Arena"
+					},
+					{
+						"name": "DEa1_S14_A_I02",
+						"comment": "Pickup the key.",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "DEa1_S14_A_I02_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "DEa1_S14_A_E06",
+						"comment": "Head back to the ice cave gate.",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "DEa1_S14_A_E06Dest"
+					},
+					{
+						"name": "DEa1_S14_A_I03",
+						"comment": "Unlock the gate to the ice cave",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "DEa1_S14_A_I03_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "DEa1_S14_A_E07",
+						"comment": "Enter the ice cave.",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "DEa1_S14_A_E07Dest"
+					},
+					{
+						"name": "DEa1_S14_A_E08",
+						"comment": "Find the fisherman equipment.",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "DEa1_S14_A_E08Dest"
+					},
+					{
+						"name": "DEa1_S14_A_Arena02",
+						"comment": "Defeat the illagers to get the equipment.",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.DesertA1.DEa1.S14.A.FinalArena"
+					},
+					{
+						"name": "DEa1_S14_A_Standard01",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "DEa1_S14_A_I04",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "DEa1_S14_A_I04_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "DEa1_S14_A_I05",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "DEa1_S14_A_I05_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "DEa1_S14_A_I06",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "DEa1_S14_A_I06_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							}
+						]
+					},
+					{
+						"name": "DEa1_S14_A_E10",
+						"comment": "Head back to the quest giver.",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "DEa1_S14_A_E10Dest"
+					},
+					{
+						"name": "DEa1_S14_A_I07",
+						"comment": "Complete the quest by handing the equipment back.",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "DEa1_S14_A_I07_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿装备ID,待核验事项,引用
+,同 ID 词条存在不同数值定义,SW.EffectTemplate.AmmoCapacity.I
+,同 ID 词条存在不同数值定义,SW.EffectTemplate.AmmoCapacity.II
+,同 ID 词条存在不同数值定义,SW.EffectTemplate.AmmoCapacity.III
+SW.Item.Cosmetic.Cape.Soul,未在已解析掉落表中定位来源,
+SW.Item.Cosmetic.Cape.Twisted,未在已解析掉落表中定位来源,
+SW.Item.Cosmetic.Cape.Special,未在已解析掉落表中定位来源,
+SW.Item.Cosmetic.Cape.CorruptedCreeper,未在已解析掉落表中定位来源,
+SW.Item.Cosmetic.Cape.Hero,未在已解析掉落表中定位来源,
+SW.Item.Cosmetic.Cape.Mojang,未在已解析掉落表中定位来源,
+SW.Item.Cosmetic.Cape.SliceSlayer,未在已解析掉落表中定位来源,
+SW.Item.Cosmetic.Pet.Blub,未在已解析掉落表中定位来源,
+SW.Item.Cosmetic.Pet.TwistedChicken,未在已解析掉落表中定位来源,
+SW.Item.Cosmetic.Pet.SlimeSupreme,未在已解析掉落表中定位来源,

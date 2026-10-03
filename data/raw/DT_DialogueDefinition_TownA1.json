@@ -1,0 +1,408 @@
+[
+	{
+		"Name": "CA01_GateVillager",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA01.GateVillager"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA01_GateVillager_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.PointL.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA01/CA01_DIA/dia_CA01_GateVillager/dia_CA01_GateVillager_Line_00_Play.dia_CA01_GateVillager_Line_00_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA01_GateVillager_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA01/CA01_DIA/dia_CA01_GateVillager/dia_CA01_GateVillager_Line_01_Play.dia_CA01_GateVillager_Line_01_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA01_I07"
+		}
+	},
+	{
+		"Name": "CA01_GateRescue",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA01.GateRescue"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA01_GateRescue_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA01/CA01_DIA/dia_CA01_GateRescue/dia_CA01_GateRescue_Line_00_Play.dia_CA01_GateRescue_Line_00_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA01_I08"
+		}
+	},
+	{
+		"Name": "CA01_B_MerchantVillager01",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA01.B.MerchantVillager.Town"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA01_B_VillageMerchantTown_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Gifting.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA01/CA01_DIA/dia_CA01_B_MerchantVillager01/dia_CA01_B_MerchantVillager01_Line_00_Play.dia_CA01_B_MerchantVillager01_Line_00_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA01_B_VillageMerchantTown_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA01/CA01_DIA/dia_CA01_B_MerchantVillager01/dia_CA01_B_MerchantVillager01_Line_01_Play.dia_CA01_B_MerchantVillager01_Line_01_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA01_B"
+		}
+	},
+	{
+		"Name": "CA02_QuestGiver",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA02.QuestGiver.Cartographer"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA02_CartographerQuestgiver_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Concerned.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA02/CA02_DIA/dia_CA02_QuestGiver/dia_CA02_QuestGiver_Line_00_Play.dia_CA02_QuestGiver_Line_00_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA02_CartographerQuestgiver_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Talking.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA02/CA02_DIA/dia_CA02_QuestGiver/dia_CA02_QuestGiver_Line_01_Play.dia_CA02_QuestGiver_Line_01_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA02_CartographerQuestgiver_Dialogue1_Paragraph3\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Concerned.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA02/CA02_DIA/dia_CA02_QuestGiver/dia_CA02_QuestGiver_Line_02_Play.dia_CA02_QuestGiver_Line_02_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA02"
+		}
+	},
+	{
+		"Name": "CA02_C_Enchantsmith01",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA02.C.Enchantsmith.Town.01"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA02_C_EnchantsmithTown_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Curious.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA02/CA02_DIA/dia_CA02_C_Enchantsmith01/dia_CA02_C_TOa1_Enchantsmith01_Line_00_Play.dia_CA02_C_TOa1_Enchantsmith01_Line_00_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA02_C_EnchantsmithTown_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA02/CA02_DIA/dia_CA02_C_Enchantsmith01/dia_CA02_C_TOa1_Enchantsmith01_Line_01_Play.dia_CA02_C_TOa1_Enchantsmith01_Line_01_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA02_C_EnchantsmithTown_Dialogue1_Paragraph3\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA02/CA02_DIA/dia_CA02_C_Enchantsmith01/dia_CA02_C_TOa1_Enchantsmith01_Line_02_Play.dia_CA02_C_TOa1_Enchantsmith01_Line_02_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA02_C"
+		}
+	},
+	{
+		"Name": "CA02_C_Enchantsmith02",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA02.C.Enchantsmith.Town.02"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA02_C_EnchantsmithTown_Dialogue2_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Thanks.Nod"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA02/CA02_DIA/dia_CA02_C_Enchantsmith02/dia_CA02_C_TOa1_Enchantsmith02_Line_00_Play.dia_CA02_C_TOa1_Enchantsmith02_Line_00_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA02_C_EnchantsmithTown_Dialogue2_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA02/CA02_DIA/dia_CA02_C_Enchantsmith02/dia_CA02_C_TOa1_Enchantsmith02_Line_01_Play.dia_CA02_C_TOa1_Enchantsmith02_Line_01_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA02_C"
+		}
+	},
+	{
+		"Name": "CA02_B_QuestGiver",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA02.B.QuestGiver"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA02_B_CartographerQuestgiver_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Happy.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA02/CA02_DIA/dia_CA02_B_QuestGiver/dia_CA02_B_QuestGiver_Line_00_Play.dia_CA02_B_QuestGiver_Line_00_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA02_B_CartographerQuestgiver_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Talking.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA02/CA02_DIA/dia_CA02_B_QuestGiver/dia_CA02_B_QuestGiver_Line_01_Play.dia_CA02_B_QuestGiver_Line_01_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA02_B"
+		}
+	},
+	{
+		"Name": "CA03_CapturedCaretaker_01",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA03.CapturedCaretaker.01"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA03_TrappedCaretaker_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Relieved.Caretaker"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA03/CA03_DIA/dia_CA03_capturedCaretaker_01/dia_CA03_FOa1_capturedCaretaker_Line_00_activate.dia_CA03_FOa1_capturedCaretaker_Line_00_activate"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA03_TrappedCaretaker_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA03/CA03_DIA/dia_CA03_capturedCaretaker_01/dia_CA03_FOa1_capturedCaretaker_Line_01_activate.dia_CA03_FOa1_capturedCaretaker_Line_01_activate"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA03_I02"
+		}
+	},
+	{
+		"Name": "CA03_FreedCaretaker",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA03.FreedCaretaker"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA03_FreedCaretaker_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Sad.Caretaker"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA03/CA03_DIA/dia_CA03_FreedCaretaker/dia_CA03_FreedCaretaker_Line_00_Play.dia_CA03_FreedCaretaker_Line_00_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA03_FreedCaretaker_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA03/CA03_DIA/dia_CA03_FreedCaretaker/dia_CA03_FreedCaretaker_Line_01_Play.dia_CA03_FreedCaretaker_Line_01_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA03_FreedCaretaker_Dialogue1_Paragraph3\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA03/CA03_DIA/dia_CA03_FreedCaretaker/dia_CA03_FreedCaretaker_Line_02_Play.dia_CA03_FreedCaretaker_Line_02_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA03_FreedCaretaker_Dialogue1_Paragraph4\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Sad.Caretaker"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA03/CA03_DIA/dia_CA03_FreedCaretaker/dia_CA03_FreedCaretaker_Line_03_Play.dia_CA03_FreedCaretaker_Line_03_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA03_FreedCaretaker_Dialogue1_Paragraph5\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA03/CA03_DIA/dia_CA03_FreedCaretaker/dia_CA03_FreedCaretaker_Line_04_Play.dia_CA03_FreedCaretaker_Line_04_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA03"
+		}
+	},
+	{
+		"Name": "CA04_Blacksmith05",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA04.Blacksmith.05"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA04_Blacksmith01_Dialogue5_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Talking.OldVillager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA04/CA04_DIA/dia_CA04_Blacksmith05/dia_CA04_Blacksmith05_Line_00_Play.dia_CA04_Blacksmith05_Line_00_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA04"
+		}
+	},
+	{
+		"Name": "CA07_QuestGiver",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA07.QuestGiver.Cartographer"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA07_CartographerQuestgiver_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.PointL.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA07/CA07_DIA/dia_CA07_PLa2_questGiver/dia_CA07_PLa2_questGiver_Line_00_activate.dia_CA07_PLa2_questGiver_Line_00_activate"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA07_CartographerQuestgiver_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA07/CA07_DIA/dia_CA07_PLa2_questGiver/dia_CA07_PLa2_questGiver_Line_01_activate.dia_CA07_PLa2_questGiver_Line_01_activate"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA07"
+		}
+	},
+	{
+		"Name": "CA06_Cartographer_01",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA06.Cartographer.01"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA06_Cartographer01_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Excited.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA06/CA06_DIA/CA06_Cartographer_01/dia_CA06_Cartographer_01_Line_00_Play.dia_CA06_Cartographer_01_Line_00_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA06_Cartographer01_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA06/CA06_DIA/CA06_Cartographer_01/dia_CA06_Cartographer_01_Line_01_Play.dia_CA06_Cartographer_01_Line_01_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA06"
+		}
+	},
+	{
+		"Name": "CA06_Caretaker01",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA06.Caretaker"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA06_Caretaker1_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Happy.Caretaker.Toot"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA06/CA06_DIA/CA06_Caretaker01/dia_CA06_Caretaker01_Line_00_Play.dia_CA06_Caretaker01_Line_00_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA06"
+		}
+	}
+]

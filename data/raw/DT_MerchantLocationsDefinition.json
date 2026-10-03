@@ -1,0 +1,62 @@
+[
+	{
+		"Name": "TheMisguidedMerchantComplete",
+		"TypeTag":
+		{
+			"TagName": "None"
+		},
+		"Location":
+		{
+			"X": 14800,
+			"Y": -7460,
+			"Z": 4130
+		},
+		"MerchantName": "LOCTABLE(\"VendorLabels.csv\", \"vendor_village_merchant_titleshort\")",
+		"MerchantDescription": "LOCTABLE(\"VendorLabels.csv\", \"vendor_village_merchant_mappin_tooltip\")",
+		"GameStateTypeTag":
+		{
+			"TagName": "SW.GameState.Merchants.TheMisguidedMerchantComplete"
+		},
+		"MarkerType": "Merchant"
+	},
+	{
+		"Name": "TheTownEnchantsmithComplete",
+		"TypeTag":
+		{
+			"TagName": "None"
+		},
+		"Location":
+		{
+			"X": 12377.399827679914,
+			"Y": -7221.2568303705229,
+			"Z": 4170
+		},
+		"MerchantName": "LOCTABLE(\"VendorLabels.csv\", \"vendor_enchantsmith_titleshort\")",
+		"MerchantDescription": "LOCTABLE(\"VendorLabels.csv\", \"vendor_enchantsmith_mappin_tooltip\")",
+		"GameStateTypeTag":
+		{
+			"TagName": "SW.GameState.Merchants.TheTownEnchantsmithComplete"
+		},
+		"MarkerType": "Enchantsmith"
+	},
+	{
+		"Name": "TheTownBlacksmithComplete",
+		"TypeTag":
+		{
+			"TagName": "None"
+		},
+		"Location":
+		{
+			"X": 16451.924232000001,
+			"Y": -10210.710687000001,
+			"Z": 4125.0000010000003
+		},
+		"MerchantName": "LOCTABLE(\"VendorLabels.csv\", \"vendor_blacksmith_titleshort\")",
+		"MerchantDescription": "LOCTABLE(\"VendorLabels.csv\", \"vendor_blacksmith_mappin_tooltip\")",
+		"GameStateTypeTag":
+		{
+			"TagName": "SW.GameState.Merchants.TheTownBlacksmithComplete"
+		},
+		"MarkerType": "Blacksmith"
+	}
+]

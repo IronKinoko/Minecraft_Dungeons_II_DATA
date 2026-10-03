@@ -1,0 +1,3240 @@
+[
+	{
+		"Name": "Bow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Bow"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.RangedWeapon"
+				},
+				{
+					"TagName": "SW.Item.Property.Bow"
+				},
+				{
+					"TagName": "SW.Item.Property.LightWeapon"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.Bow_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Bow/T_UI_Bow_Icon.T_UI_Bow_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_Bow_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_Bow_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Crossbow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Crossbow"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.RangedWeapon"
+				},
+				{
+					"TagName": "SW.Item.Property.Crossbow"
+				},
+				{
+					"TagName": "SW.Item.Property.LightWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Fighter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.Crossbow_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Crossbow/T_UI_Crossbow_Icon.T_UI_Crossbow_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_Crossbow_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_Crossbow_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Shortbow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Shortbow"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.RangedWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Ranger"
+				},
+				{
+					"TagName": "SW.Archetype.Trickster"
+				},
+				{
+					"TagName": "SW.Item.Property.Bow"
+				},
+				{
+					"TagName": "SW.Item.Property.LightWeapon"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.Shortbow_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Shortbow/T_UI_Shortbow_Icon.T_UI_Shortbow_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_Shortbow_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_Shortbow_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Trickbow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Trickbow"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.RangedWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Trickster"
+				},
+				{
+					"TagName": "SW.Item.Property.Bow"
+				},
+				{
+					"TagName": "SW.Item.Property.LightWeapon"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+			"Modifiers": [
+				{
+					"Attribute":
+					{
+						"AttributeName": "AdditionalRicochetTargets",
+						"Attribute": "/Script/SpicewoodGAS.ATR_RangedAttack:AdditionalRicochetTargets",
+						"AttributeOwner": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.ATR_RangedAttack'"
+					},
+					"ModifierOp": "AddBase",
+					"ModifierMagnitude":
+					{
+						"MagnitudeCalculationType": "ScalableFloat",
+						"ScalableFloatMagnitude":
+						{
+							"Value": 1,
+							"Curve":
+							{
+								"CurveTable": "None",
+								"RowName": "None"
+							},
+							"RegistryType":
+							{
+								"Name": "None"
+							}
+						},
+						"AttributeBasedMagnitude":
+						{
+							"Coefficient":
+							{
+								"Value": 1,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PreMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PostMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"BackingAttribute":
+							{
+								"AttributeToCapture":
+								{
+									"AttributeName": "",
+									"Attribute": "",
+									"AttributeOwner": "None"
+								},
+								"AttributeSource": "Source",
+								"bSnapshot": false
+							},
+							"AttributeCurve":
+							{
+								"CurveTable": "None",
+								"RowName": "None"
+							},
+							"AttributeCalculationType": "AttributeMagnitude",
+							"FinalChannel": "Channel0"
+						},
+						"CustomMagnitude":
+						{
+							"CalculationClassMagnitude": "None",
+							"Coefficient":
+							{
+								"Value": 1,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PreMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PostMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"FinalLookupCurve":
+							{
+								"CurveTable": "None",
+								"RowName": "None"
+							}
+						},
+						"SetByCallerMagnitude":
+						{
+							"DataName": "None",
+							"DataTag":
+							{
+								"TagName": "None"
+							}
+						}
+					},
+					"EvaluationChannelSettings":
+					{
+						"Channel": "Channel0"
+					}
+				}
+			],
+			"AdditionalDefinitions": [
+				{
+					"Type": "InheritableOwnedTagsContainer",
+					"InheritableOwnedTagsContainer":
+					{
+						"Added":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.GameplayEffect.Property.PersistAfterDeath"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW.GameplayEffect.Property"
+								},
+								{
+									"TagName": "SW.GameplayEffect"
+								},
+								{
+									"TagName": "SW"
+								}
+							]
+						}
+					},
+					"AreStatusEffects": false
+				}
+			]
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.Trickbow_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Trickbow/T_UI_Trickbow_Icon.T_UI_Trickbow_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_Trickbow_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_Trickbow_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Longbow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Longbow"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.RangedWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Ranger"
+				},
+				{
+					"TagName": "SW.Item.Property.Bow"
+				},
+				{
+					"TagName": "SW.Item.Property.LightWeapon"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.Longbow_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Longbow/T_UI_Longbow_Icon.T_UI_Longbow_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_Longbow_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_Longbow_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "PowerBow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Powerbow"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.RangedWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Ranger"
+				},
+				{
+					"TagName": "SW.Item.Property.Bow"
+				},
+				{
+					"TagName": "SW.Item.Property.HeavyWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Fighter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.Powerbow_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Powerbow/T_UI_Powerbow_Icon.T_UI_Powerbow_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_Powerbow_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_Powerbow_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "ScatterCrossbow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.ScatterCrossbow"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.RangedWeapon"
+				},
+				{
+					"TagName": "SW.Item.Property.Crossbow"
+				},
+				{
+					"TagName": "SW.Item.Property.LightWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Summoner"
+				},
+				{
+					"TagName": "SW.Archetype.Support"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.ScatterCrossbow_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/ScatterCrossbow/T_UI_ScatterCrossbow_Icon.T_UI_ScatterCrossbow_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_ScatterCrossbow_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_ScatterCrossbow_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "HeavyCrossbow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.HeavyCrossbow"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.RangedWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Tank"
+				},
+				{
+					"TagName": "SW.Item.Property.Crossbow"
+				},
+				{
+					"TagName": "SW.Item.Property.HeavyWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Fighter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.HeavyCrossbow_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/HeavyCrossbow/T_UI_HeavyCrossbow_Icon.T_UI_HeavyCrossbow_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_HeavyCrossbow_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_HeavyCrossbow_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "DualCrossbow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.DualCrossbow"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.RangedWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Trickster"
+				},
+				{
+					"TagName": "SW.Item.Property.Crossbow"
+				},
+				{
+					"TagName": "SW.Item.Property.LightWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Mage"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.DualCrossbow_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/DualCrossbow/T_UI_DualCrossbow_Icon.T_UI_DualCrossbow_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_DualCrossbow_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_DualCrossbow_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "RapidCrossbow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.RapidCrossbow"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.RangedWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Ranger"
+				},
+				{
+					"TagName": "SW.Archetype.Trickster"
+				},
+				{
+					"TagName": "SW.Item.Property.Crossbow"
+				},
+				{
+					"TagName": "SW.Item.Property.LightWeapon"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.RapidCrossbow_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/RapidCrossbow/T_UI_RapidCrossbow_Icon.T_UI_RapidCrossbow_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_RapidCrossbow_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_RapidCrossbow_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Bow_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Bow_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.RangedWeapon"
+				},
+				{
+					"TagName": "SW.Item.Bow"
+				},
+				{
+					"TagName": "SW.Item.Property.LightWeapon"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.EagleEye.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.EagleEye"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Bow/Bow_Unique/T_UI_Bow_Unique_Icon.T_UI_Bow_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_Bow_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_Bow_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Crossbow_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Crossbow_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.RangedWeapon"
+				},
+				{
+					"TagName": "SW.Item.Crossbow"
+				},
+				{
+					"TagName": "SW.Archetype.Fighter"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.Crossbow"
+				},
+				{
+					"TagName": "SW.Item.Property.LightWeapon"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Chains.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.Chains"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Crossbow/Crossbow_Unique/T_UI_Crossbow_Unique_Icon.T_UI_Crossbow_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_Crossbow_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_Crossbow_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Shortbow_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Shortbow_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.RangedWeapon"
+				},
+				{
+					"TagName": "SW.Item.Shortbow"
+				},
+				{
+					"TagName": "SW.Archetype.Ranger"
+				},
+				{
+					"TagName": "SW.Archetype.Trickster"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.Bow"
+				},
+				{
+					"TagName": "SW.Item.Property.LightWeapon"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Sidestep.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.Sidestep"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Shortbow/Shortbow_Unique/T_UI_Shortbow_Unique_Icon.T_UI_Shortbow_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_Shortbow_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_Shortbow_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Trickbow_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Trickbow_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.RangedWeapon"
+				},
+				{
+					"TagName": "SW.Item.Trickbow"
+				},
+				{
+					"TagName": "SW.Archetype.Trickster"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.Bow"
+				},
+				{
+					"TagName": "SW.Item.Property.LightWeapon"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+			"Modifiers": [
+				{
+					"Attribute":
+					{
+						"AttributeName": "AdditionalRicochetTargets",
+						"Attribute": "/Script/SpicewoodGAS.ATR_RangedAttack:AdditionalRicochetTargets",
+						"AttributeOwner": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.ATR_RangedAttack'"
+					},
+					"ModifierOp": "AddBase",
+					"ModifierMagnitude":
+					{
+						"MagnitudeCalculationType": "ScalableFloat",
+						"ScalableFloatMagnitude":
+						{
+							"Value": 1,
+							"Curve":
+							{
+								"CurveTable": "None",
+								"RowName": "None"
+							},
+							"RegistryType":
+							{
+								"Name": "None"
+							}
+						},
+						"AttributeBasedMagnitude":
+						{
+							"Coefficient":
+							{
+								"Value": 1,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PreMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PostMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"BackingAttribute":
+							{
+								"AttributeToCapture":
+								{
+									"AttributeName": "",
+									"Attribute": "",
+									"AttributeOwner": "None"
+								},
+								"AttributeSource": "Source",
+								"bSnapshot": false
+							},
+							"AttributeCurve":
+							{
+								"CurveTable": "None",
+								"RowName": "None"
+							},
+							"AttributeCalculationType": "AttributeMagnitude",
+							"FinalChannel": "Channel0"
+						},
+						"CustomMagnitude":
+						{
+							"CalculationClassMagnitude": "None",
+							"Coefficient":
+							{
+								"Value": 1,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PreMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PostMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"FinalLookupCurve":
+							{
+								"CurveTable": "None",
+								"RowName": "None"
+							}
+						},
+						"SetByCallerMagnitude":
+						{
+							"DataName": "None",
+							"DataTag":
+							{
+								"TagName": "None"
+							}
+						}
+					},
+					"EvaluationChannelSettings":
+					{
+						"Channel": "Channel0"
+					}
+				}
+			]
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Jumpshot.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.Jumpshot"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Trickbow/T_UI_Trickbow_Unique_Icon.T_UI_Trickbow_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_Trickbow_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_Trickbow_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Longbow_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Longbow_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.RangedWeapon"
+				},
+				{
+					"TagName": "SW.Item.Longbow"
+				},
+				{
+					"TagName": "SW.Archetype.Ranger"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.Bow"
+				},
+				{
+					"TagName": "SW.Item.Property.LightWeapon"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Sniper.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.Sniper"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Longbow/Longbow_Unique/T_UI_Longbow_Unique_Icon.T_UI_Longbow_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_Longbow_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_Longbow_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "PowerBow_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Powerbow_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.RangedWeapon"
+				},
+				{
+					"TagName": "SW.Item.Powerbow"
+				},
+				{
+					"TagName": "SW.Archetype.Ranger"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.Bow"
+				},
+				{
+					"TagName": "SW.Item.Property.HeavyWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Fighter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Power.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.Power"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Powerbow/Powerbow_Unique/T_UI_Powerbow_Unique_Icon.T_UI_Powerbow_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_Powerbow_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_Powerbow_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "ScatterCrossbow_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.ScatterCrossbow_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.RangedWeapon"
+				},
+				{
+					"TagName": "SW.Item.ScatterCrossbow"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.Crossbow"
+				},
+				{
+					"TagName": "SW.Item.Property.LightWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Summoner"
+				},
+				{
+					"TagName": "SW.Archetype.Support"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.MultiShot.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.MultiShot"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/ScatterCrossbow/T_UI_ScatterCrossbow_Unique_Icon.T_UI_ScatterCrossbow_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_ScatterCrossbow_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_ScatterCrossbow_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "HeavyCrossbow_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.HeavyCrossbow_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.RangedWeapon"
+				},
+				{
+					"TagName": "SW.Item.HeavyCrossbow"
+				},
+				{
+					"TagName": "SW.Archetype.Tank"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.Crossbow"
+				},
+				{
+					"TagName": "SW.Item.Property.HeavyWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Fighter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.PointBlank.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.PointBlank"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/HeavyCrossbow/HeavyCrossbow_Unique/T_UI_HeavyCrossbow_Unique_Icon.T_UI_HeavyCrossbow_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_HeavyCrossbow_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_HeavyCrossbow_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "RapidCrossbow_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.RapidCrossbow_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.RangedWeapon"
+				},
+				{
+					"TagName": "SW.Item.RapidCrossbow"
+				},
+				{
+					"TagName": "SW.Archetype.Ranger"
+				},
+				{
+					"TagName": "SW.Archetype.Trickster"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.Crossbow"
+				},
+				{
+					"TagName": "SW.Item.Property.LightWeapon"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Hairtrigger.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.Hairtrigger"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/RapidCrossbow/RapidCrossbow_Unique/T_UI_RapidCrossbow_Unique_Icon.T_UI_RapidCrossbow_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_RapidCrossbow_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_RapidCrossbow_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "GreatBow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Greatbow"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.RangedWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Ranger"
+				},
+				{
+					"TagName": "SW.Item.Property.Bow"
+				},
+				{
+					"TagName": "SW.Item.Property.HeavyWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Fighter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+			"Modifiers": [
+				{
+					"Attribute":
+					{
+						"AttributeName": "AdditionalPenetrationTargets",
+						"Attribute": "/Script/SpicewoodGAS.ATR_RangedAttack:AdditionalPenetrationTargets",
+						"AttributeOwner": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.ATR_RangedAttack'"
+					},
+					"ModifierOp": "AddBase",
+					"ModifierMagnitude":
+					{
+						"MagnitudeCalculationType": "ScalableFloat",
+						"ScalableFloatMagnitude":
+						{
+							"Value": 1,
+							"Curve":
+							{
+								"CurveTable": "None",
+								"RowName": "None"
+							},
+							"RegistryType":
+							{
+								"Name": "None"
+							}
+						},
+						"AttributeBasedMagnitude":
+						{
+							"Coefficient":
+							{
+								"Value": 1,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PreMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PostMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"BackingAttribute":
+							{
+								"AttributeToCapture":
+								{
+									"AttributeName": "",
+									"Attribute": "",
+									"AttributeOwner": "None"
+								},
+								"AttributeSource": "Source",
+								"bSnapshot": false
+							},
+							"AttributeCurve":
+							{
+								"CurveTable": "None",
+								"RowName": "None"
+							},
+							"AttributeCalculationType": "AttributeMagnitude",
+							"FinalChannel": "Channel0"
+						},
+						"CustomMagnitude":
+						{
+							"CalculationClassMagnitude": "None",
+							"Coefficient":
+							{
+								"Value": 1,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PreMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PostMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"FinalLookupCurve":
+							{
+								"CurveTable": "None",
+								"RowName": "None"
+							}
+						},
+						"SetByCallerMagnitude":
+						{
+							"DataName": "None",
+							"DataTag":
+							{
+								"TagName": "None"
+							}
+						}
+					},
+					"EvaluationChannelSettings":
+					{
+						"Channel": "Channel0"
+					}
+				}
+			],
+			"AdditionalDefinitions": [
+				{
+					"Type": "InheritableOwnedTagsContainer",
+					"InheritableOwnedTagsContainer":
+					{
+						"Added":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.GameplayEffect.Property.PersistAfterDeath"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW.GameplayEffect.Property"
+								},
+								{
+									"TagName": "SW.GameplayEffect"
+								},
+								{
+									"TagName": "SW"
+								}
+							]
+						}
+					},
+					"AreStatusEffects": false
+				}
+			]
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.Greatbow_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Greatbow/T_UI_Greatbow_Icon.T_UI_Greatbow_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_Greatbow_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_Greatbow_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "DualCrossbow_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.DualCrossbow_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.RangedWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Trickster"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.DualCrossbow"
+				},
+				{
+					"TagName": "SW.Item.Property.Crossbow"
+				},
+				{
+					"TagName": "SW.Item.Property.LightWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Mage"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Enchantment.Dynamo.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Enchantment.Dynamo"
+				},
+				{
+					"TagName": "SW.Enchantment"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/DualCrossbow/DualCrossbow_Unique/T_UI_DualCrossbow_Unique_Icon.T_UI_DualCrossbow_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_DualCrossbow_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_DualCrossbow_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "GreatBow_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Greatbow_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.RangedWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Ranger"
+				},
+				{
+					"TagName": "SW.Archetype.Tank"
+				},
+				{
+					"TagName": "SW.Item.Property.Bow"
+				},
+				{
+					"TagName": "SW.Item.Property.HeavyWeapon"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Archetype.Fighter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+			"Modifiers": [
+				{
+					"Attribute":
+					{
+						"AttributeName": "AdditionalPenetrationTargets",
+						"Attribute": "/Script/SpicewoodGAS.ATR_RangedAttack:AdditionalPenetrationTargets",
+						"AttributeOwner": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.ATR_RangedAttack'"
+					},
+					"ModifierOp": "AddBase",
+					"ModifierMagnitude":
+					{
+						"MagnitudeCalculationType": "ScalableFloat",
+						"ScalableFloatMagnitude":
+						{
+							"Value": 1,
+							"Curve":
+							{
+								"CurveTable": "None",
+								"RowName": "None"
+							},
+							"RegistryType":
+							{
+								"Name": "None"
+							}
+						},
+						"AttributeBasedMagnitude":
+						{
+							"Coefficient":
+							{
+								"Value": 1,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PreMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PostMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"BackingAttribute":
+							{
+								"AttributeToCapture":
+								{
+									"AttributeName": "",
+									"Attribute": "",
+									"AttributeOwner": "None"
+								},
+								"AttributeSource": "Source",
+								"bSnapshot": false
+							},
+							"AttributeCurve":
+							{
+								"CurveTable": "None",
+								"RowName": "None"
+							},
+							"AttributeCalculationType": "AttributeMagnitude",
+							"FinalChannel": "Channel0"
+						},
+						"CustomMagnitude":
+						{
+							"CalculationClassMagnitude": "None",
+							"Coefficient":
+							{
+								"Value": 1,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PreMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PostMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"FinalLookupCurve":
+							{
+								"CurveTable": "None",
+								"RowName": "None"
+							}
+						},
+						"SetByCallerMagnitude":
+						{
+							"DataName": "None",
+							"DataTag":
+							{
+								"TagName": "None"
+							}
+						}
+					},
+					"EvaluationChannelSettings":
+					{
+						"Channel": "Channel0"
+					}
+				}
+			]
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Enchantment.Piercing.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Enchantment.Piercing"
+				},
+				{
+					"TagName": "SW.Enchantment"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Greatbow/Greatbow_Unique/T_UI_Greatbow_Unique_Icon.T_UI_Greatbow_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_Greatbow_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionRanged.csv\", \"SW_Item_Greatbow_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	}
+]

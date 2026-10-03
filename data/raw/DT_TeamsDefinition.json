@@ -1,0 +1,735 @@
+[
+	{
+		"Name": "DefaultTeam",
+		"TypeTag":
+		{
+			"TagName": "SW.Team.Default"
+		},
+		"TeamAlignments":
+		{
+			"FriendlyTowards":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Team.Default"
+					},
+					{
+						"TagName": "SW.Team.FrenziedMob"
+					},
+					{
+						"TagName": "SW.Team.Mob"
+					},
+					{
+						"TagName": "SW.Team.Player"
+					},
+					{
+						"TagName": "SW.Team.WorldActor"
+					},
+					{
+						"TagName": "SW.Team.Companion"
+					},
+					{
+						"TagName": "SW.Team.Bees"
+					},
+					{
+						"TagName": "SW.Team.Neutral"
+					},
+					{
+						"TagName": "SW.Team.TargetableArtifact"
+					},
+					{
+						"TagName": "SW.Team.NonTargetableArtifact"
+					},
+					{
+						"TagName": "SW.Team.HostileToEveryone"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Team"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "PlayerTeam",
+		"TypeTag":
+		{
+			"TagName": "SW.Team.Player"
+		},
+		"TeamAlignments":
+		{
+			"HostileTowards":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Team.Mob"
+					},
+					{
+						"TagName": "SW.Team.FrenziedMob"
+					},
+					{
+						"TagName": "SW.Team.WorldActor"
+					},
+					{
+						"TagName": "SW.Team.Bees"
+					},
+					{
+						"TagName": "SW.Team.Neutral"
+					},
+					{
+						"TagName": "SW.Team.HostileToEveryone"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Team"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"FriendlyTowards":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Team.Player"
+					},
+					{
+						"TagName": "SW.Team.Default"
+					},
+					{
+						"TagName": "SW.Team.Companion"
+					},
+					{
+						"TagName": "SW.Team.NonTargetableArtifact"
+					},
+					{
+						"TagName": "SW.Team.TargetableArtifact"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Team"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "MobTeam",
+		"TypeTag":
+		{
+			"TagName": "SW.Team.Mob"
+		},
+		"TeamAlignments":
+		{
+			"HostileTowards":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Team.Player"
+					},
+					{
+						"TagName": "SW.Team.Companion"
+					},
+					{
+						"TagName": "SW.Team.TargetableArtifact"
+					},
+					{
+						"TagName": "SW.Team.HostileToEveryone"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Team"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"FriendlyTowards":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Team.Mob"
+					},
+					{
+						"TagName": "SW.Team.FrenziedMob"
+					},
+					{
+						"TagName": "SW.Team.WorldActor"
+					},
+					{
+						"TagName": "SW.Team.Default"
+					},
+					{
+						"TagName": "SW.Team.Bees"
+					},
+					{
+						"TagName": "SW.Team.Neutral"
+					},
+					{
+						"TagName": "SW.Team.NonTargetableArtifact"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Team"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "FrenziedMobTeam",
+		"TypeTag":
+		{
+			"TagName": "SW.Team.FrenziedMob"
+		},
+		"TeamAlignments":
+		{
+			"HostileTowards":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Team.Mob"
+					},
+					{
+						"TagName": "SW.Team.FrenziedMob"
+					},
+					{
+						"TagName": "SW.Team.Companion"
+					},
+					{
+						"TagName": "SW.Team.Bees"
+					},
+					{
+						"TagName": "SW.Team.TargetableArtifact"
+					},
+					{
+						"TagName": "SW.Team.HostileToEveryone"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Team"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"FriendlyTowards":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Team.WorldActor"
+					},
+					{
+						"TagName": "SW.Team.Default"
+					},
+					{
+						"TagName": "SW.Team.Neutral"
+					},
+					{
+						"TagName": "SW.Team.Player"
+					},
+					{
+						"TagName": "SW.Team.NonTargetableArtifact"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Team"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "WorldActorTeam",
+		"TypeTag":
+		{
+			"TagName": "SW.Team.WorldActor"
+		},
+		"TeamAlignments":
+		{
+			"HostileTowards":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Team.HostileToEveryone"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Team"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"FriendlyTowards":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Team.FrenziedMob"
+					},
+					{
+						"TagName": "SW.Team.Mob"
+					},
+					{
+						"TagName": "SW.Team.Player"
+					},
+					{
+						"TagName": "SW.Team.WorldActor"
+					},
+					{
+						"TagName": "SW.Team.Default"
+					},
+					{
+						"TagName": "SW.Team.Companion"
+					},
+					{
+						"TagName": "SW.Team.Bees"
+					},
+					{
+						"TagName": "SW.Team.Neutral"
+					},
+					{
+						"TagName": "SW.Team.TargetableArtifact"
+					},
+					{
+						"TagName": "SW.Team.NonTargetableArtifact"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Team"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "CompanionTeam",
+		"TypeTag":
+		{
+			"TagName": "SW.Team.Companion"
+		},
+		"TeamAlignments":
+		{
+			"HostileTowards":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Team.Mob"
+					},
+					{
+						"TagName": "SW.Team.FrenziedMob"
+					},
+					{
+						"TagName": "SW.Team.HostileToEveryone"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Team"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"FriendlyTowards":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Team.Player"
+					},
+					{
+						"TagName": "SW.Team.Default"
+					},
+					{
+						"TagName": "SW.Team.WorldActor"
+					},
+					{
+						"TagName": "SW.Team.Companion"
+					},
+					{
+						"TagName": "SW.Team.Neutral"
+					},
+					{
+						"TagName": "SW.Team.Bees"
+					},
+					{
+						"TagName": "SW.Team.TargetableArtifact"
+					},
+					{
+						"TagName": "SW.Team.NonTargetableArtifact"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Team"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "BeeTeam_Neutral",
+		"TypeTag":
+		{
+			"TagName": "SW.Team.Bees"
+		},
+		"TeamAlignments":
+		{
+			"HostileTowards":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Team.HostileToEveryone"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Team"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"FriendlyTowards":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Team.Default"
+					},
+					{
+						"TagName": "SW.Team.FrenziedMob"
+					},
+					{
+						"TagName": "SW.Team.Mob"
+					},
+					{
+						"TagName": "SW.Team.Player"
+					},
+					{
+						"TagName": "SW.Team.WorldActor"
+					},
+					{
+						"TagName": "SW.Team.Companion"
+					},
+					{
+						"TagName": "SW.Team.Bees"
+					},
+					{
+						"TagName": "SW.Team.Neutral"
+					},
+					{
+						"TagName": "SW.Team.TargetableArtifact"
+					},
+					{
+						"TagName": "SW.Team.NonTargetableArtifact"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Team"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "NeutralTeam",
+		"TypeTag":
+		{
+			"TagName": "SW.Team.Neutral"
+		},
+		"TeamAlignments":
+		{
+			"HostileTowards":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Team.HostileToEveryone"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Team"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"FriendlyTowards":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Team.Default"
+					},
+					{
+						"TagName": "SW.Team.FrenziedMob"
+					},
+					{
+						"TagName": "SW.Team.Mob"
+					},
+					{
+						"TagName": "SW.Team.Player"
+					},
+					{
+						"TagName": "SW.Team.WorldActor"
+					},
+					{
+						"TagName": "SW.Team.Companion"
+					},
+					{
+						"TagName": "SW.Team.Bees"
+					},
+					{
+						"TagName": "SW.Team.Neutral"
+					},
+					{
+						"TagName": "SW.Team.TargetableArtifact"
+					},
+					{
+						"TagName": "SW.Team.NonTargetableArtifact"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Team"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "TargetableArtifactTeam",
+		"TypeTag":
+		{
+			"TagName": "SW.Team.TargetableArtifact"
+		},
+		"TeamAlignments":
+		{
+			"HostileTowards":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Team.FrenziedMob"
+					},
+					{
+						"TagName": "SW.Team.Mob"
+					},
+					{
+						"TagName": "SW.Team.HostileToEveryone"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Team"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"FriendlyTowards":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Team.Bees"
+					},
+					{
+						"TagName": "SW.Team.Companion"
+					},
+					{
+						"TagName": "SW.Team.Neutral"
+					},
+					{
+						"TagName": "SW.Team.Player"
+					},
+					{
+						"TagName": "SW.Team.WorldActor"
+					},
+					{
+						"TagName": "SW.Team.Default"
+					},
+					{
+						"TagName": "SW.Team.TargetableArtifact"
+					},
+					{
+						"TagName": "SW.Team.NonTargetableArtifact"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Team"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "NonTargetableArtifactTeam",
+		"TypeTag":
+		{
+			"TagName": "SW.Team.NonTargetableArtifact"
+		},
+		"TeamAlignments":
+		{
+			"HostileTowards":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Team.FrenziedMob"
+					},
+					{
+						"TagName": "SW.Team.Mob"
+					},
+					{
+						"TagName": "SW.Team.HostileToEveryone"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Team"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"FriendlyTowards":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Team.Bees"
+					},
+					{
+						"TagName": "SW.Team.Companion"
+					},
+					{
+						"TagName": "SW.Team.Neutral"
+					},
+					{
+						"TagName": "SW.Team.Player"
+					},
+					{
+						"TagName": "SW.Team.WorldActor"
+					},
+					{
+						"TagName": "SW.Team.Default"
+					},
+					{
+						"TagName": "SW.Team.TargetableArtifact"
+					},
+					{
+						"TagName": "SW.Team.NonTargetableArtifact"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Team"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "HostileToEveryone",
+		"TypeTag":
+		{
+			"TagName": "SW.Team.HostileToEveryone"
+		},
+		"TeamAlignments":
+		{
+			"HostileTowards":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Team.Bees"
+					},
+					{
+						"TagName": "SW.Team.Companion"
+					},
+					{
+						"TagName": "SW.Team.Default"
+					},
+					{
+						"TagName": "SW.Team.FrenziedMob"
+					},
+					{
+						"TagName": "SW.Team.HostileToEveryone"
+					},
+					{
+						"TagName": "SW.Team.Mob"
+					},
+					{
+						"TagName": "SW.Team.Neutral"
+					},
+					{
+						"TagName": "SW.Team.NonTargetableArtifact"
+					},
+					{
+						"TagName": "SW.Team.Player"
+					},
+					{
+						"TagName": "SW.Team.TargetableArtifact"
+					},
+					{
+						"TagName": "SW.Team.WorldActor"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Team"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	}
+]

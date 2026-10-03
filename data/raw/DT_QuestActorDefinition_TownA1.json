@@ -1,0 +1,58 @@
+[
+	{
+		"Name": "CA01_TownGate",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA01.TownGate"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA01/BP_CA01_TownGate.BP_CA01_TownGate_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA02_C_EnchantmentBook_Dungeon",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA02.C.EnchantmentBook.Dungeon.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA02_C/BP_CA02_C_EnchantsmithBook_Dungeon.BP_CA02_C_EnchantsmithBook_Dungeon_C"
+	}
+]

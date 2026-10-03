@@ -1,0 +1,2036 @@
+[
+	{
+		"Name": "Villager",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Villager"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Default.UnkillableMob"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Highlight.NoSilhouette"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob.Default"
+				},
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Highlight"
+				}
+			]
+		},
+		"IconReference": "None",
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Friendlies/Villager/BP_Villager.BP_Villager_C",
+		"AttributeThresholds":
+		{
+		},
+		"AttributeAdjustments":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_Roam",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.Roam"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Radius"
+						},
+						"Type": "Float",
+						"Float": 1000
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MinDelayTime"
+						},
+						"Type": "Float",
+						"Float": 1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MaxDelayTime"
+						},
+						"Type": "Float",
+						"Float": 1
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_RoamParameters",
+						"NavigationFilterOverride": "None"
+					}
+				]
+			}
+		],
+		"AIStateTree": "/Game/Spicewood/GameplayLogic/StateTrees/Archetypes/ST_Archetype_Unkillable.ST_Archetype_Unkillable",
+		"StateTreeConfiguration":
+		{
+		},
+		"StaggerAnimation": "None",
+		"StaggerContextAnimations":
+		{
+		},
+		"DeathReasons":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Friendly.Passive"
+			},
+			"Priority": 0
+		},
+		"Navigation":
+		{
+		}
+	},
+	{
+		"Name": "Villager_Baby",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.VillagerBaby"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Default.UnkillableMob"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Highlight.NoSilhouette"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob.Default"
+				},
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Highlight"
+				}
+			]
+		},
+		"IconReference": "None",
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Friendlies/Villager_Baby/BP_Villager_Baby.BP_Villager_Baby_C",
+		"AttributeThresholds":
+		{
+		},
+		"AttributeAdjustments":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_Roam",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.Roam"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Radius"
+						},
+						"Type": "Float",
+						"Float": 1000
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MinDelayTime"
+						},
+						"Type": "Float",
+						"Float": 1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MaxDelayTime"
+						},
+						"Type": "Float",
+						"Float": 1
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_RoamParameters",
+						"NavigationFilterOverride": "None"
+					}
+				]
+			}
+		],
+		"AIStateTree": "/Game/Spicewood/GameplayLogic/StateTrees/Archetypes/ST_Archetype_Unkillable.ST_Archetype_Unkillable",
+		"StateTreeConfiguration":
+		{
+		},
+		"StaggerAnimation": "None",
+		"StaggerContextAnimations":
+		{
+		},
+		"DeathReasons":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Friendly.Passive"
+			},
+			"Priority": 0
+		},
+		"Navigation":
+		{
+		}
+	},
+	{
+		"Name": "Villager_Old",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.VillagerOld"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Default.UnkillableMob"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Highlight.NoSilhouette"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob.Default"
+				},
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Highlight"
+				}
+			]
+		},
+		"IconReference": "None",
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Friendlies/Villager_Old/BP_Villager_Old.BP_Villager_Old_C",
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.MovementSpeed"
+				},
+				"Value": 150
+			}
+		],
+		"AttributeThresholds":
+		{
+		},
+		"AttributeAdjustments":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_Roam",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.Roam"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Radius"
+						},
+						"Type": "Float",
+						"Float": 1000
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MinDelayTime"
+						},
+						"Type": "Float",
+						"Float": 1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MaxDelayTime"
+						},
+						"Type": "Float",
+						"Float": 1
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_RoamParameters",
+						"NavigationFilterOverride": "None"
+					}
+				]
+			}
+		],
+		"AIStateTree": "/Game/Spicewood/GameplayLogic/StateTrees/Archetypes/ST_Archetype_Unkillable.ST_Archetype_Unkillable",
+		"StateTreeConfiguration":
+		{
+		},
+		"StaggerAnimation": "None",
+		"StaggerContextAnimations":
+		{
+		},
+		"DeathReasons":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Friendly.Passive"
+			},
+			"Priority": 0
+		},
+		"Navigation":
+		{
+		}
+	},
+	{
+		"Name": "Villager_Town",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Villager.Town"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Default.UnkillableMob"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Highlight.NoSilhouette"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob.Default"
+				},
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Highlight"
+				}
+			]
+		},
+		"IconReference": "None",
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Friendlies/Villager/_Town/Unemployed/BP_Villager_Unemployed_Town.BP_Villager_Unemployed_Town_C",
+		"AttributeThresholds":
+		{
+		},
+		"AttributeAdjustments":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_Roam",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.Roam"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Radius"
+						},
+						"Type": "Float",
+						"Float": 1000
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MinDelayTime"
+						},
+						"Type": "Float",
+						"Float": 1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MaxDelayTime"
+						},
+						"Type": "Float",
+						"Float": 1
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_RoamParameters",
+						"NavigationFilterOverride": "None"
+					}
+				]
+			}
+		],
+		"AIStateTree": "/Game/Spicewood/GameplayLogic/StateTrees/Archetypes/ST_Archetype_Unkillable.ST_Archetype_Unkillable",
+		"StateTreeConfiguration":
+		{
+		},
+		"StaggerAnimation": "None",
+		"StaggerContextAnimations":
+		{
+		},
+		"DeathReasons":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Friendly.Passive"
+			},
+			"Priority": 0
+		},
+		"Navigation":
+		{
+		}
+	},
+	{
+		"Name": "Villager_Camp",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Villager.Camp"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Default.UnkillableMob"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Highlight.NoSilhouette"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob.Default"
+				},
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Highlight"
+				}
+			]
+		},
+		"IconReference": "None",
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Friendlies/Villager/BP_Villager_Scared.BP_Villager_Scared_C",
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.MovementSpeed"
+				},
+				"Value": 600
+			}
+		],
+		"AttributeThresholds":
+		{
+		},
+		"AttributeAdjustments":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_Roam",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.Roam"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Radius"
+						},
+						"Type": "Float",
+						"Float": 1000
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MinDelayTime"
+						},
+						"Type": "Float",
+						"Float": 1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MaxDelayTime"
+						},
+						"Type": "Float",
+						"Float": 1
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_RoamParameters",
+						"NavigationFilterOverride": "None"
+					}
+				]
+			}
+		],
+		"AIStateTree": "/Game/Spicewood/GameplayLogic/StateTrees/Archetypes/ST_Archetype_Unkillable.ST_Archetype_Unkillable",
+		"StateTreeConfiguration":
+		{
+		},
+		"StaggerAnimation": "None",
+		"StaggerContextAnimations":
+		{
+		},
+		"DeathReasons":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Friendly.Passive"
+			},
+			"Priority": 0
+		},
+		"Navigation":
+		{
+		}
+	},
+	{
+		"Name": "Villager_Baby_Town",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.VillagerBaby.Town"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Default.UnkillableMob"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Highlight.NoSilhouette"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob.Default"
+				},
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Highlight"
+				}
+			]
+		},
+		"IconReference": "None",
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Friendlies/Villager_Baby/Villager_Baby_Town/BP_Villager_Baby_Child.BP_Villager_Baby_Child_C",
+		"AttributeThresholds":
+		{
+		},
+		"AttributeAdjustments":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_Roam",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.Roam"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Radius"
+						},
+						"Type": "Float",
+						"Float": 1000
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MinDelayTime"
+						},
+						"Type": "Float",
+						"Float": 1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MaxDelayTime"
+						},
+						"Type": "Float",
+						"Float": 1
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_RoamParameters",
+						"NavigationFilterOverride": "None"
+					}
+				]
+			}
+		],
+		"AIStateTree": "/Game/Spicewood/GameplayLogic/StateTrees/Archetypes/ST_Archetype_Unkillable.ST_Archetype_Unkillable",
+		"StateTreeConfiguration":
+		{
+		},
+		"StaggerAnimation": "None",
+		"StaggerContextAnimations":
+		{
+		},
+		"DeathReasons":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Friendly.Passive"
+			},
+			"Priority": 0
+		},
+		"Navigation":
+		{
+		}
+	},
+	{
+		"Name": "Villager_Baby_Forest",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.VillagerBaby.Forest"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Default.UnkillableMob"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Highlight.NoSilhouette"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob.Default"
+				},
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Highlight"
+				}
+			]
+		},
+		"IconReference": "None",
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Friendlies/Villager_Baby/Villager_Baby_Forest/BP_Villager_Baby_Forest.BP_Villager_Baby_Forest_C",
+		"AttributeThresholds":
+		{
+		},
+		"AttributeAdjustments":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_Roam",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.Roam"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Radius"
+						},
+						"Type": "Float",
+						"Float": 1000
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MinDelayTime"
+						},
+						"Type": "Float",
+						"Float": 1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MaxDelayTime"
+						},
+						"Type": "Float",
+						"Float": 1
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_RoamParameters",
+						"NavigationFilterOverride": "None"
+					}
+				]
+			}
+		],
+		"AIStateTree": "/Game/Spicewood/GameplayLogic/StateTrees/Archetypes/ST_Archetype_Unkillable.ST_Archetype_Unkillable",
+		"StateTreeConfiguration":
+		{
+		},
+		"StaggerAnimation": "None",
+		"StaggerContextAnimations":
+		{
+		},
+		"DeathReasons":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Friendly.Passive"
+			},
+			"Priority": 0
+		},
+		"Navigation":
+		{
+		}
+	},
+	{
+		"Name": "Villager_Baby_Desert",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.VillagerBaby.Desert"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Default.UnkillableMob"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Highlight.NoSilhouette"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob.Default"
+				},
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Highlight"
+				}
+			]
+		},
+		"IconReference": "None",
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Friendlies/Villager_Baby/Villager_Baby_FD/BP_Villager_Baby_FD.BP_Villager_Baby_FD_C",
+		"AttributeThresholds":
+		{
+		},
+		"AttributeAdjustments":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_Roam",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.Roam"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Radius"
+						},
+						"Type": "Float",
+						"Float": 1000
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MinDelayTime"
+						},
+						"Type": "Float",
+						"Float": 1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MaxDelayTime"
+						},
+						"Type": "Float",
+						"Float": 1
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_RoamParameters",
+						"NavigationFilterOverride": "None"
+					}
+				]
+			}
+		],
+		"AIStateTree": "/Game/Spicewood/GameplayLogic/StateTrees/Archetypes/ST_Archetype_Unkillable.ST_Archetype_Unkillable",
+		"StateTreeConfiguration":
+		{
+		},
+		"StaggerAnimation": "None",
+		"StaggerContextAnimations":
+		{
+		},
+		"DeathReasons":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Friendly.Passive"
+			},
+			"Priority": 0
+		},
+		"Navigation":
+		{
+		}
+	},
+	{
+		"Name": "Villager_Baby_Town2",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.VillagerBaby.Town2"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Default.UnkillableMob"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Highlight.NoSilhouette"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob.Default"
+				},
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Highlight"
+				}
+			]
+		},
+		"IconReference": "None",
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Friendlies/Villager_Baby/Villager_Baby_Town/BP_Villager_Town_Baby_Variant.BP_Villager_Town_Baby_Variant_C",
+		"AttributeThresholds":
+		{
+		},
+		"AttributeAdjustments":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_Roam",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.Roam"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Radius"
+						},
+						"Type": "Float",
+						"Float": 1000
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MinDelayTime"
+						},
+						"Type": "Float",
+						"Float": 1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MaxDelayTime"
+						},
+						"Type": "Float",
+						"Float": 1
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_RoamParameters",
+						"NavigationFilterOverride": "None"
+					}
+				]
+			}
+		],
+		"AIStateTree": "/Game/Spicewood/GameplayLogic/StateTrees/Archetypes/ST_Archetype_Unkillable.ST_Archetype_Unkillable",
+		"StateTreeConfiguration":
+		{
+		},
+		"StaggerAnimation": "None",
+		"StaggerContextAnimations":
+		{
+		},
+		"DeathReasons":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Friendly.Passive"
+			},
+			"Priority": 0
+		},
+		"Navigation":
+		{
+		}
+	}
+]

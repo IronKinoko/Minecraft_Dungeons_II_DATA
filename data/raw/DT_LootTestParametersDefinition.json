@@ -1,0 +1,40 @@
+[
+	{
+		"Name": "Test",
+		"TypeTag":
+		{
+			"TagName": "SW.LootTest.Test"
+		},
+		"SourceData":
+		{
+			"InputParameters": [
+				{
+					"TimesToRun": 100,
+					"SpawnLootActors": false,
+					"SourceTag":
+					{
+						"TagName": "SW.Mob.Zombie"
+					},
+					"AdditionalSourceTags": [
+						{
+							"TagName": "SW.Area.Plains.A1"
+						}
+					]
+				},
+				{
+					"TimesToRun": 100,
+					"SpawnLootActors": false,
+					"SourceTag":
+					{
+						"TagName": "SW.Mob.Skeleton"
+					},
+					"AdditionalSourceTags": [
+						{
+							"TagName": "SW.Area.Plains.A1"
+						}
+					]
+				}
+			]
+		}
+	}
+]

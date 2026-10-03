@@ -1,0 +1,642 @@
+[
+	{
+		"Name": "TOa1_S01_A_QuestGiver",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.TOa1.S01.A.QuestGiver"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_TownA1.csv\", \"SW_NPC_TOa1_S01_A_QuestGiver_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/Town/TO_S01_A/BP_TOa1_S01_A_QuestGiver.BP_TOa1_S01_A_QuestGiver_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA01_QuestGiver",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA01.QuestGiver"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_TownA1.csv\", \"SW_NPC_CA01_QuestGiver_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA01/BP_CA01_TownQuestGiver.BP_CA01_TownQuestGiver_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA01_GateVillager",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA01.GateVillager"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA01/BP_CA01_GateVillager.BP_CA01_GateVillager_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA01_GateRescue",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA01.GateRescue"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA01/BP_CA01_GateRescue.BP_CA01_GateRescue_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA01_FakeKeyGolem",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA01.FakeKeyGolem"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA01/BP_CA01_FakeKeyGolem.BP_CA01_FakeKeyGolem_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA02_QuestGiver",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA02.Questgiver"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA02/BP_CA02_QuestGiver.BP_CA02_QuestGiver_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA02_MerchantOptionalDialogueNPC",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA02.Villager.Optional.Dialogue.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA02/BP_CA02_Villager_Merchant_OptionalDialogue.BP_CA02_Villager_Merchant_OptionalDialogue_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA01_B_MerchantVillager",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA01.B.MerchantVillager.Town"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA01_B/BP_CA01_B_MerchantVillager_Town01.BP_CA01_B_MerchantVillager_Town01_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA02_C_Enchantsmtih",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA02.C.Enchantsmith.02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA02_C/BP_CA02_C_Enchantsmith_Town01.BP_CA02_C_Enchantsmith_Town01_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA03_QuestGiver",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA03.QuestGiver"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA03/BP_CA03_QuestGiver.BP_CA03_QuestGiver_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA03_Caretaker01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA03.Caretaker.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA03/BP_CA03_Caretaker_01.BP_CA03_Caretaker_01_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA03_Caretaker02",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA03.Caretaker.02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA03/BP_CA03_Caretaker_02.BP_CA03_Caretaker_02_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA07_QuestGiver",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA07.QuestGiver.Cartographer"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA07/BP_CA07_QuestGiver_Cart.BP_CA07_QuestGiver_Cart_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA06_Caretaker_Decor01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA06.Caretaker.Decor.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA06/BP_CA06_Caretaker_Decor01.BP_CA06_Caretaker_Decor01_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	}
+]

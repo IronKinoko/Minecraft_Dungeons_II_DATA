@@ -1,0 +1,24 @@
+[
+	{
+		"Name": "Camp",
+		"GameStateType":
+		{
+			"TagName": "SW.GameState.CampIntroQuestActive"
+		},
+		"TeleportPoint":
+		{
+			"TagName": "SW.TeleportPoint.Camp.Start"
+		}
+	},
+	{
+		"Name": "Town",
+		"GameStateType":
+		{
+			"TagName": "SW.GameState.CampIntroQuestComplete"
+		},
+		"TeleportPoint":
+		{
+			"TagName": "SW.TeleportPoint.Town.DefaultSpawn"
+		}
+	}
+]

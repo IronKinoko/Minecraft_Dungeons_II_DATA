@@ -1,0 +1,15 @@
+[
+	{
+		"Name": "SoulStorm",
+		"TypeTag":
+		{
+			"TagName": "SW.AreaModification.SoulStorm"
+		},
+		"AreaModificationData":
+		{
+			"AreaThreatOverride": 1,
+			"RecommendedThreatOffset": 0,
+			"MobBudgetMultiplier": 1
+		}
+	}
+]

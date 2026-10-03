@@ -1,0 +1,1986 @@
+[
+	{
+		"Name": "NewRow",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity"
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_0",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Dungeons"
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_1",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Dungeons.DeepDarkT1"
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_2",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Dungeons.DeepDarkT1.Chests"
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_3",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Dungeons.DeepDarkT1.Pots"
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_4",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Dungeons.DeepDarkT1.Pots.1"
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 0.6,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_5",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Dungeons.DeepDarkT1.Pots.2"
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 0.6,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_6",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Dungeons.DeepDarkT1.Pots.3"
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 0.6,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_7",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Dungeons.DeepDarkT1.Pots.4"
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 0.6,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_8",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Dungeons.DeepDarkT1.Pots.5"
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 0.6,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "StorminatorBaseID",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Storminator"
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_9",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Plains.A1.Storminator.1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Plains.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_10",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Plains.A1.Storminator.2"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Plains.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_11",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Plains.A1.Storminator.3"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Plains.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_12",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Plains.A1.Storminator.4"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Plains.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_13",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Plains.A1.Storminator.5"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Plains.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_170",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Plains.A2.Storminator.1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Plains.A2"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_171",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Plains.A2.Storminator.2"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Plains.A2"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_172",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Plains.A2.Storminator.3"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Plains.A2"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_173",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Plains.A2.Storminator.4"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Plains.A2"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_174",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Plains.A2.Storminator.5"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Plains.A2"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_175",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Plains.A2.Storminator.6"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Plains.A2"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_176",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Plains.A2.Storminator.7"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Plains.A2"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_177",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Plains.A2.Storminator.8"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Plains.A2"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_190",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Forest.A1.Storminator.1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Forest.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_191",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Forest.A1.Storminator.2"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Forest.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_192",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Forest.A1.Storminator.3"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Forest.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_193",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Forest.A1.Storminator.4"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Forest.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_194",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Forest.A1.Storminator.5"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Forest.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_195",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Forest.A1.Storminator.6"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Forest.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_196",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Forest.A1.Storminator.7"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Forest.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_210",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Meadow.A1.Storminator.1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Meadow.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_211",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Meadow.A1.Storminator.2"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Meadow.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_212",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Meadow.A1.Storminator.3"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Meadow.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_213",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Meadow.A1.Storminator.4"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Meadow.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_214",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Meadow.A1.Storminator.5"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Meadow.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_215",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Meadow.A1.Storminator.6"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Meadow.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_216",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Meadow.A1.Storminator.7"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Meadow.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_217",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Meadow.A1.Storminator.8"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Meadow.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_230",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Meadow.A2.Storminator.1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Meadow.A2"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_231",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Meadow.A2.Storminator.2"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Meadow.A2"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_232",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Meadow.A2.Storminator.3"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Meadow.A2"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_233",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Meadow.A2.Storminator.4"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Meadow.A2"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_234",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Meadow.A2.Storminator.5"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Meadow.A2"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_235",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Meadow.A2.Storminator.6"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Meadow.A2"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_237",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Meadow.A2.Storminator.7"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Meadow.A2"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_25",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Desert.A1.Storminator.1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Desert.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_26",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Desert.A1.Storminator.2"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Desert.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_27",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Desert.A1.Storminator.3"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Desert.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_28",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Desert.A1.Storminator.4"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Desert.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_29",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Desert.A1.Storminator.5"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Desert.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_30",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Desert.A1.Storminator.6"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Desert.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_31",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Desert.A1.Storminator.7"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Desert.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_32",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Desert.A1.Storminator.8"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Desert.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_273",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Carapace.A1.Storminator.1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Carapace.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_274",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Carapace.A1.Storminator.2"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Carapace.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_275",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Carapace.A1.Storminator.3"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Carapace.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_276",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Carapace.A1.Storminator.4"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Carapace.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_277",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Carapace.A1.Storminator.5"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Carapace.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_278",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Carapace.A1.Storminator.6"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Carapace.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_279",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Carapace.A1.Storminator.7"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Carapace.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_2710",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Carapace.A1.Storminator.8"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Carapace.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_2811",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Carapace.A1.Storminator.9"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnIdentity.Storminator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnIdentity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 1,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "SW.Area.Carapace.A1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_14",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnIdentity.Arena.Randomizer"
+		},
+		"SpawnIdentityData":
+		{
+			"SpawnChance": 0.4,
+			"MaxSpawns": -1,
+			"ForceSpawnThreshold": -1,
+			"UseParentHistory": false,
+			"AreaOwnership":
+			{
+				"TagName": "None"
+			}
+		}
+	}
+]

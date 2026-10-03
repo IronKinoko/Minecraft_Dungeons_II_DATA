@@ -1,0 +1,102 @@
+[
+	{
+		"Name": "SW.UI.Onboarding.Panel.Blacksmith.Overview",
+		"ContentWidget": "/SpicewoodUI/Spicewood/UI/Widget/Onboarding/PanelContent/Blacksmith/W_BlacksmithPreviewPanelContent.W_BlacksmithPreviewPanelContent_C",
+		"RepeatIndefinitely": false,
+		"ShowCount": 1,
+		"Lifetime": 0,
+		"UnlockedTutorials": [
+			{
+				"TagName": "SW.UI.TutorialLog.Merchants.Blacksmith"
+			}
+		]
+	},
+	{
+		"Name": "SW.UI.Onboarding.Panel.Enchantsmith.Overview",
+		"ContentWidget": "/SpicewoodUI/Spicewood/UI/Widget/Onboarding/PanelContent/Enchantsmith/W_EnchantsmithPreviewPanelContent.W_EnchantsmithPreviewPanelContent_C",
+		"RepeatIndefinitely": false,
+		"ShowCount": 1,
+		"Lifetime": 0,
+		"UnlockedTutorials": [
+			{
+				"TagName": "SW.UI.TutorialLog.Merchants.Enchantsmith"
+			}
+		]
+	},
+	{
+		"Name": "SW.UI.Onboarding.Panel.Inventory.Salvage.Overview",
+		"ContentWidget": "/SpicewoodUI/Spicewood/UI/Widget/Onboarding/PanelContent/Salvage/W_SalvagePanelContent.W_SalvagePanelContent_C",
+		"RepeatIndefinitely": false,
+		"ShowCount": 1,
+		"Lifetime": 0,
+		"UnlockedTutorials": []
+	},
+	{
+		"Name": "SW.UI.Onboarding.Panel.VillageMerchant.Overview",
+		"ContentWidget": "/SpicewoodUI/Spicewood/UI/Widget/Onboarding/PanelContent/VillageMerchant/W_VillageMerchantPreviewPanelContent.W_VillageMerchantPreviewPanelContent_C",
+		"RepeatIndefinitely": false,
+		"ShowCount": 1,
+		"Lifetime": 0,
+		"UnlockedTutorials": [
+			{
+				"TagName": "SW.UI.TutorialLog.Merchants.VillageMerchant"
+			}
+		]
+	},
+	{
+		"Name": "SW.UI.Onboarding.Panel.TownRevival.Overview",
+		"ContentWidget": "/SpicewoodUI/Spicewood/UI/Widget/Onboarding/PanelContent/TownRevival/W_TownRevivalPanelContent.W_TownRevivalPanelContent_C",
+		"RepeatIndefinitely": false,
+		"ShowCount": 1,
+		"Lifetime": 0,
+		"UnlockedTutorials": [
+			{
+				"TagName": "SW.UI.TutorialLog.Navigation.TeleportStatue"
+			}
+		]
+	},
+	{
+		"Name": "SW.UI.Onboarding.Panel.SoulStorm.Overview",
+		"ContentWidget": "/SpicewoodUI/Spicewood/UI/Widget/Onboarding/PanelContent/SoulStorm/W_SoulStormPanelContent.W_SoulStormPanelContent_C",
+		"RepeatIndefinitely": false,
+		"ShowCount": 1,
+		"Lifetime": 0,
+		"UnlockedTutorials": [
+			{
+				"TagName": "SW.UI.TutorialLog.Gameplay.SoulStorm"
+			}
+		]
+	},
+	{
+		"Name": "SW.UI.Onboarding.Panel.Endgame.Overview",
+		"ContentWidget": "/SpicewoodUI/Spicewood/UI/Widget/Onboarding/PanelContent/Endgame/W_EndgamePanelContent.W_EndgamePanelContent_C",
+		"RepeatIndefinitely": false,
+		"ShowCount": 1,
+		"Lifetime": 0,
+		"UnlockedTutorials": [
+			{
+				"TagName": "SW.UI.TutorialLog.Gameplay.SoulStorm"
+			}
+		]
+	},
+	{
+		"Name": "SW.UI.Onboarding.Panel.Talisman.Overview",
+		"ContentWidget": "/SpicewoodUI/Spicewood/UI/Widget/Onboarding/PanelContent/Talisman/W_TalismanPreviewPanelContent.W_TalismanPreviewPanelContent_C",
+		"RepeatIndefinitely": false,
+		"ShowCount": 1,
+		"Lifetime": 0,
+		"UnlockedTutorials": [
+			{
+				"TagName": "SW.UI.TutorialLog.SpecialGear.Talismans"
+			}
+		]
+	},
+	{
+		"Name": "SW.UI.Onboarding.Panel.Talisman.SecretTalismans",
+		"ContentWidget": "/SpicewoodUI/Spicewood/UI/Widget/Onboarding/PanelContent/Talisman/W_SecretTalismansPanelContent.W_SecretTalismansPanelContent_C",
+		"RepeatIndefinitely": false,
+		"ShowCount": 1,
+		"Lifetime": 0,
+		"UnlockedTutorials": []
+	}
+]

@@ -1,0 +1,30 @@
+[
+	{
+		"Name": "NewRow",
+		"TypeTag":
+		{
+			"TagName": "SW.Transaction"
+		},
+		"Transaction":
+		{
+			"Input": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Item.Currency.Emerald"
+					},
+					"Value": 5
+				}
+			],
+			"Output": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Item.Pike"
+					},
+					"Value": 2
+				}
+			]
+		}
+	}
+]

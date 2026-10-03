@@ -1,0 +1,618 @@
+{
+	"Name": "CarapaceA1_Quests",
+	"DefaultQuestData":
+	{
+		"id": "CAa1_",
+		"id_tag": "None",
+		"initial_state": "Locked",
+		"quest_type": "SideQuest",
+		"RewardData":
+		{
+			"questSize":
+			{
+				"tagName": "SW.QuestSize.Small"
+			},
+			"areaRewardScalingTag":
+			{
+				"tagName": "SW.Area.Carapace.A1"
+			},
+			"firstCompletionLootSourceData": [],
+			"lootSourceData": [
+				{
+					"lootSourceTag":
+					{
+						"tagName": "None"
+					},
+					"lootTags":
+					{
+						"gameplayTags": [
+							{
+								"tagName": "SW.Area.Carapace.A1"
+							},
+							{
+								"tagName": "SW.Quest.Loot.AreaDropModifier"
+							}
+						]
+					}
+				}
+			]
+		},
+		"serialize_progress_for_quest": true,
+		"is_replayable": false,
+		"replay_whole_arc": false,
+		"replay_rule": "TimeBased",
+		"replay_delay_time": 30,
+		"UnlockBannerData":
+		{
+			"unlocksQuest": false,
+			"unlocksArea": false,
+			"unlocksTownContent": false,
+			"unlocksSoulStorm": false
+		},
+		"unlock_quests_timer_override": 0,
+		"name": "",
+		"comment": "",
+		"quest_arc": "",
+		"MetaData":
+		{
+			"keyValues": []
+		},
+		"prerequisites": []
+	},
+	"Quests": [
+		{
+			"id": "CAa1_S03_A",
+			"id_tag": "SW.Quest.Id.CAa1S03A",
+			"initial_state": "Locked",
+			"quest_type": "SideQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Large"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Carapace.A1"
+				},
+				"firstCompletionLootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Ranged.PowerBowUnique_01"
+								}
+							]
+						}
+					}
+				],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Talisman.ArtifactCooldown"
+								}
+							]
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": false,
+				"unlocksArea": false,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": []
+			},
+			"prerequisites": [
+				"CA09"
+			],
+			"goals":
+			{
+				"name": "CAa1_S03_A_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "CAa1_S03_A_Standard01",
+						"comment": "",
+						"show_progress": true,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "CAa1_S03_A_Sequence02",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CAa1_S03_A_E01",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "CAa1_S03_A_E01_Dest"
+									},
+									{
+										"name": "CAa1_S03_A_Arena01",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"arena_tag": "SW.ArenaSetup.Carapace.CAa1.S03.Arena01"
+									}
+								]
+							},
+							{
+								"name": "CAa1_S03_A_Sequence03",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CAa1_S03_A_E02",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "CAa1_S03_A_E02_Dest"
+									},
+									{
+										"name": "CAa1_S03_A_Arena02",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"arena_tag": "SW.ArenaSetup.Carapace.CAa1.S03.Arena02"
+									}
+								]
+							},
+							{
+								"name": "CAa1_S03_A_Sequence04",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CAa1_S03_A_E03",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "CAa1_S03_A_E03_Dest"
+									},
+									{
+										"name": "CAa1_S03_A_Arena03",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"arena_tag": "SW.ArenaSetup.Carapace.CAa1.S03.Arena03"
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "CAa1_S03_A_Sequence05",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "CAa1_S03_A_E04",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"destination": "CAa1_S03_A_E04_Dest"
+							},
+							{
+								"name": "CAa1_S03_A_Arena04",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"arena_tag": "SW.ArenaSetup.Carapace.CAa1.S03.Arena04"
+							}
+						]
+					},
+					{
+						"name": "CAa1_S03_A_E05",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CAa1_S03_A_E05_Dest"
+					},
+					{
+						"name": "CAa1_S03_A_I02",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CAa1_S03_A_I02_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					}
+				]
+			}
+		},
+		{
+			"id": "CAa1_S02_A",
+			"id_tag": "SW.Quest.Id.CAa1S02A",
+			"initial_state": "Locked",
+			"quest_type": "SideQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Small"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Carapace.A1"
+				},
+				"firstCompletionLootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Armour.MysticSetUnique_01"
+								}
+							]
+						}
+					}
+				],
+				"lootSourceData": []
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": false,
+				"unlocksArea": false,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": []
+			},
+			"prerequisites": [
+				"CA09"
+			],
+			"goals":
+			{
+				"name": "CAa1_S02_A_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "CAa1_S02_A_Standard01",
+						"comment": "",
+						"show_progress": true,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "CAa1_S02_A_Sequence02",
+								"comment": "",
+								"show_progress": true,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CAa1_S02_A_E01",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "CAa1_S02_A_E01_Dest"
+									},
+									{
+										"name": "CAa1_S02_A_Standard02",
+										"comment": "",
+										"show_progress": true,
+										"bResetProgressIfActiveOnLoad": false,
+										"type": "Standard",
+										"subgoals": [
+											{
+												"name": "CAa1_S02_A_I01",
+												"comment": "",
+												"show_progress": false,
+												"bResetProgressIfActiveOnLoad": false,
+												"interact_target": "CAa1_S02_A_I01_Target",
+												"howmany_count": 1,
+												"disable_interaction": true
+											},
+											{
+												"name": "CAa1_S02_A_I02",
+												"comment": "",
+												"show_progress": false,
+												"bResetProgressIfActiveOnLoad": false,
+												"interact_target": "CAa1_S02_A_I02_Target",
+												"howmany_count": 1,
+												"disable_interaction": true
+											},
+											{
+												"name": "CAa1_S02_A_I03",
+												"comment": "",
+												"show_progress": false,
+												"bResetProgressIfActiveOnLoad": false,
+												"interact_target": "CAa1_S02_A_I03_Target",
+												"howmany_count": 1,
+												"disable_interaction": true
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "CAa1_S02_A_Sequence03",
+								"comment": "",
+								"show_progress": true,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CAa1_S02_A_E02",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "CAa1_S02_A_E02_Dest"
+									},
+									{
+										"name": "CAa1_S02_A_Standard03",
+										"comment": "",
+										"show_progress": true,
+										"bResetProgressIfActiveOnLoad": false,
+										"type": "Standard",
+										"subgoals": [
+											{
+												"name": "CAa1_S02_A_I04",
+												"comment": "",
+												"show_progress": false,
+												"bResetProgressIfActiveOnLoad": false,
+												"interact_target": "CAa1_S02_A_I04_Target",
+												"howmany_count": 1,
+												"disable_interaction": true
+											},
+											{
+												"name": "CAa1_S02_A_I05",
+												"comment": "",
+												"show_progress": false,
+												"bResetProgressIfActiveOnLoad": false,
+												"interact_target": "CAa1_S02_A_I05_Target",
+												"howmany_count": 1,
+												"disable_interaction": true
+											},
+											{
+												"name": "CAa1_S02_A_I06",
+												"comment": "",
+												"show_progress": false,
+												"bResetProgressIfActiveOnLoad": false,
+												"interact_target": "CAa1_S02_A_I06_Target",
+												"howmany_count": 1,
+												"disable_interaction": true
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "CAa1_S02_A_Standard04",
+						"comment": "",
+						"show_progress": true,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "CAa1_S02_A_Sequence04",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CAa1_S02_A_E04",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "CAa1_S02_A_E04_Dest"
+									},
+									{
+										"name": "CAa1_S02_A_SM01",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"mob_types": [
+											"SW.Mob.Vindicator",
+											"SW.Mob.Pillager",
+											"SW.Mob.Enchanter"
+										],
+										"mob_count": 7,
+										"volume_name": "CAa1_S02_A_SV01",
+										"group_tag": "CAa1_S02_A_Enemies_K01"
+									},
+									{
+										"name": "CAa1_S02_A_K01",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"TaskLocationOverrideType": "OtherTask",
+										"OtherTaskId": "CAa1_S02_A_SM01",
+										"kill_target": "CAa1_S02_A_Enemies_K01",
+										"kill_target_types": [],
+										"kill_count": 7
+									},
+									{
+										"name": "CAa1_S02_A_I08",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "CAa1_S02_A_I08_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							},
+							{
+								"name": "CAa1_S02_A_Sequence05",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CAa1_S02_A_E05",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "CAa1_S02_A_E05_Dest"
+									},
+									{
+										"name": "CAa1_S02_A_SM02",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"mob_types": [
+											"SW.Mob.Vindicator",
+											"SW.Mob.Pillager",
+											"SW.Mob.Enchanter"
+										],
+										"mob_count": 7,
+										"volume_name": "CAa1_S02_A_SV02",
+										"group_tag": "CAa1_S02_A_Enemies_K02"
+									},
+									{
+										"name": "CAa1_S02_A_K02",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"TaskLocationOverrideType": "OtherTask",
+										"OtherTaskId": "CAa1_S02_A_SM02",
+										"kill_target": "CAa1_S02_A_Enemies_K02",
+										"kill_target_types": [],
+										"kill_count": 7
+									},
+									{
+										"name": "CAa1_S02_A_I09",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "CAa1_S02_A_I09_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							},
+							{
+								"name": "CAa1_S02_A_Sequence06",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CAa1_S02_A_E07",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "CAa1_S02_A_E07_Dest"
+									},
+									{
+										"name": "CAa1_S02_A_SM03",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"mob_types": [
+											"SW.Mob.Vindicator",
+											"SW.Mob.Pillager",
+											"SW.Mob.Enchanter"
+										],
+										"mob_count": 7,
+										"volume_name": "CAa1_S02_A_SV03",
+										"group_tag": "CAa1_S02_A_Enemies_K03"
+									},
+									{
+										"name": "CAa1_S02_A_K03",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"TaskLocationOverrideType": "OtherTask",
+										"OtherTaskId": "CAa1_S02_A_SM03",
+										"kill_target": "CAa1_S02_A_Enemies_K03",
+										"kill_target_types": [],
+										"kill_count": 7
+									},
+									{
+										"name": "CAa1_S02_A_I11",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "CAa1_S02_A_I11_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "CAa1_S02_A_E06",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CAa1_S02_A_E06_Dest"
+					},
+					{
+						"name": "CAa1_S02_A_I10",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CAa1_S02_A_I10_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					}
+				]
+			}
+		}
+	]
+}

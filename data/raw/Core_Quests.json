@@ -1,0 +1,6829 @@
+{
+	"Name": "Core_Quests",
+	"DefaultQuestData":
+	{
+		"id": "CA",
+		"id_tag": "None",
+		"initial_state": "Locked",
+		"quest_type": "CoreQuest",
+		"RewardData":
+		{
+			"questSize":
+			{
+				"tagName": "SW.QuestSize.Small"
+			},
+			"areaRewardScalingTag":
+			{
+				"tagName": "SW.Area"
+			},
+			"firstCompletionLootSourceData": [],
+			"lootSourceData": []
+		},
+		"serialize_progress_for_quest": true,
+		"is_replayable": false,
+		"replay_whole_arc": false,
+		"replay_rule": "TimeBased",
+		"replay_delay_time": 30,
+		"UnlockBannerData":
+		{
+			"unlocksQuest": false,
+			"unlocksArea": false,
+			"unlocksTownContent": false,
+			"unlocksSoulStorm": false
+		},
+		"unlock_quests_timer_override": 0,
+		"name": "",
+		"comment": "",
+		"quest_arc": "",
+		"MetaData":
+		{
+			"keyValues": []
+		},
+		"prerequisites": []
+	},
+	"Quests": [
+		{
+			"id": "CA01",
+			"id_tag": "SW.Quest.Id.CA01",
+			"initial_state": "Locked",
+			"quest_type": "CoreQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Medium"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Plains.A1"
+				},
+				"firstCompletionLootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Artifact.Honeypot"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Common"
+								}
+							]
+						}
+					}
+				],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Talisman.Healthboost"
+								}
+							]
+						}
+					},
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.AreaDropModifier"
+								},
+								{
+									"tagName": "SW.Area.Plains.A1"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Common"
+								}
+							]
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": true,
+				"unlocksArea": true,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "Plains A1: Core Quest",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": []
+			},
+			"prerequisites": [
+				"CA00"
+			],
+			"goals":
+			{
+				"name": "CA01_Sequence01",
+				"comment": "",
+				"show_progress": true,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "CA01_E14",
+						"comment": "Reach the town gate",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"destination": "CA01_E14_Destination"
+					},
+					{
+						"name": "CA01_I07",
+						"comment": "Speak to the villager",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA01_I07_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA01_E12",
+						"comment": "Find Honeycomb Farm",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"destination": "CA01_E12_Destination"
+					},
+					{
+						"name": "CA01_E13",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"destination": "CA01_E13_Destination"
+					},
+					{
+						"name": "CA01_E10",
+						"comment": "Open the Gate",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA01_E10_Destination"
+					},
+					{
+						"name": "CA01_AS01",
+						"comment": "Fight illagers trying to get into town",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.PlainsA1.CA01.AS01"
+					},
+					{
+						"name": "CA01_I08",
+						"comment": "talk with villager outside gate",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA01_I08_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA01_E01",
+						"comment": "Reach the Farm",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA01_E01_Destination"
+					},
+					{
+						"name": "CA01_SM02",
+						"comment": "Spawn Mobs harassing villagers at barn",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"mob_types": [
+							"SW.Mob.Vindicator",
+							"SW.Mob.Pillager"
+						],
+						"mob_count": 5,
+						"volume_name": "CA01_SM02_Vol",
+						"group_tag": "CA01_SM02_Mobs"
+					},
+					{
+						"name": "CA01_K02",
+						"comment": "defeat the illagers harrassing villagers",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"TaskLocationOverrideType": "OtherTask",
+						"OtherTaskId": "CA01_E01",
+						"kill_target": "CA01_SM02_Mobs",
+						"kill_target_types": [
+							"SW.Mob.Pillager",
+							"SW.Mob.Vindicator"
+						],
+						"kill_count": 5
+					},
+					{
+						"name": "CA01_I02",
+						"comment": "speak to villager outside barn",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA01_I02_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA01_Sequence03",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "CA01_E02",
+								"comment": "find cropfields",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"destination": "CA01_E02_Destination"
+							},
+							{
+								"name": "CA01_SM03",
+								"comment": "spawn mobs near crops",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"mob_types": [
+									"SW.Mob.Zombie.SoulStated"
+								],
+								"mob_count": 2,
+								"volume_name": "CA01_SM03_Vol",
+								"group_tag": "CA01_SM03_Group"
+							},
+							{
+								"name": "CA01_SM06",
+								"comment": "spawn mobs near crops",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"mob_types": [
+									"SW.Mob.Zombie"
+								],
+								"mob_count": 8,
+								"volume_name": "CA01_SM03_Vol",
+								"group_tag": "CA01_SM06_Group"
+							},
+							{
+								"name": "CA01_K03",
+								"comment": "defeat mobs near crops",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"TaskLocationOverrideType": "OtherTask",
+								"OtherTaskId": "CA01_E02",
+								"kill_target": "CA01_SM03_Group",
+								"kill_target_types": [
+									"SW.Mob.Zombie.SoulStated"
+								],
+								"kill_count": 2
+							}
+						]
+					},
+					{
+						"name": "CA01_E03",
+						"comment": "head down towards bridge",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"destination": "CA01_E03_Destination"
+					},
+					{
+						"name": "CA01_I03",
+						"comment": "get update from villager that rift has spawned",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"interact_target": "CA01_I03_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA01_PC01",
+						"comment": "evoker opening rift cutscene",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"cutscene_gameplay_tag": "SW.UI.Cutscene.Cutscenes.CS30"
+					},
+					{
+						"name": "CA01_AS03",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.PlainsA1.CA01.PreFightArena"
+					},
+					{
+						"name": "CA01_I04",
+						"comment": "Player teleports into MeadowR0",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA01_I04_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA01_PC03",
+						"comment": "meadow intro miniscene",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"cutscene_gameplay_tag": "SW.UI.Cutscene.MiniScene.MS03"
+					},
+					{
+						"name": "CA01_Sequence02",
+						"comment": "Wrapping Meadow R0 Tasks in Sequence List",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "CA01_E06",
+								"comment": "explore new biome",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"destination": "CA01_E06_Destination"
+							},
+							{
+								"name": "CA01_AS02",
+								"comment": "Arena Fight at end of R0",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"arena_tag": "SW.ArenaSetup.MeadowR0.LevelEndArena"
+							}
+						]
+					},
+					{
+						"name": "CA01_E07",
+						"comment": "Go back",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"TaskLocationOverrideType": "LocationTag",
+						"TaskLocationTags": [
+							"SW.QuestLocation.CA01.E07"
+						],
+						"destination": "CA01_E07_Destination"
+					},
+					{
+						"name": "CA01_I05",
+						"comment": "talk to Villager",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA01_I05_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					}
+				]
+			}
+		},
+		{
+			"id": "CA02",
+			"id_tag": "SW.Quest.Id.CA02",
+			"initial_state": "Locked",
+			"quest_type": "CoreQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Large"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Forest.A1"
+				},
+				"firstCompletionLootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Melee.Axe"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Rare"
+								}
+							]
+						}
+					}
+				],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Talisman.Companion.Wolf"
+								}
+							]
+						}
+					},
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.AreaDropModifier"
+								},
+								{
+									"tagName": "SW.Area.Forest.A1"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Common"
+								}
+							]
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": true,
+				"unlocksArea": true,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "Following the Trail",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": []
+			},
+			"prerequisites": [
+				"CA01_B"
+			],
+			"goals":
+			{
+				"name": "CA02_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "CA02_E08",
+						"comment": "go to bridge",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA02_E08_Destination"
+					},
+					{
+						"name": "CA02_I09",
+						"comment": "talk to villager",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA02_I09_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA02_I08",
+						"comment": "Using the Lever",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA02_I08_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA02_E02",
+						"comment": "Reaching Little Howl",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA02_E02_Destination"
+					},
+					{
+						"name": "CA02_I01",
+						"comment": "Opening the Gate",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA02_I01_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA02_E03",
+						"comment": "Investigating the Forest outpost",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"destination": "CA02_E03_Destination"
+					},
+					{
+						"name": "CA02_AS01",
+						"comment": "Illager Refinforcements",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"arena_tag": "SW.ArenaSetup.Forest.CA02.Arena.01"
+					},
+					{
+						"name": "CA02_PC01",
+						"comment": "Illager goes through Rift Miniscene",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"cutscene_gameplay_tag": "SW.UI.Cutscene.MiniScene.MS44"
+					},
+					{
+						"name": "CA02_E04",
+						"comment": "Checking if player teleported to Meadow R1",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA02_E04_Destination"
+					},
+					{
+						"name": "CA02_Sequence03",
+						"comment": "Here just to collect tasks when player is in meadows to control teleporter",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "CA02_E05",
+								"comment": "Player purusing the Illagers",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"destination": "CA02_E05_Destination"
+							},
+							{
+								"name": "CA02_I03",
+								"comment": "Interacting with the Baby Sentinel",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "CA02_I03_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "CA02_PC02",
+								"comment": "Sentinel Intro Miniscene",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"cutscene_gameplay_tag": "SW.UI.Cutscene.MiniScene.MS43"
+							},
+							{
+								"name": "CA02_AS02",
+								"comment": "Sentinel Arena Fight",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"arena_tag": "SW.ArenaSetup.MeadowR1.Arena01"
+							},
+							{
+								"name": "CA02_E06",
+								"comment": "Heading to the Vista",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"destination": "CA02_E06_Destination"
+							},
+							{
+								"name": "CA02_AS03",
+								"comment": "Arena fight with sentinels",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"arena_tag": "SW.ArenaSetup.MeadowR1.Arena02"
+							},
+							{
+								"name": "CA02_I04",
+								"comment": "Interacting with Caretaker",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "CA02_I04_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "CA02_PC03",
+								"comment": "Flyby Cutscene of trigger",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"cutscene_gameplay_tag": "SW.UI.Cutscene.Cutscenes.CS06"
+							},
+							{
+								"name": "CA02_I05",
+								"comment": "Using the Rift",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "CA02_I05_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							}
+						]
+					},
+					{
+						"name": "CA02_PC04",
+						"comment": "Returning to Forest Cutscene",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"cutscene_gameplay_tag": "SW.UI.Cutscene.Cutscenes.CS07"
+					},
+					{
+						"name": "CA02_I07",
+						"comment": "Talk to the villager",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA02_I07_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					}
+				]
+			}
+		},
+		{
+			"id": "CA03",
+			"id_tag": "SW.Quest.Id.CA03",
+			"initial_state": "Locked",
+			"quest_type": "CoreQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.ExtraLarge"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Forest.A1"
+				},
+				"firstCompletionLootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Chest.CavecrawlerUnique"
+								}
+							]
+						}
+					}
+				],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.AreaDropModifier"
+								},
+								{
+									"tagName": "SW.Area.DeepDark.T1"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Rare"
+								}
+							]
+						}
+					},
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Talisman.SoulGather"
+								}
+							]
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": true,
+				"unlocksArea": true,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "Following the Trail",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": []
+			},
+			"prerequisites": [
+				"CA02_B"
+			],
+			"goals":
+			{
+				"name": "CA03_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "CA03_E01",
+						"comment": "Entering the Deep Dark Cave",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA03_E01_Destination"
+					},
+					{
+						"name": "CA03_E09",
+						"comment": "Reaching the Illager Defences",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA03_E09_Destination"
+					},
+					{
+						"name": "CA03_E10",
+						"comment": "Getting to the End of the Illager Defenses",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA03_E10_Destination"
+					},
+					{
+						"name": "CA03_E07",
+						"comment": "Reaching the Amethyst Geode",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA03_E07_Destination"
+					},
+					{
+						"name": "CA03_E08",
+						"comment": "Exiting the Amethyst Geode",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA03_E08_Destination"
+					},
+					{
+						"name": "CA03_E06",
+						"comment": "Reaching the Warden",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA03_E06_Destination"
+					},
+					{
+						"name": "CA03_AS02",
+						"comment": "Reaching the Warden",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.DeepDarkT1.Random03.SegwayTileArena"
+					},
+					{
+						"name": "CA03_E02",
+						"comment": "Travelling to the Portal Tile",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA03_E02_Destination"
+					},
+					{
+						"name": "CA03_I01",
+						"comment": "Interacting with the Gate Button",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA03_I01_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA03_PC01",
+						"comment": "Maw Arrival Cinematic",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"cutscene_gameplay_tag": "SW.UI.Cutscene.Cutscenes.CS10"
+					},
+					{
+						"name": "CA03_AS01",
+						"comment": "Maw Arena Fight ",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.DeepDarkT1.Anchors01.PortalTileMawFight1"
+					},
+					{
+						"name": "CA03_E03",
+						"comment": "Reach the Trapped Creature",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA03_E03_Destination"
+					},
+					{
+						"name": "CA03_I02",
+						"comment": "Freeing the Caretaker",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA03_I02_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA03_Sequence02",
+						"comment": "Sequence for back to back move tos",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "CA03_MT01",
+								"comment": "Caretaker walking out of Cage",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"npc_tag": "CA03_MT01_NPCTarget"
+							},
+							{
+								"name": "CA03_MT02",
+								"comment": "Caretaker walking out of Cage",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"npc_tag": "CA03_MT02_NPCTarget"
+							},
+							{
+								"name": "CA03_MT03",
+								"comment": "Caretaker walking out of Cage",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"npc_tag": "CA03_MT03_NPCTarget"
+							},
+							{
+								"name": "CA03_MT04",
+								"comment": "Caretaker walking out of Cage",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"npc_tag": "CA03_MT04_NPCTarget"
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "CA04",
+			"id_tag": "SW.Quest.Id.CA04",
+			"initial_state": "Locked",
+			"quest_type": "CoreQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Medium"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Forest.A1"
+				},
+				"firstCompletionLootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Armour.PhantomSet"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Rare"
+								}
+							]
+						}
+					}
+				],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Talisman.Brawling"
+								}
+							]
+						}
+					},
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Talisman.AmmoCapacity"
+								}
+							]
+						}
+					},
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.AreaDropModifier"
+								},
+								{
+									"tagName": "SW.Area.Forest.A1"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Rare"
+								}
+							]
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": true,
+				"unlocksArea": true,
+				"unlocksTownContent": true,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "Search for the Noteblocks",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": []
+			},
+			"prerequisites": [
+				"CA03"
+			],
+			"goals":
+			{
+				"name": "CA04_Sequence01",
+				"comment": "Wrapping Sequence List",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "CA04_E08",
+						"comment": "Heading Back to Town",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA04_E08_Destination"
+					},
+					{
+						"name": "CA04_I10",
+						"comment": "Talking to the Cartographer",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA04_I10_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA04_E01",
+						"comment": "Heading to the Woodcutter Outpost in Forest",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA04_E01_Destination"
+					},
+					{
+						"name": "CA04_I01",
+						"comment": "Speaking with Blacksmith at Blocker",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA04_I01_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA04_Standard01",
+						"comment": "Gathering the Woodcutters",
+						"show_progress": true,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "CA04_Sequence02",
+								"comment": "Fetching the First Woodcutter",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CA04_E02",
+										"comment": "Reaching the Spider Cave",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"TaskLocationOverrideType": "LocationTag",
+										"TaskLocationTags": [
+											"SW.QuestLocation.CA04.E02"
+										],
+										"destination": "CA04_E02_Destination"
+									},
+									{
+										"name": "CA04_E07",
+										"comment": "Reaching the Stolen Axes",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "CA04_E07_Destination"
+									},
+									{
+										"name": "CA04_AS02",
+										"comment": "Arena Fight in Spider Cave Variant",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"arena_tag": "SW.ArenaSetup.Forest.CA04.Arena.02"
+									},
+									{
+										"name": "CA04_I02",
+										"comment": "Interacting with the Pile of Axes",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "CA04_I02_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							},
+							{
+								"name": "CA04_Sequence03",
+								"comment": "Fetching the Second Woodcutter",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CA04_SM01",
+										"comment": "Players reaching the Woodcutter Area",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"mob_types": [
+											"SW.Mob.VindicatorVariant1"
+										],
+										"mob_count": 2,
+										"volume_name": "CA04_SM_SV02",
+										"group_tag": ""
+									},
+									{
+										"name": "CA04_E03",
+										"comment": "Players reaching the Woodcutter Area",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "CA04_E03_Destination"
+									},
+									{
+										"name": "CA04_AS03",
+										"comment": "Arena Fight near Woodcutting Area",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"arena_tag": "SW.ArenaSetup.Forest.CA04.Arena.03"
+									},
+									{
+										"name": "CA04_I03",
+										"comment": "Interacting with the Pile of Axes",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "CA04_I03_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "CA04_E04",
+						"comment": "Returning to the Blacksmith",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA04_E04_Destination"
+					},
+					{
+						"name": "CA04_I04",
+						"comment": "Interacting with the Blacksmith",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA04_I04_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA04_Standard03",
+						"comment": "Giving Woodcutters Axes",
+						"show_progress": true,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "CA04_Sequence04",
+								"comment": "Giving Axe to First Woodcutter",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CA04_I05",
+										"comment": "Interacting with the First Woodcutter",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "CA04_I05_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									},
+									{
+										"name": "CA04_MT01",
+										"comment": "NPC Moving into Position",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"npc_tag": "CA04_MT01_NPCTarget"
+									}
+								]
+							},
+							{
+								"name": "CA04_Sequence05",
+								"comment": "Giving Axe to Second Woodcutter",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CA04_I06",
+										"comment": "Interacting with the Second Woodcutter",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "CA04_I06_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									},
+									{
+										"name": "CA04_MT02",
+										"comment": "NPC Moving into Position",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"npc_tag": "CA04_MT02_NPCTarget"
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "CA04_AS01",
+						"comment": "Defending the Woodcutters",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"arena_tag": "SW.ArenaSetup.Forest.CA04.Arena.01"
+					},
+					{
+						"name": "CA04_Standard02",
+						"comment": "NPCs moving out of position",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "CA04_MT03",
+								"comment": "Woodcutter 01 moving out of the way",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"npc_tag": "CA04_MT03_NPCTarget"
+							},
+							{
+								"name": "CA04_MT04",
+								"comment": "Woodcutter 02 moving out of the way",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"npc_tag": "CA04_MT04_NPCTarget"
+							}
+						]
+					},
+					{
+						"name": "CA04_I07",
+						"comment": "Interacting with the Blacksmith",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA04_I07_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA04_Sequence06",
+						"comment": "Bringing the Blacksmith to the Outpost",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "CA04_F01",
+								"comment": "Blacksmith Following Player to Outpost",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"follow_goal_data":
+								{
+									"nPCTypeTag":
+									{
+										"tagName": "SW.NPC.CA04.OldBlacksmith.01"
+									},
+									"nPCDestination": "CA04_F01_NPCDestination",
+									"allowedAreas":
+									{
+										"gameplayTags": []
+									}
+								}
+							},
+							{
+								"name": "CA04_MT05",
+								"comment": "Blacksmith Moving into Position",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"npc_tag": "CA04_MT05_NPCTarget"
+							}
+						]
+					},
+					{
+						"name": "CA04_I08",
+						"comment": "Interacting with the Blacksmith after they have moved into position",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA04_I08_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA04_E05",
+						"comment": "Returning to Brave Haven",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA04_E05_Destination"
+					},
+					{
+						"name": "CA04_E06",
+						"comment": "Reaching the Blacksmith's Stall",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA04_E06_Destination"
+					},
+					{
+						"name": "CA04_I09",
+						"comment": "Speaking with the Blacksmith",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA04_I09_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					}
+				]
+			}
+		},
+		{
+			"id": "CA05",
+			"id_tag": "SW.Quest.Id.CA05",
+			"initial_state": "Locked",
+			"quest_type": "CoreQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.ExtraLarge"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Desert.A1.FortressInt"
+				},
+				"firstCompletionLootSourceData": [],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Melee.GiantMallet"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Special"
+								}
+							]
+						}
+					},
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Area.Desert.A1.FortressInt"
+								},
+								{
+									"tagName": "SW.Quest.Loot.AreaDropModifier"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Special"
+								}
+							]
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": true,
+				"unlocksArea": true,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "In From the Cold",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": []
+			},
+			"prerequisites": [
+				"CA07"
+			],
+			"goals":
+			{
+				"name": "CA05_Sequence00",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "CA05_E20",
+						"comment": "Reaching NPC in Desert A1",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA05_E20_Destination"
+					},
+					{
+						"name": "CA05_I18",
+						"comment": "Reaching NPC in Desert A1",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA05_I18_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA05_E01",
+						"comment": "Reaching NPC in Desert A1",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA05_E01_Destination"
+					},
+					{
+						"name": "CA05_I01",
+						"comment": "Speaking to the Villager Near the Broken Bridge",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA05_I01_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA05_Standard01",
+						"comment": "Gathering building materials from Ships",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "CA05_Sequence01",
+								"comment": "Ship 01 Sequence",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CA05_E02",
+										"comment": "Ship 01 Exterior Location",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "CA05_E02_Destination"
+									},
+									{
+										"name": "CA05_E03",
+										"comment": "Ship 01 Interior Location",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"TaskLocationOverrideType": "LocationTag",
+										"TaskLocationTags": [
+											"SW.QuestLocation.CA05.E03"
+										],
+										"destination": "CA05_E03_Destination"
+									},
+									{
+										"name": "CA05_Standard04",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"type": "Standard",
+										"subgoals": [
+											{
+												"name": "CA05_I02",
+												"comment": "Interacting with Materials 01",
+												"show_progress": false,
+												"bResetProgressIfActiveOnLoad": false,
+												"interact_target": "CA05_I02_Target",
+												"howmany_count": 1,
+												"disable_interaction": true
+											},
+											{
+												"name": "CA05_I15",
+												"comment": "Interacting with Materials 01B",
+												"show_progress": false,
+												"bResetProgressIfActiveOnLoad": false,
+												"interact_target": "CA05_I15_Target",
+												"howmany_count": 1,
+												"disable_interaction": true
+											}
+										]
+									},
+									{
+										"name": "CA05_E17",
+										"comment": "Exit the Ship (Had to make this E17 because step was added later)",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "CA05_E17_Destination"
+									},
+									{
+										"name": "CA05_AS01",
+										"comment": "Illager Ambush within ship interior",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"arena_tag": "SW.ArenaSetup.DesertA1.CA05.Arena.01"
+									}
+								]
+							},
+							{
+								"name": "CA05_Sequence02",
+								"comment": "Ship 02 Sequence",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CA05_E04",
+										"comment": "Ship 02 Exterior Location",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "CA05_E04_Destination"
+									},
+									{
+										"name": "CA05_E05",
+										"comment": "Ship 01 Interior Location",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"TaskLocationOverrideType": "LocationTag",
+										"TaskLocationTags": [
+											"SW.QuestLocation.CA05.E05"
+										],
+										"destination": "CA05_E05_Destination"
+									},
+									{
+										"name": "CA05_I03",
+										"comment": "Interacting with Materials 02",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "CA05_I03_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "CA05_E06",
+						"comment": "Returning to the Bridge",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA05_E06_Destination"
+					},
+					{
+						"name": "CA05_I05",
+						"comment": "Talking with the NPC at the Bridge",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA05_I05_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA05_E07",
+						"comment": "Player Explore Trigger to be at NPC Move To Location",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA05_E07_Destination"
+					},
+					{
+						"name": "CA05_I06",
+						"comment": "Speaking with NPC after they've arrived closer to the fortress",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA05_I06_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA05_Standard03",
+						"comment": "Rescuing Villagers from Fishing Areas Interior Basements",
+						"show_progress": true,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "CA05_Sequence03",
+								"comment": "Rescuing Villager No.1",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CA05_E08",
+										"comment": "Entering Basement Interior No.1 ",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"TaskLocationOverrideType": "LocationTag",
+										"TaskLocationTags": [
+											"SW.QuestLocation.CA05.E08"
+										],
+										"destination": "CA05_E08_Destination"
+									},
+									{
+										"name": "CA05_AS04",
+										"comment": "Basement Interior 01 Arena",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"arena_tag": "SW.ArenaSetup.DesertA1.Basement4.Arena"
+									},
+									{
+										"name": "CA05_I07",
+										"comment": "Interacting with Captured VIllager No.1",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "CA05_I07_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							},
+							{
+								"name": "CA05_Sequence07",
+								"comment": "Rescuing Villager No.4",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CA05_E18",
+										"comment": "Entering Basement Interior No.4 ",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"TaskLocationOverrideType": "LocationTag",
+										"TaskLocationTags": [
+											"SW.QuestLocation.CA05.E18"
+										],
+										"destination": "CA05_E18_Destination"
+									},
+									{
+										"name": "CA05_AS05",
+										"comment": "Basement Interior 04 Arena",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"arena_tag": "SW.ArenaSetup.DesertA1.Basement3.Arena"
+									},
+									{
+										"name": "CA05_I14",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "CA05_I14_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "CA05_E12",
+						"comment": "Heading to Fortress",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA05_E12_Destination"
+					},
+					{
+						"name": "CA05_I11",
+						"comment": "Speaking with Villager at Fortress",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA05_I11_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA05_PC01",
+						"comment": "Fortress Into Cinematic",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"cutscene_gameplay_tag": "SW.UI.Cutscene.Cutscenes.CS16"
+					},
+					{
+						"name": "CA05_E13",
+						"comment": "Finding Entrance to Desert Fortress",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA05_E13_Destination"
+					},
+					{
+						"name": "CA05_E21",
+						"comment": "Reaching the Sentinel Tile",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA05_E21_Destination"
+					},
+					{
+						"name": "CA05_Standard05",
+						"comment": "Reaching the Sentinel Tile",
+						"show_progress": true,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "CA05_I19",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "CA05_I19_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "CA05_I20",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "CA05_I20_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							}
+						]
+					},
+					{
+						"name": "CA05_E22",
+						"comment": "Reaching the Other Side of the Sentinel Tile",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA05_E22_Destination"
+					},
+					{
+						"name": "CA05_E14",
+						"comment": "Searching for Maulers Arena",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA05_E14_Destination"
+					},
+					{
+						"name": "CA05_PC02",
+						"comment": "Mauler Intro Cinematic",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"cutscene_gameplay_tag": "SW.UI.Cutscene.Cutscenes.CS20"
+					},
+					{
+						"name": "CA05_AS03",
+						"comment": "Mauler Arena Fight",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.Desert.FrostbiteBoss"
+					},
+					{
+						"name": "CA05_E15",
+						"comment": "Exiting Mauler Arena",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA05_E15_Destination"
+					},
+					{
+						"name": "CA05_I12",
+						"comment": "Interacting with the Noteblock",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA05_I12_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA05_PC03",
+						"comment": "Noteblock Collection Desert A1 Cinematic",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"cutscene_gameplay_tag": "SW.UI.cutscene.cutscenes.CS21"
+					},
+					{
+						"name": "CA05_E19",
+						"comment": "Exiting Noteblock Room",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA05_E19_Destination"
+					},
+					{
+						"name": "CA05_E16",
+						"comment": "Finding the Lever",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA05_E16_Destination"
+					},
+					{
+						"name": "CA05_I13",
+						"comment": "Opening the Desert Fortress",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA05_I13_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA05_PC04",
+						"comment": "Opening the Fortress Cinematic",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"cutscene_gameplay_tag": "SW.UI.Cutscene.Cutscenes.CS17"
+					}
+				]
+			}
+		},
+		{
+			"id": "CA06",
+			"id_tag": "SW.Quest.Id.CA06",
+			"initial_state": "Locked",
+			"quest_type": "CoreQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Large"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.DeepDark.A1"
+				},
+				"firstCompletionLootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Talisman.HealthyStrike"
+								}
+							]
+						}
+					}
+				],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.AreaDropModifier"
+								},
+								{
+									"tagName": "SW.Area.DeepDark.A1"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Special"
+								}
+							]
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": true,
+				"unlocksArea": true,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "Volca-No",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": []
+			},
+			"prerequisites": [
+				"CA05"
+			],
+			"goals":
+			{
+				"name": "CA06_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "CA06_E02",
+						"comment": "Heading back to Deep Dark A1",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA06_E02_Destination"
+					},
+					{
+						"name": "CA06_I02",
+						"comment": "Speaking with the Cartographer",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA06_I02_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA06_E03",
+						"comment": "Reaching the Deep Dark A1 Entrance",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA06_E03_Destination"
+					},
+					{
+						"name": "CA06_E04",
+						"comment": "Heading to Deep Dark Noteblock Machine",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA06_E04_Destination"
+					},
+					{
+						"name": "CA06_I04",
+						"comment": "Activating the Noteblock Machine",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA06_I04_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA06_PC01",
+						"comment": "Noteblock Placement Cinematic",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"cutscene_gameplay_tag": "SW.UI.Cutscene.Cutscenes.CS12"
+					},
+					{
+						"name": "CA06_I05",
+						"comment": "Interacting with Portal",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA06_I05_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA06_PC02",
+						"comment": "Arriving in Meadow A1 ",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"cutscene_gameplay_tag": "SW.UI.Cutscene.Cutscenes.CS14"
+					}
+				]
+			}
+		},
+		{
+			"id": "CA07",
+			"id_tag": "SW.Quest.Id.CA07",
+			"initial_state": "Locked",
+			"quest_type": "CoreQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Large"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Plains.A2"
+				},
+				"firstCompletionLootSourceData": [],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Melee.Scythe"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Special"
+								}
+							]
+						}
+					},
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Area.Plains.A2"
+								},
+								{
+									"tagName": "SW.Quest.Loot.AreaDropModifier"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Special"
+								}
+							]
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": true,
+				"unlocksArea": false,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "Eye of the Storm",
+			"comment": "Plains A2 Core Quest",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": []
+			},
+			"prerequisites": [
+				"CA04"
+			],
+			"goals":
+			{
+				"name": "CA07_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "CA07_E26",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA07_E26_Destination"
+					},
+					{
+						"name": "CA07_I18",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA07_I18_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA07_E01",
+						"comment": "Entering Plains A2 ",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA07_E01_Destination"
+					},
+					{
+						"name": "CA07_E03",
+						"comment": "Find the Village Oasis",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA07_E03_Destination"
+					},
+					{
+						"name": "CA07_I12",
+						"comment": "Speaking to Oasis NPC",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA07_I12_Target"
+					},
+					{
+						"name": "CA07_I02",
+						"comment": "Speak to Villager at the Cliffside",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA07_I02_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA07_E02",
+						"comment": "Head to the Bridge with the power Conduit",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA07_E02_Destination"
+					},
+					{
+						"name": "CA07_I19",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA07_I19_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA07_E16",
+						"comment": "Crossing the Bridge",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA07_E16_Destination"
+					},
+					{
+						"name": "CA07_E22",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA07_E22_Destination"
+					},
+					{
+						"name": "CA07_Sequence02",
+						"comment": "Wrapping List 01",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "CA07_Sequence05",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CA07_E04",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "CA07_E04_Destination"
+									},
+									{
+										"name": "CA07_I04",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "CA07_I04_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							},
+							{
+								"name": "CA07_E23",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"destination": "CA07_E23_Destination"
+							},
+							{
+								"name": "CA07_I05",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "CA07_I05_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							}
+						]
+					},
+					{
+						"name": "CA07_Sequence03",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "CA07_Sequence06",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CA07_E06",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "CA07_E06_Destination"
+									},
+									{
+										"name": "CA07_I06",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "CA07_I06_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							},
+							{
+								"name": "CA07_E24",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"destination": "CA07_E24_Destination"
+							},
+							{
+								"name": "CA07_I07",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "CA07_I07_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							}
+						]
+					},
+					{
+						"name": "CA07_Sequence04",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "CA07_Sequence07",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CA07_E08",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "CA07_E08_Destination"
+									},
+									{
+										"name": "CA07_I08",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "CA07_I08_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							},
+							{
+								"name": "CA07_E25",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"destination": "CA07_E25_Destination"
+							},
+							{
+								"name": "CA07_I09",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "CA07_I09_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							}
+						]
+					},
+					{
+						"name": "CA07_E17",
+						"comment": "Reaching the Blocker at the Central Tower",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA07_E17_Destination"
+					},
+					{
+						"name": "CA07_E19",
+						"comment": "Enter the Central Tower",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"TaskLocationOverrideType": "LocationTag",
+						"TaskLocationTags": [
+							"SW.QuestLocation.CA07.E19"
+						],
+						"destination": "CA07_E19_Destination"
+					},
+					{
+						"name": "CA07_E20",
+						"comment": "Hit the Arena Trigger",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA07_E20_Destination"
+					},
+					{
+						"name": "CA07_AS02",
+						"comment": "Arena Fight inside central tower",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.PlainsA2.CA07.AS02"
+					},
+					{
+						"name": "CA07_MT01",
+						"comment": "Arena Fight inside central tower",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"npc_tag": "CA07_MT01_NPCTarget"
+					},
+					{
+						"name": "CA07_I15",
+						"comment": "Arena Fight inside central tower",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA07_I15_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA07_E14",
+						"comment": "go up central tower",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA07_E14_Destination"
+					},
+					{
+						"name": "CA07_I10",
+						"comment": "Interact with pile of copper",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA07_I10_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA07_PC01",
+						"comment": "monstrosity cutscene",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"cutscene_gameplay_tag": "SW.UI.Cutscene.Miniscene.MS29"
+					},
+					{
+						"name": "CA07_AS01",
+						"comment": "Monstrosity Fight",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"arena_tag": "SW.ArenaSetup.PlainsA2.CA07.AS01"
+					},
+					{
+						"name": "CA07_E15",
+						"comment": "find noteblock room",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA07_E15_Destination"
+					},
+					{
+						"name": "CA07_I11",
+						"comment": "interact with noteblock",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA07_I11_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA07_PC02",
+						"comment": "noteblock cutscene",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"cutscene_gameplay_tag": "SW.UI.Cutscene.Cutscenes.CS23"
+					},
+					{
+						"name": "CA07_E21",
+						"comment": "Returning to the Oasis",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA07_E21_Destination"
+					},
+					{
+						"name": "CA07_I16",
+						"comment": "Interactiing with Villager in the Oasis",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA07_I16_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					}
+				]
+			}
+		},
+		{
+			"id": "CA04_BR",
+			"id_tag": "SW.Quest.Id.CA04BR",
+			"initial_state": "Locked",
+			"quest_type": "SideQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Small"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.DeepDark.A1"
+				},
+				"firstCompletionLootSourceData": [],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Talisman.RangedBoost"
+								}
+							]
+						}
+					},
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Area.DeepDark.T1"
+								},
+								{
+									"tagName": "SW.Quest.Loot.AreaDropModifier"
+								}
+							]
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": true,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 20,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": false,
+				"unlocksArea": false,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "More Maw",
+			"comment": "Boss Replay - Maw",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": [
+					{
+						"typeTag":
+						{
+							"tagName": "SW.KeyValue.Quest.Subtype"
+						},
+						"type": "GameplayTagContainer",
+						"int": 0,
+						"float": 0,
+						"bool": false,
+						"string": "None",
+						"gameplayTag":
+						{
+							"tagName": "None"
+						},
+						"gameplayTagContainer":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.BossReplay"
+								}
+							]
+						},
+						"vector":
+						{
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				]
+			},
+			"prerequisites": [
+				"CA04"
+			],
+			"goals":
+			{
+				"name": "CA04_BR_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "CA04_BR_AS01",
+						"comment": "The Maw Fight 2 (REPLAY)",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.DeepDarkT1.Anchors01.PortalTileMawFight2"
+					}
+				]
+			}
+		},
+		{
+			"id": "CA00",
+			"id_tag": "SW.Quest.Id.CA00",
+			"initial_state": "Active",
+			"quest_type": "CoreQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Small"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Camp.A1"
+				},
+				"firstCompletionLootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Armour.MysticSet"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Common"
+								}
+							]
+						}
+					}
+				],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.AreaDropModifier"
+								},
+								{
+									"tagName": "SW.Area.Plains.A1"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Common"
+								}
+							]
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": true,
+				"unlocksArea": true,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "Escape from Camp",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": [
+					{
+						"typeTag":
+						{
+							"tagName": "SW.KeyValue.Quest.Reward.SpawnLocationOverride"
+						},
+						"type": "GameplayTag",
+						"int": 0,
+						"float": 0,
+						"bool": false,
+						"string": "None",
+						"gameplayTag":
+						{
+							"tagName": "SW.TeleportPoint.Town.Docks"
+						},
+						"gameplayTagContainer":
+						{
+							"gameplayTags": []
+						},
+						"vector":
+						{
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				]
+			},
+			"prerequisites": [],
+			"goals":
+			{
+				"name": "CA00_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "CA00_PC01",
+						"comment": "Intro cutscene",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"cutscene_gameplay_tag": "SW.UI.Cutscene.Cutscenes.CS01"
+					},
+					{
+						"name": "CA00_E01",
+						"comment": "Follow the Path to Camp",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA00_E01_Destination"
+					},
+					{
+						"name": "CA00_SM01",
+						"comment": "Spawning Zombies",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"mob_types": [
+							"SW.Mob.Zombie"
+						],
+						"mob_count": 5,
+						"volume_name": "CA00_SM_SV01",
+						"group_tag": "CA00_K01_Enemies"
+					},
+					{
+						"name": "CA00_K01",
+						"comment": "Defeating Zombies",
+						"show_progress": true,
+						"bResetProgressIfActiveOnLoad": true,
+						"TaskLocationOverrideType": "LocationTag",
+						"TaskLocationTags": [
+							"SW.QuestLocation.CA00.K01"
+						],
+						"kill_target": "CA00_K01_Enemies",
+						"kill_target_types": [],
+						"kill_count": 5
+					},
+					{
+						"name": "CA00_I01",
+						"comment": "Interacting with Lever to Open Gate",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA00_I01_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA00_E03",
+						"comment": "Reaching the Cutscene Trigger",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"TaskLocationOverrideType": "LocationTag",
+						"TaskLocationTags": [
+							"SW.QuestLocation.CA00.E03"
+						],
+						"destination": "CA00_E03_Destination"
+					},
+					{
+						"name": "CA00_PC02",
+						"comment": "Reaching the Cutscene Trigger",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"cutscene_gameplay_tag": "SW.UI.Cutscene.Miniscene.MS48"
+					},
+					{
+						"name": "CA00_SM02",
+						"comment": "Spawning Vindicator",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"mob_types": [
+							"SW.Mob.Vindicator"
+						],
+						"mob_count": 3,
+						"volume_name": "CA00_SM_SV02",
+						"group_tag": "CA00_K02_Enemies"
+					},
+					{
+						"name": "CA00_K02",
+						"comment": "Defeating Vindicator",
+						"show_progress": true,
+						"bResetProgressIfActiveOnLoad": true,
+						"TaskLocationOverrideType": "LocationTag",
+						"TaskLocationTags": [
+							"SW.QuestLocation.CA00.K02"
+						],
+						"kill_target": "CA00_K02_Enemies",
+						"kill_target_types": [],
+						"kill_count": 3
+					},
+					{
+						"name": "CA00_I02",
+						"comment": "Interacting with Villager",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA00_I02_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA00_Standard01",
+						"comment": "",
+						"show_progress": true,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "CA00_Sequence02",
+								"comment": "Villager in Peril #1",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CA00_SM03",
+										"comment": "Spawn Mobs #1",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"mob_types": [
+											"SW.Mob.Zombie"
+										],
+										"mob_count": 6,
+										"volume_name": "CA00_SM_SV03",
+										"group_tag": ""
+									},
+									{
+										"name": "CA00_I03",
+										"comment": "Interacting with Villager (Dialogue)",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"interact_target": "CA00_I03_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							},
+							{
+								"name": "CA00_Sequence03",
+								"comment": "Villager in Peril #2",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CA00_SM04",
+										"comment": "Spawn Mobs #2",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"mob_types": [
+											"SW.Mob.Zombie"
+										],
+										"mob_count": 3,
+										"volume_name": "CA00_SM_SV04",
+										"group_tag": ""
+									},
+									{
+										"name": "CA00_SM06",
+										"comment": "Spawn Mobs #2",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"mob_types": [
+											"SW.Mob.Vindicator"
+										],
+										"mob_count": 1,
+										"volume_name": "CA00_SM_SV04",
+										"group_tag": ""
+									},
+									{
+										"name": "CA00_I04",
+										"comment": "Interacting with Villager",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"interact_target": "CA00_I04_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							},
+							{
+								"name": "CA00_Sequence04",
+								"comment": "Villager in Peril #3",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CA00_SM05",
+										"comment": "Spawn Mobs #3",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"mob_types": [
+											"SW.Mob.Zombie"
+										],
+										"mob_count": 3,
+										"volume_name": "CA00_SM_SV05",
+										"group_tag": ""
+									},
+									{
+										"name": "CA00_SM07",
+										"comment": "Spawn Mobs #3",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"mob_types": [
+											"SW.Mob.Vindicator"
+										],
+										"mob_count": 2,
+										"volume_name": "CA00_SM_SV05",
+										"group_tag": ""
+									},
+									{
+										"name": "CA00_I06",
+										"comment": "Speaking to Villager",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"interact_target": "CA00_I06_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							},
+							{
+								"name": "CA00_Sequence05",
+								"comment": "Villager in Peril #4",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CA00_SM08",
+										"comment": "Spawning Mobs #4",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"mob_types": [
+											"SW.Mob.Zombie"
+										],
+										"mob_count": 3,
+										"volume_name": "CA00_SM_SV06",
+										"group_tag": ""
+									},
+									{
+										"name": "CA00_I10",
+										"comment": "Interacting with Villager",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "CA00_I10_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "CA00_E04",
+						"comment": "Exiting through the archway",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA00_E04_Destination"
+					},
+					{
+						"name": "CA00_I07",
+						"comment": "Opening the Gate",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA00_I07_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA00_I08",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA00_I08_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA00_E05",
+						"comment": "Heading to the Docks",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA00_E05_Destination"
+					},
+					{
+						"name": "CA00_AS01",
+						"comment": "Arena Fight at the Docks",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.CampA1.CA00.Arena01"
+					},
+					{
+						"name": "CA00_E06",
+						"comment": "Reaching the Docks",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA00_E06_Destination"
+					},
+					{
+						"name": "CA00_I09",
+						"comment": "Interacting with the Boats",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA00_I09_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA00_PC03",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"cutscene_gameplay_tag": "SW.UI.Cutscene.Cutscenes.CS02"
+					}
+				]
+			}
+		},
+		{
+			"id": "CA02_B",
+			"id_tag": "SW.Quest.Id.CA02B",
+			"initial_state": "Locked",
+			"quest_type": "CoreQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Large"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Forest.A1"
+				},
+				"firstCompletionLootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.RarityChance.Quest.Special"
+								},
+								{
+									"tagName": "SW.Quest.Loot.Ranged.HeavyCrossbow"
+								}
+							]
+						}
+					}
+				],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Area.Forest.A1"
+								},
+								{
+									"tagName": "SW.Quest.Loot.AreaDropModifier"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Rare"
+								}
+							]
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": true,
+				"unlocksArea": true,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "The Wandering Witch",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": []
+			},
+			"prerequisites": [
+				"CA02_C"
+			],
+			"goals":
+			{
+				"name": "CA02_B_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "CA02_B_E07",
+						"comment": "go to end of outpost",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA02_B_E07_Destination"
+					},
+					{
+						"name": "CA02_B_I09",
+						"comment": "talk to villager",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA02_B_I09_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA02_B_E01",
+						"comment": "Travelling to Waterfall",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA02_B_E01_Destination"
+					},
+					{
+						"name": "CA02_B_E02",
+						"comment": "Reaching the Spider Cave Exterior",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA02_B_E02_Destination"
+					},
+					{
+						"name": "CA02_B_I01",
+						"comment": "Interacting with the Villagers Outside the Cave",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA02_B_I01_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA02_B_E03",
+						"comment": "Enter the Cave",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"TaskLocationOverrideType": "LocationTag",
+						"TaskLocationTags": [
+							"SW.QuestLocation.CA02.B.E03"
+						],
+						"destination": "CA02_B_E03_Destination"
+					},
+					{
+						"name": "CA02_B_E04",
+						"comment": "Reaching the Villagers",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA02_B_E04_Destination"
+					},
+					{
+						"name": "CA02_B_AS02",
+						"comment": "Spider cave Arena Fight",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.Forest.CA02.B.Arena.02"
+					},
+					{
+						"name": "CA02_B_I03",
+						"comment": "Rescuing Villagers from Cave",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA02_B_I03_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA02_B_E05",
+						"comment": "Exiting the Spider Cave",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"TaskLocationOverrideType": "OtherTask",
+						"OtherTaskId": "CA02_B_I06",
+						"destination": "CA02_B_E05_Destination"
+					},
+					{
+						"name": "CA02_B_I06",
+						"comment": "Interacting with the Villagers outside the Cave",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA02_B_I06_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA02_B_E06",
+						"comment": "Reaching the Witches Hut",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA02_B_E06_Destination"
+					},
+					{
+						"name": "CA02_B_I07",
+						"comment": "Interacting with the Cauldron",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA02_B_I07_target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA02_B_PC01",
+						"comment": "Witch INtro Cinematic",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"cutscene_gameplay_tag": "SW.UI.Cutscene.Cutscenes.CS08"
+					},
+					{
+						"name": "CA02_B_AS03",
+						"comment": "Witch Boss Fight",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.Forest.CA02.B.Arena.03"
+					},
+					{
+						"name": "CA02_B_Sequence02",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "CA02_B_MT01",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"npc_tag": "CA02_B_MT01_NPC_Destination"
+							},
+							{
+								"name": "CA02_B_MT02",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"npc_tag": "CA02_B_MT02_NPC_Destination"
+							}
+						]
+					},
+					{
+						"name": "CA02_B_I08",
+						"comment": "Speaking with Villager",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA02_B_I08_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					}
+				]
+			}
+		},
+		{
+			"id": "CA08",
+			"id_tag": "SW.Quest.Id.CA08",
+			"initial_state": "Locked",
+			"quest_type": "CoreQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Large"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Meadow.A1"
+				},
+				"firstCompletionLootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.RarityChance.Quest.Special"
+								},
+								{
+									"tagName": "SW.Quest.Loot.Armour.NomadSet"
+								}
+							]
+						}
+					}
+				],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Area.Meadow.A1"
+								},
+								{
+									"tagName": "SW.Quest.Loot.AreaDropModifier"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Special"
+								}
+							]
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": true,
+				"unlocksArea": true,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "Lost Harmonies",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": []
+			},
+			"prerequisites": [
+				"CA06"
+			],
+			"goals":
+			{
+				"name": "CA08_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "CA08_E01",
+						"comment": "Players heading out to the location of the Caretakers",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA08_E01_Destination"
+					},
+					{
+						"name": "CA08_Standard01",
+						"comment": "Investigating Caretakers",
+						"show_progress": true,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "CA08_Sequence02",
+								"comment": "Caretaker 01",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CA08_E04",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "CA08_E04_Dest"
+									},
+									{
+										"name": "CA08_AS03",
+										"comment": "Clear the ambush",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"arena_tag": "SW.ArenaSetup.MeadowA1.CA08.Arena.Golem01"
+									},
+									{
+										"name": "CA08_I02",
+										"comment": "Interacting with Caretaker",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "CA08_I02_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							},
+							{
+								"name": "CA08_Sequence03",
+								"comment": "Caretaker 02",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CA08_E05",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "CA08_E05_Dest"
+									},
+									{
+										"name": "CA08_AS04",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"arena_tag": "SW.ArenaSetup.MeadowA1.MeadowA1EXT.Grove02.Arena01"
+									},
+									{
+										"name": "CA08_I04",
+										"comment": "Interacting with Caretaker",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "CA08_I04_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							},
+							{
+								"name": "CA08_Sequence04",
+								"comment": "Caretaker 03",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CA08_I06",
+										"comment": "Interacting with Caretaker",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "CA08_I06_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							},
+							{
+								"name": "CA08_Sequence05",
+								"comment": "Caretaker 04",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CA08_I09",
+										"comment": "Interacting with Caretaker",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "CA08_I09_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "CA08_E02",
+						"comment": "Finding the Illager Camp",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA08_E02_Destination"
+					},
+					{
+						"name": "CA08_AS01",
+						"comment": "Illager Camp Arena",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.MeadowA1.CA08.Arena.01"
+					},
+					{
+						"name": "CA08_I07",
+						"comment": "Interacting with the Caretaker at the Illager Camp",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA08_I07_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA08_E03",
+						"comment": "Returning to the Singer",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA08_E03_Destination"
+					},
+					{
+						"name": "CA08_AS02",
+						"comment": "Defending The Singer",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.MeadowA1.CA08.Arena.02"
+					},
+					{
+						"name": "CA08_I08",
+						"comment": "Interacting with the Singer's Caretaker",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA08_I08_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA08_PC01",
+						"comment": "Singer Gifts Song",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"cutscene_gameplay_tag": "SW.UI.Cutscene.Miniscene.MS49"
+					}
+				]
+			}
+		},
+		{
+			"id": "CA09",
+			"id_tag": "SW.Quest.Id.CA09",
+			"initial_state": "Locked",
+			"quest_type": "CoreQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.ExtraLarge"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Carapace.A1"
+				},
+				"firstCompletionLootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Artifact.CarapaceOcarina"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Special"
+								}
+							]
+						}
+					},
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Ranged.Shortbow"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Special"
+								}
+							]
+						}
+					}
+				],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Talisman.ExperienceIncrease"
+								}
+							]
+						}
+					},
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.AreaDropModifier"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Special"
+								},
+								{
+									"tagName": "SW.Area.Carapace.A1"
+								}
+							]
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": true,
+				"unlocksArea": true,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "Source of the Soul Crisis",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": []
+			},
+			"prerequisites": [
+				"CA08_B"
+			],
+			"goals":
+			{
+				"name": "CA09_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "CA09_Sequence06",
+						"comment": "move past the gate",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "CA09_Standard07",
+								"comment": "Tuner Locations",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"type": "Standard",
+								"subgoals": [
+									{
+										"name": "CA09_E21",
+										"comment": "Tuner Location 1",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"destination": "CA09_E21_Destination"
+									},
+									{
+										"name": "CA09_E22",
+										"comment": "Tuner Location 2",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"destination": "CA09_E22_Destination"
+									},
+									{
+										"name": "CA09_E23",
+										"comment": "Tuner Location 3",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"destination": "CA09_E23_Destination"
+									}
+								]
+							},
+							{
+								"name": "CA09_E02B",
+								"comment": "move past the gate",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"destination": "CA09_E02B_Destination"
+							}
+						]
+					},
+					{
+						"name": "CA09_E03",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA09_E03_Destination"
+					},
+					{
+						"name": "CA09_E04",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA09_E04_Destination"
+					},
+					{
+						"name": "CA09_I16",
+						"comment": "Talk to NPC in hub",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA09_I16_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA09_Standard06",
+						"comment": "Defeat Illager mining sites",
+						"show_progress": true,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "CA09_Sequence02",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CA09_E07",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "CA09_E07_Destination"
+									},
+									{
+										"name": "CA09_SM02",
+										"comment": "Illagers inside first shell",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"mob_types": [
+											"SW.Mob.Vindicator",
+											"SW.Mob.Pillager"
+										],
+										"mob_count": 4,
+										"volume_name": "CA09_SM02_SpawnVolume1",
+										"group_tag": "CA09_SM02_Group"
+									},
+									{
+										"name": "CA09_K01",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"TaskLocationOverrideType": "OtherTask",
+										"OtherTaskId": "CA09_SM02",
+										"kill_target": "CA09_SM02_Group",
+										"kill_target_types": [
+											"SW.Mob.Vindicator",
+											"SW.Mob.Pillager"
+										],
+										"kill_count": 4
+									},
+									{
+										"name": "CA09_SM05",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"mob_types": [
+											"SW.Mob.ScavengerMelee",
+											"SW.Mob.ScavengerRanged"
+										],
+										"mob_count": 9,
+										"volume_name": "CA09_SM02_SpawnVolume1",
+										"group_tag": "CA09_SM05_Group"
+									},
+									{
+										"name": "CA09_K04",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"TaskLocationOverrideType": "OtherTask",
+										"OtherTaskId": "CA09_SM05",
+										"kill_target": "CA09_SM05_Group",
+										"kill_target_types": [
+											"SW.Mob.ScavengerMelee",
+											"SW.Mob.ScavengerRanged"
+										],
+										"kill_count": 9
+									},
+									{
+										"name": "CA09_I19",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "CA09_I19_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									},
+									{
+										"name": "CA09_MT02",
+										"comment": "move out of cage",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"npc_tag": "CA09_MT02_NPCTarget"
+									}
+								]
+							},
+							{
+								"name": "CA09_Sequence03",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CA09_E19",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "CA09_E19_Destination"
+									},
+									{
+										"name": "CA09_SM03",
+										"comment": "Illagers inside first shell",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"mob_types": [
+											"SW.Mob.Vindicator",
+											"SW.Mob.Pillager"
+										],
+										"mob_count": 4,
+										"volume_name": "CA09_SM03_SpawnVolume1",
+										"group_tag": "CA09_SM03_Group"
+									},
+									{
+										"name": "CA09_K02",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"TaskLocationOverrideType": "OtherTask",
+										"OtherTaskId": "CA09_SM03",
+										"kill_target": "CA09_SM03_Group",
+										"kill_target_types": [
+											"SW.Mob.Vindicator",
+											"SW.Mob.Pillager"
+										],
+										"kill_count": 4
+									},
+									{
+										"name": "CA09_SM06",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"mob_types": [
+											"SW.Mob.ScavengerMelee",
+											"SW.Mob.ScavengerRanged"
+										],
+										"mob_count": 7,
+										"volume_name": "CA09_SM03_SpawnVolume1",
+										"group_tag": "CA09_SM06_Group"
+									},
+									{
+										"name": "CA09_SM09",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"mob_types": [
+											"SW.Mob.ScavengerGrappler"
+										],
+										"mob_count": 1,
+										"volume_name": "CA09_SM03_SpawnVolume1",
+										"group_tag": "CA09_SM06_Group"
+									},
+									{
+										"name": "CA09_K05",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"TaskLocationOverrideType": "OtherTask",
+										"OtherTaskId": "CA09_SM06",
+										"kill_target": "CA09_SM06_Group",
+										"kill_target_types": [
+											"SW.Mob.ScavengerMelee",
+											"SW.Mob.ScavengerRanged"
+										],
+										"kill_count": 7
+									},
+									{
+										"name": "CA09_I20",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "CA09_I20_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									},
+									{
+										"name": "CA09_MT03",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"npc_tag": "CA09_MT03_NPCTarget"
+									}
+								]
+							},
+							{
+								"name": "CA09_Sequence04",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CA09_E18",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "CA09_E18_Destination"
+									},
+									{
+										"name": "CA09_SM04",
+										"comment": "Illagers inside first shell",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"mob_types": [
+											"SW.Mob.Vindicator",
+											"SW.Mob.Pillager"
+										],
+										"mob_count": 4,
+										"volume_name": "CA09_SM04_SpawnVolume1",
+										"group_tag": "CA09_SM04_Group"
+									},
+									{
+										"name": "CA09_K03",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"TaskLocationOverrideType": "OtherTask",
+										"OtherTaskId": "CA09_SM04",
+										"kill_target": "CA09_SM04_Group",
+										"kill_target_types": [
+											"SW.Mob.Vindicator",
+											"SW.Mob.Pillager"
+										],
+										"kill_count": 4
+									},
+									{
+										"name": "CA09_SM07",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"mob_types": [
+											"SW.Mob.ScavengerMelee",
+											"SW.Mob.ScavengerRanged"
+										],
+										"mob_count": 7,
+										"volume_name": "CA09_SM04_SpawnVolume1",
+										"group_tag": "CA09_SM07_Group"
+									},
+									{
+										"name": "CA09_SM08",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"mob_types": [
+											"SW.Mob.ScavengerTrapper"
+										],
+										"mob_count": 1,
+										"volume_name": "CA09_SM04_SpawnVolume1",
+										"group_tag": "CA09_SM08_Group"
+									},
+									{
+										"name": "CA09_K06",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"TaskLocationOverrideType": "OtherTask",
+										"OtherTaskId": "CA09_SM07",
+										"kill_target": "CA09_SM07_Group",
+										"kill_target_types": [
+											"SW.Mob.ScavengerMelee",
+											"SW.Mob.ScavengerRanged"
+										],
+										"kill_count": 7
+									},
+									{
+										"name": "CA09_I21",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "CA09_I21_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									},
+									{
+										"name": "CA09_MT04",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"npc_tag": "CA09_MT04_NPCTarget"
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "CA09_E08",
+						"comment": "move through t3 musical gate",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA09_E08_Destination"
+					},
+					{
+						"name": "CA09_E09",
+						"comment": "Look for the Portal",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA09_E09_Destination"
+					},
+					{
+						"name": "CA09_I17",
+						"comment": "Talk to the Echo Golem",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA09_I17_Target"
+					},
+					{
+						"name": "CA09_E14",
+						"comment": "Find a way to open the gate",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA09_E14_Destination"
+					},
+					{
+						"name": "CA09_A04",
+						"comment": "Defeat Ambush",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.Carapace.CA09.Arena.04"
+					},
+					{
+						"name": "CA09_Sequence05",
+						"comment": "Sequence List for Shade",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "CA09_E15",
+								"comment": "Entering the Shade Boss Tile",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"TaskLocationOverrideType": "LocationTag",
+								"TaskLocationTags": [
+									"SW.QuestLocation.CA09.E15"
+								],
+								"destination": "CA09_E15_Destination"
+							},
+							{
+								"name": "CA09_E16",
+								"comment": "Reaching the Shade Boss Arena",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"TaskLocationOverrideType": "LocationTag",
+								"TaskLocationTags": [
+									"SW.QuestLocation.CA09.E15"
+								],
+								"destination": "CA09_E16_Destination"
+							},
+							{
+								"name": "CA09_AS05",
+								"comment": "Shade Boss Arena",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"TaskLocationOverrideType": "LocationTag",
+								"TaskLocationTags": [
+									"SW.QuestLocation.CA09.AS05"
+								],
+								"arena_tag": "SW.ArenaSetup.Ravines.CA09.ShadeBoss"
+							},
+							{
+								"name": "CA09_E17",
+								"comment": "Reaching the Power Blocks",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"destination": "CA09_E17_Destination"
+							},
+							{
+								"name": "CA09_Standard03",
+								"comment": "Find and Collect Batteries",
+								"show_progress": true,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Standard",
+								"subgoals": [
+									{
+										"name": "CA09_I07",
+										"comment": "find battery 1",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "CA09_I07_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									},
+									{
+										"name": "CA09_I08",
+										"comment": "find battery 2",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "CA09_I08_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							},
+							{
+								"name": "CA09_E20",
+								"comment": "Returning to the Caretaker",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"destination": "CA09_E20_Destination"
+							}
+						]
+					},
+					{
+						"name": "CA09_Standard04",
+						"comment": "open the gate",
+						"show_progress": true,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "CA09_I12",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "CA09_I12_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "CA09_I13",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "CA09_I13_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							}
+						]
+					},
+					{
+						"name": "CA09_F01",
+						"comment": "Echo Golem Following Player to Meadow A2 Transition",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"follow_goal_data":
+						{
+							"nPCTypeTag":
+							{
+								"tagName": "SW.NPC.CA09.Caretaker.02"
+							},
+							"nPCDestination": "CA09_F01_Destination",
+							"allowedAreas":
+							{
+								"gameplayTags": []
+							}
+						}
+					},
+					{
+						"name": "CA09_MT01",
+						"comment": "Move To Task for Caretaker",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"npc_tag": "CA09_MT01_Target"
+					},
+					{
+						"name": "CA09_I18",
+						"comment": "Speaking with the Caretaker",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA09_I18_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					}
+				]
+			}
+		},
+		{
+			"id": "CA10",
+			"id_tag": "SW.Quest.Id.CA10",
+			"initial_state": "Locked",
+			"quest_type": "CoreQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.ExtraLarge"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Carapace.A1"
+				},
+				"firstCompletionLootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Melee.HammerUnique_01"
+								}
+							]
+						}
+					},
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Armour.StalwartSet"
+								}
+							]
+						}
+					}
+				],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Talisman.Companion.IronGolem"
+								}
+							]
+						}
+					},
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Area.Carapace.A1"
+								},
+								{
+									"tagName": "SW.Quest.Loot.AreaDropModifier"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Unique"
+								}
+							]
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": true,
+				"unlocksArea": false,
+				"unlocksTownContent": true,
+				"unlocksSoulStorm": true
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "Carapace A1: Core Quest",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": []
+			},
+			"prerequisites": [
+				"CA09"
+			],
+			"goals":
+			{
+				"name": "CA10_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "CA10_E00",
+						"comment": "Defeating the Illagers near the Caretakers",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA10_E00_Destination"
+					},
+					{
+						"name": "CA10_E01",
+						"comment": "Defeating the Illagers near the Caretakers",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA10_E01_Destination"
+					},
+					{
+						"name": "CA10_Standard01",
+						"comment": "Searching for the Musical Beans",
+						"show_progress": true,
+						"bResetProgressIfActiveOnLoad": true,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "CA10_E02",
+								"comment": "Musical Gate Bean #1",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"destination": "CA10_E02_Destination"
+							},
+							{
+								"name": "CA10_E03",
+								"comment": "Musical Gate Bean #2",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"destination": "CA10_E03_Destination"
+							},
+							{
+								"name": "CA10_E04",
+								"comment": "Musical Gate Bean #3",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"destination": "CA10_E04_Destination"
+							}
+						]
+					},
+					{
+						"name": "CA10_E05",
+						"comment": "Reaching the other side of the Musical Gate",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA10_E05_Destination"
+					},
+					{
+						"name": "CA10_Standard04",
+						"comment": "Following the runaway Caretaker",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "CA10_Sequence07",
+								"comment": "Sequence List for Runaway Caretaker Section",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CA10_Standard06",
+										"comment": "Runaway Caretaker 01",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"type": "Standard",
+										"subgoals": [
+											{
+												"name": "CA10_MT02",
+												"comment": "Caretaker Move To Offscreen",
+												"show_progress": false,
+												"bResetProgressIfActiveOnLoad": true,
+												"TaskLocationOverrideType": "OtherTask",
+												"OtherTaskId": "CA10_E21",
+												"npc_tag": "CA10_MT02_NPC_Destination"
+											},
+											{
+												"name": "CA10_E21",
+												"comment": "Player Trigger for Caretaker to Move",
+												"show_progress": false,
+												"bResetProgressIfActiveOnLoad": true,
+												"destination": "CA10_E21_Destination"
+											}
+										]
+									},
+									{
+										"name": "CA10_Sequence08",
+										"comment": "Runaway Caretaker 02",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"type": "Sequence",
+										"subgoals": [
+											{
+												"name": "CA10_E23",
+												"comment": "Player Trigger for Caretaker to Move",
+												"show_progress": false,
+												"bResetProgressIfActiveOnLoad": true,
+												"destination": "CA10_E23_Destination"
+											},
+											{
+												"name": "CA10_MT05",
+												"comment": "Caretaker Move To Offscreen",
+												"show_progress": false,
+												"bResetProgressIfActiveOnLoad": true,
+												"TaskLocationOverrideType": "OtherTask",
+												"OtherTaskId": "CA10_E23",
+												"npc_tag": "CA10_MT05_NPC_Destination"
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "CA10_E06",
+						"comment": "Reaching the Vista",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA10_E06_Destination"
+					},
+					{
+						"name": "CA10_I07",
+						"comment": "Interacting with the Caretaker",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA10_I07_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA10_Standard05",
+						"comment": "Leading Caretaker to Vista",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "CA10_F01",
+								"comment": "Caretaker Following Player",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"follow_goal_data":
+								{
+									"nPCTypeTag":
+									{
+										"tagName": "SW.NPC.CA10.Caretaker.Angry.Vista.01"
+									},
+									"nPCDestination": "CA10_F01_NPC_Destination",
+									"allowedAreas":
+									{
+										"gameplayTags": []
+									}
+								}
+							},
+							{
+								"name": "CA10_Sequence05",
+								"comment": "Reaching the Barred Gate and Spawning Illagers",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CA10_E22",
+										"comment": "Explore Task for opening Barred Gate",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"TaskLocationOverrideType": "OtherTask",
+										"OtherTaskId": "CA10_F01",
+										"destination": "CA10_E22_Destination"
+									},
+									{
+										"name": "CA10_SM03",
+										"comment": "Spawning Vindicators near Gate",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"mob_types": [
+											"SW.Mob.Vindicator"
+										],
+										"mob_count": 4,
+										"volume_name": "CA10_SM_SV03",
+										"group_tag": ""
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "CA10_Standard03",
+						"comment": "Spawning Enemies around Broken Caretakers",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "CA10_SM01",
+								"comment": "Spawning Vindicators",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"mob_types": [
+									"SW.Mob.Vindicator"
+								],
+								"mob_count": 3,
+								"volume_name": "CA10_SM_SV01",
+								"group_tag": ""
+							}
+						]
+					},
+					{
+						"name": "CA10_AS05",
+						"comment": "Defeating the Illagers near the Caretakers",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"TaskLocationOverrideType": "OtherTask",
+						"OtherTaskId": "CA10_SM01",
+						"arena_tag": "SW.ArenaSetup.MeadowA2.CA10.AS05"
+					},
+					{
+						"name": "CA10_Sequence04",
+						"comment": "Caretaker Moving into Position (Reset Progress)",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "CA10_MT03",
+								"comment": "Caretaker Moving to Dead Caretakers",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"TaskLocationOverrideType": "OtherTask",
+								"OtherTaskId": "CA10_I16",
+								"npc_tag": "CA10_MT03_NPC_Destination"
+							},
+							{
+								"name": "CA10_I16",
+								"comment": "Interacting at the Vista",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "CA10_I16_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							}
+						]
+					},
+					{
+						"name": "CA10_PC01",
+						"comment": "Vista Flyover Cutscene",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"cutscene_gameplay_tag": "SW.UI.Cutscene.Miniscene.MS46"
+					},
+					{
+						"name": "CA10_Sequence03",
+						"comment": "Player Opening Door",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "CA10_I17",
+								"comment": "Speaking with Caretaker Post Cutscene",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "CA10_I17_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "CA10_Sequence06",
+								"comment": "Leading NPC to Door (Reset Progress)",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "CA10_F02",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"follow_goal_data":
+										{
+											"nPCTypeTag":
+											{
+												"tagName": "SW.NPC.CA10.QuestGiver.Vista"
+											},
+											"nPCDestination": "CA10_F02_NPC_Destination",
+											"allowedAreas":
+											{
+												"gameplayTags": []
+											}
+										}
+									},
+									{
+										"name": "CA10_MT04",
+										"comment": "Caretaker Moving into Position",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"npc_tag": "CA10_MT04_NPC_Destination"
+									}
+								]
+							},
+							{
+								"name": "CA10_I10",
+								"comment": "Speaking with Caretaker Post Cutscene",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "CA10_I10_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "CA10_I11",
+								"comment": "Taking the Block",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "CA10_I11_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "CA10_I12",
+								"comment": "Opening the Door",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "CA10_I12_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							}
+						]
+					},
+					{
+						"name": "CA10_E13",
+						"comment": "Reaching the Key Golem Blocker",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA10_E13_Destination"
+					},
+					{
+						"name": "CA10_E14",
+						"comment": "Getting Past the Key Golem",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA10_E14_Destination"
+					},
+					{
+						"name": "CA10_E08",
+						"comment": "Reaching the Suclk Monstrosity Arena",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA10_E08_Destination"
+					},
+					{
+						"name": "CA10_AS01",
+						"comment": "Sculk Monstrosity Arena Fight",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.MeadowA2.BossArena"
+					},
+					{
+						"name": "CA10_E09",
+						"comment": "Reaching the other Side of the Lifts",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA10_E09_Destination"
+					},
+					{
+						"name": "CA10_E15",
+						"comment": "Reaching the Courtyard",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA10_E15_Destination"
+					},
+					{
+						"name": "CA10_E16",
+						"comment": "Getting through the Courtyard",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA10_E16_Destination"
+					},
+					{
+						"name": "CA10_E17",
+						"comment": "Climbing the Ramparts",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA10_E17_Destination"
+					},
+					{
+						"name": "CA10_E24",
+						"comment": "Explore Task for Traversing Rampets",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA10_E24_Destination"
+					},
+					{
+						"name": "CA10_AS06",
+						"comment": "Arena Fight on Ramperts",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.MeadowA2.CA10.AS06"
+					},
+					{
+						"name": "CA10_E18",
+						"comment": "Continuing through the Ramparts",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA10_E18_Destination"
+					},
+					{
+						"name": "CA10_E19",
+						"comment": "Continuing through the Ramparts",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA10_E19_Destination"
+					},
+					{
+						"name": "CA10_E20",
+						"comment": "Climbing the Ramparts",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA10_E20_Destination"
+					},
+					{
+						"name": "CA10_AS02",
+						"comment": "Arena Fight Outside Portal",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.MeadowA2.CA10.AS02"
+					},
+					{
+						"name": "CA10_E10",
+						"comment": "Entering Deep Dark A2",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"TaskLocationOverrideType": "LocationTag",
+						"TaskLocationTags": [
+							"SW.QuestLocation.CA10.E10"
+						],
+						"destination": "CA10_E10_Destination"
+					},
+					{
+						"name": "CA10_E11",
+						"comment": "Entering Deep Dark A2",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA10_E11_Destination"
+					},
+					{
+						"name": "CA10_I13",
+						"comment": "Interacting with the Soul Construct Mesh",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"interact_target": "CA10_I13_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA10_PC02",
+						"comment": "Boss Intro",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"cutscene_gameplay_tag": "SW.UI.Cutscene.Cutscenes.CS27"
+					},
+					{
+						"name": "CA10_AS03",
+						"comment": "Supreme Evoker Arena Fight",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"arena_tag": "SW.ArenaSetup.DeepDarkA2.CA11.AS01"
+					},
+					{
+						"name": "CA10_T01",
+						"comment": "Delay",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"time": 4
+					},
+					{
+						"name": "CA10_PC03",
+						"comment": "Supreme Evoker Defeat Cinematic",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"cutscene_gameplay_tag": "SW.UI.Cutscene.Miniscene.MS47"
+					},
+					{
+						"name": "CA10_AS04",
+						"comment": "Soul Construct Arena Fight",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"arena_tag": "SW.ArenaSetup.DeepDarkA2.CA11.AS02"
+					},
+					{
+						"name": "CA10_T02",
+						"comment": "Delay",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"time": 4
+					},
+					{
+						"name": "CA10_I14",
+						"comment": "Picking up the Soul Construct's Block",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA10_I14_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA10_PC04",
+						"comment": "Finale Cinematic",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"cutscene_gameplay_tag": "SW.UI.Cutscene.Cutscenes.CS28"
+					}
+				]
+			}
+		},
+		{
+			"id": "CA05_BR",
+			"id_tag": "SW.Quest.Id.CA05BR",
+			"initial_state": "Locked",
+			"quest_type": "SideQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Small"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Desert.A1.FortressInt"
+				},
+				"firstCompletionLootSourceData": [],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Talisman.RangedBoost"
+								}
+							]
+						}
+					},
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Area.Desert.A1.FortressInt"
+								},
+								{
+									"tagName": "SW.Quest.Loot.AreaDropModifier"
+								}
+							]
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": true,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 20,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": false,
+				"unlocksArea": false,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "Mauler - Boss Replay",
+			"comment": "Boss Replay - Mauler",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": [
+					{
+						"typeTag":
+						{
+							"tagName": "SW.KeyValue.Quest.Subtype"
+						},
+						"type": "GameplayTagContainer",
+						"int": 0,
+						"float": 0,
+						"bool": false,
+						"string": "None",
+						"gameplayTag":
+						{
+							"tagName": "None"
+						},
+						"gameplayTagContainer":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.BossReplay"
+								}
+							]
+						},
+						"vector":
+						{
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				]
+			},
+			"prerequisites": [
+				"CA05"
+			],
+			"goals":
+			{
+				"name": "CA05_BR_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "CA05_BR_E01",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA05_BR_E01_Destination"
+					},
+					{
+						"name": "CA05_BR_AS01",
+						"comment": "The Mauler Fight (REPLAY)",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.Desert.FrostbiteBoss"
+					}
+				]
+			}
+		},
+		{
+			"id": "CA02_B_BR",
+			"id_tag": "SW.Quest.Id.CA02BBR",
+			"initial_state": "Locked",
+			"quest_type": "SideQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Small"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Forest.A1"
+				},
+				"firstCompletionLootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Armour.TimeWornSet"
+								}
+							]
+						}
+					},
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Melee.ClawsUnique_01"
+								}
+							]
+						}
+					}
+				],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.AreaDropModifier"
+								},
+								{
+									"tagName": "SW.Area.Forest.A1"
+								}
+							]
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": true,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 20,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": false,
+				"unlocksArea": false,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "Witch - Boss Replay",
+			"comment": "Boss Replay - Witch",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": [
+					{
+						"typeTag":
+						{
+							"tagName": "SW.KeyValue.Quest.Subtype"
+						},
+						"type": "GameplayTagContainer",
+						"int": 0,
+						"float": 0,
+						"bool": false,
+						"string": "None",
+						"gameplayTag":
+						{
+							"tagName": "None"
+						},
+						"gameplayTagContainer":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.BossReplay"
+								}
+							]
+						},
+						"vector":
+						{
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				]
+			},
+			"prerequisites": [
+				"CA02_B"
+			],
+			"goals":
+			{
+				"name": "CA02_B_BR_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "CA02_B_BR_E01",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA02_B_BR_E01_Destination"
+					},
+					{
+						"name": "CA02_B_BR_AS01",
+						"comment": "The Witch Fight (REPLAY)",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.Forest.CA02.B.Arena.03"
+					}
+				]
+			}
+		},
+		{
+			"id": "CA03_BR",
+			"id_tag": "SW.Quest.Id.CA03BR",
+			"initial_state": "Locked",
+			"quest_type": "SideQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Small"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Forest.A1"
+				},
+				"firstCompletionLootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Armour.CaveCrawlerSet"
+								}
+							]
+						}
+					},
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Melee.DaggersUnique_01"
+								}
+							]
+						}
+					}
+				],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.AreaDropModifier"
+								},
+								{
+									"tagName": "SW.Area.DeepDark.T1"
+								}
+							]
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": true,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 20,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": false,
+				"unlocksArea": false,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "Maw - Boss Replay",
+			"comment": "Boss Replay - Maw",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": [
+					{
+						"typeTag":
+						{
+							"tagName": "SW.KeyValue.Quest.Subtype"
+						},
+						"type": "GameplayTagContainer",
+						"int": 0,
+						"float": 0,
+						"bool": false,
+						"string": "None",
+						"gameplayTag":
+						{
+							"tagName": "None"
+						},
+						"gameplayTagContainer":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.BossReplay"
+								}
+							]
+						},
+						"vector":
+						{
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				]
+			},
+			"prerequisites": [
+				"CA03"
+			],
+			"goals":
+			{
+				"name": "CA03_BR_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "CA03_BR_E01",
+						"comment": "Entering the Arena",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA03_BR_E01_Destination"
+					},
+					{
+						"name": "CA03_BR_AS01",
+						"comment": "The Maw Fight - (REPLAY)",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.DeepDarkT1.Anchors01.PortalTileMawFight1"
+					}
+				]
+			}
+		},
+		{
+			"id": "CA07_BR",
+			"id_tag": "SW.Quest.Id.CA07BR",
+			"initial_state": "Locked",
+			"quest_type": "SideQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Medium"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Plains.A2"
+				},
+				"firstCompletionLootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Melee.PikeUnique_01"
+								}
+							]
+						}
+					}
+				],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.AreaDropModifier"
+								},
+								{
+									"tagName": "SW.Area.Plains.A2"
+								}
+							]
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": true,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 20,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": false,
+				"unlocksArea": false,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": [
+					{
+						"typeTag":
+						{
+							"tagName": "SW.KeyValue.Quest.Subtype"
+						},
+						"type": "GameplayTagContainer",
+						"int": 0,
+						"float": 0,
+						"bool": false,
+						"string": "None",
+						"gameplayTag":
+						{
+							"tagName": "None"
+						},
+						"gameplayTagContainer":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.BossReplay"
+								}
+							]
+						},
+						"vector":
+						{
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				]
+			},
+			"prerequisites": [
+				"CA07"
+			],
+			"goals":
+			{
+				"name": "CA07_BR_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "CA07_BR_E01",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA07_BR_E01_Destination"
+					},
+					{
+						"name": "CA07_BR_AS01",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.PlainsA2.CA07.AS01"
+					}
+				]
+			}
+		},
+		{
+			"id": "CA01_B",
+			"id_tag": "SW.Quest.Id.CA01B",
+			"initial_state": "Locked",
+			"quest_type": "CoreQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Medium"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Plains.A1"
+				},
+				"firstCompletionLootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Armour.HoneySet"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Rare"
+								}
+							]
+						}
+					}
+				],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.AreaDropModifier"
+								},
+								{
+									"tagName": "SW.Area.Plains.A1"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Rare"
+								}
+							]
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": true,
+				"unlocksArea": true,
+				"unlocksTownContent": true,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "",
+			"comment": "Merchant Unlock Quest",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": []
+			},
+			"prerequisites": [
+				"CA01"
+			],
+			"goals":
+			{
+				"name": "CA01_B_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "CA01_B_I01",
+						"comment": "Speaking with the Bridge Villager",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA01_B_I01_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA01_B_E02",
+						"comment": "Reaching the Merchant",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA01_B_E02_Destination"
+					},
+					{
+						"name": "CA01_B_AS01",
+						"comment": "Saving the Village Merhcant",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"arena_tag": "SW.ArenaSetup.PlainsA1.CA01.B.AS01"
+					},
+					{
+						"name": "CA01_B_I02",
+						"comment": "Speaking with the Merchant after saving them",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA01_B_I02_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA01_B_Standard01",
+						"comment": "Standard List For the Lost Items",
+						"show_progress": true,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "CA01_B_Standard02",
+								"comment": "Standard List for Lost Item 01",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Standard",
+								"subgoals": [
+									{
+										"name": "CA01_B_SM01",
+										"comment": "Spawning in Illagers near items",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"mob_types": [
+											"SW.Mob.Vindicator"
+										],
+										"mob_count": 3,
+										"volume_name": "CA01_B_SM_SV01",
+										"group_tag": ""
+									},
+									{
+										"name": "CA01_B_I03",
+										"comment": "Lost Item 01",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "CA01_B_I03_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							},
+							{
+								"name": "CA01_B_Standard03",
+								"comment": "Standard List for Item 02",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Standard",
+								"subgoals": [
+									{
+										"name": "CA01_B_SM02",
+										"comment": "Spawning in Illagers near items",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"mob_types": [
+											"SW.Mob.Vindicator"
+										],
+										"mob_count": 3,
+										"volume_name": "CA01_B_SM_SV02",
+										"group_tag": ""
+									},
+									{
+										"name": "CA01_B_I04",
+										"comment": "Lost Item 02",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "CA01_B_I04_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							},
+							{
+								"name": "CA01_B_Standard04",
+								"comment": "Standard List for Item 03",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Standard",
+								"subgoals": [
+									{
+										"name": "CA01_B_SM03",
+										"comment": "Spawning in Illagers near items",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"mob_types": [
+											"SW.Mob.Vindicator"
+										],
+										"mob_count": 3,
+										"volume_name": "CA01_B_SM_SV03",
+										"group_tag": ""
+									},
+									{
+										"name": "CA01_B_I05",
+										"comment": "Lost Item 03",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "CA01_B_I05_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							},
+							{
+								"name": "CA01_B_Standard05",
+								"comment": "Standard List for Item 03",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Standard",
+								"subgoals": [
+									{
+										"name": "CA01_B_SM04",
+										"comment": "Spawning in Illagers near items",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"mob_types": [
+											"SW.Mob.Vindicator"
+										],
+										"mob_count": 3,
+										"volume_name": "CA01_B_SM_SV04",
+										"group_tag": ""
+									},
+									{
+										"name": "CA01_B_I06",
+										"comment": "Lost Item 04",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "CA01_B_I06_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "CA01_B_E03",
+						"comment": "Returning to the Merchant with the Lost Items",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA01_B_E03_Destination"
+					},
+					{
+						"name": "CA01_B_I07",
+						"comment": "Interatcing With the Merchant at the Farm",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA01_B_I07_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA01_B_E04",
+						"comment": "Reaching the Merchant Stall",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA01_B_E04_Destination"
+					},
+					{
+						"name": "CA01_B_E05",
+						"comment": "Reaching the Merchant Stall",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA01_B_E05_Destination"
+					},
+					{
+						"name": "CA01_B_I08",
+						"comment": "Interacting with the Merchant Villager",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA01_B_I08_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					}
+				]
+			}
+		},
+		{
+			"id": "CA02_C",
+			"id_tag": "SW.Quest.Id.CA02C",
+			"initial_state": "Locked",
+			"quest_type": "CoreQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Large"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Forest.A1"
+				},
+				"firstCompletionLootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Enchantment.Enchantsmith"
+								}
+							]
+						}
+					}
+				],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": []
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": true,
+				"unlocksArea": false,
+				"unlocksTownContent": true,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": []
+			},
+			"prerequisites": [
+				"CA02"
+			],
+			"goals":
+			{
+				"name": "CA02_C_Sequence01",
+				"comment": "Enchantsmith Quest",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "CA02_C_SM01",
+						"comment": "Spawning in some Illagers near the Barrels",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"mob_types": [
+							"SW.Mob.Vindicator"
+						],
+						"mob_count": 5,
+						"volume_name": "CA02_C_SM_SV01",
+						"group_tag": ""
+					},
+					{
+						"name": "CA02_C_E01",
+						"comment": "Reaching the First Search Location",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA02_C_E01_Destination"
+					},
+					{
+						"name": "CA02_C_Sequence02",
+						"comment": "Sequence List for First Location",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "CA02_C_I01",
+								"comment": "Interacting with First Crate",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "CA02_C_I01_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							}
+						]
+					},
+					{
+						"name": "CA02_C_E02",
+						"comment": "Reaching the Second Search Location",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA02_C_E02_Destination"
+					},
+					{
+						"name": "CA02_C_Sequence03",
+						"comment": "Sequence List for Second Location",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "CA02_C_I02",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "CA02_C_I02_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "CA02_C_SM02",
+								"comment": "Spawning Illagers",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"mob_types": [
+									"SW.Mob.Vindicator"
+								],
+								"mob_count": 5,
+								"volume_name": "CA02_C_SM_SV02",
+								"group_tag": "CA02_C_K01_Enemies"
+							},
+							{
+								"name": "CA02_C_K01",
+								"comment": "Defeat the Illagers",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"TaskLocationOverrideType": "OtherTask",
+								"OtherTaskId": "CA02_C_I02",
+								"kill_target": "CA02_C_K01_Enemies",
+								"kill_target_types": [],
+								"kill_count": 5
+							}
+						]
+					},
+					{
+						"name": "CA02_C_E03",
+						"comment": "Reaching the Outside of the Well",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA02_C_E03_Destination"
+					},
+					{
+						"name": "CA02_C_Sequence04",
+						"comment": "Sequence List for Reaching the Well",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "CA02_C_E04",
+								"comment": "Entering the Well",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"destination": "CA02_C_E04_Destination"
+							},
+							{
+								"name": "CA02_C_E05",
+								"comment": "Finding the Enchantment Book",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"destination": "CA02_C_E05_Destination"
+							},
+							{
+								"name": "CA02_C_I03",
+								"comment": "Picking up the Enchantsmith's Book",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "CA02_C_I03_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "CA02_C_AS01",
+								"comment": "Illager Arena Fight",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"arena_tag": "SW.ArenaSetup.Forest.CA02.C.Arena.01"
+							}
+						]
+					},
+					{
+						"name": "CA02_C_E06",
+						"comment": "Returning to the Enchantsmtih",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA02_C_E06_Destination"
+					},
+					{
+						"name": "CA02_C_I05",
+						"comment": "Speaking to the Enchantsmith",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA02_C_I05_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA02_C_E07",
+						"comment": "Returning to Town",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA02_C_E07_Destination"
+					},
+					{
+						"name": "CA02_C_E08",
+						"comment": "Reaching the Enchantsmiths Stall",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA02_C_E08_Destination"
+					},
+					{
+						"name": "CA02_C_I06",
+						"comment": "Speaking to the Enchantsmith",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA02_C_I06_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA02_C_Sequence05",
+						"comment": "Dungeon Sequence List",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "CA02_C_E09",
+								"comment": "Reaching the Dungeon Entrance",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"destination": "CA02_C_E09_Destination"
+							},
+							{
+								"name": "CA02_C_E10",
+								"comment": "Reaching the Interior of the Dungeon",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"destination": "CA02_C_E10_Destination"
+							},
+							{
+								"name": "CA02_C_E11",
+								"comment": "Explore Task to First Area",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"destination": "CA02_C_E11_Destination"
+							},
+							{
+								"name": "CA02_C_I07",
+								"comment": "Picking Up the Enchantment Book",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "CA02_C_I07_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "CA02_C_AS02",
+								"comment": "Arena on Final Tile",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"arena_tag": "SW.ArenaSetup.Forest.CA02.C.Arena.02"
+							},
+							{
+								"name": "CA02_C_E12",
+								"comment": "Exiting the Dungeon",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"destination": "CA02_C_E12_Destination"
+							},
+							{
+								"name": "CA02_C_E13",
+								"comment": "Returning to the Enchantsmith",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"destination": "CA02_C_E13_Destination"
+							},
+							{
+								"name": "CA02_C_I08",
+								"comment": "Interacting with the Enchantsmith",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "CA02_C_I08_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "CA09_BR",
+			"id_tag": "SW.Quest.Id.CA09BR",
+			"initial_state": "Locked",
+			"quest_type": "SideQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Medium"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Meadow.A1"
+				},
+				"firstCompletionLootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Ranged.TrickbowUnique_01"
+								}
+							]
+						}
+					},
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Melee.DaggerUnique_01"
+								}
+							]
+						}
+					},
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Artifact.CA09.BR"
+								}
+							]
+						}
+					},
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.AreaDropModifier"
+								},
+								{
+									"tagName": "SW.Area.Meadow.A1"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Special"
+								}
+							]
+						}
+					},
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.AreaDropModifier"
+								},
+								{
+									"tagName": "SW.Area.Meadow.A1"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Special"
+								}
+							]
+						}
+					}
+				],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.AreaDropModifier"
+								},
+								{
+									"tagName": "SW.Area.Meadow.A1"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Special"
+								}
+							]
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": true,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": false,
+				"unlocksArea": false,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "",
+			"comment": "Sculk Monstrosity Boss Replay",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": [
+					{
+						"typeTag":
+						{
+							"tagName": "SW.KeyValue.Quest.Subtype"
+						},
+						"type": "GameplayTagContainer",
+						"int": 0,
+						"float": 0,
+						"bool": false,
+						"string": "None",
+						"gameplayTag":
+						{
+							"tagName": "None"
+						},
+						"gameplayTagContainer":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.BossReplay"
+								}
+							]
+						},
+						"vector":
+						{
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				]
+			},
+			"prerequisites": [
+				"CA08_B"
+			],
+			"goals":
+			{
+				"name": "CA09_BR_Sequence01",
+				"comment": "Seuqnece List for Quest",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "CA09_BR_E01",
+						"comment": "Reaching the Boss Arena",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA09_BR_E01_Destination"
+					},
+					{
+						"name": "CA09_BR_AS01",
+						"comment": "Sculk Monstrosity Replay Arena",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.Meadow.A1.CA09.BR.AS01"
+					}
+				]
+			}
+		},
+		{
+			"id": "CA08_B",
+			"id_tag": "SW.Quest.Id.CA08B",
+			"initial_state": "Locked",
+			"quest_type": "CoreQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Large"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Meadow.A1"
+				},
+				"firstCompletionLootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Melee.ClawsUnique_01"
+								}
+							]
+						}
+					}
+				],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Area.Meadow.A1"
+								},
+								{
+									"tagName": "SW.Quest.Loot.AreaDropModifier"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Special"
+								},
+								{
+									"tagName": "SW.Quest.Loot.Armour.TimeWornSet"
+								}
+							]
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": true,
+				"unlocksArea": true,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": []
+			},
+			"prerequisites": [
+				"CA08"
+			],
+			"goals":
+			{
+				"name": "CA08_B_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "CA08_B_E01",
+						"comment": "Reaching Musical Gate",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA08_B_E01_Destination"
+					},
+					{
+						"name": "CA08_B_Sequence05",
+						"comment": "Reaching Musical Gate",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "CA08_B_Standard03",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"type": "Standard",
+								"subgoals": [
+									{
+										"name": "CA08_B_E06",
+										"comment": "Tuner Location #1",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"destination": "CA08_B_E06_Destination"
+									},
+									{
+										"name": "CA08_B_E07",
+										"comment": "Tuner Location 4",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"destination": "CA08_B_E07_Destination"
+									},
+									{
+										"name": "CA08_B_E08",
+										"comment": "Tuner Location 3",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"destination": "CA08_B_E08_Destination"
+									}
+								]
+							},
+							{
+								"name": "CA08_B_E02",
+								"comment": "Getting Past Musical Gate",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"destination": "CA08_B_E02_Destination"
+							}
+						]
+					},
+					{
+						"name": "CA08_B_E03",
+						"comment": "Reaching the Gate",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA08_B_E03_Destination"
+					},
+					{
+						"name": "CA08_B_I04",
+						"comment": "Gate Dialogue",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "CA08_B_I04_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA08_B_Standard01",
+						"comment": "Drawing out the Illagers",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "CA08_B_Standard02",
+								"comment": "Sabotage Banners",
+								"show_progress": true,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Standard",
+								"subgoals": [
+									{
+										"name": "CA08_B_Sequence02",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"type": "Sequence",
+										"subgoals": [
+											{
+												"name": "CA08_B_SM02",
+												"comment": "Spawning Illagers",
+												"show_progress": false,
+												"bResetProgressIfActiveOnLoad": false,
+												"mob_types": [
+													"SW.Mob.Vindicator.SoulStated"
+												],
+												"mob_count": 1,
+												"volume_name": "CA08_B_SM_SV02",
+												"group_tag": ""
+											},
+											{
+												"name": "CA08_B_I01",
+												"comment": "Banner #1",
+												"show_progress": false,
+												"bResetProgressIfActiveOnLoad": false,
+												"interact_target": "CA08_B_I01_Target",
+												"howmany_count": 1,
+												"disable_interaction": true
+											}
+										]
+									},
+									{
+										"name": "CA08_B_Sequence04",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"type": "Sequence",
+										"subgoals": [
+											{
+												"name": "CA08_B_SM03",
+												"comment": "Spawning Illagers",
+												"show_progress": false,
+												"bResetProgressIfActiveOnLoad": false,
+												"mob_types": [
+													"SW.Mob.Geomancer.SoulStated"
+												],
+												"mob_count": 1,
+												"volume_name": "CA08_B_SM_SV03",
+												"group_tag": ""
+											},
+											{
+												"name": "CA08_B_I02",
+												"comment": "Banner #2",
+												"show_progress": false,
+												"bResetProgressIfActiveOnLoad": false,
+												"interact_target": "CA08_B_I02_Target",
+												"howmany_count": 1,
+												"disable_interaction": true
+											}
+										]
+									},
+									{
+										"name": "CA08_B_Sequence03",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"type": "Sequence",
+										"subgoals": [
+											{
+												"name": "CA08_B_SM04",
+												"comment": "Spawning Illagers",
+												"show_progress": false,
+												"bResetProgressIfActiveOnLoad": false,
+												"mob_types": [
+													"SW.Mob.RoyalGuard.SoulStated"
+												],
+												"mob_count": 1,
+												"volume_name": "CA08_B_SM_SV04",
+												"group_tag": ""
+											},
+											{
+												"name": "CA08_B_I03",
+												"comment": "Banner #3",
+												"show_progress": false,
+												"bResetProgressIfActiveOnLoad": false,
+												"interact_target": "CA08_B_I03_Target",
+												"howmany_count": 1,
+												"disable_interaction": true
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "CA08_B_SM01",
+						"comment": "Spawning in Illagers",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"mob_types": [
+							"SW.Mob.Vindicator"
+						],
+						"mob_count": 8,
+						"volume_name": "CA08_B_SM_SV01",
+						"group_tag": ""
+					},
+					{
+						"name": "CA08_B_E04",
+						"comment": "Returning to Gate",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA08_B_E04_Destination"
+					},
+					{
+						"name": "CA08_B_E05",
+						"comment": "Entering Arena",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA08_B_E05_Destination"
+					},
+					{
+						"name": "CA08_B_AS01",
+						"comment": "Sculk Monstrosity Fight",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.MeadowA1.MeadowA1EXT.SkulkMonstrosity.Arena01"
+					}
+				]
+			}
+		},
+		{
+			"id": "CA10_BR_B",
+			"id_tag": "SW.Quest.Id.CA10BRB",
+			"initial_state": "Locked",
+			"quest_type": "SideQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Medium"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Meadow.A2"
+				},
+				"firstCompletionLootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Artifact.CA10.BR.B"
+								}
+							]
+						}
+					},
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Melee.GiantClubUnique"
+								}
+							]
+						}
+					},
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Armour.RedstoneUnique_01"
+								}
+							]
+						}
+					},
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.AreaDropModifier"
+								},
+								{
+									"tagName": "SW.Area.Meadow.A2"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Special"
+								}
+							]
+						}
+					},
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.AreaDropModifier"
+								},
+								{
+									"tagName": "SW.Area.Meadow.A2"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Special"
+								}
+							]
+						}
+					}
+				],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.AreaDropModifier"
+								},
+								{
+									"tagName": "SW.Area.Meadow.A2"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Special"
+								}
+							]
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": true,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": false,
+				"unlocksArea": false,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": [
+					{
+						"typeTag":
+						{
+							"tagName": "SW.KeyValue.Quest.Subtype"
+						},
+						"type": "GameplayTagContainer",
+						"int": 0,
+						"float": 0,
+						"bool": false,
+						"string": "None",
+						"gameplayTag":
+						{
+							"tagName": "None"
+						},
+						"gameplayTagContainer":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.BossReplay"
+								}
+							]
+						},
+						"vector":
+						{
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				]
+			},
+			"prerequisites": [
+				"CA10"
+			],
+			"goals":
+			{
+				"name": "CA10_BR_B_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "CA10_BR_B_E01",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "CA10_BR_B_E01_Destination"
+					},
+					{
+						"name": "CA10_BR_B_AS01",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.MeadowA2.CA10.BR.B"
+					}
+				]
+			}
+		},
+		{
+			"id": "CA10_BR",
+			"id_tag": "SW.Quest.Id.CA10BR",
+			"initial_state": "Locked",
+			"quest_type": "SideQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Large"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Meadow.A2"
+				},
+				"firstCompletionLootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Melee.SicklesUnique_01"
+								}
+							]
+						}
+					},
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Armour.TimeWornUniqueSet"
+								}
+							]
+						}
+					},
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Ranged.ScatterUnique_01"
+								}
+							]
+						}
+					},
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Artifact.SoulHarvester"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Special"
+								}
+							]
+						}
+					},
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.AreaDropModifier"
+								},
+								{
+									"tagName": "SW.Area.Meadow.A2"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Special"
+								}
+							]
+						}
+					},
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.AreaDropModifier"
+								},
+								{
+									"tagName": "SW.Area.Meadow.A2"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Special"
+								}
+							]
+						}
+					}
+				],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.AreaDropModifier"
+								},
+								{
+									"tagName": "SW.Area.Meadow.A2"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Special"
+								}
+							]
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": true,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": false,
+				"unlocksArea": false,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": [
+					{
+						"typeTag":
+						{
+							"tagName": "SW.KeyValue.Quest.Subtype"
+						},
+						"type": "GameplayTagContainer",
+						"int": 0,
+						"float": 0,
+						"bool": false,
+						"string": "None",
+						"gameplayTag":
+						{
+							"tagName": "None"
+						},
+						"gameplayTagContainer":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.BossReplay"
+								}
+							]
+						},
+						"vector":
+						{
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				]
+			},
+			"prerequisites": [
+				"CA10"
+			],
+			"goals":
+			{
+				"name": "CA10_BR_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "CA10_BR_E01",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"destination": "CA10_BR_E01_Destination"
+					},
+					{
+						"name": "CA10_BR_AS01",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"arena_tag": "SW.ArenaSetup.DeepDarkA2.CA10.BR.AS01"
+					},
+					{
+						"name": "CA10_BR_I01",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"interact_target": "CA10_BR_I01_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "CA10_BR_AS02",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"arena_tag": "SW.ArenaSetup.DeepDarkA2.CA10.BR.AS02"
+					}
+				]
+			}
+		}
+	]
+}

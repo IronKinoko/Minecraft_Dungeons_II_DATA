@@ -1,0 +1,2858 @@
+[
+	{
+		"Name": "CA02_B_QuestGiver",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA02.B.QuestGiver"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA03/BP_CA02_B_VIllager01.BP_CA02_B_VIllager01_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA02_B_Cleric01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA02.B.Cleric"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_CA02_B_Cleric_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA03/BP_CA02_B_Cleric.BP_CA02_B_Cleric_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA02_B_Woodcutter01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA02.B.Woodcutter"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_CA02_B_Woodcutter_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA03/BP_CA02_B_Woodcutter.BP_CA02_B_Woodcutter_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA02_B_Goat01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA02.B.Goat"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_CA02_B_Goat_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA03/BP_CA02_B_Goat.BP_CA02_B_Goat_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA02_B_BridgeVillager01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA02.B.BridgeNPC"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_CA02_B_BridgeNPC_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA03/BP_CA02_B_BridgeVillager.BP_CA02_B_BridgeVillager_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA02_B_Villager_SpiderCaveExterior",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA02.B.Villager.SpiderCave.Exterior"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA03/BP_CA02_B_Villager_SpiderCaveExt.BP_CA02_B_Villager_SpiderCaveExt_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA02_B_Villager_SpiderCave_01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA02.B.Villager.SpiderCave.Captured.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA03/BP_CA02_B_SpiderCaveVillager01.BP_CA02_B_SpiderCaveVillager01_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA02_B_Villager_SpiderCave_02",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA02.B.Villager.SpiderCave.Captured.02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA03/BP_CA02_B_SpiderCaveVillager02.BP_CA02_B_SpiderCaveVillager02_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA02_B_Villager_SpiderCave_03",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA02.B.Villager.SpiderCave.Captured.03"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA03/BP_CA02_B_SpiderCaveVillager03.BP_CA02_B_SpiderCaveVillager03_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA02_B_Villager_SpiderCaveExit",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA02.B.Villager.SpiderCave.Exit"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA03/BP_CA02_B_Villager_CaveExit.BP_CA02_B_Villager_CaveExit_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA02_B_Villager_WitchHut_01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA02.B.Villager.WitchHut.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA03/BP_CA02_B_WitchHutVillager_01.BP_CA02_B_WitchHutVillager_01_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA02_B_Villager_WitchHut_02",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA02.B.Villager.WitchHut.02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA03/BP_CA02_B_WitchHutVillager_02.BP_CA02_B_WitchHutVillager_02_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA02_C_Enchantsmith",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA02.C.Enchantsmith.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA02_C/BP_CA02_C_Enchantsmith01.BP_CA02_C_Enchantsmith01_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA04_OldBlacksmith01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA04.OldBlacksmith.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA04/BP_CA04_OldBlacksmith01.BP_CA04_OldBlacksmith01_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA04_OldBlacksmith02",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA04.OldBlacksmith.02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA04/BP_CA04_OldBlacksmith02.BP_CA04_OldBlacksmith02_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA04_OldBlacksmithTown01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA04.OldBlacksmith.Town.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA04/BP_CA04_OldBlacksmith_Town01.BP_CA04_OldBlacksmith_Town01_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA04_Woodcutter01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA04.Woodcutter.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA04/BP_CA04_Woodcutter_01.BP_CA04_Woodcutter_01_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA04_Woodcutter02",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA04.Woodcutter.02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA04/BP_CA04_Woodcutter_02.BP_CA04_Woodcutter_02_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA04_Woodcutter_Main",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA04.Woodcutter.Main"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA04/BP_CA04_Woodcutter_Main.BP_CA04_Woodcutter_Main_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA05_WoodcutterWolf_01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA05.Woodcutter.Wolf.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA05/BP_CA05_Wolf_QuestGiverDecor.BP_CA05_Wolf_QuestGiverDecor_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA05_WoodcutterOutpost_DesertVillager",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA05.WoodcutterOutpost.Villager.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA05/BP_CA05_WoodcutterOutpost_DesertVillager01.BP_CA05_WoodcutterOutpost_DesertVillager01_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA07_QuestGiver02",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA07.QuestGiver.02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA07/BP_CA07_QuestGiver_02.BP_CA07_QuestGiver_02_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "FOa1_S08_A_QuestGiver",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.FOa1.S08.A.QuestGiver"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_QuestGiver_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_QuestGiver_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/ForestA1/FOa1_S08_A/BP_FOa1_S08_A_QuestGiver.BP_FOa1_S08_A_QuestGiver_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "FOa1_S08_A_FollowWolf",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.FOa1.S08.A.FollowWolf"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_FollowWolf_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_FollowWolf_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/ForestA1/FOa1_S08_A/BP_FOa1_S08_A_FollowWolf.BP_FOa1_S08_A_FollowWolf_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "FOa1_S08_A_FollowWolf02",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.FOa1.S08.A.FollowWolf02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/ForestA1/FOa1_S08_A/BP_FOa1_S08_A_FollowWolf02.BP_FOa1_S08_A_FollowWolf02_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "FOa1_S08_A_FollowWolf03",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.FOa1.S08.A.FollowWolf03"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/ForestA1/FOa1_S08_A/BP_FOa1_S08_A_FollowWolf03.BP_FOa1_S08_A_FollowWolf03_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "FOa1_S08_A_Cage01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.FOa1.S08.A.Cage01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				},
+				{
+					"TagName": "SW.State.Invulnerable"
+				},
+				{
+					"TagName": "SW.State.Unknockable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_Cage01_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_Cage01_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/ForestA1/FOa1_S08_A/BP_FOa1_S08_A_Cage01.BP_FOa1_S08_A_Cage01_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "FOa1_S08_A_Cage02",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.FOa1.S08.A.Cage02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				},
+				{
+					"TagName": "SW.State.Invulnerable"
+				},
+				{
+					"TagName": "SW.State.Unknockable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_Cage02_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_Cage02_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/ForestA1/FOa1_S08_A/BP_FOa1_S08_A_Cage02.BP_FOa1_S08_A_Cage02_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "FOa1_S08_A_Cage03",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.FOa1.S08.A.Cage03"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				},
+				{
+					"TagName": "SW.State.Invulnerable"
+				},
+				{
+					"TagName": "SW.State.Unknockable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_Cage03_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_Cage03_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/ForestA1/FOa1_S08_A/BP_FOa1_S08_A_Cage03.BP_FOa1_S08_A_Cage03_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "FOa1_S08_A_Cage04",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.FOa1.S08.A.Cage04"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				},
+				{
+					"TagName": "SW.State.Invulnerable"
+				},
+				{
+					"TagName": "SW.State.Unknockable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_Cage04_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_Cage04_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/ForestA1/FOa1_S08_A/BP_FOa1_S08_A_Cage04.BP_FOa1_S08_A_Cage04_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "FOa1_S08_A_Cage05",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.FOa1.S08.A.Cage05"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				},
+				{
+					"TagName": "SW.State.Invulnerable"
+				},
+				{
+					"TagName": "SW.State.Unknockable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_Cage05_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_Cage05_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/ForestA1/FOa1_S08_A/BP_FOa1_S08_A_Cage05.BP_FOa1_S08_A_Cage05_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"ComponentDefinition":
+		{
+			"ClientComponents":
+			{
+				"(TagName=\"SW.ActorComponent.Interaction\")":
+				{
+					"Components": [
+						"/SpicewoodUI/Spicewood/UI/Widget/InWorldPrompts/BP_InWorldPromptRescueQuestGiverComponent.BP_InWorldPromptRescueQuestGiverComponent_C"
+					]
+				}
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "FOa1_S08_A_Cage06",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.FOa1.S08.A.Cage06"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				},
+				{
+					"TagName": "SW.State.Invulnerable"
+				},
+				{
+					"TagName": "SW.State.Unknockable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_Cage06_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_Cage06_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/ForestA1/FOa1_S08_A/BP_FOa1_S08_A_Cage06.BP_FOa1_S08_A_Cage06_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"ComponentDefinition":
+		{
+			"ClientComponents":
+			{
+				"(TagName=\"SW.ActorComponent.Interaction\")":
+				{
+					"Components": [
+						"/SpicewoodUI/Spicewood/UI/Widget/InWorldPrompts/BP_InWorldPromptRescueQuestGiverComponent.BP_InWorldPromptRescueQuestGiverComponent_C"
+					]
+				}
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "FOa1_S08_A_Cage07",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.FOa1.S08.A.Cage07"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				},
+				{
+					"TagName": "SW.State.Invulnerable"
+				},
+				{
+					"TagName": "SW.State.Unknockable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_Cage07_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_Cage07_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/ForestA1/FOa1_S08_A/BP_FOa1_S08_A_Cage07.BP_FOa1_S08_A_Cage07_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"ComponentDefinition":
+		{
+			"ClientComponents":
+			{
+				"(TagName=\"SW.ActorComponent.Interaction\")":
+				{
+					"Components": [
+						"/SpicewoodUI/Spicewood/UI/Widget/InWorldPrompts/BP_InWorldPromptRescueQuestGiverComponent.BP_InWorldPromptRescueQuestGiverComponent_C"
+					]
+				}
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "FOa1_S08_A_CagedWolf01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.FOa1.S08.A.CagedWolf01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				},
+				{
+					"TagName": "SW.State.Invulnerable"
+				},
+				{
+					"TagName": "SW.State.Unknockable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_CagedWolf01_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_CagedWolf01_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/ForestA1/FOa1_S08_A/BP_FOa1_S08_A_CagedWolf01.BP_FOa1_S08_A_CagedWolf01_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"ComponentDefinition":
+		{
+			"ClientComponents":
+			{
+				"(TagName=\"SW.ActorComponent.Interaction\")":
+				{
+					"Components": [
+						"/SpicewoodUI/Spicewood/UI/Widget/InWorldPrompts/BP_InWorldPromptRescueQuestGiverComponent.BP_InWorldPromptRescueQuestGiverComponent_C"
+					]
+				}
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "FOa1_S08_A_CagedWolf02",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.FOa1.S08.A.CagedWolf02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				},
+				{
+					"TagName": "SW.State.Invulnerable"
+				},
+				{
+					"TagName": "SW.State.Unknockable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_CagedWolf02_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_CagedWolf02_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/ForestA1/FOa1_S08_A/BP_FOa1_S08_A_CagedWolf02.BP_FOa1_S08_A_CagedWolf02_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"ComponentDefinition":
+		{
+			"ClientComponents":
+			{
+				"(TagName=\"SW.ActorComponent.Interaction\")":
+				{
+					"Components": [
+						"/SpicewoodUI/Spicewood/UI/Widget/InWorldPrompts/BP_InWorldPromptRescueQuestGiverComponent.BP_InWorldPromptRescueQuestGiverComponent_C"
+					]
+				}
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "FOa1_S08_A_CagedWolf03",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.FOa1.S08.A.CagedWolf03"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				},
+				{
+					"TagName": "SW.State.Invulnerable"
+				},
+				{
+					"TagName": "SW.State.Unknockable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_CagedWolf03_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_CagedWolf03_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/ForestA1/FOa1_S08_A/BP_FOa1_S08_A_CagedWolf03.BP_FOa1_S08_A_CagedWolf03_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"ComponentDefinition":
+		{
+			"ClientComponents":
+			{
+				"(TagName=\"SW.ActorComponent.Interaction\")":
+				{
+					"Components": [
+						"/SpicewoodUI/Spicewood/UI/Widget/InWorldPrompts/BP_InWorldPromptRescueQuestGiverComponent.BP_InWorldPromptRescueQuestGiverComponent_C"
+					]
+				}
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "FOa1_S08_A_CagedWolf04",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.FOa1.S08.A.CagedWolf04"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				},
+				{
+					"TagName": "SW.State.Invulnerable"
+				},
+				{
+					"TagName": "SW.State.Unknockable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_CagedWolf04_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_CagedWolf04_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/ForestA1/FOa1_S08_A/BP_FOa1_S08_A_CagedWolf04.BP_FOa1_S08_A_CagedWolf04_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"ComponentDefinition":
+		{
+			"ClientComponents":
+			{
+				"(TagName=\"SW.ActorComponent.Interaction\")":
+				{
+					"Components": [
+						"/SpicewoodUI/Spicewood/UI/Widget/InWorldPrompts/BP_InWorldPromptRescueQuestGiverComponent.BP_InWorldPromptRescueQuestGiverComponent_C"
+					]
+				}
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "FOa1_S08_A_CagedWolf05",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.FOa1.S08.A.CagedWolf05"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				},
+				{
+					"TagName": "SW.State.Invulnerable"
+				},
+				{
+					"TagName": "SW.State.Unknockable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_CagedWolf05_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_CagedWolf05_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/ForestA1/FOa1_S08_A/BP_FOa1_S08_A_CagedWolf05.BP_FOa1_S08_A_CagedWolf05_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"ComponentDefinition":
+		{
+			"ClientComponents":
+			{
+				"(TagName=\"SW.ActorComponent.Interaction\")":
+				{
+					"Components": [
+						"/SpicewoodUI/Spicewood/UI/Widget/InWorldPrompts/BP_InWorldPromptRescueQuestGiverComponent.BP_InWorldPromptRescueQuestGiverComponent_C"
+					]
+				}
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "FOa1_S08_A_CagedWolf06",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.FOa1.S08.A.CagedWolf06"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				},
+				{
+					"TagName": "SW.State.Invulnerable"
+				},
+				{
+					"TagName": "SW.State.Unknockable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_CagedWolf06_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_CagedWolf06_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/ForestA1/FOa1_S08_A/BP_FOa1_S08_A_CagedWolf06.BP_FOa1_S08_A_CagedWolf06_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"ComponentDefinition":
+		{
+			"ClientComponents":
+			{
+				"(TagName=\"SW.ActorComponent.Interaction\")":
+				{
+					"Components": [
+						"/SpicewoodUI/Spicewood/UI/Widget/InWorldPrompts/BP_InWorldPromptRescueQuestGiverComponent.BP_InWorldPromptRescueQuestGiverComponent_C"
+					]
+				}
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "FOa1_S08_A_CagedWolf07",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.FOa1.S08.A.CagedWolf07"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				},
+				{
+					"TagName": "SW.State.Invulnerable"
+				},
+				{
+					"TagName": "SW.State.Unknockable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_CagedWolf07_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S08_A_CagedWolf07_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/ForestA1/FOa1_S08_A/BP_FOa1_S08_A_CagedWolf07.BP_FOa1_S08_A_CagedWolf07_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"ComponentDefinition":
+		{
+			"ClientComponents":
+			{
+				"(TagName=\"SW.ActorComponent.Interaction\")":
+				{
+					"Components": [
+						"/SpicewoodUI/Spicewood/UI/Widget/InWorldPrompts/BP_InWorldPromptRescueQuestGiverComponent.BP_InWorldPromptRescueQuestGiverComponent_C"
+					]
+				}
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "Foa1_S10_A_Apprentice01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.FOa1.S10.A.Apprentice"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_ForestA1.csv\", \"SW_NPC_FOa1_S10_A_Apprentice_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/ForestA1/FOa1_S10_A/BP_FOa1_S10_A_Apprentice.BP_FOa1_S10_A_Apprentice_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"ComponentDefinition":
+		{
+			"ClientComponents":
+			{
+				"(TagName=\"SW.ActorComponent.Interaction\")":
+				{
+					"Components": [
+						"/SpicewoodUI/Spicewood/UI/Widget/InWorldPrompts/BP_InWorldPromptRescueQuestGiverComponent.BP_InWorldPromptRescueQuestGiverComponent_C"
+					]
+				}
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "Foa1_S10_A_Apprentice02",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.FOa1.S10.A.Apprentice02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/ForestA1/FOa1_S10_A/BP_FOa1_S10_A_Apprentice02.BP_FOa1_S10_A_Apprentice02_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "FOa1_S10_A_SickNPC01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.FOa1.S10.A.SickVillager.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/ForestA1/FOa1_S10_A/BP_FOa1_S10_A_SickVillager01.BP_FOa1_S10_A_SickVillager01_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "FOa1_S10_A_SickNPC02",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.FOa1.S10.A.SickVillager.02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/ForestA1/FOa1_S10_A/BP_FOa1_S10_A_SickVillager02.BP_FOa1_S10_A_SickVillager02_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "FOa1_S10_A_SickNPC03",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.FOa1.S10.A.SickVillager.03"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/ForestA1/FOa1_S10_A/BP_FOa1_S10_A_SickVillager03.BP_FOa1_S10_A_SickVillager03_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "FOa1_S10_A_SickNPC04",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.FOa1.S10.A.SickVillager.04"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/ForestA1/FOa1_S10_A/BP_FOa1_S10_A_SickVillager04.BP_FOa1_S10_A_SickVillager04_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "FOa1_S10_A_SickNPC05",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.FOa1.S10.A.SickVillager.05"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/ForestA1/FOa1_S10_A/BP_FOa1_S10_A_SickVillager05.BP_FOa1_S10_A_SickVillager05_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CT_S01_A_QuestGiver",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CT01.CT1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CaretakerQuests/Forest_S01/BP_Caretaker01_S01_A.BP_Caretaker01_S01_A_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	}
+]

@@ -1,0 +1,669 @@
+{
+	"Name": "MeadowA1_Quests",
+	"DefaultQuestData":
+	{
+		"id": "MEa1_",
+		"id_tag": "None",
+		"initial_state": "Locked",
+		"quest_type": "SideQuest",
+		"RewardData":
+		{
+			"questSize":
+			{
+				"tagName": "SW.QuestSize.Small"
+			},
+			"areaRewardScalingTag":
+			{
+				"tagName": "SW.Area.Meadow.A1"
+			},
+			"firstCompletionLootSourceData": [],
+			"lootSourceData": [
+				{
+					"lootSourceTag":
+					{
+						"tagName": "None"
+					},
+					"lootTags":
+					{
+						"gameplayTags": [
+							{
+								"tagName": "SW.Area.Meadow.A1"
+							},
+							{
+								"tagName": "SW.Quest.Loot.AreaDropModifier"
+							}
+						]
+					}
+				}
+			]
+		},
+		"serialize_progress_for_quest": true,
+		"is_replayable": false,
+		"replay_whole_arc": false,
+		"replay_rule": "TimeBased",
+		"replay_delay_time": 30,
+		"UnlockBannerData":
+		{
+			"unlocksQuest": false,
+			"unlocksArea": false,
+			"unlocksTownContent": false,
+			"unlocksSoulStorm": false
+		},
+		"unlock_quests_timer_override": 0,
+		"name": "",
+		"comment": "",
+		"quest_arc": "",
+		"MetaData":
+		{
+			"keyValues": []
+		},
+		"prerequisites": []
+	},
+	"Quests": [
+		{
+			"id": "MEa1_S05_A",
+			"id_tag": "SW.Quest.Id.MEa1S05A",
+			"initial_state": "Locked",
+			"quest_type": "SideQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Small"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Meadow.A1"
+				},
+				"firstCompletionLootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Armour.SentinelSet"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Special"
+								}
+							]
+						}
+					}
+				],
+				"lootSourceData": []
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": false,
+				"unlocksArea": false,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": []
+			},
+			"prerequisites": [
+				"CA08"
+			],
+			"goals":
+			{
+				"name": "MEa1_S05_A_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "MEa1_S05_A_E01",
+						"comment": "Path into mountain",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "MEa1_S05_A_E01_Dest"
+					},
+					{
+						"name": "MEa1_S05_A_I01",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "MEa1_S05_A_I01_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "MEa1_S05_A_Standard01",
+						"comment": "",
+						"show_progress": true,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "MEa1_S05_A_Sequence02",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "MEa1_S05_A_I02",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "MEa1_S05_A_I02_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									},
+									{
+										"name": "MEa1_S05_A_Arena01",
+										"comment": "Defeat the ambush",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"arena_tag": "SW.ArenaSetup.MeadowA1.MEa1.S05.A.Gateless01"
+									}
+								]
+							},
+							{
+								"name": "MEa1_S05_A_Sequence03",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "MEa1_S05_A_I03",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "MEa1_S05_A_I03_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									},
+									{
+										"name": "MEa1_S05_A_Arena02",
+										"comment": "Defeat the ambush",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"arena_tag": "SW.ArenaSetup.MeadowA1.MEa1.S05.A.Gateless02"
+									}
+								]
+							},
+							{
+								"name": "MEa1_S05_A_Sequence04",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "MEa1_S05_A_I05",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "MEa1_S05_A_I05_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									},
+									{
+										"name": "MEa1_S05_A_Arena03Gateless",
+										"comment": "Defeat the ambush",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"arena_tag": "SW.ArenaSetup.MeadowA1.MEa1.S05.A.Gateless03"
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "MEa1_S05_A_E02",
+						"comment": "Find the final item",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "MEa1_S05_A_E02_Dest"
+					},
+					{
+						"name": "MEa1_S05_A_I06",
+						"comment": "Pick up the object",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "MEa1_S05_A_I06_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "MEa1_S05_A_Arena03",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.MeadowA1.MEa1.S05.A.ArenaEnd"
+					},
+					{
+						"name": "MEa1_S05_A_E03",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "MEa1_S05_A_E03_Dest"
+					},
+					{
+						"name": "MEa1_S05_A_I07",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "MEa1_S05_A_I07_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					}
+				]
+			}
+		},
+		{
+			"id": "MEa1_S06_A",
+			"id_tag": "SW.Quest.Id.MEa1S06A",
+			"initial_state": "Locked",
+			"quest_type": "SideQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Medium"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Meadow.A1"
+				},
+				"firstCompletionLootSourceData": [],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Talisman.PogoFrog"
+								}
+							]
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": false,
+				"unlocksArea": false,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": []
+			},
+			"prerequisites": [
+				"CA08"
+			],
+			"goals":
+			{
+				"name": "MEa1_S06_A_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "MEa1_S06_A_E06",
+						"comment": "Find the wobble tutorial",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "MEa1_S06_A_E06_Dest"
+					},
+					{
+						"name": "MEa1_S06_A_Selection04",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Selection",
+						"max_allowed": 1,
+						"subgoals": [
+							{
+								"name": "MEa1_S06_A_Standard04",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Standard",
+								"subgoals": [
+									{
+										"name": "MEa1_S06_A_I12",
+										"comment": "First bush interact",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "MEa1_S06_A_I12_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									},
+									{
+										"name": "false04",
+										"comment": "False interact",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"TaskLocationOverrideType": "OtherTask",
+										"OtherTaskId": "MEa1_S06_A_I12",
+										"interact_target": "false04",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							},
+							{
+								"name": "MEa1_S06_A_I13",
+								"comment": "Tutorial successful interact",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "MEa1_S06_A_I13_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							}
+						]
+					},
+					{
+						"name": "MEa1_S06_A_Follow01",
+						"comment": "Follow to quest giver",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"follow_goal_data":
+						{
+							"nPCTypeTag":
+							{
+								"tagName": "SW.NPC.MEa1.S06.A.Wobble01"
+							},
+							"nPCDestination": "MEa1_S06_A_Follow01",
+							"allowedAreas":
+							{
+								"gameplayTags": []
+							}
+						}
+					},
+					{
+						"name": "MEa1_S06_A_I14",
+						"comment": "Speak to quest giver",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "MEa1_S06_A_I14_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "MEa1_S06_A_E01",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "MEa1_S06_A_E01_Dest"
+					},
+					{
+						"name": "MEa1_S06_A_Selection01",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Selection",
+						"max_allowed": 1,
+						"subgoals": [
+							{
+								"name": "MEa1_S06_A_Standard01",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Standard",
+								"subgoals": [
+									{
+										"name": "MEa1_S06_A_I01",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "MEa1_S06_A_I01_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									},
+									{
+										"name": "MEa1_S06_A_I02",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "MEa1_S06_A_I02_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									},
+									{
+										"name": "false01",
+										"comment": "False: This stops the standard list being completed",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "false01_T",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							},
+							{
+								"name": "MEa1_S06_A_I03",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "MEa1_S06_A_I03_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							}
+						]
+					},
+					{
+						"name": "MEa1_S06_A_E02",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "MEa1_S06_A_E02_Dest"
+					},
+					{
+						"name": "MEa1_S06_A_Selection02",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Selection",
+						"max_allowed": 1,
+						"subgoals": [
+							{
+								"name": "MEa1_S06_A_Standard02",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Standard",
+								"subgoals": [
+									{
+										"name": "MEa1_S06_A_I04",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "MEa1_S06_A_I04_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									},
+									{
+										"name": "MEa1_S06_A_I05",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "MEa1_S06_A_I05_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									},
+									{
+										"name": "false02",
+										"comment": "False: This stops the standard list being completed",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "false02_T",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							},
+							{
+								"name": "MEa1_S06_A_I06",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "MEa1_S06_A_I06_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							}
+						]
+					},
+					{
+						"name": "MEa1_S06_A_E03",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "MEa1_S06_A_E03_Dest"
+					},
+					{
+						"name": "MEa1_S06_A_Selection03",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Selection",
+						"max_allowed": 1,
+						"subgoals": [
+							{
+								"name": "MEa1_S06_A_Standard03",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Standard",
+								"subgoals": [
+									{
+										"name": "MEa1_S06_A_I07",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "MEa1_S06_A_I07_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									},
+									{
+										"name": "MEa1_S06_A_I08",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "MEa1_S06_A_I08_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									},
+									{
+										"name": "false03",
+										"comment": "False: This stops the standard list being completed",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "false03_T",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							},
+							{
+								"name": "MEa1_S06_A_I09",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "MEa1_S06_A_I09_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							}
+						]
+					},
+					{
+						"name": "MEa1_S06_A_E04",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "MEa1_S06_A_E04_Dest"
+					},
+					{
+						"name": "MEa1_S06_A_I10",
+						"comment": "Speak back to the quest giver.",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "MEa1_S06_A_I10_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "MEa1_S06_A_E05",
+						"comment": "Find the lost caretaker.",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "MEa1_S06_A_E05_Dest"
+					},
+					{
+						"name": "MEa1_S06_A_SM01",
+						"comment": "Scavengers spawn in.",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"mob_types": [
+							"SW.Mob.ScavengerMelee",
+							"SW.Mob.ScavengerRanged",
+							"SW.Mob.ScavengerGrappler"
+						],
+						"mob_count": 8,
+						"volume_name": "MEa1_S06_A_SM01_SV01",
+						"group_tag": "MEa1_S06_A_SM01_Target"
+					},
+					{
+						"name": "MEa1_S06_A_K01",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"TaskLocationOverrideType": "OtherTask",
+						"OtherTaskId": "MEa1_S06_A_SM01",
+						"kill_target": "MEa1_S06_A_SM01_Target",
+						"kill_target_types": [
+							"SW.Mob.ScavengerMelee",
+							"SW.Mob.ScavengerRanged",
+							"SW.Mob.ScavengerGrappler"
+						],
+						"kill_count": 8
+					},
+					{
+						"name": "MEa1_S06_A_I11",
+						"comment": "Speak to the lost caretaker",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "MEa1_S06_A_I11_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					}
+				]
+			}
+		}
+	]
+}

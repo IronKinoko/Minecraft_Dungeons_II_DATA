@@ -1,0 +1,4714 @@
+[
+	{
+		"Name": "DefaultLoot",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.DefaultLoot"
+		},
+		"LootDropDefinition":
+		{
+		}
+	},
+	{
+		"Name": "QuestAreaLootDropModifier",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.AreaDropModifier"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestSizeSmall",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestSize.Small"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Emeralds\")":
+				{
+					"NumberOfGuaranteedDrops": 5,
+					"NumberOfRandomRolls": 5,
+					"DropChancePerRoll": 0.25,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.Emerald"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.EmeraldBlock"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestSizeMedium",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestSize.Medium"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Emeralds\")":
+				{
+					"NumberOfGuaranteedDrops": 8,
+					"NumberOfRandomRolls": 8,
+					"DropChancePerRoll": 0.25,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.Emerald"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.EmeraldBlock"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestSizeLarge",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestSize.Large"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Emeralds\")":
+				{
+					"NumberOfGuaranteedDrops": 12,
+					"NumberOfRandomRolls": 12,
+					"DropChancePerRoll": 0.25,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.Emerald"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.EmeraldBlock"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestSizeExtraLarge",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestSize.ExtraLarge"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Emeralds\")":
+				{
+					"NumberOfGuaranteedDrops": 15,
+					"NumberOfRandomRolls": 15,
+					"DropChancePerRoll": 0.25,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.Emerald"
+								},
+								"Weight": 2,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.EmeraldBlock"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestTalismanHealthboost",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Talisman.Healthboost"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Talisman.HealthBoost"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestTalismanBrawling",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Talisman.Brawling"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Talisman.Brawling"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestTalismanRangedBoost",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Talisman.RangedBoost"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Talisman.RangedBuff"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestTalismanPlummeting",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Talisman.Plummeting"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Talisman.Plummeting"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestTalismanExperienceIncrease",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Talisman.ExperienceIncrease"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Talisman.ExperienceIncrease"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestTalismanWolf",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Talisman.Companion.Wolf"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Talisman.Wolf"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestTalismanIronGolem",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Talisman.Companion.IronGolem"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Talisman.IronGolem"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestTalismanSoulGather",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Talisman.SoulGather"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Talisman.SoulGather"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestTalismanLlama",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Talisman.Companion.Llama"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "sw.Item.Talisman.Llama"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestTalismanSoulCapacity",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Talisman.SoulCapacity"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Talisman.SoulCapacity"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestTalismanArtifactCooldown",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Talisman.ArtifactCooldown"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Talisman.ArtifactCooldown"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestTalismanDoubleDrop",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Talisman.DoubleDrop"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Talisman.DoubleDrop"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestArtifactHoneypot",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Artifact.Honeypot"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.Honeypot"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestArtifactCarapaceOcarina",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Artifact.CarapaceOcarina"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.CarapaceOcarina"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestEnchantsmithBookReward",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Enchantment.Enchantsmith"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.EnchantedBook\")":
+				{
+					"NumberOfGuaranteedDrops": 3,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.Piercing"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.Radiance"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.SoulInfusedPotion"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestArtifactCreeperCandle",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Artifact.CreeperCandle"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.CreeperCandle"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestArmourHoneySetUnique",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.ArmorSet.Honey_Unique"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.HoneyHelmet_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.HoneyChest_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.HoneyLeggings_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.HoneyBoots_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestArmourHoneySetUnique_Helmet",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Armour.HoneySet.Helmet"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.HoneyHelmet_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestArmourHoneySetUnique_Chest",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Armour.HoneySet.Chest"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.HoneyChest_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestArmourHoneySetUnique_Leggings",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Armour.HoneySet.Leggings"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.HoneyLeggings_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestArmourHoneySetUnique_Boots",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Armour.HoneySet.Boots"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.HoneyBoots_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestArmourTimeWornSet_01",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Armour.TimeWornSet"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 2,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.TimewornBoots"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.TimewornChest"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.TimewornHelmet"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.TimewornLeggings"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestArmourTimeWornSet_Unique01",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Armour.TimeWornUniqueSet"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.TimewornBoots_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.TimewornChest_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.TimewornHelmet_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.TimewornLeggings_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestMeleeClawsUnique_01",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Melee.ClawsUnique_01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Claws_Unique1"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestArtifactWitchesBrew",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Artifact.WitchesBrew"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.WitchesBrew"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestArmourMushroomSet",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Armour.MushroomSet"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 2,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.MushroomChest"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.MushroomBoots"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.MushroomHelmet"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.MushroomLeggings"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestArmourEvocationSet",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Armour.Evocation"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EvocationHelmet"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EvocationChest"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EvocationLeggings"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EvocationBoots"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestArmourCaveCrawler",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Armour.CaveCrawlerSet"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.CaveCrawlerHelmet"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.CaveCrawlerChest"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.CaveCrawlerLeggings"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.CaveCrawlerBoots"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestArmourScampSetUnique",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Armour.ScampSet"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ScampHelmet_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ScampChest_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ScampLeggings_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ScampBoots_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestArmourStalwartSetUnique",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Armour.StalwartSet"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 2,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.StalwartHelmet_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.StalwartChest_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.StalwartLeggings_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.StalwartBoots_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestArmourFrosrimetSet",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Armour.FrostrimeSet"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 2,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.FrostRimeBoots"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.FrostRimeChest"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.FrostRimeHelmet"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.FrostRimeLeggings"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestArmourFrosrimetSetUnique",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Armour.FrostrimeSet.Unique"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.FrostRimeBoots_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.FrostRimeChest_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.FrostRimeHelmet_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.FrostRimeLeggings_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestMeleePickaxe",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Melee.Pickaxe"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Pickaxe"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestMeleePickaxeUnique",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Melee.Pickaxe.Unique.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Pickaxe_Unique1"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestMeleeClaymoreUnique_01",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Melee.ClaymoreUnique_01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Claymore_Unique1"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestMeleeHammerUnique_01",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Melee.HammerUnique_01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Hammer_Unique1"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestMeleeSabreUnique_01",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Melee.SabreUnique_01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Sabre_Unique1"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestMeleeScytheUnique_01",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Melee.ScytheUnique_01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Scythe_Unique1"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestMeleePikeUnique_01",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Melee.PikeUnique_01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Pike_Unique1"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestRangedCrossbowUnique_01",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Ranged.CrossbowUnique_01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Crossbow_Unique1"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestMeleeDaggersUnique_01",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Melee.DaggersUnique_01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Daggers_Unique1"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestMeleeAxe",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Melee.Axe"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Axe"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestMeleeAxeUnique_01",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Melee.AxeUnique_01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Axe_Unique1"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestChestCavecrawlerUnique_01",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Chest.CavecrawlerUnique"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.CaveCrawlerChest_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestTalismanAmmoCapacity",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Talisman.AmmoCapacity"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Talisman.AmmoCapacity"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestTalismanHealthyStrike",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Talisman.HealthyStrike"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Talisman.HealthyStrike"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestMeleeScythe",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Melee.Scythe"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Scythe"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestMeleeGiantMallet",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Melee.GiantMallet"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.GiantMallet"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestArtifactSoulHarvester",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Artifact.SoulHarvester"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.SoulHarvester"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestMeleeSickles",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Melee.Sickles"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Sickles"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestMeleeSicklesUnique_01",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Melee.SicklesUnique_01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Sickles_Unique1"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestRangedScatterUnique_01",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Ranged.ScatterUnique_01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ScatterCrossbow_Unique1"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestArtifactCorruptedSeed",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Artifact.CorruptedSeed"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.CorruptedSeeds"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestEnchantmentSoulBlast",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Enchantment.SoulBlast"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.SoulAspect"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestTalismanHealing",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Talisman.Healing"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Talisman.Healing"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestMeleeCurvedGreatswordUnique_01",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Melee.CurvedGreatswordUnique_01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.CurvedGreatsword_Unique1"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestMeleeCurvedLongswordUnique_01_0",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Melee.CurvedLongswordUnique_01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.CurvedLongsword_Unique1"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestTalismanEmeraldIncrease",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Talisman.EmeraldIncrease"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Talisman.EmeraldIncrease"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestTalismanDropChance",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Talisman.DropChance"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Talisman.DropChance"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestTalismanRollingCooldown",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Talisman.RollingCooldown"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Talisman.RollingCooldown"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestArtifactsCA10_BR_B",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Artifact.CA10.BR.B"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.RedstoneMines"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.FlameQuiver"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.FlameSceptre"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.Satchel.Fire"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.FireworkQuiver"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.FireBracelet"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.CreeperCandle"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestMeleeGiantClubUnique_01",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Melee.GiantClubUnique"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.GiantClub_Unique1"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestArmourRedstoneUnique_01",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Armour.RedstoneUnique_01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.RedstoneBoots_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.RedstoneChest_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.RedstoneLeggings_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.RedstoneHelmet_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestRangedTrickbowUnique_01",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Ranged.TrickbowUnique_01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Trickbow_Unique1"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestMeleeDaggerUnique_)1",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Melee.DaggerUnique_01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Dagger_Unique1"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestArtifactsCA09_BR",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Artifact.CA09.BR"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.SoulHarvester"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.WarriorsDrums"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.RallyingHorn"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.CarapaceOcarina"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.IronHideLute"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.FightersFife"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestMeleeClaws",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Melee.Claws"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Claws"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestTalismanStatusBuff",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Talisman.StatusBuff"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Talisman.StatusBuff"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestArmourSentinelSet",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Armour.SentinelSet"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 2,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.WellspringChest"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.WellspringHelmet"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.WellspringBoots"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.WellspringLeggings"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestTalismanPogoFrog",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Talisman.PogoFrog"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Talisman.Wobble"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestTalismanPukeyDiva",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Talisman.PukeyDiva"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Talisman.Prickle"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestArmourMysticSetUnique_01",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Armour.MysticSetUnique_01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.MysticHelmet_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.MysticChest_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.MysticLeggings_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.MysticBoots_Unique"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestRangedPowerBowUnique_01",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Ranged.PowerBowUnique_01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Powerbow_Unique1"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestMeleeSword",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Melee.Sword"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Sword"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestEnchantmentAncientAlchemy",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Enchantment.AncientAlchemy"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.SoulInfusedPotion"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestEnchantmentShockwave",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Enchantment.Shockwave"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.Shockwave"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestEnchantmentPoisonFog",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Enchantment.PoisonFog"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.EnchantmentBook.PoisonFog"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestArmourMysticSet",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Armour.MysticSet"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.MysticChest"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.MysticHelmet"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.MysticBoots"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.MysticLeggings"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestRangedHeavyCrossbow",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Ranged.HeavyCrossbow"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.HeavyCrossbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestArmourPhantomSet",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Armour.PhantomSet"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.PhantomChest"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.PhantomHelmet"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.PhantomBoots"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.PhantomLeggings"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestArmourNomadSet",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Armour.NomadSet"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 2,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.VoyagerChest"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.VoyagerHelmet"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.VoyagerBoots"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.VoyagerLeggings"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestRangedShortbow",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Ranged.Shortbow"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Shortbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "QuestArmourHoneySet",
+		"TypeTag":
+		{
+			"TagName": "SW.Quest.Loot.Armour.HoneySet"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Quest.DefaultLoot"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Quest"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 2,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.HoneyHelmet"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.HoneyChest"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.HoneyLeggings"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.HoneyBoots"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	}
+]

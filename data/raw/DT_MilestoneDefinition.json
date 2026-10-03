@@ -1,0 +1,1949 @@
+[
+	{
+		"Name": "Witch",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Witch"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CA02_B",
+					"QuestState": "NotSet",
+					"TaskName": "CA02_B_E06",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.WitchT3"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Forest.A1.SpiderExit"
+			}
+		}
+	},
+	{
+		"Name": "Witch.Rematch",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Witch.Rematch"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA02_B",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.DeepDark.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Forest.A1.SpiderExit"
+			}
+		}
+	},
+	{
+		"Name": "Maw",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Maw.Fight.1"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA02_B",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				},
+				{
+					"bUseQuestState": false,
+					"QuestName": "CA03",
+					"QuestState": "NotSet",
+					"TaskName": "CA03_I01",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Maw"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.DeepDark.A1.MawFight"
+			}
+		}
+	},
+	{
+		"Name": "Maw.Fight1.Rematch",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Maw.Fight.1.Rematch"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA03",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.PostMaw"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.DeepDark.A1.MawFight"
+			}
+		}
+	},
+	{
+		"Name": "Mauler",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Mauler"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CA05",
+					"QuestState": "NotSet",
+					"TaskName": "CA05_E14",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Desert.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.DesertA1.Fortress.Interior.End"
+			}
+		}
+	},
+	{
+		"Name": "Mauler.Rematch",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Mauler.Rematch"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA05",
+					"QuestState": "Completed",
+					"TaskName": "CA05_E03",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Desert.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.DesertA1.Fortress.Interior.End"
+			}
+		}
+	},
+	{
+		"Name": "Redstone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.RedstoneMonstrosity"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA00",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				},
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA01",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				},
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA02_B",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				},
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA03",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				},
+				{
+					"bUseQuestState": false,
+					"QuestName": "CA06",
+					"QuestState": "NotSet",
+					"TaskName": "CA06_I03",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "None"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Peaks.A1.CalderaSummit"
+			}
+		}
+	},
+	{
+		"Name": "Copper",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.CopperMonstrosity"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CA07",
+					"QuestState": "Active",
+					"TaskName": "CA07_AS01",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Plains.A2.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "Sw.TeleportPoint.Plains.A2.NoteblockTower.Top.Arena"
+			}
+		}
+	},
+	{
+		"Name": "CopperMonstrosityRematch",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Monstrosity.Copper.Rematch"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA07",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Desert.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "Sw.TeleportPoint.Plains.A2.NoteblockTower.Top.Arena"
+			}
+		}
+	},
+	{
+		"Name": "Monarch",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Monarch"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CA09",
+					"QuestState": "Active",
+					"TaskName": "CA09_AS05",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Monarch"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.ProceduralBosses.Ravines"
+			}
+		}
+	},
+	{
+		"Name": "ProgressToBoss_SupremeEvoker",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.SupremeEvoker"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CA10",
+					"QuestState": "Active",
+					"TaskName": "CA10_E11",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Meadow.A2.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.DeepDark.A2.BossFight.SupremeEvoker"
+			}
+		}
+	},
+	{
+		"Name": "ProgressToArea_PlainsA1",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Plains.A1.Start"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA01",
+					"QuestState": "Active",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Plains.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.PlainsA1.Start"
+			}
+		}
+	},
+	{
+		"Name": "ProgressToArea_ForestA1",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Forest.A1.Start"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CA02",
+					"QuestState": "Active",
+					"TaskName": "CA02_E02",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Forest.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "Sw.TeleportPoint.Plains.A1.Border.MinecartStation"
+			}
+		}
+	},
+	{
+		"Name": "ProgressToArea_DeepDarkA1",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.DeepDark.A1.Start"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CA03",
+					"QuestState": "Active",
+					"TaskName": "CA03_E02",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.DeepDark.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.DeepDark.A1.Entrance"
+			}
+		}
+	},
+	{
+		"Name": "ProgressToArea_DesertA1",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Desert.A1.Start"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CA05",
+					"QuestState": "Active",
+					"TaskName": "CA05_E01",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Desert.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.DesertA1.Village"
+			}
+		}
+	},
+	{
+		"Name": "ProgressToArea_PlainsA2",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Plains.A2.Start"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA07",
+					"QuestState": "Active",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Plains.A2.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "Sw.TeleportPoint.Plains.A2.Start"
+			}
+		}
+	},
+	{
+		"Name": "ProgressToArea_MeadowA1",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Meadow.A1.Start"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA06",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Meadow.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Wellspring.MeadowA1.Portal"
+			}
+		}
+	},
+	{
+		"Name": "ProgressToArea_MeadowA2",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Meadow.A2.Start"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA08",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Meadow.A2.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.MeadowA2.RavagedMeadowStart"
+			}
+		}
+	},
+	{
+		"Name": "ProgressToArea_MeadowR0",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Meadow.R0.Start"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CA01",
+					"QuestState": "NotSet",
+					"TaskName": "CA01_E06",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Plains.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.MeadowR0.Entrance"
+			}
+		}
+	},
+	{
+		"Name": "ProgressToArea_MeadowR1",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Meadow.R1.Start"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CA02",
+					"QuestState": "NotSet",
+					"TaskName": "CA02_E05",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Forest.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.MeadowR1.Entrance"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_6",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Arc.1"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA02_B",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				},
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA03",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.PostMaw"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Town.Start"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_7",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Arc.2"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA04",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				},
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA05",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				},
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA06",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				},
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA07",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Desert.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Sift.MeadowA1"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_8",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Arc.3"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA00",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				},
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA01",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				},
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA02_B",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				},
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA03",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				},
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA04",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				},
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA05",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				},
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA06",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				},
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA07",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				},
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA08",
+					"QuestState": "Available",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Meadow.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Wellspring.MeadowA1.Portal"
+			}
+		}
+	},
+	{
+		"Name": "VendorUnlock",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.TownVendorsUnlocked"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA04",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Plains.A2.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "PostCamp",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.PostCamp"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA00",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Town.FirstVisit"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Town.Docks"
+			}
+		}
+	},
+	{
+		"Name": "Chapter1Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Arc.1.Chapter.1"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA00",
+					"QuestState": "Active",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.None"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Camp.Start"
+			}
+		}
+	},
+	{
+		"Name": "Chapter2Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Arc.1.Chapter.2"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA00",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Town.FirstVisit"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Town.Start"
+			}
+		}
+	},
+	{
+		"Name": "Chapter2.5Milstone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Arc.1.Chapter.2.5"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA01",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Plains.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "Sw.TeleportPoint.Plains.A1.Debug.CA01.B"
+			}
+		}
+	},
+	{
+		"Name": "Chapter3Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Arc.1.Chapter.3"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA01_B",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Forest.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Town.CA02"
+			}
+		}
+	},
+	{
+		"Name": "Chapter4Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Arc.1.Chapter.4"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA02",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Forest.A1.Outpost"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Forest.A1.Debug.CA02.C"
+			}
+		}
+	},
+	{
+		"Name": "Chapter4.5Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Arc.1.Chapter.4.5"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA02_C",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Forest.A1.Outpost"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Town.CA02.B"
+			}
+		}
+	},
+	{
+		"Name": "Chapter5Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Arc.1.Chapter.5"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA03",
+					"QuestState": "Available",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.DeepDark.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Forest.A1.DeepDarkEntrance"
+			}
+		}
+	},
+	{
+		"Name": "Chapter6Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Arc.2.Chapter.6"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA04",
+					"QuestState": "Available",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.PostMaw"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.DeepDark.A1.Portal"
+			}
+		}
+	},
+	{
+		"Name": "Chapter7Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Arc.2.Chapter.7"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA04",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				},
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA07",
+					"QuestState": "Available",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Plains.A2.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Town.Chapter.7"
+			}
+		}
+	},
+	{
+		"Name": "Chapter8Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Arc.2.Chapter.8"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA04",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				},
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA05",
+					"QuestState": "Available",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Desert.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.ForestA1.Chapter.8"
+			}
+		}
+	},
+	{
+		"Name": "Chapter8.5Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Arc.2.Chapter.8.5"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA06",
+					"QuestState": "Available",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Meadow.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.ForestA1.Chapter.8.5"
+			}
+		}
+	},
+	{
+		"Name": "Chapter9Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Arc.3.Chapter.9"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA06",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Meadow.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Meadow.A1.Chapter.9"
+			}
+		}
+	},
+	{
+		"Name": "Chapter9.5Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Arc.3.Chapter.9.5"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA08",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Meadow.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Meadow.A1.Chapter.9"
+			}
+		}
+	},
+	{
+		"Name": "Chapter10Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Arc.3.Chapter.10"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA08_B",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Carapace.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Carapace.A1.CA09"
+			}
+		}
+	},
+	{
+		"Name": "Chapter11Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.Arc.3.Chapter.11"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA09",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				},
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA08",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				},
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA05",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "Completed",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				},
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA07",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "Completed",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				},
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA06",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Meadow.A2.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.MeadowA2.CA10"
+			}
+		}
+	},
+	{
+		"Name": "PLa1_S08_A_Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.SideQuest.PLa1.S08.A"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA01",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Forest.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "Sw.TeleportPoint.Plains.A1.Debug.PLa1.S08.A"
+			}
+		}
+	},
+	{
+		"Name": "PLa1_S04_A_Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.SideQuest.PLa1.S04.A"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA01",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Forest.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "Sw.TeleportPoint.Plains.A1.Debug.PLa1.S04"
+			}
+		}
+	},
+	{
+		"Name": "FOa1_S08_A_Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.SideQuest.FOa1.S08.A"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA02_C",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Forest.A1.Outpost"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Forest.A1.Debug.FOa1.S08.A"
+			}
+		}
+	},
+	{
+		"Name": "FOa1_S10_A_Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.SideQuest.FOa1.S10.A"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA02_B",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.DeepDark.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Forest.A1.Debug.FOa1.S10.A"
+			}
+		}
+	},
+	{
+		"Name": "PLa2_S15_A_Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.SideQuest.PLa2.S15.A"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA07",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Desert.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "Sw.TeleportPoint.Plains.A2.PLa2.S15.A"
+			}
+		}
+	},
+	{
+		"Name": "PLa2_S16_A_Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.SideQuest.PLa2.S16.A"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA07",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Desert.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "Sw.TeleportPoint.Plains.A2.PLa2.S16.A"
+			}
+		}
+	},
+	{
+		"Name": "PLa2_S17_A_Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.SideQuest.PLa2.S17.A"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA07",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Desert.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "Sw.TeleportPoint.Plains.A2.PLa2.S17.A"
+			}
+		}
+	},
+	{
+		"Name": "DEa1_S12_A_Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.SideQuest.DEa1.S12.A"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA05",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Meadow.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Desert.A1.DEa1.S12.A"
+			}
+		}
+	},
+	{
+		"Name": "DEa1_S13_A_Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.SideQuest.DEa1.S13.A"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA05",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Meadow.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Desert.A1.DEa1.S13.A"
+			}
+		}
+	},
+	{
+		"Name": "DEa1_S14_A_Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.SideQuest.DEa1.S14.A"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA05",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Meadow.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Desert.A1.DEa1.S14.A"
+			}
+		}
+	},
+	{
+		"Name": "MEa1_S05_A_Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.SideQuest.MEa1.S05.A"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA08",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Carapace.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Meadow.A1.SideQuest.MEa1.S05.A"
+			}
+		}
+	},
+	{
+		"Name": "MEa1_S06_A_Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.SideQuest.MEa1.S06.A"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA08",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Carapace.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Meadow.A1.SideQuest.MEa1.S06.A"
+			}
+		}
+	},
+	{
+		"Name": "CAa1_S02_A_Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.SideQuest.CAa1.S02.A"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA09",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Meadow.A2.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Carapace.A1.CAa1.S02.A"
+			}
+		}
+	},
+	{
+		"Name": "CAa1_S03_A_Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.SideQuest.CAa1.S03.A"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA09",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Meadow.A2.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Carapace.A1.CAa1.S03.A"
+			}
+		}
+	},
+	{
+		"Name": "MEa2_S02_A_Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.SideQuest.MEa2.S02.A"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA10",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.DeepDark.A2.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Meadow.A2.MEa2.S02.A"
+			}
+		}
+	},
+	{
+		"Name": "MEa2_S03_A_Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.SideQuest.MEa2.S03.A"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "MEa2_S02_A",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.DeepDark.A2.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Meadow.A2.MEa2.S03.A"
+			}
+		}
+	},
+	{
+		"Name": "CT_S01_A_Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.SideQuest.CT.S01.A"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA04",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.PostMaw"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Forest.A1.CT.S01.A"
+			}
+		}
+	},
+	{
+		"Name": "CT_S02_A_Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.SideQuest.CT.S02.A"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA05",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Meadow.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Forest.A1.CT.S02.A"
+			}
+		}
+	},
+	{
+		"Name": "CT_S03_A_Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.SideQuest.CT.S03.A"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA04",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.PostMaw"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Forest.A1.CT.S03.A"
+			}
+		}
+	},
+	{
+		"Name": "CT_S04_A_Milestone",
+		"TypeTag":
+		{
+			"TagName": "SW.Milestone.SideQuest.CT.S04.A"
+		},
+		"MilestoneDefinition":
+		{
+			"TaskStateTriggers": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA07",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			],
+			"ProgressionDefinition":
+			{
+				"TagName": "SW.Progression.Desert.A1.Start"
+			},
+			"TeleportPoint":
+			{
+				"TagName": "SW.TeleportPoint.Forest.A1.CT.S04.A"
+			}
+		}
+	}
+]

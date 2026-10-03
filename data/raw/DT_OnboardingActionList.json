@@ -1,0 +1,191 @@
+[
+	{
+		"Name": "SW.UI.Onboarding.ActionList.Combat.ChargedRange",
+		"Actions": [
+			"LOCTABLE(\"OnboardingLabels.csv\", \"actionlist_combat_chargedrange\")"
+		],
+		"RepeatIndefinitely": false,
+		"ShowCount": 1,
+		"Lifetime": 8,
+		"UnlockedTutorials": [
+			{
+				"TagName": "SW.UI.TutorialLog.Combat.ChargedAttack"
+			}
+		]
+	},
+	{
+		"Name": "SW.UI.Onboarding.ActionList.Combat.JumpAttack",
+		"Actions": [
+			"LOCTABLE(\"OnboardingLabels.csv\", \"actionlist_combat_jumpattack\")"
+		],
+		"RepeatIndefinitely": false,
+		"ShowCount": 1,
+		"Lifetime": 8,
+		"UnlockedTutorials": [
+			{
+				"TagName": "SW.UI.TutorialLog.Combat.JumpAttack"
+			},
+			{
+				"TagName": "SW.UI.TutorialLog.Combat.TNT"
+			},
+			{
+				"TagName": "SW.UI.TutorialLog.Combat.Consumable"
+			},
+			{
+				"TagName": "SW.UI.TutorialLog.Combat.Ambush"
+			}
+		]
+	},
+	{
+		"Name": "SW.UI.Onboarding.ActionList.Combat.MeleeAttack",
+		"Actions": [
+			"LOCTABLE(\"OnboardingLabels.csv\", \"actionlist_meleeattack\")"
+		],
+		"RepeatIndefinitely": false,
+		"ShowCount": 1,
+		"Lifetime": 8,
+		"UnlockedTutorials": [
+			{
+				"TagName": "SW.UI.TutorialLog.Combat.MeleeAttack"
+			}
+		]
+	},
+	{
+		"Name": "SW.UI.Onboarding.ActionList.Combat.Range",
+		"Actions": [
+			"LOCTABLE(\"OnboardingLabels.csv\", \"actionlist_range\")"
+		],
+		"RepeatIndefinitely": false,
+		"ShowCount": 2,
+		"Lifetime": 8,
+		"UnlockedTutorials": [
+			{
+				"TagName": "SW.UI.TutorialLog.Combat.RangedAttack"
+			}
+		]
+	},
+	{
+		"Name": "SW.UI.Onboarding.ActionList.Guidance",
+		"Actions": [
+			"LOCTABLE(\"OnboardingLabels.csv\", \"actionlist_guidance\")"
+		],
+		"RepeatIndefinitely": false,
+		"ShowCount": 1,
+		"Lifetime": 8,
+		"UnlockedTutorials": [
+			{
+				"TagName": "SW.UI.TutorialLog.Navigation.Guidance"
+			}
+		]
+	},
+	{
+		"Name": "SW.UI.Onboarding.ActionList.Potion",
+		"Actions": [
+			"LOCTABLE(\"OnboardingLabels.csv\", \"actionlist_potion\")"
+		],
+		"RepeatIndefinitely": false,
+		"ShowCount": 5,
+		"Lifetime": 8,
+		"UnlockedTutorials": [
+			{
+				"TagName": "SW.UI.TutorialLog.Combat.Potion"
+			}
+		]
+	},
+	{
+		"Name": "SW.UI.Onboarding.ActionList.Movement",
+		"Actions": [
+			"LOCTABLE(\"OnboardingLabels.csv\", \"actionlist_move\")"
+		],
+		"RepeatIndefinitely": false,
+		"ShowCount": 1,
+		"Lifetime": 6,
+		"UnlockedTutorials": [
+			{
+				"TagName": "SW.UI.TutorialLog.Basic.Movement"
+			}
+		]
+	},
+	{
+		"Name": "SW.UI.Onboarding.ActionList.JumpTut",
+		"Actions": [
+			"LOCTABLE(\"OnboardingLabels.csv\", \"actionlist_jump\")"
+		],
+		"RepeatIndefinitely": false,
+		"ShowCount": 1,
+		"Lifetime": 0,
+		"UnlockedTutorials": [
+			{
+				"TagName": "SW.UI.TutorialLog.Basic.Jump"
+			}
+		]
+	},
+	{
+		"Name": "SW.UI.Onboarding.ActionList.ForRollTut",
+		"Actions": [
+			"LOCTABLE(\"OnboardingLabels.csv\", \"actionlist_forwardroll\")"
+		],
+		"RepeatIndefinitely": false,
+		"ShowCount": 1,
+		"Lifetime": 0,
+		"UnlockedTutorials": [
+			{
+				"TagName": "SW.UI.TutorialLog.Basic.Roll"
+			}
+		]
+	},
+	{
+		"Name": "SW.UI.Onboarding.ActionList.DirRollTut",
+		"Actions": [
+			"LOCTABLE(\"OnboardingLabels.csv\", \"actionlist_directionalroll\")"
+		],
+		"RepeatIndefinitely": false,
+		"ShowCount": 1,
+		"Lifetime": 0,
+		"UnlockedTutorials": [
+			{
+				"TagName": "SW.UI.TutorialLog.Basic.Roll"
+			}
+		]
+	},
+	{
+		"Name": "SW.UI.Onboarding.ActionList.Inventory",
+		"Actions": [
+			"LOCTABLE(\"OnboardingLabels.csv\", \"actionlist_inventory\")"
+		],
+		"RepeatIndefinitely": false,
+		"ShowCount": 3,
+		"Lifetime": 10,
+		"UnlockedTutorials": [
+			{
+				"TagName": "SW.UI.TutorialLog.SpecialGear.Artifacts"
+			},
+			{
+				"TagName": "SW.UI.TutorialLog.SpecialGear.Companions"
+			},
+			{
+				"TagName": "SW.UI.TutorialLog.SpecialGear.Talismans"
+			}
+		]
+	},
+	{
+		"Name": "SW.UI.Onboarding.ActionList.Map",
+		"Actions": [
+			"LOCTABLE(\"OnboardingLabels.csv\", \"actionlist_map\")"
+		],
+		"RepeatIndefinitely": false,
+		"ShowCount": 1,
+		"Lifetime": 8,
+		"UnlockedTutorials": [
+			{
+				"TagName": "SW.UI.TutorialLog.Navigation.Map"
+			},
+			{
+				"TagName": "SW.UI.TutorialLog.Navigation.Minimap"
+			},
+			{
+				"TagName": "SW.UI.TutorialLog.Navigation.Teleport"
+			}
+		]
+	}
+]

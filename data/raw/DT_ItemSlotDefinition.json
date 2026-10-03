@@ -1,0 +1,1633 @@
+[
+	{
+		"Name": "EquipmentArtifact",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Equipment.Artifact"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Equipment"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"AllowedTypes":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Item.Property.Artifact"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Item.Property"
+					},
+					{
+						"TagName": "SW.Item"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"SlotInputTag":
+			{
+				"TagName": "None"
+			},
+			"LevelRequirement": 0
+		}
+	},
+	{
+		"Name": "EquipmentMeleeWeapon",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Equipment.MeleeWeapon"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Equipment"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"AllowedTypes":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Item.Property.MeleeWeapon"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Item.Property"
+					},
+					{
+						"TagName": "SW.Item"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"SlotInputTag":
+			{
+				"TagName": "None"
+			},
+			"LevelRequirement": 0
+		}
+	},
+	{
+		"Name": "InventoryArtifact",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Inventory.Artifact"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Inventory"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"AllowedTypes":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Item.Property.Artifact"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Item.Property"
+					},
+					{
+						"TagName": "SW.Item"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"SlotInputTag":
+			{
+				"TagName": "None"
+			},
+			"LevelRequirement": 0
+		}
+	},
+	{
+		"Name": "InventoryMeleeWeapon",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Inventory.MeleeWeapon"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Inventory"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"AllowedTypes":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Item.Property.MeleeWeapon"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Item.Property"
+					},
+					{
+						"TagName": "SW.Item"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"SlotInputTag":
+			{
+				"TagName": "None"
+			},
+			"LevelRequirement": 0
+		}
+	},
+	{
+		"Name": "InventoryGeneric",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Inventory.Generic"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Inventory"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"AllowedTypes":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Item"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"SlotInputTag":
+			{
+				"TagName": "None"
+			},
+			"LevelRequirement": 0
+		}
+	},
+	{
+		"Name": "EquipmentArtifactSlot0",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Equipment.Artifact.Slot0"
+		},
+		"ItemSlotData":
+		{
+			"AllowedTypes":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Item.Property.Potion"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Item.Property"
+					},
+					{
+						"TagName": "SW.Item"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"SlotInputTag":
+			{
+				"TagName": "None"
+			},
+			"LevelRequirement": 0
+		}
+	},
+	{
+		"Name": "EquipmentArtifactSlot1",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Equipment.Artifact.Slot1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Equipment.Artifact"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot.Equipment"
+				},
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"SlotInputTag":
+			{
+				"TagName": "None"
+			},
+			"LevelRequirement": 0
+		}
+	},
+	{
+		"Name": "EquipmentArtifactSlot2",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Equipment.Artifact.Slot2"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Equipment.Artifact"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot.Equipment"
+				},
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"SlotInputTag":
+			{
+				"TagName": "None"
+			},
+			"LevelRequirement": 5
+		}
+	},
+	{
+		"Name": "EquipmentArtifactSlot3",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Equipment.Artifact.Slot3"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Equipment.Artifact"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot.Equipment"
+				},
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"SlotInputTag":
+			{
+				"TagName": "None"
+			},
+			"LevelRequirement": 10
+		}
+	},
+	{
+		"Name": "EquipmentArmorBoots",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Equipment.Armor.Boots"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Equipment.Armor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot.Equipment"
+				},
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"AllowedTypes":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Item.Property.Armor.Boots"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Item.Property.Armor"
+					},
+					{
+						"TagName": "SW.Item.Property"
+					},
+					{
+						"TagName": "SW.Item"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"SlotInputTag":
+			{
+				"TagName": "None"
+			},
+			"LevelRequirement": 0
+		}
+	},
+	{
+		"Name": "EquipmentArmorChest",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Equipment.Armor.Chest"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Equipment.Armor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot.Equipment"
+				},
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"AllowedTypes":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Item.Property.Armor.Chest"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Item.Property.Armor"
+					},
+					{
+						"TagName": "SW.Item.Property"
+					},
+					{
+						"TagName": "SW.Item"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"SlotInputTag":
+			{
+				"TagName": "None"
+			},
+			"LevelRequirement": 0
+		}
+	},
+	{
+		"Name": "EquipmentArmorHelmet",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Equipment.Armor.Helmet"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Equipment.Armor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot.Equipment"
+				},
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"AllowedTypes":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Item.Property.Armor.Helmet"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Item.Property.Armor"
+					},
+					{
+						"TagName": "SW.Item.Property"
+					},
+					{
+						"TagName": "SW.Item"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"SlotInputTag":
+			{
+				"TagName": "None"
+			},
+			"LevelRequirement": 0
+		}
+	},
+	{
+		"Name": "EquipmentArmorLeggings",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Equipment.Armor.Leggings"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Equipment.Armor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot.Equipment"
+				},
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"AllowedTypes":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Item.Property.Armor.Leggings"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Item.Property.Armor"
+					},
+					{
+						"TagName": "SW.Item.Property"
+					},
+					{
+						"TagName": "SW.Item"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"SlotInputTag":
+			{
+				"TagName": "None"
+			},
+			"LevelRequirement": 0
+		}
+	},
+	{
+		"Name": "EquipmentRangedWeapon",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Equipment.RangedWeapon"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Equipment"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"AllowedTypes":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Item.Property.RangedWeapon"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Item.Property"
+					},
+					{
+						"TagName": "SW.Item"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"SlotInputTag":
+			{
+				"TagName": "None"
+			},
+			"LevelRequirement": 0
+		}
+	},
+	{
+		"Name": "InventoryRangedWeapon",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Inventory.RangedWeapon"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Inventory"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"AllowedTypes":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Item.Property.RangedWeapon"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Item.Property"
+					},
+					{
+						"TagName": "SW.Item"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"SlotInputTag":
+			{
+				"TagName": "None"
+			},
+			"LevelRequirement": 0
+		}
+	},
+	{
+		"Name": "InventoryArmorBoots",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Inventory.Armor.Boots"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Inventory"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"AllowedTypes":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Item.Property.Armor.Boots"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Item.Property.Armor"
+					},
+					{
+						"TagName": "SW.Item.Property"
+					},
+					{
+						"TagName": "SW.Item"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"SlotInputTag":
+			{
+				"TagName": "None"
+			},
+			"LevelRequirement": 0
+		}
+	},
+	{
+		"Name": "InventoryArmorChest",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Inventory.Armor.Chest"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Inventory"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"AllowedTypes":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Item.Property.Armor.Chest"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Item.Property.Armor"
+					},
+					{
+						"TagName": "SW.Item.Property"
+					},
+					{
+						"TagName": "SW.Item"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"SlotInputTag":
+			{
+				"TagName": "None"
+			},
+			"LevelRequirement": 0
+		}
+	},
+	{
+		"Name": "InventoryArmorHelmet",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Inventory.Armor.Helmet"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Inventory"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"AllowedTypes":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Item.Property.Armor.Helmet"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Item.Property.Armor"
+					},
+					{
+						"TagName": "SW.Item.Property"
+					},
+					{
+						"TagName": "SW.Item"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"SlotInputTag":
+			{
+				"TagName": "None"
+			},
+			"LevelRequirement": 0
+		}
+	},
+	{
+		"Name": "InventoryArmorLeggings",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Inventory.Armor.Leggings"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Inventory"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"AllowedTypes":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Item.Property.Armor.Leggings"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Item.Property.Armor"
+					},
+					{
+						"TagName": "SW.Item.Property"
+					},
+					{
+						"TagName": "SW.Item"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"SlotInputTag":
+			{
+				"TagName": "None"
+			},
+			"LevelRequirement": 0
+		}
+	},
+	{
+		"Name": "EquipmentTalisman",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Equipment.Talisman"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Equipment"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"AllowedTypes":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Item.Property.Talisman"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Item.Property"
+					},
+					{
+						"TagName": "SW.Item"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"SlotInputTag":
+			{
+				"TagName": "None"
+			},
+			"LevelRequirement": 0
+		}
+	},
+	{
+		"Name": "EquipmentTalismanSlot1",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Equipment.Talisman.Slot1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Equipment.Talisman"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot.Equipment"
+				},
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"SlotInputTag":
+			{
+				"TagName": "SW.Input.Talisman1"
+			},
+			"LevelRequirement": 0
+		}
+	},
+	{
+		"Name": "EquipmentTalismanSlot2",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Equipment.Talisman.Slot2"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Equipment.Talisman"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot.Equipment"
+				},
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"SlotInputTag":
+			{
+				"TagName": "SW.Input.Talisman2"
+			},
+			"LevelRequirement": 0
+		}
+	},
+	{
+		"Name": "EquipmentTalismanSlot3",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Equipment.Talisman.Slot3"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Equipment.Talisman"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot.Equipment"
+				},
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"SlotInputTag":
+			{
+				"TagName": "SW.Input.Talisman3"
+			},
+			"LevelRequirement": 0
+		}
+	},
+	{
+		"Name": "InventoryTalisman",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Inventory.Talisman"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Equipment"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"AllowedTypes":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Item.Property.Talisman"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Item.Property"
+					},
+					{
+						"TagName": "SW.Item"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"SlotInputTag":
+			{
+				"TagName": "None"
+			},
+			"LevelRequirement": 0
+		}
+	},
+	{
+		"Name": "InventoryQuestItem",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Inventory.QuestItem"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Inventory"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"AllowedTypes":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Item.Property.QuestItem"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Item.Property"
+					},
+					{
+						"TagName": "SW.Item"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"SlotInputTag":
+			{
+				"TagName": "None"
+			},
+			"LevelRequirement": 0
+		}
+	},
+	{
+		"Name": "InventoryEnchantmentBook",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Inventory.EnchantmentBook"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Inventory"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"AllowedTypes":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Item.Property.EnchantmentBook"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Item.Property"
+					},
+					{
+						"TagName": "SW.Item"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"SlotInputTag":
+			{
+				"TagName": "None"
+			},
+			"LevelRequirement": 0
+		}
+	},
+	{
+		"Name": "InventoryVillageMerchantTier0",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Inventory.VillageMerchant.Tier0"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Inventory"
+				},
+				{
+					"TagName": "SW.ItemSlot.Property.Private"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.ItemSlot.Property"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"AllowedTypes":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Item.Property.MeleeWeapon"
+					},
+					{
+						"TagName": "SW.Item.Property.RangedWeapon"
+					},
+					{
+						"TagName": "SW.Item.Property.Artifact"
+					},
+					{
+						"TagName": "SW.Item.Property.Armor"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Item.Property"
+					},
+					{
+						"TagName": "SW.Item"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"SlotInputTag":
+			{
+				"TagName": "None"
+			},
+			"LevelRequirement": 0
+		}
+	},
+	{
+		"Name": "InventoryVillageMerchantTier1",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Inventory.VillageMerchant.Tier1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Inventory"
+				},
+				{
+					"TagName": "SW.ItemSlot.Property.Private"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.ItemSlot.Property"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"AllowedTypes":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Item.Property.MeleeWeapon"
+					},
+					{
+						"TagName": "SW.Item.Property.RangedWeapon"
+					},
+					{
+						"TagName": "SW.Item.Property.Artifact"
+					},
+					{
+						"TagName": "SW.Item.Property.Armor"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Item.Property"
+					},
+					{
+						"TagName": "SW.Item"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"SlotInputTag":
+			{
+				"TagName": "None"
+			},
+			"LevelRequirement": 0
+		}
+	},
+	{
+		"Name": "InventoryVillageMerchantTier2",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Inventory.VillageMerchant.Tier2"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Inventory"
+				},
+				{
+					"TagName": "SW.ItemSlot.Property.Private"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.ItemSlot.Property"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"AllowedTypes":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Item.Property.MeleeWeapon"
+					},
+					{
+						"TagName": "SW.Item.Property.RangedWeapon"
+					},
+					{
+						"TagName": "SW.Item.Property.Artifact"
+					},
+					{
+						"TagName": "SW.Item.Property.Armor"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Item.Property"
+					},
+					{
+						"TagName": "SW.Item"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"SlotInputTag":
+			{
+				"TagName": "None"
+			},
+			"LevelRequirement": 0
+		}
+	},
+	{
+		"Name": "InventoryCosmeticCape",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Inventory.Cosmetic.Capes"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Inventory"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"AllowedTypes":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Item.Property.Cosmetic.Cape"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Item.Property.Cosmetic"
+					},
+					{
+						"TagName": "SW.Item.Property"
+					},
+					{
+						"TagName": "SW.Item"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"SlotInputTag":
+			{
+				"TagName": "None"
+			},
+			"LevelRequirement": 0
+		}
+	},
+	{
+		"Name": "EquipmentCosmeticCape",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Equipment.Cosmetic.Capes"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Equipment.Cosmetic"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot.Equipment"
+				},
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"AllowedTypes":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Item.Property.Cosmetic.Cape"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Item.Property.Cosmetic"
+					},
+					{
+						"TagName": "SW.Item.Property"
+					},
+					{
+						"TagName": "SW.Item"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"SlotInputTag":
+			{
+				"TagName": "None"
+			},
+			"LevelRequirement": 0
+		}
+	},
+	{
+		"Name": "InventoryCosmeticPet",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Inventory.Cosmetic.Pets"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Inventory"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"AllowedTypes":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Item.Property.Cosmetic.Pet"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Item.Property.Cosmetic"
+					},
+					{
+						"TagName": "SW.Item.Property"
+					},
+					{
+						"TagName": "SW.Item"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"SlotInputTag":
+			{
+				"TagName": "None"
+			},
+			"LevelRequirement": 0
+		}
+	},
+	{
+		"Name": "EquipmentCosmeticPet",
+		"TypeTag":
+		{
+			"TagName": "SW.ItemSlot.Equipment.Cosmetic.Pets"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ItemSlot.Equipment.Cosmetic"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ItemSlot.Equipment"
+				},
+				{
+					"TagName": "SW.ItemSlot"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ItemSlotData":
+		{
+			"AllowedTypes":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Item.Property.Cosmetic.Pet"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Item.Property.Cosmetic"
+					},
+					{
+						"TagName": "SW.Item.Property"
+					},
+					{
+						"TagName": "SW.Item"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"SlotInputTag":
+			{
+				"TagName": "None"
+			},
+			"LevelRequirement": 0
+		}
+	}
+]

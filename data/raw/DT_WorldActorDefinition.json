@@ -1,0 +1,166 @@
+[
+	{
+		"Name": "WorldActor",
+		"TypeTag":
+		{
+			"TagName": "SW.WorldActor"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ReplicationGraph.AlwaysRelevant"
+				},
+				{
+					"TagName": "SW.ActorFolding.NeverDespawn"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ReplicationGraph"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.ActorFolding"
+				}
+			]
+		},
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Damage.BaseDamageMultiplier"
+				},
+				"Value": 1
+			}
+		],
+		"ActorReference": "/Script/SpicewoodGAS.SWWorldActor",
+		"ConditionDefinition":
+		{
+			"Conditions":
+			{
+				"(TagName=\"SW.Condition.ShouldSpawnMinibosses\")":
+				{
+					"Conditions": [
+						{
+							"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+							"InstanceData": [
+								{
+									"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+									"GameStateToCheck":
+									{
+										"TagName": "SW.GameState.CampIntroQuestComplete"
+									},
+									"bInvertCondition": false
+								}
+							]
+						},
+						{
+							"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_CheckNoActiveTypeTrackedActors'",
+							"InstanceData": [
+								{
+									"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_CheckTypeTrackedActorsData",
+									"TypesToCheck":
+									{
+										"GameplayTags": [
+											{
+												"TagName": "SW.Mob.Default.Type3"
+											}
+										],
+										"ParentTags": [
+											{
+												"TagName": "SW.Mob.Default"
+											},
+											{
+												"TagName": "SW.Mob"
+											},
+											{
+												"TagName": "SW"
+											}
+										]
+									}
+								}
+							]
+						}
+					]
+				},
+				"(TagName=\"SW.Condition.ShouldSpawnSoulStated\")":
+				{
+					"Conditions": [
+						{
+							"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+							"InstanceData": [
+								{
+									"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+									"GameStateToCheck":
+									{
+										"TagName": "SW.GameState.CampIntroQuestComplete"
+									},
+									"bInvertCondition": false
+								}
+							]
+						},
+						{
+							"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_CheckNoActiveTypeTrackedActors'",
+							"InstanceData": [
+								{
+									"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_CheckTypeTrackedActorsData",
+									"TypesToCheck":
+									{
+										"GameplayTags": [
+											{
+												"TagName": "SW.Mob.Default.Type3"
+											}
+										],
+										"ParentTags": [
+											{
+												"TagName": "SW.Mob.Default"
+											},
+											{
+												"TagName": "SW.Mob"
+											},
+											{
+												"TagName": "SW"
+											}
+										]
+									}
+								}
+							]
+						}
+					]
+				},
+				"(TagName=\"SW.Condition.ShouldSpawnMobVariants\")":
+				{
+				}
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None",
+			"Assets": [
+				{
+					"Name": "SW.Asset.MobSpawnSettings",
+					"Object": "/Game/Spicewood/GameplayLogic/CT_MobSpawnSettings.CT_MobSpawnSettings",
+					"AssetTags":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.Asset.MobSpawnSettings"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.Asset"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				}
+			]
+		}
+	}
+]

@@ -1,0 +1,342 @@
+[
+	{
+		"Name": "InstancedStruct.StreamingDefinition",
+		"TypeTag":
+		{
+			"TagName": "SW.InstancedStruct.StreamingDefinition"
+		},
+		"TypeTrackingData":
+		{
+			"bTrackingEnabled": true,
+			"bAllowIdentifyAsType": false
+		},
+		"TypeTrackingTelemetryData":
+		{
+			"HighWaterMarkThreshold": -1,
+			"TelemetryThrottleSec": 10
+		}
+	},
+	{
+		"Name": "Player",
+		"TypeTag":
+		{
+			"TagName": "SW.Player"
+		},
+		"TypeTrackingData":
+		{
+			"bTrackingEnabled": true,
+			"bAllowIdentifyAsType": true
+		},
+		"TypeTrackingTelemetryData":
+		{
+			"HighWaterMarkThreshold": -1,
+			"TelemetryThrottleSec": 10
+		}
+	},
+	{
+		"Name": "Mob",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob"
+		},
+		"TypeTrackingData":
+		{
+			"bTrackingEnabled": true,
+			"bAllowIdentifyAsType": true
+		},
+		"TypeTrackingTelemetryData":
+		{
+			"HighWaterMarkThreshold": 10,
+			"TelemetryThrottleSec": 10
+		}
+	},
+	{
+		"Name": "Property.Targetable",
+		"TypeTag":
+		{
+			"TagName": "SW.Property.Targetable"
+		},
+		"TypeTrackingData":
+		{
+			"bTrackingEnabled": true,
+			"bAllowIdentifyAsType": true
+		},
+		"TypeTrackingTelemetryData":
+		{
+			"HighWaterMarkThreshold": -1,
+			"TelemetryThrottleSec": 10
+		}
+	},
+	{
+		"Name": "Tracked.Damageable",
+		"TypeTag":
+		{
+			"TagName": "SW.Tracked.Damageable"
+		},
+		"TypeTrackingData":
+		{
+			"bTrackingEnabled": true,
+			"bAllowIdentifyAsType": true
+		},
+		"TypeTrackingTelemetryData":
+		{
+			"HighWaterMarkThreshold": -1,
+			"TelemetryThrottleSec": 10
+		}
+	},
+	{
+		"Name": "LootSpawnPoint",
+		"TypeTag":
+		{
+			"TagName": "SW.LootSpawnPoint"
+		},
+		"TypeTrackingData":
+		{
+			"bTrackingEnabled": true,
+			"bAllowIdentifyAsType": true
+		},
+		"TypeTrackingTelemetryData":
+		{
+			"HighWaterMarkThreshold": -1,
+			"TelemetryThrottleSec": 10
+		}
+	},
+	{
+		"Name": "Item",
+		"TypeTag":
+		{
+			"TagName": "SW.Item"
+		},
+		"TypeTrackingData":
+		{
+			"bTrackingEnabled": true,
+			"bAllowIdentifyAsType": true
+		},
+		"TypeTrackingTelemetryData":
+		{
+			"HighWaterMarkThreshold": -1,
+			"TelemetryThrottleSec": 10
+		}
+	},
+	{
+		"Name": "QuestActor",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor"
+		},
+		"TypeTrackingData":
+		{
+			"bTrackingEnabled": true,
+			"bAllowIdentifyAsType": true
+		},
+		"TypeTrackingTelemetryData":
+		{
+			"HighWaterMarkThreshold": -1,
+			"TelemetryThrottleSec": 10
+		}
+	},
+	{
+		"Name": "Mob.Sentinel",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Sentinel"
+		},
+		"TypeTrackingData":
+		{
+			"bTrackingEnabled": true,
+			"bAllowIdentifyAsType": true
+		},
+		"TypeTrackingTelemetryData":
+		{
+			"HighWaterMarkThreshold": -1,
+			"TelemetryThrottleSec": 10
+		}
+	},
+	{
+		"Name": "PropActor.Borealis",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.Borealis"
+		},
+		"TypeTrackingData":
+		{
+			"bTrackingEnabled": true,
+			"bAllowIdentifyAsType": true
+		},
+		"TypeTrackingTelemetryData":
+		{
+			"HighWaterMarkThreshold": -1,
+			"TelemetryThrottleSec": 10
+		}
+	},
+	{
+		"Name": "QuestVolume",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestVolume"
+		},
+		"TypeTrackingData":
+		{
+			"bTrackingEnabled": true,
+			"bAllowIdentifyAsType": true
+		},
+		"TypeTrackingTelemetryData":
+		{
+			"HighWaterMarkThreshold": -1,
+			"TelemetryThrottleSec": 10
+		}
+	},
+	{
+		"Name": "Character",
+		"TypeTag":
+		{
+			"TagName": "SW.Trait.Character"
+		},
+		"TypeTrackingData":
+		{
+			"bTrackingEnabled": true,
+			"bAllowIdentifyAsType": true
+		},
+		"TypeTrackingTelemetryData":
+		{
+			"HighWaterMarkThreshold": -1,
+			"TelemetryThrottleSec": 10
+		}
+	},
+	{
+		"Name": "Tracked.Companion",
+		"TypeTag":
+		{
+			"TagName": "SW.Tracked.Companion"
+		},
+		"TypeTrackingData":
+		{
+			"bTrackingEnabled": true,
+			"bAllowIdentifyAsType": true
+		},
+		"TypeTrackingTelemetryData":
+		{
+			"HighWaterMarkThreshold": -1,
+			"TelemetryThrottleSec": 10
+		}
+	},
+	{
+		"Name": "Tracked.Unkillable",
+		"TypeTag":
+		{
+			"TagName": "SW.Tracked.Unkillable"
+		},
+		"TypeTrackingData":
+		{
+			"bTrackingEnabled": true,
+			"bAllowIdentifyAsType": true
+		},
+		"TypeTrackingTelemetryData":
+		{
+			"HighWaterMarkThreshold": -1,
+			"TelemetryThrottleSec": 10
+		}
+	},
+	{
+		"Name": "Zombie",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Zombie"
+		},
+		"TypeTrackingData":
+		{
+			"bTrackingEnabled": true,
+			"bAllowIdentifyAsType": true
+		},
+		"TypeTrackingTelemetryData":
+		{
+			"HighWaterMarkThreshold": 2,
+			"TelemetryThrottleSec": 10
+		}
+	},
+	{
+		"Name": "Skeleton",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Skeleton"
+		},
+		"TypeTrackingData":
+		{
+			"bTrackingEnabled": true,
+			"bAllowIdentifyAsType": true
+		},
+		"TypeTrackingTelemetryData":
+		{
+			"HighWaterMarkThreshold": 2,
+			"TelemetryThrottleSec": 10
+		}
+	},
+	{
+		"Name": "Creeper",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Creeper"
+		},
+		"TypeTrackingData":
+		{
+			"bTrackingEnabled": true,
+			"bAllowIdentifyAsType": true
+		},
+		"TypeTrackingTelemetryData":
+		{
+			"HighWaterMarkThreshold": 2,
+			"TelemetryThrottleSec": 10
+		}
+	},
+	{
+		"Name": "Pillager",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Pillager"
+		},
+		"TypeTrackingData":
+		{
+			"bTrackingEnabled": true,
+			"bAllowIdentifyAsType": true
+		},
+		"TypeTrackingTelemetryData":
+		{
+			"HighWaterMarkThreshold": 2,
+			"TelemetryThrottleSec": 10
+		}
+	},
+	{
+		"Name": "Vindicator",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Vindicator"
+		},
+		"TypeTrackingData":
+		{
+			"bTrackingEnabled": true,
+			"bAllowIdentifyAsType": true
+		},
+		"TypeTrackingTelemetryData":
+		{
+			"HighWaterMarkThreshold": 2,
+			"TelemetryThrottleSec": 10
+		}
+	},
+	{
+		"Name": "Type3",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Default.Type3"
+		},
+		"TypeTrackingData":
+		{
+			"bTrackingEnabled": true,
+			"bAllowIdentifyAsType": false
+		},
+		"TypeTrackingTelemetryData":
+		{
+			"HighWaterMarkThreshold": -1,
+			"TelemetryThrottleSec": 10
+		}
+	}
+]

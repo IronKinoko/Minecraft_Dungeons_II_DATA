@@ -1,0 +1,2224 @@
+[
+	{
+		"Name": "Witch",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.WitchQuestComplete"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA02_B",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "ForestUnlocked",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.PlainsA1CoreComplete"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA02",
+					"QuestState": "Active",
+					"TaskName": "CA02_I01",
+					"TaskState": "Completed",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "Maw",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.MawQuestComplete"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CA03",
+					"QuestState": "NotSet",
+					"TaskName": "CA03_AS01",
+					"TaskState": "Completed",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "InFromTheCold",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.CA05Complete"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CA05",
+					"QuestState": "Completed",
+					"TaskName": "CA05_E01",
+					"TaskState": "Completed",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "MainQuestComplete",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.MainQuestComplete"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA10",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "IntroQuestComplete",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.CampIntroQuestComplete"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA00",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "RiftsUnlocked",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.RiftsUnlocked"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA02_C",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "DungeonsUnlocked",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.DungeonsUnlocked"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA02_C",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "RageofTheSifters",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.RageOfTheSifters"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "MEa1_S05_A",
+					"QuestState": "NotSet",
+					"TaskName": "MEa1_S05_A_I07",
+					"TaskState": "Completed",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "CA09_CarapaceA1Mining",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.CA09.CarapaceA1Mining"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CA09",
+					"QuestState": "NotSet",
+					"TaskName": "CA09_Standard06",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "CA01_B_MerchantMinecartUnlock",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.Merchants.VillageMerchant.CA01.B"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CA01_B",
+					"QuestState": "NotSet",
+					"TaskName": "CA01_B_I07",
+					"TaskState": "Completed",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "CA01_B_IllagerSpawnsActive",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.CA01.B.Fights"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CA01_B",
+					"QuestState": "NotSet",
+					"TaskName": "CA01_B_Standard01",
+					"TaskState": "Completed",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "CA01_SoulCorruptedFight",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.CA01.SoulCorrupted"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CA01",
+					"QuestState": "Active",
+					"TaskName": "CA01_Sequence03",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "OverworldRegionAvailable",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.RegionAvailability.Overworld"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				},
+				{
+					"TagName": "SW.Region.Overworld"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Region"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA00",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "SiftRegionAvailable",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.RegionAvailability.Sift"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				},
+				{
+					"TagName": "SW.Region.Sift"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Region"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA06",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "Completed",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "IntroQuestActive",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.CampIntroQuestActive"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA00",
+					"QuestState": "Active",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "CA01_TownGateFight",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.CA01.TownGateFight"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA01",
+					"QuestState": "Active",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "CA01_FarmFight",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.CA01.FarmFight"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CA01",
+					"QuestState": "NotSet",
+					"TaskName": "CA01_K02",
+					"TaskState": "Completed",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "CA02_ForesOutpostFight",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.CA02.ForestOutpostFight"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CA02",
+					"QuestState": "NotSet",
+					"TaskName": "CA02_E04",
+					"TaskState": "Completed",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "CA02_Active",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState..CA02.Active"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA02",
+					"QuestState": "Active",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "CA10_VistaFight",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.CA10.VistaFight"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CA10",
+					"QuestState": "NotSet",
+					"TaskName": "CA10_AS05",
+					"TaskState": "Completed",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "CA02_C_SM01",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState..CA02.C.SM01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CA02_C",
+					"QuestState": "NotSet",
+					"TaskName": "CA02_C_SM01",
+					"TaskState": "Completed",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "CA02_C_SM02",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.CA02.C.SM02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CA02_C",
+					"QuestState": "NotSet",
+					"TaskName": "CA02_C_Sequence03",
+					"TaskState": "Completed",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "CA04_AS01",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.CA04.AS01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CA04",
+					"QuestState": "NotSet",
+					"TaskName": "CA04_AS01",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "CA08_Standard01",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.CA08.Standard01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CA08",
+					"QuestState": "NotSet",
+					"TaskName": "CA08_Standard01",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "ForestA1_FOa1_S08_A_AS01",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.FOa1.S08.AS01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "FOa1_S08_A",
+					"QuestState": "NotSet",
+					"TaskName": "FOa1_S08_A_Sequence02",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "DesertA1_DEa1_S13_A",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.DEa1_S13_A.Active"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "DEa1_S13_A",
+					"QuestState": "Active",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "MeadowA1_MeA1_S05_A",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.MEa1_S05_A.Completed"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "MEa1_S05_A",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "MeadowsA1_MEa1_S05_A_Sequence02",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.MEa1.S05.Sequence02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "MEa1_S05_A",
+					"QuestState": "NotSet",
+					"TaskName": "MEa1_S05_A_Sequence02",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "MeadowsA1_MEa1_S05_A_Sequence03",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.MEa1.S05.Sequence03"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "MEa1_S05_A",
+					"QuestState": "NotSet",
+					"TaskName": "MEa1_S05_A_Sequence03",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "MeadowsA1_MEa1_S05_A_Sequence04",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.MEa1.S05.Sequence04"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "MEa1_S05_A",
+					"QuestState": "NotSet",
+					"TaskName": "MEa1_S05_A_Sequence03",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "CarapaceA1_CAa1_S02_A_Sequence04",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.CAa1.S02.Sequence04"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CAa1_S02_A",
+					"QuestState": "NotSet",
+					"TaskName": "CAa1_S02_A_Sequence04",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "CarapaceA1_CAa1_S02_A_Sequence05",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.CAa1.S02.Sequence05"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CAa1_S02_A",
+					"QuestState": "NotSet",
+					"TaskName": "CAa1_S02_A_Sequence05",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "CarapaceA1_CAa1_S02_A_Sequence06",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.CAa1.S02.Sequence06"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CAa1_S02_A",
+					"QuestState": "NotSet",
+					"TaskName": "CAa1_S02_A_Sequence06",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "CarapaceA1_CAa1_S03_A_Sequence05",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.CAa1.S03.Sequence05"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CAa1_S03_A",
+					"QuestState": "NotSet",
+					"TaskName": "CAa1_S03_A_Sequence05",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "MeadowsA2_MEa2_S03_A_Sequence01",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.MEa2.S03.Sequence01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "MEa2_S03_A",
+					"QuestState": "NotSet",
+					"TaskName": "MEa2_S03_A_Sequence01",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "MeadowsA2_MEa2_S03_A_Sequence02",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.MEa2.S03.Sequence02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "MEa2_S03_A",
+					"QuestState": "NotSet",
+					"TaskName": "MEa2_S03_A_Sequence02",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "MeadowsA2_MEa2_S03_A_Sequence03",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.MEa2.S03.Sequence03"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "MEa2_S03_A",
+					"QuestState": "NotSet",
+					"TaskName": "MEa2_S03_A_Sequence03",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "MeadowsA2_MEa2_S03_A_Sequence04",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.MEa2.S03.Sequence04"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "MEa2_S03_A",
+					"QuestState": "NotSet",
+					"TaskName": "MEa2_S03_A_Sequence04",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "Merchant_Town",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.Merchants.TheMisguidedMerchantComplete"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA01_B",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "Merchant_ForestA1Outpost",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.Merchants.VillageMerchant.ForestA1.Outpost"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CA02",
+					"QuestState": "Active",
+					"TaskName": "CA02_PC04",
+					"TaskState": "Completed",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "Merchant_ForestA1Woodcutter",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.Merchants.VillageMerchant.ForestA1.Woodcutter"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA04",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "Completed",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "Merchant_DesertA1Fortress",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.Merchants.VillageMerchant.DesertA1.Fortress"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA05",
+					"QuestState": "Completed",
+					"TaskName": "CA02_PC04",
+					"TaskState": "Completed",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "Merchant_PlainsA2PuddlePond",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.Merchants.VillageMerchant.PlainsA2.PuddlePond"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA07",
+					"QuestState": "Completed",
+					"TaskName": "CA02_PC04",
+					"TaskState": "Completed",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "Enchantsmith_Town",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.Merchants.TheTownEnchantsmithComplete"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA02_C",
+					"QuestState": "Completed",
+					"TaskName": "FOa1_S11_A_I04",
+					"TaskState": "Completed",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "Enchantsmith_ForestA1Outpost",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.Merchants.Enchantsmith.ForestA1.Outpost"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA02_C",
+					"QuestState": "Completed",
+					"TaskName": "FOa1_S11_A_I04",
+					"TaskState": "Completed",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "Enchantsmith_ForestA1Woodcutter",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.Merchants.Enchantsmith.ForestA1.Woodcutter"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA04",
+					"QuestState": "Completed",
+					"TaskName": "FOa1_S11_A_I04",
+					"TaskState": "Completed",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "Enchantsmith_DesertA1Fortress",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.Merchants.Enchantsmith.DesertA1.Fortress"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA05",
+					"QuestState": "Completed",
+					"TaskName": "FOa1_S11_A_I04",
+					"TaskState": "Completed",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "Enchantsmith_PlainsA2PuddlePond",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.Merchants.Enchantsmith.PlainsA2.PuddlePond"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA07",
+					"QuestState": "Completed",
+					"TaskName": "FOa1_S11_A_I04",
+					"TaskState": "Completed",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "Blacksmith_Town",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.Merchants.TheTownBlacksmithComplete"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA04",
+					"QuestState": "Completed",
+					"TaskName": "CA04_I09",
+					"TaskState": "Completed",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "Blacksmith_ForestA1Outpost",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.Merchants.Blacksmith.ForestA1.Outpost"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA04",
+					"QuestState": "Completed",
+					"TaskName": "CA04_I09",
+					"TaskState": "Completed",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "Blacksmith_ForestA1Woodcutter",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.Merchants.Blacksmith.ForestA1.Woodcutter"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA04",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "Completed",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "Blacksmith_DesertA1Fortress",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.Merchants.Blacksmith.DesertA1.Fortress"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA05",
+					"QuestState": "Completed",
+					"TaskName": "CA04_I09",
+					"TaskState": "Completed",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "Blacksmith_PlainsA2PuddlePond",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.Merchants.Blacksmith.PlainsA2.PuddlePond"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA07",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "Completed",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "PlainsA1_PLa1_S08_A_Sequence02",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.PLa1.S08.Sequence02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "PLa1_S08_A",
+					"QuestState": "NotSet",
+					"TaskName": "PLa1_S08_A_Sequence02",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "PlainsA1_PLa1_S04_A_Sequence02",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.PLa1.S04.Sequence02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "PLa1_S04_A",
+					"QuestState": "NotSet",
+					"TaskName": "PLa1_S04_A_Sequence02",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "PlainsA2_PLa2_S15_A_Sequence02",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.PLa2.S15.Sequence02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "PLa2_S15_A",
+					"QuestState": "NotSet",
+					"TaskName": "PLa2_S15_A_Sequence02",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "PlainsA2_PLa2_S15_A_Sequence03",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.PLa2.S15.Sequence03"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "PLa2_S15_A",
+					"QuestState": "NotSet",
+					"TaskName": "PLa2_S15_A_Sequence03",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "PlainsA2_PLa2_S16_A_Sequence02",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.PLa2.S16.Sequence02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "PLa2_S16_A",
+					"QuestState": "NotSet",
+					"TaskName": "PLa2_S16_A_Sequence02",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "PlainsA2_PLa2_S16_A_Sequence03",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.PLa2.S16.Sequence03"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "PLa2_S16_A",
+					"QuestState": "NotSet",
+					"TaskName": "PLa2_S16_A_Sequence03",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "PlainsA2_PLa2_S16_A_Sequence04",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.PLa2.S16.Sequence04"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "PLa2_S16_A",
+					"QuestState": "NotSet",
+					"TaskName": "PLa2_S16_A_Sequence04",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "PlainsA2_PLa2_S17_A_Sequence02",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.PLa2.S17.Sequence02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "PLa2_S17_A",
+					"QuestState": "NotSet",
+					"TaskName": "PLa2_S17_A_Sequence02",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "PlainsA2_PLa2_S17_A_Sequence03",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.PLa2.S17.Sequence03"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "PLa2_S17_A",
+					"QuestState": "NotSet",
+					"TaskName": "PLa2_S17_A_Sequence03",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "CA08_E03",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.CA08.CA08_E03"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CA08",
+					"QuestState": "NotSet",
+					"TaskName": "CA08_E03",
+					"TaskState": "Active",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "CA08_E03_0",
+		"TypeTag":
+		{
+			"TagName": "SW.GameState.CA08.AS02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestState"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CA08",
+					"QuestState": "NotSet",
+					"TaskName": "CA08_AS02",
+					"TaskState": "Completed",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	}
+]

@@ -1,0 +1,454 @@
+[
+	{
+		"Name": "Active",
+		"TypeTag":
+		{
+			"TagName": "SW.GameplayRuleSet.Active"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.GameplayRuleSet.SecondPass"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.GameplayRuleSet"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameBalanceDefinition":
+		{
+			"ItemPowerFactorConstants":
+			{
+				"LimitValue": 1.75,
+				"SpreadFactor": 0.125,
+				"LowestPossibleScaling": 0.01
+			},
+			"ItemPowerFactorConstantsArmor":
+			{
+				"LimitValue": 1.75,
+				"SpreadFactor": 0.125,
+				"LowestPossibleScaling": 0.01
+			},
+			"GlobalDifficultyScalingSettings":
+			{
+				"OutgoingDamageModifierCurve":
+				{
+					"CurveTable": "None",
+					"RowName": "None"
+				},
+				"IncomingDamageModifierCurve":
+				{
+					"CurveTable": "None",
+					"RowName": "None"
+				}
+			},
+			"DamageNumberFudgeFactorPerItemPowerLevel": 0.05,
+			"CharacterLevelsPerThreat": 0,
+			"ItemPowerPerCharacterLevel": 0,
+			"ItemPowerLowWarningThreshold": 0.8,
+			"LootRelevancyDistance": 3000,
+			"CurrencyAcquisitionMultiplier": 1,
+			"LevelUpXPCostBase": 1000,
+			"LevelUpXPCostLimit": 2,
+			"LevelUpXPCostIncreaseFactor": 1,
+			"XPAquisitionMultiplierThreat": 1,
+			"XPAcquisitionMultiplierMobs": 0.15,
+			"XPAcquisitionMultiplierQuest": 1
+		},
+		"ItemCreatorConstants":
+		{
+			"ItemPowerLevelOffsetMax": 9,
+			"ItemPowerThreatOffsetMax": 9,
+			"NumberOfEffectsMax": 4,
+			"NumberOfEffectsMin": 0
+		},
+		"TypeAttributeModifiers":
+		{
+		},
+		"MobSpawningConstants":
+		{
+			"MobSpawnCostMultiplier": 1,
+			"GroupSizeVolumeSizeContribution": 0.05,
+			"PlayerSpawnGroupMultiplier": [ 1, 1, 1.2, 1.5, 1.9 ],
+			"PlayerArenaSpawnGroupMultiplier": [ 1, 1, 1, 1, 1 ],
+			"SoulStatedBaseBudget": 100,
+			"ArenaAggroRange": 10000,
+			"SpawnVolumeCooldownInSeconds": 480,
+			"PiggyBankSpawnCooldownInSeconds": 300
+		},
+		"SoulImbalanceConstants":
+		{
+			"DelayTimer": 5,
+			"InitialTimer": 15,
+			"ActivationTimer": 45,
+			"HealthLossPerSecond": 2,
+			"SoulsLossPerSecond": 1,
+			"MobSpawnIntervals": [
+				{
+					"IntervalDuration": 20,
+					"IntervalSpawnRate": 4.8
+				},
+				{
+					"IntervalDuration": -1,
+					"IntervalSpawnRate": 3
+				}
+			],
+			"MobSpawnAmountProbability":
+			{
+				"1": 30,
+				"2": 50,
+				"3": 20
+			},
+			"MinMaxMobSpawnDistance":
+			{
+				"X": 500,
+				"Y": 1600
+			}
+		},
+		"SoulStormConstants":
+		{
+			"SoulStormEligibilityGamestate":
+			{
+				"TagName": "None"
+			},
+			"SoulStormEndSpawnVolumeCooldownSeconds": 0
+		},
+		"LevelProgressionConstants":
+		{
+		},
+		"CameraShakeScalingConstants":
+		{
+		},
+		"ItemSpawnDelayConstants":
+		{
+			"SecondGearItemDelay": 1,
+			"ThirdGearItemDelay": 1.75,
+			"GearDelayIncrement": 0.4,
+			"CurrencyDelayIncrement": 0.2,
+			"ConsumableDelayIncrement": 0.5
+		},
+		"LocalCoopCameraConstants":
+		{
+			"BaseCameraArmLength": 4000,
+			"MaximumZoom": 500,
+			"StartZoomRadius": 500,
+			"EndZoomRadius": 1600,
+			"InterpolationThreshold": 5000,
+			"InterpolationSpeed": 5
+		},
+		"SalvageConstants":
+		{
+			"BaseReward": 10,
+			"Exponent": 0.5,
+			"Coefficient": 0.3,
+			"AdditionalModifiers":
+			{
+				"(TagName=\"SW.Rarity.Rare\")": 1.2,
+				"(TagName=\"SW.Rarity.Special\")": 1.6,
+				"(TagName=\"SW.Rarity.Unique\")": 1.8,
+				"(TagName=\"SW.DropSource.DefaultItem\")": 0,
+				"(TagName=\"SW.Item.Property.StorminatorReward\")": 2
+			}
+		}
+	},
+	{
+		"Name": "SecondPass",
+		"TypeTag":
+		{
+			"TagName": "SW.GameplayRuleSet.SecondPass"
+		},
+		"GameBalanceDefinition":
+		{
+			"ItemPowerFactorConstants":
+			{
+				"LimitValue": 1.5,
+				"SpreadFactor": 0.15,
+				"LowestPossibleScaling": 0.1
+			},
+			"ItemPowerFactorConstantsArmor":
+			{
+				"LimitValue": 1.6,
+				"SpreadFactor": 0.1,
+				"LowestPossibleScaling": 0.1
+			},
+			"GlobalDifficultyScalingSettings":
+			{
+				"OutgoingDamageModifierCurve":
+				{
+					"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_GlobalDifficultySettings.CT_GlobalDifficultySettings'",
+					"RowName": "PlayerAttackPower"
+				},
+				"IncomingDamageModifierCurve":
+				{
+					"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_GlobalDifficultySettings.CT_GlobalDifficultySettings'",
+					"RowName": "PlayerDamageResistance"
+				}
+			},
+			"DamageNumberFudgeFactorPerItemPowerLevel": 0.05,
+			"CharacterLevelsPerThreat": 5,
+			"ItemPowerPerCharacterLevel": 1.5,
+			"ItemPowerLowWarningThreshold": 0.75,
+			"LootRelevancyDistance": 3000,
+			"CurrencyAcquisitionMultiplier": 1,
+			"LevelUpXPCostBase": 2000,
+			"LevelUpXPCostLimit": 3,
+			"LevelUpXPCostIncreaseFactor": 0.05,
+			"XPAquisitionMultiplierThreat": 0,
+			"XPAcquisitionMultiplierMobs": 0.75,
+			"XPAcquisitionMultiplierQuest": 1
+		},
+		"ItemCreatorConstants":
+		{
+			"ItemPowerLevelOffsetMax": 4,
+			"ItemPowerThreatOffsetMax": 15,
+			"NumberOfEffectsMax": 4,
+			"NumberOfEffectsMin": 0,
+			"RarityChanceMap":
+			{
+				"(TagName=\"SW.Rarity.Common\")":
+				{
+					"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_RarityChanceSettings.CT_RarityChanceSettings'",
+					"RowName": "Common"
+				},
+				"(TagName=\"SW.Rarity.Rare\")":
+				{
+					"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_RarityChanceSettings.CT_RarityChanceSettings'",
+					"RowName": "Rare"
+				},
+				"(TagName=\"SW.Rarity.Special\")":
+				{
+					"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_RarityChanceSettings.CT_RarityChanceSettings'",
+					"RowName": "Special"
+				},
+				"(TagName=\"SW.Rarity.Unique\")":
+				{
+					"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_RarityChanceSettings.CT_RarityChanceSettings'",
+					"RowName": "Unique"
+				}
+			},
+			"EffectChanceScalingCurves":
+			{
+				"(TagName=\"SW.Effect.Tier.1\")":
+				{
+					"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_EffectThreatBasedChanceAdjustments.CT_EffectThreatBasedChanceAdjustments'",
+					"RowName": "Tier1Effects"
+				},
+				"(TagName=\"SW.Effect.Tier.2\")":
+				{
+					"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_EffectThreatBasedChanceAdjustments.CT_EffectThreatBasedChanceAdjustments'",
+					"RowName": "Tier2Effects"
+				},
+				"(TagName=\"SW.Effect.Tier.3\")":
+				{
+					"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_EffectThreatBasedChanceAdjustments.CT_EffectThreatBasedChanceAdjustments'",
+					"RowName": "Tier3Effects"
+				}
+			}
+		},
+		"TypeAttributeModifiers":
+		{
+		},
+		"MobSpawningConstants":
+		{
+			"MobSpawnCostMultiplier": 1,
+			"GroupSizeVolumeSizeContribution": 1,
+			"MobSpawningDensities":
+			{
+				"Sparse": 0.5,
+				"Normal": 1,
+				"Dense": 1.5
+			},
+			"GroupSizeThreatContribution":
+			{
+				"1": 0.8,
+				"3": 0.9,
+				"5": 1,
+				"7": 1.1,
+				"9": 1.2,
+				"11": 1.3,
+				"13": 1.4,
+				"15": 1.5,
+				"17": 1.75,
+				"19": 2
+			},
+			"PlayerSpawnGroupMultiplier": [ 0, 0.8, 1.2, 1.6, 1.9 ],
+			"PlayerArenaSpawnGroupMultiplier": [ 1, 1, 1, 1.2, 1.2 ],
+			"SoulStatedBaseBudget": 30,
+			"ArenaAggroRange": 10000,
+			"SpawnVolumeCooldownInSeconds": 420,
+			"PiggyBankSpawnCooldownInSeconds": 180
+		},
+		"SoulImbalanceConstants":
+		{
+			"DelayTimer": 5,
+			"InitialTimer": 20,
+			"ActivationTimer": 30,
+			"HealthLossPerSecond": 2,
+			"SoulsLossPerSecond": 1,
+			"MobSpawnIntervals": [
+				{
+					"IntervalDuration": 20,
+					"IntervalSpawnRate": 7
+				},
+				{
+					"IntervalDuration": -1,
+					"IntervalSpawnRate": 6
+				}
+			],
+			"MobSpawnAmountProbability":
+			{
+				"1": 30,
+				"2": 50,
+				"3": 20
+			},
+			"MinMaxMobSpawnDistance":
+			{
+				"X": 1000,
+				"Y": 2000
+			}
+		},
+		"SoulStormConstants":
+		{
+			"SoulStormEligibilityGamestate":
+			{
+				"TagName": "SW.GameState.MainQuestComplete"
+			},
+			"SoulStormEndSpawnVolumeCooldownSeconds": 30
+		},
+		"LevelProgressionConstants":
+		{
+			"EconomyProgression":
+			{
+				"1":
+				{
+					"EmeraldAmount": 0,
+					"SpringStoneAmount": 0,
+					"EnchantmentBooksAmount": 0,
+					"UpgradeLevelMerchant": 0,
+					"UpgradeLevelEnchantsmith": 0,
+					"UpgradeLevelBlacksmith": 0
+				},
+				"5":
+				{
+					"EmeraldAmount": 500,
+					"SpringStoneAmount": 20,
+					"EnchantmentBooksAmount": 2,
+					"UpgradeLevelMerchant": 1,
+					"UpgradeLevelEnchantsmith": 1,
+					"UpgradeLevelBlacksmith": 1
+				},
+				"10":
+				{
+					"EmeraldAmount": 1000,
+					"SpringStoneAmount": 40,
+					"EnchantmentBooksAmount": 4,
+					"UpgradeLevelMerchant": 1,
+					"UpgradeLevelEnchantsmith": 1,
+					"UpgradeLevelBlacksmith": 1
+				},
+				"15":
+				{
+					"EmeraldAmount": 4000,
+					"SpringStoneAmount": 60,
+					"EnchantmentBooksAmount": 7,
+					"UpgradeLevelMerchant": 1,
+					"UpgradeLevelEnchantsmith": 1,
+					"UpgradeLevelBlacksmith": 1
+				},
+				"20":
+				{
+					"EmeraldAmount": 5000,
+					"SpringStoneAmount": 50,
+					"EnchantmentBooksAmount": 10,
+					"UpgradeLevelMerchant": 2,
+					"UpgradeLevelEnchantsmith": 2,
+					"UpgradeLevelBlacksmith": 1
+				},
+				"25":
+				{
+					"EmeraldAmount": 6000,
+					"SpringStoneAmount": 60,
+					"EnchantmentBooksAmount": 13,
+					"UpgradeLevelMerchant": 2,
+					"UpgradeLevelEnchantsmith": 2,
+					"UpgradeLevelBlacksmith": 2
+				},
+				"30":
+				{
+					"EmeraldAmount": 6000,
+					"SpringStoneAmount": 60,
+					"EnchantmentBooksAmount": 16,
+					"UpgradeLevelMerchant": 3,
+					"UpgradeLevelEnchantsmith": 2,
+					"UpgradeLevelBlacksmith": 3
+				},
+				"35":
+				{
+					"EmeraldAmount": 6000,
+					"SpringStoneAmount": 60,
+					"EnchantmentBooksAmount": 19,
+					"UpgradeLevelMerchant": 3,
+					"UpgradeLevelEnchantsmith": 3,
+					"UpgradeLevelBlacksmith": 3
+				},
+				"50":
+				{
+					"EmeraldAmount": 9000,
+					"SpringStoneAmount": 100,
+					"EnchantmentBooksAmount": 30,
+					"UpgradeLevelMerchant": 3,
+					"UpgradeLevelEnchantsmith": 3,
+					"UpgradeLevelBlacksmith": 3
+				}
+			}
+		},
+		"CameraShakeScalingConstants":
+		{
+			"CameraShakeIntensityMultipliers":
+			{
+				"1": 1,
+				"2": 0.9,
+				"3": 0.7,
+				"4": 0.5
+			}
+		},
+		"ItemSpawnDelayConstants":
+		{
+			"SecondGearItemDelay": 1.3,
+			"ThirdGearItemDelay": 1.1,
+			"GearDelayIncrement": 0.5,
+			"CurrencyDelayIncrement": 0.13,
+			"ConsumableDelayIncrement": 0.55
+		},
+		"LocalCoopCameraConstants":
+		{
+			"BaseCameraArmLength": 4000,
+			"MaximumZoom": 500,
+			"StartZoomRadius": 500,
+			"EndZoomRadius": 1600,
+			"InterpolationThreshold": 5000,
+			"InterpolationSpeed": 5
+		},
+		"SalvageConstants":
+		{
+			"BaseReward": 30,
+			"Exponent": 0.5,
+			"Coefficient": 1.5,
+			"AdditionalModifiers":
+			{
+				"(TagName=\"SW.Rarity.Rare\")": 0.8,
+				"(TagName=\"SW.Rarity.Special\")": 1.2,
+				"(TagName=\"SW.Rarity.Unique\")": 1.6,
+				"(TagName=\"SW.DropSource.DefaultItem\")": 0,
+				"(TagName=\"SW.Item.Property.StorminatorReward\")": 2,
+				"(TagName=\"SW.Rarity.Common\")": 0.5
+			}
+		}
+	}
+]

@@ -1,0 +1,98 @@
+[
+	{
+		"Name": "BasePet",
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Talisman.Pickup"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Talisman.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.Cosmetic.Pet"
+		},
+		"ActorReference": "None"
+	},
+	{
+		"Name": "Blub",
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Mob.Companion"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Companion/Blub/sfx_mob_pet_blub_equip_Play.sfx_mob_pet_blub_equip_Play",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Companion/Blub/sfx_mob_pet_blub_unequip_Play.sfx_mob_pet_blub_unequip_Play"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Cosmetic.Pet.Blub"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Items/Consumable/BP_Apple.BP_Apple_C"
+	},
+	{
+		"Name": "TwistedChicken",
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Companion/TwistedChicken/sfx_mob_pet_twistedChicken_equip_Play.sfx_mob_pet_twistedChicken_equip_Play",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Companion/TwistedChicken/sfx_mob_pet_twistedChicken_unequip_Play.sfx_mob_pet_twistedChicken_unequip_Play"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Cosmetic.Pet.TwistedChicken"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Items/Consumable/BP_Apple.BP_Apple_C"
+	},
+	{
+		"Name": "SlimeSupreme",
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Companion/SlimeSupreme/sfx_mob_pet_slimeSupreme_equip_Play.sfx_mob_pet_slimeSupreme_equip_Play",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Companion/SlimeSupreme/sfx_mob_pet_slimeSupreme_unequip_Play.sfx_mob_pet_slimeSupreme_unequip_Play"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Cosmetic.Pet.SlimeSupreme"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Items/Consumable/BP_Apple.BP_Apple_C"
+	}
+]

@@ -1,0 +1,31 @@
+[
+	{
+		"Name": "SW.UI.Onboarding.Custom.Inventory.Artifact.SelectCategory",
+		"RepeatIndefinitely": false,
+		"ShowCount": 1,
+		"Lifetime": 0,
+		"UnlockedTutorials": []
+	},
+	{
+		"Name": "SW.UI.Onboarding.Custom.Inventory.Artifact.Equip",
+		"RepeatIndefinitely": false,
+		"ShowCount": 1,
+		"Lifetime": 0,
+		"UnlockedTutorials": [
+			{
+				"TagName": "SW.UI.TutorialLog.Gameplay.PowerLevel"
+			}
+		]
+	},
+	{
+		"Name": "SW.UI.Onboarding.Custom.Hotbar.Artifact.Use",
+		"RepeatIndefinitely": false,
+		"ShowCount": 1,
+		"Lifetime": 30,
+		"UnlockedTutorials": [
+			{
+				"TagName": "SW.UI.TutorialLog.Basic.Souls"
+			}
+		]
+	}
+]

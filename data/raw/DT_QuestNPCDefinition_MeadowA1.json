@@ -1,0 +1,1164 @@
+[
+	{
+		"Name": "CA02_BabySentinel_Trigger",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA02.BabySentinel"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_MeadowA1.csv\", \"SW_NPC_CA02_BabySentinel_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA02/BP_CA02_BabySentinel.BP_CA02_BabySentinel_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"ComponentDefinition":
+		{
+			"ClientComponents":
+			{
+				"(TagName=\"SW.ActorComponent.Interaction\")":
+				{
+					"Components": [
+						"/SpicewoodUI/Spicewood/UI/Widget/InWorldPrompts/BP_InWorldPromptPetComponent.BP_InWorldPromptPetComponent_C"
+					]
+				}
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA02_Caretaker01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA02.Caretaker.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestNPCDefinition_MeadowA1.csv\", \"SW_NPC_CA02_Caretaker_01_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA02/BP_CA02_Caretaker01.BP_CA02_Caretaker01_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA08_QuestGiver01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA08.Caretaker.QuestGiver.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA08/BP_CA08_QuestGiver01.BP_CA08_QuestGiver01_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA08_Singer",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA08.Singer"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA08/BP_CA08_Singer.BP_CA08_Singer_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA08_CaretakerOptional01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA08.Caretaker.Optional.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA08/BP_CA08_OptionalCaretaker01.BP_CA08_OptionalCaretaker01_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA08_DePoweredCaretaker01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA08.Caretaker.Depowered.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA08/BP_CA08_DepoweredCaretaker01.BP_CA08_DepoweredCaretaker01_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA08_DePoweredCaretaker02",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA08.Caretaker.Depowered.02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA08/BP_CA08_DepoweredCaretaker02.BP_CA08_DepoweredCaretaker02_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA08_DePoweredCaretaker03",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA08.Caretaker.Depowered.03"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA08/BP_CA08_DepoweredCaretaker03.BP_CA08_DepoweredCaretaker03_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA08_DePoweredCaretaker04",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA08.Caretaker.Depowered.04"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA08/BP_CA08_DepoweredCaretaker04.BP_CA08_DepoweredCaretaker04_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA08_ReturnedCaretaker01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA08.Caretaker.Returned.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA08/DecorNPCs/BP_CA08_ReturnedCaretaker01.BP_CA08_ReturnedCaretaker01_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA08_ReturnedCaretaker02",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA08.Caretaker.Returned.02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA08/DecorNPCs/BP_CA08_ReturnedCaretaker02.BP_CA08_ReturnedCaretaker02_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA08_ReturnedCaretaker03",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA08.Caretaker.Returned.03"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA08/DecorNPCs/BP_CA08_ReturnedCaretaker03.BP_CA08_ReturnedCaretaker03_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA08_ReturnedCaretaker04",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA08.Caretaker.Returned.04"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA08/DecorNPCs/BP_CA08_ReturnedCaretaker04.BP_CA08_ReturnedCaretaker04_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA08_IllagerAmbushCaretaker01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA08.Caretaker.IllagerAmbush.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA08/BP_CA08_IllagerAmbushCaretaker01.BP_CA08_IllagerAmbushCaretaker01_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA08_IllagerCampCaretaker01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA08.Caretaker.IllagerCamp.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA08/BP_CA08_IllagerCampCaretaker01.BP_CA08_IllagerCampCaretaker01_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "MEa1_S05_A_Caretaker",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.MEa1.S05.A.Caretaker"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA1/MEa1_S05_A/BP_MEa1_S05_A_Caretaker.BP_MEa1_S05_A_Caretaker_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "MEa1_S06_A_LostCaretaker",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.MEa1.S06.A.LostCaretaker"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA1/MEa1_S06_A/BP_MEa1_S06_A_LostCaretaker.BP_MEa1_S06_A_LostCaretaker_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "MEa1_S06_A_LostCaretaker2",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.MEa1.S05.A.Caretaker02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA1/MEa1_S05_A/BP_MEa1_S05_A_Caretaker2.BP_MEa1_S05_A_Caretaker2_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "MEa1_S06_A_QuestGiver",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.MEa1.S06.A.QuestGiver"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA1/MEa1_S06_A/BP_MEa1_S06_A_QuestGiver.BP_MEa1_S06_A_QuestGiver_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "MEa1_S06_A_WobbleEnd",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.MEa1.S06.A.WobbleEnd"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA1/MEa1_S06_A/BP_MEa1_S06_A_WobbleEnd.BP_MEa1_S06_A_WobbleEnd_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "MEa1_S06_A_Wobble01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.MEa1.S06.A.Wobble01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA1/MEa1_S06_A/BP_MEa1_S06_A_Wobble01.BP_MEa1_S06_A_Wobble01_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"ComponentDefinition":
+		{
+			"ClientComponents":
+			{
+				"(TagName=\"SW.ActorComponent.Interaction\")":
+				{
+					"Components": [
+						"/SpicewoodUI/Spicewood/UI/Widget/InWorldPrompts/BP_InWorldPromptInteractComponent.BP_InWorldPromptInteractComponent_C"
+					]
+				}
+			}
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "MEa1_S06_A_Wobble02",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.MEa1.S06.A.Wobble02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA1/MEa1_S06_A/BP_MEa1_S06_A_Wobble02.BP_MEa1_S06_A_Wobble02_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"ComponentDefinition":
+		{
+			"ClientComponents":
+			{
+				"(TagName=\"SW.ActorComponent.Interaction\")":
+				{
+					"Components": [
+						"/SpicewoodUI/Spicewood/UI/Widget/InWorldPrompts/BP_InWorldPromptInteractComponent.BP_InWorldPromptInteractComponent_C"
+					]
+				}
+			}
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "MEa1_S06_A_Wobble03",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.MEa1.S06.A.Wobble03"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA1/MEa1_S06_A/BP_MEa1_S06_A_Wobble03.BP_MEa1_S06_A_Wobble03_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"ComponentDefinition":
+		{
+			"ClientComponents":
+			{
+				"(TagName=\"SW.ActorComponent.Interaction\")":
+				{
+					"Components": [
+						"/SpicewoodUI/Spicewood/UI/Widget/InWorldPrompts/BP_InWorldPromptInteractComponent.BP_InWorldPromptInteractComponent_C"
+					]
+				}
+			}
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "MEa1_S06_A_Wobble04",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.MEa1.S06.A.Wobble04"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA1/MEa1_S06_A/BP_MEa1_S06_A_Wobble04.BP_MEa1_S06_A_Wobble04_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	}
+]

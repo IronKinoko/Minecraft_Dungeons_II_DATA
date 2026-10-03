@@ -1,0 +1,2316 @@
+[
+	{
+		"Name": "Potion",
+		"TypeTag":
+		{
+			"TagName": "SW.Ability.HealthPotion"
+		},
+		"PrimaryHandProfile":
+		{
+			"ProfileType": "SlopeFeedback",
+			"SlopeStartPos": 5,
+			"SlopeEndPos": 9,
+			"SlopeStartStrength": 6,
+			"SlopeEndStrength": 1,
+			"FeedbackPosition": 0,
+			"FeedbackStrength": 3,
+			"WeaponStartPos": 2,
+			"WeaponEndPos": 3,
+			"WeaponStrength": 4,
+			"VibrationPosition": 3,
+			"VibrationAmplitude": 4,
+			"VibrationFrequency": 9,
+			"MultiPosFBStrengths": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 3
+				},
+				{
+					"Value": 3
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 3
+				},
+				{
+					"Value": 2
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 3
+				}
+			],
+			"MultiPosVibeFrequency": 5,
+			"MultiPosVibeAmplitudes": [
+				{
+					"Value": 2
+				},
+				{
+					"Value": 2
+				},
+				{
+					"Value": 4
+				},
+				{
+					"Value": 4
+				},
+				{
+					"Value": 4
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				}
+			],
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "PotionCoolDown",
+		"TypeTag":
+		{
+			"TagName": "SW.AdaptiveTriggers.Potion.Cooldown"
+		},
+		"PrimaryHandProfile":
+		{
+			"ProfileType": "MultiPositionFeedback",
+			"SlopeStartPos": 0,
+			"SlopeEndPos": 1,
+			"SlopeStartStrength": 1,
+			"SlopeEndStrength": 1,
+			"FeedbackPosition": 0,
+			"FeedbackStrength": 0,
+			"WeaponStartPos": 7,
+			"WeaponEndPos": 8,
+			"WeaponStrength": 1,
+			"VibrationPosition": 1,
+			"VibrationAmplitude": 7,
+			"VibrationFrequency": 1,
+			"MultiPosFBStrengths": [
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 1
+				},
+				{
+					"Value": 1
+				},
+				{
+					"Value": 0
+				}
+			],
+			"MultiPosVibeFrequency": 0,
+			"MultiPosVibeAmplitudes": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "PotionFullHealth",
+		"TypeTag":
+		{
+			"TagName": "SW.AdaptiveTriggers.Potion.FullHealth"
+		},
+		"PrimaryHandProfile":
+		{
+			"ProfileType": "Weapon",
+			"SlopeStartPos": 0,
+			"SlopeEndPos": 1,
+			"SlopeStartStrength": 1,
+			"SlopeEndStrength": 1,
+			"FeedbackPosition": 0,
+			"FeedbackStrength": 0,
+			"WeaponStartPos": 2,
+			"WeaponEndPos": 3,
+			"WeaponStrength": 4,
+			"VibrationPosition": 0,
+			"VibrationAmplitude": 0,
+			"VibrationFrequency": 0,
+			"MultiPosFBStrengths": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"MultiPosVibeFrequency": 0,
+			"MultiPosVibeAmplitudes": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "LowAmmo",
+		"TypeTag":
+		{
+			"TagName": "SW.AdaptiveTriggers.Bow.LowAmmo"
+		},
+		"PrimaryHandProfile":
+		{
+			"ProfileType": "Weapon",
+			"SlopeStartPos": 0,
+			"SlopeEndPos": 4,
+			"SlopeStartStrength": 8,
+			"SlopeEndStrength": 3,
+			"FeedbackPosition": 0,
+			"FeedbackStrength": 0,
+			"WeaponStartPos": 2,
+			"WeaponEndPos": 6,
+			"WeaponStrength": 7,
+			"VibrationPosition": 0,
+			"VibrationAmplitude": 0,
+			"VibrationFrequency": 0,
+			"MultiPosFBStrengths": [
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 1
+				},
+				{
+					"Value": 1
+				},
+				{
+					"Value": 0
+				}
+			],
+			"MultiPosVibeFrequency": 0,
+			"MultiPosVibeAmplitudes": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "NoAmmo",
+		"TypeTag":
+		{
+			"TagName": "SW.AdaptiveTriggers.Bow.NoAmmo"
+		},
+		"PrimaryHandProfile":
+		{
+			"ProfileType": "Weapon",
+			"SlopeStartPos": 0,
+			"SlopeEndPos": 1,
+			"SlopeStartStrength": 1,
+			"SlopeEndStrength": 1,
+			"FeedbackPosition": 0,
+			"FeedbackStrength": 0,
+			"WeaponStartPos": 2,
+			"WeaponEndPos": 3,
+			"WeaponStrength": 4,
+			"VibrationPosition": 0,
+			"VibrationAmplitude": 0,
+			"VibrationFrequency": 0,
+			"MultiPosFBStrengths": [
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"MultiPosVibeFrequency": 0,
+			"MultiPosVibeAmplitudes": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "BowSingle",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.Bow"
+		},
+		"PrimaryHandProfile":
+		{
+			"ProfileType": "SlopeFeedback",
+			"SlopeStartPos": 0,
+			"SlopeEndPos": 4,
+			"SlopeStartStrength": 4,
+			"SlopeEndStrength": 1,
+			"FeedbackPosition": 0,
+			"FeedbackStrength": 3,
+			"WeaponStartPos": 4,
+			"WeaponEndPos": 6,
+			"WeaponStrength": 6,
+			"VibrationPosition": 0,
+			"VibrationAmplitude": 0,
+			"VibrationFrequency": 0,
+			"MultiPosFBStrengths": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"MultiPosVibeFrequency": 0,
+			"MultiPosVibeAmplitudes": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "BowCharging",
+		"TypeTag":
+		{
+			"TagName": "SW.GameplayEffect.BowCharging"
+		},
+		"PrimaryHandProfile":
+		{
+			"ProfileType": "MultiPositionVibration",
+			"SlopeStartPos": 0,
+			"SlopeEndPos": 1,
+			"SlopeStartStrength": 1,
+			"SlopeEndStrength": 1,
+			"FeedbackPosition": 0,
+			"FeedbackStrength": 0,
+			"WeaponStartPos": 2,
+			"WeaponEndPos": 3,
+			"WeaponStrength": 0,
+			"VibrationPosition": 0,
+			"VibrationAmplitude": 0,
+			"VibrationFrequency": 0,
+			"MultiPosFBStrengths": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"MultiPosVibeFrequency": 4,
+			"MultiPosVibeAmplitudes": [
+				{
+					"Value": 2
+				},
+				{
+					"Value": 3
+				},
+				{
+					"Value": 5
+				},
+				{
+					"Value": 5
+				},
+				{
+					"Value": 5
+				},
+				{
+					"Value": 5
+				},
+				{
+					"Value": 5
+				},
+				{
+					"Value": 5
+				},
+				{
+					"Value": 5
+				},
+				{
+					"Value": 4
+				}
+			],
+			"Priority": 6
+		}
+	},
+	{
+		"Name": "BowCharged",
+		"TypeTag":
+		{
+			"TagName": "SW.GameplayEffect.BowCharged"
+		},
+		"PrimaryHandProfile":
+		{
+			"ProfileType": "MultiPositionVibration",
+			"SlopeStartPos": 0,
+			"SlopeEndPos": 1,
+			"SlopeStartStrength": 1,
+			"SlopeEndStrength": 1,
+			"FeedbackPosition": 0,
+			"FeedbackStrength": 0,
+			"WeaponStartPos": 2,
+			"WeaponEndPos": 3,
+			"WeaponStrength": 0,
+			"VibrationPosition": 0,
+			"VibrationAmplitude": 0,
+			"VibrationFrequency": 0,
+			"MultiPosFBStrengths": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"MultiPosVibeFrequency": 6,
+			"MultiPosVibeAmplitudes": [
+				{
+					"Value": 4
+				},
+				{
+					"Value": 4
+				},
+				{
+					"Value": 4
+				},
+				{
+					"Value": 4
+				},
+				{
+					"Value": 4
+				},
+				{
+					"Value": 4
+				},
+				{
+					"Value": 4
+				},
+				{
+					"Value": 4
+				},
+				{
+					"Value": 4
+				},
+				{
+					"Value": 3
+				}
+			],
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CrossBowSingle",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.Crossbow"
+		},
+		"PrimaryHandProfile":
+		{
+			"ProfileType": "SlopeFeedback",
+			"SlopeStartPos": 0,
+			"SlopeEndPos": 3,
+			"SlopeStartStrength": 8,
+			"SlopeEndStrength": 5,
+			"FeedbackPosition": 0,
+			"FeedbackStrength": 0,
+			"WeaponStartPos": 2,
+			"WeaponEndPos": 3,
+			"WeaponStrength": 0,
+			"VibrationPosition": 3,
+			"VibrationAmplitude": 4,
+			"VibrationFrequency": 10,
+			"MultiPosFBStrengths": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"MultiPosVibeFrequency": 0,
+			"MultiPosVibeAmplitudes": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"Priority": 2
+		}
+	},
+	{
+		"Name": "CrossBowHeld",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.Crossbow.Held"
+		},
+		"PrimaryHandProfile":
+		{
+			"ProfileType": "Vibration",
+			"SlopeStartPos": 0,
+			"SlopeEndPos": 1,
+			"SlopeStartStrength": 1,
+			"SlopeEndStrength": 1,
+			"FeedbackPosition": 0,
+			"FeedbackStrength": 0,
+			"WeaponStartPos": 2,
+			"WeaponEndPos": 3,
+			"WeaponStrength": 0,
+			"VibrationPosition": 0,
+			"VibrationAmplitude": 8,
+			"VibrationFrequency": 2,
+			"MultiPosFBStrengths": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"MultiPosVibeFrequency": 2,
+			"MultiPosVibeAmplitudes": [
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 6
+				}
+			],
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "Firework",
+		"TypeTag":
+		{
+			"TagName": "SW.Projectile.Type.Firework"
+		},
+		"PrimaryHandProfile":
+		{
+			"ProfileType": "SlopeFeedback",
+			"SlopeStartPos": 3,
+			"SlopeEndPos": 7,
+			"SlopeStartStrength": 8,
+			"SlopeEndStrength": 8,
+			"FeedbackPosition": 0,
+			"FeedbackStrength": 0,
+			"WeaponStartPos": 2,
+			"WeaponEndPos": 3,
+			"WeaponStrength": 0,
+			"VibrationPosition": 0,
+			"VibrationAmplitude": 0,
+			"VibrationFrequency": 0,
+			"MultiPosFBStrengths": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"MultiPosVibeFrequency": 0,
+			"MultiPosVibeAmplitudes": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "Quiver",
+		"TypeTag":
+		{
+			"TagName": "SW.AdaptiveTriggers.Quiver"
+		},
+		"PrimaryHandProfile":
+		{
+			"ProfileType": "SlopeFeedback",
+			"SlopeStartPos": 6,
+			"SlopeEndPos": 9,
+			"SlopeStartStrength": 7,
+			"SlopeEndStrength": 2,
+			"FeedbackPosition": 6,
+			"FeedbackStrength": 8,
+			"WeaponStartPos": 2,
+			"WeaponEndPos": 3,
+			"WeaponStrength": 0,
+			"VibrationPosition": 0,
+			"VibrationAmplitude": 0,
+			"VibrationFrequency": 0,
+			"MultiPosFBStrengths": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"MultiPosVibeFrequency": 0,
+			"MultiPosVibeAmplitudes": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"Priority": 8
+		}
+	},
+	{
+		"Name": "TNT",
+		"TypeTag":
+		{
+			"TagName": "SW.AdaptiveTriggers.TNT"
+		},
+		"PrimaryHandProfile":
+		{
+			"ProfileType": "Weapon",
+			"SlopeStartPos": 0,
+			"SlopeEndPos": 1,
+			"SlopeStartStrength": 1,
+			"SlopeEndStrength": 1,
+			"FeedbackPosition": 0,
+			"FeedbackStrength": 0,
+			"WeaponStartPos": 2,
+			"WeaponEndPos": 6,
+			"WeaponStrength": 8,
+			"VibrationPosition": 0,
+			"VibrationAmplitude": 0,
+			"VibrationFrequency": 0,
+			"MultiPosFBStrengths": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"MultiPosVibeFrequency": 0,
+			"MultiPosVibeAmplitudes": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "GreatBow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Greatbow"
+		},
+		"PrimaryHandProfile":
+		{
+			"ProfileType": "SlopeFeedback",
+			"SlopeStartPos": 0,
+			"SlopeEndPos": 7,
+			"SlopeStartStrength": 8,
+			"SlopeEndStrength": 8,
+			"FeedbackPosition": 0,
+			"FeedbackStrength": 2,
+			"WeaponStartPos": 4,
+			"WeaponEndPos": 6,
+			"WeaponStrength": 6,
+			"VibrationPosition": 0,
+			"VibrationAmplitude": 0,
+			"VibrationFrequency": 0,
+			"MultiPosFBStrengths": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"MultiPosVibeFrequency": 0,
+			"MultiPosVibeAmplitudes": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "GreatBow_Unique",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Greatbow_Unique1"
+		},
+		"PrimaryHandProfile":
+		{
+			"ProfileType": "SlopeFeedback",
+			"SlopeStartPos": 0,
+			"SlopeEndPos": 7,
+			"SlopeStartStrength": 8,
+			"SlopeEndStrength": 8,
+			"FeedbackPosition": 0,
+			"FeedbackStrength": 2,
+			"WeaponStartPos": 4,
+			"WeaponEndPos": 6,
+			"WeaponStrength": 6,
+			"VibrationPosition": 0,
+			"VibrationAmplitude": 0,
+			"VibrationFrequency": 0,
+			"MultiPosFBStrengths": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"MultiPosVibeFrequency": 0,
+			"MultiPosVibeAmplitudes": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "TrickBow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Trickbow"
+		},
+		"PrimaryHandProfile":
+		{
+			"ProfileType": "Vibration",
+			"SlopeStartPos": 0,
+			"SlopeEndPos": 1,
+			"SlopeStartStrength": 1,
+			"SlopeEndStrength": 1,
+			"FeedbackPosition": 0,
+			"FeedbackStrength": 4,
+			"WeaponStartPos": 4,
+			"WeaponEndPos": 6,
+			"WeaponStrength": 6,
+			"VibrationPosition": 0,
+			"VibrationAmplitude": 8,
+			"VibrationFrequency": 12,
+			"MultiPosFBStrengths": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"MultiPosVibeFrequency": 25,
+			"MultiPosVibeAmplitudes": [
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 0
+				}
+			],
+			"Priority": 2
+		}
+	},
+	{
+		"Name": "TrickBow_Unique",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Trickbow_Unique1"
+		},
+		"PrimaryHandProfile":
+		{
+			"ProfileType": "Vibration",
+			"SlopeStartPos": 0,
+			"SlopeEndPos": 1,
+			"SlopeStartStrength": 1,
+			"SlopeEndStrength": 1,
+			"FeedbackPosition": 0,
+			"FeedbackStrength": 4,
+			"WeaponStartPos": 4,
+			"WeaponEndPos": 6,
+			"WeaponStrength": 6,
+			"VibrationPosition": 0,
+			"VibrationAmplitude": 8,
+			"VibrationFrequency": 12,
+			"MultiPosFBStrengths": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"MultiPosVibeFrequency": 25,
+			"MultiPosVibeAmplitudes": [
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 0
+				}
+			],
+			"Priority": 2
+		}
+	},
+	{
+		"Name": "HarpCrossBow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.ScatterCrossbow_Unique1"
+		},
+		"PrimaryHandProfile":
+		{
+			"ProfileType": "MultiPositionFeedback",
+			"SlopeStartPos": 0,
+			"SlopeEndPos": 1,
+			"SlopeStartStrength": 1,
+			"SlopeEndStrength": 1,
+			"FeedbackPosition": 0,
+			"FeedbackStrength": 4,
+			"WeaponStartPos": 4,
+			"WeaponEndPos": 6,
+			"WeaponStrength": 6,
+			"VibrationPosition": 0,
+			"VibrationAmplitude": 8,
+			"VibrationFrequency": 12,
+			"MultiPosFBStrengths": [
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 8
+				}
+			],
+			"MultiPosVibeFrequency": 50,
+			"MultiPosVibeAmplitudes": [
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 8
+				},
+				{
+					"Value": 0
+				}
+			],
+			"Priority": 2
+		}
+	},
+	{
+		"Name": "HeavyCrossbow_Held",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.HeavyCrossbow.Held"
+		},
+		"PrimaryHandProfile":
+		{
+			"ProfileType": "Vibration",
+			"SlopeStartPos": 0,
+			"SlopeEndPos": 1,
+			"SlopeStartStrength": 1,
+			"SlopeEndStrength": 1,
+			"FeedbackPosition": 0,
+			"FeedbackStrength": 0,
+			"WeaponStartPos": 2,
+			"WeaponEndPos": 3,
+			"WeaponStrength": 0,
+			"VibrationPosition": 0,
+			"VibrationAmplitude": 8,
+			"VibrationFrequency": 1,
+			"MultiPosFBStrengths": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"MultiPosVibeFrequency": 1,
+			"MultiPosVibeAmplitudes": [
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 5
+				}
+			],
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "HeavyCrossbow_Unique_Held",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.HeavyCrossbow_Unique1.Held"
+		},
+		"PrimaryHandProfile":
+		{
+			"ProfileType": "Vibration",
+			"SlopeStartPos": 0,
+			"SlopeEndPos": 1,
+			"SlopeStartStrength": 1,
+			"SlopeEndStrength": 1,
+			"FeedbackPosition": 0,
+			"FeedbackStrength": 0,
+			"WeaponStartPos": 2,
+			"WeaponEndPos": 3,
+			"WeaponStrength": 0,
+			"VibrationPosition": 0,
+			"VibrationAmplitude": 8,
+			"VibrationFrequency": 1,
+			"MultiPosFBStrengths": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"MultiPosVibeFrequency": 1,
+			"MultiPosVibeAmplitudes": [
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 5
+				}
+			],
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "ScatterCrossbow_Held",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.ScatterCrossbow.Held"
+		},
+		"PrimaryHandProfile":
+		{
+			"ProfileType": "Vibration",
+			"SlopeStartPos": 0,
+			"SlopeEndPos": 1,
+			"SlopeStartStrength": 1,
+			"SlopeEndStrength": 1,
+			"FeedbackPosition": 0,
+			"FeedbackStrength": 0,
+			"WeaponStartPos": 2,
+			"WeaponEndPos": 3,
+			"WeaponStrength": 0,
+			"VibrationPosition": 0,
+			"VibrationAmplitude": 8,
+			"VibrationFrequency": 3,
+			"MultiPosFBStrengths": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"MultiPosVibeFrequency": 1,
+			"MultiPosVibeAmplitudes": [
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 5
+				}
+			],
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "ScatterCrossbow_Unique_Held",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.ScatterCrossbow_Unique1.Held"
+		},
+		"PrimaryHandProfile":
+		{
+			"ProfileType": "Vibration",
+			"SlopeStartPos": 0,
+			"SlopeEndPos": 1,
+			"SlopeStartStrength": 1,
+			"SlopeEndStrength": 1,
+			"FeedbackPosition": 0,
+			"FeedbackStrength": 0,
+			"WeaponStartPos": 2,
+			"WeaponEndPos": 3,
+			"WeaponStrength": 0,
+			"VibrationPosition": 0,
+			"VibrationAmplitude": 8,
+			"VibrationFrequency": 3,
+			"MultiPosFBStrengths": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"MultiPosVibeFrequency": 1,
+			"MultiPosVibeAmplitudes": [
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 5
+				}
+			],
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "DualCrossbow_Held",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.DualCrossbow.Held"
+		},
+		"PrimaryHandProfile":
+		{
+			"ProfileType": "Vibration",
+			"SlopeStartPos": 0,
+			"SlopeEndPos": 1,
+			"SlopeStartStrength": 1,
+			"SlopeEndStrength": 1,
+			"FeedbackPosition": 0,
+			"FeedbackStrength": 0,
+			"WeaponStartPos": 2,
+			"WeaponEndPos": 3,
+			"WeaponStrength": 0,
+			"VibrationPosition": 0,
+			"VibrationAmplitude": 8,
+			"VibrationFrequency": 3,
+			"MultiPosFBStrengths": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"MultiPosVibeFrequency": 1,
+			"MultiPosVibeAmplitudes": [
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 5
+				}
+			],
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "DualCrossbow_Unique_Held",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.DualCrossbow_Unique1.Held"
+		},
+		"PrimaryHandProfile":
+		{
+			"ProfileType": "Vibration",
+			"SlopeStartPos": 0,
+			"SlopeEndPos": 1,
+			"SlopeStartStrength": 1,
+			"SlopeEndStrength": 1,
+			"FeedbackPosition": 0,
+			"FeedbackStrength": 0,
+			"WeaponStartPos": 2,
+			"WeaponEndPos": 3,
+			"WeaponStrength": 0,
+			"VibrationPosition": 0,
+			"VibrationAmplitude": 8,
+			"VibrationFrequency": 3,
+			"MultiPosFBStrengths": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"MultiPosVibeFrequency": 1,
+			"MultiPosVibeAmplitudes": [
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 5
+				}
+			],
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "RapidCrossbow_Held",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.RapidCrossbow.Held"
+		},
+		"PrimaryHandProfile":
+		{
+			"ProfileType": "Vibration",
+			"SlopeStartPos": 0,
+			"SlopeEndPos": 1,
+			"SlopeStartStrength": 1,
+			"SlopeEndStrength": 1,
+			"FeedbackPosition": 0,
+			"FeedbackStrength": 0,
+			"WeaponStartPos": 2,
+			"WeaponEndPos": 3,
+			"WeaponStrength": 0,
+			"VibrationPosition": 0,
+			"VibrationAmplitude": 8,
+			"VibrationFrequency": 5,
+			"MultiPosFBStrengths": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"MultiPosVibeFrequency": 1,
+			"MultiPosVibeAmplitudes": [
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 5
+				}
+			],
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "RapidCrossbow_Unique_Held",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.RapidCrossbow_Unique1.Held"
+		},
+		"PrimaryHandProfile":
+		{
+			"ProfileType": "Vibration",
+			"SlopeStartPos": 0,
+			"SlopeEndPos": 1,
+			"SlopeStartStrength": 1,
+			"SlopeEndStrength": 1,
+			"FeedbackPosition": 0,
+			"FeedbackStrength": 0,
+			"WeaponStartPos": 2,
+			"WeaponEndPos": 3,
+			"WeaponStrength": 0,
+			"VibrationPosition": 0,
+			"VibrationAmplitude": 8,
+			"VibrationFrequency": 5,
+			"MultiPosFBStrengths": [
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				},
+				{
+					"Value": 0
+				}
+			],
+			"MultiPosVibeFrequency": 1,
+			"MultiPosVibeAmplitudes": [
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 6
+				},
+				{
+					"Value": 5
+				}
+			],
+			"Priority": 0
+		}
+	}
+]

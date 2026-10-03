@@ -1,0 +1,34 @@
+[
+	{
+		"Name": "Overload",
+		"TypeTag":
+		{
+			"TagName": "SW.Status.Overload"
+		},
+		"FusionDefinitions":
+		{
+			"PossibleFusions": [
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Status.Burning"
+						},
+						{
+							"TagName": "SW.Status.Conductive"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Status"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			],
+			"bIsNegativeFusion": true,
+			"StatusImmunityDuration": 2.3
+		}
+	}
+]

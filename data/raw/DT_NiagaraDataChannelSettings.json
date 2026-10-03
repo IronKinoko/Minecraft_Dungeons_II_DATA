@@ -1,0 +1,212 @@
+[
+	{
+		"Name": "StepDust",
+		"TypeTag":
+		{
+			"TagName": "SW.NDC.StepDust"
+		},
+		"NiagaraDataChannelSettings":
+		{
+			"NiagaraDataChannelAsset": "/Game/Spicewood/FX/Smoke/CharacterDust/NDC_Step_Dust.NDC_Step_Dust",
+			"NiagaraSystem": "/Game/Spicewood/FX/Smoke/CharacterDust/NS_Step_Dust_NDC_2.NS_Step_Dust_NDC_2",
+			"bVisibleToCPUSims": true,
+			"bVisibleToGPUSims": false,
+			"LegacySystemToReplace": "/Game/Spicewood/FX/Smoke/CharacterDust/NS_Step_Dust.NS_Step_Dust"
+		}
+	},
+	{
+		"Name": "DamageDealt",
+		"TypeTag":
+		{
+			"TagName": "SW.NDC.DamageDealt"
+		},
+		"NiagaraDataChannelSettings":
+		{
+			"NiagaraDataChannelAsset": "/Game/Spicewood/Cues/UI/NDC_DamageNumber.NDC_DamageNumber",
+			"NiagaraSystem": "/Game/Spicewood/Cues/UI/NS_DamageNumber_NDC.NS_DamageNumber_NDC",
+			"bVisibleToCPUSims": true,
+			"bVisibleToGPUSims": false,
+			"LegacySystemToReplace": "None"
+		}
+	},
+	{
+		"Name": "Hit_Generic",
+		"TypeTag":
+		{
+			"TagName": "SW.NDC.HitGeneric"
+		},
+		"NiagaraDataChannelSettings":
+		{
+			"NiagaraDataChannelAsset": "/Game/Spicewood/FX/Combat/HitSparks/NDC_Hit_Generic.NDC_Hit_Generic",
+			"NiagaraSystem": "/Game/Spicewood/FX/Combat/HitSparks/NS_Hit_Generic_NDC.NS_Hit_Generic_NDC",
+			"bVisibleToCPUSims": true,
+			"bVisibleToGPUSims": false,
+			"LegacySystemToReplace": "None"
+		}
+	},
+	{
+		"Name": "StaggerHit",
+		"TypeTag":
+		{
+			"TagName": "SW.NDC.StaggerHit"
+		},
+		"NiagaraDataChannelSettings":
+		{
+			"NiagaraDataChannelAsset": "/Game/Spicewood/FX/Combat/HitSparks/NDC_StaggerImpact.NDC_StaggerImpact",
+			"NiagaraSystem": "/Game/Spicewood/FX/Combat/HitSparks/NS_StaggerImpact.NS_StaggerImpact",
+			"bVisibleToCPUSims": true,
+			"bVisibleToGPUSims": false,
+			"LegacySystemToReplace": "None"
+		}
+	},
+	{
+		"Name": "StaggerDizzy",
+		"TypeTag":
+		{
+			"TagName": "SW.NDC.StaggerDizzy"
+		},
+		"NiagaraDataChannelSettings":
+		{
+			"NiagaraDataChannelAsset": "/Game/Spicewood/FX/Status/NDC_StunStatus_Start.NDC_StunStatus_Start",
+			"NiagaraSystem": "/Game/Spicewood/FX/Status/NS_StunStatus_Start.NS_StunStatus_Start",
+			"bVisibleToCPUSims": true,
+			"bVisibleToGPUSims": false,
+			"LegacySystemToReplace": "None"
+		}
+	},
+	{
+		"Name": "ArrowTrailBasic",
+		"TypeTag":
+		{
+			"TagName": "SW.NDC.ArrowTrail.Generic"
+		},
+		"NiagaraDataChannelSettings":
+		{
+			"NiagaraDataChannelAsset": "/Game/Spicewood/FX/Combat/Projectiles/NDC_ArrowTrail.NDC_ArrowTrail",
+			"NiagaraSystem": "/Game/Spicewood/FX/Combat/Projectiles/NS_NDC_ArrowTrail.NS_NDC_ArrowTrail",
+			"bVisibleToCPUSims": true,
+			"bVisibleToGPUSims": false,
+			"LegacySystemToReplace": "None"
+		}
+	},
+	{
+		"Name": "ArrowHitGeneric",
+		"TypeTag":
+		{
+			"TagName": "SW.NDC.ArrowHit.Generic"
+		},
+		"NiagaraDataChannelSettings":
+		{
+			"NiagaraDataChannelAsset": "/Game/Spicewood/FX/Combat/Projectiles/NDC_ArrowHit_Generic.NDC_ArrowHit_Generic",
+			"NiagaraSystem": "/Game/Spicewood/FX/Combat/Projectiles/NS_NDC_ArrowHit_Generic.NS_NDC_ArrowHit_Generic",
+			"bVisibleToCPUSims": true,
+			"bVisibleToGPUSims": false,
+			"LegacySystemToReplace": "None"
+		}
+	},
+	{
+		"Name": "CurrencyGlitter",
+		"TypeTag":
+		{
+			"TagName": "SW.NDC.CurrencyGlitter"
+		},
+		"NiagaraDataChannelSettings":
+		{
+			"NiagaraDataChannelAsset": "/Game/Spicewood/Art/Interactables/Currencies/NDC_CurrencyGlitter.NDC_CurrencyGlitter",
+			"NiagaraSystem": "/Game/Spicewood/Art/Interactables/Currencies/NS_NDC_CurrencyGlitter.NS_NDC_CurrencyGlitter",
+			"bVisibleToCPUSims": true,
+			"bVisibleToGPUSims": false,
+			"LegacySystemToReplace": "None"
+		}
+	},
+	{
+		"Name": "Debris_Fang",
+		"TypeTag":
+		{
+			"TagName": "SW.NDC.Debris.Fang"
+		},
+		"NiagaraDataChannelSettings":
+		{
+			"NiagaraDataChannelAsset": "/Game/Spicewood/Art/Characters/Enemies/Illagers/Evoker/FangTrap/NDC_Debris_Fang.NDC_Debris_Fang",
+			"NiagaraSystem": "/Game/Spicewood/Art/Characters/Enemies/Illagers/Evoker/FangTrap/NS_Dust-Impact-Fang.NS_Dust-Impact-Fang",
+			"bVisibleToCPUSims": true,
+			"bVisibleToGPUSims": false,
+			"LegacySystemToReplace": "None"
+		}
+	},
+	{
+		"Name": "OrbStorm_Trail",
+		"TypeTag":
+		{
+			"TagName": "SW.NDC.ArrowTrail.OrbStorm"
+		},
+		"NiagaraDataChannelSettings":
+		{
+			"NiagaraDataChannelAsset": "/Game/Spicewood/Art/Characters/Enemies/Bosses/Soul_Construct/VFX/OrbStorm/NDC_OrbStorm_Trail.NDC_OrbStorm_Trail",
+			"NiagaraSystem": "/Game/Spicewood/Art/Characters/Enemies/Bosses/Soul_Construct/VFX/OrbStorm/NS_OrbStorm_Trail.NS_OrbStorm_Trail",
+			"bVisibleToCPUSims": true,
+			"bVisibleToGPUSims": false,
+			"LegacySystemToReplace": "None"
+		}
+	},
+	{
+		"Name": "OrbStorm_Hit",
+		"TypeTag":
+		{
+			"TagName": "SW.NDC.ArrowHit.OrbStorm"
+		},
+		"NiagaraDataChannelSettings":
+		{
+			"NiagaraDataChannelAsset": "/Game/Spicewood/Art/Characters/Enemies/Bosses/Soul_Construct/VFX/OrbStorm/NDC_OrbStorm_Hit.NDC_OrbStorm_Hit",
+			"NiagaraSystem": "/Game/Spicewood/Art/Characters/Enemies/Bosses/Soul_Construct/VFX/OrbStorm/NS_OrbStorm_Hit.NS_OrbStorm_Hit",
+			"bVisibleToCPUSims": true,
+			"bVisibleToGPUSims": false,
+			"LegacySystemToReplace": "None"
+		}
+	},
+	{
+		"Name": "SonicBoom_Trail",
+		"TypeTag":
+		{
+			"TagName": "SW.NDC.SonicBoom.SoulPuke"
+		},
+		"NiagaraDataChannelSettings":
+		{
+			"NiagaraDataChannelAsset": "/Game/Spicewood/Art/Characters/Enemies/Bosses/Maw/VFX/SonicBoom/NDC_SonicBoom_Trail.NDC_SonicBoom_Trail",
+			"NiagaraSystem": "/Game/Spicewood/Art/Characters/Enemies/Bosses/Maw/VFX/SoulPukePuddle/NS_SoulPuke1x1.NS_SoulPuke1x1",
+			"bVisibleToCPUSims": true,
+			"bVisibleToGPUSims": false,
+			"LegacySystemToReplace": "None"
+		}
+	},
+	{
+		"Name": "Redstone_Core_Trail",
+		"TypeTag":
+		{
+			"TagName": "SW.NDC.ArrowTrail.Monstrosity.Redstone.Core"
+		},
+		"NiagaraDataChannelSettings":
+		{
+			"NiagaraDataChannelAsset": "/Game/Spicewood/Art/Characters/Enemies/Bosses/Monstrosities/Redstone/VFX/NDC_Monstrosity_Redstone_Node_Projectile_Trail.NDC_Monstrosity_Redstone_Node_Projectile_Trail",
+			"NiagaraSystem": "/Game/Spicewood/Art/Characters/Enemies/Bosses/Monstrosities/Redstone/VFX/NS_Monstrosity_Node_Projectile_NDC.NS_Monstrosity_Node_Projectile_NDC",
+			"bVisibleToCPUSims": true,
+			"bVisibleToGPUSims": false,
+			"LegacySystemToReplace": "None"
+		}
+	},
+	{
+		"Name": "Redstone_Core_Trail_0",
+		"TypeTag":
+		{
+			"TagName": "SW.NDC.ArrowHit.Monstrosity.Redstone.Core"
+		},
+		"NiagaraDataChannelSettings":
+		{
+			"NiagaraDataChannelAsset": "/Game/Spicewood/Art/Characters/Enemies/Bosses/Monstrosities/Redstone/VFX/NDC_Monstrosity_Redstone_Node_Projectile_Hit.NDC_Monstrosity_Redstone_Node_Projectile_Hit",
+			"NiagaraSystem": "/Game/Spicewood/Art/Characters/Enemies/Bosses/Monstrosities/Redstone/VFX/NS_Monstrosity_RedStone_ProjectileExplosion_NDC.NS_Monstrosity_RedStone_ProjectileExplosion_NDC",
+			"bVisibleToCPUSims": true,
+			"bVisibleToGPUSims": false,
+			"LegacySystemToReplace": "None"
+		}
+	}
+]

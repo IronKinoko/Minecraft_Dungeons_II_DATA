@@ -1,0 +1,728 @@
+[
+	{
+		"Name": "CA05_OasisWoodcutter",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA05.Woodcutter.Oasis.01"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA05_OasisWoodcutter_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Thanks.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA05/CA05_DIA/dia_CA05_OasisWoodcutter/dia_CA05_OasisWoodcutter_Line_00_Play.dia_CA05_OasisWoodcutter_Line_00_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA05_OasisWoodcutter_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Talking.Villager.Sneaky"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA05/CA05_DIA/dia_CA05_OasisWoodcutter/dia_CA05_OasisWoodcutter_Line_01_Play.dia_CA05_OasisWoodcutter_Line_01_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA05_OasisWoodcutter_Dialogue1_Paragraph3\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA05/CA05_DIA/dia_CA05_OasisWoodcutter/dia_CA05_OasisWoodcutter_Line_02_Play.dia_CA05_OasisWoodcutter_Line_02_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA05"
+		}
+	},
+	{
+		"Name": "CA07_QuestGiver",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA07.QuestGiver.01"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA07_QuestGiver_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Talking.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA07/CA07_DIA/dia_CA07_PLa2_questGiver/dia_CA07_PLa2_questGiver_Line_00_activate.dia_CA07_PLa2_questGiver_Line_00_activate"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA07"
+		}
+	},
+	{
+		"Name": "CA07_QuestGiver02",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA07.QuestGiver02.01"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "NSLOCTEXT(\"[E4E0E04713B4A184EF03368CCF589728]\", \"52E02B8F47F722A859B52DB77B71F122\", \"The <emphasis>Cartographer</> is concerned that you want to cross the <emphasis>Rainy Plains</>.\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA07/CA07_Dia/dia_CA07_PLa2_questGiver02/dia_CA07_PLa2_questGiver02_Line_00_activate.dia_CA07_PLa2_questGiver02_Line_00_activate"
+				}
+			],
+			"DisplayInQuestJournal": false,
+			"QuestOrTaskId": ""
+		}
+	},
+	{
+		"Name": "CA07_Interact02",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA07.Interact02.01"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA07_Interact01_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Excited.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA07/CA07_DIA/dia_CA07_PLa2_interact02/dia_CA07_PLa2_interact02_Line_00_activate.dia_CA07_PLa2_interact02_Line_00_activate"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA07_Interact01_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.PointL.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA07/CA07_DIA/dia_CA07_PLa2_interact02/dia_CA07_PLa2_interact02_Line_01_activate.dia_CA07_PLa2_interact02_Line_01_activate"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA07_I12"
+		}
+	},
+	{
+		"Name": "CA07_OverlookVillager01",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA07.OverlookVillager.01"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA07_OverlookVillager_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA07/CA07_DIA/dia_CA07_PLa2_overlookVillager01/dia_CA07_PLa2_overlookVillager01_Line_00_activate.dia_CA07_PLa2_overlookVillager01_Line_00_activate"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA07_OverlookVillager_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA07/CA07_DIA/dia_CA07_PLa2_overlookVillager01/dia_CA07_PLa2_overlookVillager01_Line_01_activate.dia_CA07_PLa2_overlookVillager01_Line_01_activate"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA07_OverlookVillager_Dialogue1_Paragraph3\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA07/CA07_DIA/dia_CA07_PLa2_overlookVillager01/dia_CA07_PLa2_overlookVillager01_Line_02_activate.dia_CA07_PLa2_overlookVillager01_Line_02_activate"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA07_I02"
+		}
+	},
+	{
+		"Name": "CA07_CrossroadsVillager01",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA07.CrossroadsVillager.01"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA07_CrossRoadsVillager_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Relieved.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA07/CA07_Dia/dia_CA07_PLa2_crossroadsVillager01/dia_CA07_PLa2_crossroadsVillager01_Line_00_activate.dia_CA07_PLa2_crossroadsVillager01_Line_00_activate"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA07_CrossRoadsVillager_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Talking.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA07/CA07_Dia/dia_CA07_PLa2_crossroadsVillager01/dia_CA07_PLa2_crossroadsVillager01_Line_01_activate.dia_CA07_PLa2_crossroadsVillager01_Line_01_activate"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA07_CrossRoadsVillager_Dialogue1_Paragraph3\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Talking.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA07/CA07_Dia/dia_CA07_PLa2_crossroadsVillager01/dia_CA07_PLa2_crossroadsVillager01_Line_02_activate.dia_CA07_PLa2_crossroadsVillager01_Line_02_activate"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA07_CrossRoadsVillager_Dialogue1_Paragraph4\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Talking.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA07/CA07_Dia/dia_CA07_PLa2_crossroadsVillager01/dia_CA07_PLa2_crossroadsVillager01_Line_03_activate.dia_CA07_PLa2_crossroadsVillager01_Line_03_activate"
+				}
+			],
+			"DisplayInQuestJournal": false,
+			"QuestOrTaskId": ""
+		}
+	},
+	{
+		"Name": "CA07_CrossroadsVillager02",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA07.CrossroadsVillager.02"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA07_CrossRoadsVillager_Dialogue2_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Relieved.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA07/CA07_Dia/dia_CA07_PLa2_crossroadsVillager02/dia_CA07_PLa2_crossroadsVillager02_Line_00_activate.dia_CA07_PLa2_crossroadsVillager02_Line_00_activate"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA07_CrossRoadsVillager_Dialogue2_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Talking.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA07/CA07_Dia/dia_CA07_PLa2_crossroadsVillager02/dia_CA07_PLa2_crossroadsVillager02_Line_01_activate.dia_CA07_PLa2_crossroadsVillager02_Line_01_activate"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA07_CrossRoadsVillager_Dialogue2_Paragraph3\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Talking.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA07/CA07_Dia/dia_CA07_PLa2_crossroadsVillager02/dia_CA07_PLa2_crossroadsVillager02_Line_02_activate.dia_CA07_PLa2_crossroadsVillager02_Line_02_activate"
+				}
+			],
+			"DisplayInQuestJournal": false,
+			"QuestOrTaskId": ""
+		}
+	},
+	{
+		"Name": "CA07_CapturedVillager03",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA07.CapturedVillager.03"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA07_CapturedVillager03_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.LookUp.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA07/CA07_DIA/dia_CA07_PLa2_capturedvillager03/dia_CA07_PLa2_capturedvillager03_Line_00_activate.dia_CA07_PLa2_capturedvillager03_Line_00_activate"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA07_I15"
+		}
+	},
+	{
+		"Name": "CA07_ReturnVillager01",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA07.ReturnVillager.01"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA07_ReturnToOasis_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Thanks.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA07/CA07_DIA/dia_CA07_ReturnVillager01/dia_CA07_ReturnVillager01_Line_00_Play.dia_CA07_ReturnVillager01_Line_00_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA07_ReturnToOasis_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Talking.Villager.Sneaky"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA07/CA07_DIA/dia_CA07_ReturnVillager01/dia_CA07_ReturnVillager01_Line_01_Play.dia_CA07_ReturnVillager01_Line_01_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA07_ReturnToOasis_Dialogue1_Paragraph3\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Wave.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA07/CA07_DIA/dia_CA07_ReturnVillager01/dia_CA07_ReturnVillager01_Line_02_Play.dia_CA07_ReturnVillager01_Line_02_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA07_I16"
+		}
+	},
+	{
+		"Name": "CA07_CentralDeposit_01",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CA07.CentralDeposit.01"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA07_CentralDeposit01_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "None"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA07_I19"
+		}
+	},
+	{
+		"Name": "PLa2_S15_A_QuestGiver01",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.PLa2.S15.A.QuestGiver01"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_PlainsA2.csv\", \"PLa2_S15_A_QuestGiver_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa2/S15_PLa2/S15_PLa2_DIA/dia_S15_A_PLa2_QuestGiver01/dia_S15_A_PLa2_QuestGiver01_Line_00_Play.dia_S15_A_PLa2_QuestGiver01_Line_00_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_PlainsA2.csv\", \"PLa2_S15_A_QuestGiver_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa2/S15_PLa2/S15_PLa2_DIA/dia_S15_A_PLa2_QuestGiver01/dia_S15_A_PLa2_QuestGiver01_Line_01_Play.dia_S15_A_PLa2_QuestGiver01_Line_01_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "PLa2_S15_A"
+		}
+	},
+	{
+		"Name": "PLa2_S15_A_QuestGiverReturn01",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.PLa2.S15.A.QuestGiverReturn01"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_PlainsA2.csv\", \"PLa2_S15_A_QuestGiver_Dialogue2_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa2/S15_PLa2/S15_PLa2_DIA/dia_S15_A_PLa2_QuestGiverReturn01/dia_S15_A_PLa2_QuestGiverReturn01_Line_00_Play.dia_S15_A_PLa2_QuestGiverReturn01_Line_00_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_PlainsA2.csv\", \"PLa2_S15_A_QuestGiver_Dialogue2_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa2/S15_PLa2/S15_PLa2_DIA/dia_S15_A_PLa2_QuestGiverReturn01/dia_S15_A_PLa2_QuestGiverReturn01_Line_01_Play.dia_S15_A_PLa2_QuestGiverReturn01_Line_01_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "PLa2_S15_A_I05"
+		}
+	},
+	{
+		"Name": "PLa2_S15_A_CopperBarrel01",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.PLa2.S15.A.CopperBarrel01"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_PlainsA2.csv\", \"PLa2_S15_A_CopperBarrel01_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa2/S15_PLa2/S15_PLa2_DIA/dia_S15_A_PLa2_CopperBarrel01/dia_S15_A_PLa2_CopperBarrel01_Line_00_Play.dia_S15_A_PLa2_CopperBarrel01_Line_00_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "PLa2_S15_A_I01"
+		}
+	},
+	{
+		"Name": "PLa2_S15_A_CopperBarrel02",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.PLa2.S15.A.CopperBarrel02"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_PlainsA2.csv\", \"PLa2_S15_A_CopperBarrel02_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa2/S15_PLa2/S15_PLa2_DIA/dia_S15_A_PLa2_CopperBarrel01/dia_S15_A_PLa2_CopperBarrel02_Line_00_Play.dia_S15_A_PLa2_CopperBarrel02_Line_00_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_PlainsA2.csv\", \"PLa2_S15_A_CopperBarrel02_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa2/S15_PLa2/S15_PLa2_DIA/dia_S15_A_PLa2_CopperBarrel01/dia_S15_A_PLa2_CopperBarrel02_Line_01_Play.dia_S15_A_PLa2_CopperBarrel02_Line_01_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "PLa2_S15_A_I02"
+		}
+	},
+	{
+		"Name": "PLa2_S15_A_CopperBarrel03",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.PLa2.S15.A.CopperBarrel03"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_PlainsA2.csv\", \"PLa2_S15_A_CopperBarrel03_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa2/S15_PLa2/S15_PLa2_DIA/dia_S15_A_PLa2_CopperBarrel01/dia_S15_A_PLa2_CopperBarrel03_Line_00_Play.dia_S15_A_PLa2_CopperBarrel03_Line_00_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "PLa2_S15_A_I04"
+		}
+	},
+	{
+		"Name": "PLa2_S16_A_QuestGiver01",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.PLa2.S16.A.QuestGiver01"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_PlainsA2.csv\", \"PLa2_S16_A_QuestGiver_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa2/S16_PLa2/S16_PLa2_DIA/dia_S16_A_PLa2_QuestGiver01/dia_S16_A_PLa2_QuestGiver01_Line_00_Play.dia_S16_A_PLa2_QuestGiver01_Line_00_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_PlainsA2.csv\", \"PLa2_S16_A_QuestGiver_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa2/S16_PLa2/S16_PLa2_DIA/dia_S16_A_PLa2_QuestGiver01/dia_S16_A_PLa2_QuestGiver01_Line_01_Play.dia_S16_A_PLa2_QuestGiver01_Line_01_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "PLa2_S16_A"
+		}
+	},
+	{
+		"Name": "PLa2_S16_A_QuestGiver02",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.PLa2.S16.A.QuestGiver02"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_PlainsA2.csv\", \"PLa2_S16_A_QuestGiver_Dialogue2_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Scared.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa2/S16_PLa2/S16_PLa2_DIA/dia_S16_A_PLa2_QuestGiver02/dia_S16_A_PLa2_QuestGiver02_Line_00_Play.dia_S16_A_PLa2_QuestGiver02_Line_00_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_PlainsA2.csv\", \"PLa2_S16_A_QuestGiver_Dialogue2_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa2/S16_PLa2/S16_PLa2_DIA/dia_S16_A_PLa2_QuestGiver02/dia_S16_A_PLa2_QuestGiver02_Line_01_Play.dia_S16_A_PLa2_QuestGiver02_Line_01_Play"
+				}
+			],
+			"DisplayInQuestJournal": false,
+			"QuestOrTaskId": ""
+		}
+	},
+	{
+		"Name": "PLa2_S16_A_QuestGiver03",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.PLa2.S16.A.QuestGiver03"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_PlainsA2.csv\", \"PLa2_S16_A_QuestGiver_Dialogue3_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Excited.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa2/S16_PLa2/S16_PLa2_DIA/dia_S16_A_PLa2_QuestGiver03/dia_S16_A_PLa2_QuestGiver03_Line_00_Play.dia_S16_A_PLa2_QuestGiver03_Line_00_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "PLa2_S16_A_I04"
+		}
+	},
+	{
+		"Name": "PLa2_S16_A_QuestGiver04",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.PLa2.S16.A.QuestGiver04"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_PlainsA2.csv\", \"PLa2_S16_A_QuestGiver_Dialogue4_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Excited.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa2/S16_PLa2/S16_PLa2_DIA/dia_S16_A_PLa2_QuestGiver04/dia_S16_A_PLa2_QuestGiver04_Line_00_Play.dia_S16_A_PLa2_QuestGiver04_Line_00_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_PlainsA2.csv\", \"PLa2_S16_A_QuestGiver_Dialogue4_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Gifting.Villager"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa2/S16_PLa2/S16_PLa2_DIA/dia_S16_A_PLa2_QuestGiver04/dia_S16_A_PLa2_QuestGiver04_Line_01_Play.dia_S16_A_PLa2_QuestGiver04_Line_01_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "PLa2_S16_A_I05"
+		}
+	},
+	{
+		"Name": "PLa2_S17_A_QuestGiver01",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.PLa2.S17.A.QuestGiver01"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_PlainsA2.csv\", \"PLa2_S17_A_QuestGiver_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Talking.Villager.Sit"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa2/S17_PLa2/S17_PLa2_DIA/dia_S17_A_PLa2_QuestGiver01/dia_S17_A_PLa2_QuestGiver01_Line_00_Play.dia_S17_A_PLa2_QuestGiver01_Line_00_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_PlainsA2.csv\", \"PLa2_S17_A_QuestGiver_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Talking.Villager.Sit.Sneaky"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa2/S17_PLa2/S17_PLa2_DIA/dia_S17_A_PLa2_QuestGiver01/dia_S17_A_PLa2_QuestGiver01_Line_01_Play.dia_S17_A_PLa2_QuestGiver01_Line_01_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_PlainsA2.csv\", \"PLa2_S17_A_QuestGiver_Dialogue1_Paragraph3\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Talking.Villager.Sit"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa2/S17_PLa2/S17_PLa2_DIA/dia_S17_A_PLa2_QuestGiver01/dia_S17_A_PLa2_QuestGiver01_Line_02_Play.dia_S17_A_PLa2_QuestGiver01_Line_02_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "PLa2_S17_A"
+		}
+	},
+	{
+		"Name": "PLa2_S17_A_QuestGiver02",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.PLa2.S17.A.QuestGiver02"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_PlainsA2.csv\", \"PLa2_S17_A_QuestGiver_Dialogue2_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Talking.Villager.Sit"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa2/S17_PLa2/S17_PLa2_DIA/dia_S17_A_PLa2_QuestGiver02/dia_S17_A_PLa2_QuestGiver02_Line_00_Play.dia_S17_A_PLa2_QuestGiver02_Line_00_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "PLa2_S17_A_I02"
+		}
+	},
+	{
+		"Name": "PLa2_S17_A_InteractCage01",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.PLa2.S17.A.InteractCage01"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_PlainsA2.csv\", \"PLa2_S17_A_InteractCage_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "SW.NPC.Emotion.Talking.Villager.Scared"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa2/S17_PLa2/S17_PLa2_DIA/dia_S17_A_PLa2_InteractCage01/dia_S17_A_PLa2_InteractCage01_Line_00_Play.dia_S17_A_PLa2_InteractCage01_Line_00_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_PlainsA2.csv\", \"PLa2_S17_A_InteractCage_Dialogue1_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa2/S17_PLa2/S17_PLa2_DIA/dia_S17_A_PLa2_InteractCage01/dia_S17_A_PLa2_InteractCage01_Line_01_Play.dia_S17_A_PLa2_InteractCage01_Line_01_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "PLa2_S17_A_I03"
+		}
+	},
+	{
+		"Name": "CA07_BossReplay_QuestGiver01",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.BossReplay.CA07.QuestGiver"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA07_BossReplay_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "None"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CA07_BR"
+		}
+	},
+	{
+		"Name": "CT_S04_A_QuestStart",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CT.S04.QuestStart"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_PlainsA2.csv\", \"CT_S04_A_QuestGiver_Dialogue1_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/CT/CT_S04/CT_S04_DIA/dia_CT_S04_Ichor_Crust_Play.dia_CT_S04_Ichor_Crust_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CT_S04_A"
+		}
+	},
+	{
+		"Name": "CT_S04_A_QuestEnd",
+		"TypeTag":
+		{
+			"TagName": "SW.Dialogue.CT.S04.QuestEnd"
+		},
+		"DialogueDefinition":
+		{
+			"DialogueSegments": [
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_PlainsA2.csv\", \"CT_S04_A_QuestGiver_Dialogue2_Paragraph1\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/CT/CT_S04/CT_S04_DIA/dia_CT_S04_A_QuestEnd_Line_00_Play.dia_CT_S04_A_QuestEnd_Line_00_Play"
+				},
+				{
+					"Text": "LOCTABLE(\"QuestDialogueLabels_PlainsA2.csv\", \"CT_S04_A_QuestGiver_Dialogue2_Paragraph2\")",
+					"NPCEmotion":
+					{
+						"TagName": "None"
+					},
+					"AudioEvent": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/CT/CT_S04/CT_S04_DIA/dia_CT_S04_A_QuestEnd_Line_01_Play.dia_CT_S04_A_QuestEnd_Line_01_Play"
+				}
+			],
+			"DisplayInQuestJournal": true,
+			"QuestOrTaskId": "CT_S04_A"
+		}
+	}
+]

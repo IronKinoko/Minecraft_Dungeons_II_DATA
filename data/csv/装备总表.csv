@@ -1,0 +1,351 @@
+﻿ID,中文名称,英文名称,类别,部位,独特,生成标记,固定词条,随机候选模板数,任务关联数,来源表,图标
+SW.Item.WarHammer,战锤,War Hammer,近战武器,近战武器,False,True,,27,10,DT_ItemDefinitionMelee.json#WarHammer,icons/78120463631d397f.png
+SW.Item.Pike,长矛,Pike,近战武器,近战武器,False,True,,27,12,DT_ItemDefinitionMelee.json#Pike,icons/c6da3ccfcdced528.png
+SW.Item.Sword,剑,Sword,近战武器,近战武器,False,True,,39,12,DT_ItemDefinitionMelee.json#Sword,icons/69a033dd5d00788e.png
+SW.Item.Gauntlet,护手,Gauntlets,近战武器,近战武器,False,True,,39,10,DT_ItemDefinitionMelee.json#Gauntlet,icons/79fded4ad4606f1d.png
+SW.Item.Daggers,双匕首,Double Daggers,近战武器,近战武器,False,True,,30,10,DT_ItemDefinitionMelee.json#Daggers,icons/d4c0f8076f4b4144.png
+SW.Item.Axe,斧头,Axe,近战武器,近战武器,False,True,,27,11,DT_ItemDefinitionMelee.json#Axe,icons/7ebc77f0f29e0e7b.png
+SW.Item.ShortSpear,短矛,Short Spear,近战武器,近战武器,False,True,,27,12,DT_ItemDefinitionMelee.json#ShortSpear,icons/ba52e52be754fad0.png
+SW.Item.Pickaxe,镐,Pickaxe,近战武器,近战武器,False,True,,30,11,DT_ItemDefinitionMelee.json#Pickaxe,icons/d19907b6d16efbd3.png
+SW.Item.Rapier,细剑,Rapier,近战武器,近战武器,False,True,,39,6,DT_ItemDefinitionMelee.json#Rapier,icons/5587283ab86bc4df.png
+SW.Item.WarHammer_Unique1,碎心锤,Heartbreaker,近战武器,近战武器,True,True,烟火特效 独特：使用此武器命中时会发生爆炸！,27,10,DT_ItemDefinitionMelee.json#WarHammer_Unique1,icons/2dfb9581bc6f36f9.png
+SW.Item.Pike_Unique1,风暴召唤者,Stormcaller,近战武器,近战武器,True,True,闪电法师 独特：闪电攻击造成的伤害提高 25%。,24,13,DT_ItemDefinitionMelee.json#Pike_Unique1,icons/28b846a2aba138fd.png
+SW.Item.Sword_Unique1,烈焰之刃,The Burning Blade,近战武器,近战武器,True,True,火焰法师 独特：火焰攻击造成的伤害提高 20%。,39,12,DT_ItemDefinitionMelee.json#Sword_Unique1,icons/be5b6995ae3848b1.png
+SW.Item.Gauntlet_Unique1,首席附魔师护手,Prime Enchanter's Gauntlets,近战武器,近战武器,True,True,"霜电附魔 ：跳跃攻击会产生闪电和冰霜冲击波，对敌人造成伤害。
+一种附魔，能使跳跃攻击附带冰霜与闪电之力。",39,10,DT_ItemDefinitionMelee.json#Gauntlet_Unique1,icons/c78ea16983e55fc3.png
+SW.Item.Daggers_Unique1,毒牙,Venomous Fangs,近战武器,近战武器,True,True,剧毒法师 独特：毒素攻击造成的伤害提高 20%。,30,11,DT_ItemDefinitionMelee.json#Daggers_Unique1,icons/63954a8f9514a01f.png
+SW.Item.Axe_Unique1,猎人手斧,Hunter's Hatchet,近战武器,近战武器,True,True,制箭师 独特：远程弹药冷却时间缩短 35%。,27,11,DT_ItemDefinitionMelee.json#Axe_Unique1,icons/e1d6301c7cccd526.png
+SW.Item.ShortSpear_Unique1,幽魂长矛,Spectral Spear,近战武器,近战武器,True,True,"灵液冲击 ：冲击波会造成 90% 的武器伤害，并短暂造成额外灵魂伤害。
+一种附魔，能使攻击附带由灵魂之力驱动的灵液冲击。",27,12,DT_ItemDefinitionMelee.json#ShortSpear_Unique1,icons/2f250dcc87486d8a.png
+SW.Item.GiantClub_Unique1,红石破坏者,Redstone Wrecker,近战武器,近战武器,True,True,"火焰附加 独特：冲击波会造成 80% 的武器伤害，并短暂点燃生物。
+跳跃攻击和终结攻击会产生火焰冲击波，对敌人造成伤害并使其短暂点燃。
+触发冷却配置：0.75 秒。",27,8,DT_ItemDefinitionMelee.json#GiantClub_Unique1,icons/c8758bbbdc8fe1c6.png
+SW.Item.Pickaxe_Unique1,探勘者之镐,The Prospector's Pick,近战武器,近战武器,True,True,探勘者 独特：有 20% 的几率获得额外的绿宝石。,30,11,DT_ItemDefinitionMelee.json#Pickaxe_Unique1,icons/634090ebe191037a.png
+SW.Item.Rapier_Unique1,千刃,The Thousand Cuts,近战武器,近战武器,True,True,迅捷 独特：近战攻击速度提高 30%。,30,6,DT_ItemDefinitionMelee.json#Rapier_Unique1,icons/f5e760beff293917.png
+SW.Item.Claymore,大剑,Claymore,近战武器,近战武器,False,True,,45,10,DT_ItemDefinitionMelee.json#Claymore,icons/b36130245b60e063.png
+SW.Item.Greatsword,巨剑,Greatsword,近战武器,近战武器,False,True,,45,12,DT_ItemDefinitionMelee.json#Greatsword,icons/b84b867fb78619f4.png
+SW.Item.Claws,狼爪,Wolf Claws,近战武器,近战武器,False,True,,36,13,DT_ItemDefinitionMelee.json#Claws,icons/8d1812d1c5a3e1ad.png
+SW.Item.Glaive,长柄刀,Glaive,近战武器,近战武器,False,True,,27,6,DT_ItemDefinitionMelee.json#Glaive,icons/1a9116194363b4d3.png
+SW.Item.Battlestaff,战斗权杖,Battlestaff,近战武器,近战武器,False,True,,24,6,DT_ItemDefinitionMelee.json#Battlestaff,icons/9378497e651dd9f2.png
+SW.Item.Cleaver,剁肉刀,Meat Cleaver,近战武器,近战武器,False,True,,33,12,DT_ItemDefinitionMelee.json#Cleaver,icons/c5549fe8c549264c.png
+SW.Item.Sickles,双镰,Double Sickles,近战武器,近战武器,False,True,,36,7,DT_ItemDefinitionMelee.json#Sickles,icons/79afc56a30669b52.png
+SW.Item.Scythe,镰刀,Scythe,近战武器,近战武器,False,True,,24,13,DT_ItemDefinitionMelee.json#Scythe,icons/e3c13e53457af36a.png
+SW.Item.GiantClub,重击者,Clobberer,近战武器,近战武器,False,True,,27,7,DT_ItemDefinitionMelee.json#GiantClub,icons/2081583ffe1030e7.png
+SW.Item.CurvedGreatsword,定型刀,Cookiecutter,近战武器,近战武器,False,True,,39,9,DT_ItemDefinitionMelee.json#CurvedGreatsword,icons/353bde1cc07469cd.png
+SW.Item.GiantMallet,打怪木槌,Mob Mallet,近战武器,近战武器,False,True,,27,8,DT_ItemDefinitionMelee.json#GiantMallet,icons/0e3c51cb706d1df4.png
+SW.Item.StraightSword,长剑,Longsword,近战武器,近战武器,False,True,,24,9,DT_ItemDefinitionMelee.json#StraightSword,icons/347909bb77066e44.png
+SW.Item.CurvedLongsword,裂隙撕裂者,Riftslasher,近战武器,近战武器,False,True,,39,10,DT_ItemDefinitionMelee.json#CurvedLongsword,icons/96be246248715154.png
+SW.Item.Shovel,铁锹,Shovel,近战武器,近战武器,False,True,,36,10,DT_ItemDefinitionMelee.json#Shovel,icons/e8ed56698fa967ef.png
+SW.Item.Mace,重锤,Mace,近战武器,近战武器,False,True,,33,7,DT_ItemDefinitionMelee.json#Mace,icons/aaa174a91da3c7bc.png
+SW.Item.Dagger,暮光匕首,Twilight Dagger,近战武器,近战武器,False,True,,24,10,DT_ItemDefinitionMelee.json#Dagger,icons/7621c3dfd3bb125b.png
+SW.Item.Sabre,军刀,Sabre,近战武器,近战武器,False,True,,48,6,DT_ItemDefinitionMelee.json#Sabre,icons/c8c57f864dfa9f30.png
+SW.Item.Hammer,战斗锤,Battle Hammer,近战武器,近战武器,False,True,,36,9,DT_ItemDefinitionMelee.json#Hammer,icons/def2647b6e98603b.png
+SW.Item.MoonSword,潮汐镰刀,Tidal Sickle,近战武器,近战武器,False,True,,24,12,DT_ItemDefinitionMelee.json#Moonsword,icons/20836b633700b846.png
+SW.Item.GreatAxe,巨斧,Greataxe,近战武器,近战武器,False,True,,48,7,DT_ItemDefinitionMelee.json#GreatAxe,icons/a6e70923a27b1562.png
+SW.Item.Claymore_Unique1,斩杀大剑,Slaymore,近战武器,近战武器,True,True,斗士 独特：近战攻击对次要目标造成的伤害提高 50%。,42,10,DT_ItemDefinitionMelee.json#Claymore_Unique1,icons/c5d64833cffaf333.png
+SW.Item.Greatsword_Unique1,暗晶剑,The Darkshard,近战武器,近战武器,True,True,"重力强袭 独特：攻击有几率将 10 格内的所有敌人拉向你。
+使用法器时会将附近的所有敌人拉向你。",45,12,DT_ItemDefinitionMelee.json#Greatsword_Unique1,icons/4397f99a967995f4.png
+SW.Item.Claws_Unique1,幽匿者之爪,Sculker Claws,近战武器,近战武器,True,True,"暗影之爪 独特：攻击敌人时有 8% 几率进入“暗影潜行”状态。
+附魔：能在攻击时进入暗影潜行状态。
+触发冷却配置：2 秒。",36,15,DT_ItemDefinitionMelee.json#Claws_Unique1,icons/4abd7e24216acd38.png
+SW.Item.Glaive_Unique1,黄金长柄刀,Golden Glaive,近战武器,近战武器,True,True,先锋 独特：对满血敌人造成的伤害提高 60%。,27,6,DT_ItemDefinitionMelee.json#Glaive_Unique1,icons/38443410b748ab9f.png
+SW.Item.Battlestaff_Unique1,元素权杖,Elemental Staff,近战武器,近战武器,True,True,随机法师 独特：击败敌人后，有几率获得随机的元素近战增益效果。,24,6,DT_ItemDefinitionMelee.json#Battlestaff_Unique1,icons/01f153c3b8a14503.png
+SW.Item.Cleaver_Unique1,剁魂刀,Cacaphonous Cleaver,近战武器,近战武器,True,True,炼金术士 独特：每收集一个灵魂，恢复最大生命值的 7%。,33,12,DT_ItemDefinitionMelee.json#Cleaver_Unique1,icons/9fab9544ce3ba2d5.png
+SW.Item.Sickles_Unique1,汐浮镰刀,Sift Sickles,近战武器,近战武器,True,True,治疗者 独特：自己和盟友获得的治疗效果提高 50%。,36,8,DT_ItemDefinitionMelee.json#Sickles_Unique1,icons/0d9b1247ff954a6b.png
+SW.Item.Scythe_Unique1,摄魂者,Soul Reaper,近战武器,近战武器,True,True,死神 独特：获得的灵魂增加 60%。,21,13,DT_ItemDefinitionMelee.json#Scythe_Unique1,icons/5d2b4d4c17ed6835.png
+SW.Item.CurvedGreatsword_Unique1,安眠之刃,Lullaby Blade,近战武器,近战武器,True,True,灵魂诅咒 独特：命中时对敌人施加“魂蚀”状态。,30,10,DT_ItemDefinitionMelee.json#CurvedGreatsword_Unique1,icons/4db7e586214a5fad.png
+SW.Item.GiantMallet_Unique1,怪物粉碎者,Monster Masher,近战武器,近战武器,True,True,防护 独特：受到的伤害降低 25%。,27,8,DT_ItemDefinitionMelee.json#GiantMallet_Unique1,icons/ea467874e90da202.png
+SW.Item.StraightSword_Unique1,霜冻剑,Frostbiter,近战武器,近战武器,True,True,冰霜法师 独特：冰霜攻击造成的伤害提高 30%。,24,9,DT_ItemDefinitionMelee.json#StraightSword_Unique1,icons/d9c7147ec60e2a1f.png
+SW.Item.CurvedLongsword_Unique1,平原之傲,Pride of the Plains,近战武器,近战武器,True,True,决斗者 独特：近战攻击对主要目标造成的伤害提高 40%。,36,11,DT_ItemDefinitionMelee.json#CurvedLongsword_Unique1,icons/837dee2198430341.png
+SW.Item.Shovel_Unique1,钻石锹,Diamond Shovel,近战武器,近战武器,True,True,"震荡波 独特：震荡波会造成 20% 的武器伤害，并使击退效果提高 200%。
+跳跃攻击和终结攻击会产生震荡波，对敌人造成伤害并将其击退。
+触发冷却配置：0.75 秒。",36,10,DT_ItemDefinitionMelee.json#Shovel_Unique1,icons/b3a4dfea733bce76.png
+SW.Item.Mace_Unique1,甲壳重锤,Carapace Mace,近战武器,近战武器,True,True,灵巧 独特：跳跃或翻滚时，攻击伤害提高 35%。,33,7,DT_ItemDefinitionMelee.json#Mace_Unique1,icons/9e7efc93ca718ac8.png
+SW.Item.Dagger_Unique1,幽匿者克星,Sculker's Bane,近战武器,近战武器,True,True,灵魂法师 独特：灵魂攻击造成的伤害提高 20%。,33,11,DT_ItemDefinitionMelee.json#Dagger_Unique1,icons/f35be95bf4df191b.png
+SW.Item.Sabre_Unique1,调皮鬼军刀,Rascal's Razor,近战武器,近战武器,True,True,特技 独特：翻滚的冷却时间缩短 40%。,39,6,DT_ItemDefinitionMelee.json#Sabre_Unique1,icons/8e666b3d2d6a0155.png
+SW.Item.Hammer_Unique1,绿宝石锤,Emerald Hammer,近战武器,近战武器,True,True,袭击者 独特：有 5% 的几率掉落更稀有的战利品。,33,10,DT_ItemDefinitionMelee.json#Hammer_Unique1,icons/653b157cf31d4360.png
+SW.Item.MoonSword_Unique1,弯月镰刀,Lunar Sickle,近战武器,近战武器,True,True,冲力 独特：命中时，使敌人陷入失衡的几率提高 60%。,24,12,DT_ItemDefinitionMelee.json#Moonsword_Unique1,icons/3f63d3d5c09bb67a.png
+SW.Item.GreatAxe_Unique1,神威巨斧,Awesomeaxe,近战武器,近战武器,True,True,强力打击 独特：攻击命中时有 70% 的几率获得“强力”状态。,48,7,DT_ItemDefinitionMelee.json#GreatAxe_Unique1,icons/bac2247df29f09b2.png
+SW.Item.Bow,弓,Bow,远程武器,远程武器,False,True,,21,11,DT_ItemDefinitionRanged.json#Bow,icons/220d6b7597edb530.png
+SW.Item.Crossbow,弩,Crossbow,远程武器,远程武器,False,True,,27,7,DT_ItemDefinitionRanged.json#Crossbow,icons/1fb34c08883db82d.png
+SW.Item.Shortbow,短弓,Shortbow,远程武器,远程武器,False,True,,39,5,DT_ItemDefinitionRanged.json#Shortbow,icons/d96512ae69d2d0c3.png
+SW.Item.Trickbow,特技弓,Trickbow,远程武器,远程武器,False,True,,27,11,DT_ItemDefinitionRanged.json#Trickbow,icons/2fc8533263044283.png
+SW.Item.Longbow,长弓,Longbow,远程武器,远程武器,False,True,,36,11,DT_ItemDefinitionRanged.json#Longbow,icons/e1e04a82f0f71040.png
+SW.Item.Powerbow,强弓,Powerbow,远程武器,远程武器,False,True,,42,12,DT_ItemDefinitionRanged.json#PowerBow,icons/ff05a76fd4e341d4.png
+SW.Item.ScatterCrossbow,散射弩,Scatter Crossbow,远程武器,远程武器,False,True,,33,12,DT_ItemDefinitionRanged.json#ScatterCrossbow,icons/99cfac3e44f3022a.png
+SW.Item.HeavyCrossbow,重弩,Heavy Crossbow,远程武器,远程武器,False,True,,33,11,DT_ItemDefinitionRanged.json#HeavyCrossbow,icons/c0ebf73376d04e85.png
+SW.Item.DualCrossbow,双持弩,Dual Crossbows,远程武器,远程武器,False,True,,30,12,DT_ItemDefinitionRanged.json#DualCrossbow,icons/7a8a92cb7b54e887.png
+SW.Item.RapidCrossbow,快弩,Rapid Crossbow,远程武器,远程武器,False,True,,36,6,DT_ItemDefinitionRanged.json#RapidCrossbow,icons/420e8a656d2d0b64.png
+SW.Item.Bow_Unique1,游侠之誓,Ranger's Promise,远程武器,远程武器,True,True,瞄准 独特：远程攻击的暴击几率提高 25%。,21,11,DT_ItemDefinitionRanged.json#Bow_Unique1,icons/9d24a87d0e472243.png
+SW.Item.Crossbow_Unique1,定身弩,The Shackler,远程武器,远程武器,True,True,桎梏 独特：攻击命中时，有 30% 的几率施加“束缚”状态。,27,7,DT_ItemDefinitionRanged.json#Crossbow_Unique1,icons/82ab3625e3dd367c.png
+SW.Item.Shortbow_Unique1,流星弓,Shooting Star,远程武器,远程武器,True,True,躲避 独特：有 20% 的几率躲避近战伤害。,39,5,DT_ItemDefinitionRanged.json#Shortbow_Unique1,icons/540b3db45ede5a23.png
+SW.Item.Trickbow_Unique1,幻翼弓,Phantom Wing,远程武器,远程武器,True,True,跳跃射击 独特：跳跃射击造成的伤害提高 6%。,27,12,DT_ItemDefinitionRanged.json#Trickbow_Unique1,icons/472609b7e2d97c7e.png
+SW.Item.Longbow_Unique1,嘎枝之触,Creaking's Reach,远程武器,远程武器,True,True,狙击手 独特：远距离时，远程攻击造成的伤害提高 100%。,33,11,DT_ItemDefinitionRanged.json#Longbow_Unique1,icons/806a7fc87b1f22f1.png
+SW.Item.Powerbow_Unique1,典范弓,Paragon,远程武器,远程武器,True,True,冲击 独特：远程攻击造成的伤害提高 30%。,39,13,DT_ItemDefinitionRanged.json#PowerBow_Unique1,icons/f854a90a01cbab95.png
+SW.Item.ScatterCrossbow_Unique1,竖琴弩,Harp Crossbow,远程武器,远程武器,True,True,游侠 独特：有 60% 的几率发射额外弹射物。,33,13,DT_ItemDefinitionRanged.json#ScatterCrossbow_Unique1,icons/fa58b08352430e24.png
+SW.Item.HeavyCrossbow_Unique1,近战游侠弩,The Close Ranger,远程武器,远程武器,True,True,贴身射击 独特：近距离时，远程攻击造成的伤害提高 100%。,30,11,DT_ItemDefinitionRanged.json#HeavyCrossbow_Unique1,icons/cca3eef9c2f4490c.png
+SW.Item.RapidCrossbow_Unique1,授粉快弩,The Cross Pollinator,远程武器,远程武器,True,True,快速装填 独特：使远程武器的射击间隔缩短 40%。,36,6,DT_ItemDefinitionRanged.json#RapidCrossbow_Unique1,icons/2b8aae81dc1dc850.png
+SW.Item.Greatbow,巨弓,Greatbow,远程武器,远程武器,False,True,,42,8,DT_ItemDefinitionRanged.json#GreatBow,icons/521157b6d57f23e8.png
+SW.Item.DualCrossbow_Unique1,背叛者双弩,Double Crossers,远程武器,远程武器,True,True,"活力 独特：翻滚会使你的下一次近战或远程攻击获得 50% 伤害增幅。
+翻滚会使你的下一次近战或远程攻击获得伤害增幅，每次使用后效果会叠加。",30,12,DT_ItemDefinitionRanged.json#DualCrossbow_Unique1,icons/e5e337fe6f1f3a7e.png
+SW.Item.Greatbow_Unique1,轰鸣虫心弦,Humbler Heartstring,远程武器,远程武器,True,True,"穿透 独特：弹射物最多可穿透 10 个敌人。
+使射出的箭矢和弹射物可以穿透多个目标。",48,8,DT_ItemDefinitionRanged.json#GreatBow_Unique1,icons/8abab552c1e169dc.png
+SW.Item.ScampBoots,捣蛋鬼轻靴,Scamp Sneakers,护甲,靴子,False,True,,24,7,DT_ItemDefinitionArmor.json#ScampBoots,icons/c9fbcbe0bf265aac.png
+SW.Item.ScampHelmet,捣蛋鬼兜帽,Scamp Hood,护甲,头盔,False,True,,24,7,DT_ItemDefinitionArmor.json#ScampHelmet,icons/a71fb4c55c96b24e.png
+SW.Item.ScampChest,捣蛋鬼夹克,Scamp Jacket,护甲,胸甲,False,True,,24,7,DT_ItemDefinitionArmor.json#ScampChest,icons/ec29f55870717f77.png
+SW.Item.ScampLeggings,捣蛋鬼护腿,Scamp Leggings,护甲,护腿,False,True,,24,7,DT_ItemDefinitionArmor.json#ScampLeggings,icons/27ae50ce5ebff9dd.png
+SW.Item.VoyagerBoots,游牧者之靴,Nomad Boots,护甲,靴子,False,True,,15,8,DT_ItemDefinitionArmor.json#VoyagerBoots,icons/00d5090049d07ef1.png
+SW.Item.VoyagerChest,游牧者胸甲,Nomad Chestplate,护甲,胸甲,False,True,,15,8,DT_ItemDefinitionArmor.json#VoyagerChest,icons/0dcc51189705c5c9.png
+SW.Item.VoyagerHelmet,游牧者兜帽,Nomad Hood,护甲,头盔,False,True,,15,8,DT_ItemDefinitionArmor.json#VoyagerHelmet,icons/8923d2fe359b265b.png
+SW.Item.VoyagerLeggings,游牧者护腿,Nomad Leggings,护甲,护腿,False,True,,15,8,DT_ItemDefinitionArmor.json#VoyagerLeggings,icons/3b07a56c3ba2fd9f.png
+SW.Item.RealmreacherChest,游侠夹克,Ranger Jacket,护甲,胸甲,False,True,,21,7,DT_ItemDefinitionArmor.json#RealmreacherChest,icons/d4b67ca95f865d7b.png
+SW.Item.RealmreacherLeggings,游侠护腿,Ranger Leggings,护甲,护腿,False,True,,21,7,DT_ItemDefinitionArmor.json#RealmreacherLeggings,icons/b24e04f11fb8e45c.png
+SW.Item.RealmreacherBoots,游侠靴,Ranger Boots,护甲,靴子,False,True,,21,7,DT_ItemDefinitionArmor.json#RealmreachersBoots,icons/8373e480ca1278c3.png
+SW.Item.RealmreacherHelmet,游侠帽,Ranger Cap,护甲,头盔,False,True,,21,7,DT_ItemDefinitionArmor.json#RealmreachersHood,icons/b1fa283b3d9cadca.png
+SW.Item.WolfclutchBoots,狼群之靴,Wolfpack Boots,护甲,靴子,False,True,,18,4,DT_ItemDefinitionArmor.json#WolfclutchBoots,icons/c1f1e32eb460a61a.png
+SW.Item.WolfclutchChest,狼群夹克,Wolfpack Jacket,护甲,胸甲,False,True,,18,4,DT_ItemDefinitionArmor.json#WolfclutchChestpiece,icons/4414a848c4540bda.png
+SW.Item.WolfclutchHelmet,狼群兜帽,Wolfpack Hood,护甲,头盔,False,True,,18,4,DT_ItemDefinitionArmor.json#WolfclutchHelmet,icons/bcc4b93c9b6725cf.png
+SW.Item.WolfclutchLeggings,狼群护腿,Wolfpack Leggings,护甲,护腿,False,True,,18,4,DT_ItemDefinitionArmor.json#WolfclutchLeggings,icons/f0d209a864d1a18a.png
+SW.Item.UndauntedBoots,赏金猎人之靴,Bounty Hunter Boots,护甲,靴子,False,True,,27,5,DT_ItemDefinitionArmor.json#UndauntedBoots,icons/8547ea9a8003cf6c.png
+SW.Item.UndauntedHelmet,赏金猎人头盔,Bounty Hunter Helmet,护甲,头盔,False,True,,27,5,DT_ItemDefinitionArmor.json#UndauntedHelmet,icons/9a997dd8e41de8d6.png
+SW.Item.UndauntedLeggings,赏金猎人护胫,Bounty Hunter Shinguards,护甲,护腿,False,True,,27,5,DT_ItemDefinitionArmor.json#UndauntedLeggings,icons/d29b5f09a9bb5bbc.png
+SW.Item.UndauntedChest,赏金猎人胸甲,Bounty Hunter Chestplate,护甲,胸甲,False,True,,27,5,DT_ItemDefinitionArmor.json#UndauntedChestpiece,icons/b128bd210dda3d35.png
+SW.Item.FrostRimeChest,钢丝绒毛衣,Steel Wool Sweater,护甲,胸甲,False,True,,54,5,DT_ItemDefinitionArmor.json#FrostrimeChest,icons/61ea377ded89225b.png
+SW.Item.FrostRimeLeggings,钢丝绒护腿,Steel Wool Leggings,护甲,护腿,False,True,,54,5,DT_ItemDefinitionArmor.json#FrostrimeLeggings,icons/5d9e2f25ee3948f9.png
+SW.Item.FrostRimeBoots,钢丝绒靴,Steel Wool Boots,护甲,靴子,False,True,,54,5,DT_ItemDefinitionArmor.json#FrostrimeBoots,icons/f4800b5757831942.png
+SW.Item.FrostRimeHelmet,钢丝绒帽,Steel Wool Cap,护甲,头盔,False,True,,54,5,DT_ItemDefinitionArmor.json#FrostrimeHelmet,icons/55b5b757b3617e56.png
+SW.Item.CaveCrawlerBoots,幽匿挖掘者靴子,Sculk Digger Boots,护甲,靴子,False,True,,45,11,DT_ItemDefinitionArmor.json#CaveCrawlerBoots,icons/c06c24793e222055.png
+SW.Item.CaveCrawlerChest,幽匿挖掘者长袍,Sculk Digger Robe,护甲,胸甲,False,True,,45,11,DT_ItemDefinitionArmor.json#CaveCrawlerChest,icons/450a9684a812a44c.png
+SW.Item.CaveCrawlerHelmet,幽匿挖掘者兜帽,Sculk Digger Hood,护甲,头盔,False,True,,45,11,DT_ItemDefinitionArmor.json#CaveCrawlerHelmet,icons/922f0fa9b32a40a5.png
+SW.Item.CaveCrawlerLeggings,幽匿挖掘者护腿,Sculk Digger Leggings,护甲,护腿,False,True,,45,11,DT_ItemDefinitionArmor.json#CaveCrawlerLeggings,icons/6c734e011ef34f21.png
+SW.Item.UndauntedHelmet_Unique,无畏角盔,Dauntless Horns,护甲,头盔,True,True,击退 独特：攻击造成的击退效果提高 40%。,27,5,DT_ItemDefinitionArmor.json#UndauntedHelmet_Unique,icons/66a267328217e5a4.png
+SW.Item.UndauntedChest_Unique,无畏肩甲,Dauntless Pauldrons,护甲,胸甲,True,True,弹射物防护 独特：受到远程攻击的伤害降低 25%。,24,5,DT_ItemDefinitionArmor.json#UndauntedChestpiece_Unique,icons/affda95911c20037.png
+SW.Item.UndauntedLeggings_Unique,无畏胫甲,Dauntless Greaves,护甲,护腿,True,True,先锋 独特：对满血敌人造成的伤害提高 60%。,27,5,DT_ItemDefinitionArmor.json#UndauntedLeggings_Unique,icons/2ddf9ff8494d6ab2.png
+SW.Item.UndauntedBoots_Unique,无畏足甲,Dauntless Sabatons,护甲,靴子,True,True,灵性 独特：灵魂容量提高 50%。,27,5,DT_ItemDefinitionArmor.json#UndauntedBoots_Unique,icons/563f7d7bcfb60517.png
+SW.Item.FrostRimeChest_Unique,寒霜护甲,Rimefrost Armor,护甲,胸甲,True,True,元素防护 独特：受到的元素攻击伤害降低 25%。,51,5,DT_ItemDefinitionArmor.json#FrostrimeChest_Unique,icons/86292f4e093bbca1.png
+SW.Item.FrostRimeLeggings_Unique,寒霜长衬裤,Rimefrost Longjohns,护甲,护腿,True,True,斗士 独特：近战攻击对次要目标造成的伤害提高 50%。,54,5,DT_ItemDefinitionArmor.json#FrostrimeLeggings_Unique,icons/6ff0ec195bd8e71d.png
+SW.Item.FrostRimeBoots_Unique,寒霜踏雪靴,Rimefrost Plodders,护甲,靴子,True,True,污染 独特：使敌人陷入负面状态的持续时间延长 100%。,54,5,DT_ItemDefinitionArmor.json#FrostrimeBoots_Unique,icons/a562048add1138ed.png
+SW.Item.FrostRimeHelmet_Unique,寒霜冰帽,Rimefrost Icecap,护甲,头盔,True,True,冰霜法师 独特：冰霜攻击造成的伤害提高 30%。,51,5,DT_ItemDefinitionArmor.json#FrostrimeHelmet_Unique,icons/10bb39697c73251e.png
+SW.Item.ScampBoots_Unique,无赖轻靴,Scoundrel Sneakers,护甲,靴子,True,True,神行者 独特：暗影潜行期间，移动速度提高 40%。,21,7,DT_ItemDefinitionArmor.json#ScampBoots_Unique,icons/6d66e46975ff5bdd.png
+SW.Item.ScampHelmet_Unique,无赖兜帽,Scoundrel Cowl,护甲,头盔,True,True,刺客 独特：有 25% 的几率在攻击时维持“暗影潜行”状态。,21,7,DT_ItemDefinitionArmor.json#ScampHelmet_Unique,icons/1b6d897fa7679496.png
+SW.Item.ScampChest_Unique,无赖西装外套,Scoundrel Blazer,护甲,胸甲,True,True,贴身射击 独特：近距离时，远程攻击造成的伤害提高 100%。,24,7,DT_ItemDefinitionArmor.json#ScampChest_Unique,icons/29766a19979a57b4.png
+SW.Item.ScampLeggings_Unique,无赖套裤,Scoundrel Chaps,护甲,护腿,True,True,快速装填 独特：使远程武器的射击间隔缩短 40%。,24,7,DT_ItemDefinitionArmor.json#ScampLeggings_Unique,icons/8ca2c5b25a2e1a9f.png
+SW.Item.VoyagerBoots_Unique,漫游者足甲,Rover Sabatons,护甲,靴子,True,True,不屈 独特：额外造成相当于玩家总损失生命值 25% 的伤害。,15,8,DT_ItemDefinitionArmor.json#VoyagerBoots_Unique,icons/45e5fe7ab56eb63f.png
+SW.Item.VoyagerChest_Unique,漫游者肩甲,Rover Pauldrons,护甲,胸甲,True,True,弹开 独特：有 25% 的几率弹开敌人的弹射物。,15,8,DT_ItemDefinitionArmor.json#VoyagerChest_Unique,icons/fad07652aba88e78.png
+SW.Item.VoyagerHelmet_Unique,漫游者面甲,Rover Visor,护甲,头盔,True,True,精准 独特：近战攻击的暴击几率提高 25%。,15,8,DT_ItemDefinitionArmor.json#VoyagerHelmet_Unique,icons/e7c77bedce022c35.png
+SW.Item.VoyagerLeggings_Unique,漫游者绑腿,Rover Gaiters,护甲,护腿,True,True,冲力 独特：命中时，使敌人陷入失衡的几率提高 60%。,15,8,DT_ItemDefinitionArmor.json#VoyagerLeggings_Unique,icons/a10bfcd4909a931b.png
+SW.Item.CaveCrawlerBoots_Unique,扭曲监守者轻靴,Twisted Warden Sneakers,护甲,靴子,True,True,精准 独特：近战攻击的暴击几率提高 25%。,45,11,DT_ItemDefinitionArmor.json#CaveCrawlerBoots_Unique,icons/6c8a353393466fa9.png
+SW.Item.CaveCrawlerChest_Unique,扭曲监守者背心,Twisted Warden Vest,护甲,胸甲,True,True,躲避 独特：有 20% 的几率躲避近战伤害。,42,12,DT_ItemDefinitionArmor.json#CaveCrawlerChest_Unique,icons/8baabc169fa74515.png
+SW.Item.CaveCrawlerHelmet_Unique,扭曲监守者眼罩,Twisted Warden Blindfold,护甲,头盔,True,True,强力 独特：近战武器的暴击伤害提高 45%。,45,11,DT_ItemDefinitionArmor.json#CaveCrawlerHelmet_Unique,icons/a91951d8996d25fc.png
+SW.Item.CaveCrawlerLeggings_Unique,扭曲监守者紧身裤,Twisted Warden Tights,护甲,护腿,True,True,潜行 独特：暗影潜行的持续时间延长 45%。,42,11,DT_ItemDefinitionArmor.json#CaveCrawlerLeggings_Unique,icons/c5c0e030e5a67afb.png
+SW.Item.RealmreacherChest_Unique,神射手风衣,Sharpshooter Duster,护甲,胸甲,True,True,冲击 独特：远程攻击造成的伤害提高 30%。,21,7,DT_ItemDefinitionArmor.json#RealmreacherChest_Unique,icons/3559882772196c2c.png
+SW.Item.RealmreacherLeggings_Unique,神射手套裤,Sharpshooter Chaps,护甲,护腿,True,True,制箭师 独特：远程弹药冷却时间缩短 35%。,18,7,DT_ItemDefinitionArmor.json#RealmreacherLeggings_Unique,icons/461e3513f5c7d4d6.png
+SW.Item.RealmreacherBoots_Unique,神射手马刺靴,Sharpshooter Spurs,护甲,靴子,True,True,箭袋 独特：箭矢携带量增加 45%。,21,7,DT_ItemDefinitionArmor.json#RealmreachersBoots_Unique,icons/780731d1a84d948f.png
+SW.Item.RealmreacherHelmet_Unique,神射手软呢帽,Sharpshooter Fedora,护甲,头盔,True,True,游侠 独特：有 60% 的几率发射额外弹射物。,21,7,DT_ItemDefinitionArmor.json#RealmreachersHelmet_Unique,icons/171e7ca30b268276.png
+SW.Item.StalwartHelmet,守卫者头盔,Protector Helmet,护甲,头盔,False,True,,27,6,DT_ItemDefinitionArmor.json#StalwartHelmet,icons/b68d75025f9fed4b.png
+SW.Item.StalwartChest,守卫者胸甲,Protector Chestplate,护甲,胸甲,False,True,,27,6,DT_ItemDefinitionArmor.json#StalwartChest,icons/fcd088d8aad1cd07.png
+SW.Item.StalwartLeggings,守卫者护胫,Protector Shinguards,护甲,护腿,False,True,,27,6,DT_ItemDefinitionArmor.json#StalwartLeggings,icons/c75b4b4cff58a99f.png
+SW.Item.StalwartBoots,守卫者之靴,Protector Boots,护甲,靴子,False,True,,27,6,DT_ItemDefinitionArmor.json#StalwartBoots,icons/b4d4468705c055a9.png
+SW.Item.StalwartHelmet_Unique,轰鸣虫触角,Humbler Antenna,护甲,头盔,True,True,防护 独特：受到的伤害降低 25%。,24,7,DT_ItemDefinitionArmor.json#StalwartHelmet_Unique,icons/95ccf9641cc5afd2.png
+SW.Item.StalwartChest_Unique,轰鸣虫甲壳,Humbler Carapace,护甲,胸甲,True,True,恢复 独特：受到的所有治疗效果提高 40%。,24,7,DT_ItemDefinitionArmor.json#StalwartChest_Unique,icons/efd3794fd86b870d.png
+SW.Item.StalwartLeggings_Unique,轰鸣虫胫甲,Humbler Greaves,护甲,护腿,True,True,斗士 独特：近战攻击对次要目标造成的伤害提高 50%。,27,7,DT_ItemDefinitionArmor.json#StalwartLeggings_Unique,icons/60c9a17dc46135fa.png
+SW.Item.StalwartBoots_Unique,轰鸣虫跗靴,Humbler Tarsi,护甲,靴子,True,True,躲避 独特：有 20% 的几率躲避近战伤害。,27,7,DT_ItemDefinitionArmor.json#StalwartBoots_Unique,icons/618f10a226de6992.png
+SW.Item.WolfclutchBoots_Unique,头狼之爪,Packleader Paws,护甲,靴子,True,True,制弓师 独特：箭矢恢复时有 50% 几率额外获得一支箭。,18,4,DT_ItemDefinitionArmor.json#WolfclutchBoots_Unique,icons/c7daead5d297aabd.png
+SW.Item.WolfclutchChest_Unique,头狼兽皮,Packleader Hide,护甲,胸甲,True,True,群兽首领 独特：同伴造成的伤害提高 40%。,18,4,DT_ItemDefinitionArmor.json#WolfclutchChestpiece_Unique,icons/ce554191930d89ef.png
+SW.Item.WolfclutchHelmet_Unique,头狼口套,Packleader Muzzle,护甲,头盔,True,True,狙击手 独特：远距离时，远程攻击造成的伤害提高 100%。,18,4,DT_ItemDefinitionArmor.json#WolfclutchHelmet_Unique,icons/7088da0b460bd76a.png
+SW.Item.WolfclutchLeggings_Unique,头狼毛皮套裤,Packleader Fur Chaps,护甲,护腿,True,True,兽医 独特：被击败的同伴复活速度加快 20%。,15,4,DT_ItemDefinitionArmor.json#WolfclutchLeggings_Unique,icons/b9996aec6d594ce0.png
+SW.Item.MysticHelmet,神秘头箍,Mystic Circlet,护甲,头盔,False,True,,33,10,DT_ItemDefinitionArmor.json#MysticHelmet,icons/4c765537daafddc6.png
+SW.Item.MysticChest,神秘长袍,Mystic Robe,护甲,胸甲,False,True,,33,10,DT_ItemDefinitionArmor.json#MysticChest,icons/e848ae16dadf83f6.png
+SW.Item.MysticLeggings,神秘护腿,Mystic Leggings,护甲,护腿,False,True,,33,10,DT_ItemDefinitionArmor.json#MysticLeggings,icons/424c8e761db3f059.png
+SW.Item.MysticBoots,神秘靴,Mystic Boots,护甲,靴子,False,True,,33,10,DT_ItemDefinitionArmor.json#MysticBoots,icons/3758665b85f99da9.png
+SW.Item.MysticHelmet_Unique,神谕王冠,Oracle Crown,护甲,头盔,True,True,闪电法师 独特：闪电攻击造成的伤害提高 25%。,30,11,DT_ItemDefinitionArmor.json#MysticHelmet_Unique,icons/92ff33d3b9b3a765.png
+SW.Item.MysticChest_Unique,神谕披风,Oracle Mantle,护甲,胸甲,True,True,污染 独特：使敌人陷入负面状态的持续时间延长 100%。,33,11,DT_ItemDefinitionArmor.json#MysticChest_Unique,icons/a63a6dfd312c06f3.png
+SW.Item.MysticLeggings_Unique,神谕紧身裤,Oracle Tights,护甲,护腿,True,True,冷却时间 独特：法器冷却时间缩短 30%。,30,11,DT_ItemDefinitionArmor.json#MysticLeggings_Unique,icons/47b08671c14b8ac4.png
+SW.Item.MysticBoots_Unique,神谕凉鞋,Oracle Sandals,护甲,靴子,True,True,袭击者 独特：有 5% 的几率掉落更稀有的战利品。,33,11,DT_ItemDefinitionArmor.json#MysticBoots_Unique,icons/3d7a9a2145e44d22.png
+SW.Item.PhantomHelmet,幻翼头盔,Phantom Helmet,护甲,头盔,False,True,,36,7,DT_ItemDefinitionArmor.json#PhantomHelmet,icons/83163efad9bdb6be.png
+SW.Item.PhantomChest,幻翼胸甲,Phantom Chestplate,护甲,胸甲,False,True,,36,7,DT_ItemDefinitionArmor.json#PhantomChest,icons/54fd1c50cd595aef.png
+SW.Item.PhantomLeggings,幻翼长裤,Phantom Pants,护甲,护腿,False,True,,36,7,DT_ItemDefinitionArmor.json#PhantomLeggings,icons/9f649e521d84284c.png
+SW.Item.PhantomBoots,幻翼靴,Phantom Boots,护甲,靴子,False,True,,36,7,DT_ItemDefinitionArmor.json#PhantomBoots,icons/efb266e06477d1b2.png
+SW.Item.HewnBarkHelmet,护林者面具,Treehugger Mask,护甲,头盔,False,True,,27,7,DT_ItemDefinitionArmor.json#HewnBarkHelmet,icons/3bef9af5365fb3ba.png
+SW.Item.HewnBarkChest,护林者胸甲,Treehugger Chestplate,护甲,胸甲,False,True,,27,7,DT_ItemDefinitionArmor.json#HewnBarkChest,icons/4feb800cf15c59c7.png
+SW.Item.HewnBarkLeggings,护林者护腿,Treehugger Leggings,护甲,护腿,False,True,,27,7,DT_ItemDefinitionArmor.json#HewnBarkLeggings,icons/9f104054b9502b57.png
+SW.Item.HewnBarkBoots,护林者木屐,Treehugger Clogs,护甲,靴子,False,True,,27,7,DT_ItemDefinitionArmor.json#HewnBarkBoots,icons/6b131f29cfaeb0d1.png
+SW.Item.TimewornHelmet,界域行者帽,Realmreacher Hat,护甲,头盔,False,True,,48,4,DT_ItemDefinitionArmor.json#TimewornHelmet,icons/bc1793a869af159e.png
+SW.Item.TimewornChest,界域行者长袍,Realmreacher Robe,护甲,胸甲,False,True,,48,4,DT_ItemDefinitionArmor.json#TimewornChest,icons/345712649119b72b.png
+SW.Item.TimewornLeggings,界域行者护腿,Realmreacher Leggings,护甲,护腿,False,True,,48,4,DT_ItemDefinitionArmor.json#TimewornLeggings,icons/0e6a098f92f6cc49.png
+SW.Item.TimewornBoots,界域行者靴,Realmreacher Boots,护甲,靴子,False,True,,48,4,DT_ItemDefinitionArmor.json#TimewornBoots,icons/a6c1415b90e0dc34.png
+SW.Item.HoneyHelmet,养蜂人面罩,Beekeeper Veil,护甲,头盔,False,True,,21,7,DT_ItemDefinitionArmor.json#HoneyHelmet,icons/c78e4eac3f15178e.png
+SW.Item.HoneyChest,养蜂服,Beekeeper Suit,护甲,胸甲,False,True,,21,7,DT_ItemDefinitionArmor.json#HoneyChest,icons/434c6e03ad6993e0.png
+SW.Item.HoneyLeggings,养蜂人护腿,Beekeeper Leggings,护甲,护腿,False,True,,21,7,DT_ItemDefinitionArmor.json#HoneyLeggings,icons/23c278bec76056a2.png
+SW.Item.HoneyBoots,养蜂人之靴,Beekeeper Boots,护甲,靴子,False,True,,21,7,DT_ItemDefinitionArmor.json#HoneyBoots,icons/8b425d8dba5ea7d4.png
+SW.Item.MushroomHelmet,蘑菇帽,Mushroom Cap,护甲,头盔,False,True,,54,11,DT_ItemDefinitionArmor.json#MushroomHelmet,icons/0117c23ad2f5b029.png
+SW.Item.MushroomChest,蘑菇长袍,Mushroom Robe,护甲,胸甲,False,True,,54,11,DT_ItemDefinitionArmor.json#MushroomChest,icons/41629789891a3938.png
+SW.Item.MushroomLeggings,蘑菇护腿,Mushroom Leggings,护甲,护腿,False,True,,54,11,DT_ItemDefinitionArmor.json#MushroomLeggings,icons/49155508a4b69b24.png
+SW.Item.MushroomBoots,蘑菇靴,Mushroom Boots,护甲,靴子,False,True,,54,11,DT_ItemDefinitionArmor.json#MushroomBoots,icons/c9e447a7343d2669.png
+SW.Item.DiscipleHelmet,门徒面具,Disciple mask,护甲,头盔,False,True,,33,8,DT_ItemDefinitionArmor.json#DiscipleHelmet,icons/30cb790e5611c36e.png
+SW.Item.DiscipleChest,门徒长袍,Disciple Robe,护甲,胸甲,False,True,,33,8,DT_ItemDefinitionArmor.json#DiscipleChest,icons/aaea042ca709fc30.png
+SW.Item.DiscipleLeggings,门徒护腿,Disciple Leggings,护甲,护腿,False,True,,33,8,DT_ItemDefinitionArmor.json#DiscipleLeggings,icons/7f1785172905db3e.png
+SW.Item.DiscipleBoots,门徒裹足布,Disciple Wraps,护甲,靴子,False,True,,33,8,DT_ItemDefinitionArmor.json#DiscipleBoots,icons/96c58883ce92b62d.png
+SW.Item.WellspringHelmet,汐浮特兜帽,Sifter Hood,护甲,头盔,False,True,,48,8,DT_ItemDefinitionArmor.json#WellspringHelmet,icons/da64f04435c9d05e.png
+SW.Item.WellspringChest,汐浮特长袍,Sifter Robe,护甲,胸甲,False,True,,48,8,DT_ItemDefinitionArmor.json#WellspringChest,icons/3ee00985268e01ec.png
+SW.Item.WellspringLeggings,汐浮特护腿,Sifter Leggings,护甲,护腿,False,True,,48,8,DT_ItemDefinitionArmor.json#WellspringLeggings,icons/59a176ba9df71701.png
+SW.Item.WellspringBoots,汐浮特之靴,Sifter Boots,护甲,靴子,False,True,,48,8,DT_ItemDefinitionArmor.json#WellspringBoots,icons/f123af211ebd5e29.png
+SW.Item.RedstoneHelmet,红石头盔,Redstone Helmet,护甲,头盔,False,True,,54,10,DT_ItemDefinitionArmor.json#RedstoneHelmet,icons/e5896162472b06c5.png
+SW.Item.RedstoneChest,红石胸甲,Redstone Chestplate,护甲,胸甲,False,True,,54,10,DT_ItemDefinitionArmor.json#RedstoneChest,icons/0c7184daf4138ab4.png
+SW.Item.RedstoneLeggings,红石护胫,Redstone Shinguards,护甲,护腿,False,True,,54,10,DT_ItemDefinitionArmor.json#RedstoneLeggings,icons/9c8e2fb34021f08e.png
+SW.Item.RedstoneBoots,红石靴,Redstone Boots,护甲,靴子,False,True,,54,10,DT_ItemDefinitionArmor.json#RedstoneBoots,icons/ed25ada0cd64663b.png
+SW.Item.EvocationHelmet,巫师帽,Sorcerer Hat,护甲,头盔,False,True,,33,2,DT_ItemDefinitionArmor.json#EvocationHelmet,icons/95052f98a064deb7.png
+SW.Item.EvocationChest,巫师长袍,Sorcerer Robe,护甲,胸甲,False,True,,33,2,DT_ItemDefinitionArmor.json#EvocationChest,icons/87ff38dc2ff8895d.png
+SW.Item.EvocationLeggings,巫师护腿,Sorcerer Leggings,护甲,护腿,False,True,,33,2,DT_ItemDefinitionArmor.json#EvocationLeggings,icons/40f2fd3ef6083756.png
+SW.Item.EvocationBoots,巫师靴,Sorcerer Boots,护甲,靴子,False,True,,33,2,DT_ItemDefinitionArmor.json#EvocationBoots,icons/269fc0a1723ff811.png
+SW.Item.PhantomHelmet_Unique,驭梦者王冠,Dreamruler Crown,护甲,头盔,True,True,死神 独特：获得的灵魂增加 60%。,36,7,DT_ItemDefinitionArmor.json#PhantomHelmet_Unique,icons/6cbcd470a012599c.png
+SW.Item.PhantomChest_Unique,驭梦者外袍,Dreamruler Cover,护甲,胸甲,True,True,决斗者 独特：近战攻击对主要目标造成的伤害提高 40%。,36,7,DT_ItemDefinitionArmor.json#PhantomChest_Unique,icons/75c88dba9b97164b.png
+SW.Item.PhantomLeggings_Unique,驭梦者睡裤,Dreamruler Pyjamas,护甲,护腿,True,True,神行者 独特：暗影潜行期间，移动速度提高 40%。,33,7,DT_ItemDefinitionArmor.json#PhantomLeggings_Unique,icons/570fbbeb560dde7e.png
+SW.Item.PhantomBoots_Unique,驭梦者拖鞋,Dreamruler Slippers,护甲,靴子,True,True,灵巧 独特：跳跃或翻滚时，攻击伤害提高 35%。,36,7,DT_ItemDefinitionArmor.json#PhantomBoots_Unique,icons/f6867ead376ae418.png
+SW.Item.HewnBarkHelmet_Unique,木精灵王冠,Woodsprite Crown,护甲,头盔,True,True,牧羊人 独特：同伴受到的伤害降低 20%。,24,7,DT_ItemDefinitionArmor.json#HewnBarkHelmet_Unique,icons/ad6680ce373124fb.png
+SW.Item.HewnBarkChest_Unique,木精灵树皮甲,Woodsprite Barkpiece,护甲,胸甲,True,True,体格 独特：玩家的最大生命值提高 30%。,27,7,DT_ItemDefinitionArmor.json#HewnBarkChest_Unique,icons/3c223f5a1933bbcf.png
+SW.Item.HewnBarkLeggings_Unique,木精灵树干护腿,Woodsprite Trunks,护甲,护腿,True,True,反刺 独特：将所受伤害的 100% 反弹给攻击者。,27,7,DT_ItemDefinitionArmor.json#HewnBarkLeggings_Unique,icons/3404fbb2df61af11.png
+SW.Item.HewnBarkBoots_Unique,木精灵根须靴,Woodsprite Root Boots,护甲,靴子,True,True,制箭师 独特：远程弹药冷却时间缩短 35%。,27,7,DT_ItemDefinitionArmor.json#HewnBarkBoots_Unique,icons/d5a3c79b23305f3d.png
+SW.Item.TimewornHelmet_Unique,灵魂腐化者面具,Soul Corruptor Mask,护甲,头盔,True,True,神射手 独特：蓄力远程攻击造成的伤害提高 60%。,48,5,DT_ItemDefinitionArmor.json#TimewornHelmet_Unique,icons/3a4add334e96a662.png
+SW.Item.TimewornChest_Unique,灵魂腐化者风衣,Soul Corruptor Duster,护甲,胸甲,True,True,图腾范围 独特：使所有正面状态的效果范围扩大 55%。,48,5,DT_ItemDefinitionArmor.json#TimewornChest_Unique,icons/bd4df8e7a269f2cb.png
+SW.Item.TimewornLeggings_Unique,灵魂腐化者腰带,Soul Corruptor Sash,护甲,护腿,True,True,精准射手 独特：远程武器的暴击伤害提高 45%。,48,5,DT_ItemDefinitionArmor.json#TimewornLeggings_Unique,icons/1b9c59c72b7d4409.png
+SW.Item.TimewornBoots_Unique,灵魂腐化者凉鞋,Soul Corruptor Sandals,护甲,靴子,True,True,瞄准 独特：远程攻击的暴击几率提高 25%。,48,5,DT_ItemDefinitionArmor.json#TimewornBoots_Unique,icons/e0491c12ab302685.png
+SW.Item.HoneyHelmet_Unique,蜂群意识安全帽,Hivemind Hardhat,护甲,头盔,True,True,盟友 独特：施加于自身和盟友的正面状态持续时间延长 70%。,18,7,DT_ItemDefinitionArmor.json#HoneyHelmet_Unique,icons/03cae49a45c8b607.png
+SW.Item.HoneyChest_Unique,蜂群意识胸甲,Hivemind Thorax,护甲,胸甲,True,True,治疗者 独特：自己和盟友获得的治疗效果提高 50%。,18,7,DT_ItemDefinitionArmor.json#HoneyChest_Unique,icons/c84ba436fb865abc.png
+SW.Item.HoneyLeggings_Unique,蜂群意识长裤,Hivemind Trousers,护甲,护腿,True,True,韧性 独特：从负面状态恢复的速度提高 50%。,21,7,DT_ItemDefinitionArmor.json#HoneyLeggings_Unique,icons/c351e2f4bec94718.png
+SW.Item.HoneyBoots_Unique,蜂群意识刺靴,Hivemind Stingers,护甲,靴子,True,True,冷却时间 独特：法器冷却时间缩短 30%。,21,7,DT_ItemDefinitionArmor.json#HoneyBoots_Unique,icons/b09bf2e0b0457271.png
+SW.Item.MushroomHelmet_Unique,毒蝇伞帽,Fly Agaric Cap,护甲,头盔,True,True,剧毒法师 独特：毒素攻击造成的伤害提高 20%。,51,11,DT_ItemDefinitionArmor.json#MushroomHelmet_Unique,icons/c44fc14ddf49e1a4.png
+SW.Item.MushroomChest_Unique,毒蝇伞外套,Fly Agaric Coat,护甲,胸甲,True,True,生命回复 独特：脱离战斗 5 秒后，每秒恢复 30% 生命值。,51,11,DT_ItemDefinitionArmor.json#MushroomChest_Unique,icons/95709316622cf634.png
+SW.Item.MushroomLeggings_Unique,毒蝇伞长裤,Fly Agaric Trousers,护甲,护腿,True,True,群兽首领 独特：同伴造成的伤害提高 40%。,54,11,DT_ItemDefinitionArmor.json#MushroomLeggings_Unique,icons/21fde25eb9538b99.png
+SW.Item.MushroomBoots_Unique,毒蝇伞雨鞋,Fly Agaric Galoshes,护甲,靴子,True,True,牧羊人 独特：同伴受到的伤害降低 20%。,54,11,DT_ItemDefinitionArmor.json#MushroomBoots_Unique,icons/157ba172bcea49cf.png
+SW.Item.DiscipleHelmet_Unique,贤者头带,Sage Headband,护甲,头盔,True,True,弹射物防护 独特：受到远程攻击的伤害降低 25%。,30,8,DT_ItemDefinitionArmor.json#DiscipleHelmet_Unique,icons/39b94f04a6412f33.png
+SW.Item.DiscipleChest_Unique,贤者束衣,Sage Tunic,护甲,胸甲,True,True,赏金猎人 独特：对受伤敌人造成的伤害提高 40%。,33,8,DT_ItemDefinitionArmor.json#DiscipleChest_Unique,icons/0ab9ced8b2d27575.png
+SW.Item.DiscipleLeggings_Unique,贤者腰带,Sage Belt,护甲,护腿,True,True,特技 独特：翻滚的冷却时间缩短 40%。,30,8,DT_ItemDefinitionArmor.json#DiscipleLeggings_Unique,icons/51439fa70e280eef.png
+SW.Item.DiscipleBoots_Unique,贤者裹足布,Sage Wraps,护甲,靴子,True,True,迅捷 独特：近战攻击速度提高 30%。,30,8,DT_ItemDefinitionArmor.json#DiscipleBoots_Unique,icons/5cf6676853b20cd3.png
+SW.Item.WellspringHelmet_Unique,狂怒汐浮特面具,Mad Sifter Mask,护甲,头盔,True,True,污染 独特：使敌人陷入负面状态的持续时间延长 100%。,45,8,DT_ItemDefinitionArmor.json#WellspringHelmet_Unique,icons/089540217b92548c.png
+SW.Item.WellspringChest_Unique,狂怒汐浮特背心,Mad Sifter Vest,护甲,胸甲,True,True,巫师 独特：法器攻击造成的伤害提高 25%。,45,8,DT_ItemDefinitionArmor.json#WellspringChest_Unique,icons/b5197ad73f3f34dd.png
+SW.Item.WellspringLeggings_Unique,狂怒汐浮特便裤,Mad Sifter Slacks,护甲,护腿,True,True,强化 独特：使施加于自身的正面状态持续时间延长 20%。,48,8,DT_ItemDefinitionArmor.json#WellspringLeggings_Unique,icons/7cf0b6f2489b4f83.png
+SW.Item.WellspringBoots_Unique,狂怒汐浮特之爪,Mad Sifter Paws,护甲,靴子,True,True,弹开 独特：有 25% 的几率弹开敌人的弹射物。,48,8,DT_ItemDefinitionArmor.json#WellspringBoots_Unique,icons/d2c5f6f00d3c7cd6.png
+SW.Item.RedstoneHelmet_Unique,巨兽角盔,Monstrosity Horns,护甲,头盔,True,True,火焰法师 独特：火焰攻击造成的伤害提高 20%。,51,11,DT_ItemDefinitionArmor.json#RedstoneHelmet_Unique,icons/b91d23c67be01868.png
+SW.Item.RedstoneChest_Unique,巨兽盔甲,Monstrosity Armor,护甲,胸甲,True,True,神器 独特：使用法器时，恢复 6% 最大生命值。,54,11,DT_ItemDefinitionArmor.json#RedstoneChest_Unique,icons/5c3448699125a851.png
+SW.Item.RedstoneLeggings_Unique,巨兽胫甲,Monstrosity Greaves,护甲,护腿,True,True,元素防护 独特：受到的元素攻击伤害降低 25%。,51,11,DT_ItemDefinitionArmor.json#RedstoneLeggings_Unique,icons/a6addedadbc9a964.png
+SW.Item.RedstoneBoots_Unique,巨兽战靴,Monstrosity Stompers,护甲,靴子,True,True,强力 独特：近战武器的暴击伤害提高 45%。,54,11,DT_ItemDefinitionArmor.json#RedstoneBoots_Unique,icons/55aabae7d6548341.png
+SW.Item.EvocationHelmet_Unique,炼金术士礼帽,Alchemist Top Hat,护甲,头盔,True,True,图腾范围 独特：使所有正面状态的效果范围扩大 55%。,33,2,DT_ItemDefinitionArmor.json#EvocationHelmet_Unique,icons/81f56dcb993d9419.png
+SW.Item.EvocationChest_Unique,炼金术士大衣,Alchemist Overcoat,护甲,胸甲,True,True,巫师 独特：法器攻击造成的伤害提高 25%。,30,2,DT_ItemDefinitionArmor.json#EvocationChest_Unique,icons/f40f1ca5be9a50f3.png
+SW.Item.EvocationLeggings_Unique,炼金术士长裤,Alchemist Trousers,护甲,护腿,True,True,神器 独特：使用法器时，恢复 6% 最大生命值。,33,2,DT_ItemDefinitionArmor.json#EvocationLeggings_Unique,icons/581f4bc7872d2014.png
+SW.Item.EvocationBoots_Unique,炼金术士便鞋,Alchemist Loafers,护甲,靴子,True,True,灵性 独特：灵魂容量提高 50%。,30,2,DT_ItemDefinitionArmor.json#EvocationBoots_Unique,icons/b58568123af487f6.png
+SW.Item.ScavengerHelmet,幽匿者面具,Sculker Mask,护甲,头盔,False,True,,51,8,DT_ItemDefinitionArmor.json#ScavengerHelmet,icons/654b90256cbfd4a9.png
+SW.Item.ScavengerChest,幽匿者长袍,Sculker Robe,护甲,胸甲,False,True,,51,8,DT_ItemDefinitionArmor.json#ScavengerChest,icons/b7a39e9172d44edc.png
+SW.Item.ScavengerLeggings,幽匿者便裤,Sculker Slacks,护甲,护腿,False,True,,51,8,DT_ItemDefinitionArmor.json#ScavengerLeggings,icons/5ac9eb8069affad1.png
+SW.Item.ScavengerBoots,幽匿者之靴,Sculker Boots,护甲,靴子,False,True,,51,8,DT_ItemDefinitionArmor.json#ScavengerBoots,icons/25fbe52bd765633f.png
+SW.Item.ScavengerHelmet_Unique,君主王冠,Monarch Crown,护甲,头盔,True,True,搜刮者 独特：有 80% 的几率掉落额外的战利品。,51,8,DT_ItemDefinitionArmor.json#ScavengerHelmet_Unique,icons/4f9687ea87352e51.png
+SW.Item.ScavengerChest_Unique,君主披风,Monarch Mantle,护甲,胸甲,True,True,韧性 独特：从负面状态恢复的速度提高 50%。,51,8,DT_ItemDefinitionArmor.json#ScavengerChest_Unique,icons/6b1d7a63ef808620.png
+SW.Item.ScavengerLeggings_Unique,君主腰带,Monarch Sash,护甲,护腿,True,True,灵性 独特：灵魂容量提高 50%。,48,8,DT_ItemDefinitionArmor.json#ScavengerLeggings_Unique,icons/ceff5338a786c4a3.png
+SW.Item.ScavengerBoots_Unique,君主利爪,Monarch Talons,护甲,靴子,True,True,恶霸 独特：对受负面状态影响的敌人造成的伤害提高 50%。,51,8,DT_ItemDefinitionArmor.json#ScavengerBoots_Unique,icons/2e7202e1da4b114a.png
+SW.Item.Artifact.RallyingHorn,轰鸣号角,Humbling Horn,法器,法器,False,True,,39,8,DT_ItemDefinitionArtifact.json#RallyingHorn,icons/af7f97b5ff9bea53.png
+SW.Item.Artifact.TotemOfRegeneration,回复图腾,Totem of Regeneration,法器,法器,False,True,,39,2,DT_ItemDefinitionArtifact.json#TotemOfRegeneration,icons/2e628cf2102e3a2f.png
+SW.Item.Artifact.SoulHarvester,灵魂收割者,Soul Harvester,法器,法器,False,True,,24,9,DT_ItemDefinitionArtifact.json#SoulHarvester,icons/dfec011a5ad1ce1c.png
+SW.Item.Artifact.PicnicBlanket,野餐篮,Picnic Basket,法器,法器,False,True,,33,2,DT_ItemDefinitionArtifact.json#PicnicBlanket,icons/6993398313fcae80.png
+SW.Item.Artifact.CorruptedBeacon,腐化信标,Corrupted Beacon,法器,法器,False,True,,24,11,DT_ItemDefinitionArtifact.json#CorruptedBeacon,icons/df26f00cc91361d4.png
+SW.Item.Artifact.CorruptedSeeds,腐化种子,Corrupted Seeds,法器,法器,False,True,,24,9,DT_ItemDefinitionArtifact.json#CorruptedSeeds,icons/15c43d41f43be10b.png
+SW.Item.Artifact.DeathcapMushroom,死亡帽蘑菇,Death Cap Mushroom,法器,法器,False,True,,24,4,DT_ItemDefinitionArtifact.json#DeathcapMushroom,icons/82285dd46155d66e.png
+SW.Item.Artifact.TotemOfShielding,护盾图腾,Totem of Shielding,法器,法器,False,True,,33,8,DT_ItemDefinitionArtifact.json#TotemOfShielding,icons/ae25c566a368d7b5.png
+SW.Item.Artifact.TotemOfCasting,施法图腾,Totem of Casting,法器,法器,False,True,,33,7,DT_ItemDefinitionArtifact.json#TotemOfCasting,icons/7977a8ea65e466f3.png
+SW.Item.Artifact.SmokeBomb,末影迷雾,Ender Fog,法器,法器,False,True,,24,4,DT_ItemDefinitionArtifact.json#SmokeBomb,icons/0597f081dd84264f.png
+SW.Item.Artifact.RedstoneMines,红石地雷发射器,Redstone Mine Launcher,法器,法器,False,True,,24,11,DT_ItemDefinitionArtifact.json#RedstoneMines,icons/85355801adb36b8b.png
+SW.Item.Artifact.WitchesBrew,女巫药剂,Witch Brew,法器,法器,False,True,,24,4,DT_ItemDefinitionArtifact.json#WitchesBrew,icons/4e3cd8e72524e0fc.png
+SW.Item.Artifact.Satchel.Fire,余烬小袋,Pouch of Ember,法器,法器,False,True,,24,8,DT_ItemDefinitionArtifact.json#FireSatchel,icons/38628175154a9ac9.png
+SW.Item.Artifact.Satchel.Freezing,寒霜小袋,Pouch of Frost,法器,法器,False,True,,24,11,DT_ItemDefinitionArtifact.json#FreezingSatchel,icons/3e03b6e71486934f.png
+SW.Item.Artifact.Satchel.Poison,剧毒小袋,Pouch of Poison,法器,法器,False,True,,24,2,DT_ItemDefinitionArtifact.json#PoisonSatchel,icons/c0ce6417be5ca98e.png
+SW.Item.Artifact.Satchel.Conductive,雷霆小袋,Pouch of Thunder,法器,法器,False,True,,24,8,DT_ItemDefinitionArtifact.json#ConductiveSatchel,icons/7e5bfbfc4d262993.png
+SW.Item.Artifact.CreeperCandle,苦力怕蜡烛,Creeper Candle,法器,法器,False,True,,24,13,DT_ItemDefinitionArtifact.json#CreeperCandle,icons/c878ea1775c41daf.png
+SW.Item.Artifact.LightningRod,雷霆之杖,Lightning Rod,法器,法器,False,True,,24,4,DT_ItemDefinitionArtifact.json#LightningRod,icons/dba46e50e0de50f9.png
+SW.Item.Artifact.MaimingMushroom,战斗真菌,Fighting Fungus,法器,法器,False,True,,24,4,DT_ItemDefinitionArtifact.json#MaimingMushroom,icons/5077620b2ddf136d.png
+SW.Item.Artifact.HasteMushroom,迅捷松露,Tempo Truffle,法器,法器,False,True,,24,7,DT_ItemDefinitionArtifact.json#HasteMushroom,icons/cdedbaa7329ddcd7.png
+SW.Item.Artifact.WarriorsDrums,战鼓,Warrior Drums,法器,法器,False,True,,24,11,DT_ItemDefinitionArtifact.json#WarriorsDrum,icons/91c9c27b9b081cdb.png
+SW.Item.Artifact.CarapaceOcarina,回响陶笛,Echo Ocarina,法器,法器,False,True,,24,6,DT_ItemDefinitionArtifact.json#CarapaceOcarina,icons/64356916474d84af.png
+SW.Item.Artifact.FightersFife,战士长笛,Fighter's Flute,法器,法器,False,True,,36,8,DT_ItemDefinitionArtifact.json#FightersFife,icons/1df0db5a118ef2eb.png
+SW.Item.Artifact.Grindstone,磨刀石,Grindstone,法器,法器,False,True,,24,10,DT_ItemDefinitionArtifact.json#Grindstone,icons/a6e0abaa4205dd9e.png
+SW.Item.Artifact.IronHideLute,神龟曼陀林,Turtle Master's Mandolin,法器,法器,False,True,,24,9,DT_ItemDefinitionArtifact.json#IronHideLute,icons/ab2e756a86a24148.png
+SW.Item.Artifact.WardingChimes,守护风铃,Warding Chimes,法器,法器,False,True,,24,7,DT_ItemDefinitionArtifact.json#WardingChimes,icons/de508ca36bf6cb8e.png
+SW.Item.Artifact.WarBanner,战旗,Battle Banner,法器,法器,False,True,,39,7,DT_ItemDefinitionArtifact.json#WarBanner,icons/016a95a4d6b7d45e.png
+SW.Item.Artifact.Honeypot,蜂蜜蘸棒,Honey Dipper,法器,法器,False,True,,36,12,DT_ItemDefinitionArtifact.json#Honeypot,icons/03a79dd30b456da7.png
+SW.Item.Artifact.FlameSceptre,余烬权杖,Cinder Scepter,法器,法器,False,True,,24,8,DT_ItemDefinitionArtifact.json#FlameSceptre,icons/b9f1e4b4f58473db.png
+SW.Item.Artifact.BlizzardStaff,寒冬法杖,Winter Staff,法器,法器,False,True,,24,4,DT_ItemDefinitionArtifact.json#BlizzardStaff,icons/075980747652b402.png
+SW.Item.Artifact.FireBracelet,烈焰手环,Blaze Bangle,法器,法器,False,True,,24,3,DT_ItemDefinitionArtifact.json#FireBracelet,icons/7f157e81b187ac22.png
+SW.Item.Artifact.FrostBracelet,暴雪手环,Blizzard Bangle,法器,法器,False,True,,24,7,DT_ItemDefinitionArtifact.json#FrostBracelet,icons/935eea61c7008c1b.png
+SW.Item.Artifact.PoisonBracelet,枯萎手环,Blight Bangle,法器,法器,False,True,,24,7,DT_ItemDefinitionArtifact.json#PoisonBracelet,icons/aa948f5af13f99fd.png
+SW.Item.Artifact.ConductiveBracelet,电击手环,Electric Bangle,法器,法器,False,True,,24,10,DT_ItemDefinitionArtifact.json#ConductiveBracelet,icons/8b1c45e171f34143.png
+SW.Item.Artifact.Powershaker,巨力砂槌,Powershaker,法器,法器,False,True,,24,11,DT_ItemDefinitionArtifact.json#Powershaker,icons/5cb95f785dc208e6.png
+SW.Item.Artifact.FireworkQuiver,烟花箭,Firework Arrow,法器,法器,False,True,,42,8,DT_ItemDefinitionArtifact.json#FireworkQuiver,icons/e160a1d3b9f9d3bb.png
+SW.Item.Artifact.FlameQuiver,火焰箭袋,Flaming Quiver,法器,法器,False,True,,42,7,DT_ItemDefinitionArtifact.json#FlameQuiver,icons/234047f16d29d47e.png
+SW.Item.Artifact.PoisonQuiver,剧毒箭袋,Venomous Quiver,法器,法器,False,True,,42,4,DT_ItemDefinitionArtifact.json#PoisonQuiver,icons/ea674c5258dc2c4f.png
+SW.Item.Artifact.FrostQuiver,冰冻箭袋,Freezing Quiver,法器,法器,False,True,,42,8,DT_ItemDefinitionArtifact.json#FrostQuiver,icons/fde6047c9eb2a5cc.png
+SW.Item.Artifact.LightningQuiver,导电箭袋,Conductive Quiver,法器,法器,False,True,,42,7,DT_ItemDefinitionArtifact.json#LightningQuiver,icons/0d5c0a9d66fc2635.png
+SW.Item.EnchantmentBook.Arcane,法器增幅器,Artifact Amplifier,附魔书,附魔书,False,True,,0,0,DT_ItemDefinitionEnchantmentBook.json#Arcane,icons/524105bccdd56159.png
+SW.Item.EnchantmentBook.Blowback,坠落冲击,Crash Landing,附魔书,附魔书,False,True,,0,30,DT_ItemDefinitionEnchantmentBook.json#Blowback,icons/e6ee4dffa23392fe.png
+SW.Item.EnchantmentBook.Borealis,末影地雷,Ender Mines,附魔书,附魔书,False,True,,0,30,DT_ItemDefinitionEnchantmentBook.json#Borealis,icons/d2162ba023d5e296.png
+SW.Item.EnchantmentBook.Channeling,闪电涌动,Lightning Surge,附魔书,附魔书,False,True,,0,30,DT_ItemDefinitionEnchantmentBook.json#Channeling,icons/f5922a88ceca4385.png
+SW.Item.EnchantmentBook.Dynamo,活力,Dynamo,附魔书,附魔书,False,True,,0,30,DT_ItemDefinitionEnchantmentBook.json#Dynamo,icons/81111d323012f855.png
+SW.Item.EnchantmentBook.FireAspect,火焰附加,Fire Aspect,附魔书,附魔书,False,True,,0,30,DT_ItemDefinitionEnchantmentBook.json#FireAspect,icons/b74166984aba69f4.png
+SW.Item.EnchantmentBook.FrostCrescent,寒霜斩,Frost Crescent,附魔书,附魔书,False,True,,0,30,DT_ItemDefinitionEnchantmentBook.json#FrostCrescent,icons/c0025d34bf6d531c.png
+SW.Item.EnchantmentBook.GravityPulse,重力脉冲,Gravity Pulse,附魔书,附魔书,False,True,,0,0,DT_ItemDefinitionEnchantmentBook.json#GravityPulse,icons/a6164a7c60bac9f1.png
+SW.Item.EnchantmentBook.HealthSynergy,生命增效,Health Synergy,附魔书,附魔书,False,True,,0,0,DT_ItemDefinitionEnchantmentBook.json#HealthSynergy,icons/c787da4ecc4b1e3f.png
+SW.Item.EnchantmentBook.PoisonFog,毒雾,Poison Fog,附魔书,附魔书,False,True,,0,30,DT_ItemDefinitionEnchantmentBook.json#PoisonFog,icons/0fc379afda729b6b.png
+SW.Item.EnchantmentBook.PotionBarrier,屏障药剂,Barrier Brew,附魔书,附魔书,False,True,,0,0,DT_ItemDefinitionEnchantmentBook.json#PotionBarrier,icons/b7966b3e4a6a077f.png
+SW.Item.EnchantmentBook.Radiance,治疗重击,Healing Smite,附魔书,附魔书,False,True,,0,1,DT_ItemDefinitionEnchantmentBook.json#Radiance,icons/30c2916993e96f58.png
+SW.Item.EnchantmentBook.ShadowStrike,暗影潜行,Shadowcloak,附魔书,附魔书,False,True,,0,0,DT_ItemDefinitionEnchantmentBook.json#ShadowStrike,icons/755ef7ee4c6c7e60.png
+SW.Item.EnchantmentBook.Shockwave,震荡波,Shockwave,附魔书,附魔书,False,True,,0,0,DT_ItemDefinitionEnchantmentBook.json#Shockwave,icons/da176600dea06d1f.png
+SW.Item.EnchantmentBook.SoulAspect,灵魂冲击,Soul Blast,附魔书,附魔书,False,True,,0,1,DT_ItemDefinitionEnchantmentBook.json#SoulAspect,icons/ddf749a8049aae00.png
+SW.Item.EnchantmentBook.SoulInfusedPotion,远古炼金术,Ancient Alchemy,附魔书,附魔书,False,True,,0,1,DT_ItemDefinitionEnchantmentBook.json#SoulInfusedPotion,icons/66265fa0162e1941.png
+SW.Item.EnchantmentBook.Swirling,旋风攻击,Swirling,附魔书,附魔书,False,True,,0,0,DT_ItemDefinitionEnchantmentBook.json#Swirling,icons/c9981e0b9fc1af84.png
+SW.Item.EnchantmentBook.TempoTheft,速度窃取,Tempo Theft,附魔书,附魔书,False,True,,0,0,DT_ItemDefinitionEnchantmentBook.json#TempoTheft,icons/781d69c4119d1f5b.png
+SW.Item.EnchantmentBook.Thundering,引雷,Thundering,附魔书,附魔书,False,True,,0,30,DT_ItemDefinitionEnchantmentBook.json#Thundering,icons/650c30f56c5a8e33.png
+SW.Item.EnchantmentBook.Unstoppable,疯牛冲锋,Cow Stampede,附魔书,附魔书,False,True,,0,30,DT_ItemDefinitionEnchantmentBook.json#Unstoppable,icons/cf4b6269de5a1650.png
+SW.Item.EnchantmentBook.MultiRoll,空翻,Somersault,附魔书,附魔书,False,True,,0,0,DT_ItemDefinitionEnchantmentBook.json#MultiRoll,icons/f40531cdb2da17f0.png
+SW.Item.EnchantmentBook.PotionSharing,伙伴药剂,Buddy Brew,附魔书,附魔书,False,True,,0,30,DT_ItemDefinitionEnchantmentBook.json#PotionSharing,icons/34f99dd90d401d81.png
+SW.Item.EnchantmentBook.LingeringPower,力量增幅器,Power Amplifier,附魔书,附魔书,False,True,,0,0,DT_ItemDefinitionEnchantmentBook.json#LingeringPower,icons/70c41b4918376ddd.png
+SW.Item.EnchantmentBook.GuardingStrike,防护重击,Shielding Smite,附魔书,附魔书,False,True,,0,0,DT_ItemDefinitionEnchantmentBook.json#GuardingStrike,icons/73621cfc4dc80061.png
+SW.Item.EnchantmentBook.SpringLoaded,弹簧蓄力,Springload,附魔书,附魔书,False,True,,0,0,DT_ItemDefinitionEnchantmentBook.json#SpringLoaded,icons/59d7af2efadab6d9.png
+SW.Item.EnchantmentBook.ExpandedQuiver,末影箭袋,Ender Quiver,附魔书,附魔书,False,True,,0,30,DT_ItemDefinitionEnchantmentBook.json#ExpandedQuiver,icons/900f01718469eb98.png
+SW.Item.EnchantmentBook.CriticalQuiver,暴击箭袋,Critical Quiver,附魔书,附魔书,False,True,,0,0,DT_ItemDefinitionEnchantmentBook.json#CriticalQuiver,icons/1758a11d8a051597.png
+SW.Item.EnchantmentBook.MultiPotion,无尽药剂,Bottomless Brew,附魔书,附魔书,False,True,,0,0,DT_ItemDefinitionEnchantmentBook.json#MultiPotion,icons/c7ea943676241689.png
+SW.Item.EnchantmentBook.Piercing,穿透,Piercing,附魔书,附魔书,False,True,,0,1,DT_ItemDefinitionEnchantmentBook.json#Piercing,icons/e513ff7a53642e34.png
+SW.Item.EnchantmentBook.Ricochet,弹射,Ricochet,附魔书,附魔书,False,True,,0,0,DT_ItemDefinitionEnchantmentBook.json#Ricochet,icons/130b80158d7b13f1.png
+SW.Item.EnchantmentBook.ChainReaction,连锁反应,Chain Reaction,附魔书,附魔书,False,True,,0,0,DT_ItemDefinitionEnchantmentBook.json#ChainReaction,icons/7a634be42ca087c7.png
+SW.Item.EnchantmentBook.BurstBowstring,翻滚射击,Tumbleshot,附魔书,附魔书,False,True,,0,0,DT_ItemDefinitionEnchantmentBook.json#BurstBowstring,icons/f8efd61c28d8b8eb.png
+SW.Item.Talisman.RangedBuff,紫水晶透镜,Amethyst Lens,护符,护符,False,True,,0,2,DT_ItemDefinitionTalisman.json#RangedBuffTalisman,icons/dd2ce282c4cd07e9.png
+SW.Item.Talisman.HealthBoost,蜂蜡之印,Sigil of Beeswax,护符,护符,False,True,,0,1,DT_ItemDefinitionTalisman.json#HealthBoostTalisman,icons/4f9905a48a869e5c.png
+SW.Item.Talisman.Plummeting,豹猫之爪,Ocelot's Paw,护符,护符,False,True,,0,0,DT_ItemDefinitionTalisman.json#PlummetingTalisman,icons/66415625edc0bcba.png
+SW.Item.Talisman.Brawling,铁拳,Fist of Iron,护符,护符,False,True,,0,1,DT_ItemDefinitionTalisman.json#BrawlingTalisman,icons/6bb5caa56bdb5cc1.png
+SW.Item.Talisman.IronGolem,傀儡工具包,Golem Kit,护符,护符,False,True,,0,1,DT_ItemDefinitionTalisman.json#IronGolemTalisman,icons/2d83fa7b65b9bfd0.png
+sw.Item.Talisman.Llama,神奇小麦,Wonderful Wheat,护符,护符,False,True,,0,0,DT_ItemDefinitionTalisman.json#LlamaTalisman,icons/b92cb76f51abc8b2.png
+SW.Item.Talisman.Wolf,美味骨头,Tasty Bone,护符,护符,False,True,,0,1,DT_ItemDefinitionTalisman.json#WolfTalisman,icons/7b6e32a7dc8b8704.png
+SW.Item.Talisman.SoulGather,扭曲之牙,Twisted Tooth,护符,护符,False,True,,0,1,DT_ItemDefinitionTalisman.json#SoulGatherTalisman,icons/2ccfc355c51b4638.png
+SW.Item.Talisman.PotionCooldown,萤石瓶,Glowstone Flask,护符,护符,False,True,,0,0,DT_ItemDefinitionTalisman.json#PotionCooldownTalisman,icons/39c01164684ddb99.png
+SW.Item.Talisman.Healing,治愈之心,Healing Heart,护符,护符,False,True,,0,1,DT_ItemDefinitionTalisman.json#HealingTalisman,icons/1e5713d11d2741cd.png
+SW.Item.Talisman.SpeedIncrement,冲力徽章,Medallion of Momentum,护符,护符,False,True,,0,0,DT_ItemDefinitionTalisman.json#SpeedIncrementTalisman,icons/dd7ba2ab2915f9e9.png
+SW.Item.Talisman.DoubleDrop,幸运四叶草,Lucky Clover,护符,护符,False,True,,0,0,DT_ItemDefinitionTalisman.json#DoubleDropTalisman,icons/512609af9f288cd1.png
+SW.Item.Talisman.EmeraldIncrease,幸运绿宝石,Emerald of Good Fortune,护符,护符,False,True,,0,0,DT_ItemDefinitionTalisman.json#EmeraldIncrease,icons/0217ea04bd646126.png
+SW.Item.Talisman.DropChance,寻宝者护符,Looter's Charm,护符,护符,False,True,,0,1,DT_ItemDefinitionTalisman.json#DropChanceTalisman,icons/61aa131e18b1e079.png
+SW.Item.Talisman.ArtifactCooldown,效率精华,Essence of Efficiency,护符,护符,False,True,,0,1,DT_ItemDefinitionTalisman.json#ArtifactCooldownTalisman,icons/0c670f4babc03055.png
+SW.Item.Talisman.RollingCooldown,犰狳护身符,Armadillo Amulet,护符,护符,False,True,,0,1,DT_ItemDefinitionTalisman.json#RollingCooldownTalisman,icons/610d304258c78ec2.png
+SW.Item.Talisman.SoulCapacity,灵魂碎片,Soul Chip,护符,护符,False,True,,0,0,DT_ItemDefinitionTalisman.json#SoulCapacityTalisman,icons/ca388b1d6caf8a74.png
+SW.Item.Talisman.AmmoCapacity,深色橡树枝,Twig of Dark Oak,护符,护符,False,True,,0,1,DT_ItemDefinitionTalisman.json#AmmoCapacityTalisman,icons/8ace3b77350fe6df.png
+SW.Item.Talisman.StatusBuff,幽匿徽章,Sculk Badge,护符,护符,False,True,,0,1,DT_ItemDefinitionTalisman.json#StatusBuffTalisman,icons/5c90cfbb010f9395.png
+SW.Item.Talisman.ExperienceIncrease,经验之眼,The Eye of Experience,护符,护符,False,True,,0,1,DT_ItemDefinitionTalisman.json#ExperienceIncreaseTalisman,icons/66f4d5af6e7ea36a.png
+SW.Item.Talisman.HealthyStrike,浮须触手,Tendrils of the Sprout,护符,护符,False,True,,0,1,DT_ItemDefinitionTalisman.json#HealthyStrikeTalisman,icons/a030c34caf7af175.png
+SW.Item.Talisman.Prickle,刺须怪印记,Prickle's Mark,护符,护符,False,True,,0,1,DT_ItemDefinitionTalisman.json#PrickleTalisman,icons/624cec690f7c15b6.png
+SW.Item.Talisman.Wobble,晃墩墩石,Wobblestone,护符,护符,False,True,,0,1,DT_ItemDefinitionTalisman.json#WobbleTalisman,icons/c0b15c9417f877ec.png
+SW.Item.Talisman.FiringEmeralds,节俭吊坠,Thrifty Pendant,护符,护符,False,True,,0,0,DT_ItemDefinitionTalisman.json#FiringEmeraldTalisman,icons/66ec50caa548aacb.png
+SW.Item.Cosmetic.Cape.Soul,灵魂披风,Soul Cape,披风,披风,False,True,,0,0,DT_ItemDefinitionCape.json#Soul,icons/04ce4e442e601d07.png
+SW.Item.Cosmetic.Cape.Twisted,扭曲披风,Twisted Cape,披风,披风,False,True,,0,0,DT_ItemDefinitionCape.json#Twisted,icons/860c1c8fb4c213a0.png
+SW.Item.Cosmetic.Cape.Special,特别披风,Special Cape,披风,披风,False,True,,0,0,DT_ItemDefinitionCape.json#Special,icons/3a88fd592bf5e1ab.png
+SW.Item.Cosmetic.Cape.CorruptedCreeper,腐化苦力怕披风,Corrupted Creeper Cape,披风,披风,False,True,,0,0,DT_ItemDefinitionCape.json#CorruptedCreeper,icons/e8f42999fb557e6c.png
+SW.Item.Cosmetic.Cape.Hero,英雄披风,Hero Cape,披风,披风,False,True,,0,0,DT_ItemDefinitionCape.json#Hero,icons/a5c931fea02faf52.png
+SW.Item.Cosmetic.Cape.Mojang,Mojang 披风,Mojang Cape,披风,披风,False,True,,0,0,DT_ItemDefinitionCape.json#Mojang,icons/ac4f1a9eb5edb105.png
+SW.Item.Cosmetic.Cape.SliceSlayer,美食杀手披风,Slice Slayer Cape,披风,披风,False,True,,0,0,DT_ItemDefinitionCape.json#SliceSlayer,icons/2ae19e3aeb364a6e.png
+SW.Item.Cosmetic.Pet.Blub,泡泡怪宠物,Blub Pet,宠物,宠物,False,True,,0,0,DT_ItemDefinitionPet.json#Blub,icons/82d2ded0c27d4c25.png
+SW.Item.Cosmetic.Pet.TwistedChicken,扭曲鸡宠物,Twisted Chicken Pet,宠物,宠物,False,True,,0,0,DT_ItemDefinitionPet.json#TwistedChicken,icons/ee85359f32005b3f.png
+SW.Item.Cosmetic.Pet.SlimeSupreme,芝士方块宠物,Cheesy Cube Pet,宠物,宠物,False,True,,0,0,DT_ItemDefinitionPet.json#SlimeSupreme,icons/efd7a6e9aa87c520.png
+SW.Item.Consumable.Throwable.TNT,TNT,TNT,投掷物,投掷物,False,True,,0,0,DT_ItemDefinitionThrowable.json#TNT,icons/330856df6acd15a4.png

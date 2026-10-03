@@ -1,0 +1,9099 @@
+[
+	{
+		"Name": "Illagers",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Illagers"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Illagers.MeleeMix"
+								},
+								"Weight": 10,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Illagers.RangedMix"
+								},
+								"Weight": 7,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Illagers.SpecialMix"
+								},
+								"Weight": 2,
+								"Operation": "Set"
+							}
+						]
+					},
+					"AdditionalSpawnTables":
+					{
+						"1":
+						{
+							"Tags": [
+								{
+									"TypeTag":
+									{
+										"TagName": "SW.Mob.Enchanter"
+									},
+									"Weight": 2,
+									"Operation": "Set"
+								}
+							]
+						}
+					},
+					"MaxPickTypes": 3,
+					"MinPickTypes": 1,
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_CheckAreaTag'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_CheckAreaTagData",
+										"AreaTag":
+										{
+											"TagName": "SW.Area.Camp.A1"
+										}
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.SpawnDefinition.Illagers.SpecialMix"
+										},
+										"Weight": 0,
+										"Operation": "Multiply"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Enchanter"
+										},
+										"Weight": 0,
+										"Operation": "Multiply"
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		}
+	},
+	{
+		"Name": "IllagersSoulstatedMix",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Illagers.SoulstatedMix"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Illagers"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Illagers.Soulstated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 2,
+					"MinPickTypes": 2
+				}
+			}
+		}
+	},
+	{
+		"Name": "IllagerMeleeAll",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Illagers.MeleeMix"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Vindicator"
+								},
+								"Weight": 10,
+								"Operation": "Set"
+							}
+						]
+					},
+					"AdditionalSpawnTables":
+					{
+						"1":
+						{
+							"Tags": [
+								{
+									"TypeTag":
+									{
+										"TagName": "SW.Mob.VindicatorVariant1"
+									},
+									"Weight": 5,
+									"Operation": "Set"
+								},
+								{
+									"TypeTag":
+									{
+										"TagName": "SW.Mob.VindicatorVariant2"
+									},
+									"Weight": 2,
+									"Operation": "Set"
+								}
+							]
+						}
+					},
+					"MaxPickTypes": 3,
+					"MinPickTypes": 2,
+					"WeightsModulatedByThreatLevel":
+					{
+						"(TagName=\"SW.Mob.VindicatorVariant1\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "VindicatorVariant1"
+						},
+						"(TagName=\"SW.Mob.VindicatorVariant2\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "VindicatorVariant2"
+						}
+					},
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_CheckMultipleAreaTags'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_CheckAreaTagsData",
+										"AreaTags": [
+											{
+												"TagName": "SW.Area.DeepDark.T1"
+											},
+											{
+												"TagName": "SW.Area.DeepDark.A1"
+											}
+										]
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.DeepDarkIllager"
+										},
+										"Weight": 10,
+										"Operation": "Set"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.DeepDarkIllager.BackpackVariant"
+										},
+										"Weight": 2,
+										"Operation": "Set"
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		}
+	},
+	{
+		"Name": "IllagerRangedAll",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Illagers.RangedMix"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Pillager"
+								},
+								"Weight": 10,
+								"Operation": "Set"
+							}
+						]
+					},
+					"AdditionalSpawnTables":
+					{
+						"1":
+						{
+							"Tags": [
+								{
+									"TypeTag":
+									{
+										"TagName": "SW.Mob.PillagerVariant1"
+									},
+									"Weight": 5,
+									"Operation": "Set"
+								},
+								{
+									"TypeTag":
+									{
+										"TagName": "SW.Mob.PillagerVariant2"
+									},
+									"Weight": 2,
+									"Operation": "Set"
+								}
+							]
+						}
+					},
+					"MaxPickTypes": 3,
+					"MinPickTypes": 2,
+					"WeightsModulatedByThreatLevel":
+					{
+						"(TagName=\"SW.Mob.PillagerVariant1\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "PillagerVariant1"
+						},
+						"(TagName=\"SW.Mob.PillagerVariant2\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "PillagerVariant2"
+						}
+					},
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_CheckMultipleAreaTags'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_CheckAreaTagsData",
+										"AreaTags": [
+											{
+												"TagName": "SW.Area.DeepDark.A1"
+											},
+											{
+												"TagName": "SW.Area.DeepDark.T1"
+											}
+										]
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.DeepDarkGolem"
+										},
+										"Weight": 5,
+										"Operation": "Set"
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		}
+	},
+	{
+		"Name": "IllagerSpecialAll",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Illagers.SpecialMix"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Geomancer"
+								},
+								"Weight": 10,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Ravager"
+								},
+								"Weight": 7.5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Ravager.WithRider"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.RoyalGuard"
+								},
+								"Weight": 10,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 2,
+					"MinPickTypes": 1,
+					"WeightsModulatedByThreatLevel":
+					{
+						"(TagName=\"SW.Mob.Ravager\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "Ravager"
+						},
+						"(TagName=\"SW.Mob.Ravager.WithRider\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "Ravager"
+						},
+						"(TagName=\"SW.Mob.RoyalGuard\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "RoyalGuard"
+						}
+					},
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_CheckMultipleAreaTags'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_CheckAreaTagsData",
+										"AreaTags": [
+											{
+												"TagName": "SW.Area.Meadow.R0"
+											},
+											{
+												"TagName": "SW.Area.Meadow.R1"
+											},
+											{
+												"TagName": "SW.Area.DeepDark.A1"
+											}
+										]
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Ravager"
+										},
+										"Weight": 0,
+										"Operation": "Multiply"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Ravager.WithRider"
+										},
+										"Weight": 0,
+										"Operation": "Multiply"
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		}
+	},
+	{
+		"Name": "RoyalGuards",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Illagers.RoyalGuards"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.RoyalGuard"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "IllagerSoulstated",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Illagers.Soulstated"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob.Soulstated\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Enchanter.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Geomancer.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Pillager.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.PillagerVariant1.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.PillagerVariant2.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Ravager.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Ravager.WithRider.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.RoyalGuard.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Vindicator.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.VindicatorVariant1.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.VindicatorVariant2.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0,
+					"WeightsModulatedByThreatLevel":
+					{
+						"(TagName=\"SW.Mob.VindicatorVariant1.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "VindicatorVariant1"
+						},
+						"(TagName=\"SW.Mob.VindicatorVariant2.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "VindicatorVariant2"
+						},
+						"(TagName=\"SW.Mob.PillagerVariant1.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "PillagerVariant1"
+						},
+						"(TagName=\"SW.Mob.PillagerVariant2.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "PillagerVariant2"
+						},
+						"(TagName=\"SW.Mob.RoyalGuard.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "RoyalGuard"
+						},
+						"(TagName=\"SW.Mob.Ravager.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "Ravager"
+						},
+						"(TagName=\"SW.Mob.Ravager.WithRider.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "Ravager"
+						}
+					},
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_CheckMultipleAreaTags'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_CheckAreaTagsData",
+										"AreaTags": [
+											{
+												"TagName": "SW.Area.DeepDark"
+											}
+										]
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.DeepDarkIllager.BackpackVariant.SoulStated"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.DeepDarkIllager.SoulStated"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.DeepDarkGolem.SoulStated"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		}
+	},
+	{
+		"Name": "IllagerBoss",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Illagers.Boss"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Illagers"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				},
+				"(TagName=\"SW.SpawnSlot.Mob.Special\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.RoyalGuard.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Geomancer.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Ravager.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Ravager.WithRider.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Evoker"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Evoker.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0,
+					"WeightsModulatedByThreatLevel":
+					{
+						"(TagName=\"SW.Mob.Geomancer.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_ProceduralBossSpawnChances.CT_ProceduralBossSpawnChances'",
+							"RowName": "GeomancerSoulStated"
+						},
+						"(TagName=\"SW.Mob.RoyalGuard.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_ProceduralBossSpawnChances.CT_ProceduralBossSpawnChances'",
+							"RowName": "RoyalGuardSoulStated"
+						},
+						"(TagName=\"SW.Mob.Ravager.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_ProceduralBossSpawnChances.CT_ProceduralBossSpawnChances'",
+							"RowName": "RavagerSoulStated"
+						},
+						"(TagName=\"SW.Mob.Ravager.WithRider.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_ProceduralBossSpawnChances.CT_ProceduralBossSpawnChances'",
+							"RowName": "RavagerWithRiderSoulStated"
+						},
+						"(TagName=\"SW.Mob.Evoker\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_ProceduralBossSpawnChances.CT_ProceduralBossSpawnChances'",
+							"RowName": "Evoker"
+						},
+						"(TagName=\"SW.Mob.Evoker.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_ProceduralBossSpawnChances.CT_ProceduralBossSpawnChances'",
+							"RowName": "EvokerSoulStated"
+						}
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "Sentinels",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Sentinels"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Sentinels.MeleeMix"
+								},
+								"Weight": 10,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Sentinels.RangedMix"
+								},
+								"Weight": 10,
+								"Operation": "Set"
+							}
+						]
+					},
+					"AdditionalSpawnTables":
+					{
+						"1":
+						{
+							"Tags": [
+								{
+									"TypeTag":
+									{
+										"TagName": "SW.SpawnDefinition.Sentinels.SpecialMix"
+									},
+									"Weight": 4,
+									"Operation": "Set"
+								}
+							]
+						}
+					},
+					"MaxPickTypes": 3,
+					"MinPickTypes": 1
+				}
+			}
+		}
+	},
+	{
+		"Name": "SentinelMelee",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Sentinels.MeleeMix"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.WildSentinel"
+								},
+								"Weight": 10,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.BabySentinel"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 2,
+					"MinPickTypes": 1
+				}
+			}
+		}
+	},
+	{
+		"Name": "SentinelRanged",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Sentinels.RangedMix"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.GrooblerSentinel"
+								},
+								"Weight": 10,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.CrestedSentinel"
+								},
+								"Weight": 10,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 2,
+					"MinPickTypes": 1
+				}
+			}
+		}
+	},
+	{
+		"Name": "SentinelSpecial",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Sentinels.SpecialMix"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.FloatySentinel"
+								},
+								"Weight": 10,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 1
+				}
+			}
+		}
+	},
+	{
+		"Name": "SentinelBoss",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Sentinels.Boss"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Sentinels"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				},
+				"(TagName=\"SW.SpawnSlot.Mob.Special\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Driftweaver"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Driftweaver.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.WellspringMiniboss"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.WellspringMiniboss.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0,
+					"WeightsModulatedByThreatLevel":
+					{
+						"(TagName=\"SW.Mob.Driftweaver\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_ProceduralBossSpawnChances.CT_ProceduralBossSpawnChances'",
+							"RowName": "Driftweaver"
+						},
+						"(TagName=\"SW.Mob.Driftweaver.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_ProceduralBossSpawnChances.CT_ProceduralBossSpawnChances'",
+							"RowName": "DriftWeaverSoulstated"
+						}
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "SentinelBoss_DriftWeaver",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Sentinels.Boss.DriftweaverWave"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Sentinels"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				},
+				"(TagName=\"SW.SpawnSlot.Mob.Special\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Driftweaver"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Driftweaver.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0,
+					"WeightsModulatedByThreatLevel":
+					{
+						"(TagName=\"SW.Mob.Driftweaver\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_ProceduralBossSpawnChances.CT_ProceduralBossSpawnChances'",
+							"RowName": "Driftweaver"
+						},
+						"(TagName=\"SW.Mob.Driftweaver.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_ProceduralBossSpawnChances.CT_ProceduralBossSpawnChances'",
+							"RowName": "DriftWeaverSoulstated"
+						}
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "SentinelSoulstated",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Sentinels.Soulstated"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob.Soulstated\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.WildSentinel.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.BabySentinel.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.GrooblerSentinel.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.FloatySentinel.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.CrestedSentinel.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "SentinelSoulstatedMix",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Sentinels.SoulstatedMix"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Sentinels"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Sentinels.Soulstated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 2,
+					"MinPickTypes": 2
+				}
+			}
+		}
+	},
+	{
+		"Name": "SentinelFamilylessMix",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Mix.SentinelsFamilyless"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.WellspringFamilyless"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Sentinels"
+								},
+								"Weight": 4,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 2,
+					"MinPickTypes": 1
+				}
+			}
+		}
+	},
+	{
+		"Name": "Scavengers",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Scavengers"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Scavengers.MeleeMix"
+								},
+								"Weight": 10,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Scavengers.RangedMix"
+								},
+								"Weight": 7,
+								"Operation": "Set"
+							}
+						]
+					},
+					"AdditionalSpawnTables":
+					{
+						"1":
+						{
+							"Tags": [
+								{
+									"TypeTag":
+									{
+										"TagName": "SW.SpawnDefinition.Scavengers.SpecialMix"
+									},
+									"Weight": 1,
+									"Operation": "Set"
+								}
+							]
+						}
+					},
+					"MaxPickTypes": 3,
+					"MinPickTypes": 1
+				},
+				"(TagName=\"SW.SpawnSlot.Mob.Spice\")":
+				{
+					"SpawnTable":
+					{
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0,
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_EntirelyRandomTest'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_EntirelyRandomTestData",
+										"RandomChance": 0.5
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Pufflet"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Bonker"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		}
+	},
+	{
+		"Name": "ScavengerMelee",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Scavengers.MeleeMix"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.ScavengerMelee"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 1
+				}
+			}
+		}
+	},
+	{
+		"Name": "ScavengerRanged",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Scavengers.RangedMix"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.ScavengerRanged"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 1
+				}
+			}
+		}
+	},
+	{
+		"Name": "ScavengerSpecial",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Scavengers.SpecialMix"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.ScavengerGrappler"
+								},
+								"Weight": 2,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.ScavengerTrapper"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 1
+				}
+			}
+		}
+	},
+	{
+		"Name": "ScavengerBoss",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Scavengers.Boss"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Scavengers"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				},
+				"(TagName=\"SW.SpawnSlot.Mob.Special\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.ScavengerGrappler.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.WellspringMiniboss"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.WellspringMiniboss.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0,
+					"WeightsModulatedByThreatLevel":
+					{
+						"(TagName=\"SW.Mob.ScavengerGrappler.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_ProceduralBossSpawnChances.CT_ProceduralBossSpawnChances'",
+							"RowName": "ScavengerGrapplerSoulStated"
+						},
+						"(TagName=\"SW.Mob.WellspringMiniboss\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_ProceduralBossSpawnChances.CT_ProceduralBossSpawnChances'",
+							"RowName": "Dartback"
+						},
+						"(TagName=\"SW.Mob.WellspringMiniboss.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_ProceduralBossSpawnChances.CT_ProceduralBossSpawnChances'",
+							"RowName": "DriftWeaverSoulstated"
+						}
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "ScavengerSoulstated",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Scavengers.Soulstated"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob.Soulstated\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.ScavengerMelee.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.ScavengerRanged.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.ScavengerGrappler.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.ScavengerTrapper.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "ScavengerSoulstatedMix",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Scavengers.SoulstatedMix"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Scavengers"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Scavengers.Soulstated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 2,
+					"MinPickTypes": 2
+				}
+			}
+		}
+	},
+	{
+		"Name": "ScavengerFamilylessMix",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Mix.ScavengerFamilyless"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Scavengers"
+								},
+								"Weight": 4,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.WellspringFamilyless"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "FamilylessWellspringMix",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.WellspringFamilyless"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.WellspringFamilyless.Melee"
+								},
+								"Weight": 2,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.WellspringFamilyless.Ranged"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.WellspringFamilyless.Spice"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 3,
+					"MinPickTypes": 2
+				}
+			}
+		}
+	},
+	{
+		"Name": "WFM",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.WellspringFamilyless.Melee"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Bloombud"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 1
+				}
+			}
+		}
+	},
+	{
+		"Name": "WFR",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.WellspringFamilyless.Ranged"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Roamroot"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 1
+				}
+			}
+		}
+	},
+	{
+		"Name": "BonkerPufflet",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.WellspringFamilyless.Spice"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob.Spice\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Pufflet"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Bonker"
+								},
+								"Weight": 2,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 2,
+					"MinPickTypes": 1
+				}
+			}
+		}
+	},
+	{
+		"Name": "Undead",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Undead"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Zombies"
+								},
+								"Weight": 10,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Skeletons"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.BabyZombie"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Vanguard"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							}
+						]
+					},
+					"AdditionalSpawnTables":
+					{
+						"1":
+						{
+							"Tags": [
+								{
+									"TypeTag":
+									{
+										"TagName": "SW.Mob.Chicken.Jockey"
+									},
+									"Weight": 2,
+									"Operation": "Set"
+								},
+								{
+									"TypeTag":
+									{
+										"TagName": "SW.Mob.Spider.Jockey"
+									},
+									"Weight": 2,
+									"Operation": "Set"
+								},
+								{
+									"TypeTag":
+									{
+										"TagName": "SW.SpawnDefinition.Spiders"
+									},
+									"Weight": 3,
+									"Operation": "Set"
+								}
+							]
+						}
+					},
+					"MaxPickTypes": 3,
+					"MinPickTypes": 1,
+					"WeightsModulatedByThreatLevel":
+					{
+						"(TagName=\"SW.Mob.Vanguard\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "Vanguard"
+						},
+						"(TagName=\"SW.Mob.Spider.Jockey\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SpiderJockey"
+						}
+					},
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_CheckAreaTag'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_CheckAreaTagData",
+										"AreaTag":
+										{
+											"TagName": "SW.Area.Camp.A1"
+										}
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Chicken.Jockey"
+										},
+										"Weight": 0,
+										"Operation": "Multiply"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Spider.Jockey"
+										},
+										"Weight": 0,
+										"Operation": "Multiply"
+									}
+								]
+							}
+						},
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_CheckMultipleAreaTags'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_CheckAreaTagsData",
+										"AreaTags": [
+											{
+												"TagName": "SW.Area.DeepDark.A1"
+											},
+											{
+												"TagName": "SW.Area.DeepDark.T1"
+											},
+											{
+												"TagName": "SW.Area.Forest.A1.SpiderCaves"
+											},
+											{
+												"TagName": "SW.Area.Forest.A1"
+											}
+										]
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.SpawnDefinition.Spiders"
+										},
+										"Weight": 4,
+										"Operation": "Multiply"
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		}
+	},
+	{
+		"Name": "UndeadSoulstatedMix",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Undead.SoulstatedMix"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Undead"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Undead.Soulstated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 2,
+					"MinPickTypes": 2
+				}
+			}
+		}
+	},
+	{
+		"Name": "UndeadSoulstated",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Undead.Soulstated"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob.Soulstated\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.BabyZombie.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.CaveSpider.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Chicken.Jockey.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Creeper.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Husk.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Skeleton.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.SkeletonVariant1.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.SkeletonVariant2.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Slime.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.SlimeMedium.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.SlimeSmall.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Spider.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Spider.Jockey.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Vanguard.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Zombie.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.ZombieVariant1.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.ZombieVariant2.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "UndeadBoss",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Undead.Boss"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Undead"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Spiders"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Slimes"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Creepers"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 1
+				},
+				"(TagName=\"SW.SpawnSlot.Mob.Special\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Creeper.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Vanguard.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Chicken.Jockey.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Spider.Jockey.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Witch"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Warden"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Witch.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Warden.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0,
+					"WeightsModulatedByThreatLevel":
+					{
+						"(TagName=\"SW.Mob.Creeper.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_ProceduralBossSpawnChances.CT_ProceduralBossSpawnChances'",
+							"RowName": "CreeperSoulStated"
+						},
+						"(TagName=\"SW.Mob.Vanguard.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_ProceduralBossSpawnChances.CT_ProceduralBossSpawnChances'",
+							"RowName": "VanguardSoulStated"
+						},
+						"(TagName=\"SW.Mob.Chicken.Jockey.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_ProceduralBossSpawnChances.CT_ProceduralBossSpawnChances'",
+							"RowName": "ChickenJockeySoulStated"
+						},
+						"(TagName=\"SW.Mob.Spider.Jockey.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_ProceduralBossSpawnChances.CT_ProceduralBossSpawnChances'",
+							"RowName": "SpiderJockeySoulStated"
+						},
+						"(TagName=\"SW.Mob.Witch\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_ProceduralBossSpawnChances.CT_ProceduralBossSpawnChances'",
+							"RowName": "Witch"
+						},
+						"(TagName=\"SW.Mob.Warden\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_ProceduralBossSpawnChances.CT_ProceduralBossSpawnChances'",
+							"RowName": "Warden"
+						},
+						"(TagName=\"SW.Mob.Witch.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_ProceduralBossSpawnChances.CT_ProceduralBossSpawnChances'",
+							"RowName": "WitchSoulStated"
+						},
+						"(TagName=\"SW.Mob.Warden.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_ProceduralBossSpawnChances.CT_ProceduralBossSpawnChances'",
+							"RowName": "WardenSoulStated"
+						}
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "ZombiesAll",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Zombies"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Zombie"
+								},
+								"Weight": 10,
+								"Operation": "Set"
+							}
+						]
+					},
+					"AdditionalSpawnTables":
+					{
+						"1":
+						{
+							"Tags": [
+								{
+									"TypeTag":
+									{
+										"TagName": "SW.Mob.ZombieVariant1"
+									},
+									"Weight": 10,
+									"Operation": "Add"
+								},
+								{
+									"TypeTag":
+									{
+										"TagName": "SW.Mob.ZombieVariant2"
+									},
+									"Weight": 10,
+									"Operation": "Set"
+								}
+							]
+						}
+					},
+					"MaxPickTypes": 3,
+					"MinPickTypes": 2,
+					"WeightsModulatedByThreatLevel":
+					{
+						"(TagName=\"SW.Mob.ZombieVariant1\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "ZombieVariant1"
+						},
+						"(TagName=\"SW.Mob.ZombieVariant2\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "ZombieVariant2"
+						}
+					},
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_CheckAreaTag'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_CheckAreaTagData",
+										"AreaTag":
+										{
+											"TagName": "SW.Area.Forest.A1"
+										}
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.ZombieMossy"
+										},
+										"Weight": 15,
+										"Operation": "Set"
+									}
+								]
+							}
+						},
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_CheckAreaTag'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_CheckAreaTagData",
+										"AreaTag":
+										{
+											"TagName": "SW.Area.Desert.A1"
+										}
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Husk"
+										},
+										"Weight": 9,
+										"Operation": "Set"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "Sw.Mob.ZombieFrozen"
+										},
+										"Weight": 12,
+										"Operation": "Set"
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		}
+	},
+	{
+		"Name": "ZombiesSoulstatedMix",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Zombies.SoulstatedMix"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Zombies"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Zombies.Soulstated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 2,
+					"MinPickTypes": 2
+				}
+			}
+		}
+	},
+	{
+		"Name": "ZombiesSoulstated",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Zombies.Soulstated"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob.Soulstated\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Zombie.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.ZombieVariant1.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.ZombieVariant2.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.BabyZombie.SoulStated"
+								},
+								"Weight": 0,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Chicken.Jockey.SoulStated"
+								},
+								"Weight": 0,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "SkeletonsAll",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Skeletons"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Skeleton"
+								},
+								"Weight": 10,
+								"Operation": "Set"
+							}
+						]
+					},
+					"AdditionalSpawnTables":
+					{
+						"1":
+						{
+							"Tags": [
+								{
+									"TypeTag":
+									{
+										"TagName": "SW.Mob.SkeletonVariant1"
+									},
+									"Weight": 10,
+									"Operation": "Set"
+								},
+								{
+									"TypeTag":
+									{
+										"TagName": "SW.Mob.SkeletonVariant2"
+									},
+									"Weight": 10,
+									"Operation": "Set"
+								}
+							]
+						}
+					},
+					"MaxPickTypes": 3,
+					"MinPickTypes": 2,
+					"WeightsModulatedByThreatLevel":
+					{
+						"(TagName=\"SW.Mob.SkeletonVariant1\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SkeletonVariant1"
+						},
+						"(TagName=\"SW.Mob.SkeletonVariant2\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SkeletonVariant2"
+						}
+					},
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_CheckAreaTag'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_CheckAreaTagData",
+										"AreaTag":
+										{
+											"TagName": "SW.Area.Forest.A1"
+										}
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.SkeletonMossy"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									}
+								]
+							}
+						},
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_CheckAreaTag'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_CheckAreaTagData",
+										"AreaTag":
+										{
+											"TagName": "SW.Area.Desert.A1"
+										}
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.SkeletonStray"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		}
+	},
+	{
+		"Name": "Spiders",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Spiders"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				},
+				{
+					"TagName": "SW.SpawnDefinition.NoGuaranteedSpawns"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+					},
+					"MaxPickTypes": 2,
+					"MinPickTypes": 1,
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+										"GameStateToCheck":
+										{
+											"TagName": "SW.GameState.WitchQuestComplete"
+										},
+										"bInvertCondition": false
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Spider"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									}
+								]
+							}
+						},
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_CheckAreaTag'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_CheckAreaTagData",
+										"AreaTag":
+										{
+											"TagName": "SW.Area.Forest.A1"
+										}
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Spider"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									}
+								]
+							}
+						},
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_CheckMultipleAreaTags'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_CheckAreaTagsData",
+										"AreaTags": [
+											{
+												"TagName": "SW.Area.DeepDark.A1"
+											},
+											{
+												"TagName": "SW.Area.DeepDark.T1"
+											},
+											{
+												"TagName": "SW.Area.Forest.A1.SpiderCaves"
+											}
+										]
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Spider"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.CaveSpider"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Spider.Jockey"
+										},
+										"Weight": 0.5,
+										"Operation": "Set"
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		}
+	},
+	{
+		"Name": "SpidersGuaranteed",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Spiders.AlwaysSpawns"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Spider"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 2,
+					"MinPickTypes": 1,
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_CheckMultipleAreaTags'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_CheckAreaTagsData",
+										"AreaTags": [
+											{
+												"TagName": "SW.Area.DeepDark.A1"
+											},
+											{
+												"TagName": "SW.Area.DeepDark.T1"
+											},
+											{
+												"TagName": "SW.Area.Forest.A1.SpiderCaves"
+											}
+										]
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.CaveSpider"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Spider.Jockey"
+										},
+										"Weight": 0.5,
+										"Operation": "Set"
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		}
+	},
+	{
+		"Name": "SpidersSoulstatedMix",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Spiders.SoulstatedMix"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Spiders"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Spiders.Soulstated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 2,
+					"MinPickTypes": 2
+				}
+			}
+		}
+	},
+	{
+		"Name": "SpidersSoulstated",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Spiders.Soulstated"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob.Soulstated\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Spider.Jockey.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Spider.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "Slimes",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Slimes"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.SlimeSmall"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.SlimeMedium"
+								},
+								"Weight": 2,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Slime"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 3,
+					"MinPickTypes": 1
+				}
+			}
+		}
+	},
+	{
+		"Name": "Creepers",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Creepers"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Creeper"
+								},
+								"Weight": 10,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.CreeperCharged"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0,
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_CheckAreaTag'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_CheckAreaTagData",
+										"AreaTag":
+										{
+											"TagName": "SW.Area.Plains.A2"
+										}
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.CreeperCharged"
+										},
+										"Weight": 4,
+										"Operation": "Multiply"
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		}
+	},
+	{
+		"Name": "Foxes",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Foxes"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Ambient\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Fox"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "SoulSickVillagers",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Villagers"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				},
+				{
+					"TagName": "SW.SpawnDefinition.NoGuaranteedSpawns"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Ambient\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.VillagerSoulEngorged.Plains"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "MeadowUnkillables",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Wellspring.Unkillable"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Ambient\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Camo"
+								},
+								"Weight": 0.33,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.JellyBunny.Meadow"
+								},
+								"Weight": 0.33,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Herd"
+								},
+								"Weight": 0.33,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "WellspringCrawler",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Wellspring.Unkillable.Crawler"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Ambient\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Crawler-ChestFinder"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "Pig",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Pig"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Ambient\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Pig"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "Pig.TownBaby",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Pig.TownBaby"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Ambient\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.PigBaby"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "Cats",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Cats"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Ambient\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Cat"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "Cats.Town",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Cats.Town"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Ambient\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Cat.Town"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "Chicken",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Chicken"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Ambient\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Chicken"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "Cow",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Cow"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Ambient\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Cow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "Goat",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Goat"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Ambient\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Goat"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "SnowFox",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.SnowFox"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Ambient\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.SnowFox"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "Villager.Camp",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Villager.Camp"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Ambient\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Villager.Camp"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "Villager.Town",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Villager.Town"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Ambient\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Villager.Town"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "Villager.TownBaby",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Villager.TownBaby"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Ambient\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.VillagerBaby.Town"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "Villager.DesertBaby",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Villager.DesertBaby"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Ambient\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.VillagerBaby.Desert"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "Pigeon",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Pigeon"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Ambient\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Pigeon"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "Area",
+		"TypeTag":
+		{
+			"TagName": "SW.Area"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				},
+				{
+					"TagName": "SW.SpawnDefinition.NoGuaranteedSpawns"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.SoulImbalance\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.BabyZombieSoulImbalance"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.SkeletonSoulimbalance"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.SpiderSoulImbalance"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.ZombieSoulimbalance"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 4,
+					"MinPickTypes": 4
+				},
+				"(TagName=\"SW.SpawnSlot.PiggyBank\")":
+				{
+					"SpawnTable":
+					{
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0,
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_EntirelyRandomTest'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_EntirelyRandomTestData",
+										"RandomChance": 0.015
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.PiggyBank"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		}
+	},
+	{
+		"Name": "Overworld",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Overworld"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.SoulImbalance\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.BabyZombieSoulImbalance"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.SkeletonSoulimbalance"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.SpiderSoulImbalance"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.ZombieSoulimbalance"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 4,
+					"MinPickTypes": 4
+				},
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Zombie"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Skeleton"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "Wellspring",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Wellspring"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.SoulImbalance\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.ScavengerMeleeSoulImbalance"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.ScavengerRangedSoulImbalance"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.RoamrootSoulImbalance"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.BloombudSoulImbalance"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 4,
+					"MinPickTypes": 4
+				}
+			}
+		}
+	},
+	{
+		"Name": "CampA1",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Camp.A1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Undead.WithoutArmoredZombies"
+								},
+								"Weight": 10,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Illagers"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 1
+				},
+				"(TagName=\"SW.SpawnSlot.PiggyBank\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.PiggyBank"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "Plains.A1",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Plains.A1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Undead"
+								},
+								"Weight": 10,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Creepers"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 1,
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+										"GameStateToCheck":
+										{
+											"TagName": "SW.GameState.WitchQuestComplete"
+										},
+										"bInvertCondition": false
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.SpawnDefinition.Illagers"
+										},
+										"Weight": 10,
+										"Operation": "Set"
+									}
+								]
+							}
+						}
+					]
+				},
+				"(TagName=\"SW.SpawnSlot.Miniboss\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Enderman"
+								},
+								"Weight": 6,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Witch"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Enderman.SoulStated"
+								},
+								"Weight": 6,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Witch.SoulStated"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 0,
+					"WeightsModulatedByThreatLevel":
+					{
+						"(TagName=\"SW.Mob.Enderman.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						},
+						"(TagName=\"SW.Mob.Witch.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						}
+					},
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+										"GameStateToCheck":
+										{
+											"TagName": "SW.GameState.Merchants.TheTownEnchantsmithComplete"
+										},
+										"bInvertCondition": false
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Evoker"
+										},
+										"Weight": 5,
+										"Operation": "Set"
+									}
+								]
+							}
+						}
+					]
+				},
+				"(TagName=\"SW.SpawnSlot.Mob.Spice\")":
+				{
+					"SpawnTable":
+					{
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0,
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_EntirelyRandomTest'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_EntirelyRandomTestData",
+										"RandomChance": 0.3
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Creeper"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		}
+	},
+	{
+		"Name": "Plains.A2",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Plains.A2"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Undead"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Creeper"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Slimes"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 1
+				},
+				"(TagName=\"SW.SpawnSlot.Miniboss\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Evoker"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Witch"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Enderman"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Evoker.SoulStated"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Witch.SoulStated"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Enderman.SoulStated"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 0,
+					"WeightsModulatedByThreatLevel":
+					{
+						"(TagName=\"SW.Mob.Evoker.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						},
+						"(TagName=\"SW.Mob.Witch.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						},
+						"(TagName=\"SW.Mob.Enderman.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						}
+					}
+				},
+				"(TagName=\"SW.SpawnSlot.Mob.Spice\")":
+				{
+					"SpawnTable":
+					{
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0,
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_EntirelyRandomTest'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_EntirelyRandomTestData",
+										"RandomChance": 0.3
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Creeper"
+										},
+										"Weight": 5,
+										"Operation": "Set"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.CreeperCharged"
+										},
+										"Weight": 10,
+										"Operation": "Set"
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		}
+	},
+	{
+		"Name": "Forest.A1",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Forest.A1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Undead"
+								},
+								"Weight": 10,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Illagers"
+								},
+								"Weight": 2,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Slimes"
+								},
+								"Weight": 2,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Spiders"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 1
+				},
+				"(TagName=\"SW.SpawnSlot.Miniboss\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Enderman"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Witch"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Enderman.SoulStated"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Witch.SoulStated"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 0,
+					"WeightsModulatedByThreatLevel":
+					{
+						"(TagName=\"SW.Mob.Enderman.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						},
+						"(TagName=\"SW.Mob.Witch.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						}
+					},
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+										"GameStateToCheck":
+										{
+											"TagName": "SW.GameState.Merchants.TheTownEnchantsmithComplete"
+										},
+										"bInvertCondition": false
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Evoker"
+										},
+										"Weight": 5,
+										"Operation": "Set"
+									}
+								]
+							}
+						}
+					]
+				},
+				"(TagName=\"SW.SpawnSlot.Mob.Spice\")":
+				{
+					"SpawnTable":
+					{
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 0,
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_EntirelyRandomTest'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_EntirelyRandomTestData",
+										"RandomChance": 0.25
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.SlimeSmall"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.SlimeMedium"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Creeper"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		}
+	},
+	{
+		"Name": "SpiderCaves",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Forest.A1.SpiderCaves"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Spiders"
+								},
+								"Weight": 10,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Undead"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Slimes"
+								},
+								"Weight": 7,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 1
+				},
+				"(TagName=\"SW.SpawnSlot.Mob.Spice\")":
+				{
+					"SpawnTable":
+					{
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0,
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_EntirelyRandomTest'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_EntirelyRandomTestData",
+										"RandomChance": 0.25
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Creeper"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Spider.Jockey"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		}
+	},
+	{
+		"Name": "DeepDark.A1",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.DeepDark.A1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Undead"
+								},
+								"Weight": 2,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Illagers"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Slimes"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Spiders"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 1
+				},
+				"(TagName=\"SW.SpawnSlot.Miniboss\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Enderman"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Witch"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Evoker"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Enderman.SoulStated"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Witch.SoulStated"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Evoker.SoulStated"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 0,
+					"WeightsModulatedByThreatLevel":
+					{
+						"(TagName=\"SW.Mob.Enderman.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						},
+						"(TagName=\"SW.Mob.Witch.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						},
+						"(TagName=\"SW.Mob.Evoker.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						}
+					},
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+										"GameStateToCheck":
+										{
+											"TagName": "SW.GameState.WitchQuestComplete"
+										},
+										"bInvertCondition": false
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Witch"
+										},
+										"Weight": 3,
+										"Operation": "Set"
+									}
+								]
+							}
+						}
+					]
+				},
+				"(TagName=\"SW.SpawnSlot.Mob.Spice\")":
+				{
+					"SpawnTable":
+					{
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 0,
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_EntirelyRandomTest'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_EntirelyRandomTestData",
+										"RandomChance": 0.25
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.SlimeSmall"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.SlimeMedium"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Creeper"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Spider"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.CaveSpider"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		}
+	},
+	{
+		"Name": "DeepDark.T1",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.DeepDark.T1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Undead"
+								},
+								"Weight": 2,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Illagers"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Slimes"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 1
+				},
+				"(TagName=\"SW.SpawnSlot.Miniboss\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Enderman"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Warden"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Evoker"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Witch"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Enderman.SoulStated"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Warden.SoulStated"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Evoker.SoulStated"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Witch.SoulStated"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 0,
+					"WeightsModulatedByThreatLevel":
+					{
+						"(TagName=\"SW.Mob.Enderman.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						},
+						"(TagName=\"SW.Mob.Warden.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						},
+						"(TagName=\"SW.Mob.Evoker.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						},
+						"(TagName=\"SW.Mob.Witch.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						}
+					},
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+										"GameStateToCheck":
+										{
+											"TagName": "SW.GameState.WitchQuestComplete"
+										},
+										"bInvertCondition": false
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Witch"
+										},
+										"Weight": 3,
+										"Operation": "Set"
+									}
+								]
+							}
+						}
+					]
+				},
+				"(TagName=\"SW.SpawnSlot.Mob.Spice\")":
+				{
+					"SpawnTable":
+					{
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 0,
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_EntirelyRandomTest'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_EntirelyRandomTestData",
+										"RandomChance": 0.25
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.SlimeSmall"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.SlimeMedium"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Creeper"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Spider"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.CaveSpider"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		}
+	},
+	{
+		"Name": "Desert.A1",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Desert.A1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Illagers"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Undead"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Creeper"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 1
+				},
+				"(TagName=\"SW.SpawnSlot.Miniboss\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Witch"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Enderman"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Evoker"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Witch.SoulStated"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Enderman.SoulStated"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Evoker.SoulStated"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 0,
+					"WeightsModulatedByThreatLevel":
+					{
+						"(TagName=\"SW.Mob.Witch.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						},
+						"(TagName=\"SW.Mob.Enderman.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						},
+						"(TagName=\"SW.Mob.Evoker.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						}
+					}
+				},
+				"(TagName=\"SW.SpawnSlot.Mob.Spice\")":
+				{
+					"SpawnTable":
+					{
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0,
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_EntirelyRandomTest'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_EntirelyRandomTestData",
+										"RandomChance": 0.3
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Creeper"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		}
+	},
+	{
+		"Name": "Peaks.A1",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Peaks.A1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+		}
+	},
+	{
+		"Name": "Meadow.T1",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Meadow.T1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Sentinels"
+								},
+								"Weight": 10,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.WellspringFamilyless"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 1,
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "None"
+							},
+							"DropTable":
+							{
+							}
+						}
+					]
+				},
+				"(TagName=\"SW.SpawnSlot.Miniboss\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.WellspringMiniboss"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Driftweaver"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Enderman"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.WellspringMiniboss.SoulStated"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Driftweaver.SoulStated"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Enderman.SoulStated"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0,
+					"WeightsModulatedByThreatLevel":
+					{
+						"(TagName=\"SW.Mob.WellspringMiniboss.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						},
+						"(TagName=\"SW.Mob.Driftweaver.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						},
+						"(TagName=\"SW.Mob.Enderman.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						}
+					}
+				},
+				"(TagName=\"SW.SpawnSlot.Mob.Spice\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.WellspringFamilyless.Spice"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "Meadow.A1",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Meadow.A1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Sentinels"
+								},
+								"Weight": 10,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.WellspringFamilyless"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 1,
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+										"GameStateToCheck":
+										{
+											"TagName": "SW.GameState.CA09_E11Complete"
+										},
+										"bInvertCondition": false
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.SpawnDefinition.Scavengers"
+										},
+										"Weight": 10,
+										"Operation": "Set"
+									}
+								]
+							}
+						}
+					]
+				},
+				"(TagName=\"SW.SpawnSlot.Miniboss\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Driftweaver"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Enderman"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.WellspringMiniboss"
+								},
+								"Weight": 8,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Evoker"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Driftweaver.SoulStated"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Enderman.SoulStated"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.WellspringMiniboss.SoulStated"
+								},
+								"Weight": 8,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Evoker.SoulStated"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0,
+					"WeightsModulatedByThreatLevel":
+					{
+						"(TagName=\"SW.Mob.Driftweaver.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						},
+						"(TagName=\"SW.Mob.Enderman.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						},
+						"(TagName=\"SW.Mob.WellspringMiniboss.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "None"
+						},
+						"(TagName=\"SW.Mob.Evoker.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						}
+					}
+				},
+				"(TagName=\"SW.SpawnSlot.Mob.Spice\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.WellspringFamilyless.Spice"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "Meadow.R0",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Meadow.R0"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Sentinels"
+								},
+								"Weight": 10,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				},
+				"(TagName=\"SW.SpawnSlot.Mob.Spice\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.WellspringFamilyless.Spice"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "Meadow.R1",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Meadow.R1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Sentinels"
+								},
+								"Weight": 10,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				},
+				"(TagName=\"SW.SpawnSlot.Mob.Spice\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.WellspringFamilyless.Spice"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "Carapace.A1",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Carapace.A1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.WellspringFamilyless"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							}
+						]
+					},
+					"AdditionalSpawnTables":
+					{
+						"1":
+						{
+							"Tags": [
+								{
+									"TypeTag":
+									{
+										"TagName": "SW.SpawnDefinition.Sentinels"
+									},
+									"Weight": 10,
+									"Operation": "Set"
+								},
+								{
+									"TypeTag":
+									{
+										"TagName": "SW.SpawnDefinition.Scavengers"
+									},
+									"Weight": 10,
+									"Operation": "Set"
+								}
+							]
+						}
+					},
+					"MaxPickTypes": 2,
+					"MinPickTypes": 1
+				},
+				"(TagName=\"SW.SpawnSlot.Miniboss\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Driftweaver"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Enderman"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.WellspringMiniboss"
+								},
+								"Weight": 8,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Evoker"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Driftweaver.SoulStated"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Enderman.SoulStated"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.WellspringMiniboss.SoulStated"
+								},
+								"Weight": 8,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Evoker.SoulStated"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 0,
+					"WeightsModulatedByThreatLevel":
+					{
+						"(TagName=\"SW.Mob.Driftweaver.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						},
+						"(TagName=\"SW.Mob.Enderman.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						},
+						"(TagName=\"SW.Mob.WellspringMiniboss.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						},
+						"(TagName=\"SW.Mob.Evoker.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						}
+					}
+				},
+				"(TagName=\"SW.SpawnSlot.Mob.Spice\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.WellspringFamilyless.Spice"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "Meadow.A2",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Meadow.A2"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.WellspringFamilyless"
+								},
+								"Weight": 10,
+								"Operation": "Set"
+							}
+						]
+					},
+					"AdditionalSpawnTables":
+					{
+						"1":
+						{
+							"Tags": [
+								{
+									"TypeTag":
+									{
+										"TagName": "SW.SpawnDefinition.Sentinels"
+									},
+									"Weight": 10,
+									"Operation": "Set"
+								},
+								{
+									"TypeTag":
+									{
+										"TagName": "SW.SpawnDefinition.Scavengers"
+									},
+									"Weight": 6,
+									"Operation": "Set"
+								}
+							]
+						}
+					},
+					"MaxPickTypes": 2,
+					"MinPickTypes": 1
+				},
+				"(TagName=\"SW.SpawnSlot.Miniboss\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Driftweaver"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Enderman"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.WellspringMiniboss"
+								},
+								"Weight": 6,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Evoker"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Driftweaver.SoulStated"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Enderman.SoulStated"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.WellspringMiniboss.SoulStated"
+								},
+								"Weight": 6,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Evoker.SoulStated"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 0,
+					"WeightsModulatedByThreatLevel":
+					{
+						"(TagName=\"SW.Mob.Driftweaver.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						},
+						"(TagName=\"SW.Mob.Enderman.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						},
+						"(TagName=\"SW.Mob.WellspringMiniboss.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						},
+						"(TagName=\"SW.Mob.Witch.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						},
+						"(TagName=\"SW.Mob.Evoker.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						}
+					}
+				},
+				"(TagName=\"SW.SpawnSlot.Mob.Spice\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.WellspringFamilyless.Spice"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "Ravine.T1",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Ravines"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Scavengers"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.WellspringFamilyless"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 2,
+					"MinPickTypes": 1
+				},
+				"(TagName=\"SW.SpawnSlot.Miniboss\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.WellspringMiniboss"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Driftweaver"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Enderman"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.WellspringMiniboss.SoulStated"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Driftweaver.SoulStated"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Enderman.SoulStated"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0,
+					"WeightsModulatedByThreatLevel":
+					{
+						"(TagName=\"SW.Mob.Driftweaver.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						},
+						"(TagName=\"SW.Mob.WellspringMiniboss.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						},
+						"(TagName=\"SW.Mob.Enderman.SoulStated\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SoulStatedType2"
+						}
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "VanguardMix",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Vanguards"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Vanguard"
+								},
+								"Weight": 10,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 1
+				},
+				"(TagName=\"SW.SpawnSlot.Mob.Ranged\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Skeleton"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "SentinelAllMEa1S05A",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Sentinels.MEa1_S05_A"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				},
+				{
+					"TagName": "SW.SpawnDefinition.NoGuaranteedSpawns"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+					},
+					"MaxPickTypes": 3,
+					"MinPickTypes": 1,
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+										"GameStateToCheck":
+										{
+											"TagName": "SW.GameState.RageOfTheSifters"
+										},
+										"bInvertCondition": false
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.SpawnDefinition.Sentinels.MeleeMix"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.SpawnDefinition.Sentinels.RangedMix"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.SpawnDefinition.Sentinels.SpecialMix"
+										},
+										"Weight": 0.8,
+										"Operation": "Set"
+									}
+								]
+							}
+						}
+					]
+				},
+				"(TagName=\"SW.SpawnSlot.Mob.Spice\")":
+				{
+					"SpawnTable":
+					{
+					},
+					"MaxPickTypes": 2,
+					"MinPickTypes": 1,
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+										"GameStateToCheck":
+										{
+											"TagName": "SW.GameState.RageOfTheSifters"
+										},
+										"bInvertCondition": false
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.SpawnDefinition.WellspringFamilyless.Spice"
+										},
+										"Weight": 0.8,
+										"Operation": "Set"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Bloombud"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Roamroot"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		}
+	},
+	{
+		"Name": "Warden",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Warden"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Warden"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 1
+				}
+			}
+		}
+	},
+	{
+		"Name": "StorminatorEasy",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Storminator"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				},
+				{
+					"TagName": "SW.SpawnDefinition.NoGuaranteedSpawns"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Storminator\")":
+				{
+					"SpawnTable":
+					{
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 1,
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_CheckSoulStormInArea'"
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.PropActor.SoulStorm.Storminator.Easy"
+										},
+										"Weight": 2,
+										"Operation": "Set"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.PropActor.SoulStorm.Storminator.Medium"
+										},
+										"Weight": 2,
+										"Operation": "Set"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.PropActor.SoulStorm.Storminator.Hard"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		}
+	},
+	{
+		"Name": "StorminatorWaveEasy",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Storminator.Wave.Easy"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Illagers.MeleeMix"
+								},
+								"Weight": 2,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Illagers.RangedMix"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Zombies"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Skeletons"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 4,
+					"MinPickTypes": 2,
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "None"
+							},
+							"DropTable":
+							{
+							}
+						}
+					]
+				}
+			}
+		}
+	},
+	{
+		"Name": "StorminatorWaveSoulstated",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Storminator.Wave.SoulstatedUndead"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob.Special\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Zombie.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Vindicator.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 2,
+					"MinPickTypes": 1
+				}
+			}
+		}
+	},
+	{
+		"Name": "RedStoneMonstrosity",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Storminator.Wave.RedStoneMonstrosity"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob.Special\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Monstrosity.RedStone.Storm"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 1
+				}
+			}
+		}
+	},
+	{
+		"Name": "CopperMonstrosity",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Storminator.Wave.CopperMonstrosity"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob.Special\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Monstrosity.Copper.Storm"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 1
+				}
+			}
+		}
+	},
+	{
+		"Name": "SculkMonstrosity",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Storminator.Wave.SculkMonstrosity"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob.Special\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Monstrosity.Sculk.Storm"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 1
+				}
+			}
+		}
+	},
+	{
+		"Name": "Type2",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Storminator.Wave.Type2"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob.Special\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Witch"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Enderman"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Warden"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Evoker"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.WellspringMiniboss"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Driftweaver"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 1
+				}
+			}
+		}
+	},
+	{
+		"Name": "Type3",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Storminator.Wave.Type3"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob.Special\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Storminator.Wave.CopperMonstrosity"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Storminator.Wave.RedStoneMonstrosity"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Storminator.Wave.SculkMonstrosity"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 1
+				}
+			}
+		}
+	},
+	{
+		"Name": "Zombies_DEa1_S13_A",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Zombies.Husks.DEa1_S13_A"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Zombies"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Skeletons"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 1,
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+										"GameStateToCheck":
+										{
+											"TagName": "SW.GameState.DEa1_S13_A.Active"
+										},
+										"bInvertCondition": false
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.SpawnDefinition.Ravagers"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.SpawnDefinition.Zombies"
+										},
+										"Weight": 0,
+										"Operation": "Set"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.SpawnDefinition.Skeletons"
+										},
+										"Weight": 0,
+										"Operation": "Set"
+									}
+								]
+							}
+						}
+					]
+				},
+				"(TagName=\"SW.SpawnSlot.Mob.Spice\")":
+				{
+					"SpawnTable":
+					{
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 0,
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_EntirelyRandomTest'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_EntirelyRandomTestData",
+										"RandomChance": 0.5
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Creeper"
+										},
+										"Weight": 1,
+										"Operation": "Set"
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		}
+	},
+	{
+		"Name": "Villager.TownBaby2",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Villager.TownBaby2"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Ambient\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.VillagerBaby.Town2"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "RandomizedLootActorDefault",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.RandomizedLootActor.Default"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition.RandomizedLootActor"
+				},
+				{
+					"TagName": "SW.LootActor.Preview.RandomDefault"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.LootActor.Preview"
+				},
+				{
+					"TagName": "SW.LootActor"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.LootActor\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.LootActor.FancyChest"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.LootActor.WoodenChest"
+								},
+								"Weight": 10,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.LootActor.Pot.Small.Emerald"
+								},
+								"Weight": 10,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "WitchEncounter",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Quest.WitchEncounter"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob.Special\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Witch.Type3"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				},
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Undead"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Slimes"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Spiders"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 2,
+					"MinPickTypes": 1
+				}
+			}
+		}
+	},
+	{
+		"Name": "IllagersEvoker",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Illagers.Evoker"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob.Special\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Evoker.SoulStated"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "JellyBunny",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.JellyBunny"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Ambient\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.JellyBunny"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "Frogs",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Frog"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Ambient\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Frog"
+								},
+								"Weight": 0.33,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.FrogVariant1"
+								},
+								"Weight": 0.33,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.FrogVariant2"
+								},
+								"Weight": 0.33,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "JellyBunny.Meadow",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.JellyBunny.Meadow"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Ambient\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.JellyBunny.Meadow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "JellyBunny.Ravines",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.JellyBunny.Ravines"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Ambient\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.JellyBunny.Ravine"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "JellyBunny.Carapace",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.JellyBunny.Carapace"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Ambient\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.JellyBunny.Carapace"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "JellyBunny.Fungus",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.JellyBunny.Fungus"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Ambient\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.JellyBunny.Fungus"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "Camo",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Camo"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Ambient\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Camo"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "Herd",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Herd"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Ambient\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Herd"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "Sheep",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Sheep"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Ambient\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Sheep"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "LongRange",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.TutorialRanged"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.SkeletonLongRange"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "RandomizedLootActorBase",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.RandomizedLootActor.Base"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition.RandomizedLootActor"
+				},
+				{
+					"TagName": "SW.LootActor.Preview.RandomDefault"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.LootActor.Preview"
+				},
+				{
+					"TagName": "SW.LootActor"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.LootActor\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.LootActor.FancyChest"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.LootActor.WoodenChest"
+								},
+								"Weight": 6,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.LootActor.Pot.Small.Emerald"
+								},
+								"Weight": 20,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "Bee",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Bee"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Ambient\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Bee"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 0,
+					"MinPickTypes": 0
+				}
+			}
+		}
+	},
+	{
+		"Name": "ZombiesRegularOnly",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Zombies.RegularOnly"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Zombie"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					},
+					"MaxPickTypes": 1,
+					"MinPickTypes": 1
+				}
+			}
+		}
+	},
+	{
+		"Name": "Undead-WithoutArmoredZombies",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnDefinition.Undead.WithoutArmoredZombies"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.SpawnDefinition"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SpawnDefinition":
+		{
+			"SpawnSlot":
+			{
+				"(TagName=\"SW.SpawnSlot.Mob\")":
+				{
+					"SpawnTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Zombies.RegularOnly"
+								},
+								"Weight": 10,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.SpawnDefinition.Skeletons"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.BabyZombie"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Mob.Vanguard"
+								},
+								"Weight": 3,
+								"Operation": "Set"
+							}
+						]
+					},
+					"AdditionalSpawnTables":
+					{
+						"1":
+						{
+							"Tags": [
+								{
+									"TypeTag":
+									{
+										"TagName": "SW.Mob.Chicken.Jockey"
+									},
+									"Weight": 2,
+									"Operation": "Set"
+								},
+								{
+									"TypeTag":
+									{
+										"TagName": "SW.Mob.Spider.Jockey"
+									},
+									"Weight": 2,
+									"Operation": "Set"
+								},
+								{
+									"TypeTag":
+									{
+										"TagName": "SW.SpawnDefinition.Spiders"
+									},
+									"Weight": 3,
+									"Operation": "Set"
+								}
+							]
+						}
+					},
+					"MaxPickTypes": 3,
+					"MinPickTypes": 1,
+					"WeightsModulatedByThreatLevel":
+					{
+						"(TagName=\"SW.Mob.Vanguard\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "Vanguard"
+						},
+						"(TagName=\"SW.Mob.Spider.Jockey\")":
+						{
+							"CurveTable": "/Script/Engine.CurveTable'/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances.CT_MobVariantSpawnChances'",
+							"RowName": "SpiderJockey"
+						}
+					},
+					"Conditions": [
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_CheckAreaTag'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_CheckAreaTagData",
+										"AreaTag":
+										{
+											"TagName": "SW.Area.Camp.A1"
+										}
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Chicken.Jockey"
+										},
+										"Weight": 0,
+										"Operation": "Multiply"
+									},
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.Mob.Spider.Jockey"
+										},
+										"Weight": 0,
+										"Operation": "Multiply"
+									}
+								]
+							}
+						},
+						{
+							"Condition":
+							{
+								"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_CheckMultipleAreaTags'",
+								"InstanceData": [
+									{
+										"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_CheckAreaTagsData",
+										"AreaTags": [
+											{
+												"TagName": "SW.Area.DeepDark.A1"
+											},
+											{
+												"TagName": "SW.Area.DeepDark.T1"
+											},
+											{
+												"TagName": "SW.Area.Forest.A1.SpiderCaves"
+											},
+											{
+												"TagName": "SW.Area.Forest.A1"
+											}
+										]
+									}
+								]
+							},
+							"DropTable":
+							{
+								"Tags": [
+									{
+										"TypeTag":
+										{
+											"TagName": "SW.SpawnDefinition.Spiders"
+										},
+										"Weight": 4,
+										"Operation": "Multiply"
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		}
+	}
+]

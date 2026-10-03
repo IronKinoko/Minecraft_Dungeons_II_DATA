@@ -1,0 +1,13 @@
+[
+	{
+		"Name": "Ricochet",
+		"TypeTag":
+		{
+			"TagName": "SW.Projectile.Event.Ricochet"
+		},
+		"ProjectileEventData":
+		{
+			"DamageMultiplier": 0.75
+		}
+	}
+]

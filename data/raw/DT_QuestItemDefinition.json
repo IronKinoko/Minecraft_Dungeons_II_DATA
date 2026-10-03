@@ -1,0 +1,1743 @@
+[
+	{
+		"Name": "Base",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.QuestItem"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Item.Property.QuestItem"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize.Dynamic"
+				},
+				{
+					"TagName": "SW.Property.Powerless"
+				},
+				{
+					"TagName": "SW.Property.Immeasurable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize"
+				},
+				{
+					"TagName": "SW.ReplicationGraph"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.None"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Regular.Pickup"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Regular.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "None",
+		"ActorReference": "None"
+	},
+	{
+		"Name": "BaseFollowsPlayer",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.QuestItem.FollowsPlayer"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.QuestItem"
+				},
+				{
+					"TagName": "SW.State.Untargetable"
+				},
+				{
+					"TagName": "SW.Item.Property.StorableFollowsPlayer"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AttractItemRange"
+				},
+				"Type": "Float",
+				"Float": 1000
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Regular.Pickup"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Regular.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "None",
+		"ActorReference": "None",
+		"ComponentDefinition":
+		{
+			"ServerComponents":
+			{
+				"(TagName=\"\")":
+				{
+					"Components": [
+						"/Script/Dungeons.SimpleMovementComponent",
+						"/Script/ItemGenerator.GASItemComponent",
+						"/Script/Dungeons.WalkPickupComponent"
+					]
+				}
+			}
+		}
+	},
+	{
+		"Name": "PlaceholderItem",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.QuestItem.PlaceholderItem"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.QuestItem"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/Game/Spicewood/Art/Interactables/QuestAssets/Placeholder-item/T_Placeholder_Icon.T_Placeholder_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_PlaceholderItem_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_PlaceholderItem_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/QuestAssets/Placeholder-item/BP_PlaceholderItem.BP_PlaceholderItem_C"
+	},
+	{
+		"Name": "PlaceholderStick",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.QuestItem.PlaceholderStick"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.QuestItem.FollowsPlayer"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.QuestItem"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/Game/Spicewood/Art/Interactables/QuestAssets/Placeholder-Stick/T_Quest-staff_placeholder.T_Quest-staff_placeholder",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_PlaceholderStick_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_PlaceholderStick_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/QuestAssets/Placeholder-Stick/BP_PlaceholderStick.BP_PlaceholderStick_C"
+	},
+	{
+		"Name": "WoodenPlanks",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.QuestItem.Woodenplanks"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.QuestItem.FollowsPlayer"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.QuestItem"
+				},
+				{
+					"TagName": "SW.Item"
+				}
+			]
+		},
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA01/CA01_Props/sfx_CA01_PLa1_woodenPartPlank_collect_activate.sfx_CA01_PLa1_woodenPartPlank_collect_activate",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/CoreQuests/CA01/CA01_Props/sfx_CA01_PLa1_woodenPartPlank_interact_activate.sfx_CA01_PLa1_woodenPartPlank_interact_activate",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/Game/Spicewood/Art/Interactables/QuestAssets/Placeholder-item/T_Placeholder_Icon.T_Placeholder_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_Woodenplanks_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/QuestAssets/WoodenPlanks/BP_QuestItem_WoodenPlanks.BP_QuestItem_WoodenPlanks_C"
+	},
+	{
+		"Name": "Noteblock",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.QuestItem.DesertA1Noteblock"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.QuestItem"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item"
+				}
+			]
+		},
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/Game/Spicewood/Art/Environment/DeepDark/Props/Noteblock/T_UI_Noteblock_Red_Icon.T_UI_Noteblock_Red_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_DesertA1Noteblock_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_DesertA1Noteblock_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/QuestAssets/Noteblock/BP_QuestItem_Noteblock.BP_QuestItem_Noteblock_C"
+	},
+	{
+		"Name": "NoteblockMap",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.QuestItem.NoteblockMap"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.QuestItem"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/Game/Spicewood/Art/Interactables/QuestAssets/Placeholder-item/T_Placeholder_Icon.T_Placeholder_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_NoteblockMap_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_NoteblockMap_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/QuestAssets/NoteblockMap/BP_QuestItem_NoteblockMap.BP_QuestItem_NoteblockMap_C"
+	},
+	{
+		"Name": "PowerConduit",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.QuestItem.PowerConduit"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.QuestItem"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item"
+				}
+			]
+		},
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/Game/Spicewood/Art/Interactables/QuestAssets/Placeholder-item/T_Placeholder_Icon.T_Placeholder_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_PowerConduit_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_PowerConduit_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/QuestAssets/PowerConduit/BP_QuestItem_PowerConduit.BP_QuestItem_PowerConduit_C"
+	},
+	{
+		"Name": "HealthySculkBlock",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.QuestItem.HealthySculkBlock"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.QuestItem.FollowsPlayer"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.QuestItem"
+				},
+				{
+					"TagName": "SW.Item"
+				}
+			]
+		},
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/Game/Spicewood/Art/Interactables/QuestAssets/Placeholder-item/T_Placeholder_Icon.T_Placeholder_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_HealthySculkBlock_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_HealthySculkBlock_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/QuestAssets/HealthySculkBlock/BP_QuestItem_HealthySculkBlock.BP_QuestItem_HealthySculkBlock_C"
+	},
+	{
+		"Name": "CageKey",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.QuestItem.CageKey"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.QuestItem.FollowsPlayer"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.QuestItem"
+				},
+				{
+					"TagName": "SW.Item"
+				}
+			]
+		},
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/Game/Spicewood/Art/Interactables/QuestAssets/Key/T_Key_Icon.T_Key_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_CageKey_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_CageKey_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/QuestAssets/Key/BP_QuestItem_Key.BP_QuestItem_Key_C"
+	},
+	{
+		"Name": "SpicyPeppers",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.QuestItem.SpicyPeppers"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.QuestItem.FollowsPlayer"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.QuestItem"
+				},
+				{
+					"TagName": "SW.Item"
+				}
+			]
+		},
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/Game/Spicewood/Art/Interactables/QuestAssets/Placeholder-item/T_Placeholder_Icon.T_Placeholder_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_SpicyPeppers_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_SpicyPeppers_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/QuestAssets/SpicyPeppers/BP_QuestItem_SpicyPeppers.BP_QuestItem_SpicyPeppers_C"
+	},
+	{
+		"Name": "SunflowerSeeds",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.QuestItem.SunflowerSeeds"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.QuestItem"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item"
+				}
+			]
+		},
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa2/S07_PLa2/S07_PLa2_Props/sfx_S07_PLa2_collectSeed_pickup_activate.sfx_S07_PLa2_collectSeed_pickup_activate",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa2/S07_PLa2/S07_PLa2_Props/sfx_S07_PLa2_collectSeed_drop_activate.sfx_S07_PLa2_collectSeed_drop_activate",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/Game/Spicewood/PlayerPlot/Content/Spicewood/Art/Sprites/T_wheat_seeds.T_wheat_seeds",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_SunflowerSeeds_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_SunflowerSeeds_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/QuestAssets/SunflowerSeeds/BP_QuestItem_SunflowerSeeds.BP_QuestItem_SunflowerSeeds_C"
+	},
+	{
+		"Name": "MissingCrates",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.QuestItem.MissingCrates"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.QuestItem.FollowsPlayer"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.QuestItem"
+				},
+				{
+					"TagName": "SW.Item"
+				}
+			]
+		},
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa2/S03_PLa2/S03_PLa2_Props/sfx_S03_PLa2_woodenCrate_pickUp_activate.sfx_S03_PLa2_woodenCrate_pickUp_activate",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/Game/Spicewood/Art/Interactables/QuestAssets/SupplyCrate/T_SupplyCrate_Icon.T_SupplyCrate_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_MissingCrates_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/QuestAssets/SupplyCrate/BP_QuestItem_MissingCrate.BP_QuestItem_MissingCrate_C"
+	},
+	{
+		"Name": "MissingItems",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.QuestItem.MissingItems"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.QuestItem.FollowsPlayer"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.QuestItem"
+				},
+				{
+					"TagName": "SW.Item"
+				}
+			]
+		},
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa2/S02_PLa2/S02_PLa2_Props/sfx_S02_PLa2_gift_pickUp_activate.sfx_S02_PLa2_gift_pickUp_activate",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/Game/Spicewood/Art/Interactables/QuestAssets/Placeholder-item/T_Placeholder_Icon.T_Placeholder_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_MissingItems_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_MissingItems_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/QuestAssets/MissingItems/BP_QuestItem_MissingItems.BP_QuestItem_MissingItems_C"
+	},
+	{
+		"Name": "WindmillKey",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.QuestItem.WindmillKey"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.QuestItem"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa1/S08_PLa1/S08_PLa1_Props/sfx_S08_PLa1_key_collect_activate.sfx_S08_PLa1_key_collect_activate",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa1/S08_PLa1/S08_PLa1_Props/sfx_S08_PLa1_key_drop_activate.sfx_S08_PLa1_key_drop_activate",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/Game/Spicewood/Art/Interactables/QuestAssets/Key/T_Key_Icon.T_Key_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_WindmillKey_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_WindmillKey_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/QuestAssets/Key/BP_QuestItem_Key.BP_QuestItem_Key_C"
+	},
+	{
+		"Name": "Honeycomb",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.QuestItem.Honeycomb"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.QuestItem.FollowsPlayer"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.QuestItem"
+				},
+				{
+					"TagName": "SW.Item"
+				}
+			]
+		},
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa1/S09_PLa1/S09_PLa1_Props/sfx_S09_PLa1_honeyComb_collect_activate.sfx_S09_PLa1_honeyComb_collect_activate",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa1/S09_PLa1/S09_PLa1_Props/sfx_S09_PLa1_honeyComb_drop_activate.sfx_S09_PLa1_honeyComb_drop_activate",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/Game/Spicewood/Art/Interactables/QuestAssets/Placeholder-item/T_Placeholder_Icon.T_Placeholder_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_Honeycomb_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_Honeycomb_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/QuestAssets/Honeycomb/BP_QuestItem_Honeycomb.BP_QuestItem_Honeycomb_C"
+	},
+	{
+		"Name": "SoulCandle",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.QuestItem.SoulCandle"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.QuestItem"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/Game/Spicewood/Art/Interactables/QuestAssets/Placeholder-item/T_Placeholder_Icon.T_Placeholder_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_SoulCandle_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_SoulCandle_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/QuestAssets/SoulCandle/BP_QuestItem_SoulCandle.BP_QuestItem_SoulCandle_C"
+	},
+	{
+		"Name": "FarmerShovel",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.QuestItem.FarmerShovel"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.QuestItem"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/Game/Spicewood/Art/Interactables/QuestAssets/Placeholder-item/T_Placeholder_Icon.T_Placeholder_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_FarmerShovel_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_FarmerShovel_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/QuestAssets/FarmerShovel/BP_QuestItem_FarmerShovel.BP_QuestItem_FarmerShovel_C"
+	},
+	{
+		"Name": "LostSupplies",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.QuestItem.LostSupplies"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.QuestItem"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/Game/Spicewood/Art/Interactables/QuestAssets/SupplyCrate/T_SupplyCrate_Icon.T_SupplyCrate_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_LostSupplies_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_LostSupplies_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/QuestAssets/LostSupplies/BP_QuestItem_LostSupplies.BP_QuestItem_LostSupplies_C"
+	},
+	{
+		"Name": "Mushroom",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.QuestItem.Mushroom"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.QuestItem.FollowsPlayer"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.QuestItem"
+				},
+				{
+					"TagName": "SW.Item"
+				}
+			]
+		},
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/FOa1/S01_FOa1/S01_FOa1_Props/sfx_S01_FOa1_mushroom_interact_activate.sfx_S01_FOa1_mushroom_interact_activate",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/Game/Spicewood/Art/Interactables/QuestAssets/Placeholder-item/T_Placeholder_Icon.T_Placeholder_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_Mushroom_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_Mushroom_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/QuestAssets/Mushroom/BP_QuestItem_Mushroom.BP_QuestItem_Mushroom_C"
+	},
+	{
+		"Name": "CropSeeds",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.QuestItem.CropSeeds"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.QuestItem"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item"
+				}
+			]
+		},
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa2/S07_PLa2/S07_PLa2_Props/sfx_S07_PLa2_collectSeed_pickup_activate.sfx_S07_PLa2_collectSeed_pickup_activate",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa2/S07_PLa2/S07_PLa2_Props/sfx_S07_PLa2_collectSeed_drop_activate.sfx_S07_PLa2_collectSeed_drop_activate",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/Game/Spicewood/PlayerPlot/Content/Spicewood/Art/Sprites/T_wheat_seeds.T_wheat_seeds",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_CropSeeds_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_CropSeeds_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/QuestAssets/CropSeeds/BP_QuestItem_CropSeeds.BP_QuestItem_CropSeeds_C"
+	},
+	{
+		"Name": "GrooblerSeeds",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.QuestItem.GrooblerSeeds"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.QuestItem.FollowsPlayer"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.QuestItem"
+				},
+				{
+					"TagName": "SW.Item"
+				}
+			]
+		},
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/Game/Spicewood/Art/Interactables/QuestAssets/Placeholder-Stick/T_Quest-staff_placeholder.T_Quest-staff_placeholder",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_GrooblerSeeds_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_GrooblerSeeds_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/QuestAssets/GrooblerSeeds/BP_QuestItem_GrooblerSeeds.BP_QuestItem_GrooblerSeeds_C"
+	},
+	{
+		"Name": "ScarecrowHead",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.QuestItem.ScarecrowHead"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.QuestItem"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item"
+				}
+			]
+		},
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa2/S07_PLa2/S07_PLa2_Props/sfx_S07_PLa2_collectSeed_pickup_activate.sfx_S07_PLa2_collectSeed_pickup_activate",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa2/S07_PLa2/S07_PLa2_Props/sfx_S07_PLa2_collectSeed_drop_activate.sfx_S07_PLa2_collectSeed_drop_activate",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/Game/Spicewood/Art/Interactables/QuestAssets/Placeholder-Stick/T_Quest-staff_placeholder.T_Quest-staff_placeholder",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_ScarecrowHead_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_ScarecrowHead_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/QuestAssets/ScarecrowHead/BP_QuestItem_ScarecrowHead.BP_QuestItem_ScarecrowHead_C"
+	},
+	{
+		"Name": "FlintSteel",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.QuestItem.FlintSteel"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.QuestItem"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/Game/Spicewood/Art/Interactables/QuestAssets/Placeholder-item/T_Placeholder_Icon.T_Placeholder_Icon",
+		"ActorReference": "/Game/Spicewood/Art/Interactables/QuestAssets/Placeholder-item/BP_PlaceholderItem.BP_PlaceholderItem_C"
+	},
+	{
+		"Name": "CandlemakerHint",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.QuestItem.CandlemakerHint"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.QuestItem.FollowsPlayer"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.QuestItem"
+				},
+				{
+					"TagName": "SW.Item"
+				}
+			]
+		},
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa1/S08_PLa1/S08_PLa1_Props/sfx_S08_PLa1_map_drop_activate.sfx_S08_PLa1_map_drop_activate",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Quests/SideQuests/PLa1/S08_PLa1/S08_PLa1_Props/sfx_S08_PLa1_map_drop_activate.sfx_S08_PLa1_map_drop_activate",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/Game/Spicewood/Art/Interactables/QuestAssets/Placeholder-item/T_Placeholder_Icon.T_Placeholder_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestItemDefinition.csv\", \"SW_Item_QuestItem_CandlemakerHint_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/QuestAssets/Placeholder-item/BP_PlaceholderItem.BP_PlaceholderItem_C"
+	}
+]

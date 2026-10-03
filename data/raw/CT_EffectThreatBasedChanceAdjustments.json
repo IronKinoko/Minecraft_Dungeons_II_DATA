@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "CurveTable",
+    "Name": "CT_EffectThreatBasedChanceAdjustments",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveTable'",
+    "Package": "/Game/Spicewood/GameplayLogic/CT_EffectThreatBasedChanceAdjustments",
+    "CurveTableMode": "SimpleCurves",
+    "Rows": {
+      "Tier1Effects": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 18.0,
+            "Value": 0.2
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "Tier2Effects": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 12.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "Tier3Effects": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 5.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 15.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      }
+    }
+  }
+]

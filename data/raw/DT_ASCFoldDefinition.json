@@ -1,0 +1,192 @@
+[
+	{
+		"Name": "DefaultHostileMob",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Default.Hostile"
+		},
+		"ASCFoldDefinition":
+		{
+			"KeyValuesToPersist":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.KeyValue.QuestKillTargetTag"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.KeyValue"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "Chest",
+		"TypeTag":
+		{
+			"TagName": "SW.LootSource.Chest"
+		},
+		"ASCFoldDefinition":
+		{
+			"TagsToPersist":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.State.Access.Open"
+					},
+					{
+						"TagName": "SW.State.Access.Closed"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.State.Access"
+					},
+					{
+						"TagName": "SW.State"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "ArenaSetup",
+		"TypeTag":
+		{
+			"TagName": "SW.ArenaSetup"
+		},
+		"ASCFoldDefinition":
+		{
+			"TagsToPersist":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.State.Encounter.Complete"
+					},
+					{
+						"TagName": "SW.State.Encounter.Incomplete"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.State"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "MusicalGate",
+		"TypeTag":
+		{
+			"TagName": "SW.MapActor.MusicalGate"
+		},
+		"ASCFoldDefinition":
+		{
+			"TagsToPersist":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.State.Access.Open"
+					},
+					{
+						"TagName": "SW.State.Access.Closed"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.State.Access"
+					},
+					{
+						"TagName": "SW.State"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"KeyValuesToPersist":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.KeyValue.SpawnCount"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.KeyValue"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "KeyMob",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.KeyGolem"
+		},
+		"ASCFoldDefinition":
+		{
+			"KeyValuesToPersist":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.KeyValue.KeySpawner"
+					},
+					{
+						"TagName": "SW.KeyValue.TimeDropped"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.KeyValue"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "Storminator",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.SoulStorm.Storminator.Base"
+		},
+		"ASCFoldDefinition":
+		{
+			"AttributesToPersist":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Attribute.Health"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Attribute"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	}
+]

@@ -1,0 +1,10 @@
+[
+	{
+		"Name": "NewRow",
+		"Tag":
+		{
+			"TagName": "SW.Quest.Location.BrokenBridge"
+		},
+		"QuestLocation": "LOCTABLE(\"QuestLocationLabels.csv\", \"Quest_Broken_Bridge_Location\")"
+	}
+]

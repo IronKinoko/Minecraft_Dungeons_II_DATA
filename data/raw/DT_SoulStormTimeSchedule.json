@@ -1,0 +1,12 @@
+[
+	{
+		"Name": "SoulStormTime",
+		"TypeTag":
+		{
+			"TagName": "OnlineDataTables.TypeSystem.DT_SoulStormTimeSchedule"
+		},
+		"Timestamp": "2026.01.01-00.00.00",
+		"DurationInSeconds": 1200,
+		"CadenceInSeconds": 2400
+	}
+]

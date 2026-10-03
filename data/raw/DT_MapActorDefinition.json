@@ -1,0 +1,6735 @@
+[
+	{
+		"Name": "MainParent",
+		"TypeTag":
+		{
+			"TagName": "SW.MapActor"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize.Dynamic"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize"
+				},
+				{
+					"TagName": "SW.ReplicationGraph"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "None",
+		"AIStateTree": "None"
+	},
+	{
+		"Name": "DefaultTargetable",
+		"TypeTag":
+		{
+			"TagName": "SW.MapActor.Default.Targetable"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.AI.Aggro.Aggressive"
+				},
+				{
+					"TagName": "SW.MapActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.AI.Aggro"
+				},
+				{
+					"TagName": "SW.State.AI"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "None",
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 1
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Damage.BaseDamageMultiplier"
+				},
+				"Value": 1
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Resistance.BaseDamageResistanceMultiplier"
+				},
+				"Value": 1
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.MeleeAttackSpeed"
+				},
+				"Value": 1
+			}
+		],
+		"AIStateTree": "None"
+	},
+	{
+		"Name": "DefaultUntargetable",
+		"TypeTag":
+		{
+			"TagName": "SW.MapActor.Default.Untargetable"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.AI.Aggro.Aggressive"
+				},
+				{
+					"TagName": "SW.MapActor"
+				},
+				{
+					"TagName": "SW.State.Untargetable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.AI.Aggro"
+				},
+				{
+					"TagName": "SW.State.AI"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "None",
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Damage.BaseDamageMultiplier"
+				},
+				"Value": 1
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.MeleeAttackSpeed"
+				},
+				"Value": 1
+			}
+		],
+		"AIStateTree": "None"
+	},
+	{
+		"Name": "DefaultUnhittable",
+		"TypeTag":
+		{
+			"TagName": "SW.MapActor.Default.Unhittable"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.AI.Aggro.Aggressive"
+				},
+				{
+					"TagName": "SW.MapActor"
+				},
+				{
+					"TagName": "SW.State.Untargetable"
+				},
+				{
+					"TagName": "SW.State.Unhittable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.AI.Aggro"
+				},
+				{
+					"TagName": "SW.State.AI"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "None",
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Damage.BaseDamageMultiplier"
+				},
+				"Value": 1
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.MeleeAttackSpeed"
+				},
+				"Value": 1
+			}
+		],
+		"AIStateTree": "None"
+	},
+	{
+		"Name": "RedBerryBush",
+		"TypeTag":
+		{
+			"TagName": "SW.MapActor.RedBerryBush"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.MapActor.Default.Unhittable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.MapActor.Default"
+				},
+				{
+					"TagName": "SW.MapActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Art/Environment/Generic/Nature/Meshes/Bushes/BP_RedBerryBushProp.BP_RedBerryBushProp_C",
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_ApplyEffectOnOverlap",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Range"
+						},
+						"Type": "Float",
+						"Float": 1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityLifetime"
+						},
+						"Type": "Float",
+						"Float": 0
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_ApplyEffectOnOverlapData",
+						"ShapeData":
+						{
+							"OverlapShape": "Box",
+							"BoxShape":
+							{
+								"X": 70,
+								"Y": 70,
+								"Z": 120
+							},
+							"CapsuleHeight": 2,
+							"ShapeOffset":
+							{
+								"X": 0,
+								"Y": 0,
+								"Z": 0
+							}
+						},
+						"RangeModifyingAttribute":
+						{
+							"TagName": "None"
+						},
+						"ApplyToFriendlies": false,
+						"ApplyToHostiles": true,
+						"ApplyToSelf": false,
+						"Damage": 10,
+						"DamageCalculationTag":
+						{
+							"TagName": "SW.KeyValue.DamageCalculationTag"
+						},
+						"AttackTypeTag":
+						{
+							"TagName": "None"
+						},
+						"DamageTags":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.Damage.Percentage"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW.Damage"
+								},
+								{
+									"TagName": "SW"
+								}
+							]
+						},
+						"AttackWeight": "Medium",
+						"AllowOverlapEffectsToLinger": false,
+						"AllowOverlapStatusesToLinger": false,
+						"bShouldTrackStatusEffects": false,
+						"bShouldApplyLingeringStatusEffectsOnUntracked": false,
+						"bReApplyOverlapStatuses": false,
+						"ReApplicationInterval": 1,
+						"GameplayCue":
+						{
+							"TagName": "None"
+						},
+						"bShouldSyncGCNPositionToShapeData": false,
+						"DestroyActorOnAbilityEnd": false,
+						"ActorLifetimeAfterAbilityEnd": 0,
+						"Knockback":
+						{
+							"Strength": 0,
+							"LaunchAngleInDegrees": 0,
+							"bForceKnockback": false,
+							"bDisableMovementControl": true,
+							"DisableMovementControlSeconds": 0.4,
+							"Direction":
+							{
+								"TagName": "SW.Knockback.Direction.Target"
+							}
+						},
+						"OverlappingComponentOverride": "None"
+					}
+				]
+			}
+		],
+		"AIStateTree": "None"
+	},
+	{
+		"Name": "KeyLock_gold",
+		"TypeTag":
+		{
+			"TagName": "SW.MapActor.KeyLock"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize.Dynamic"
+				},
+				{
+					"TagName": "SW.MapActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize"
+				},
+				{
+					"TagName": "SW.ReplicationGraph"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Blueprints/BP_KeyLock.BP_KeyLock_C",
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SpawnActorFromSpawnPoint",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.KeyGolem.SpawnPoint"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnFromLootTable"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.IncludeAreaLootTable"
+						},
+						"Type": "Bool",
+						"Bool": true
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TagToSpawn"
+						},
+						"Type": "GameplayTagContainer",
+						"GameplayTagContainer":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.Mob.KeyGolemGold"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW.Mob"
+								},
+								{
+									"TagName": "SW"
+								}
+							]
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MinActorAmount"
+						},
+						"Type": "Int",
+						"Int": 1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MaxActorAmount"
+						},
+						"Type": "Int",
+						"Int": 1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.StartDelay"
+						},
+						"Type": "Float",
+						"Float": 0.1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Interval"
+						},
+						"Type": "Float",
+						"Float": 0.1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.EndDelay"
+						},
+						"Type": "Float",
+						"Float": 0.1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Suicide"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnLocationType"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.SpawnLocation.Owner"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnInstigatorHandling"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.InstigatorHandlingMethod.CheckStale"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InheritOwnerRotation"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnAnimStartSectionName"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnAnimSpawnSectionName"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnAnimEndSectionName"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.GameplayCueTrigger"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnDistanceOffset"
+						},
+						"Type": "Float",
+						"Float": -1000
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnHeightOffset"
+						},
+						"Type": "Float",
+						"Float": 500
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RandomOffsetMaxDistance"
+						},
+						"Type": "Vector",
+						"Vector":
+						{
+							"X": 0,
+							"Y": 0,
+							"Z": 0
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.LaunchVector"
+						},
+						"Type": "Vector",
+						"Vector":
+						{
+							"X": 0,
+							"Y": 0,
+							"Z": 0
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "SpawnAnim",
+								"Object": "None"
+							}
+						]
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodLevelGimmicks.GA_KeyLockInteraction",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.DetectionRadius"
+						},
+						"Type": "Float",
+						"Float": 600
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.OpenDelay"
+						},
+						"Type": "Float",
+						"Float": 3
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.KeyGolemGold"
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "KeyUnlockAnim",
+								"Object": "/Game/Spicewood/Art/Characters/Friendlies/KeyGolem/Animations/AM_KeyGolem_Lock_Open.AM_KeyGolem_Lock_Open"
+							}
+						]
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_CheckMovementArea",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.MobMovementArea"
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				]
+			}
+		],
+		"AIStateTree": "None"
+	},
+	{
+		"Name": "MusicalGates",
+		"TypeTag":
+		{
+			"TagName": "SW.MapActor.MusicalGate"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize.Dynamic"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize"
+				},
+				{
+					"TagName": "SW.ReplicationGraph"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "None",
+		"AIStateTree": "None"
+	},
+	{
+		"Name": "MusicalGates_2",
+		"TypeTag":
+		{
+			"TagName": "SW.MapActor.MusicalGate.2"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.MapActor.MusicalGate"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.MapActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Blueprints/BP_Gate_2_Slots.BP_Gate_2_Slots_C",
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SpawnActorFromSpawnPoint",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.KeyGolem.SpawnPoint"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnFromLootTable"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.IncludeAreaLootTable"
+						},
+						"Type": "Bool",
+						"Bool": true
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TagToSpawn"
+						},
+						"Type": "GameplayTagContainer",
+						"GameplayTagContainer":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.Mob.MusicalGolem"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW.Mob"
+								},
+								{
+									"TagName": "SW"
+								}
+							]
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MinActorAmount"
+						},
+						"Type": "Int",
+						"Int": 2
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MaxActorAmount"
+						},
+						"Type": "Int",
+						"Int": 2
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.StartDelay"
+						},
+						"Type": "Float",
+						"Float": 0.1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Interval"
+						},
+						"Type": "Float",
+						"Float": 0.1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.EndDelay"
+						},
+						"Type": "Float",
+						"Float": 0.1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Suicide"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnLocationType"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.SpawnLocation.Owner"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnInstigatorHandling"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InheritOwnerRotation"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnAnimStartSectionName"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnAnimSpawnSectionName"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnAnimEndSectionName"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.GameplayCueTrigger"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnDistanceOffset"
+						},
+						"Type": "Float",
+						"Float": -1000
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnHeightOffset"
+						},
+						"Type": "Float",
+						"Float": 500
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RandomOffsetMaxDistance"
+						},
+						"Type": "Vector",
+						"Vector":
+						{
+							"X": 0,
+							"Y": 0,
+							"Z": 0
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.LaunchVector"
+						},
+						"Type": "Vector",
+						"Vector":
+						{
+							"X": 0,
+							"Y": 0,
+							"Z": 0
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "SpawnAnim",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_OpenClose.AM_MusicalGate_OpenClose"
+							}
+						]
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_GateInteraction",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.NumberOfRequiredKeys"
+						},
+						"Type": "Int",
+						"Int": 2
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.GateStartingSlot"
+						},
+						"Type": "Int",
+						"Int": 2
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.DetectionRadius"
+						},
+						"Type": "Float",
+						"Float": 600
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ResponseDelay"
+						},
+						"Type": "Float",
+						"Float": 0.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.FlyToGateDelay"
+						},
+						"Type": "Float",
+						"Float": 0.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.KeyInSlotDelay"
+						},
+						"Type": "Float",
+						"Float": 0.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.GateUnlockDelay"
+						},
+						"Type": "Float",
+						"Float": 1.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.PlayerRelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.MusicalGolem"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.PlayerAreaCheckRelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.PlayerCheckArea"
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "GateCallMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_Play.AM_MusicalGate_Play"
+							},
+							{
+								"Name": "EnterMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_Enter.AM_MusicalGate_Enter"
+							},
+							{
+								"Name": "GateUnlockMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_OpenClose.AM_MusicalGate_OpenClose"
+							},
+							{
+								"Name": "GateFailMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_Fail.AM_MusicalGate_Fail"
+							}
+						]
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_CheckMovementArea",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.MobMovementArea"
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				]
+			}
+		],
+		"Montages":
+		{
+			"(TagName=\"SW.Montage.Open\")": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_Open_No_SFX.AM_MusicalGate_Open_No_SFX"
+		},
+		"AIStateTree": "None"
+	},
+	{
+		"Name": "MusicalGates_3",
+		"TypeTag":
+		{
+			"TagName": "SW.MapActor.MusicalGate.3"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.MapActor.MusicalGate"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.MapActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Blueprints/BP_Gate_3_Slots.BP_Gate_3_Slots_C",
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SpawnActorFromSpawnPoint",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.KeyGolem.SpawnPoint"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnFromLootTable"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.IncludeAreaLootTable"
+						},
+						"Type": "Bool",
+						"Bool": true
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TagToSpawn"
+						},
+						"Type": "GameplayTagContainer",
+						"GameplayTagContainer":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.Mob.MusicalGolem"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW.Mob"
+								},
+								{
+									"TagName": "SW"
+								}
+							]
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MinActorAmount"
+						},
+						"Type": "Int",
+						"Int": 3
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MaxActorAmount"
+						},
+						"Type": "Int",
+						"Int": 3
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.StartDelay"
+						},
+						"Type": "Float",
+						"Float": 0.1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Interval"
+						},
+						"Type": "Float",
+						"Float": 0.1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.EndDelay"
+						},
+						"Type": "Float",
+						"Float": 0.1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Suicide"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnLocationType"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.SpawnLocation.Owner"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnInstigatorHandling"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InheritOwnerRotation"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnAnimStartSectionName"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnAnimSpawnSectionName"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnAnimEndSectionName"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.GameplayCueTrigger"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnDistanceOffset"
+						},
+						"Type": "Float",
+						"Float": -1000
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnHeightOffset"
+						},
+						"Type": "Float",
+						"Float": 500
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RandomOffsetMaxDistance"
+						},
+						"Type": "Vector",
+						"Vector":
+						{
+							"X": 0,
+							"Y": 0,
+							"Z": 0
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.LaunchVector"
+						},
+						"Type": "Vector",
+						"Vector":
+						{
+							"X": 0,
+							"Y": 0,
+							"Z": 0
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "SpawnAnim",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_OpenClose.AM_MusicalGate_OpenClose"
+							}
+						]
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_GateInteraction",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.NumberOfRequiredKeys"
+						},
+						"Type": "Int",
+						"Int": 3
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.GateStartingSlot"
+						},
+						"Type": "Int",
+						"Int": 2
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.DetectionRadius"
+						},
+						"Type": "Float",
+						"Float": 600
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ResponseDelay"
+						},
+						"Type": "Float",
+						"Float": 0.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.FlyToGateDelay"
+						},
+						"Type": "Float",
+						"Float": 0.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.KeyInSlotDelay"
+						},
+						"Type": "Float",
+						"Float": 0.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.GateUnlockDelay"
+						},
+						"Type": "Float",
+						"Float": 1.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.PlayerRelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.MusicalGolem"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.PlayerAreaCheckRelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.PlayerCheckArea"
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "GateCallMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_Play.AM_MusicalGate_Play"
+							},
+							{
+								"Name": "EnterMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_Enter.AM_MusicalGate_Enter"
+							},
+							{
+								"Name": "GateUnlockMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_OpenClose.AM_MusicalGate_OpenClose"
+							},
+							{
+								"Name": "GateFailMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_Fail.AM_MusicalGate_Fail"
+							}
+						]
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_CheckMovementArea",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.MobMovementArea"
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				]
+			}
+		],
+		"Montages":
+		{
+			"(TagName=\"SW.Montage.Open\")": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_Open_No_SFX.AM_MusicalGate_Open_No_SFX"
+		},
+		"AIStateTree": "None"
+	},
+	{
+		"Name": "MusicalGates_4",
+		"TypeTag":
+		{
+			"TagName": "SW.MapActor.MusicalGate.4"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.MapActor.MusicalGate"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.MapActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Blueprints/BP_Gate_4_Slots.BP_Gate_4_Slots_C",
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SpawnActorFromSpawnPoint",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.KeyGolem.SpawnPoint"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnFromLootTable"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.IncludeAreaLootTable"
+						},
+						"Type": "Bool",
+						"Bool": true
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TagToSpawn"
+						},
+						"Type": "GameplayTagContainer",
+						"GameplayTagContainer":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.Mob.MusicalGolem"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW.Mob"
+								},
+								{
+									"TagName": "SW"
+								}
+							]
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MinActorAmount"
+						},
+						"Type": "Int",
+						"Int": 4
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MaxActorAmount"
+						},
+						"Type": "Int",
+						"Int": 4
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.StartDelay"
+						},
+						"Type": "Float",
+						"Float": 0.1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Interval"
+						},
+						"Type": "Float",
+						"Float": 0.1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.EndDelay"
+						},
+						"Type": "Float",
+						"Float": 0.1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Suicide"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnLocationType"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.SpawnLocation.Owner"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnInstigatorHandling"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InheritOwnerRotation"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnAnimStartSectionName"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnAnimSpawnSectionName"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnAnimEndSectionName"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.GameplayCueTrigger"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnDistanceOffset"
+						},
+						"Type": "Float",
+						"Float": -1000
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnHeightOffset"
+						},
+						"Type": "Float",
+						"Float": 500
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RandomOffsetMaxDistance"
+						},
+						"Type": "Vector",
+						"Vector":
+						{
+							"X": 0,
+							"Y": 0,
+							"Z": 0
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.LaunchVector"
+						},
+						"Type": "Vector",
+						"Vector":
+						{
+							"X": 0,
+							"Y": 0,
+							"Z": 0
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "SpawnAnim",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_OpenClose.AM_MusicalGate_OpenClose"
+							}
+						]
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_GateInteraction",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.NumberOfRequiredKeys"
+						},
+						"Type": "Int",
+						"Int": 4
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.GateStartingSlot"
+						},
+						"Type": "Int",
+						"Int": 1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.DetectionRadius"
+						},
+						"Type": "Float",
+						"Float": 600
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ResponseDelay"
+						},
+						"Type": "Float",
+						"Float": 0.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.FlyToGateDelay"
+						},
+						"Type": "Float",
+						"Float": 0.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.KeyInSlotDelay"
+						},
+						"Type": "Float",
+						"Float": 0.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.GateUnlockDelay"
+						},
+						"Type": "Float",
+						"Float": 1.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.PlayerRelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.MusicalGolem"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.PlayerAreaCheckRelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.PlayerCheckArea"
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "GateCallMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_Play.AM_MusicalGate_Play"
+							},
+							{
+								"Name": "EnterMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_Enter.AM_MusicalGate_Enter"
+							},
+							{
+								"Name": "GateUnlockMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_OpenClose.AM_MusicalGate_OpenClose"
+							},
+							{
+								"Name": "GateFailMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_Fail.AM_MusicalGate_Fail"
+							}
+						]
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_CheckMovementArea",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.MobMovementArea"
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				]
+			}
+		],
+		"Montages":
+		{
+			"(TagName=\"SW.Montage.Open\")": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_Open_No_SFX.AM_MusicalGate_Open_No_SFX"
+		},
+		"AIStateTree": "None"
+	},
+	{
+		"Name": "MusicalGates_5",
+		"TypeTag":
+		{
+			"TagName": "SW.MapActor.MusicalGate.5"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.MapActor.MusicalGate"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.MapActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Blueprints/BP_Gate_5_Slots.BP_Gate_5_Slots_C",
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SpawnActorFromSpawnPoint",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.KeyGolem.SpawnPoint"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnFromLootTable"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.IncludeAreaLootTable"
+						},
+						"Type": "Bool",
+						"Bool": true
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TagToSpawn"
+						},
+						"Type": "GameplayTagContainer",
+						"GameplayTagContainer":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.Mob.MusicalGolem"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW.Mob"
+								},
+								{
+									"TagName": "SW"
+								}
+							]
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MinActorAmount"
+						},
+						"Type": "Int",
+						"Int": 5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MaxActorAmount"
+						},
+						"Type": "Int",
+						"Int": 5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.StartDelay"
+						},
+						"Type": "Float",
+						"Float": 0.1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Interval"
+						},
+						"Type": "Float",
+						"Float": 0.1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.EndDelay"
+						},
+						"Type": "Float",
+						"Float": 0.1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Suicide"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnLocationType"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.SpawnLocation.Owner"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnInstigatorHandling"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InheritOwnerRotation"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnAnimStartSectionName"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnAnimSpawnSectionName"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnAnimEndSectionName"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.GameplayCueTrigger"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnDistanceOffset"
+						},
+						"Type": "Float",
+						"Float": -1000
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnHeightOffset"
+						},
+						"Type": "Float",
+						"Float": 500
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RandomOffsetMaxDistance"
+						},
+						"Type": "Vector",
+						"Vector":
+						{
+							"X": 0,
+							"Y": 0,
+							"Z": 0
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.LaunchVector"
+						},
+						"Type": "Vector",
+						"Vector":
+						{
+							"X": 0,
+							"Y": 0,
+							"Z": 0
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "SpawnAnim",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_OpenClose.AM_MusicalGate_OpenClose"
+							}
+						]
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_GateInteraction",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.NumberOfRequiredKeys"
+						},
+						"Type": "Int",
+						"Int": 5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.GateStartingSlot"
+						},
+						"Type": "Int",
+						"Int": 1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.DetectionRadius"
+						},
+						"Type": "Float",
+						"Float": 600
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ResponseDelay"
+						},
+						"Type": "Float",
+						"Float": 0.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.FlyToGateDelay"
+						},
+						"Type": "Float",
+						"Float": 0.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.KeyInSlotDelay"
+						},
+						"Type": "Float",
+						"Float": 0.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.GateUnlockDelay"
+						},
+						"Type": "Float",
+						"Float": 1.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.PlayerRelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.MusicalGolem"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.PlayerAreaCheckRelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.PlayerCheckArea"
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "GateCallMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_Play.AM_MusicalGate_Play"
+							},
+							{
+								"Name": "EnterMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_Enter.AM_MusicalGate_Enter"
+							},
+							{
+								"Name": "GateUnlockMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_OpenClose.AM_MusicalGate_OpenClose"
+							},
+							{
+								"Name": "GateFailMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_Fail.AM_MusicalGate_Fail"
+							}
+						]
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_CheckMovementArea",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.MobMovementArea"
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				]
+			}
+		],
+		"Montages":
+		{
+			"(TagName=\"SW.Montage.Open\")": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_Open_No_SFX.AM_MusicalGate_Open_No_SFX"
+		},
+		"AIStateTree": "None"
+	},
+	{
+		"Name": "IdentifyAsInteractable",
+		"TypeTag":
+		{
+			"TagName": "SW.MapActor.SimpleInteractable"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Targetable"
+				},
+				{
+					"TagName": "SW.TargetingProperties.Interactable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.TargetingProperties"
+				}
+			]
+		},
+		"ActorReference": "None",
+		"AIStateTree": "None"
+	},
+	{
+		"Name": "SingleUseInteractable",
+		"TypeTag":
+		{
+			"TagName": "SW.MapActor.SingleUseInteractable"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.MapActor.SimpleInteractable"
+				},
+				{
+					"TagName": "SW.Property.SingleInteraction"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.MapActor"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"ActorReference": "None",
+		"AIStateTree": "None"
+	},
+	{
+		"Name": "MusicalGates_Meadow_2",
+		"TypeTag":
+		{
+			"TagName": "SW.MapActor.MusicalGate.2.Meadow"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.MapActor.MusicalGate"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.MapActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Blueprints/BP_MeadowGate_2_Slots.BP_MeadowGate_2_Slots_C",
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SpawnActorFromSpawnPoint",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.KeyGolem.SpawnPoint"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnFromLootTable"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.IncludeAreaLootTable"
+						},
+						"Type": "Bool",
+						"Bool": true
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TagToSpawn"
+						},
+						"Type": "GameplayTagContainer",
+						"GameplayTagContainer":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.Mob.MusicalGolem"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW.Mob"
+								},
+								{
+									"TagName": "SW"
+								}
+							]
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MinActorAmount"
+						},
+						"Type": "Int",
+						"Int": 2
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MaxActorAmount"
+						},
+						"Type": "Int",
+						"Int": 2
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.StartDelay"
+						},
+						"Type": "Float",
+						"Float": 0.1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Interval"
+						},
+						"Type": "Float",
+						"Float": 0.1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.EndDelay"
+						},
+						"Type": "Float",
+						"Float": 0.1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Suicide"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnLocationType"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.SpawnLocation.Owner"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnInstigatorHandling"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InheritOwnerRotation"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnAnimStartSectionName"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnAnimSpawnSectionName"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnAnimEndSectionName"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.GameplayCueTrigger"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnDistanceOffset"
+						},
+						"Type": "Float",
+						"Float": -1000
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnHeightOffset"
+						},
+						"Type": "Float",
+						"Float": 500
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RandomOffsetMaxDistance"
+						},
+						"Type": "Vector",
+						"Vector":
+						{
+							"X": 0,
+							"Y": 0,
+							"Z": 0
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.LaunchVector"
+						},
+						"Type": "Vector",
+						"Vector":
+						{
+							"X": 0,
+							"Y": 0,
+							"Z": 0
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "SpawnAnim",
+								"Object": "None"
+							}
+						]
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_GateInteraction",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.NumberOfRequiredKeys"
+						},
+						"Type": "Int",
+						"Int": 2
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.GateStartingSlot"
+						},
+						"Type": "Int",
+						"Int": 2
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.DetectionRadius"
+						},
+						"Type": "Float",
+						"Float": 600
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ResponseDelay"
+						},
+						"Type": "Float",
+						"Float": 0.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.FlyToGateDelay"
+						},
+						"Type": "Float",
+						"Float": 0.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.KeyInSlotDelay"
+						},
+						"Type": "Float",
+						"Float": 0.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.GateUnlockDelay"
+						},
+						"Type": "Float",
+						"Float": 1.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.PlayerRelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.MusicalGolem"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.PlayerAreaCheckRelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.PlayerCheckArea"
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "GateCallMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_Play.AM_MusicalGate_Play"
+							},
+							{
+								"Name": "EnterMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_Enter.AM_MusicalGate_Enter"
+							},
+							{
+								"Name": "GateUnlockMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_OpenClose.AM_MusicalGate_OpenClose"
+							},
+							{
+								"Name": "GateFailMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_Fail.AM_MusicalGate_Fail"
+							}
+						]
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_CheckMovementArea",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.MobMovementArea"
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				]
+			}
+		],
+		"AIStateTree": "None"
+	},
+	{
+		"Name": "MusicalGates_Meadow_3",
+		"TypeTag":
+		{
+			"TagName": "SW.MapActor.MusicalGate.3.Meadow"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.MapActor.MusicalGate"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.MapActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Blueprints/BP_MeadowGate_3_Slots.BP_MeadowGate_3_Slots_C",
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SpawnActorFromSpawnPoint",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.KeyGolem.SpawnPoint"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnFromLootTable"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.IncludeAreaLootTable"
+						},
+						"Type": "Bool",
+						"Bool": true
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TagToSpawn"
+						},
+						"Type": "GameplayTagContainer",
+						"GameplayTagContainer":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.Mob.MusicalGolem"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW.Mob"
+								},
+								{
+									"TagName": "SW"
+								}
+							]
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MinActorAmount"
+						},
+						"Type": "Int",
+						"Int": 3
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MaxActorAmount"
+						},
+						"Type": "Int",
+						"Int": 3
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.StartDelay"
+						},
+						"Type": "Float",
+						"Float": 0.1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Interval"
+						},
+						"Type": "Float",
+						"Float": 0.1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.EndDelay"
+						},
+						"Type": "Float",
+						"Float": 0.1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Suicide"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnLocationType"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.SpawnLocation.Owner"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnInstigatorHandling"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InheritOwnerRotation"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnAnimStartSectionName"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnAnimSpawnSectionName"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnAnimEndSectionName"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.GameplayCueTrigger"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnDistanceOffset"
+						},
+						"Type": "Float",
+						"Float": -1000
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnHeightOffset"
+						},
+						"Type": "Float",
+						"Float": 500
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RandomOffsetMaxDistance"
+						},
+						"Type": "Vector",
+						"Vector":
+						{
+							"X": 0,
+							"Y": 0,
+							"Z": 0
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.LaunchVector"
+						},
+						"Type": "Vector",
+						"Vector":
+						{
+							"X": 0,
+							"Y": 0,
+							"Z": 0
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "SpawnAnim",
+								"Object": "None"
+							}
+						]
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_GateInteraction",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.NumberOfRequiredKeys"
+						},
+						"Type": "Int",
+						"Int": 3
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.GateStartingSlot"
+						},
+						"Type": "Int",
+						"Int": 2
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.DetectionRadius"
+						},
+						"Type": "Float",
+						"Float": 600
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ResponseDelay"
+						},
+						"Type": "Float",
+						"Float": 0.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.FlyToGateDelay"
+						},
+						"Type": "Float",
+						"Float": 0.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.KeyInSlotDelay"
+						},
+						"Type": "Float",
+						"Float": 0.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.GateUnlockDelay"
+						},
+						"Type": "Float",
+						"Float": 1.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.PlayerRelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.MusicalGolem"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.PlayerAreaCheckRelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.PlayerCheckArea"
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "GateCallMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_Play.AM_MusicalGate_Play"
+							},
+							{
+								"Name": "EnterMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_Enter.AM_MusicalGate_Enter"
+							},
+							{
+								"Name": "GateUnlockMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_OpenClose.AM_MusicalGate_OpenClose"
+							},
+							{
+								"Name": "GateFailMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_Fail.AM_MusicalGate_Fail"
+							}
+						]
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_CheckMovementArea",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.MobMovementArea"
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				]
+			}
+		],
+		"AIStateTree": "None"
+	},
+	{
+		"Name": "MusicalGates_Meadow_4",
+		"TypeTag":
+		{
+			"TagName": "SW.MapActor.MusicalGate.4.Meadow"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.MapActor.MusicalGate"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.MapActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Blueprints/BP_MeadowGate_4_Slots.BP_MeadowGate_4_Slots_C",
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SpawnActorFromSpawnPoint",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.KeyGolem.SpawnPoint"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnFromLootTable"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.IncludeAreaLootTable"
+						},
+						"Type": "Bool",
+						"Bool": true
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TagToSpawn"
+						},
+						"Type": "GameplayTagContainer",
+						"GameplayTagContainer":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.Mob.MusicalGolem"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW.Mob"
+								},
+								{
+									"TagName": "SW"
+								}
+							]
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MinActorAmount"
+						},
+						"Type": "Int",
+						"Int": 4
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MaxActorAmount"
+						},
+						"Type": "Int",
+						"Int": 4
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.StartDelay"
+						},
+						"Type": "Float",
+						"Float": 0.1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Interval"
+						},
+						"Type": "Float",
+						"Float": 0.1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.EndDelay"
+						},
+						"Type": "Float",
+						"Float": 0.1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Suicide"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnLocationType"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.SpawnLocation.Owner"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnInstigatorHandling"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InheritOwnerRotation"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnAnimStartSectionName"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnAnimSpawnSectionName"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnAnimEndSectionName"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.GameplayCueTrigger"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnDistanceOffset"
+						},
+						"Type": "Float",
+						"Float": -1000
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnHeightOffset"
+						},
+						"Type": "Float",
+						"Float": 500
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RandomOffsetMaxDistance"
+						},
+						"Type": "Vector",
+						"Vector":
+						{
+							"X": 0,
+							"Y": 0,
+							"Z": 0
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.LaunchVector"
+						},
+						"Type": "Vector",
+						"Vector":
+						{
+							"X": 0,
+							"Y": 0,
+							"Z": 0
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "SpawnAnim",
+								"Object": "None"
+							}
+						]
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_GateInteraction",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.NumberOfRequiredKeys"
+						},
+						"Type": "Int",
+						"Int": 4
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.GateStartingSlot"
+						},
+						"Type": "Int",
+						"Int": 1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.DetectionRadius"
+						},
+						"Type": "Float",
+						"Float": 600
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ResponseDelay"
+						},
+						"Type": "Float",
+						"Float": 0.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.FlyToGateDelay"
+						},
+						"Type": "Float",
+						"Float": 0.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.KeyInSlotDelay"
+						},
+						"Type": "Float",
+						"Float": 0.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.GateUnlockDelay"
+						},
+						"Type": "Float",
+						"Float": 1.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.PlayerRelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.MusicalGolem"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.PlayerAreaCheckRelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.PlayerCheckArea"
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "GateCallMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_Play.AM_MusicalGate_Play"
+							},
+							{
+								"Name": "EnterMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_Enter.AM_MusicalGate_Enter"
+							},
+							{
+								"Name": "GateUnlockMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_OpenClose.AM_MusicalGate_OpenClose"
+							},
+							{
+								"Name": "GateFailMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_Fail.AM_MusicalGate_Fail"
+							}
+						]
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_CheckMovementArea",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.MobMovementArea"
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				]
+			}
+		],
+		"AIStateTree": "None"
+	},
+	{
+		"Name": "MusicalGates_Meadow_5",
+		"TypeTag":
+		{
+			"TagName": "SW.MapActor.MusicalGate.5.Meadow"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.MapActor.MusicalGate"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.MapActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Blueprints/BP_MeadowGate_5_Slots.BP_MeadowGate_5_Slots_C",
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SpawnActorFromSpawnPoint",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.KeyGolem.SpawnPoint"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnFromLootTable"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.IncludeAreaLootTable"
+						},
+						"Type": "Bool",
+						"Bool": true
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TagToSpawn"
+						},
+						"Type": "GameplayTagContainer",
+						"GameplayTagContainer":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.Mob.MusicalGolem"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW.Mob"
+								},
+								{
+									"TagName": "SW"
+								}
+							]
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MinActorAmount"
+						},
+						"Type": "Int",
+						"Int": 5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MaxActorAmount"
+						},
+						"Type": "Int",
+						"Int": 5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.StartDelay"
+						},
+						"Type": "Float",
+						"Float": 0.1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Interval"
+						},
+						"Type": "Float",
+						"Float": 0.1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.EndDelay"
+						},
+						"Type": "Float",
+						"Float": 0.1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Suicide"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnLocationType"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.SpawnLocation.Owner"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnInstigatorHandling"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InheritOwnerRotation"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnAnimStartSectionName"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnAnimSpawnSectionName"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnAnimEndSectionName"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.GameplayCueTrigger"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnDistanceOffset"
+						},
+						"Type": "Float",
+						"Float": -1000
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnHeightOffset"
+						},
+						"Type": "Float",
+						"Float": 500
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RandomOffsetMaxDistance"
+						},
+						"Type": "Vector",
+						"Vector":
+						{
+							"X": 0,
+							"Y": 0,
+							"Z": 0
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.LaunchVector"
+						},
+						"Type": "Vector",
+						"Vector":
+						{
+							"X": 0,
+							"Y": 0,
+							"Z": 0
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "SpawnAnim",
+								"Object": "None"
+							}
+						]
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_GateInteraction",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.NumberOfRequiredKeys"
+						},
+						"Type": "Int",
+						"Int": 5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.GateStartingSlot"
+						},
+						"Type": "Int",
+						"Int": 1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.DetectionRadius"
+						},
+						"Type": "Float",
+						"Float": 600
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ResponseDelay"
+						},
+						"Type": "Float",
+						"Float": 0.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.FlyToGateDelay"
+						},
+						"Type": "Float",
+						"Float": 0.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.KeyInSlotDelay"
+						},
+						"Type": "Float",
+						"Float": 0.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.GateUnlockDelay"
+						},
+						"Type": "Float",
+						"Float": 1.5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.PlayerRelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.MusicalGolem"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.PlayerAreaCheckRelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.PlayerCheckArea"
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "GateCallMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_Play.AM_MusicalGate_Play"
+							},
+							{
+								"Name": "EnterMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_Enter.AM_MusicalGate_Enter"
+							},
+							{
+								"Name": "GateUnlockMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_OpenClose.AM_MusicalGate_OpenClose"
+							},
+							{
+								"Name": "GateFailMontage",
+								"Object": "/Game/Spicewood/Art/Environment/Interactables/LevelGimmicks/MusicalGates/Animations/AM_MusicalGate_Fail.AM_MusicalGate_Fail"
+							}
+						]
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_CheckMovementArea",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RelationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Relation.MobMovementArea"
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				]
+			}
+		],
+		"AIStateTree": "None"
+	},
+	{
+		"Name": "MinecartStation",
+		"TypeTag":
+		{
+			"TagName": "SW.MapActor.MinecartStation"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.MapActor.SimpleInteractable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.MapActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "None",
+		"AIStateTree": "None"
+	}
+]

@@ -1,0 +1,33 @@
+[
+	{
+		"Name": "NewRow",
+		"TypeTag":
+		{
+			"TagName": "SW.Attribute.Health"
+		},
+		"ScalesWithItemPower": 0.7,
+		"IconReference": "None",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_AttributeDefinition.csv\", \"SW_Attribute_Health_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_AttributeDefinition.csv\", \"SW_Attribute_Health_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	}
+]

@@ -1,0 +1,1010 @@
+[
+	{
+		"Name": "Esperanza",
+		"TypeTag":
+		{
+			"TagName": "SW.Skin.Esperanza"
+		},
+		"AvatarMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Esperanza/MI_Esperanza_Skin.MI_Esperanza_Skin",
+		"PortraitMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Esperanza/MI_Esperanza_PlayerPortrait.MI_Esperanza_PlayerPortrait",
+		"PoseTexture": "/Game/Spicewood/Art/Characters/Player/Skins/Esperanza/T_Esperanza_Skin_Icon.T_Esperanza_Skin_Icon",
+		"SkinMetaData":
+		{
+			"bIsDefault": false
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": true,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_SkinDefinition.csv\", \"SW_Skin_Esperanza_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "Greta",
+		"TypeTag":
+		{
+			"TagName": "SW.Skin.Greta"
+		},
+		"AvatarMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Greta/MI_Greta_Skin.MI_Greta_Skin",
+		"PortraitMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Greta/MI_Greta_PlayerPortrait.MI_Greta_PlayerPortrait",
+		"PoseTexture": "/Game/Spicewood/Art/Characters/Player/Skins/Greta/T_Greta_Skin_Icon.T_Greta_Skin_Icon",
+		"SkinMetaData":
+		{
+			"bIsDefault": false
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": true,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_SkinDefinition.csv\", \"SW_Skin_Greta_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "Darian",
+		"TypeTag":
+		{
+			"TagName": "SW.Skin.Darian"
+		},
+		"AvatarMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Darian/MI_Darian_Skin.MI_Darian_Skin",
+		"PortraitMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Darian/MI_Darian_PlayerPortrait.MI_Darian_PlayerPortrait",
+		"PoseTexture": "/Game/Spicewood/Art/Characters/Player/Skins/Darian/T_Darian_Skin_Icon.T_Darian_Skin_Icon",
+		"SkinMetaData":
+		{
+			"bIsDefault": false
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": true,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_SkinDefinition.csv\", \"SW_Skin_Darian_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "Eshe",
+		"TypeTag":
+		{
+			"TagName": "SW.Skin.Eshe"
+		},
+		"AvatarMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Eshe/MI_Eshe_Skin.MI_Eshe_Skin",
+		"PortraitMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Eshe/MI_Eshe_PlayerPortrait.MI_Eshe_PlayerPortrait",
+		"PoseTexture": "/Game/Spicewood/Art/Characters/Player/Skins/Eshe/T_Eshe_Skin_Icon.T_Eshe_Skin_Icon",
+		"SkinMetaData":
+		{
+			"bIsDefault": false
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": true,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_SkinDefinition.csv\", \"SW_Skin_Eshe_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "Violet",
+		"TypeTag":
+		{
+			"TagName": "SW.Skin.Violet"
+		},
+		"AvatarMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Violet/MI_Violet_Skin.MI_Violet_Skin",
+		"PortraitMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Violet/MI_Violet_PlayerPortrait.MI_Violet_PlayerPortrait",
+		"PoseTexture": "/Game/Spicewood/Art/Characters/Player/Skins/Violet/T_Violet_Skin_Icon.T_Violet_Skin_Icon",
+		"SkinMetaData":
+		{
+			"bIsDefault": false
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": true,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_SkinDefinition.csv\", \"SW_Skin_Violet_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "Nuru",
+		"TypeTag":
+		{
+			"TagName": "SW.Skin.Nuru"
+		},
+		"AvatarMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Nuru/MI_Nuru_Skin.MI_Nuru_Skin",
+		"PortraitMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Nuru/MI_Nuru_PlayerPortrait.MI_Nuru_PlayerPortrait",
+		"PoseTexture": "/Game/Spicewood/Art/Characters/Player/Skins/Nuru/T_Nuru_Skin_Icon.T_Nuru_Skin_Icon",
+		"SkinMetaData":
+		{
+			"bIsDefault": false
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": true,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_SkinDefinition.csv\", \"SW_Skin_Nuru_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "Qamar",
+		"TypeTag":
+		{
+			"TagName": "SW.Skin.Qamar"
+		},
+		"AvatarMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Qamar/MI_Qamar_Skin.MI_Qamar_Skin",
+		"PortraitMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Qamar/MI_Qamar_PlayerPortrait.MI_Qamar_PlayerPortrait",
+		"PoseTexture": "/Game/Spicewood/Art/Characters/Player/Skins/Qamar/T_Qamar_Skin_Icon.T_Qamar_Skin_Icon",
+		"SkinMetaData":
+		{
+			"bIsDefault": false
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": true,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_SkinDefinition.csv\", \"SW_Skin_Qamar_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "Valorie",
+		"TypeTag":
+		{
+			"TagName": "SW.Skin.Valorie"
+		},
+		"AvatarMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Valorie/MI_Valorie_Skin.MI_Valorie_Skin",
+		"PortraitMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Valorie/MI_Valorie_PlayerPortrait.MI_Valorie_PlayerPortrait",
+		"PoseTexture": "/Game/Spicewood/Art/Characters/Player/Skins/Valorie/T_Valorie_Skin_Icon.T_Valorie_Skin_Icon",
+		"SkinMetaData":
+		{
+			"bIsDefault": true
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": true,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_SkinDefinition.csv\", \"SW_Skin_Valorie_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "Tank",
+		"TypeTag":
+		{
+			"TagName": "SW.Skin.Tank"
+		},
+		"AvatarMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Tank/MI_Tank_Skin.MI_Tank_Skin",
+		"PortraitMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Tank/MI_Tank_PlayerPortrait.MI_Tank_PlayerPortrait",
+		"PoseTexture": "/Game/Spicewood/Art/Characters/Player/Skins/Tank/T_Tank_Skin_Icon.T_Tank_Skin_Icon",
+		"SkinMetaData":
+		{
+			"bIsDefault": false
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": true,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_SkinDefinition.csv\", \"SW_Skin_Tank_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "Healer",
+		"TypeTag":
+		{
+			"TagName": "SW.Skin.Healer"
+		},
+		"AvatarMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Healer/MI_Healer_Skin.MI_Healer_Skin",
+		"PortraitMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Healer/MI_Healer_PlayerPortrait.MI_Healer_PlayerPortrait",
+		"PoseTexture": "/Game/Spicewood/Art/Characters/Player/Skins/Healer/T_Healer_Skin_Icon.T_Healer_Skin_Icon",
+		"SkinMetaData":
+		{
+			"bIsDefault": false
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": true,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_SkinDefinition.csv\", \"SW_Skin_Healer_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "Ranger",
+		"TypeTag":
+		{
+			"TagName": "SW.Skin.Ranger"
+		},
+		"AvatarMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Ranger/MI_Ranger_Skin.MI_Ranger_Skin",
+		"PortraitMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Ranger/MI_Ranger_PlayerPortrait.MI_Ranger_PlayerPortrait",
+		"PoseTexture": "/Game/Spicewood/Art/Characters/Player/Skins/Ranger/T_Ranger_Skin_Icon.T_Ranger_Skin_Icon",
+		"SkinMetaData":
+		{
+			"bIsDefault": false
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": true,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_SkinDefinition.csv\", \"SW_Skin_Ranger_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "Javier",
+		"TypeTag":
+		{
+			"TagName": "SW.Skin.Javier"
+		},
+		"AvatarMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Javier/MI_Javier.MI_Javier",
+		"PortraitMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Javier/MI_Javier_PlayerPortrait.MI_Javier_PlayerPortrait",
+		"PoseTexture": "/Game/Spicewood/Art/Characters/Player/Skins/Javier/T_Javier_Skin_Icon.T_Javier_Skin_Icon",
+		"SkinMetaData":
+		{
+			"bIsDefault": false
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": true,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_SkinDefinition.csv\", \"SW_Skin_Javier_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "Brown",
+		"TypeTag":
+		{
+			"TagName": "SW.Skin.Brown"
+		},
+		"AvatarMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/_Brown/MI_Brown_Skin.MI_Brown_Skin",
+		"PortraitMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/_Brown/MI_Brown_PlayerPortrait.MI_Brown_PlayerPortrait",
+		"PoseTexture": "/Game/Spicewood/Art/Characters/Player/Skins/_Brown/T_Brown_Skin_Icon.T_Brown_Skin_Icon",
+		"SkinMetaData":
+		{
+			"bIsDefault": false
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": true,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_SkinDefinition.csv\", \"SW_Skin_Brown_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "Gray",
+		"TypeTag":
+		{
+			"TagName": "SW.Skin.Gray"
+		},
+		"AvatarMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/_Gray/MI_Gray_Skin.MI_Gray_Skin",
+		"PortraitMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/_Gray/MI_Gray_PlayerPortrait.MI_Gray_PlayerPortrait",
+		"PoseTexture": "/Game/Spicewood/Art/Characters/Player/Skins/_Gray/T_Gray_Skin_Icon.T_Gray_Skin_Icon",
+		"SkinMetaData":
+		{
+			"bIsDefault": false
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": true,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_SkinDefinition.csv\", \"SW_Skin_Gray_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "Green",
+		"TypeTag":
+		{
+			"TagName": "SW.Skin.Green"
+		},
+		"AvatarMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/_Green/MI_Green_Skin.MI_Green_Skin",
+		"PortraitMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/_Green/MI_Green_PlayerPortrait.MI_Green_PlayerPortrait",
+		"PoseTexture": "/Game/Spicewood/Art/Characters/Player/Skins/_Green/T_Green_Skin_Icon.T_Green_Skin_Icon",
+		"SkinMetaData":
+		{
+			"bIsDefault": false
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": true,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_SkinDefinition.csv\", \"SW_Skin_Green_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "Mint",
+		"TypeTag":
+		{
+			"TagName": "SW.Skin.Mint"
+		},
+		"AvatarMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/_Mint/MI_Mint_Skin.MI_Mint_Skin",
+		"PortraitMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/_Mint/MI_Mint_PlayerPortrait.MI_Mint_PlayerPortrait",
+		"PoseTexture": "/Game/Spicewood/Art/Characters/Player/Skins/_Mint/T_Mint_Skin_Icon.T_Mint_Skin_Icon",
+		"SkinMetaData":
+		{
+			"bIsDefault": false
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": true,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_SkinDefinition.csv\", \"SW_Skin_Mint_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "Pink",
+		"TypeTag":
+		{
+			"TagName": "SW.Skin.Pink"
+		},
+		"AvatarMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/_Pink/MI_Pink_Skin.MI_Pink_Skin",
+		"PortraitMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/_Pink/MI_Pink_PlayerPortrait.MI_Pink_PlayerPortrait",
+		"PoseTexture": "/Game/Spicewood/Art/Characters/Player/Skins/_Pink/T_Pink_Skin_Icon.T_Pink_Skin_Icon",
+		"SkinMetaData":
+		{
+			"bIsDefault": false
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": true,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_SkinDefinition.csv\", \"SW_Skin_Pink_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "Plum",
+		"TypeTag":
+		{
+			"TagName": "SW.Skin.Plum"
+		},
+		"AvatarMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/_Plum/MI_Plum_Skin.MI_Plum_Skin",
+		"PortraitMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/_Plum/MI_Pink_PlayerPortrait.MI_Pink_PlayerPortrait",
+		"PoseTexture": "/Game/Spicewood/Art/Characters/Player/Skins/_Plum/T_Plum_Skin_Icon.T_Plum_Skin_Icon",
+		"SkinMetaData":
+		{
+			"bIsDefault": false
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": true,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_SkinDefinition.csv\", \"SW_Skin_Plum_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "Purple",
+		"TypeTag":
+		{
+			"TagName": "SW.Skin.Purple"
+		},
+		"AvatarMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/_Purple/MI_Purple_Skin.MI_Purple_Skin",
+		"PortraitMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/_Purple/MI_Purple_PlayerPortrait.MI_Purple_PlayerPortrait",
+		"PoseTexture": "/Game/Spicewood/Art/Characters/Player/Skins/_Purple/T_Purple_Skin_Icon.T_Purple_Skin_Icon",
+		"SkinMetaData":
+		{
+			"bIsDefault": false
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": true,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_SkinDefinition.csv\", \"SW_Skin_Purple_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "Silver",
+		"TypeTag":
+		{
+			"TagName": "SW.Skin.Silver"
+		},
+		"AvatarMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/_Silver/MI_Silver_Skin.MI_Silver_Skin",
+		"PortraitMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/_Silver/MI_Silver_PlayerPortrait.MI_Silver_PlayerPortrait",
+		"PoseTexture": "/Game/Spicewood/Art/Characters/Player/Skins/_Silver/T_Silver_Skin_Icon.T_Silver_Skin_Icon",
+		"SkinMetaData":
+		{
+			"bIsDefault": false
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": true,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_SkinDefinition.csv\", \"SW_Skin_Silver_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "Yellow",
+		"TypeTag":
+		{
+			"TagName": "SW.Skin.Yellow"
+		},
+		"AvatarMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/_Yellow/MI_Yellow_Skin.MI_Yellow_Skin",
+		"PortraitMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/_Yellow/MI_Yellow_PlayerPortrait.MI_Yellow_PlayerPortrait",
+		"PoseTexture": "/Game/Spicewood/Art/Characters/Player/Skins/_Yellow/T_Yellow_Skin_Icon.T_Yellow_Skin_Icon",
+		"SkinMetaData":
+		{
+			"bIsDefault": false
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": true,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_SkinDefinition.csv\", \"SW_Skin_Yellow_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "FancyValorie",
+		"TypeTag":
+		{
+			"TagName": "SW.Skin.ValorieDeluxe"
+		},
+		"AvatarMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Valorie/MI_Valorie_Skin_Deluxe.MI_Valorie_Skin_Deluxe",
+		"PortraitMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Valorie/MI_Valorie_Deluxe_PlayerPortrait.MI_Valorie_Deluxe_PlayerPortrait",
+		"PoseTexture": "/Game/Spicewood/Art/Characters/Player/Skins/Valorie/T_Valorie_Skin_Deluxe_Icon.T_Valorie_Skin_Deluxe_Icon",
+		"SkinMetaData":
+		{
+			"bIsDefault": false
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": false,
+			"UpsellProduct":
+			{
+				"TagName": "SW.Product.DeluxeEdition"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_SkinDefinition.csv\", \"SW_Skin_ValorieDeluxe_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "HealerDeluxe",
+		"TypeTag":
+		{
+			"TagName": "SW.Skin.HealerDeluxe"
+		},
+		"AvatarMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Healer/MI_Healer_Skin_Deluxe.MI_Healer_Skin_Deluxe",
+		"PortraitMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Healer/MI_Healer_Deluxe_PlayerPortrait.MI_Healer_Deluxe_PlayerPortrait",
+		"PoseTexture": "/Game/Spicewood/Art/Characters/Player/Skins/Healer/T_Healer_Skin_Deluxe_Icon.T_Healer_Skin_Deluxe_Icon",
+		"SkinMetaData":
+		{
+			"bIsDefault": false
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": false,
+			"UpsellProduct":
+			{
+				"TagName": "SW.Product.DeluxeEdition"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_SkinDefinition.csv\", \"SW_Skin_HealerDeluxe_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "RangerDeluxe",
+		"TypeTag":
+		{
+			"TagName": "SW.Skin.RangerDeluxe"
+		},
+		"AvatarMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Ranger/MI_Ranger_Skin_Deluxe.MI_Ranger_Skin_Deluxe",
+		"PortraitMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Ranger/MI_Ranger_Deluxe_PlayerPortrait.MI_Ranger_Deluxe_PlayerPortrait",
+		"PoseTexture": "/Game/Spicewood/Art/Characters/Player/Skins/Ranger/T_Ranger_Skin_Deluxe_Icon.T_Ranger_Skin_Deluxe_Icon",
+		"SkinMetaData":
+		{
+			"bIsDefault": false
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": false,
+			"UpsellProduct":
+			{
+				"TagName": "SW.Product.DeluxeEdition"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_SkinDefinition.csv\", \"SW_Skin_RangerDeluxe_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "TankDeluxe",
+		"TypeTag":
+		{
+			"TagName": "SW.Skin.TankDeluxe"
+		},
+		"AvatarMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Tank/MI_Tank_Skin_Deluxe.MI_Tank_Skin_Deluxe",
+		"PortraitMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Tank/MI_Tank_Deluxe_PlayerPortrait.MI_Tank_Deluxe_PlayerPortrait",
+		"PoseTexture": "/Game/Spicewood/Art/Characters/Player/Skins/Tank/T_Tank_Skin_Deluxe_Icon.T_Tank_Skin_Deluxe_Icon",
+		"SkinMetaData":
+		{
+			"bIsDefault": false
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": false,
+			"UpsellProduct":
+			{
+				"TagName": "SW.Product.DeluxeEdition"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_SkinDefinition.csv\", \"SW_Skin_TankDeluxe_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "AdventureSteve",
+		"TypeTag":
+		{
+			"TagName": "SW.Skin.StevePreorder"
+		},
+		"AvatarMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Steve/MI_Steve_Skin_PreOrder.MI_Steve_Skin_PreOrder",
+		"PortraitMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Steve/MI_Steve_PreOrder_PlayerPortrait.MI_Steve_PreOrder_PlayerPortrait",
+		"PoseTexture": "/Game/Spicewood/Art/Characters/Player/Skins/Steve/T_Steve_Skin_PreOrder_Skin_Icon.T_Steve_Skin_PreOrder_Skin_Icon",
+		"SkinMetaData":
+		{
+			"bIsDefault": false
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": false,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_SkinDefinition.csv\", \"SW_Skin_StevePreorder_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "AdventureAlex",
+		"TypeTag":
+		{
+			"TagName": "SW.Skin.AlexPreorder"
+		},
+		"AvatarMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Alex/MI_Alex_Skin_PreOrder.MI_Alex_Skin_PreOrder",
+		"PortraitMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/Alex/MI_Alex_PreOrderPlayerPortrait.MI_Alex_PreOrderPlayerPortrait",
+		"PoseTexture": "/Game/Spicewood/Art/Characters/Player/Skins/Alex/T_Alex_Skin_PreOrder_Skin_Icon.T_Alex_Skin_PreOrder_Skin_Icon",
+		"SkinMetaData":
+		{
+			"bIsDefault": false
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": false,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_SkinDefinition.csv\", \"SW_Skin_AlexPreorder_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "PizzaChef",
+		"TypeTag":
+		{
+			"TagName": "SW.Skin.PizzaChef"
+		},
+		"AvatarMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/PizzaChef/MI_PizzaChef_Skin.MI_PizzaChef_Skin",
+		"PortraitMaterial": "/Game/Spicewood/Art/Characters/Player/Skins/PizzaChef/MI_PizzaChef_PlayerPortrait.MI_PizzaChef_PlayerPortrait",
+		"PoseTexture": "/Game/Spicewood/Art/Characters/Player/Skins/PizzaChef/T_PizzaChef_Skin_Icon.T_PizzaChef_Skin_Icon",
+		"SkinMetaData":
+		{
+			"bIsDefault": false
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": false,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_SkinDefinition.csv\", \"SW_Skin_PizzaChef_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	}
+]

@@ -1,0 +1,1082 @@
+[
+	{
+		"Name": "SW.QuestLocation.PLa1.S04.A.K01",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestLocation.PLa1.S04.A.K01"
+		},
+		"QuestLocationData":
+		{
+			"IdTag":
+			{
+				"TagName": "SW.QuestLocation.PLa1.S04.A.K01"
+			},
+			"ActorName": "QuestLocationActor_UAID_E8808898D594903102_1972553583",
+			"ActorRef": "/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.QuestLocationActor_UAID_E8808898D594903102_1972553583",
+			"AreaTag":
+			{
+				"TagName": "SW.Area.Plains.A1"
+			},
+			"Location":
+			{
+				"X": 20490,
+				"Y": 26070,
+				"Z": 4330
+			},
+			"Rotation":
+			{
+				"Pitch": 0,
+				"Yaw": 0,
+				"Roll": 0
+			},
+			"Level": "Overworld",
+			"LocationType": "Cube",
+			"CubeSettings":
+			{
+				"X": 1106.31,
+				"Y": 1106.44,
+				"Z": 425.269
+			}
+		}
+	},
+	{
+		"Name": "SW.QuestLocation.CA00.K01",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestLocation.CA00.K01"
+		},
+		"QuestLocationData":
+		{
+			"IdTag":
+			{
+				"TagName": "SW.QuestLocation.CA00.K01"
+			},
+			"ActorName": "QuestLocationActor_UAID_B025AA4F0F2FF2B402_1666345328",
+			"ActorRef": "/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.QuestLocationActor_UAID_B025AA4F0F2FF2B402_1666345328",
+			"AreaTag":
+			{
+				"TagName": "SW.Area.Camp.A1"
+			},
+			"Location":
+			{
+				"X": -260150,
+				"Y": -9200,
+				"Z": 5850
+			},
+			"Rotation":
+			{
+				"Pitch": 0,
+				"Yaw": 0,
+				"Roll": 0
+			},
+			"Level": "Overworld",
+			"LocationType": "Point",
+			"CubeSettings":
+			{
+				"X": 200,
+				"Y": 200,
+				"Z": 200
+			}
+		}
+	},
+	{
+		"Name": "SW.QuestLocation.CA00.K02",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestLocation.CA00.K02"
+		},
+		"QuestLocationData":
+		{
+			"IdTag":
+			{
+				"TagName": "SW.QuestLocation.CA00.K02"
+			},
+			"ActorName": "QuestLocationActor_UAID_B025AA4F0F2F0C6B02_1302633769",
+			"ActorRef": "/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.QuestLocationActor_UAID_B025AA4F0F2F0C6B02_1302633769",
+			"AreaTag":
+			{
+				"TagName": "SW.Area.Camp.A1"
+			},
+			"Location":
+			{
+				"X": -255600,
+				"Y": -14400,
+				"Z": 6300
+			},
+			"Rotation":
+			{
+				"Pitch": 0,
+				"Yaw": 0,
+				"Roll": 0
+			},
+			"Level": "Overworld",
+			"LocationType": "Point",
+			"CubeSettings":
+			{
+				"X": 200,
+				"Y": 200,
+				"Z": 200
+			}
+		}
+	},
+	{
+		"Name": "SW.QuestLocation.CA02.K01",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestLocation.CA02.K01"
+		},
+		"QuestLocationData":
+		{
+			"IdTag":
+			{
+				"TagName": "SW.QuestLocation.CA02.K01"
+			},
+			"ActorName": "QuestLocationActor_UAID_B025AA4F0F2F0B6B02_1448563588",
+			"ActorRef": "/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.QuestLocationActor_UAID_B025AA4F0F2F0B6B02_1448563588",
+			"AreaTag":
+			{
+				"TagName": "SW.Area.Forest.A1"
+			},
+			"Location":
+			{
+				"X": 11100,
+				"Y": 59250,
+				"Z": 1500
+			},
+			"Rotation":
+			{
+				"Pitch": 0,
+				"Yaw": 0,
+				"Roll": 0
+			},
+			"Level": "Overworld",
+			"LocationType": "Point",
+			"CubeSettings":
+			{
+				"X": 200,
+				"Y": 200,
+				"Z": 200
+			}
+		}
+	},
+	{
+		"Name": "SW.QuestLocation.FOa1.S10.A.F02",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestLocation.FOa1.S10.A.F02"
+		},
+		"QuestLocationData":
+		{
+			"IdTag":
+			{
+				"TagName": "SW.QuestLocation.FOa1.S10.A.F02"
+			},
+			"ActorName": "QuestLocationActor_UAID_B025AA4F0F2FC66E02_1639799741",
+			"ActorRef": "/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.QuestLocationActor_UAID_B025AA4F0F2FC66E02_1639799741",
+			"AreaTag":
+			{
+				"TagName": "SW.Area.Plains.A1"
+			},
+			"Location":
+			{
+				"X": 16550,
+				"Y": 39100,
+				"Z": 2600
+			},
+			"Rotation":
+			{
+				"Pitch": 0,
+				"Yaw": 0,
+				"Roll": 0
+			},
+			"Level": "Overworld",
+			"LocationType": "Point",
+			"CubeSettings":
+			{
+				"X": 200,
+				"Y": 200,
+				"Z": 200
+			}
+		}
+	},
+	{
+		"Name": "SW.QuestLocation.CA02.MT02",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestLocation.CA02.MT02"
+		},
+		"QuestLocationData":
+		{
+			"IdTag":
+			{
+				"TagName": "SW.QuestLocation.CA02.MT02"
+			},
+			"ActorName": "QuestLocationActor_UAID_B025AA4F0F2F9E7102_2057015983",
+			"ActorRef": "/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.QuestLocationActor_UAID_B025AA4F0F2F9E7102_2057015983",
+			"AreaTag":
+			{
+				"TagName": "SW.Area.Plains.A1"
+			},
+			"Location":
+			{
+				"X": 23650,
+				"Y": 35600,
+				"Z": 4050
+			},
+			"Rotation":
+			{
+				"Pitch": 0,
+				"Yaw": 0,
+				"Roll": 0
+			},
+			"Level": "Overworld",
+			"LocationType": "Point",
+			"CubeSettings":
+			{
+				"X": 200,
+				"Y": 200,
+				"Z": 200
+			}
+		}
+	},
+	{
+		"Name": "SW.QuestLocation.CA05.E08",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestLocation.CA05.E08"
+		},
+		"QuestLocationData":
+		{
+			"IdTag":
+			{
+				"TagName": "SW.QuestLocation.CA05.E08"
+			},
+			"ActorName": "QuestLocationActor_UAID_B025AA4F0F2F7E8F02_1521867022",
+			"ActorRef": "/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.QuestLocationActor_UAID_B025AA4F0F2F7E8F02_1521867022",
+			"AreaTag":
+			{
+				"TagName": "SW.Area.Desert.A1"
+			},
+			"Location":
+			{
+				"X": 32200,
+				"Y": 104900,
+				"Z": 650
+			},
+			"Rotation":
+			{
+				"Pitch": 0,
+				"Yaw": 0,
+				"Roll": 0
+			},
+			"Level": "Overworld",
+			"LocationType": "Point",
+			"CubeSettings":
+			{
+				"X": 200,
+				"Y": 200,
+				"Z": 200
+			}
+		}
+	},
+	{
+		"Name": "SW.QuestLocation.CA05.E18",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestLocation.CA05.E18"
+		},
+		"QuestLocationData":
+		{
+			"IdTag":
+			{
+				"TagName": "SW.QuestLocation.CA05.E18"
+			},
+			"ActorName": "QuestLocationActor_UAID_B025AA4F0F2F7E8F02_1408139019",
+			"ActorRef": "/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.QuestLocationActor_UAID_B025AA4F0F2F7E8F02_1408139019",
+			"AreaTag":
+			{
+				"TagName": "SW.Area.Desert.A1"
+			},
+			"Location":
+			{
+				"X": 22050,
+				"Y": 98600,
+				"Z": 350
+			},
+			"Rotation":
+			{
+				"Pitch": 0,
+				"Yaw": 0,
+				"Roll": 0
+			},
+			"Level": "Overworld",
+			"LocationType": "Point",
+			"CubeSettings":
+			{
+				"X": 200,
+				"Y": 200,
+				"Z": 200
+			}
+		}
+	},
+	{
+		"Name": "SW.QuestLocation.CA05.E10",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestLocation.CA05.E10"
+		},
+		"QuestLocationData":
+		{
+			"IdTag":
+			{
+				"TagName": "SW.QuestLocation.CA05.E10"
+			},
+			"ActorName": "QuestLocationActor_UAID_B025AA4F0F2F7E8F02_1452281020",
+			"ActorRef": "/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.QuestLocationActor_UAID_B025AA4F0F2F7E8F02_1452281020",
+			"AreaTag":
+			{
+				"TagName": "SW.Area.Desert.A1"
+			},
+			"Location":
+			{
+				"X": 24850,
+				"Y": 96600,
+				"Z": 300
+			},
+			"Rotation":
+			{
+				"Pitch": 0,
+				"Yaw": 0,
+				"Roll": 0
+			},
+			"Level": "Overworld",
+			"LocationType": "Point",
+			"CubeSettings":
+			{
+				"X": 200,
+				"Y": 200,
+				"Z": 200
+			}
+		}
+	},
+	{
+		"Name": "SW.QuestLocation.CA05.E09",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestLocation.CA05.E09"
+		},
+		"QuestLocationData":
+		{
+			"IdTag":
+			{
+				"TagName": "SW.QuestLocation.CA05.E09"
+			},
+			"ActorName": "QuestLocationActor_UAID_B025AA4F0F2F7E8F02_1494197021",
+			"ActorRef": "/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.QuestLocationActor_UAID_B025AA4F0F2F7E8F02_1494197021",
+			"AreaTag":
+			{
+				"TagName": "SW.Area.Desert.A1"
+			},
+			"Location":
+			{
+				"X": 32000,
+				"Y": 103100,
+				"Z": 650
+			},
+			"Rotation":
+			{
+				"Pitch": 0,
+				"Yaw": 0,
+				"Roll": 0
+			},
+			"Level": "Overworld",
+			"LocationType": "Point",
+			"CubeSettings":
+			{
+				"X": 200,
+				"Y": 200,
+				"Z": 200
+			}
+		}
+	},
+	{
+		"Name": "SW.QuestLocation.CA05.E05",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestLocation.CA05.E05"
+		},
+		"QuestLocationData":
+		{
+			"IdTag":
+			{
+				"TagName": "SW.QuestLocation.CA05.E05"
+			},
+			"ActorName": "QuestLocationActor_UAID_B025AA4F0F2F447702_1892573498",
+			"ActorRef": "/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.QuestLocationActor_UAID_B025AA4F0F2F447702_1892573498",
+			"AreaTag":
+			{
+				"TagName": "SW.Area.Desert.A1"
+			},
+			"Location":
+			{
+				"X": 8250,
+				"Y": 96200,
+				"Z": 550
+			},
+			"Rotation":
+			{
+				"Pitch": 0,
+				"Yaw": 0,
+				"Roll": 0
+			},
+			"Level": "Overworld",
+			"LocationType": "Point",
+			"CubeSettings":
+			{
+				"X": 200,
+				"Y": 200,
+				"Z": 200
+			}
+		}
+	},
+	{
+		"Name": "SW.QuestLocation.CA05.E03",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestLocation.CA05.E03"
+		},
+		"QuestLocationData":
+		{
+			"IdTag":
+			{
+				"TagName": "SW.QuestLocation.CA05.E03"
+			},
+			"ActorName": "QuestLocationActor_UAID_B025AA4F0F2F447702_1764378497",
+			"ActorRef": "/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.QuestLocationActor_UAID_B025AA4F0F2F447702_1764378497",
+			"AreaTag":
+			{
+				"TagName": "SW.Area.Desert.A1"
+			},
+			"Location":
+			{
+				"X": 10540,
+				"Y": 112050,
+				"Z": 400
+			},
+			"Rotation":
+			{
+				"Pitch": 0,
+				"Yaw": 0,
+				"Roll": 0
+			},
+			"Level": "Overworld",
+			"LocationType": "Point",
+			"CubeSettings":
+			{
+				"X": 200,
+				"Y": 200,
+				"Z": 200
+			}
+		}
+	},
+	{
+		"Name": "SW.QuestLocation.DEa1.S13.A.E07",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestLocation.DEa1.S13.A.E07"
+		},
+		"QuestLocationData":
+		{
+			"IdTag":
+			{
+				"TagName": "SW.QuestLocation.DEa1.S13.A.E07"
+			},
+			"ActorName": "QuestLocationActor_UAID_B025AA4F0F2FF17802_1122859916",
+			"ActorRef": "/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.QuestLocationActor_UAID_B025AA4F0F2FF17802_1122859916",
+			"AreaTag":
+			{
+				"TagName": "SW.Area.Desert.A1"
+			},
+			"Location":
+			{
+				"X": -49750,
+				"Y": 41700,
+				"Z": 11450
+			},
+			"Rotation":
+			{
+				"Pitch": 0,
+				"Yaw": 0,
+				"Roll": 0
+			},
+			"Level": "Overworld",
+			"LocationType": "Point",
+			"CubeSettings":
+			{
+				"X": 200,
+				"Y": 200,
+				"Z": 200
+			}
+		}
+	},
+	{
+		"Name": "SW.QuestLocation.DEa1.S13.A.E06",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestLocation.DEa1.S13.A.E06"
+		},
+		"QuestLocationData":
+		{
+			"IdTag":
+			{
+				"TagName": "SW.QuestLocation.DEa1.S13.A.E06"
+			},
+			"ActorName": "QuestLocationActor_UAID_B025AA4F0F2FF17802_1078612915",
+			"ActorRef": "/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.QuestLocationActor_UAID_B025AA4F0F2FF17802_1078612915",
+			"AreaTag":
+			{
+				"TagName": "SW.Area.Desert.A1"
+			},
+			"Location":
+			{
+				"X": 18900,
+				"Y": 124250,
+				"Z": 850
+			},
+			"Rotation":
+			{
+				"Pitch": 0,
+				"Yaw": 0,
+				"Roll": 0
+			},
+			"Level": "Overworld",
+			"LocationType": "Point",
+			"CubeSettings":
+			{
+				"X": 200,
+				"Y": 200,
+				"Z": 200
+			}
+		}
+	},
+	{
+		"Name": "SW.QuestLocation.CA06.Desert.A1.Noteblock",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestLocation.CA06.Desert.A1.Noteblock"
+		},
+		"QuestLocationData":
+		{
+			"IdTag":
+			{
+				"TagName": "SW.QuestLocation.CA06.Desert.A1.Noteblock"
+			},
+			"ActorName": "QuestLocationActor_UAID_B025AA4F0F2FE18902_1473548981",
+			"ActorRef": "/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.QuestLocationActor_UAID_B025AA4F0F2FE18902_1473548981",
+			"AreaTag":
+			{
+				"TagName": "SW.Area.Desert.A1"
+			},
+			"Location":
+			{
+				"X": 22300,
+				"Y": 124300,
+				"Z": 4200
+			},
+			"Rotation":
+			{
+				"Pitch": 0,
+				"Yaw": 0,
+				"Roll": 0
+			},
+			"Level": "Overworld",
+			"LocationType": "Point",
+			"CubeSettings":
+			{
+				"X": 200,
+				"Y": 200,
+				"Z": 200
+			}
+		}
+	},
+	{
+		"Name": "SW.QuestLocation.CA06.PlainsA2.Noteblock",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestLocation.CA06.PlainsA2.Noteblock"
+		},
+		"QuestLocationData":
+		{
+			"IdTag":
+			{
+				"TagName": "SW.QuestLocation.CA06.PlainsA2.Noteblock"
+			},
+			"ActorName": "QuestLocationActor_UAID_B025AA4F0F2FE18902_1366847980",
+			"ActorRef": "/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.QuestLocationActor_UAID_B025AA4F0F2FE18902_1366847980",
+			"AreaTag":
+			{
+				"TagName": "SW.Area.Plains.A2"
+			},
+			"Location":
+			{
+				"X": -30400,
+				"Y": 79700,
+				"Z": 1300
+			},
+			"Rotation":
+			{
+				"Pitch": 0,
+				"Yaw": 0,
+				"Roll": 0
+			},
+			"Level": "Overworld",
+			"LocationType": "Point",
+			"CubeSettings":
+			{
+				"X": 200,
+				"Y": 200,
+				"Z": 200
+			}
+		}
+	},
+	{
+		"Name": "SW.QuestLocation.CA07.E19",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestLocation.CA07.E19"
+		},
+		"QuestLocationData":
+		{
+			"IdTag":
+			{
+				"TagName": "SW.QuestLocation.CA07.E19"
+			},
+			"ActorName": "QuestLocationActor_UAID_B025AA4F0F2F759002_1613641429",
+			"ActorRef": "/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.QuestLocationActor_UAID_B025AA4F0F2F759002_1613641429",
+			"AreaTag":
+			{
+				"TagName": "SW.Area.Plains.A2"
+			},
+			"Location":
+			{
+				"X": -30250,
+				"Y": 79900,
+				"Z": 1150
+			},
+			"Rotation":
+			{
+				"Pitch": 0,
+				"Yaw": 0,
+				"Roll": 0
+			},
+			"Level": "Overworld",
+			"LocationType": "Point",
+			"CubeSettings":
+			{
+				"X": 200,
+				"Y": 200,
+				"Z": 200
+			}
+		}
+	},
+	{
+		"Name": "SW.QuestLocation.CA10.E10",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestLocation.CA10.E10"
+		},
+		"QuestLocationData":
+		{
+			"IdTag":
+			{
+				"TagName": "SW.QuestLocation.CA10.E10"
+			},
+			"ActorName": "QuestLocationActor_UAID_B025AA4F0F2F989802_1953644978",
+			"ActorRef": "/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.QuestLocationActor_UAID_B025AA4F0F2F989802_1953644978",
+			"AreaTag":
+			{
+				"TagName": "SW.Area.Meadow.A2"
+			},
+			"Location":
+			{
+				"X": -77800,
+				"Y": 280750,
+				"Z": 7250
+			},
+			"Rotation":
+			{
+				"Pitch": 0,
+				"Yaw": 0,
+				"Roll": 0
+			},
+			"Level": "Overworld",
+			"LocationType": "Point",
+			"CubeSettings":
+			{
+				"X": 200,
+				"Y": 200,
+				"Z": 200
+			}
+		}
+	},
+	{
+		"Name": "SW.QuestLocation.CA01.I10",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestLocation.CA01.I10"
+		},
+		"QuestLocationData":
+		{
+			"IdTag":
+			{
+				"TagName": "SW.QuestLocation.CA01.I10"
+			},
+			"ActorName": "QuestLocationActor_UAID_B025AA4F0F2F90A502_1255241199",
+			"ActorRef": "/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.QuestLocationActor_UAID_B025AA4F0F2F90A502_1255241199",
+			"AreaTag":
+			{
+				"TagName": "SW.Area.Plains.A1"
+			},
+			"Location":
+			{
+				"X": 28820,
+				"Y": 38360,
+				"Z": 4580
+			},
+			"Rotation":
+			{
+				"Pitch": 0,
+				"Yaw": 0,
+				"Roll": 0
+			},
+			"Level": "Overworld",
+			"LocationType": "Point",
+			"CubeSettings":
+			{
+				"X": 200,
+				"Y": 200,
+				"Z": 200
+			}
+		}
+	},
+	{
+		"Name": "SW.QuestLocation.CA01.E07",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestLocation.CA01.E07"
+		},
+		"QuestLocationData":
+		{
+			"IdTag":
+			{
+				"TagName": "SW.QuestLocation.CA01.E07"
+			},
+			"ActorName": "QuestLocationActor_UAID_E89C256E0C611CAC02_1237246111",
+			"ActorRef": "/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.QuestLocationActor_UAID_E89C256E0C611CAC02_1237246111",
+			"AreaTag":
+			{
+				"TagName": "SW.Area.Meadow.R0"
+			},
+			"Location":
+			{
+				"X": -57750,
+				"Y": 153560,
+				"Z": 8840
+			},
+			"Rotation":
+			{
+				"Pitch": 0,
+				"Yaw": 0,
+				"Roll": 0
+			},
+			"Level": "Overworld",
+			"LocationType": "Point",
+			"CubeSettings":
+			{
+				"X": 200,
+				"Y": 200,
+				"Z": 200
+			}
+		}
+	},
+	{
+		"Name": "SW.QuestLocation.CA04.E02",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestLocation.CA04.E02"
+		},
+		"QuestLocationData":
+		{
+			"IdTag":
+			{
+				"TagName": "SW.QuestLocation.CA04.E02"
+			},
+			"ActorName": "QuestLocationActor_UAID_B025AA4F0F2FD5AB02_1471194861",
+			"ActorRef": "/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.QuestLocationActor_UAID_B025AA4F0F2FD5AB02_1471194861",
+			"AreaTag":
+			{
+				"TagName": "SW.Area.Forest.A1"
+			},
+			"Location":
+			{
+				"X": 18900,
+				"Y": 63050,
+				"Z": 2420
+			},
+			"Rotation":
+			{
+				"Pitch": 0,
+				"Yaw": 0,
+				"Roll": 0
+			},
+			"Level": "Overworld",
+			"LocationType": "Point",
+			"CubeSettings":
+			{
+				"X": 200,
+				"Y": 200,
+				"Z": 200
+			}
+		}
+	},
+	{
+		"Name": "SW.QuestLocation.CA02.B.E03",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestLocation.CA02.B.E03"
+		},
+		"QuestLocationData":
+		{
+			"IdTag":
+			{
+				"TagName": "SW.QuestLocation.CA02.B.E03"
+			},
+			"ActorName": "QuestLocationActor_UAID_B025AA4F0F2F15B802_1968002766",
+			"ActorRef": "/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.QuestLocationActor_UAID_B025AA4F0F2F15B802_1968002766",
+			"AreaTag":
+			{
+				"TagName": "SW.Area.Forest.A1"
+			},
+			"Location":
+			{
+				"X": 22000,
+				"Y": 58300,
+				"Z": 1950
+			},
+			"Rotation":
+			{
+				"Pitch": 0,
+				"Yaw": 0,
+				"Roll": 0
+			},
+			"Level": "Overworld",
+			"LocationType": "Point",
+			"CubeSettings":
+			{
+				"X": 200,
+				"Y": 200,
+				"Z": 200
+			}
+		}
+	},
+	{
+		"Name": "SW.QuestLocation.CA00.E01",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestLocation.CA00.E01"
+		},
+		"QuestLocationData":
+		{
+			"IdTag":
+			{
+				"TagName": "SW.QuestLocation.CA00.E01"
+			},
+			"ActorName": "QuestLocationActor_UAID_B025AA4F0F2FE2DC02_2014340665",
+			"ActorRef": "/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.QuestLocationActor_UAID_B025AA4F0F2FE2DC02_2014340665",
+			"AreaTag":
+			{
+				"TagName": "SW.Area.Camp.A1"
+			},
+			"Location":
+			{
+				"X": -258100,
+				"Y": -13100,
+				"Z": 5850
+			},
+			"Rotation":
+			{
+				"Pitch": 0,
+				"Yaw": 0,
+				"Roll": 0
+			},
+			"Level": "Overworld",
+			"LocationType": "Point",
+			"CubeSettings":
+			{
+				"X": 200,
+				"Y": 200,
+				"Z": 200
+			}
+		}
+	},
+	{
+		"Name": "SW.QuestLocation.CA00.E03",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestLocation.CA00.E03"
+		},
+		"QuestLocationData":
+		{
+			"IdTag":
+			{
+				"TagName": "SW.QuestLocation.CA00.E03"
+			},
+			"ActorName": "QuestLocationActor_UAID_B025AA4F0F2FE2DC02_2014340665",
+			"ActorRef": "/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.QuestLocationActor_UAID_B025AA4F0F2FE2DC02_2014340665",
+			"AreaTag":
+			{
+				"TagName": "SW.Area.Camp.A1"
+			},
+			"Location":
+			{
+				"X": -258050,
+				"Y": -13100,
+				"Z": 5850
+			},
+			"Rotation":
+			{
+				"Pitch": 0,
+				"Yaw": 0,
+				"Roll": 0
+			},
+			"Level": "Overworld",
+			"LocationType": "Point",
+			"CubeSettings":
+			{
+				"X": 200,
+				"Y": 200,
+				"Z": 200
+			}
+		}
+	},
+	{
+		"Name": "SW.QuestLocation.CA09.E15",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestLocation.CA09.E15"
+		},
+		"QuestLocationData":
+		{
+			"IdTag":
+			{
+				"TagName": "SW.QuestLocation.CA09.E15"
+			},
+			"ActorName": "QuestLocationActor_UAID_B025AA4F0F2F22DD02_2026228043",
+			"ActorRef": "/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.QuestLocationActor_UAID_B025AA4F0F2F22DD02_2026228043",
+			"AreaTag":
+			{
+				"TagName": "SW.Area.Carapace.A1"
+			},
+			"Location":
+			{
+				"X": -68370,
+				"Y": 242770,
+				"Z": 7610
+			},
+			"Rotation":
+			{
+				"Pitch": 0,
+				"Yaw": 0,
+				"Roll": 0
+			},
+			"Level": "Overworld",
+			"LocationType": "Point",
+			"CubeSettings":
+			{
+				"X": 200,
+				"Y": 200,
+				"Z": 200
+			}
+		}
+	},
+	{
+		"Name": "SW.QuestLocation.CA02.B.E05",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestLocation.CA02.B.E05"
+		},
+		"QuestLocationData":
+		{
+			"IdTag":
+			{
+				"TagName": "SW.QuestLocation.CA02.B.E05"
+			},
+			"ActorName": "QuestLocationActor_UAID_B025AA4F0F2F15B802_2113799771",
+			"ActorRef": "/Game/Spicewood/Maps/Procedural/ForestA1_SpiderCaves/SpiderCaveV3.SpiderCaveV3:PersistentLevel.QuestLocationActor_UAID_B025AA4F0F2F15B802_2113799771",
+			"AreaTag":
+			{
+				"TagName": "SW.Area.Forest.A1"
+			},
+			"Location":
+			{
+				"X": 10140,
+				"Y": 6350,
+				"Z": 4150
+			},
+			"Rotation":
+			{
+				"Pitch": 0,
+				"Yaw": 0,
+				"Roll": 0
+			},
+			"Level": "SpiderCaveV3",
+			"LocationType": "Point",
+			"CubeSettings":
+			{
+				"X": 200,
+				"Y": 200,
+				"Z": 200
+			}
+		}
+	},
+	{
+		"Name": "SW.QuestLocation.CA09.AS05",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestLocation.CA09.AS05"
+		},
+		"QuestLocationData":
+		{
+			"IdTag":
+			{
+				"TagName": "SW.QuestLocation.CA09.AS05"
+			},
+			"ActorName": "QuestLocationActor_UAID_B025AA4F0F2FBCDE02_1468919476",
+			"ActorRef": "/Game/Spicewood/Maps/Procedural/Ravines_Anchor_Boss/BOSS_ANC_RA.BOSS_ANC_RA:PersistentLevel.QuestLocationActor_UAID_B025AA4F0F2FBCDE02_1468919476",
+			"AreaTag":
+			{
+				"TagName": "SW.Area.Ravines"
+			},
+			"Location":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Rotation":
+			{
+				"Pitch": 0,
+				"Yaw": 0,
+				"Roll": 0
+			},
+			"Level": "BOSS_ANC_RA",
+			"LocationType": "Point",
+			"CubeSettings":
+			{
+				"X": 200,
+				"Y": 200,
+				"Z": 200
+			}
+		}
+	}
+]

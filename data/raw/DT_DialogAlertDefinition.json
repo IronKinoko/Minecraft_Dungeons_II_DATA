@@ -1,0 +1,906 @@
+[
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Sending.Invite",
+		"ErrorCode": "INVTEXT(\"0001\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"PartyInvite.SendFailed.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"PartyInvite.SendFailed.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Signed.In",
+		"ErrorCode": "INVTEXT(\"0002\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"SignIn.GenericFail.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"SignIn.GenericFail.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"ProvidePlayfabID": true,
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Join.Party",
+		"ErrorCode": "INVTEXT(\"0003\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Party.JoinFailed.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Party.JoinFailed.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Mismatched.Client.Server.Version",
+		"ErrorCode": "INVTEXT(\"0004\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Network.VersionMismatch.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Network.VersionMismatch.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Load.Save",
+		"ErrorCode": "INVTEXT(\"0005\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Save.LoadFailed.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Save.LoadFailed.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Matchmaking",
+		"ErrorCode": "INVTEXT(\"0006\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Matchmake.Failed.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Matchmake.Failed.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Invite.Not.Implemented",
+		"ErrorCode": "INVTEXT(\"0007\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"PartyInvite.NotImplemented.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"PartyInvite.NotImplemented.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Party.Does.Not.Exist",
+		"ErrorCode": "INVTEXT(\"0008\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Party.Code.DoesntExist.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Party.Code.DoesntExist.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Invalid.Party.Code",
+		"ErrorCode": "INVTEXT(\"0009\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Party.Code.BadFormat.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Party.Code.BadFormat.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Party.Full",
+		"ErrorCode": "INVTEXT(\"0010\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Party.Code.PartyFull.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Party.Code.PartyFull.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.No.Internet.Connection",
+		"ErrorCode": "INVTEXT(\"0011\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Network.NoInternetConnection.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Network.NoInternetConnection.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Lost.Internet.Connection",
+		"ErrorCode": "INVTEXT(\"0012\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Network.NotConnectedToOnlineService.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Network.NotConnectedToOnlineService.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Create.Session",
+		"ErrorCode": "INVTEXT(\"0013\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Network.FailedToCreateSession.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Network.FailedToCreateSession.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Primary.Controller.Disconnected",
+		"ErrorCode": "INVTEXT(\"0014\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Gamepad.Disconnect.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Gamepad.Disconnect.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 100
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Disconnected.From.Session",
+		"ErrorCode": "INVTEXT(\"0015\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.Connection.Disconnected.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.Connection.Disconnected.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Join.Invalid.Character",
+		"ErrorCode": "INVTEXT(\"0016\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Network.JoinFailed.InvalidCharacter.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Network.JoinFailed.InvalidCharacter.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Disconnected.Minecraft.API",
+		"ErrorCode": "INVTEXT(\"0017\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"MAPI.Disconnect.Retry.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"MAPI.Disconnect.Retry.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.RetryCancel"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Maximum.Characters.Reached",
+		"ErrorCode": "INVTEXT(\"0018\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.MaxCharactersCreated.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.MaxCharactersCreated.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Sign.In.NSO",
+		"ErrorCode": "INVTEXT(\"0019\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.UnlinkedAccount.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.UnlinkedAccount.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"ProvidePlayfabID": true,
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Unknown.Error",
+		"ErrorCode": "INVTEXT(\"0020\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.UnknownError.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.UnknownError.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Native.Login",
+		"ErrorCode": "INVTEXT(\"0021\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.NativeLoginFailed.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.NativeLoginFailed.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"ProvidePlayfabID": true,
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Create.Character",
+		"ErrorCode": "INVTEXT(\"0022\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.FailedToCreateCharacter.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.FailedToCreateCharacter.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Sign.In.Unexpected.Error",
+		"ErrorCode": "INVTEXT(\"0023\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"SignIn.GenericFail.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"SignIn.GenericFail.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"ProvidePlayfabID": true,
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Start.Game",
+		"ErrorCode": "INVTEXT(\"0024\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Network.ServerFailed.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Network.ServerFailed.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Salvage.No.Selection",
+		"ErrorCode": "INVTEXT(\"0025\")",
+		"Title": "LOCTABLE(\"InventoryLabels.csv\", \"inventory_salvageselected_noselection_header\")",
+		"Message": "LOCTABLE(\"InventoryLabels.csv\", \"inventory_salvageselected_noselection_body\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Sign.In.PS.Subscription",
+		"ErrorCode": "INVTEXT(\"0026\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.NoPSPlus.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.NoPSPlus.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"ProvidePlayfabID": true,
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Delete.Character",
+		"ErrorCode": "INVTEXT(\"0027\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.FailedToDeleteCharacter.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.FailedToDeleteCharacter.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Update.Skin",
+		"ErrorCode": "INVTEXT(\"0028\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.FailedToUpdateCharacterSkin.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.FailedToUpdateCharacterSkin.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Account.Linking",
+		"ErrorCode": "INVTEXT(\"0029\")",
+		"Title": "LOCTABLE(\"AccountLinkingLabels.csv\", \"AccountLink.BackendFailed.Title\")",
+		"Message": "LOCTABLE(\"AccountLinkingLabels.csv\", \"AccountLink.BackendFailed.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Account.Unlinking",
+		"ErrorCode": "INVTEXT(\"0030\")",
+		"Title": "LOCTABLE(\"AccountLinkingLabels.csv\", \"AccountUnlink.Result.Failure.Title\")",
+		"Message": "LOCTABLE(\"AccountLinkingLabels.csv\", \"AccountUnlink.Result.Failure.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Sign.In.Internal.Cohort",
+		"ErrorCode": "INVTEXT(\"0031\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"SignIn.GenericFail.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"SignIn.NotAddedToCohort.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"ProvidePlayfabID": true,
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Sign.In.User.Already.Added",
+		"ErrorCode": "INVTEXT(\"0032\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"SignIn.UserAlreadyAdded.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"SignIn.UserAlreadyAdded.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"ProvidePlayfabID": true,
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Sign.In.Missing.Privileges",
+		"ErrorCode": "INVTEXT(\"0033\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.NoPrivileges.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.NoPrivileges.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"ProvidePlayfabID": true,
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Sign.In.Online.Subscription",
+		"ErrorCode": "INVTEXT(\"0034\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.NoOnlineSubscription.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.NoOnlineSubscription.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"ProvidePlayfabID": true,
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Namespace.Error",
+		"ErrorCode": "INVTEXT(\"0035\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.NamespaceError.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.NamespaceError.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Delete.Last.Character",
+		"ErrorCode": "INVTEXT(\"0036\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.CantDeleteCharacter.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.CantDeleteCharacter.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Crossplay.Privileges",
+		"ErrorCode": "INVTEXT(\"0037\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.NoCrossplayPrivileges.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.NoCrossplayPrivileges.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Character.Selection",
+		"ErrorCode": "INVTEXT(\"0038\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.FailedSelectCharacter.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.FailedSelectCharacter.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.No.Character.Selected",
+		"ErrorCode": "INVTEXT(\"0039\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.NoSelectedCharacter.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.NoSelectedCharacter.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.No.Character",
+		"ErrorCode": "INVTEXT(\"0040\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.NoCharacter.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.NoCharacter.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Load.Settings",
+		"ErrorCode": "INVTEXT(\"0041\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Settings.Load.Failed.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Settings.Load.Failed.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Steam.Not.Loaded",
+		"ErrorCode": "INVTEXT(\"0042\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.OssError.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.SteamNotLoaded.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.OSS.Not.Loaded",
+		"ErrorCode": "INVTEXT(\"0043\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.OssError.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.OssNotLoaded.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.No.Internet.On.Initial.Login",
+		"ErrorCode": "INVTEXT(\"0044\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.InternetRequired.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.InternetRequired.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Party.Removed",
+		"ErrorCode": "INVTEXT(\"0045\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Party.Kicked.Explainer.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Party.Kicked.Explainer.Body\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Login.Update.Required",
+		"ErrorCode": "INVTEXT(\"0046\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"SignIn.Failed.Update.Required.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"SignIn.Failed.Update.Required.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Delete.Active.Character",
+		"ErrorCode": "INVTEXT(\"0047\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.FailedToDelete.ActiveCharacter.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.FailedToDelete.ActiveCharacter.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.SPOP",
+		"ErrorCode": "INVTEXT(\"0048\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.SPOP.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.SPOP.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.SPOP.Guest",
+		"ErrorCode": "INVTEXT(\"0049\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.SPOP.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.SPOP.Guest.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Party.Promote.Impossible.Guest",
+		"ErrorCode": "INVTEXT(\"0050\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Party.Promote.Impossible.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Party.Promote.Impossible.Guest.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Party.Promote.Impossible.Matchmaking",
+		"ErrorCode": "INVTEXT(\"0051\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Party.Promote.Impossible.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Party.Promote.Impossible.Matchmaking.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Sign.In.Account.Canceled",
+		"ErrorCode": "INVTEXT(\"0052\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"SignIn.Account.Failed.Canceled.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"SignIn.Account.Failed.Canceled.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"ProvidePlayfabID": true,
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Join.Party.Crossplay",
+		"ErrorCode": "INVTEXT(\"0053\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Party.JoinFailed.PartyMissingCrossplayPrivileges.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Party.JoinFailed.PartyMissingCrossplayPrivileges.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Join.Party.Multiplayer",
+		"ErrorCode": "INVTEXT(\"0054\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Party.JoinFailed.PartyMissingMultiplayerPrivileges.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Party.JoinFailed.PartyMissingMultiplayerPrivileges.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Disconnected.Inactivity",
+		"ErrorCode": "INVTEXT(\"0055\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.KickReason.Inactivity.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.KickReason.Inactivity.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Character.Load",
+		"ErrorCode": "INVTEXT(\"0056\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Character.Failed.Load.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Character.Failed.Load.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Party.Promote.Request.Failed",
+		"ErrorCode": "INVTEXT(\"0057\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Party.Promote.Request.Failed.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Party.Promote.Request.Failed.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Party.Kick.Request.Failed",
+		"ErrorCode": "INVTEXT(\"0058\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Party.Kick.Request.Failed.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Party.Kick.Request.Failed.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Entitlement.Check",
+		"ErrorCode": "INVTEXT(\"0059\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Failed.Entitlement.Check.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Failed.Entitlement.Check.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Entitlement.Failed",
+		"ErrorCode": "INVTEXT(\"0060\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Entitlement.Failed.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Entitlement.Failed.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Sign.In.Invalid.NetId",
+		"ErrorCode": "INVTEXT(\"0061\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"SignIn.GenericFail.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"SignIn.GenericFail.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"ProvidePlayfabID": true,
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Sign.In.Failed.To.Get.Token",
+		"ErrorCode": "INVTEXT(\"0062\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"SignIn.GenericFail.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"SignIn.GenericFail.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"ProvidePlayfabID": true,
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Sign.In.Playfab.Login",
+		"ErrorCode": "INVTEXT(\"0063\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"SignIn.GenericFail.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"SignIn.GenericFail.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"ProvidePlayfabID": true,
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Sign.In.Minecraft.Api.Login",
+		"ErrorCode": "INVTEXT(\"0064\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"SignIn.GenericFail.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"SignIn.GenericFail.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"ProvidePlayfabID": true,
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Sign.In.Request.Profile",
+		"ErrorCode": "INVTEXT(\"0065\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"SignIn.GenericFail.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"SignIn.GenericFail.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"ProvidePlayfabID": true,
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Sign.In.Determine.User.Type",
+		"ErrorCode": "INVTEXT(\"0066\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"SignIn.GenericFail.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"SignIn.GenericFail.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"ProvidePlayfabID": true,
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Sign.In.Request.Characters",
+		"ErrorCode": "INVTEXT(\"0067\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"SignIn.GenericFail.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"SignIn.GenericFail.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Accepting.System.Invite.WrongUser",
+		"ErrorCode": "INVTEXT(\"0068\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"SystemInvite.AcceptFailed.WrongUser.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"SystemInvite.AcceptFailed.WrongUser.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Join.Party.LocalPlayer",
+		"ErrorCode": "INVTEXT(\"0069\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Party.Full.LocalPlayer.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Party.Full.LocalPlayer.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Join.Mismatching.Feature.Hash",
+		"ErrorCode": "INVTEXT(\"0070\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Network.VersionMismatch.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Network.VersionMismatch.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Join.Mismatching.Gameplay.Tags",
+		"ErrorCode": "INVTEXT(\"0071\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Network.VersionMismatch.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Network.VersionMismatch.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Account.Linking.Already.Linked",
+		"ErrorCode": "INVTEXT(\"0072\")",
+		"Title": "LOCTABLE(\"AccountLinkingLabels.csv\", \"AccountLink.BackendFailed.Title\")",
+		"Message": "LOCTABLE(\"AccountLinkingLabels.csv\", \"AccountLink.BackendFailed.AlreadyLinked.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Account.Linking.MSA.Login",
+		"ErrorCode": "INVTEXT(\"0073\")",
+		"Title": "LOCTABLE(\"AccountLinkingLabels.csv\", \"AccountLink.BackendFailed.Title\")",
+		"Message": "LOCTABLE(\"AccountLinkingLabels.csv\", \"AccountLink.MSAFailed.Login.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	},
+	{
+		"Name": "SW.UI.Dialog.Alert.Failed.Join.Mismatching.Odt.BomId",
+		"ErrorCode": "INVTEXT(\"0074\")",
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Network.VersionMismatch.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Network.VersionMismatch.Message\")",
+		"HeaderStyle": "Destructive",
+		"AlertType":
+		{
+			"TagName": "SW.UI.Dialog.Alert.Ok"
+		},
+		"Priority": 0
+	}
+]

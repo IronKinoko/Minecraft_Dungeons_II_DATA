@@ -1,0 +1,18 @@
+[
+	{
+		"Name": "PointsNearPlayer",
+		"TypeTag":
+		{
+			"TagName": "SW.EnvQuery.PointsNearPlayer"
+		},
+		"EQSData":
+		{
+			"TargetTypeTag":
+			{
+				"TagName": "SW.Player"
+			},
+			"Query": "/Game/Spicewood/GameplayLogic/EnvironmentQuerySystem/EQ_PointsNearPlayer.EQ_PointsNearPlayer",
+			"RunMode": "AllMatching"
+		}
+	}
+]

@@ -1,0 +1,898 @@
+[
+	{
+		"Name": "SW.UI.TutorialLog.Basic",
+		"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_basic_title\")",
+		"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_basic_description\")",
+		"Entries": [
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Basic.Movement"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "None",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_mevement_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_mevement_description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Basic.Jump"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "None",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_jump_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_jump_description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Basic.Roll"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/Game/Spicewood/UI/HUD/Player/Hotbar/Artifacts/Passives/T_UI_DodgeIcon.T_UI_DodgeIcon",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_roll_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_roll_description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Basic.Souls"
+				},
+				"Notify": true,
+				"IsUnlockedByDefault": false,
+				"Icon": "None",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_souls_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_souls_description\")",
+				"Image": "None"
+			}
+		]
+	},
+	{
+		"Name": "SW.UI.TutorialLog.Combat",
+		"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_combat_title\")",
+		"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_combat_description\")",
+		"Entries": [
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Combat.MeleeAttack"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Categories/T_UI_Icon_Category_Melee.T_UI_Icon_Category_Melee",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_meleeattack_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_meleeattack_description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Combat.RangedAttack"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Categories/T_UI_Icon_Category_Ranged.T_UI_Icon_Category_Ranged",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_rangedattack_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_rangedattack_description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Combat.JumpAttack"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "None",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_jumpattack_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_jumpattack_description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Combat.ChargedAttack"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "None",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_chargedrangedattack_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_chargedrangedattack_description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Combat.TNT"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/Game/Spicewood/UI/HUD/Player/Hotbar/Ammo/T_TNTIcon.T_TNTIcon",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_tnt_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_tnt_description\")",
+				"Image": "/OreUI/UI/Widget/TutorialLog/TutorialImages/T_UI_Tutorial_TNT.T_UI_Tutorial_TNT"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Combat.Consumable"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "None",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_consumables_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_consumables_description\")",
+				"Image": "/OreUI/UI/Widget/TutorialLog/TutorialImages/T_UI_Tutorial_Consumables.T_UI_Tutorial_Consumables"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Combat.Ambush"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "None",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_ambush_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_ambush_description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Combat.Potion"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/Game/Spicewood/UI/HUD/Player/Hotbar/Artifacts/Passives/T_UI_PotionBottleIcon.T_UI_PotionBottleIcon",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_healthpotion_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_healthpotion_description\")",
+				"Image": "None"
+			}
+		]
+	},
+	{
+		"Name": "SW.UI.TutorialLog.Navigation",
+		"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_navigation_title\")",
+		"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_navigation_description\")",
+		"Entries": [
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Navigation.Minimap"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "None",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_minimap_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_minimap_description\")",
+				"Image": "/OreUI/UI/Widget/TutorialLog/TutorialImages/T_UI_Tutorial_MiniMap.T_UI_Tutorial_MiniMap"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Navigation.Map"
+				},
+				"Notify": true,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Emotes/T_UI_Icon_Chat_Map.T_UI_Icon_Chat_Map",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_worldmap_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_worldmap_description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Navigation.Guidance"
+				},
+				"Notify": true,
+				"IsUnlockedByDefault": false,
+				"Icon": "/Game/Spicewood/UI/HUD/Player/Hotbar/Prompts/T_UI_Icon_Compass.T_UI_Icon_Compass",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_guidance_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_guidance_description\")",
+				"Image": "/OreUI/UI/Widget/TutorialLog/TutorialImages/T_UI_Tutorial_Guidance.T_UI_Tutorial_Guidance"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Navigation.Station"
+				},
+				"Notify": true,
+				"IsUnlockedByDefault": false,
+				"Icon": "/SpicewoodUI/Spicewood/UI/Texture/Minimap/Icons/T_UI_Icon_Minecart.T_UI_Icon_Minecart",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_minecartstations_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_minecartstations_description\")",
+				"Image": "/OreUI/UI/Widget/TutorialLog/TutorialImages/T_UI_Tutorial_Minecart.T_UI_Tutorial_Minecart"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Navigation.TeleportStatue"
+				},
+				"Notify": true,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Gameplay/T_UI_Icon_Town_Portal_Hotbar_Compact.T_UI_Icon_Town_Portal_Hotbar_Compact",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_townportal_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_townportal_description\")",
+				"Image": "/OreUI/UI/Widget/TutorialLog/TutorialImages/T_UI_Tutorial_ReturnStatue.T_UI_Tutorial_ReturnStatue"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Navigation.Teleport"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Emotes/T_UI_Icon_Chat_Teleport.T_UI_Icon_Chat_Teleport",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_teleport_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_teleport_description\")",
+				"Image": "None"
+			}
+		]
+	},
+	{
+		"Name": "SW.UI.TutorialLog.Merchants",
+		"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_merchants_title\")",
+		"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_merchants_description\")",
+		"Entries": [
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Merchants.VillageMerchant"
+				},
+				"Notify": true,
+				"IsUnlockedByDefault": false,
+				"Icon": "/SpicewoodUI/Spicewood/UI/Texture/WorldMap/Icons/T_UI_Icon_VillageMerchant.T_UI_Icon_VillageMerchant",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_villagemerchant_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_villagemerchant_description\")",
+				"Image": "/OreUI/UI/Widget/TutorialLog/TutorialImages/T_UI_Tutorial_Merchant.T_UI_Tutorial_Merchant"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Merchants.Enchantsmith"
+				},
+				"Notify": true,
+				"IsUnlockedByDefault": false,
+				"Icon": "/SpicewoodUI/Spicewood/UI/Texture/WorldMap/Icons/T_UI_Icon_Enchantsmith.T_UI_Icon_Enchantsmith",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_enchantsmith_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_enchantsmith_description\")",
+				"Image": "/OreUI/UI/Widget/TutorialLog/TutorialImages/T_UI_Tutorial_Enchantsmith.T_UI_Tutorial_Enchantsmith"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Merchants.Blacksmith"
+				},
+				"Notify": true,
+				"IsUnlockedByDefault": false,
+				"Icon": "/SpicewoodUI/Spicewood/UI/Texture/WorldMap/Icons/T_UI_Icon_Blacksmith.T_UI_Icon_Blacksmith",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_blacksmith_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_blacksmith_description\")",
+				"Image": "/OreUI/UI/Widget/TutorialLog/TutorialImages/T_UI_Tutorial_Blacksmith.T_UI_Tutorial_Blacksmith"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Merchants.Emeralds"
+				},
+				"Notify": true,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Currency/T_Emerald_UI.T_Emerald_UI",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_emeralds_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_emeralds_description\")",
+				"Image": "/OreUI/UI/Widget/TutorialLog/TutorialImages/T_UI_Tutorial_Currency_Emerald.T_UI_Tutorial_Currency_Emerald"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Merchants.EnchantmentPoints"
+				},
+				"Notify": true,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Currency/T_UI_EnchantmentPoints.T_UI_EnchantmentPoints",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_enchantmentpoints_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_enchantmentpoints_description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Merchants.SpringStones"
+				},
+				"Notify": true,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Currency/T_UI_SpringStone.T_UI_SpringStone",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_springstones_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_springstones_description\")",
+				"Image": "/OreUI/UI/Widget/TutorialLog/TutorialImages/T_UI_Tutorial_Currency_Shards.T_UI_Tutorial_Currency_Shards"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Collectibles.EnchantmentBooks"
+				},
+				"Notify": true,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Categories/T_UI_Icon_Category_Enchantment.T_UI_Icon_Category_Enchantment",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_enchantmentbooks_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_enchantmentbooks_description\")",
+				"Image": "/OreUI/UI/Widget/TutorialLog/TutorialImages/T_UI_Tutorial_EnchantBook.T_UI_Tutorial_EnchantBook"
+			}
+		]
+	},
+	{
+		"Name": "SW.UI.TutorialLog.Gameplay",
+		"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_gameplay_title\")",
+		"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_gameplay_description\")",
+		"Entries": [
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Gameplay.SoulStorm"
+				},
+				"Notify": true,
+				"IsUnlockedByDefault": false,
+				"Icon": "/SpicewoodUI/Spicewood/UI/Widget/SoulStorm/T_UI_soulstorm_icon_tmp.T_UI_soulstorm_icon_tmp",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_soulstorms_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_soulstorms_description\")",
+				"Image": "/OreUI/UI/Widget/TutorialLog/TutorialImages/T_UI_Tutorial_Storminator.T_UI_Tutorial_Storminator"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Gameplay.ReplayableBosses"
+				},
+				"Notify": true,
+				"IsUnlockedByDefault": false,
+				"Icon": "None",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_replayablebosses_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_replayablebosses_description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Gameplay.WellspringTides"
+				},
+				"Notify": true,
+				"IsUnlockedByDefault": false,
+				"Icon": "None",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_wellspringtides_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_wellspringtides_description\")",
+				"Image": "/OreUI/UI/Widget/TutorialLog/TutorialImages/T_UI_Tutorial_Tides.T_UI_Tutorial_Tides"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Gameplay.SoulImbalance"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "None",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_soulimbalance_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_soulimbalance_description\")",
+				"Image": "/OreUI/UI/Widget/TutorialLog/TutorialImages/T_UI_Tutorial_SoulImbalance.T_UI_Tutorial_SoulImbalance"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Gameplay.Levelup"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "None",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_levelingup_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_levelingup_description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Gameplay.PowerLevel"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "None",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_powerlevel_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_powerlevel_description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Gameplay.Rifts"
+				},
+				"Notify": true,
+				"IsUnlockedByDefault": false,
+				"Icon": "/SpicewoodUI/Spicewood/UI/Texture/WorldMap/Icons/T_UI_Icon_Rift.T_UI_Icon_Rift",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_rifts_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_rifts_description\")",
+				"Image": "/OreUI/UI/Widget/TutorialLog/TutorialImages/T_UI_Tutorial_Rift.T_UI_Tutorial_Rift"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Gameplay.Dungeons"
+				},
+				"Notify": true,
+				"IsUnlockedByDefault": false,
+				"Icon": "/SpicewoodUI/Spicewood/UI/Texture/WorldMap/Icons/T_UI_Icon_Dungeon_LV3.T_UI_Icon_Dungeon_LV3",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_dungeons_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_dungeons_description\")",
+				"Image": "/OreUI/UI/Widget/TutorialLog/TutorialImages/T_UI_Tutorial_Dungeons.T_UI_Tutorial_Dungeons"
+			}
+		]
+	},
+	{
+		"Name": "SW.UI.TutorialLog.SpecialGear",
+		"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_specialgear_title\")",
+		"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_specialgear_description\")",
+		"Entries": [
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.SpecialGear.Artifacts"
+				},
+				"Notify": true,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Categories/T_UI_Icon_Category_Potion.T_UI_Icon_Category_Potion",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_artifacts_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_artifacts_description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.SpecialGear.Talismans"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Categories/T_UI_Icon_Category_Talisman.T_UI_Icon_Category_Talisman",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_talismans_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_talismans_description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.SpecialGear.Companions"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Companions/T_UI_Wolf_Companion.T_UI_Wolf_Companion",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_companions_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_companions_description\")",
+				"Image": "None"
+			}
+		]
+	},
+	{
+		"Name": "SW.UI.TutorialLog.Statuses",
+		"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_statuses_title\")",
+		"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_statuses_description\")",
+		"Entries": [
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.Burning"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_Burning.T_UI_Icon_Status_Burning",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Burning_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Burning_SW_TextEntry_Description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.Poisoned"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_Poisoned.T_UI_Icon_Status_Poisoned",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Poisoned_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Poisoned_SW_TextEntry_Description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.Resistance"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_Resistance.T_UI_Icon_Status_Resistance",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Resistance_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Resistance_SW_TextEntry_Description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.Webbed"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_Webbed.T_UI_Icon_Status_Webbed",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Webbed_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Webbed_SW_TextEntry_Description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.Slowed"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_Slowed.T_UI_Icon_Status_Slowed",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Slowed_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Slowed_SW_TextEntry_Description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.SoulCharged"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_SoulWeariness.T_UI_Icon_Status_SoulWeariness",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_SoulCharged_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_SoulCharged_SW_TextEntry_Description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.Regeneration"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_Regeneration.T_UI_Icon_Status_Regeneration",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Regeneration_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Regeneration_SW_TextEntry_Description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.Gloaming"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_Gloaming.T_UI_Icon_Status_Gloaming",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Gloaming_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Gloaming_SW_TextEntry_Description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.Invulnerable"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_Invulnerable.T_UI_Icon_Status_Invulnerable",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Invulnerable_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Invulnerable_SW_TextEntry_Description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.Freezing"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_Freezing.T_UI_Icon_Status_Freezing",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Freezing_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Freezing_SW_TextEntry_Description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.Conductive"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_Conductor.T_UI_Icon_Status_Conductor",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Conductive_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Conductive_SW_TextEntry_Description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.ShadowForm"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_ShadowForm.T_UI_Icon_Status_ShadowForm",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_ShadowForm_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_ShadowForm_SW_TextEntry_Description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.Arcane"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_Arcane.T_UI_Icon_Status_Arcane",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Arcane_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Arcane_SW_TextEntry_Description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.Vined"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_Vined.T_UI_Icon_Status_Vined",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Vined_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Vined_SW_TextEntry_Description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.Swiftness"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_Swiftness.T_UI_Icon_Status_Swiftness",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Swiftness_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Swiftness_SW_TextEntry_Description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.Unstoppable"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_Unstoppable.T_UI_Icon_Status_Unstoppable",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Unstoppable_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Unstoppable_SW_TextEntry_Description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.Weakness"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_Weakness.T_UI_Icon_Status_Weakness",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Weakness_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Weakness_SW_TextEntry_Description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.Chained"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_Chained.T_UI_Icon_Status_Chained",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Chained_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Chained_SW_TextEntry_Description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.Strength"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_Strength.T_UI_Icon_Status_Strength",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Strength_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Strength_SW_TextEntry_Description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.Acceleration"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_Acceleration.T_UI_Icon_Status_Acceleration",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Acceleration_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Acceleration_SW_TextEntry_Description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.Honeyed"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_Honeyed.T_UI_Icon_Status_Honeyed",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Honeyed_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Honeyed_SW_TextEntry_Description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.Artifact.Buff.DeathcapMushroom"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_Deathcap.T_UI_Icon_Status_Deathcap",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Artifact_Buff_DeathcapMushroom_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Artifact_Buff_DeathcapMushroom_SW_TextEntry_Description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.Artifact.Buff.Grindstone"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_Grindstone.T_UI_Icon_Status_Grindstone",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Artifact_Buff_Grindstone_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Artifact_Buff_Grindstone_SW_TextEntry_Description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.Artifact.Buff.Powershaker"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_Powershaker.T_UI_Icon_Status_Powershaker",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Artifact_Buff_Powershaker_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Artifact_Buff_Powershaker_SW_TextEntry_Description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.Artifact.Buff.FireBracelet"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_FireBracelet.T_UI_Icon_Status_FireBracelet",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Artifact_Buff_FireBracelet_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Artifact_Buff_FireBracelet_SW_TextEntry_Description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.Artifact.Buff.FrostBracelet"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_FrostBracelet.T_UI_Icon_Status_FrostBracelet",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Artifact_Buff_FrostBracelet_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Artifact_Buff_FrostBracelet_SW_TextEntry_Description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.Artifact.Buff.PoisonBracelet"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_PoisonBracelet.T_UI_Icon_Status_PoisonBracelet",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Artifact_Buff_PoisonBracelet_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Artifact_Buff_PoisonBracelet_SW_TextEntry_Description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.Artifact.Buff.ConductiveBracelet"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_ConductiveBracelet.T_UI_Icon_Status_ConductiveBracelet",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Artifact_Buff_ConductiveBracelet_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Artifact_Buff_ConductiveBracelet_SW_TextEntry_Description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.Critical.Chance.Increase"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_CriticalChanceUp.T_UI_Icon_Status_CriticalChanceUp",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Critical_Chance_Increase_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Critical_Chance_Increase_SW_TextEntry_Description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.Critical.Damage.Increase"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_CriticalDamageUp.T_UI_Icon_Status_CriticalDamageUp",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Critical_Damage_Increase_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Critical_Damage_Increase_SW_TextEntry_Description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.Status.Deflection"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Statuses/T_UI_Icon_Status_Deflection.T_UI_Icon_Status_Deflection",
+				"Title": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Deflection_SW_TextEntry_Name\")",
+				"Description": "LOCTABLE(\"DT_StatusDefinition.csv\", \"SW_Status_Deflection_SW_TextEntry_Description\")",
+				"Image": "None"
+			}
+		]
+	},
+	{
+		"Name": "SW.UI.TutorialLog.Collectibles",
+		"Title": "LOCTABLE(\"SettingsLabels.csv\", \"Input_OpenUI_Collectibles\")",
+		"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_collectibles_description\")",
+		"Entries": [
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Collectibles.Pets"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": true,
+				"Icon": "/OreUI/UI/Icons/Categories/T_UI_Icon_Category_Pet.T_UI_Icon_Category_Pet",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_pets_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_pets_description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Collectibles.Capes"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": true,
+				"Icon": "/OreUI/UI/Icons/Categories/T_UI_Icon_Category_Cape.T_UI_Icon_Category_Cape",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_capes_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_capes_description\")",
+				"Image": "None"
+			},
+			{
+				"ID":
+				{
+					"TagName": "SW.UI.TutorialLog.Collectibles.EnchantmentBooks"
+				},
+				"Notify": false,
+				"IsUnlockedByDefault": false,
+				"Icon": "/OreUI/UI/Icons/Categories/T_UI_Icon_Category_Enchantment.T_UI_Icon_Category_Enchantment",
+				"Title": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_enchantmentbooks_title\")",
+				"Description": "LOCTABLE(\"OnboardingLabels.csv\", \"tutoriallog_enchantmentbooks_description\")",
+				"Image": "/OreUI/UI/Widget/TutorialLog/TutorialImages/T_UI_Tutorial_EnchantBook.T_UI_Tutorial_EnchantBook"
+			}
+		]
+	}
+]

@@ -1,0 +1,1898 @@
+[
+	{
+		"Name": "SW.UI.DesignToken.Color.Banner.Quest.Core.Border",
+		"Color":
+		{
+			"B": 64,
+			"G": 218,
+			"R": 237,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Banner.Quest.Core.Fill",
+		"Color":
+		{
+			"B": 41,
+			"G": 183,
+			"R": 222,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Banner.Quest.Errand.Border",
+		"Color":
+		{
+			"B": 255,
+			"G": 255,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Banner.Quest.Errand.Fill",
+		"Color":
+		{
+			"B": 166,
+			"G": 243,
+			"R": 63,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Banner.Quest.Failed.Border",
+		"Color":
+		{
+			"B": 82,
+			"G": 82,
+			"R": 226,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Banner.Quest.Failed.Fill",
+		"Color":
+		{
+			"B": 67,
+			"G": 67,
+			"R": 190,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Banner.Quest.Liveevent.Border",
+		"Color":
+		{
+			"B": 184,
+			"G": 107,
+			"R": 218,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Banner.Quest.Liveevent.Fill",
+		"Color":
+		{
+			"B": 184,
+			"G": 107,
+			"R": 218,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Banner.Quest.New.Border",
+		"Color":
+		{
+			"B": 238,
+			"G": 238,
+			"R": 238,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Banner.Quest.New.Fill",
+		"Color":
+		{
+			"B": 255,
+			"G": 255,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Banner.Quest.Side.Border",
+		"Color":
+		{
+			"B": 242,
+			"G": 223,
+			"R": 98,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Banner.Quest.Side.Fill",
+		"Color":
+		{
+			"B": 234,
+			"G": 160,
+			"R": 81,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Destructive.Background.Disabled",
+		"Color":
+		{
+			"B": 29,
+			"G": 29,
+			"R": 156,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Destructive.Background.Normal-base",
+		"Color":
+		{
+			"B": 62,
+			"G": 62,
+			"R": 186,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Destructive.Background.Normal-hovered",
+		"Color":
+		{
+			"B": 88,
+			"G": 88,
+			"R": 210,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Destructive.Background.Normal-pressed",
+		"Color":
+		{
+			"B": 29,
+			"G": 29,
+			"R": 156,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Destructive.Background.Selected-base",
+		"Color":
+		{
+			"B": 33,
+			"G": 33,
+			"R": 137,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Destructive.Background.Selected-hovered",
+		"Color":
+		{
+			"B": 73,
+			"G": 73,
+			"R": 192,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Destructive.Background.Selected-pressed",
+		"Color":
+		{
+			"B": 59,
+			"G": 33,
+			"R": 168,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Destructive.Background.Shadow",
+		"Color":
+		{
+			"B": 35,
+			"G": 35,
+			"R": 84,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Destructive.Text.Disabled",
+		"Color":
+		{
+			"B": 50,
+			"G": 50,
+			"R": 50,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Destructive.Text.Normal-base",
+		"Color":
+		{
+			"B": 255,
+			"G": 255,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Destructive.Text.Normal-hovered",
+		"Color":
+		{
+			"B": 255,
+			"G": 255,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Destructive.Text.Selected-base",
+		"Color":
+		{
+			"B": 255,
+			"G": 255,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Destructive.Text.Selected-hovered",
+		"Color":
+		{
+			"B": 255,
+			"G": 255,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Destructive.Text.Shadow",
+		"Color":
+		{
+			"B": 50,
+			"G": 50,
+			"R": 50,
+			"A": 204
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Primary.Background.Disabled",
+		"Color":
+		{
+			"B": 212,
+			"G": 209,
+			"R": 208,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Primary.Background.Normal-base",
+		"Color":
+		{
+			"B": 82,
+			"G": 159,
+			"R": 96,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Primary.Background.Normal-hovered",
+		"Color":
+		{
+			"B": 110,
+			"G": 204,
+			"R": 140,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Primary.Background.Normal-pressed",
+		"Color":
+		{
+			"B": 66,
+			"G": 142,
+			"R": 92,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Primary.Background.Selected-base",
+		"Color":
+		{
+			"B": 55,
+			"G": 141,
+			"R": 71,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Primary.Background.Selected-hovered",
+		"Color":
+		{
+			"B": 71,
+			"G": 177,
+			"R": 91,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Primary.Background.Selected-pressed",
+		"Color":
+		{
+			"B": 66,
+			"G": 142,
+			"R": 92,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Primary.Background.Shadow",
+		"Color":
+		{
+			"B": 19,
+			"G": 64,
+			"R": 32,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Primary.Text.Disabled",
+		"Color":
+		{
+			"B": 50,
+			"G": 50,
+			"R": 50,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Primary.Text.Normal-base",
+		"Color":
+		{
+			"B": 255,
+			"G": 255,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Primary.Text.Normal-hovered",
+		"Color":
+		{
+			"B": 255,
+			"G": 255,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Primary.Text.Selected-base",
+		"Color":
+		{
+			"B": 255,
+			"G": 255,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Primary.Text.Selected-hovered",
+		"Color":
+		{
+			"B": 255,
+			"G": 255,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Primary.Text.Shadow",
+		"Color":
+		{
+			"B": 50,
+			"G": 50,
+			"R": 50,
+			"A": 204
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Secondary.Background.Disabled",
+		"Color":
+		{
+			"B": 212,
+			"G": 209,
+			"R": 208,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Secondary.Background.Normal-base",
+		"Color":
+		{
+			"B": 160,
+			"G": 117,
+			"R": 33,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Secondary.Background.Normal-hovered",
+		"Color":
+		{
+			"B": 198,
+			"G": 152,
+			"R": 62,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Secondary.Background.Normal-pressed",
+		"Color":
+		{
+			"B": 129,
+			"G": 89,
+			"R": 12,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Secondary.Background.Selected-base",
+		"Color":
+		{
+			"B": 75,
+			"G": 54,
+			"R": 7,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Secondary.Background.Selected-hovered",
+		"Color":
+		{
+			"B": 95,
+			"G": 68,
+			"R": 15,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Secondary.Background.Selected-pressed",
+		"Color":
+		{
+			"B": 85,
+			"G": 55,
+			"R": 10,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Secondary.Background.Shadow",
+		"Color":
+		{
+			"B": 102,
+			"G": 68,
+			"R": 2,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Secondary.Text.Disabled",
+		"Color":
+		{
+			"B": 50,
+			"G": 50,
+			"R": 50,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Secondary.Text.Normal-base",
+		"Color":
+		{
+			"B": 255,
+			"G": 255,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Secondary.Text.Normal-hovered",
+		"Color":
+		{
+			"B": 255,
+			"G": 255,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Secondary.Text.Selected-base",
+		"Color":
+		{
+			"B": 255,
+			"G": 255,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Secondary.Text.Selected-hovered",
+		"Color":
+		{
+			"B": 255,
+			"G": 255,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Secondary.Text.Shadow",
+		"Color":
+		{
+			"B": 50,
+			"G": 50,
+			"R": 50,
+			"A": 204
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Subtle.Background.Disabled",
+		"Color":
+		{
+			"B": 4,
+			"G": 2,
+			"R": 1,
+			"A": 0
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Subtle.Background.Normal-base",
+		"Color":
+		{
+			"B": 4,
+			"G": 2,
+			"R": 1,
+			"A": 0
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Subtle.Background.Normal-hovered",
+		"Color":
+		{
+			"B": 4,
+			"G": 2,
+			"R": 1,
+			"A": 0
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Subtle.Background.Normal-pressed",
+		"Color":
+		{
+			"B": 4,
+			"G": 2,
+			"R": 1,
+			"A": 0
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Subtle.Background.Selected-base",
+		"Color":
+		{
+			"B": 4,
+			"G": 2,
+			"R": 1,
+			"A": 0
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Subtle.Background.Selected-hovered",
+		"Color":
+		{
+			"B": 4,
+			"G": 2,
+			"R": 1,
+			"A": 0
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Subtle.Background.Selected-pressed",
+		"Color":
+		{
+			"B": 4,
+			"G": 2,
+			"R": 1,
+			"A": 0
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Subtle.Text.Disabled",
+		"Color":
+		{
+			"B": 151,
+			"G": 140,
+			"R": 128,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Subtle.Text.Normal-base",
+		"Color":
+		{
+			"B": 179,
+			"G": 179,
+			"R": 179,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Subtle.Text.Normal-hovered",
+		"Color":
+		{
+			"B": 255,
+			"G": 255,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Subtle.Text.Selected-base",
+		"Color":
+		{
+			"B": 179,
+			"G": 179,
+			"R": 179,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Button.Subtle.Text.Selected-hovered",
+		"Color":
+		{
+			"B": 255,
+			"G": 255,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Icon.Quest.Core.Border",
+		"Color":
+		{
+			"B": 41,
+			"G": 183,
+			"R": 222,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Icon.Quest.Core.Fill",
+		"Color":
+		{
+			"B": 64,
+			"G": 218,
+			"R": 237,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Icon.Quest.Errand.Border",
+		"Color":
+		{
+			"B": 166,
+			"G": 243,
+			"R": 63,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Icon.Quest.Errand.Fill",
+		"Color":
+		{
+			"B": 255,
+			"G": 255,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Icon.Quest.Failed.Border",
+		"Color":
+		{
+			"B": 67,
+			"G": 67,
+			"R": 190,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Icon.Quest.Failed.Fill",
+		"Color":
+		{
+			"B": 82,
+			"G": 82,
+			"R": 226,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Icon.Quest.Liveevent.Border",
+		"Color":
+		{
+			"B": 184,
+			"G": 107,
+			"R": 218,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Icon.Quest.Liveevent.Fill",
+		"Color":
+		{
+			"B": 184,
+			"G": 107,
+			"R": 218,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Icon.Quest.Side.Border",
+		"Color":
+		{
+			"B": 234,
+			"G": 160,
+			"R": 81,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Icon.Quest.Side.Fill",
+		"Color":
+		{
+			"B": 242,
+			"G": 223,
+			"R": 98,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Notification.Quest.Container.Default.Fill",
+		"Color":
+		{
+			"B": 0,
+			"G": 0,
+			"R": 0,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Notification.Quest.Container.Failed.Fill",
+		"Color":
+		{
+			"B": 11,
+			"G": 11,
+			"R": 81,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Panel.Actionbar.Background",
+		"Color":
+		{
+			"B": 4,
+			"G": 2,
+			"R": 1,
+			"A": 179
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Panel.Dialogue.Ornament.Default",
+		"Color":
+		{
+			"B": 255,
+			"G": 255,
+			"R": 255,
+			"A": 2
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Panel.Dialogue.Ornament.Quest-completion",
+		"Color":
+		{
+			"B": 71,
+			"G": 200,
+			"R": 242,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Panel.Navbar.Background",
+		"Color":
+		{
+			"B": 230,
+			"G": 230,
+			"R": 230,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Panel.Navbar.Party.Member.Local.Player-four",
+		"Color":
+		{
+			"B": 255,
+			"G": 138,
+			"R": 165,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Panel.Navbar.Party.Member.Local.Player-one",
+		"Color":
+		{
+			"B": 66,
+			"G": 177,
+			"R": 243,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Panel.Navbar.Party.Member.Local.Player-three",
+		"Color":
+		{
+			"B": 193,
+			"G": 101,
+			"R": 251,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Panel.Navbar.Party.Member.Local.Player-two",
+		"Color":
+		{
+			"B": 171,
+			"G": 231,
+			"R": 60,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Panel.Navbar.Tab.Primary.Background.Normal-base",
+		"Color":
+		{
+			"B": 230,
+			"G": 230,
+			"R": 230,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Panel.Navbar.Tab.Primary.Background.Normal-hovered",
+		"Color":
+		{
+			"B": 204,
+			"G": 204,
+			"R": 204,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Panel.Navbar.Tab.Primary.Background.Selected-base",
+		"Color":
+		{
+			"B": 204,
+			"G": 204,
+			"R": 204,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Panel.Navbar.Tab.Primary.Background.Selected-hovered",
+		"Color":
+		{
+			"B": 204,
+			"G": 204,
+			"R": 204,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Panel.Navbar.Tab.Primary.Stroke.Normal-hovered",
+		"Color":
+		{
+			"B": 179,
+			"G": 179,
+			"R": 179,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Panel.Navbar.Tab.Primary.Stroke.Selected-hovered",
+		"Color":
+		{
+			"B": 179,
+			"G": 179,
+			"R": 179,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Panel.Navbar.Tab.Primary.Text.Disabled",
+		"Color":
+		{
+			"B": 179,
+			"G": 179,
+			"R": 179,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Panel.Navbar.Tab.Primary.Text.Normal-base",
+		"Color":
+		{
+			"B": 153,
+			"G": 153,
+			"R": 153,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Panel.Navbar.Tab.Primary.Text.Normal-hovered",
+		"Color":
+		{
+			"B": 128,
+			"G": 128,
+			"R": 128,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Panel.Navbar.Tab.Primary.Text.Selected-base",
+		"Color":
+		{
+			"B": 128,
+			"G": 128,
+			"R": 128,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Panel.Navbar.Tab.Primary.Text.Selected-hovered",
+		"Color":
+		{
+			"B": 128,
+			"G": 128,
+			"R": 128,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Panel.Navbar.Tab.Secondary.Background.Normal-base",
+		"Color":
+		{
+			"B": 235,
+			"G": 235,
+			"R": 235,
+			"A": 0
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Panel.Navbar.Tab.Secondary.Background.Normal-hovered",
+		"Color":
+		{
+			"B": 235,
+			"G": 235,
+			"R": 235,
+			"A": 0
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Panel.Navbar.Tab.Secondary.Background.Selected-base",
+		"Color":
+		{
+			"B": 204,
+			"G": 204,
+			"R": 204,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Panel.Navbar.Tab.Secondary.Background.Selected-hovered",
+		"Color":
+		{
+			"B": 204,
+			"G": 204,
+			"R": 204,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Panel.Navbar.Tab.Secondary.Stroke.Normal-hovered",
+		"Color":
+		{
+			"B": 179,
+			"G": 179,
+			"R": 179,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Panel.Navbar.Tab.Secondary.Stroke.Selected-hovered",
+		"Color":
+		{
+			"B": 179,
+			"G": 179,
+			"R": 179,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Panel.Navbar.Tab.Secondary.Text.Disabled",
+		"Color":
+		{
+			"B": 179,
+			"G": 179,
+			"R": 179,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Panel.Navbar.Tab.Secondary.Text.Normal-base",
+		"Color":
+		{
+			"B": 153,
+			"G": 153,
+			"R": 153,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Panel.Navbar.Tab.Secondary.Text.Normal-hovered",
+		"Color":
+		{
+			"B": 128,
+			"G": 128,
+			"R": 128,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Panel.Navbar.Tab.Secondary.Text.Selected-base",
+		"Color":
+		{
+			"B": 128,
+			"G": 128,
+			"R": 128,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Panel.Navbar.Tab.Secondary.Text.Selected-hovered",
+		"Color":
+		{
+			"B": 128,
+			"G": 128,
+			"R": 128,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Speechbubble.Border.Core",
+		"Color":
+		{
+			"B": 67,
+			"G": 195,
+			"R": 244,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Speechbubble.Border.Default",
+		"Color":
+		{
+			"B": 204,
+			"G": 204,
+			"R": 204,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Speechbubble.Border.Errand",
+		"Color":
+		{
+			"B": 139,
+			"G": 209,
+			"R": 43,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Speechbubble.Border.Liveevent",
+		"Color":
+		{
+			"B": 184,
+			"G": 107,
+			"R": 218,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Speechbubble.Border.Side",
+		"Color":
+		{
+			"B": 233,
+			"G": 173,
+			"R": 121,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.DamageNumber.Blast",
+		"Color":
+		{
+			"B": 0,
+			"G": 0,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.DamageNumber.Fire",
+		"Color":
+		{
+			"B": 0,
+			"G": 128,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.DamageNumber.Ice",
+		"Color":
+		{
+			"B": 255,
+			"G": 255,
+			"R": 0,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.DamageNumber.Lightning",
+		"Color":
+		{
+			"B": 0,
+			"G": 255,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.DamageNumber.Physical",
+		"Color":
+		{
+			"B": 255,
+			"G": 255,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.DamageNumber.Poison",
+		"Color":
+		{
+			"B": 0,
+			"G": 188,
+			"R": 0,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.DamageNumber.Soul",
+		"Color":
+		{
+			"B": 255,
+			"G": 0,
+			"R": 128,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Gameplay.Enchantment",
+		"Color":
+		{
+			"B": 245,
+			"G": 91,
+			"R": 198,
+			"A": 255
+		},
+		"DisplayName": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_Enchantment\")",
+		"DescriptionRichText": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_Enchantment_Description\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Gameplay.Itempower",
+		"Color":
+		{
+			"B": 253,
+			"G": 211,
+			"R": 81,
+			"A": 255
+		},
+		"DisplayName": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_ItemPower\")",
+		"DescriptionRichText": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_ItemPower_Description\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Gameplay.Teleport",
+		"Color":
+		{
+			"B": 251,
+			"G": 41,
+			"R": 133,
+			"A": 255
+		},
+		"DisplayName": "NSLOCTEXT(\"[0C3133394C93E7B9279C0869FA0CFC62]\", \"46E8684242288A5EBF074E9A77A299BE\", \"Gameplay Teleport\")",
+		"DescriptionRichText": "NSLOCTEXT(\"[0C3133394C93E7B9279C0869FA0CFC62]\", \"8F891EEB4A462686745705A90B537A29\", \"Color used in general for teleporting (Prompt, vfx, etc)\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Item.Common",
+		"Color":
+		{
+			"B": 137,
+			"G": 157,
+			"R": 180,
+			"A": 255
+		},
+		"DisplayName": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_CommonItem\")",
+		"DescriptionRichText": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_CommonItem_Description\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Item.Rare",
+		"Color":
+		{
+			"B": 114,
+			"G": 223,
+			"R": 117,
+			"A": 255
+		},
+		"DisplayName": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_RareItem\")",
+		"DescriptionRichText": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_RareItem_Description\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Item.Special",
+		"Color":
+		{
+			"B": 254,
+			"G": 162,
+			"R": 44,
+			"A": 255
+		},
+		"DisplayName": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_SpecialItem\")",
+		"DescriptionRichText": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_SpecialItem_Description\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Item.Unique",
+		"Color":
+		{
+			"B": 47,
+			"G": 126,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_UniqueItem\")",
+		"DescriptionRichText": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_UniqueItem_Description\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Quest.Core",
+		"Color":
+		{
+			"B": 64,
+			"G": 218,
+			"R": 237,
+			"A": 255
+		},
+		"DisplayName": "NSLOCTEXT(\"[0C3133394C93E7B9279C0869FA0CFC62]\", \"D8CE7E6C49D79D9A88AC4AAA11F27E68\", \"Core Quest\")",
+		"DescriptionRichText": "NSLOCTEXT(\"[0C3133394C93E7B9279C0869FA0CFC62]\", \"FBAA0B6E4C25237C71F3059A8805A79B\", \"Differentiates between the quest types.\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Quest.Liveevent",
+		"Color":
+		{
+			"B": 184,
+			"G": 107,
+			"R": 218,
+			"A": 255
+		},
+		"DisplayName": "NSLOCTEXT(\"[0C3133394C93E7B9279C0869FA0CFC62]\", \"BA19046F449FF97532C5138C83DD0A63\", \"Live Event Quest\")",
+		"DescriptionRichText": "NSLOCTEXT(\"[0C3133394C93E7B9279C0869FA0CFC62]\", \"078F938B4BE2CD2A885E8CBA3E43DFD1\", \"Differentiates between the quest types.\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Quest.Side",
+		"Color":
+		{
+			"B": 231,
+			"G": 161,
+			"R": 87,
+			"A": 255
+		},
+		"DisplayName": "NSLOCTEXT(\"[0C3133394C93E7B9279C0869FA0CFC62]\", \"1A82102440F409855D9EC2A30EA12C97\", \"Side Quest\")",
+		"DescriptionRichText": "NSLOCTEXT(\"[0C3133394C93E7B9279C0869FA0CFC62]\", \"13C9E5EF41ED5035311706A124C69F15\", \"Differentiates between the quest types.\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Social.CompanionSolo",
+		"Color":
+		{
+			"B": 42,
+			"G": 184,
+			"R": 243,
+			"A": 255
+		},
+		"DisplayName": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_SoloCompanion\")",
+		"DescriptionRichText": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_SoloCompanion_Description\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Social.Player1",
+		"Color":
+		{
+			"B": 42,
+			"G": 184,
+			"R": 243,
+			"A": 255
+		},
+		"DisplayName": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_Player1\")",
+		"DescriptionRichText": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_Player1_Description\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Social.Player2",
+		"Color":
+		{
+			"B": 176,
+			"G": 213,
+			"R": 55,
+			"A": 255
+		},
+		"DisplayName": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_Player2\")",
+		"DescriptionRichText": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_Player2_Description\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Social.Player3",
+		"Color":
+		{
+			"B": 192,
+			"G": 99,
+			"R": 251,
+			"A": 255
+		},
+		"DisplayName": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_Player3\")",
+		"DescriptionRichText": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_Player3_Description\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Social.Player4",
+		"Color":
+		{
+			"B": 255,
+			"G": 110,
+			"R": 120,
+			"A": 255
+		},
+		"DisplayName": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_Player4\")",
+		"DescriptionRichText": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_Player4_Description\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Social.PlayerSolo",
+		"Color":
+		{
+			"B": 255,
+			"G": 255,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_SoloPlayer\")",
+		"DescriptionRichText": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_SoloPlayer_Description\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Alert.Low",
+		"Color":
+		{
+			"B": 230,
+			"G": 230,
+			"R": 230,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Alert.Medium",
+		"Color":
+		{
+			"B": 71,
+			"G": 120,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Alert.High",
+		"Color":
+		{
+			"B": 67,
+			"G": 67,
+			"R": 228,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Experience",
+		"Color":
+		{
+			"B": 64,
+			"G": 207,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Target.Friendly",
+		"Color":
+		{
+			"B": 253,
+			"G": 211,
+			"R": 81,
+			"A": 255
+		},
+		"DisplayName": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_Friendly\")",
+		"DescriptionRichText": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_Friendly_Description\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Target.Interactable",
+		"Color":
+		{
+			"B": 255,
+			"G": 255,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_Interactible\")",
+		"DescriptionRichText": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_Interactible_Description\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Target.MultiplePlayers",
+		"Color":
+		{
+			"B": 255,
+			"G": 255,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_MultiplayerTarget\")",
+		"DescriptionRichText": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_MultiplayerTarget_Description\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Target.Neutral",
+		"Color":
+		{
+			"B": 0,
+			"G": 255,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "NSLOCTEXT(\"[0C3133394C93E7B9279C0869FA0CFC62]\", \"2AFEF0394B480BDB93B161A5BD80FE7F\", \"Neutral\")",
+		"DescriptionRichText": "NSLOCTEXT(\"[0C3133394C93E7B9279C0869FA0CFC62]\", \"7E54CDAF4B689DB804FADE9E23A74EBF\", \"Silhouette and targeting outline colour for neutral actors.\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Target.Unfriendly",
+		"Color":
+		{
+			"B": 0,
+			"G": 0,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_Unfriendly\")",
+		"DescriptionRichText": "LOCTABLE(\"SettingsLabels.csv\", \"ColorToken_Unfriendly_Description\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Threat.VeryLow",
+		"Color":
+		{
+			"B": 152,
+			"G": 111,
+			"R": 120,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Threat.Low",
+		"Color":
+		{
+			"B": 205,
+			"G": 138,
+			"R": 80,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Threat.Standard",
+		"Color":
+		{
+			"B": 59,
+			"G": 144,
+			"R": 223,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Threat.High",
+		"Color":
+		{
+			"B": 0,
+			"G": 85,
+			"R": 242,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Threat.VeryHigh",
+		"Color":
+		{
+			"B": 49,
+			"G": 5,
+			"R": 188,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Quest.Text.Highlight.Dialogue",
+		"Color":
+		{
+			"B": 44,
+			"G": 181,
+			"R": 238,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Quest.Text.Highlight.Description",
+		"Color":
+		{
+			"B": 15,
+			"G": 49,
+			"R": 91,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.White",
+		"Color":
+		{
+			"B": 255,
+			"G": 255,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Quest.Category.Selected",
+		"Color":
+		{
+			"B": 50,
+			"G": 48,
+			"R": 47,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Quest.Category.Normal",
+		"Color":
+		{
+			"B": 50,
+			"G": 48,
+			"R": 47,
+			"A": 64
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Map.Dimension.Mosaic.Default",
+		"Color":
+		{
+			"B": 16,
+			"G": 149,
+			"R": 199,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Map.Dimension.Mosaic.Variant",
+		"Color":
+		{
+			"B": 107,
+			"G": 55,
+			"R": 93,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Semantic.Gameplay.Effect",
+		"Color":
+		{
+			"B": 169,
+			"G": 198,
+			"R": 58,
+			"A": 255
+		},
+		"DisplayName": "",
+		"DescriptionRichText": ""
+	}
+]

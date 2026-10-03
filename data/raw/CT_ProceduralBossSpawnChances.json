@@ -1,0 +1,500 @@
+[
+  {
+    "Type": "CurveTable",
+    "Name": "CT_ProceduralBossSpawnChances",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveTable'",
+    "Package": "/Game/Spicewood/GameplayLogic/CT_ProceduralBossSpawnChances",
+    "CurveTableMode": "SimpleCurves",
+    "Rows": {
+      "RoyalGuardSoulStated": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 5.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "VanguardSoulStated": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 3.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "GeomancerSoulStated": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 3.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "RavagerSoulStated": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 3.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 6.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 7.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "RavagerWithRiderSoulStated": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 3.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 8.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 9.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "Evoker": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 3.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.25
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "EvokerSoulStated": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 8.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 0.5
+          },
+          {
+            "Time": 20.0,
+            "Value": 1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "Driftweaver": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.25
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "DriftWeaverSoulstated": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 8.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 0.5
+          },
+          {
+            "Time": 20.0,
+            "Value": 1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "Dartback": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 3.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.25
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "DartbackSoulStated": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 8.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 0.5
+          },
+          {
+            "Time": 20.0,
+            "Value": 1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "ScavengerGrapplerSoulStated": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "CreeperSoulStated": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 3.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "ChickenJockeySoulStated": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 3.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "SpiderJockeySoulStated": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 3.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "Witch": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 3.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.25
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "WitchSoulStated": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 8.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 0.5
+          },
+          {
+            "Time": 20.0,
+            "Value": 1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "Warden": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 3.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 0.25
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "WardenSoulStated": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 8.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 10.0,
+            "Value": 0.5
+          },
+          {
+            "Time": 20.0,
+            "Value": 1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      }
+    }
+  }
+]

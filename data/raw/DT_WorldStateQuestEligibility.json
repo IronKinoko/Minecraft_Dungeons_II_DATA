@@ -1,0 +1,212 @@
+[
+	{
+		"Name": "CampA1",
+		"TypeTag":
+		{
+			"TagName": "SW.Savestate.Eligibility.CampA1"
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA00",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "TownA1",
+		"TypeTag":
+		{
+			"TagName": "SW.Savestate.Eligibility.TownA1"
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": false,
+					"QuestName": "CA01",
+					"QuestState": "Completed",
+					"TaskName": "CA01_K02",
+					"TaskState": "Completed",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "PlainsA1",
+		"TypeTag":
+		{
+			"TagName": "SW.Savestate.Eligibility.PlainsA1"
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA01",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "ForestA1",
+		"TypeTag":
+		{
+			"TagName": "SW.Savestate.Eligibility.ForestA1"
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA02",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "DeepDarkA1",
+		"TypeTag":
+		{
+			"TagName": "SW.Savestate.Eligibility.DeepDarkA1"
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA03",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "MeadowA1",
+		"TypeTag":
+		{
+			"TagName": "SW.Savestate.Eligibility.MeadowA1"
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA06",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "DesertA1",
+		"TypeTag":
+		{
+			"TagName": "SW.Savestate.Eligibility.DesertA1"
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA07",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "PlainsA2",
+		"TypeTag":
+		{
+			"TagName": "SW.Savestate.Eligibility.PlainsA2"
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA07",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "MeadowA2",
+		"TypeTag":
+		{
+			"TagName": "SW.Savestate.Eligibility.MeadowA2"
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA10",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	},
+	{
+		"Name": "CarapaceA1",
+		"TypeTag":
+		{
+			"TagName": "SW.Savestate.Eligibility.CarapaceA1"
+		},
+		"QuestStates":
+		{
+			"MappedQuestStates": [
+				{
+					"bUseQuestState": true,
+					"QuestName": "CA09",
+					"QuestState": "Completed",
+					"TaskName": "None",
+					"TaskState": "NotSet",
+					"bShowAdditionalTags": false,
+					"OnlyMatchTagsNotState": false
+				}
+			]
+		}
+	}
+]

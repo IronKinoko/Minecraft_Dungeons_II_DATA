@@ -1,0 +1,3032 @@
+[
+{
+		"Name": "TeleportPointActor_UAID_B025AA660315F67702_1544594455",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Desert.A1"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.Fortress.FortIntExitFromBoss"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 5050,
+			"Y": 11600,
+			"Z": 5092
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "DesertA1_Anchor_Bossroom_002",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_84A938E2410E69BF01_1442115345",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Forest.A1.SpiderCaves.Interior.3"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "SW.Lighting.Forest.SpiderCave"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.Forest.A1.SpiderCave.V3Exit"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 9500,
+			"Y": 6350,
+			"Z": 4092
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "SpiderCaveV3",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_84A938E2410EE6D201_2041696404",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Desert.A1.IceCaves.1"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.IceCaves.V1"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 9320.4804886218481,
+			"Y": 5445.7452617801318,
+			"Z": 2691.908218185672
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "IceCaveV1",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_84A938E2410EE6D201_2108681405",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Desert.A1.IceCaves.2"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.IceCaves.V2"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 2476.0881817854206,
+			"Y": 17199.03187887837,
+			"Z": 1793.112045618177
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "IceCaveV2",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE6DFD801_1985512586",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Desert.A1.TwoEndTower"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.TwoEndTower.Tower2.Up"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 3880.3620150065958,
+			"Y": 2675.7751414816457,
+			"Z": 5795.2678175472793
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "TwoEndTower2",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE6DFD801_2053397587",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Desert.A1.TwoEndTower"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.TwoEndTower.Tower1.Down"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 2296.6273988409907,
+			"Y": 3918.7877135578892,
+			"Z": 3296.3901514705358
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "TwoEndTower1",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE6DFD801_2118053588",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Desert.A1.TwoEndTower"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.TwoEndTower.Tower1.Up"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 4208.8100672037835,
+			"Y": 2176.6300366541809,
+			"Z": 7793.9474618358654
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "TwoEndTower1",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE6DFD801_1882263585",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Desert.A1.TwoEndTower"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.TwoEndTower.Tower2.Down"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 1456.6332000473012,
+			"Y": 3592.5864357579198,
+			"Z": 1400.0294431173347
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "TwoEndTower2",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE6B4F101_1943033353",
+		"AreaTag":
+		{
+			"TagName": "Sw.Area.Plains.A1.UnderMill"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "Sw.TeleportPoint.Plains.A1.UnderMill.Start4"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 13169.481408000007,
+			"Y": 1663.0407489999998,
+			"Z": 1791.9999779999998
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "Undermill_Anc_004",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE6B4F101_1952601355",
+		"AreaTag":
+		{
+			"TagName": "Sw.Area.Plains.A1.UnderMill"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "Sw.TeleportPoint.Plains.A1.UnderMill.Start3"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 13722.058388000005,
+			"Y": 1641.4594550000002,
+			"Z": 3391.999984
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "Undermill_Anc_003",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE6B4F101_1957088357",
+		"AreaTag":
+		{
+			"TagName": "Sw.Area.Plains.A1.UnderMill"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "Sw.TeleportPoint.Plains.A1.UnderMill.Start2"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 13719.978755999997,
+			"Y": 1566.7911860000004,
+			"Z": 2891.9999790000002
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "Undermill_Anc_002",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE6B4F101_1960979359",
+		"AreaTag":
+		{
+			"TagName": "Sw.Area.Plains.A1.UnderMill"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "Sw.TeleportPoint.Plains.A1.UnderMill.Start1"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 13387.460472703911,
+			"Y": 1643.5601901827013,
+			"Z": 2991.9999820000003
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "Undermill_Anc_001",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_88A4C298B56B1AEB01_1217026902",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.AutomatedTests.ProceduralArea"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.Test.ProceduralArea.Start"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 8850,
+			"Y": 800,
+			"Z": 4892
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "OS_LU_ANC_001",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE64EFE01_1341976118",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Mines.Interior.001"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.Mines.001.Entrance"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 4445.2504353711993,
+			"Y": 799.99999263562131,
+			"Z": 3492
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "OS_MI_ANC_001",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE658FE01_2026933893",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Mines.Interior.002"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.Mines.002.Entrance"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 1122.6795813438075,
+			"Y": 3442.9497084601107,
+			"Z": 6592.0000158657558
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "OS_MI_ANC_002",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE64EFE01_1326279116",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Mines.Interior.001"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.Mines.001.Exit"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 7964.3543563224375,
+			"Y": 700,
+			"Z": 2691.9999996931238
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "OS_MI_ANC_003",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE658FE01_2089759894",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Mines.Interior.002"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.Mines.002.Exit"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 5760.9131013145743,
+			"Y": 675.079121059307,
+			"Z": 3092.0000109608864
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "OS_MI_ANC_004",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE65A0902_1865359842",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Plains.A2.StorageTower"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "Sw.TeleportPoint.Plains.A2.TowerInteriors.StorageTower.Mid.01"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 3500,
+			"Y": 5050,
+			"Z": 292
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "StorageTower_Mid_01",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE65A0902_1874043843",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Plains.A2.StorageTower"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "Sw.TeleportPoint.Plains.A2.TowerInteriors.StorageTower.Mid.02"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 3550,
+			"Y": 5100,
+			"Z": 292
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "StorageTower_Mid_02",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE65A0902_1880214844",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Plains.A2.StorageTower"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "Sw.TeleportPoint.Plains.A2.TowerInteriors.StorageTower.Mid.03"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 3550,
+			"Y": 5100,
+			"Z": 342
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "StorageTower_Mid_03",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE69A0902_1076744113",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Plains.A2.StorageTower"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "Sw.TeleportPoint.Plains.A2.TowerInteriors.StorageTower.Mid.01.Exit"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 5150,
+			"Y": 3200,
+			"Z": 1992
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "StorageTower_Mid_01",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE69A0902_1162349114",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Plains.A2.StorageTower"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "Sw.TeleportPoint.Plains.A2.TowerInteriors.StorageTower.Mid.02.Exit"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 5150,
+			"Y": 3250,
+			"Z": 1992
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "StorageTower_Mid_02",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE69A0902_1214602115",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Plains.A2.StorageTower"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "Sw.TeleportPoint.Plains.A2.TowerInteriors.StorageTower.Mid.03.Exit"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 5150,
+			"Y": 3250,
+			"Z": 1992
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "StorageTower_Mid_03",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE69C0902_1823968476",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Plains.A2.RavagerTower"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "Sw.TeleportPoint.Plains.A2.TowerInteriors.RavagerTower.Mid.01"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 3300,
+			"Y": 5150,
+			"Z": 1492
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "RavagerTower_Mid_01",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE69D0902_1942144659",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Plains.A2.RavagerTower"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "Sw.TeleportPoint.Plains.A2.TowerInteriors.RavagerTower.Mid.02.Exit"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 5150,
+			"Y": 3100,
+			"Z": 3292
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "RavagerTower_Mid_02",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE69D0902_1939158658",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Plains.A2.RavagerTower"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "Sw.TeleportPoint.Plains.A2.TowerInteriors.RavagerTower.Mid.02"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 3500,
+			"Y": 5150,
+			"Z": 1492
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "RavagerTower_Mid_02",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE6A30902_1385207687",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Plains.A2.RavagerTower"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "Sw.TeleportPoint.Plains.A2.TowerInteriors.RavagerTower.Mid.03"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 3450,
+			"Y": 5150,
+			"Z": 1492
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "RavagerTower_Mid_03",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE6A30902_1391192688",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Plains.A2.RavagerTower"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "Sw.TeleportPoint.Plains.A2.TowerInteriors.RavagerTower.Mid.03.Exit"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 5150,
+			"Y": 3100,
+			"Z": 3292
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "RavagerTower_Mid_03",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE6A30902_1557654689",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Plains.A2.RavagerTower"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "Sw.TeleportPoint.Plains.A2.TowerInteriors.RavagerTower.Mid.01.Exit"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 5100,
+			"Y": 3200,
+			"Z": 3292
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "RavagerTower_Mid_01",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE6A60902_2107521231",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Plains.A2.ProceduralTowers"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "Sw.TeleportPoint.Plains.A2.TowerInteriors.CampTower.Mid.01"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 3400,
+			"Y": 5100,
+			"Z": 4692
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "CampTower_Mid_01",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE6A60902_2113207232",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Plains.A2.CampTower"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "Sw.TeleportPoint.Plains.A2.TowerInteriors.CampTower.Mid.01.Exit"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 650,
+			"Y": 11950,
+			"Z": 6492
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "CampTower_Mid_01",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE6A70902_1192549411",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Plains.A2.ProceduralTowers"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "Sw.TeleportPoint.Plains.A2.TowerInteriors.CampTower.Mid.02"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 3450,
+			"Y": 5150,
+			"Z": 1492
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": -179.99999860565384,
+			"Roll": 0
+		},
+		"Level": "CampTower_Mid_02",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE6A70902_1196077412",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Plains.A2.CampTower"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "Sw.TeleportPoint.Plains.A2.TowerInteriors.CampTower.Mid.02.Exit"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 5100,
+			"Y": 3050,
+			"Z": 3292
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "CampTower_Mid_02",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE6A70902_2093605422",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Plains.A2.CampTower"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "Sw.TeleportPoint.Plains.A2.TowerInteriors.CampTower.Mid.03.Exit"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 5099.9999999986285,
+			"Y": 3149.9947230035741,
+			"Z": 3342.0032442793699
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "CampTower_Mid_03",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE6A70902_2076628419",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Plains.A2.ProceduralTowers"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "Sw.TeleportPoint.Plains.A2.TowerInteriors.CampTower.Mid.03"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 3399.9946974211352,
+			"Y": 5100.0000000013142,
+			"Z": 1492.0032600052948
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "CampTower_Mid_03",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_B025AA5489B01E1702_1337678075",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Test.Killbox"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.Test.Killbox"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 600,
+			"Y": 2000,
+			"Z": 5592.0002220000006
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "KILL_BOX_TEST_03",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_B025AA6649B5302602_1563827071",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Forest.A2.WoodlandMansionInt"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.Forest.A2.WoodlandMansionInt.Start"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 1550,
+			"Y": 2450,
+			"Z": 292
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": -179.9999986056539,
+			"Roll": 0
+		},
+		"Level": "WM_ANC_001",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_B025AA6649B5302602_1591901073",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Forest.A2.WoodlandMansionInt"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.Forest.A2.WoodlandMansionInt.Middle"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 250,
+			"Y": 1250,
+			"Z": 1242
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "WM_ANC_002-1",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_B025AA6649B5302602_1629313075",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Forest.A2.WoodlandMansionInt"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.Forest.A2.WoodlandMansionInt.End"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 7000,
+			"Y": 71850,
+			"Z": 1700.0000779296852
+		},
+		"Rotation":
+		{
+			"Pitch": -0,
+			"Yaw": -90.000001999999995,
+			"Roll": 0
+		},
+		"Level": "WM_ANC_003",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE699FE01_1861098350",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Desert.A1.TinyTower1"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.Fortress.TinyTower1.Tower5"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 2122.5608336743899,
+			"Y": 552.37121332783863,
+			"Z": 1491.9999732474998
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "TOWER_005_DS",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE699FE01_1161371346",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Desert.A1.TinyTower1"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.Fortress.TinyTower1.Tower4"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 500.96433411540056,
+			"Y": 1096.2051591856507,
+			"Z": 1957.3395006201808
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "TOWER_004_DS",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE698FE01_2018960167",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Desert.A1.TinyTower1"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.Fortress.TinyTower1.Tower3"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 1479.5047136858484,
+			"Y": 3149.1683781256133,
+			"Z": 1392.0000051384523
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "TOWER_003_DS",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE698FE01_1849849166",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Desert.A1.TinyTower1"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.Fortress.TinyTower1.Tower2"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 933.38403047035536,
+			"Y": 3768.3994850981067,
+			"Z": 4191.9999873089309
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "TOWER_002_DS",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE698FE01_1666535163",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Desert.A1.TinyTower1"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.Fortress.TinyTower1.Tower1"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 22900.000013999997,
+			"Y": 51850,
+			"Z": 2192.0000090000003
+		},
+		"Rotation":
+		{
+			"Pitch": -0,
+			"Yaw": -90.000001697173133,
+			"Roll": 0
+		},
+		"Level": "TOWER_001_DS",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE69AFE01_2109496532",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Desert.A1.TinyTower2"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.Fortress.TinyTower2.Tower1"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 665.15107903474563,
+			"Y": 3690.2266624434396,
+			"Z": 991.9999984914366
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "TOWER_006_DS",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE69BFE01_1144944710",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Desert.A1.TinyTower2"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.Fortress.TinyTower2.Tower2"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 2039.8316224641385,
+			"Y": 3884.903980342483,
+			"Z": 2204.4999864647689
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "TOWER_007_DS",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE69BFE01_1430372712",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Desert.A1.TinyTower2"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.Fortress.TinyTower2.Tower3"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 2300,
+			"Y": 3100,
+			"Z": 1400
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "TOWER_008_DS",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE69BFE01_1561254714",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Desert.A1.TinyTower2"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.Fortress.TinyTower2.Tower4"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 2248.5555202163596,
+			"Y": 2806.9433253705629,
+			"Z": 1392.0000020662956
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "TOWER_009_DS",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE69BFE01_1620655715",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Desert.A1.TinyTower2"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.Fortress.TinyTower2.Tower5"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 2896.4332584854565,
+			"Y": 928.48578701312363,
+			"Z": 1392.0000025229201
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "TOWER_010_DS",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE69DFE01_1165578082",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Desert.A1.TinyTower3"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.Fortress.TinyTower3.Tower5"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 3193.3178780427115,
+			"Y": 3516.6821773672636,
+			"Z": 2092.000002402403
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "TOWER_015_DS",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE69CFE01_2053617904",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Desert.A1.TinyTower3"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.Fortress.TinyTower3.Tower4"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 2112.8270862110076,
+			"Y": 3773.2707327494518,
+			"Z": 2292.0000227379951
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "TOWER_014_DS",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE69CFE01_1909571902",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Desert.A1.TinyTower3"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.Fortress.TinyTower3.Tower3"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 2416.2344704754796,
+			"Y": 3008.8947665574469,
+			"Z": 1291.9999917776368
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "TOWER_013_DS",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE69CFE01_1867056901",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Desert.A1.TinyTower3"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.Fortress.TinyTower3.Tower2"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 34809.027399763763,
+			"Y": 68183.47423917416,
+			"Z": 3801.0423940000001
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 179.99999869717306,
+			"Roll": 0
+		},
+		"Level": "TOWER_012_DS",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_50EBF62CDFE69CFE01_1434682898",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Desert.A1.TinyTower3"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.Fortress.TinyTower3.Tower1"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 610,
+			"Y": 2150,
+			"Z": 1500
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "TOWER_011_DS",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_B025AA6649B5553502_1853087805",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Forest.A2.WoodlandMansionInt"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.Forest.A2.WoodlandMansionInt.Bment2Lobby"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 12350,
+			"Y": 5950,
+			"Z": 1092
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": -89.999999000000003,
+			"Roll": 0
+		},
+		"Level": "WM_ANC_001",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "BP_SpicewoodTeleportDoor_C_1",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Forest.A1.SpiderCaves.3"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.Forest.A1.SpiderCaves.Entrance.Int.3a"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 7650.0000034906589,
+			"Y": 8000,
+			"Z": 4300
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": -89.999999000000003,
+			"Roll": 0
+		},
+		"Level": "SpiderCaveV3",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_D45D64043182625B02_1573836046",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Forest.A1.SpiderCaves.3"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.Forest.A1.SpiderCaves.Entrance.Int.3b"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 9500,
+			"Y": 6349.9999965093411,
+			"Z": 4100
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": -179.999999,
+			"Roll": 0
+		},
+		"Level": "SpiderCaveV3",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "BP_SpicewoodTeleportDoor_C_3",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Forest.A1.SpiderCaves.1"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.Forest.A1.SpiderCaves.Entrance.Int.1"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 9150.0000034906552,
+			"Y": 13000,
+			"Z": 4200
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": -89.999999000000003,
+			"Roll": 0
+		},
+		"Level": "SpiderCaveV1",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_D45D64043182645B02_1567995130",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Forest.A1.SpiderCaves.2"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.Forest.A1.SpiderCaves.Entrance.Int.2"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 10750.000003490659,
+			"Y": 16100,
+			"Z": 4200
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": -89.999999000000003,
+			"Roll": 0
+		},
+		"Level": "SpiderCaveV2",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_B025AA5A9237A75602_1298182812",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Meadow.T1.Rift"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.Meadow.T1.Entrance.1"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 7550,
+			"Y": 3700,
+			"Z": 1692
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 90.000000000000014,
+			"Roll": 0
+		},
+		"Level": "OS_MW_ANC_001",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_40B076A518771A6A02_1483985201",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.DeepDark.A2"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DeepDark.A2.CrumbledCity"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 220,
+			"Y": 9850,
+			"Z": 7392
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "DDA2_ANC_002",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_40B076A518771A6A02_1941810642",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.DeepDark.A2"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DeepDark.A2.SoakedSubterrane"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 220,
+			"Y": 3250,
+			"Z": 4392
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "DDA2_ANC_003",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_40B076A518771A6A02_1941786629",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.DeepDark.A2"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DeepDark.A2.Exit2Mansion"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 18950.000002000001,
+			"Y": 10343.431456,
+			"Z": 5900
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": -89.999999000000003,
+			"Roll": 0
+		},
+		"Level": "DDA2_ANC_003",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_40B076A51877236A02_1903461837",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.DeepDark.A2"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DeepDark.A2.Start"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 11600,
+			"Y": 13650,
+			"Z": 4392
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": -89.999999000000003,
+			"Roll": 0
+		},
+		"Level": "DDA2_ANC_001",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_40B076A51877E56802_1283736308",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.DeepDark.A1"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DeepDark.A1.MidAnchor"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 11050,
+			"Y": 8200,
+			"Z": 7892
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 180,
+			"Roll": 0
+		},
+		"Level": "DDA1_ANC_002",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_40B076A51877E46802_2036397687",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.DeepDark.A1"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DeepDark.A1.Entrance"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 11350,
+			"Y": 7810,
+			"Z": 10192
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "DDA1_ANC_001",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_40B076A51877E56802_1149364215",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.DeepDark.A1"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DeepDark.A1.MawFight"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 14250,
+			"Y": 9820,
+			"Z": 8000
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 90.000000000000014,
+			"Roll": 0
+		},
+		"Level": "DDA1_ANC_003",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_40B076A51877E56802_1148853935",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.DeepDark.A1"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DeepDark.A1.BubbleElevator"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 8550,
+			"Y": 17250,
+			"Z": 8112
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": -89.999999000000003,
+			"Roll": 0
+		},
+		"Level": "DDA1_ANC_003",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_40B076A518776E8002_1736036047",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.DeepDark.Dungeons"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DeepDark.Dungeons.Start01"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 21650,
+			"Y": 7200,
+			"Z": 8392
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": -89.999999000000003,
+			"Roll": 0
+		},
+		"Level": "DD_ANC_002",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_40B076A518776E8002_1736693055",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.DeepDark.Dungeons"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DeepDark.Dungeons.Start02"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 6300,
+			"Y": 1249.9999939999998,
+			"Z": 3392
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": -179.99999800000001,
+			"Roll": 0
+		},
+		"Level": "DD_ANC_005",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_40B076A518776E8002_1737383061",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.DeepDark.Dungeons"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DeepDark.Dungeons.Start03"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 7300,
+			"Y": 949.99999400000161,
+			"Z": 4492
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": -179.99999800000001,
+			"Roll": 0
+		},
+		"Level": "DD_ANC_007",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_40B076A518777E8002_1156462183",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.DeepDark.Dungeons"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DeepDark.Dungeons.Start05"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 8050,
+			"Y": 13550,
+			"Z": 1892
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "DD_ANC_017",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_40B076A518777E8002_1202054184",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.DeepDark.Dungeons"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DeepDark.Dungeons.Start04"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 550,
+			"Y": 4750,
+			"Z": 4592.0002831054662
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "DD_ANC_015",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_40B076A518777E8002_1248461185",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.DeepDark.Dungeons"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DeepDark.Dungeons.Start06"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 3750,
+			"Y": 1350,
+			"Z": 3192.0002831054662
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 179.99999860565401,
+			"Roll": 0
+		},
+		"Level": "DD_ANC_021",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_40B076A518777E8002_1299267186",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.DeepDark.Dungeons"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DeepDark.Dungeons.Start07"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 8000,
+			"Y": 6300,
+			"Z": 3191.9998031660134
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": -90.000001697172934,
+			"Roll": 0
+		},
+		"Level": "DD_ANC_022",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_40B076A518777E8002_1382300187",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.DeepDark.Dungeons"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DeepDark.Dungeons.Start08"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 7850,
+			"Y": 1550,
+			"Z": 3592.0000861054659
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 179.99999869717303,
+			"Roll": 0
+		},
+		"Level": "DD_ANC_020",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_B025AA660315A97702_1440874946",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Desert.A1.FortressInt"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.Fortress.Interior.End"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 350,
+			"Y": 924.27835100000084,
+			"Z": 792.0001000000002
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 89.999999000000003,
+			"Roll": 0
+		},
+		"Level": "anchor_study_03",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_E89C256AD357C88A02_1932152438",
+		"AreaTag":
+		{
+			"TagName": "None"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DeepDark.Example"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 3200,
+			"Y": 3200,
+			"Z": 1100
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 90.000000697172993,
+			"Roll": 0
+		},
+		"Level": "MW_ANC_008",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_B025AA6603154C8902_1103879543",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Desert.A1.SecretIntsSM.Iceberg_Int"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.SecretIntsSM.Iceberg_Int"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 5800,
+			"Y": 3850,
+			"Z": 892
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": -179.999999,
+			"Roll": 0
+		},
+		"Level": "Iceberg_Int",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_B025AA6603154C8902_1109449544",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Desert.A1.SecretIntsSM.IcedCavern1_Int"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.SecretIntsSM.IcedCavern1_Int"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 750,
+			"Y": 2560,
+			"Z": 1392
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": -89.999999000000003,
+			"Roll": 0
+		},
+		"Level": "IcedCavern1_Int",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_B025AA6603154C8902_1127661545",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Desert.A1.SecretIntsSM.IcedCavern2_Int"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.SecretIntsSM.IcedCavern2_Int"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 3950,
+			"Y": 3800,
+			"Z": 1592
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": -89.999999000000003,
+			"Roll": 0
+		},
+		"Level": "IcedCavern2_Int",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_B025AA6603154C8902_1135097546",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Desert.A1.SecretIntsSM.FortTrap_Int"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.SecretIntsSM.FortTrap_Int"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 750,
+			"Y": 3950,
+			"Z": 6392
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": -89.999999000000003,
+			"Roll": 0
+		},
+		"Level": "FortTrap_Int",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_B025AA6603154C8902_1146533547",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Desert.A1.SecretIntsSM.IcedCavern3_Int"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.SecretIntsSM.IcedCavern3_Int"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 6150,
+			"Y": 4250,
+			"Z": 1492
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": -179.999999,
+			"Roll": 0
+		},
+		"Level": "IcedCavern3_Int",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_B025AA660315DC8F02_1742332231",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.DeepDark.A1"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DeepDark.A1.Portal"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 13870,
+			"Y": 15260,
+			"Z": 8532
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "DDA1_ANC_003",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_B025AA660315AB7702_1255645421",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Desert.A1.FortressInt"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.Fortress.Interior.Middle"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 4250,
+			"Y": 6974.2783510000008,
+			"Z": 3492.0001000000011
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": -89.999999000000003,
+			"Roll": 0
+		},
+		"Level": "anchor_sentinelroom_02",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_40B076A51877BCA102_1091142723",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Lush.Dungeon"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.Lush.T1.ANC.005"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 3300,
+			"Y": 850,
+			"Z": 2092
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 89.999999302827007,
+			"Roll": 0
+		},
+		"Level": "LU_ANC_005",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_40B076A51877F1A302_1397156123",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Lush.Dungeon"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.Lush.T1.ANC.011"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 1200,
+			"Y": 5300.0000089999994,
+			"Z": 1592
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "LU_ANC_011",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_40B076A51877F7A302_1198489375",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Lush.Dungeon"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.Lush.T1.ANC.018"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 1200,
+			"Y": 750,
+			"Z": 3892
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 89.999999302827007,
+			"Roll": 0
+		},
+		"Level": "LU_ANC_018",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_0",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Desert.A1.FortressInt"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.Fortress.Interior.Start"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 830,
+			"Y": 1744.2783510000008,
+			"Z": 692.0001000000002
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "proc_fortress_entrance",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_38F3AB28E04780A502_1294513328",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Ravines"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.RavinesT1.Dungeon.OS_003"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 4900,
+			"Y": 5750.0000073007759,
+			"Z": 2692
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 179.99999830282718,
+			"Roll": 0
+		},
+		"Level": "OS_RA_ANC_003",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_38F3AB28E047BBA002_1865813485",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Ravines.T1"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.RavinesT1.OS_001.Start1"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 3650,
+			"Y": 5349.9999949999983,
+			"Z": 2492
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": -89.999999000000003,
+			"Roll": 0
+		},
+		"Level": "OS_RA_START_001",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_38F3AB28E047BBA002_1865812484",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Ravines.AreaLink.FU_MA2"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.RavinesT1.AL.Fu.Start1"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 3500,
+			"Y": 5349.9999880000032,
+			"Z": 2492
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": -90.000000000000014,
+			"Roll": 0
+		},
+		"Level": "OS_RA_START_001",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_38F3AB28E047BBA002_1865815486",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Ravines.AreaLink.CA_MA2"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.RavinesT1.AL.CA.Start1"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 3750,
+			"Y": 5350,
+			"Z": 2492
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": -90.000000000000014,
+			"Roll": 0
+		},
+		"Level": "OS_RA_START_001",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_38F3AB28E04744A502_1820417829",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Ravines"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.RavinesT1.AL.CA.Start2"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 3350,
+			"Y": 400,
+			"Z": 3092
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 89.999999000000003,
+			"Roll": 0
+		},
+		"Level": "OS_RA_ANC_002",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_40B076A5187713AC02_1879456541",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Meadow.Boss"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.ProceduralBosses.Meadow"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 1250,
+			"Y": 3200,
+			"Z": 1092
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 3.5527136788005009e-14,
+			"Roll": 0
+		},
+		"Level": "Meadow_Anchor_Boss",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_40B076A5187713AC02_2133100660",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Lush.Boss"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.ProceduralBosses.Lush"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 550,
+			"Y": 3850,
+			"Z": 2292
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "Lush_Anchor_Boss",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_40B076A5187714AC02_1221895939",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.DeepDark.Boss"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.ProceduralBosses.DeepDark"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 450,
+			"Y": 1100,
+			"Z": 4092
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "DeepDark_Anchor_Boss",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_40B076A5187713AC02_1677204473",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Ravines.Boss"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.ProceduralBosses.Ravines"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 2700,
+			"Y": 450,
+			"Z": 1892
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 89.999999000000003,
+			"Roll": 0
+		},
+		"Level": "BOSS_ANC_RA",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_38F3AB28E0475DB902_1783537303",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Meadow.T1.Rift"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.Meadow.T1.Entrance.2"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 4050,
+			"Y": 2750,
+			"Z": 2292
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 179.9999986056539,
+			"Roll": 0
+		},
+		"Level": "MW_ANC_006",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_38F3AB28E0475DB902_1944810304",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Meadow.T1.Rift"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.Meadow.T1.Entrance.3"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 3250,
+			"Y": 3150,
+			"Z": 1092
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 89.99999930282695,
+			"Roll": 0
+		},
+		"Level": "MW_ANC_008",
+		"TeleportAudio": "None"
+},
+{
+		"Name": "TeleportPointActor_UAID_38F3AB28E0475DB902_2015942305",
+		"AreaTag":
+		{
+			"TagName": "SW.Area.Meadow.T1.Rift"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.Meadow.T1.Entrance.4"
+		},
+		"Type": "Tile",
+		"Location":
+		{
+			"X": 5800,
+			"Y": 1950,
+			"Z": 2792
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 179.9999986056539,
+			"Roll": 0
+		},
+		"Level": "MW_ANC_010",
+		"TeleportAudio": "None"
+}
+]

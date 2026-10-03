@@ -1,0 +1,42 @@
+[
+	{
+		"Name": "LootSlotItem",
+		"TypeTag":
+		{
+			"TagName": "SW.LootSlot.Item"
+		},
+		"MultiplayerRewardScalingData":
+		{
+		}
+	},
+	{
+		"Name": "Souls",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Currency.Soul"
+		},
+		"MultiplayerRewardScalingData":
+		{
+		}
+	},
+	{
+		"Name": "KilledMobCost",
+		"TypeTag":
+		{
+			"TagName": "SW.AccumulatedMobCost.Killed"
+		},
+		"MultiplayerRewardScalingData":
+		{
+		}
+	},
+	{
+		"Name": "SpawnedMobCost",
+		"TypeTag":
+		{
+			"TagName": "SW.AccumulatedMobCost.Spawned"
+		},
+		"MultiplayerRewardScalingData":
+		{
+		}
+	}
+]

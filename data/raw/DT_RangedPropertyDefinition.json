@@ -1,0 +1,1978 @@
+[
+	{
+		"Name": "BaseRanged",
+		"Montage": "None",
+		"JumpAttackMontage": "None",
+		"AttackDefintion":
+		{
+			"Range": 750,
+			"MaxAmmo": 10,
+			"RechargeTimeSeconds": 1,
+			"RechargeDelaySeconds": 1,
+			"LowAmmoCount": 2,
+			"VolleyDelay": 0,
+			"AttackRateSeconds": 1,
+			"ChargeTimeSecond": 0,
+			"ChargeRequired": false,
+			"ChargeVelocityMultiplier": 2,
+			"ChargeDamageMultiplier": 1,
+			"JumpshotDamageMultiplier": 1,
+			"ProjectileVelocityFactor": 1,
+			"ProjectileDamageFactor": 1,
+			"RechargeType": "Default"
+		},
+		"RangedItemAudios":
+		{
+			"OnFired": "None",
+			"OnCharging": "None",
+			"OnCharged": "None",
+			"OnFiredCharged": "None",
+			"SwitchAudio": "None",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Weapon.Regular.Pickup"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Weapon.Regular.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"WeaponAnimLayers": "/Game/Spicewood/Art/Characters/Player/Animations/AnimationBlueprints/WeaponsAnimLayers/ABP_1HPointyAnimLayers.ABP_1HPointyAnimLayers_C",
+		"EquipAnimationMontage": "None",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.RangedWeapon"
+		},
+		"ActorReference": "None",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ProjectileStackCount"
+				},
+				"Type": "Int",
+				"Int": 30
+			}
+		]
+	},
+	{
+		"Name": "Bow",
+		"Montage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Bow/AM_Player_Bow_Action.AM_Player_Bow_Action",
+		"JumpAttackMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Bow/AM_Player_Bow_Action.AM_Player_Bow_Action",
+		"AttackDefintion":
+		{
+			"Range": 750,
+			"MaxAmmo": 15,
+			"RechargeTimeSeconds": 1.2,
+			"RechargeDelaySeconds": 1,
+			"LowAmmoCount": 2,
+			"VolleyDefinitions": [
+				{
+					"ProjectileDefinitions": [
+						{
+							"ProjectileTypeTag":
+							{
+								"TagName": "SW.Projectile.Type.PlayerBow"
+							},
+							"NumberOfProjectiles": 1,
+							"DelaySeconds": 0,
+							"DelaySecondsPerProjectile": 0,
+							"AngleSpan": 25,
+							"AngleOffset": 0,
+							"MaxRandomizedAngleFactor": 0,
+							"NonRandomFirstArrow": true,
+							"ProjectileOffset":
+							{
+								"X": 25,
+								"Y": -5,
+								"Z": 25
+							}
+						}
+					]
+				}
+			],
+			"VolleyDelay": 0,
+			"AttackRateSeconds": 0.4,
+			"ChargeTimeSecond": 0.35,
+			"ChargeRequired": false,
+			"ChargeVelocityMultiplier": 2,
+			"ChargeDamageMultiplier": 3,
+			"JumpshotDamageMultiplier": 1,
+			"ProjectileVelocityFactor": 1,
+			"ProjectileDamageFactor": 1,
+			"RechargeType": "Default"
+		},
+		"RangedItemAudios":
+		{
+			"OnFired": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Bow/Play_sfx_item_bow_fire.Play_sfx_item_bow_fire",
+			"OnCharging": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Bow/Play_sfx_item_bow_charge.Play_sfx_item_bow_charge",
+			"OnCharged": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Bow/Play_sfx_item_bow_charge.Play_sfx_item_bow_charge",
+			"OnFiredCharged": "None",
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Bow/Play_sfx_item_bow_place.Play_sfx_item_bow_place",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Bow/Play_sfx_item_bow_drop.Play_sfx_item_bow_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Bow/sfx_bow_equip_Play.sfx_bow_equip_Play",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Bow/sfx_item_bow_unequip_Play.sfx_item_bow_unequip_Play"
+		},
+		"WeaponAnimLayers": "/Game/Spicewood/Art/Characters/Player/Animations/AnimationBlueprints/WeaponsAnimLayers/ABP_BowAnimLayers.ABP_BowAnimLayers_C",
+		"EquipAnimationMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Equip/AM_Player_Equip_Bow.AM_Player_Equip_Bow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Bow"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Bow/BP_Bow.BP_Bow_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ProjectileStackCount"
+				},
+				"Type": "Int",
+				"Int": 60
+			}
+		]
+	},
+	{
+		"Name": "Crossbow",
+		"Montage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Crossbow/AM_Player_CrossBow_Action.AM_Player_CrossBow_Action",
+		"JumpAttackMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Crossbow/AM_Player_CrossBow_Jump_Action.AM_Player_CrossBow_Jump_Action",
+		"AttackDefintion":
+		{
+			"Range": 750,
+			"MaxAmmo": 15,
+			"RechargeTimeSeconds": 1.5,
+			"RechargeDelaySeconds": 1,
+			"LowAmmoCount": 2,
+			"VolleyDefinitions": [
+				{
+					"ProjectileDefinitions": [
+						{
+							"ProjectileTypeTag":
+							{
+								"TagName": "SW.Projectile.Type.PlayerCrossbow"
+							},
+							"NumberOfProjectiles": 1,
+							"DelaySeconds": 0,
+							"DelaySecondsPerProjectile": 0,
+							"AngleSpan": 25,
+							"AngleOffset": 0,
+							"MaxRandomizedAngleFactor": 0,
+							"NonRandomFirstArrow": true,
+							"ProjectileOffset":
+							{
+								"X": 25,
+								"Y": -5,
+								"Z": 25
+							}
+						}
+					]
+				}
+			],
+			"VolleyDelay": 0,
+			"AttackRateSeconds": 0.6,
+			"ChargeTimeSecond": 0,
+			"ChargeRequired": false,
+			"ChargeVelocityMultiplier": 2,
+			"ChargeDamageMultiplier": 2.5,
+			"JumpshotDamageMultiplier": 1,
+			"ProjectileVelocityFactor": 1,
+			"ProjectileDamageFactor": 1,
+			"RechargeType": "Default"
+		},
+		"RangedItemAudios":
+		{
+			"OnFired": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Crossbow/Play_sfx_item_crossbow_fire.Play_sfx_item_crossbow_fire",
+			"OnCharging": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Crossbow/Play_sfx_item_crossbow_load.Play_sfx_item_crossbow_load",
+			"OnCharged": "None",
+			"OnFiredCharged": "None",
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Crossbow/Play_sfx_item_crossbow_pickup.Play_sfx_item_crossbow_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Crossbow/Play_sfx_item_crossbow_drop.Play_sfx_item_crossbow_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Crossbow/sfx_crossbow_equip_Play.sfx_crossbow_equip_Play",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Crossbow/sfx_item_crossbow_unequip_Play.sfx_item_crossbow_unequip_Play"
+		},
+		"WeaponAnimLayers": "/Game/Spicewood/Art/Characters/Player/Animations/AnimationBlueprints/WeaponsAnimLayers/ABP_CrossbowLayers.ABP_CrossbowLayers_C",
+		"EquipAnimationMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Equip/AM_Player_Equip_Crossbow.AM_Player_Equip_Crossbow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Crossbow"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Crossbow/BP_Crossbow.BP_Crossbow_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ProjectileStackCount"
+				},
+				"Type": "Int",
+				"Int": 60
+			}
+		]
+	},
+	{
+		"Name": "Shortbow",
+		"Montage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Bow/AM_Player_Bow_Action.AM_Player_Bow_Action",
+		"JumpAttackMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Bow/AM_Player_Bow_Action.AM_Player_Bow_Action",
+		"AttackDefintion":
+		{
+			"Range": 750,
+			"MaxAmmo": 18,
+			"RechargeTimeSeconds": 1,
+			"RechargeDelaySeconds": 1,
+			"LowAmmoCount": 2,
+			"VolleyDefinitions": [
+				{
+					"ProjectileDefinitions": [
+						{
+							"ProjectileTypeTag":
+							{
+								"TagName": "SW.Projectile.Type.PlayerShortbow"
+							},
+							"NumberOfProjectiles": 1,
+							"DelaySeconds": 0,
+							"DelaySecondsPerProjectile": 0,
+							"AngleSpan": 25,
+							"AngleOffset": 0,
+							"MaxRandomizedAngleFactor": 0,
+							"NonRandomFirstArrow": true,
+							"ProjectileOffset":
+							{
+								"X": 25,
+								"Y": -5,
+								"Z": 25
+							}
+						}
+					]
+				}
+			],
+			"VolleyDelay": 0,
+			"AttackRateSeconds": 0.2,
+			"ChargeTimeSecond": 0.125,
+			"ChargeRequired": false,
+			"ChargeVelocityMultiplier": 2,
+			"ChargeDamageMultiplier": 3,
+			"JumpshotDamageMultiplier": 1,
+			"ProjectileVelocityFactor": 1,
+			"ProjectileDamageFactor": 1,
+			"RechargeType": "Default"
+		},
+		"RangedItemAudios":
+		{
+			"OnFired": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Shortbow/sfx_item_shortbow_fire_Play.sfx_item_shortbow_fire_Play",
+			"OnCharging": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Shortbow/sfx_item_shortbow_load_Play.sfx_item_shortbow_load_Play",
+			"OnCharged": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Bow/Play_sfx_item_bow_chargedLoop.Play_sfx_item_bow_chargedLoop",
+			"OnFiredCharged": "None",
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Shortbow/sfx_item_shortbow_pickup_Play.sfx_item_shortbow_pickup_Play",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Shortbow/sfx_item_shortbow_drop_Play.sfx_item_shortbow_drop_Play",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Shortbow/sfx_item_shortbow_equip_Play.sfx_item_shortbow_equip_Play",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Shortbow/sfx_item_shortbow_unequip_Play.sfx_item_shortbow_unequip_Play"
+		},
+		"WeaponAnimLayers": "/Game/Spicewood/Art/Characters/Player/Animations/AnimationBlueprints/WeaponsAnimLayers/ABP_BowAnimLayers.ABP_BowAnimLayers_C",
+		"EquipAnimationMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Equip/AM_Player_Equip_ShortBow.AM_Player_Equip_ShortBow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Shortbow"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Shortbow/BP_Shortbow.BP_Shortbow_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ProjectileStackCount"
+				},
+				"Type": "Int",
+				"Int": 60
+			}
+		]
+	},
+	{
+		"Name": "Trickbow",
+		"Montage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Bow/AM_Player_Bow_Action.AM_Player_Bow_Action",
+		"JumpAttackMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Bow/AM_Player_Bow_Action.AM_Player_Bow_Action",
+		"AttackDefintion":
+		{
+			"Range": 750,
+			"MaxAmmo": 15,
+			"RechargeTimeSeconds": 1.2,
+			"RechargeDelaySeconds": 1,
+			"LowAmmoCount": 2,
+			"VolleyDefinitions": [
+				{
+					"ProjectileDefinitions": [
+						{
+							"ProjectileTypeTag":
+							{
+								"TagName": "SW.Projectile.Type.Trickbow"
+							},
+							"NumberOfProjectiles": 1,
+							"DelaySeconds": 0,
+							"DelaySecondsPerProjectile": 0,
+							"AngleSpan": 25,
+							"AngleOffset": 0,
+							"MaxRandomizedAngleFactor": 0,
+							"NonRandomFirstArrow": true,
+							"ProjectileOffset":
+							{
+								"X": 25,
+								"Y": -5,
+								"Z": 25
+							}
+						}
+					]
+				}
+			],
+			"VolleyDelay": 0,
+			"AttackRateSeconds": 0.3,
+			"ChargeTimeSecond": 0.2,
+			"ChargeRequired": false,
+			"ChargeVelocityMultiplier": 2,
+			"ChargeDamageMultiplier": 3,
+			"JumpshotDamageMultiplier": 1.5,
+			"ProjectileVelocityFactor": 1,
+			"ProjectileDamageFactor": 1,
+			"RechargeType": "Default"
+		},
+		"RangedItemAudios":
+		{
+			"OnFired": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Trickbow/Play_sfx_item_TrickBow_fire.Play_sfx_item_TrickBow_fire",
+			"OnCharging": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Shortbow/sfx_item_shortbow_load_Play.sfx_item_shortbow_load_Play",
+			"OnCharged": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Bow/Play_sfx_item_bow_chargedLoop.Play_sfx_item_bow_chargedLoop",
+			"OnFiredCharged": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Trickbow/Play_sfx_item_TrickBow_fire.Play_sfx_item_TrickBow_fire",
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Trickbow/Play_sfx_item_trickBow_pickup.Play_sfx_item_trickBow_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Trickbow/Play_sfx_item_trickBow_drop.Play_sfx_item_trickBow_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Trickbow/Play_sfx_item_trickBow_place.Play_sfx_item_trickBow_place",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Trickbow/Play_sfx_item_trickBow_place.Play_sfx_item_trickBow_place"
+		},
+		"WeaponAnimLayers": "/Game/Spicewood/Art/Characters/Player/Animations/AnimationBlueprints/WeaponsAnimLayers/ABP_BowAnimLayers.ABP_BowAnimLayers_C",
+		"EquipAnimationMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Equip/AM_Player_Equip_ShortBow.AM_Player_Equip_ShortBow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Trickbow"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Trickbow/BP_Trickbow.BP_Trickbow_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ProjectileStackCount"
+				},
+				"Type": "Int",
+				"Int": 60
+			}
+		]
+	},
+	{
+		"Name": "Longbow",
+		"Montage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Bow/AM_Player_Bow_Action.AM_Player_Bow_Action",
+		"JumpAttackMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Bow/AM_Player_Bow_Action.AM_Player_Bow_Action",
+		"AttackDefintion":
+		{
+			"Range": 750,
+			"MaxAmmo": 12,
+			"RechargeTimeSeconds": 1.5,
+			"RechargeDelaySeconds": 1,
+			"LowAmmoCount": 2,
+			"VolleyDefinitions": [
+				{
+					"ProjectileDefinitions": [
+						{
+							"ProjectileTypeTag":
+							{
+								"TagName": "SW.Projectile.Type.PlayerLongbow"
+							},
+							"NumberOfProjectiles": 1,
+							"DelaySeconds": 0,
+							"DelaySecondsPerProjectile": 0,
+							"AngleSpan": 25,
+							"AngleOffset": 0,
+							"MaxRandomizedAngleFactor": 0,
+							"NonRandomFirstArrow": true,
+							"ProjectileOffset":
+							{
+								"X": 25,
+								"Y": -5,
+								"Z": 25
+							}
+						}
+					]
+				}
+			],
+			"VolleyDelay": 0,
+			"AttackRateSeconds": 0.5,
+			"ChargeTimeSecond": 0.4,
+			"ChargeRequired": false,
+			"ChargeVelocityMultiplier": 2,
+			"ChargeDamageMultiplier": 3,
+			"JumpshotDamageMultiplier": 1,
+			"ProjectileVelocityFactor": 1,
+			"ProjectileDamageFactor": 1,
+			"RechargeType": "Default"
+		},
+		"RangedItemAudios":
+		{
+			"OnFired": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/LongBow/Play_sfx_item_longbow_fire.Play_sfx_item_longbow_fire",
+			"OnCharging": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/LongBow/Play_sfx_item_longbow_charge.Play_sfx_item_longbow_charge",
+			"OnCharged": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Bow/Play_sfx_item_bow_chargedLoop.Play_sfx_item_bow_chargedLoop",
+			"OnFiredCharged": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/LongBow/Play_sfx_item_longbow_fire.Play_sfx_item_longbow_fire",
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/LongBow/Play_sfx_item_longbow_pickup.Play_sfx_item_longbow_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/LongBow/Play_sfx_item_longbow_drop.Play_sfx_item_longbow_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/LongBow/Play_sfx_item_longbow_place.Play_sfx_item_longbow_place",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/LongBow/sfx_item_longbow_unequip_Play.sfx_item_longbow_unequip_Play"
+		},
+		"WeaponAnimLayers": "/Game/Spicewood/Art/Characters/Player/Animations/AnimationBlueprints/WeaponsAnimLayers/ABP_BowAnimLayers.ABP_BowAnimLayers_C",
+		"EquipAnimationMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Equip/AM_Player_Equip_Bow.AM_Player_Equip_Bow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Longbow"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Longbow/BP_Longbow.BP_Longbow_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ProjectileStackCount"
+				},
+				"Type": "Int",
+				"Int": 60
+			}
+		]
+	},
+	{
+		"Name": "Powerbow",
+		"Montage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Bow/AM_Player_Bow_Action.AM_Player_Bow_Action",
+		"JumpAttackMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Bow/AM_Player_Bow_Action.AM_Player_Bow_Action",
+		"AttackDefintion":
+		{
+			"Range": 750,
+			"MaxAmmo": 12,
+			"RechargeTimeSeconds": 1.5,
+			"RechargeDelaySeconds": 1,
+			"LowAmmoCount": 2,
+			"VolleyDefinitions": [
+				{
+					"ProjectileDefinitions": [
+						{
+							"ProjectileTypeTag":
+							{
+								"TagName": "SW.Projectile.Type.PlayerPowerbow"
+							},
+							"NumberOfProjectiles": 1,
+							"DelaySeconds": 0,
+							"DelaySecondsPerProjectile": 0,
+							"AngleSpan": 25,
+							"AngleOffset": 0,
+							"MaxRandomizedAngleFactor": 0,
+							"NonRandomFirstArrow": true,
+							"ProjectileOffset":
+							{
+								"X": 25,
+								"Y": 0,
+								"Z": 0
+							}
+						}
+					]
+				}
+			],
+			"VolleyDelay": 0,
+			"AttackRateSeconds": 0.5,
+			"ChargeTimeSecond": 0.4,
+			"ChargeRequired": false,
+			"ChargeVelocityMultiplier": 2,
+			"ChargeDamageMultiplier": 4,
+			"JumpshotDamageMultiplier": 0.75,
+			"ProjectileVelocityFactor": 1.25,
+			"ProjectileDamageFactor": 2,
+			"RechargeType": "Default"
+		},
+		"RangedItemAudios":
+		{
+			"OnFired": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Power_Bow/Play_sfx_item_powerBow_fire.Play_sfx_item_powerBow_fire",
+			"OnCharging": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Power_Bow/Powerbow_Unique/sfx_item_powerBow_unique_load_Play.sfx_item_powerBow_unique_load_Play",
+			"OnCharged": "/Game/Spicewood/Audio/Wwise/Play_sfx_item_powerBow_chargeloop.Play_sfx_item_powerBow_chargeloop",
+			"OnFiredCharged": "None",
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Power_Bow/Play_sfx_item_powerBow_pickup.Play_sfx_item_powerBow_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Power_Bow/Play_sfx_item_powerBow_drop.Play_sfx_item_powerBow_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Play_sfx_item_powerBow_place.Play_sfx_item_powerBow_place",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Power_Bow/Powerbow_Unique/sfx_item_powerBow_unequip_Play.sfx_item_powerBow_unequip_Play"
+		},
+		"WeaponAnimLayers": "/Game/Spicewood/Art/Characters/Player/Animations/AnimationBlueprints/WeaponsAnimLayers/ABP_BowAnimLayers.ABP_BowAnimLayers_C",
+		"EquipAnimationMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Equip/AM_Player_Equip_PowerBow.AM_Player_Equip_PowerBow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Powerbow"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Powerbow/BP_Powerbow.BP_Powerbow_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ProjectileStackCount"
+				},
+				"Type": "Int",
+				"Int": 30
+			}
+		]
+	},
+	{
+		"Name": "ScatterCrossbow",
+		"Montage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Crossbow/AM_Player_CrossBow_Action.AM_Player_CrossBow_Action",
+		"JumpAttackMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Crossbow/AM_Player_CrossBow_Jump_Action.AM_Player_CrossBow_Jump_Action",
+		"AttackDefintion":
+		{
+			"Range": 750,
+			"MaxAmmo": 12,
+			"RechargeTimeSeconds": 1.5,
+			"RechargeDelaySeconds": 1,
+			"LowAmmoCount": 2,
+			"VolleyDefinitions": [
+				{
+					"ProjectileDefinitions": [
+						{
+							"ProjectileTypeTag":
+							{
+								"TagName": "SW.Projectile.Type.PlayerScatterCrossbow"
+							},
+							"NumberOfProjectiles": 3,
+							"DelaySeconds": 0,
+							"DelaySecondsPerProjectile": 0,
+							"AngleSpan": 25,
+							"AngleOffset": 0,
+							"MaxRandomizedAngleFactor": 0,
+							"NonRandomFirstArrow": true,
+							"ProjectileOffset":
+							{
+								"X": 25,
+								"Y": -5,
+								"Z": 25
+							}
+						}
+					]
+				}
+			],
+			"VolleyDelay": 0,
+			"AttackRateSeconds": 0.4,
+			"ChargeTimeSecond": 0,
+			"ChargeRequired": false,
+			"ChargeVelocityMultiplier": 2,
+			"ChargeDamageMultiplier": 1,
+			"JumpshotDamageMultiplier": 1,
+			"ProjectileVelocityFactor": 1,
+			"ProjectileDamageFactor": 1,
+			"RechargeType": "Default"
+		},
+		"RangedItemAudios":
+		{
+			"OnFired": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/ScatterCrossbow/Play_sfx_item_scatterCrossbow_fire.Play_sfx_item_scatterCrossbow_fire",
+			"OnCharging": "None",
+			"OnCharged": "None",
+			"OnFiredCharged": "None",
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/ScatterCrossbow/Play_sfx_item_scatterCrossbow_pickup.Play_sfx_item_scatterCrossbow_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/ScatterCrossbow/Play_sfx_item_scatterCrossbow_drop.Play_sfx_item_scatterCrossbow_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/ScatterCrossbow/Play_sfx_item_scatterCrossbow_place.Play_sfx_item_scatterCrossbow_place",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/ScatterCrossbow/Play_sfx_item_scatterCrossbow_place.Play_sfx_item_scatterCrossbow_place"
+		},
+		"WeaponAnimLayers": "/Game/Spicewood/Art/Characters/Player/Animations/AnimationBlueprints/WeaponsAnimLayers/ABP_CrossbowLayers.ABP_CrossbowLayers_C",
+		"EquipAnimationMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Equip/AM_Player_Equip_Crossbow.AM_Player_Equip_Crossbow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.ScatterCrossbow"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/ScatterCrossbow/BP_ScatterCrossbow.BP_ScatterCrossbow_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ProjectileStackCount"
+				},
+				"Type": "Int",
+				"Int": 30
+			}
+		]
+	},
+	{
+		"Name": "HeavyCrossbow",
+		"Montage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Crossbow/AM_Player_HeavyCrossBow_Action.AM_Player_HeavyCrossBow_Action",
+		"JumpAttackMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Crossbow/AM_Player_CrossBow_Jump_Action.AM_Player_CrossBow_Jump_Action",
+		"AttackDefintion":
+		{
+			"Range": 750,
+			"MaxAmmo": 8,
+			"RechargeTimeSeconds": 2,
+			"RechargeDelaySeconds": 1,
+			"LowAmmoCount": 2,
+			"VolleyDefinitions": [
+				{
+					"ProjectileDefinitions": [
+						{
+							"ProjectileTypeTag":
+							{
+								"TagName": "SW.Projectile.Type.PlayerHeavyCrossbow"
+							},
+							"NumberOfProjectiles": 1,
+							"DelaySeconds": 0,
+							"DelaySecondsPerProjectile": 0,
+							"AngleSpan": 25,
+							"AngleOffset": 0,
+							"MaxRandomizedAngleFactor": 0,
+							"NonRandomFirstArrow": true,
+							"ProjectileOffset":
+							{
+								"X": 0,
+								"Y": 0,
+								"Z": 0
+							}
+						}
+					]
+				}
+			],
+			"VolleyDelay": 0,
+			"AttackRateSeconds": 0.95,
+			"ChargeTimeSecond": 0,
+			"ChargeRequired": false,
+			"ChargeVelocityMultiplier": 2,
+			"ChargeDamageMultiplier": 1,
+			"JumpshotDamageMultiplier": 1,
+			"ProjectileVelocityFactor": 2.25,
+			"ProjectileDamageFactor": 2.7,
+			"RechargeType": "Default"
+		},
+		"RangedItemAudios":
+		{
+			"OnFired": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/HeavyCrossbow/sfx_item_heavyCrossbow_fire2_Play.sfx_item_heavyCrossbow_fire2_Play",
+			"OnCharging": "/Game/Spicewood/Audio/Wwise/Play_sfx_item_heavyCrossbow_load.Play_sfx_item_heavyCrossbow_load",
+			"OnCharged": "None",
+			"OnFiredCharged": "None",
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Play_sfx_item_heavyCrossbow_pickup.Play_sfx_item_heavyCrossbow_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Play_sfx_item_heavyCrossbow_drop.Play_sfx_item_heavyCrossbow_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/HeavyCrossbow/sfx_item_heavyCrossbow_equip2_Play.sfx_item_heavyCrossbow_equip2_Play",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/HeavyCrossbow/sfx_item_heavyCrossbow_unequip2_Play.sfx_item_heavyCrossbow_unequip2_Play"
+		},
+		"WeaponAnimLayers": "/Game/Spicewood/Art/Characters/Player/Animations/AnimationBlueprints/WeaponsAnimLayers/ABP_CrossbowLayers.ABP_CrossbowLayers_C",
+		"EquipAnimationMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Equip/AM_Player_Equip_Crossbow.AM_Player_Equip_Crossbow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.HeavyCrossbow"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/HeavyCrossbow/BP_HeavyCrossbow.BP_HeavyCrossbow_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ProjectileStackCount"
+				},
+				"Type": "Int",
+				"Int": 30
+			}
+		]
+	},
+	{
+		"Name": "DualCrossbow",
+		"Montage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Crossbow/AM_Player_DualCrossBow_Action.AM_Player_DualCrossBow_Action",
+		"JumpAttackMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Crossbow/AM_Player_DualCrossBow_Action.AM_Player_DualCrossBow_Action",
+		"AttackDefintion":
+		{
+			"Range": 750,
+			"MaxAmmo": 20,
+			"RechargeTimeSeconds": 1,
+			"RechargeDelaySeconds": 1,
+			"LowAmmoCount": 2,
+			"VolleyDefinitions": [
+				{
+					"ProjectileDefinitions": [
+						{
+							"ProjectileTypeTag":
+							{
+								"TagName": "SW.Projectile.Type.PlayerDualCrossbow"
+							},
+							"NumberOfProjectiles": 1,
+							"DelaySeconds": 0,
+							"DelaySecondsPerProjectile": 0,
+							"AngleSpan": 25,
+							"AngleOffset": 0,
+							"MaxRandomizedAngleFactor": 0,
+							"NonRandomFirstArrow": true,
+							"ProjectileOffset":
+							{
+								"X": 0,
+								"Y": -30,
+								"Z": 25
+							}
+						}
+					]
+				},
+				{
+					"ProjectileDefinitions": [
+						{
+							"ProjectileTypeTag":
+							{
+								"TagName": "SW.Projectile.Type.PlayerDualCrossbow"
+							},
+							"NumberOfProjectiles": 1,
+							"DelaySeconds": 0,
+							"DelaySecondsPerProjectile": 0,
+							"AngleSpan": 25,
+							"AngleOffset": 0,
+							"MaxRandomizedAngleFactor": 0,
+							"NonRandomFirstArrow": true,
+							"ProjectileOffset":
+							{
+								"X": 0,
+								"Y": 30,
+								"Z": 25
+							}
+						}
+					]
+				}
+			],
+			"VolleyDelay": 0.25,
+			"AttackRateSeconds": 0.6,
+			"ChargeTimeSecond": 0,
+			"ChargeRequired": false,
+			"ChargeVelocityMultiplier": 2,
+			"ChargeDamageMultiplier": 1,
+			"JumpshotDamageMultiplier": 1,
+			"ProjectileVelocityFactor": 1,
+			"ProjectileDamageFactor": 1,
+			"RechargeType": "Default"
+		},
+		"RangedItemAudios":
+		{
+			"OnFired": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/DualCrossbow/Play_sfx_item_dualCrossbow_fire.Play_sfx_item_dualCrossbow_fire",
+			"OnCharging": "None",
+			"OnCharged": "None",
+			"OnFiredCharged": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/DualCrossbow/Play_sfx_item_dualCrossbow_fire.Play_sfx_item_dualCrossbow_fire",
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/DualCrossbow/Play_sfx_item_dualCrossbow_pickup.Play_sfx_item_dualCrossbow_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/DualCrossbow/Play_sfx_item_dualCrossbow_drop.Play_sfx_item_dualCrossbow_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/DualCrossbow/Play_sfx_item_dualCrossbow_equip.Play_sfx_item_dualCrossbow_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/DualCrossbow/Play_sfx_item_dualCrossbow_unequip.Play_sfx_item_dualCrossbow_unequip"
+		},
+		"WeaponAnimLayers": "/Game/Spicewood/Art/Characters/Player/Animations/AnimationBlueprints/WeaponsAnimLayers/ABP_DualCrossbowLayers.ABP_DualCrossbowLayers_C",
+		"EquipAnimationMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Equip/AM_Player_Equip_Dual_Crossbow.AM_Player_Equip_Dual_Crossbow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.DualCrossbow"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/DualCrossbow/BP_DualCrossbow.BP_DualCrossbow_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ProjectileStackCount"
+				},
+				"Type": "Int",
+				"Int": 30
+			}
+		]
+	},
+	{
+		"Name": "RapidCrossbow",
+		"Montage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Crossbow/AM_Player_CrossBow_Action.AM_Player_CrossBow_Action",
+		"JumpAttackMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Crossbow/AM_Player_CrossBow_Jump_Action.AM_Player_CrossBow_Jump_Action",
+		"AttackDefintion":
+		{
+			"Range": 750,
+			"MaxAmmo": 25,
+			"RechargeTimeSeconds": 0.8,
+			"RechargeDelaySeconds": 1,
+			"LowAmmoCount": 2,
+			"VolleyDefinitions": [
+				{
+					"ProjectileDefinitions": [
+						{
+							"ProjectileTypeTag":
+							{
+								"TagName": "SW.Projectile.Type.PlayerRapidCrossbow"
+							},
+							"NumberOfProjectiles": 1,
+							"DelaySeconds": 0,
+							"DelaySecondsPerProjectile": 0,
+							"AngleSpan": 25,
+							"AngleOffset": 0,
+							"MaxRandomizedAngleFactor": 0,
+							"NonRandomFirstArrow": true,
+							"ProjectileOffset":
+							{
+								"X": 25,
+								"Y": -5,
+								"Z": 25
+							}
+						}
+					]
+				}
+			],
+			"VolleyDelay": 0,
+			"AttackRateSeconds": 0.2,
+			"ChargeTimeSecond": 0,
+			"ChargeRequired": false,
+			"ChargeVelocityMultiplier": 2,
+			"ChargeDamageMultiplier": 1,
+			"JumpshotDamageMultiplier": 1,
+			"ProjectileVelocityFactor": 1,
+			"ProjectileDamageFactor": 1,
+			"RechargeType": "Default"
+		},
+		"RangedItemAudios":
+		{
+			"OnFired": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/RapidCrossbow/Play_sfx_item_rapidCrossbow_fire.Play_sfx_item_rapidCrossbow_fire",
+			"OnCharging": "None",
+			"OnCharged": "None",
+			"OnFiredCharged": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/RapidCrossbow/Play_sfx_item_rapidCrossbow_fire.Play_sfx_item_rapidCrossbow_fire",
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/RapidCrossbow/Play_sfx_item_rapidCrossbow_pickup.Play_sfx_item_rapidCrossbow_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/RapidCrossbow/Play_sfx_item_rapidCrossbow_drop.Play_sfx_item_rapidCrossbow_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/RapidCrossbow/Play_sfx_item_rapidCrossbow_equip.Play_sfx_item_rapidCrossbow_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/RapidCrossbow/Play_sfx_item_rapidCrossbow_unequip.Play_sfx_item_rapidCrossbow_unequip"
+		},
+		"WeaponAnimLayers": "/Game/Spicewood/Art/Characters/Player/Animations/AnimationBlueprints/WeaponsAnimLayers/ABP_CrossbowLayers.ABP_CrossbowLayers_C",
+		"EquipAnimationMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Equip/AM_Player_Equip_Crossbow.AM_Player_Equip_Crossbow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.RapidCrossbow"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/RapidCrossbow/BP_RapidCrossbow.BP_RapidCrossbow_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ProjectileStackCount"
+				},
+				"Type": "Int",
+				"Int": 30
+			}
+		]
+	},
+	{
+		"Name": "Bow_Unique1",
+		"Montage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Bow/AM_Player_Bow_Action.AM_Player_Bow_Action",
+		"JumpAttackMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Bow/AM_Player_Bow_Action.AM_Player_Bow_Action",
+		"AttackDefintion":
+		{
+			"Range": 750,
+			"MaxAmmo": 15,
+			"RechargeTimeSeconds": 0.8,
+			"RechargeDelaySeconds": 1.2,
+			"LowAmmoCount": 2,
+			"VolleyDefinitions": [
+				{
+					"ProjectileDefinitions": [
+						{
+							"ProjectileTypeTag":
+							{
+								"TagName": "SW.Projectile.Type.PlayerBow_Unique1"
+							},
+							"NumberOfProjectiles": 1,
+							"DelaySeconds": 0,
+							"DelaySecondsPerProjectile": 0,
+							"AngleSpan": 25,
+							"AngleOffset": 0,
+							"MaxRandomizedAngleFactor": 0,
+							"NonRandomFirstArrow": true,
+							"ProjectileOffset":
+							{
+								"X": 25,
+								"Y": -5,
+								"Z": 25
+							}
+						}
+					]
+				}
+			],
+			"VolleyDelay": 0,
+			"AttackRateSeconds": 0.4,
+			"ChargeTimeSecond": 0.3,
+			"ChargeRequired": false,
+			"ChargeVelocityMultiplier": 2,
+			"ChargeDamageMultiplier": 3,
+			"JumpshotDamageMultiplier": 1,
+			"ProjectileVelocityFactor": 1,
+			"ProjectileDamageFactor": 1,
+			"RechargeType": "Default"
+		},
+		"RangedItemAudios":
+		{
+			"OnFired": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Bow/Bow_unique/sfx_bow_unique_fire_Play.sfx_bow_unique_fire_Play",
+			"OnCharging": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Bow/Bow_unique/sfx_bow_unique_charge_Play.sfx_bow_unique_charge_Play",
+			"OnCharged": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Bow/Play_sfx_item_bow_charge.Play_sfx_item_bow_charge",
+			"OnFiredCharged": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Bow/Bow_unique/sfx_bow_unique_fire_Play.sfx_bow_unique_fire_Play",
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Bow/Bow_unique/sfx_bow_unique_pickup_Play.sfx_bow_unique_pickup_Play",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Weapon.Unique.Pickup"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Bow/Bow_unique/sfx_bow_unique_drop_Play.sfx_bow_unique_drop_Play",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Weapon.Unique.Drop"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Bow/Bow_unique/sfx_bow_unique_equip_Play.sfx_bow_unique_equip_Play",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Bow/Bow_unique/sfx_bow_unique_unequip_Play.sfx_bow_unique_unequip_Play"
+		},
+		"WeaponAnimLayers": "/Game/Spicewood/Art/Characters/Player/Animations/AnimationBlueprints/WeaponsAnimLayers/ABP_BowAnimLayers.ABP_BowAnimLayers_C",
+		"EquipAnimationMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Equip/AM_Player_Equip_UniqueBow.AM_Player_Equip_UniqueBow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Bow_Unique1"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Bow/Bow_Unique/BP_Bow_HuntersPromise.BP_Bow_HuntersPromise_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ProjectileStackCount"
+				},
+				"Type": "Int",
+				"Int": 60
+			}
+		]
+	},
+	{
+		"Name": "Crossbow_Unique1",
+		"Montage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Crossbow/AM_Player_CrossBow_Action.AM_Player_CrossBow_Action",
+		"JumpAttackMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Crossbow/AM_Player_CrossBow_Action.AM_Player_CrossBow_Action",
+		"AttackDefintion":
+		{
+			"Range": 750,
+			"MaxAmmo": 15,
+			"RechargeTimeSeconds": 1.5,
+			"RechargeDelaySeconds": 1,
+			"LowAmmoCount": 2,
+			"VolleyDefinitions": [
+				{
+					"ProjectileDefinitions": [
+						{
+							"ProjectileTypeTag":
+							{
+								"TagName": "SW.Projectile.Type.PlayerCrossbow_Unique1"
+							},
+							"NumberOfProjectiles": 1,
+							"DelaySeconds": 0,
+							"DelaySecondsPerProjectile": 0,
+							"AngleSpan": 25,
+							"AngleOffset": 5,
+							"MaxRandomizedAngleFactor": 0,
+							"NonRandomFirstArrow": true,
+							"ProjectileOffset":
+							{
+								"X": 25,
+								"Y": -5,
+								"Z": 25
+							}
+						}
+					]
+				}
+			],
+			"VolleyDelay": 0,
+			"AttackRateSeconds": 0.6,
+			"ChargeTimeSecond": 0,
+			"ChargeRequired": false,
+			"ChargeVelocityMultiplier": 2,
+			"ChargeDamageMultiplier": 2.5,
+			"JumpshotDamageMultiplier": 1,
+			"ProjectileVelocityFactor": 1,
+			"ProjectileDamageFactor": 1,
+			"RechargeType": "Default"
+		},
+		"RangedItemAudios":
+		{
+			"OnFired": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Crossbow/Crossbow_Unique/sfx_item_crossbowUnique_fire_Play.sfx_item_crossbowUnique_fire_Play",
+			"OnCharging": "None",
+			"OnCharged": "None",
+			"OnFiredCharged": "None",
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Crossbow/Crossbow_Unique/sfx_item_crossbowUnique_pickup_Play.sfx_item_crossbowUnique_pickup_Play",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Weapon.Unique.Pickup"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Crossbow/Crossbow_Unique/sfx_item_crossbowUnique_drop_Play.sfx_item_crossbowUnique_drop_Play",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Weapon.Unique.Drop"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Crossbow/Crossbow_Unique/sfx_item_crossbowUnique_place_Play.sfx_item_crossbowUnique_place_Play",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Crossbow/Crossbow_Unique/sfx_item_crossbowUnique_unequip_Play.sfx_item_crossbowUnique_unequip_Play"
+		},
+		"WeaponAnimLayers": "/Game/Spicewood/Art/Characters/Player/Animations/AnimationBlueprints/WeaponsAnimLayers/ABP_CrossbowLayers.ABP_CrossbowLayers_C",
+		"EquipAnimationMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Equip/AM_Player_Equip_Crossbow.AM_Player_Equip_Crossbow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Crossbow_Unique1"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Crossbow/Crossbow_Unique/BP_Crossbow_TheShackler.BP_Crossbow_TheShackler_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ProjectileStackCount"
+				},
+				"Type": "Int",
+				"Int": 60
+			}
+		]
+	},
+	{
+		"Name": "Shortbow_Unique1",
+		"Montage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Bow/AM_Player_Bow_Action.AM_Player_Bow_Action",
+		"JumpAttackMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Bow/AM_Player_Bow_Action.AM_Player_Bow_Action",
+		"AttackDefintion":
+		{
+			"Range": 750,
+			"MaxAmmo": 18,
+			"RechargeTimeSeconds": 1,
+			"RechargeDelaySeconds": 1,
+			"LowAmmoCount": 2,
+			"VolleyDefinitions": [
+				{
+					"ProjectileDefinitions": [
+						{
+							"ProjectileTypeTag":
+							{
+								"TagName": "SW.Projectile.Type.PlayerShortbow_Unique1"
+							},
+							"NumberOfProjectiles": 1,
+							"DelaySeconds": 0,
+							"DelaySecondsPerProjectile": 0,
+							"AngleSpan": 25,
+							"AngleOffset": 5,
+							"MaxRandomizedAngleFactor": 0,
+							"NonRandomFirstArrow": true,
+							"ProjectileOffset":
+							{
+								"X": 25,
+								"Y": -5,
+								"Z": 25
+							}
+						}
+					]
+				}
+			],
+			"VolleyDelay": 0,
+			"AttackRateSeconds": 0.2,
+			"ChargeTimeSecond": 0.125,
+			"ChargeRequired": false,
+			"ChargeVelocityMultiplier": 2,
+			"ChargeDamageMultiplier": 3,
+			"JumpshotDamageMultiplier": 1,
+			"ProjectileVelocityFactor": 1,
+			"ProjectileDamageFactor": 1,
+			"RechargeType": "Default"
+		},
+		"RangedItemAudios":
+		{
+			"OnFired": "/Game/Spicewood/Audio/Wwise/sfx_item_shortbowUnique1_fire_Play.sfx_item_shortbowUnique1_fire_Play",
+			"OnCharging": "None",
+			"OnCharged": "None",
+			"OnFiredCharged": "None",
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Shortbow/shortbowUnique1/sfx_item_shortbowUnique1_pickup_Play.sfx_item_shortbowUnique1_pickup_Play",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Weapon.Unique.Pickup"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Shortbow/shortbowUnique1/sfx_item_shortbowUnique1_drop_Play.sfx_item_shortbowUnique1_drop_Play",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Weapon.Unique.Drop"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Shortbow/shortbowUnique1/sfx_item_shortbowUnique1_place_Play.sfx_item_shortbowUnique1_place_Play",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Shortbow/shortbowUnique1/sfx_item_shortbowUnique_unequip_Play.sfx_item_shortbowUnique_unequip_Play"
+		},
+		"WeaponAnimLayers": "/Game/Spicewood/Art/Characters/Player/Animations/AnimationBlueprints/WeaponsAnimLayers/ABP_BowAnimLayers.ABP_BowAnimLayers_C",
+		"EquipAnimationMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Equip/AM_Player_Equip_ShortBow.AM_Player_Equip_ShortBow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Shortbow_Unique1"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Shortbow/Shortbow_Unique/BP_Shortbow_NightShade.BP_Shortbow_NightShade_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ProjectileStackCount"
+				},
+				"Type": "Int",
+				"Int": 60
+			}
+		]
+	},
+	{
+		"Name": "Trickbow_Unique1",
+		"Montage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Bow/AM_Player_Bow_Action.AM_Player_Bow_Action",
+		"JumpAttackMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Bow/AM_Player_Bow_Action.AM_Player_Bow_Action",
+		"AttackDefintion":
+		{
+			"Range": 750,
+			"MaxAmmo": 15,
+			"RechargeTimeSeconds": 1.2,
+			"RechargeDelaySeconds": 1,
+			"LowAmmoCount": 2,
+			"VolleyDefinitions": [
+				{
+					"ProjectileDefinitions": [
+						{
+							"ProjectileTypeTag":
+							{
+								"TagName": "SW.Projectile.Type.Trickbow_Unique1"
+							},
+							"NumberOfProjectiles": 1,
+							"DelaySeconds": 0,
+							"DelaySecondsPerProjectile": 0,
+							"AngleSpan": 25,
+							"AngleOffset": 5,
+							"MaxRandomizedAngleFactor": 0,
+							"NonRandomFirstArrow": true,
+							"ProjectileOffset":
+							{
+								"X": 25,
+								"Y": -5,
+								"Z": 25
+							}
+						}
+					]
+				}
+			],
+			"VolleyDelay": 0,
+			"AttackRateSeconds": 0.3,
+			"ChargeTimeSecond": 0.2,
+			"ChargeRequired": false,
+			"ChargeVelocityMultiplier": 2,
+			"ChargeDamageMultiplier": 3,
+			"JumpshotDamageMultiplier": 1.5,
+			"ProjectileVelocityFactor": 1,
+			"ProjectileDamageFactor": 1,
+			"RechargeType": "Default"
+		},
+		"RangedItemAudios":
+		{
+			"OnFired": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Trickbow/Unique/sfx_item_trickBow_fire_unique_Play.sfx_item_trickBow_fire_unique_Play",
+			"OnCharging": "None",
+			"OnCharged": "None",
+			"OnFiredCharged": "None",
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Trickbow/Unique/sfx_item_trickBow_pickup_unique_Play.sfx_item_trickBow_pickup_unique_Play",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Weapon.Unique.Pickup"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Trickbow/Unique/sfx_item_trickBow_drop_unique_Play.sfx_item_trickBow_drop_unique_Play",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Weapon.Unique.Drop"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Trickbow/Unique/sfx_item_trickBow_equip_unique_Play.sfx_item_trickBow_equip_unique_Play",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Trickbow/Unique/sfx_item_trickBow_unequip_unique_Play.sfx_item_trickBow_unequip_unique_Play"
+		},
+		"WeaponAnimLayers": "/Game/Spicewood/Art/Characters/Player/Animations/AnimationBlueprints/WeaponsAnimLayers/ABP_BowAnimLayers.ABP_BowAnimLayers_C",
+		"EquipAnimationMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Equip/AM_Player_Equip_ShortBow.AM_Player_Equip_ShortBow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Trickbow_Unique1"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Trickbow/Trickbow_Unique/BP_Trickbow_ThePhantom.BP_Trickbow_ThePhantom_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ProjectileStackCount"
+				},
+				"Type": "Int",
+				"Int": 60
+			}
+		]
+	},
+	{
+		"Name": "Longbow_Unique1",
+		"Montage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Bow/AM_Player_Bow_Action.AM_Player_Bow_Action",
+		"JumpAttackMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Bow/AM_Player_Bow_Action.AM_Player_Bow_Action",
+		"AttackDefintion":
+		{
+			"Range": 750,
+			"MaxAmmo": 12,
+			"RechargeTimeSeconds": 1.5,
+			"RechargeDelaySeconds": 1,
+			"LowAmmoCount": 2,
+			"VolleyDefinitions": [
+				{
+					"ProjectileDefinitions": [
+						{
+							"ProjectileTypeTag":
+							{
+								"TagName": "SW.Projectile.Type.PlayerLongbow_Unique1"
+							},
+							"NumberOfProjectiles": 1,
+							"DelaySeconds": 0,
+							"DelaySecondsPerProjectile": 0,
+							"AngleSpan": 25,
+							"AngleOffset": 0,
+							"MaxRandomizedAngleFactor": 0,
+							"NonRandomFirstArrow": true,
+							"ProjectileOffset":
+							{
+								"X": 25,
+								"Y": -5,
+								"Z": 25
+							}
+						}
+					]
+				}
+			],
+			"VolleyDelay": 0,
+			"AttackRateSeconds": 0.5,
+			"ChargeTimeSecond": 0.4,
+			"ChargeRequired": false,
+			"ChargeVelocityMultiplier": 2,
+			"ChargeDamageMultiplier": 3,
+			"JumpshotDamageMultiplier": 1,
+			"ProjectileVelocityFactor": 1,
+			"ProjectileDamageFactor": 1,
+			"RechargeType": "Default"
+		},
+		"RangedItemAudios":
+		{
+			"OnFired": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/LongBow/LongbowUnique/sfx_item_longbowUnique1_fire_Play.sfx_item_longbowUnique1_fire_Play",
+			"OnCharging": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/LongBow/Play_sfx_item_longbow_charge.Play_sfx_item_longbow_charge",
+			"OnCharged": "/Game/Spicewood/Audio/Wwise/sfx_item_shortbow_charged_Play.sfx_item_shortbow_charged_Play",
+			"OnFiredCharged": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/LongBow/Play_sfx_item_longbow_fire.Play_sfx_item_longbow_fire",
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/LongBow/LongbowUnique/sfx_item_longbowUnique1_pickup_Play.sfx_item_longbowUnique1_pickup_Play",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Weapon.Unique.Pickup"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/LongBow/LongbowUnique/sfx_item_longbowUnique1_drop_Play.sfx_item_longbowUnique1_drop_Play",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Weapon.Unique.Drop"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/LongBow/LongbowUnique/sfx_item_longbowUnique1_place_Play.sfx_item_longbowUnique1_place_Play",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/LongBow/LongbowUnique/sfx_item_longbowUnique1_unequip_Play.sfx_item_longbowUnique1_unequip_Play"
+		},
+		"WeaponAnimLayers": "/Game/Spicewood/Art/Characters/Player/Animations/AnimationBlueprints/WeaponsAnimLayers/ABP_BowAnimLayers.ABP_BowAnimLayers_C",
+		"EquipAnimationMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Equip/AM_Player_Equip_Bow.AM_Player_Equip_Bow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Longbow_Unique1"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Longbow/Longbow_Unique/BP_Longbow_Splinter.BP_Longbow_Splinter_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ProjectileStackCount"
+				},
+				"Type": "Int",
+				"Int": 60
+			}
+		]
+	},
+	{
+		"Name": "Powerbow_Unique1",
+		"Montage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Bow/AM_Player_Bow_Action.AM_Player_Bow_Action",
+		"JumpAttackMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Bow/AM_Player_Bow_Action.AM_Player_Bow_Action",
+		"AttackDefintion":
+		{
+			"Range": 750,
+			"MaxAmmo": 12,
+			"RechargeTimeSeconds": 1.5,
+			"RechargeDelaySeconds": 1,
+			"LowAmmoCount": 2,
+			"VolleyDefinitions": [
+				{
+					"ProjectileDefinitions": [
+						{
+							"ProjectileTypeTag":
+							{
+								"TagName": "SW.Projectile.Type.PlayerPowerbow_Unique1"
+							},
+							"NumberOfProjectiles": 1,
+							"DelaySeconds": 0,
+							"DelaySecondsPerProjectile": 0,
+							"AngleSpan": 25,
+							"AngleOffset": 0,
+							"MaxRandomizedAngleFactor": 0,
+							"NonRandomFirstArrow": true,
+							"ProjectileOffset":
+							{
+								"X": 25,
+								"Y": 0,
+								"Z": 0
+							}
+						}
+					]
+				}
+			],
+			"VolleyDelay": 0,
+			"AttackRateSeconds": 0.5,
+			"ChargeTimeSecond": 0.4,
+			"ChargeRequired": false,
+			"ChargeVelocityMultiplier": 2,
+			"ChargeDamageMultiplier": 4,
+			"JumpshotDamageMultiplier": 1,
+			"ProjectileVelocityFactor": 1.25,
+			"ProjectileDamageFactor": 2,
+			"RechargeType": "Default"
+		},
+		"RangedItemAudios":
+		{
+			"OnFired": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Power_Bow/Powerbow_Unique/sfx_item_powerBow_unique_fire_Play.sfx_item_powerBow_unique_fire_Play",
+			"OnCharging": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Power_Bow/Powerbow_Unique/sfx_item_powerBow_unique_load_Play.sfx_item_powerBow_unique_load_Play",
+			"OnCharged": "None",
+			"OnFiredCharged": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Power_Bow/Powerbow_Unique/sfx_item_powerBow_unique_fire_Play.sfx_item_powerBow_unique_fire_Play",
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Power_Bow/Powerbow_Unique/sfx_item_powerBow_unique_pickup_Play.sfx_item_powerBow_unique_pickup_Play",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Weapon.Unique.Pickup"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Power_Bow/Powerbow_Unique/sfx_item_powerBow_unique_drop_Play.sfx_item_powerBow_unique_drop_Play",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Weapon.Unique.Drop"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Power_Bow/Powerbow_Unique/sfx_item_powerBow_unique_equip_Play.sfx_item_powerBow_unique_equip_Play",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Power_Bow/Powerbow_Unique/sfx_item_powerBow_unique_unequip_Play.sfx_item_powerBow_unique_unequip_Play"
+		},
+		"WeaponAnimLayers": "/Game/Spicewood/Art/Characters/Player/Animations/AnimationBlueprints/WeaponsAnimLayers/ABP_BowAnimLayers.ABP_BowAnimLayers_C",
+		"EquipAnimationMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Equip/AM_Player_Equip_PowerBow.AM_Player_Equip_PowerBow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Powerbow_Unique1"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Powerbow/Powerbow_Unique/BP_Powerbow_Paragon.BP_Powerbow_Paragon_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ProjectileStackCount"
+				},
+				"Type": "Int",
+				"Int": 30
+			}
+		]
+	},
+	{
+		"Name": "ScatterCrossbow_Unique1",
+		"Montage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Crossbow/AM_Player_CrossBow_Action.AM_Player_CrossBow_Action",
+		"JumpAttackMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Crossbow/AM_Player_CrossBow_Action.AM_Player_CrossBow_Action",
+		"AttackDefintion":
+		{
+			"Range": 750,
+			"MaxAmmo": 12,
+			"RechargeTimeSeconds": 1.5,
+			"RechargeDelaySeconds": 1,
+			"LowAmmoCount": 2,
+			"VolleyDefinitions": [
+				{
+					"ProjectileDefinitions": [
+						{
+							"ProjectileTypeTag":
+							{
+								"TagName": "SW.Projectile.Type.PlayerScatterCrossbow_Unique1"
+							},
+							"NumberOfProjectiles": 3,
+							"DelaySeconds": 0,
+							"DelaySecondsPerProjectile": 0,
+							"AngleSpan": 25,
+							"AngleOffset": 0,
+							"MaxRandomizedAngleFactor": 0,
+							"NonRandomFirstArrow": true,
+							"ProjectileOffset":
+							{
+								"X": 25,
+								"Y": -5,
+								"Z": 25
+							}
+						}
+					]
+				}
+			],
+			"VolleyDelay": 0,
+			"AttackRateSeconds": 0.4,
+			"ChargeTimeSecond": 0,
+			"ChargeRequired": false,
+			"ChargeVelocityMultiplier": 2,
+			"ChargeDamageMultiplier": 1,
+			"JumpshotDamageMultiplier": 1,
+			"ProjectileVelocityFactor": 1,
+			"ProjectileDamageFactor": 1,
+			"RechargeType": "Default"
+		},
+		"RangedItemAudios":
+		{
+			"OnFired": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/ScatterCrossbow/ScatterCrossbowUnique/sfx_item_scatterCrossbowUnique1_fire_Play.sfx_item_scatterCrossbowUnique1_fire_Play",
+			"OnCharging": "None",
+			"OnCharged": "None",
+			"OnFiredCharged": "None",
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/ScatterCrossbow/ScatterCrossbowUnique/sfx_item_scatterCrossbowUnique1_pickup_Play.sfx_item_scatterCrossbowUnique1_pickup_Play",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Weapon.Unique.Pickup"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/ScatterCrossbow/ScatterCrossbowUnique/sfx_item_scatterCrossbowUnique1_drop_Play.sfx_item_scatterCrossbowUnique1_drop_Play",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Weapon.Unique.Drop"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/ScatterCrossbow/ScatterCrossbowUnique/sfx_item_scatterCrossbowUnique1_place_Play.sfx_item_scatterCrossbowUnique1_place_Play",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/ScatterCrossbow/ScatterCrossbowUnique/sfx_item_scatterCrossbowUnique1_unequip_Play.sfx_item_scatterCrossbowUnique1_unequip_Play"
+		},
+		"WeaponAnimLayers": "/Game/Spicewood/Art/Characters/Player/Animations/AnimationBlueprints/WeaponsAnimLayers/ABP_CrossbowLayers.ABP_CrossbowLayers_C",
+		"EquipAnimationMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Equip/AM_Player_Equip_Crossbow.AM_Player_Equip_Crossbow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.ScatterCrossbow_Unique1"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/ScatterCrossbow/ScatterCrossbow_Unique/BP_ScatterCrossbow_HarpCrossbow.BP_ScatterCrossbow_HarpCrossbow_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ProjectileStackCount"
+				},
+				"Type": "Int",
+				"Int": 30
+			}
+		]
+	},
+	{
+		"Name": "HeavyCrossbow_Unique1",
+		"Montage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Crossbow/AM_Player_HeavyCrossBow_Action.AM_Player_HeavyCrossBow_Action",
+		"JumpAttackMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Crossbow/AM_Player_HeavyCrossBow_Action.AM_Player_HeavyCrossBow_Action",
+		"AttackDefintion":
+		{
+			"Range": 750,
+			"MaxAmmo": 8,
+			"RechargeTimeSeconds": 2,
+			"RechargeDelaySeconds": 1,
+			"LowAmmoCount": 2,
+			"VolleyDefinitions": [
+				{
+					"ProjectileDefinitions": [
+						{
+							"ProjectileTypeTag":
+							{
+								"TagName": "SW.Projectile.Type.PlayerHeavyCrossbow_Unique1"
+							},
+							"NumberOfProjectiles": 1,
+							"DelaySeconds": 0,
+							"DelaySecondsPerProjectile": 0,
+							"AngleSpan": 25,
+							"AngleOffset": 0,
+							"MaxRandomizedAngleFactor": 0,
+							"NonRandomFirstArrow": true,
+							"ProjectileOffset":
+							{
+								"X": 0,
+								"Y": 0,
+								"Z": 0
+							}
+						}
+					]
+				}
+			],
+			"VolleyDelay": 0,
+			"AttackRateSeconds": 0.95,
+			"ChargeTimeSecond": 0,
+			"ChargeRequired": false,
+			"ChargeVelocityMultiplier": 2,
+			"ChargeDamageMultiplier": 1,
+			"JumpshotDamageMultiplier": 1,
+			"ProjectileVelocityFactor": 2.25,
+			"ProjectileDamageFactor": 2.7,
+			"RechargeType": "Default"
+		},
+		"RangedItemAudios":
+		{
+			"OnFired": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/HeavyCrossbow/HeavyCrossbowUnique/sfx_item_heavyCrossbowUnique_fire_Play.sfx_item_heavyCrossbowUnique_fire_Play",
+			"OnCharging": "None",
+			"OnCharged": "None",
+			"OnFiredCharged": "None",
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/HeavyCrossbow/HeavyCrossbowUnique/sfx_item_heavyCrossbowUnique_pickUp_Play.sfx_item_heavyCrossbowUnique_pickUp_Play",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Weapon.Unique.Pickup"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/HeavyCrossbow/HeavyCrossbowUnique/sfx_item_heavyCrossbowUnique_drop_Play.sfx_item_heavyCrossbowUnique_drop_Play",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Weapon.Unique.Drop"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/HeavyCrossbow/HeavyCrossbowUnique/sfx_item_heavyCrossbowUnique_place_Play.sfx_item_heavyCrossbowUnique_place_Play",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/HeavyCrossbow/HeavyCrossbowUnique/sfx_item_heavyCrossbowUnique_unequip_Play.sfx_item_heavyCrossbowUnique_unequip_Play"
+		},
+		"WeaponAnimLayers": "/Game/Spicewood/Art/Characters/Player/Animations/AnimationBlueprints/WeaponsAnimLayers/ABP_CrossbowLayers.ABP_CrossbowLayers_C",
+		"EquipAnimationMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Equip/AM_Player_Equip_Crossbow.AM_Player_Equip_Crossbow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.HeavyCrossbow_Unique1"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/HeavyCrossbow/HeavyCrossbow_Unique/BP_HeavyCrossbow_TheExecutioner.BP_HeavyCrossbow_TheExecutioner_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ProjectileStackCount"
+				},
+				"Type": "Int",
+				"Int": 30
+			}
+		]
+	},
+	{
+		"Name": "DualCrossbow_Unique1",
+		"Montage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Crossbow/AM_Player_DualCrossBow_Action.AM_Player_DualCrossBow_Action",
+		"JumpAttackMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Crossbow/AM_Player_DualCrossBow_Action.AM_Player_DualCrossBow_Action",
+		"AttackDefintion":
+		{
+			"Range": 750,
+			"MaxAmmo": 20,
+			"RechargeTimeSeconds": 1,
+			"RechargeDelaySeconds": 1,
+			"LowAmmoCount": 2,
+			"VolleyDefinitions": [
+				{
+					"ProjectileDefinitions": [
+						{
+							"ProjectileTypeTag":
+							{
+								"TagName": "SW.Projectile.Type.PlayerDualCrossbow_Unique1"
+							},
+							"NumberOfProjectiles": 1,
+							"DelaySeconds": 0,
+							"DelaySecondsPerProjectile": 0,
+							"AngleSpan": 25,
+							"AngleOffset": 0,
+							"MaxRandomizedAngleFactor": 0,
+							"NonRandomFirstArrow": true,
+							"ProjectileOffset":
+							{
+								"X": 0,
+								"Y": -30,
+								"Z": 25
+							}
+						}
+					]
+				},
+				{
+					"ProjectileDefinitions": [
+						{
+							"ProjectileTypeTag":
+							{
+								"TagName": "SW.Projectile.Type.PlayerDualCrossbow_Unique1"
+							},
+							"NumberOfProjectiles": 1,
+							"DelaySeconds": 0,
+							"DelaySecondsPerProjectile": 0,
+							"AngleSpan": 25,
+							"AngleOffset": 5,
+							"MaxRandomizedAngleFactor": 0,
+							"NonRandomFirstArrow": true,
+							"ProjectileOffset":
+							{
+								"X": 0,
+								"Y": 30,
+								"Z": 25
+							}
+						}
+					]
+				}
+			],
+			"VolleyDelay": 0.25,
+			"AttackRateSeconds": 0.6,
+			"ChargeTimeSecond": 0,
+			"ChargeRequired": false,
+			"ChargeVelocityMultiplier": 2,
+			"ChargeDamageMultiplier": 1,
+			"JumpshotDamageMultiplier": 1,
+			"ProjectileVelocityFactor": 1,
+			"ProjectileDamageFactor": 1,
+			"RechargeType": "Default"
+		},
+		"RangedItemAudios":
+		{
+			"OnFired": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/DualCrossbow/DualCrossbowUnique/sfx_dualCrossbowUnique_fire_Play.sfx_dualCrossbowUnique_fire_Play",
+			"OnCharging": "None",
+			"OnCharged": "None",
+			"OnFiredCharged": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/DualCrossbow/DualCrossbowUnique/sfx_dualCrossbowUnique_fire_Play.sfx_dualCrossbowUnique_fire_Play",
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/DualCrossbow/DualCrossbowUnique/sfx_dualCrossbowUnique_pickup_Play.sfx_dualCrossbowUnique_pickup_Play",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Weapon.Unique.Pickup"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/DualCrossbow/DualCrossbowUnique/sfx_dualCrossbowUnique_drop_Play.sfx_dualCrossbowUnique_drop_Play",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Weapon.Unique.Drop"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/DualCrossbow/DualCrossbowUnique/sfx_dualCrossbowUnique_equip_Play.sfx_dualCrossbowUnique_equip_Play",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/DualCrossbow/DualCrossbowUnique/sfx_dualCrossbowUnique_unequip_Play.sfx_dualCrossbowUnique_unequip_Play"
+		},
+		"WeaponAnimLayers": "/Game/Spicewood/Art/Characters/Player/Animations/AnimationBlueprints/WeaponsAnimLayers/ABP_DualCrossbowLayers.ABP_DualCrossbowLayers_C",
+		"EquipAnimationMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Equip/AM_Player_Equip_Dual_Crossbow.AM_Player_Equip_Dual_Crossbow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.DualCrossbow_Unique1"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/DualCrossbow/DualCrossbow_Unique/BP_DualCrossbow_Equilibrists.BP_DualCrossbow_Equilibrists_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ProjectileStackCount"
+				},
+				"Type": "Int",
+				"Int": 30
+			}
+		]
+	},
+	{
+		"Name": "RapidCrossbow_Unique1",
+		"Montage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Crossbow/AM_Player_CrossBow_Action.AM_Player_CrossBow_Action",
+		"JumpAttackMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Crossbow/AM_Player_CrossBow_Action.AM_Player_CrossBow_Action",
+		"AttackDefintion":
+		{
+			"Range": 750,
+			"MaxAmmo": 25,
+			"RechargeTimeSeconds": 0.8,
+			"RechargeDelaySeconds": 1,
+			"LowAmmoCount": 2,
+			"VolleyDefinitions": [
+				{
+					"ProjectileDefinitions": [
+						{
+							"ProjectileTypeTag":
+							{
+								"TagName": "SW.Projectile.Type.PlayerRapidCrossbow_Unique1"
+							},
+							"NumberOfProjectiles": 1,
+							"DelaySeconds": 0,
+							"DelaySecondsPerProjectile": 0,
+							"AngleSpan": 25,
+							"AngleOffset": 0,
+							"MaxRandomizedAngleFactor": 0,
+							"NonRandomFirstArrow": true,
+							"ProjectileOffset":
+							{
+								"X": 25,
+								"Y": -5,
+								"Z": 25
+							}
+						}
+					]
+				}
+			],
+			"VolleyDelay": 0,
+			"AttackRateSeconds": 0.2,
+			"ChargeTimeSecond": 0,
+			"ChargeRequired": false,
+			"ChargeVelocityMultiplier": 2,
+			"ChargeDamageMultiplier": 1,
+			"JumpshotDamageMultiplier": 1,
+			"ProjectileVelocityFactor": 1,
+			"ProjectileDamageFactor": 1,
+			"RechargeType": "Default"
+		},
+		"RangedItemAudios":
+		{
+			"OnFired": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/RapidCrossbow/RapidCrossbowUnique/sfx_item_rapidCrossbowUnique_fire_Play.sfx_item_rapidCrossbowUnique_fire_Play",
+			"OnCharging": "None",
+			"OnCharged": "None",
+			"OnFiredCharged": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/RapidCrossbow/RapidCrossbowUnique/sfx_item_rapidCrossbowUnique_fire_Play.sfx_item_rapidCrossbowUnique_fire_Play",
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/RapidCrossbow/RapidCrossbowUnique/sfx_item_rapidCrossbowUnique_pickup_Play.sfx_item_rapidCrossbowUnique_pickup_Play",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Weapon.Unique.Pickup"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/RapidCrossbow/RapidCrossbowUnique/sfx_item_rapidCrossbowUnique_drop_Play.sfx_item_rapidCrossbowUnique_drop_Play",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Weapon.Unique.Drop"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/RapidCrossbow/RapidCrossbowUnique/sfx_item_rapidCrossbowUnique_equip_Play.sfx_item_rapidCrossbowUnique_equip_Play",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/RapidCrossbow/RapidCrossbowUnique/sfx_item_rapidCrossbowUnique_unequip_Play.sfx_item_rapidCrossbowUnique_unequip_Play"
+		},
+		"WeaponAnimLayers": "/Game/Spicewood/Art/Characters/Player/Animations/AnimationBlueprints/WeaponsAnimLayers/ABP_CrossbowLayers.ABP_CrossbowLayers_C",
+		"EquipAnimationMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Equip/AM_Player_Equip_Crossbow.AM_Player_Equip_Crossbow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.RapidCrossbow_Unique1"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/RapidCrossbow/RapidCrossbow_Unique/BP_RapidCrossbow_Polaris.BP_RapidCrossbow_Polaris_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ProjectileStackCount"
+				},
+				"Type": "Int",
+				"Int": 30
+			}
+		]
+	},
+	{
+		"Name": "GreatBow",
+		"Montage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Bow/AM_Player_Greatbow_Action_v2.AM_Player_Greatbow_Action_v2",
+		"JumpAttackMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Bow/AM_Player_Greatbow_Action.AM_Player_Greatbow_Action",
+		"AttackDefintion":
+		{
+			"Range": 750,
+			"MaxAmmo": 10,
+			"RechargeTimeSeconds": 1.2,
+			"RechargeDelaySeconds": 1,
+			"LowAmmoCount": 2,
+			"VolleyDefinitions": [
+				{
+					"ProjectileDefinitions": [
+						{
+							"ProjectileTypeTag":
+							{
+								"TagName": "SW.Projectile.Type.PlayerGreatBow"
+							},
+							"NumberOfProjectiles": 1,
+							"DelaySeconds": 0,
+							"DelaySecondsPerProjectile": 0,
+							"AngleSpan": 25,
+							"AngleOffset": 0,
+							"MaxRandomizedAngleFactor": 0,
+							"NonRandomFirstArrow": true,
+							"ProjectileOffset":
+							{
+								"X": 25,
+								"Y": 0,
+								"Z": 0
+							}
+						}
+					]
+				}
+			],
+			"VolleyDelay": 0,
+			"AttackRateSeconds": 0.4,
+			"ChargeTimeSecond": 0.3,
+			"ChargeRequired": false,
+			"ChargeVelocityMultiplier": 2,
+			"ChargeDamageMultiplier": 4,
+			"JumpshotDamageMultiplier": 0.75,
+			"ProjectileVelocityFactor": 1.25,
+			"ProjectileDamageFactor": 4,
+			"RechargeType": "Default"
+		},
+		"RangedItemAudios":
+		{
+			"OnFired": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/GreatBow/sfx_greatbow_shot_Play.sfx_greatbow_shot_Play",
+			"OnCharging": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/GreatBow/sfx_greatbow_tension_load_Play.sfx_greatbow_tension_load_Play",
+			"OnCharged": "/Game/Spicewood/Audio/Wwise/Play_sfx_item_powerBow_chargeloop.Play_sfx_item_powerBow_chargeloop",
+			"OnFiredCharged": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/GreatBow/sfx_greatbow_shot_Play.sfx_greatbow_shot_Play",
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/GreatBow/sfx_greatbow_pickup_Play.sfx_greatbow_pickup_Play",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/GreatBow/sfx_greatbow_drop_Play.sfx_greatbow_drop_Play",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/GreatBow/sfx_greatbow_equip_Play.sfx_greatbow_equip_Play",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/GreatBow/sfx_greatbow_unequip_Play.sfx_greatbow_unequip_Play"
+		},
+		"WeaponAnimLayers": "/Game/Spicewood/Art/Characters/Player/Animations/AnimationBlueprints/WeaponsAnimLayers/ABP_GreatbowLayers.ABP_GreatbowLayers_C",
+		"EquipAnimationMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Equip/AM_Player_Equip_GreatBow.AM_Player_Equip_GreatBow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Greatbow"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Greatbow/BP_Greatbow.BP_Greatbow_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ProjectileStackCount"
+				},
+				"Type": "Int",
+				"Int": 30
+			}
+		]
+	},
+	{
+		"Name": "GreatBow_Unique1",
+		"Montage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Bow/AM_Player_Greatbow_Action_v2.AM_Player_Greatbow_Action_v2",
+		"JumpAttackMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Ranged/Bow/AM_Player_Greatbow_Action.AM_Player_Greatbow_Action",
+		"AttackDefintion":
+		{
+			"Range": 750,
+			"MaxAmmo": 10,
+			"RechargeTimeSeconds": 1.2,
+			"RechargeDelaySeconds": 1,
+			"LowAmmoCount": 2,
+			"VolleyDefinitions": [
+				{
+					"ProjectileDefinitions": [
+						{
+							"ProjectileTypeTag":
+							{
+								"TagName": "SW.Projectile.Type.PlayerGreatBow_Unique1"
+							},
+							"NumberOfProjectiles": 1,
+							"DelaySeconds": 0,
+							"DelaySecondsPerProjectile": 0,
+							"AngleSpan": 25,
+							"AngleOffset": 0,
+							"MaxRandomizedAngleFactor": 0,
+							"NonRandomFirstArrow": true,
+							"ProjectileOffset":
+							{
+								"X": 25,
+								"Y": 0,
+								"Z": 0
+							}
+						}
+					]
+				}
+			],
+			"VolleyDelay": 0,
+			"AttackRateSeconds": 0.4,
+			"ChargeTimeSecond": 0.3,
+			"ChargeRequired": false,
+			"ChargeVelocityMultiplier": 2,
+			"ChargeDamageMultiplier": 4,
+			"JumpshotDamageMultiplier": 0.75,
+			"ProjectileVelocityFactor": 1.25,
+			"ProjectileDamageFactor": 4,
+			"RechargeType": "Default"
+		},
+		"RangedItemAudios":
+		{
+			"OnFired": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/GreatBow/GreatBowUnique/sfx_greatbowUnique_fire_Play.sfx_greatbowUnique_fire_Play",
+			"OnCharging": "None",
+			"OnCharged": "None",
+			"OnFiredCharged": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/GreatBow/GreatBowUnique/sfx_greatbowUnique_fire_Play.sfx_greatbowUnique_fire_Play",
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/GreatBow/GreatBowUnique/sfx_greatbowUnique_pickup_Play.sfx_greatbowUnique_pickup_Play",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/GreatBow/GreatBowUnique/sfx_greatbowUnique_drop_Play.sfx_greatbowUnique_drop_Play",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/GreatBow/GreatBowUnique/sfx_greatbowUnique_equip_Play.sfx_greatbowUnique_equip_Play",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/GreatBow/GreatBowUnique/sfx_greatbowUnique_unequip_Play.sfx_greatbowUnique_unequip_Play"
+		},
+		"WeaponAnimLayers": "/Game/Spicewood/Art/Characters/Player/Animations/AnimationBlueprints/WeaponsAnimLayers/ABP_GreatbowLayers.ABP_GreatbowLayers_C",
+		"EquipAnimationMontage": "/Game/Spicewood/Art/Characters/Player/Animations/Weapons_Equip/AM_Player_Equip_GreatBow.AM_Player_Equip_GreatBow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Greatbow_Unique1"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Greatbow/Greatbow_Unique/BP_Greatbow_Unique.BP_Greatbow_Unique_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ProjectileStackCount"
+				},
+				"Type": "Int",
+				"Int": 30
+			}
+		]
+	}
+]

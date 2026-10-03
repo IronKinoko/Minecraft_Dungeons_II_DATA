@@ -1,0 +1,556 @@
+{
+	"Name": "MeadowA2_Quests",
+	"DefaultQuestData":
+	{
+		"id": "MEa2_",
+		"id_tag": "None",
+		"initial_state": "Locked",
+		"quest_type": "SideQuest",
+		"RewardData":
+		{
+			"questSize":
+			{
+				"tagName": "SW.QuestSize.Small"
+			},
+			"areaRewardScalingTag":
+			{
+				"tagName": "SW.Area.Meadow.A2"
+			},
+			"firstCompletionLootSourceData": [],
+			"lootSourceData": [
+				{
+					"lootSourceTag":
+					{
+						"tagName": "None"
+					},
+					"lootTags":
+					{
+						"gameplayTags": [
+							{
+								"tagName": "SW.Area.Meadow.A2"
+							},
+							{
+								"tagName": "SW.Quest.Loot.AreaDropModifier"
+							}
+						]
+					}
+				}
+			]
+		},
+		"serialize_progress_for_quest": true,
+		"is_replayable": false,
+		"replay_whole_arc": false,
+		"replay_rule": "TimeBased",
+		"replay_delay_time": 30,
+		"UnlockBannerData":
+		{
+			"unlocksQuest": false,
+			"unlocksArea": false,
+			"unlocksTownContent": false,
+			"unlocksSoulStorm": false
+		},
+		"unlock_quests_timer_override": 0,
+		"name": "",
+		"comment": "",
+		"quest_arc": "",
+		"MetaData":
+		{
+			"keyValues": []
+		},
+		"prerequisites": []
+	},
+	"Quests": [
+		{
+			"id": "MEa2_S02_A",
+			"id_tag": "SW.Quest.Id.MEa2S02A",
+			"initial_state": "Locked",
+			"quest_type": "SideQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Small"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Meadow.A2"
+				},
+				"firstCompletionLootSourceData": [],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Talisman.PukeyDiva"
+								}
+							]
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": false,
+				"unlocksArea": false,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": []
+			},
+			"prerequisites": [
+				"CA10"
+			],
+			"goals":
+			{
+				"name": "MEa2_S02_A_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "MEa2_S02_A_E01",
+						"comment": "Find the sculk block",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "MEa2_S02_A_E01_Dest"
+					},
+					{
+						"name": "MEa2_S02_A_I01",
+						"comment": "Pickup the sculk block",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "MEa2_S02_A_I01_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "MEa2_S02_A_E02",
+						"comment": "Return to the caretaker",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "MEa2_S02_A_E02_Dest"
+					},
+					{
+						"name": "MEa2_S02_A_I02",
+						"comment": "Give Caretaker the Sculk block",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "MEa2_S02_A_I02_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "MEa2_S02_A_Standard01",
+						"comment": "Disable the prototypes",
+						"show_progress": true,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "MEa2_S02_A_Sequence02",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "MEa2_S02_A_E03",
+										"comment": "Find prototype #1",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "MEa2_S02_A_E03_Dest"
+									},
+									{
+										"name": "MEa2_S02_A_I03",
+										"comment": "Disable prototype",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "MEa2_S02_A_I03_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									},
+									{
+										"name": "MEa2_S02_A_Arena02",
+										"comment": "Defeat the ambush",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"arena_tag": "SW.ArenaSetup.MeadowA2.S02.A.Prototype01"
+									}
+								]
+							},
+							{
+								"name": "MEa2_S02_A_Sequence03",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "MEa2_S02_A_E04",
+										"comment": "Find prototype #2",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "MEa2_S02_A_E04_Dest"
+									},
+									{
+										"name": "MEa2_S02_A_I04",
+										"comment": "Disable prototype",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "MEa2_S02_A_I04_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									},
+									{
+										"name": "MEa2_S02_A_Arena03",
+										"comment": "Defeat the ambush",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"arena_tag": "SW.ArenaSetup.MeadowA2.S02.A.Prototype02"
+									}
+								]
+							},
+							{
+								"name": "MEa2_S02_A_Sequence04",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "MEa2_S02_A_E05",
+										"comment": "Find prototype #3",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "MEa2_S02_A_E05_Dest"
+									},
+									{
+										"name": "MEa2_S02_A_I05",
+										"comment": "Disable prototype",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "MEa2_S02_A_I05_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									},
+									{
+										"name": "MEa2_S02_A_Arena04",
+										"comment": "Defeat the ambush",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"arena_tag": "SW.ArenaSetup.MeadowA2.S02.A.Prototype03"
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "MEa2_S02_A_E06",
+						"comment": "Return to the caretaker",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "MEa2_S02_A_E06_Dest"
+					},
+					{
+						"name": "MEa2_S02_A_I06",
+						"comment": "Speak with caretaker",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "MEa2_S02_A_I06_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					}
+				]
+			}
+		},
+		{
+			"id": "MEa2_S03_A",
+			"id_tag": "SW.Quest.Id.MEa2S03A",
+			"initial_state": "Locked",
+			"quest_type": "SideQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Small"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Meadow.A2"
+				},
+				"firstCompletionLootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Melee.CurvedGreatswordUnique_01"
+								}
+							]
+						}
+					}
+				],
+				"lootSourceData": []
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": false,
+				"unlocksArea": false,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": []
+			},
+			"prerequisites": [
+				"MEa2_S02_A"
+			],
+			"goals":
+			{
+				"name": "MEa2_S03_A_Sequence05",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "MEa2_S03_A_E01",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "MEa2_S03_A_E01_Dest"
+					},
+					{
+						"name": "MEa2_S03_A_Standard01",
+						"comment": "",
+						"show_progress": true,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "MEa2_S03_A_Sequence01",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "MEa2_S03_A_E02",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "MEa2_S03_A_E02_Dest"
+									},
+									{
+										"name": "MEa2_S03_A_Arena01",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"arena_tag": "SW.ArenaSetup.MeadowA2.S03.A.SculkArena01"
+									},
+									{
+										"name": "MEa2_S03_A_I01",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "MEa2_S03_A_I01_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							},
+							{
+								"name": "MEa2_S03_A_Sequence02",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "MEa2_S03_A_E03",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "MEa2_S03_A_E03_Dest"
+									},
+									{
+										"name": "MEa2_S03_A_Arena02",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"arena_tag": "SW.ArenaSetup.MeadowA2.S03.A.SculkArena02"
+									},
+									{
+										"name": "MEa2_S03_A_I02",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "MEa2_S03_A_I02_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							},
+							{
+								"name": "MEa2_S03_A_Sequence03",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "MEa2_S03_A_E04",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "MEa2_S03_A_E04_Dest"
+									},
+									{
+										"name": "MEa2_S03_A_Arena03",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"arena_tag": "SW.ArenaSetup.MeadowA2.S03.A.SculkArena03"
+									},
+									{
+										"name": "MEa2_S03_A_I03",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "MEa2_S03_A_I03_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							},
+							{
+								"name": "MEa2_S03_A_Sequence04",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"type": "Sequence",
+								"subgoals": [
+									{
+										"name": "MEa2_S03_A_E05",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"destination": "MEa2_S03_A_E05_Dest"
+									},
+									{
+										"name": "MEa2_S03_A_Arena04",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"arena_tag": "SW.ArenaSetup.MeadowA2.S03.A.SculkArena04"
+									},
+									{
+										"name": "MEa2_S03_A_I04",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": false,
+										"interact_target": "MEa2_S03_A_I04_Target",
+										"howmany_count": 1,
+										"disable_interaction": true
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "MEa2_S03_A_E06",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "MEa2_S03_A_E06_Dest"
+					},
+					{
+						"name": "MEa2_S03_A_Standard02",
+						"comment": "",
+						"show_progress": true,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "MEa2_S03_A_I05",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "MEa2_S03_A_I05_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "MEa2_S03_A_I06",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "MEa2_S03_A_I06_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "MEa2_S03_A_I07",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "MEa2_S03_A_I07_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "MEa2_S03_A_I08",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "MEa2_S03_A_I08_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							}
+						]
+					},
+					{
+						"name": "MEa2_S03_A_I09",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "MEa2_S03_A_I09_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					}
+				]
+			}
+		}
+	]
+}

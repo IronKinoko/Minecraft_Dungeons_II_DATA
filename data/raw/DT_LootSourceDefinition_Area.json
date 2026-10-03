@@ -1,0 +1,2774 @@
+[
+	{
+		"Name": "GlobalAreaLoot",
+		"TypeTag":
+		{
+			"TagName": "SW.Area"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootSource.EnchantmentBooks.Common"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.LootSource.EnchantmentBooks"
+				},
+				{
+					"TagName": "SW.LootSource"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+		}
+	},
+	{
+		"Name": "PlainsA1",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Plains.A1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Area.Overworld"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Area"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Sword"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Mace"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Rapier"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Greatsword"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Sickles"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Bow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Powerbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Crossbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.PoisonBracelet"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.FightersFife"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.RallyingHorn"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.WardingChimes"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.CorruptedBeacon"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.Satchel.Freezing"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.Honeypot"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.CreeperCandle"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Mystic"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.RealmReacher"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Undaunted"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Honey"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.FireworkQuiver"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "ForestA1",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Forest.A1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Area.Overworld"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Area"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Axe"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Shovel"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ShortSpear"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.CurvedLongsword"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Claws"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.MoonSword"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Pickaxe"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Daggers"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Dagger"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Sabre"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Glaive"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Battlestaff"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Longbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ScatterCrossbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.HeavyCrossbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Greatbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.RapidCrossbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.CorruptedSeeds"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.Satchel.Conductive"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.IronHideLute"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.TotemOfShielding"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.BlizzardStaff"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.DeathcapMushroom"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.SmokeBomb"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.WitchesBrew"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Wolfclutch"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Disciple"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Phantom"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Mushroom"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.PoisonQuiver"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "DeepDarkA1",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.DeepDark.A1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Area.Overworld"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Area"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Axe"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Shovel"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Pickaxe"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Daggers"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.CurvedLongsword"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Dagger"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Pike"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Scythe"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Cleaver"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Bow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.HeavyCrossbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Trickbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.DualCrossbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.Powershaker"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.ConductiveBracelet"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.Grindstone"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.RedstoneMines"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.WarriorsDrums"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.CorruptedSeeds"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.Satchel.Conductive"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.IronHideLute"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.TotemOfShielding"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Mystic"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Disciple"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.CaveCrawler"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Stalwart"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Redstone"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.FlameQuiver"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "Desert",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Desert.A1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Area.Overworld"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Area"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Sabre"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Glaive"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Battlestaff"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Gauntlet"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Claymore"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.WarHammer"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Mace"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Rapier"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Sickles"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ShortSpear"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Claws"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.MoonSword"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Shortbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.RapidCrossbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Powerbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Longbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.CarapaceOcarina"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.LightningRod"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.MaimingMushroom"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.PoisonBracelet"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.FightersFife"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.RallyingHorn"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.WardingChimes"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Scavenger"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Evocation"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Voyager"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Frostrime"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.FrostQuiver"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "Peaks",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Peaks.A1"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Pickaxe"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.GiantClub"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Redstone"
+								},
+								"Weight": 4,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.RedstoneMines"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "PlainsA2",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Plains.A2"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Area.Overworld"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Area"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.CurvedGreatsword"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Hammer"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.StraightSword"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Daggers"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.CurvedLongsword"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Dagger"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Sword"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Greatsword"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Gauntlet"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Claymore"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.WarHammer"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Trickbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Greatbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.DualCrossbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Bow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ScatterCrossbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.FireBracelet"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.Satchel.Poison"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.PicnicBlanket"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.TotemOfRegeneration"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.FlameSceptre"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.HasteMushroom"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.SoulHarvester"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.TotemOfCasting"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Scamp"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.RealmReacher"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.HewnBark"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Timeworn"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.LightningQuiver"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "MeadowA1",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Meadow.A1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Area.Wellspring"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Area"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Sword"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Greatsword"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.CurvedGreatsword"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Hammer"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.StraightSword"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.GreatAxe"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.GiantClub"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.GiantMallet"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Powerbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Longbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Trickbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.FlameSceptre"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.HasteMushroom"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.SoulHarvester"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.TotemOfCasting"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.FrostBracelet"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.Satchel.Fire"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.Powershaker"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.WarBanner"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Scamp"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Voyager"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Wellspring"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.HewnBark"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.LightningQuiver"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "MeadowR1",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Meadow.R1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Area.Meadow.A1"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Area.Meadow"
+				},
+				{
+					"TagName": "SW.Area"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+		}
+	},
+	{
+		"Name": "Fungus",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Fungus.A1"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "CarapaceA1",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Carapace.A1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Area.Wellspring"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Area"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.GreatAxe"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.GiantClub"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.GiantMallet"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Pike"
+								},
+								"Weight": 11,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Scythe"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Cleaver"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Axe"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Shovel"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Pickaxe"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.CurvedGreatsword"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Hammer"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.StraightSword"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Crossbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.HeavyCrossbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Greatbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Shortbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.FrostBracelet"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.Satchel.Fire"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.Powershaker"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.WarBanner"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.CarapaceOcarina"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.LightningRod"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.MaimingMushroom"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Phantom"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Frostrime"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Wellspring"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Stalwart"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.FireworkQuiver"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.FlameQuiver"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "Ravines",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Ravines"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Area.Wellspring"
+				},
+				{
+					"TagName": "SW.LootSource.EnchantmentBooks.Ravines"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Area"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.LootSource.EnchantmentBooks"
+				},
+				{
+					"TagName": "SW.LootSource"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Mace"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Rapier"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Sickles"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Sabre"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Glaive"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Battlestaff"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.GreatAxe"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.GiantClub"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.GiantMallet"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Crossbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Greatbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.RapidCrossbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.BlizzardStaff"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.DeathcapMushroom"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.SmokeBomb"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.WitchesBrew"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.FireBracelet"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.Satchel.Poison"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.PicnicBlanket"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.TotemOfRegeneration"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Wolfclutch"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Evocation"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Undaunted"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Timeworn"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.PoisonQuiver"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "MeadowsA2",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Meadow.A2"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Area.Wellspring"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Area"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ShortSpear"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Claws"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.MoonSword"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Gauntlet"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Claymore"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.WarHammer"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Pike"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Scythe"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ScatterCrossbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.DualCrossbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.CorruptedBeacon"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.Satchel.Freezing"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.Honeypot"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.CreeperCandle"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.ConductiveBracelet"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.Grindstone"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.RedstoneMines"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.WarriorsDrums"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Scavenger"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.CaveCrawler"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Mushroom"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Redstone"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Cleaver"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.FrostQuiver"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "ForestA2",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Forest.A2"
+		},
+		"LootDropDefinition":
+		{
+		}
+	},
+	{
+		"Name": "CampA1",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Camp.A1"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Property.Gear"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							}
+						]
+					}
+				},
+				"(TagName=\"SW.LootSlot.Consumable\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Property.Consumable"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							}
+						]
+					}
+				},
+				"(TagName=\"SW.LootSlot.TNT\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Consumable.Throwable.TNT"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "WellspringT1",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Meadow.T1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Area.Meadow.A2"
+				},
+				{
+					"TagName": "SW.LootSource.EnchantmentBooks.Meadow"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Area.Meadow"
+				},
+				{
+					"TagName": "SW.Area"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.LootSource.EnchantmentBooks"
+				},
+				{
+					"TagName": "SW.LootSource"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+		}
+	},
+	{
+		"Name": "DeepDarkDungeons",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.DeepDark.Dungeons"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Area.DeepDark.T1"
+				},
+				{
+					"TagName": "SW.LootSource.EnchantmentBooks.DeepDark"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Area.DeepDark"
+				},
+				{
+					"TagName": "SW.Area"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.LootSource.EnchantmentBooks"
+				},
+				{
+					"TagName": "SW.LootSource"
+				}
+			]
+		},
+		"LootDropDefinition":
+		{
+		}
+	},
+	{
+		"Name": "Town",
+		"TypeTag":
+		{
+			"TagName": "SW.Area.Town"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Sword"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Mace"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Rapier"
+								},
+								"Weight": 0,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Greatsword"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Sickles"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Bow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Powerbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Crossbow"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.PoisonBracelet"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.FightersFife"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.RallyingHorn"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.WardingChimes"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.CorruptedBeacon"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.Satchel.Freezing"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.Honeypot"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.CreeperCandle"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Mystic"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.RealmReacher"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Undaunted"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ArmorSet.Honey"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.FireworkQuiver"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	}
+]

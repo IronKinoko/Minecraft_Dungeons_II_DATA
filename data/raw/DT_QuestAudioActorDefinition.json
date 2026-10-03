@@ -1,0 +1,290 @@
+[
+	{
+		"Name": "CA01_MS42_Before_AudioParameterSpline",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestPropActor.CA01.AudioParameterSpline.Before"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA01/BP_CA01_MS42_Before_AudioParameterSpline.BP_CA01_MS42_Before_AudioParameterSpline_C"
+	},
+	{
+		"Name": "CA02_CS06_Before_DistantHealthyWardenSpline",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestPropActor.CA02.AudioParameterSpline.DistantHealthyWarden"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA02/BP_CA02_DistantHealthyWardenAudioParameterSpline.BP_CA02_DistantHealthyWardenAudioParameterSpline_C"
+	},
+	{
+		"Name": "CA01_TownGate_AudioParameterSpline",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestPropActor.CA01.AudioParameterSpline.TownGate"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA01/BP_CA01_TownGate_AudioParameterSpline.BP_CA01_TownGate_AudioParameterSpline_C"
+	},
+	{
+		"Name": "CA01_TownGate_AreaStateOverride",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestPropActor.CA01.TownGateArena.AreaStateOverride"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA01/BP_CA01_TownGate_Arena_StateOverride.BP_CA01_TownGate_Arena_StateOverride_C"
+	},
+	{
+		"Name": "CA00_BeforeMS48_AudioParameterSpline",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestPropActor.CA00.AudioParameterSpline.BeforeMS48"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestAudioActor"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.QuestActor.NoCulling"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.QuestActor"
+				},
+				{
+					"TagName": "SW.ReplicationGraph"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA00/BP_CA00_BeforeMS48_AudioParameterSpline.BP_CA00_BeforeMS48_AudioParameterSpline_C"
+	},
+	{
+		"Name": "BP_CA02_ForestOutpostState_Override",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestPropActor.CA02.ForestOutpostStateOverride"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA02/BP_CA02_ForestOutpostState_Override.BP_CA02_ForestOutpostState_Override_C"
+	},
+	{
+		"Name": "BP_CA10_BridgeSpookyAudioVolume",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestPropActor.CA10.BridgeSpookyAudioVolume"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA10/BP_CA10_BridgeSpookyAudioVolume.BP_CA10_BridgeSpookyAudioVolume_C"
+	},
+	{
+		"Name": "BP_CA10_SoulConstructLapsteel",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestPropActor.CA10.SoulConstructLapsteel"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA10/BP_CA10_SoulConstructLapsteel.BP_CA10_SoulConstructLapsteel_C"
+	},
+	{
+		"Name": "BP_CA10_BridgePortalAudioSpline",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestPropActor.CA10.BridgeAudioSpline"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestAudioActor"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.QuestActor.NoCulling"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.QuestActor"
+				},
+				{
+					"TagName": "SW.ReplicationGraph"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA10/BP_CA10_BridgePortalAudioSpline.BP_CA10_BridgePortalAudioSpline_C"
+	},
+	{
+		"Name": "BP_CA10_NoteBlockMelodyAudioVolume",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestPropActor.CA10.NoteblockMelody"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA10/BP_CA10_NoteBlockMelodyAudioVolume.BP_CA10_NoteBlockMelodyAudioVolume_C"
+	},
+	{
+		"Name": "BP_CA05__AfterGateOpen_CourtyardAudioVolume",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestPropActor.CA05.AfterGateOpen.CourtyardAudioVolume"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestAudioActor"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.QuestActor.NoCulling"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.QuestActor"
+				},
+				{
+					"TagName": "SW.ReplicationGraph"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA05/BP_CA05__AfterGateOpen_CourtyardAudioVolume.BP_CA05__AfterGateOpen_CourtyardAudioVolume_C"
+	},
+	{
+		"Name": "BP_CA05__AfterGateOpen_FortressInsideAudioVolume",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestPropActor.CA05.AfterGateOpen.FortressInside"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestAudioActor"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.QuestActor.NoCulling"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.QuestActor"
+				},
+				{
+					"TagName": "SW.ReplicationGraph"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA05/BP_CA05__AfterGateOpen_FortressInsideAudioVolume.BP_CA05__AfterGateOpen_FortressInsideAudioVolume_C"
+	}
+]

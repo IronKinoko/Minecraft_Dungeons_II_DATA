@@ -1,0 +1,1178 @@
+[
+	{
+		"Name": "Default",
+		"TriggerType": "TaskType",
+		"TaskType":
+		{
+			"AssetPath":
+			{
+				"PackageName": "/Script/Dungeons",
+				"AssetName": "KillTask"
+			},
+			"SubPathString": ""
+		},
+		"TaskName": "None",
+		"TaskDefinition":
+		{
+			"TaskStates":
+			{
+				"Active":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				},
+				"Completed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				},
+				"Failed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				}
+			},
+			"EncounterType": "QuestTask",
+			"ShouldTrackTaskForClosestDistanceRTPC": true,
+			"MaxRadius": 3500,
+			"MaxRadiusSq": 9e+06
+		}
+	},
+	{
+		"Name": "KillQuest_CA00_K01",
+		"TriggerType": "TaskName",
+		"TaskType":
+		{
+			"AssetPath":
+			{
+				"PackageName": "/Script/Dungeons",
+				"AssetName": "KillTask"
+			},
+			"SubPathString": ""
+		},
+		"TaskName": "CA00_K01",
+		"TaskDefinition":
+		{
+			"TaskStates":
+			{
+				"Active":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				},
+				"Completed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				},
+				"Failed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				}
+			},
+			"EncounterType": "QuestTask",
+			"ShouldTrackTaskForClosestDistanceRTPC": false,
+			"MaxRadius": 6000,
+			"MaxRadiusSq": 3.6e+07
+		}
+	},
+	{
+		"Name": "KillQuest_CA00_I01",
+		"TriggerType": "TaskName",
+		"TaskType":
+		{
+			"AssetPath":
+			{
+				"PackageName": "/Script/Dungeons",
+				"AssetName": "KillTask"
+			},
+			"SubPathString": ""
+		},
+		"TaskName": "CA00_I01",
+		"TaskDefinition":
+		{
+			"TaskStates":
+			{
+				"Active":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				},
+				"Completed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				},
+				"Failed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				}
+			},
+			"EncounterType": "QuestTask",
+			"ShouldTrackTaskForClosestDistanceRTPC": false,
+			"MaxRadius": 6000,
+			"MaxRadiusSq": 3.6e+07
+		}
+	},
+	{
+		"Name": "KillQuest_CA00_E03",
+		"TriggerType": "TaskName",
+		"TaskType":
+		{
+			"AssetPath":
+			{
+				"PackageName": "/Script/Dungeons",
+				"AssetName": "KillTask"
+			},
+			"SubPathString": ""
+		},
+		"TaskName": "CA00_E03",
+		"TaskDefinition":
+		{
+			"TaskStates":
+			{
+				"Active":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				},
+				"Completed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				}
+			},
+			"EncounterType": "QuestTask",
+			"ShouldTrackTaskForClosestDistanceRTPC": false,
+			"MaxRadius": 6500,
+			"MaxRadiusSq": 4.225e+07
+		}
+	},
+	{
+		"Name": "KillQuest_CA00_PC02",
+		"TriggerType": "TaskName",
+		"TaskType":
+		{
+			"AssetPath":
+			{
+				"PackageName": "/Script/Dungeons",
+				"AssetName": "KillTask"
+			},
+			"SubPathString": ""
+		},
+		"TaskName": "CA00_PC02",
+		"TaskDefinition":
+		{
+			"TaskStates":
+			{
+				"Active":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				},
+				"Completed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				}
+			},
+			"EncounterType": "QuestTask",
+			"ShouldTrackTaskForClosestDistanceRTPC": false,
+			"MaxRadius": 6500,
+			"MaxRadiusSq": 4.225e+07
+		}
+	},
+	{
+		"Name": "KillQuest_CA00_SM02",
+		"TriggerType": "TaskName",
+		"TaskType":
+		{
+			"AssetPath":
+			{
+				"PackageName": "/Script/Dungeons",
+				"AssetName": "KillTask"
+			},
+			"SubPathString": ""
+		},
+		"TaskName": "CA00_SM02",
+		"TaskDefinition":
+		{
+			"TaskStates":
+			{
+				"Active":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				},
+				"Completed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				}
+			},
+			"EncounterType": "QuestTask",
+			"ShouldTrackTaskForClosestDistanceRTPC": false,
+			"MaxRadius": 10000,
+			"MaxRadiusSq": 1e+08
+		}
+	},
+	{
+		"Name": "KillQuest_CA00_K02",
+		"TriggerType": "TaskName",
+		"TaskType":
+		{
+			"AssetPath":
+			{
+				"PackageName": "/Script/Dungeons",
+				"AssetName": "KillTask"
+			},
+			"SubPathString": ""
+		},
+		"TaskName": "CA00_K02",
+		"TaskDefinition":
+		{
+			"TaskStates":
+			{
+				"Active":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				},
+				"Completed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				},
+				"Failed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				}
+			},
+			"EncounterType": "QuestTask",
+			"ShouldTrackTaskForClosestDistanceRTPC": false,
+			"MaxRadius": 10000,
+			"MaxRadiusSq": 1e+08
+		}
+	},
+	{
+		"Name": "KillQuest_CA00_I02",
+		"TriggerType": "TaskName",
+		"TaskType":
+		{
+			"AssetPath":
+			{
+				"PackageName": "/Script/Dungeons",
+				"AssetName": "KillTask"
+			},
+			"SubPathString": ""
+		},
+		"TaskName": "CA00_I02",
+		"TaskDefinition":
+		{
+			"TaskStates":
+			{
+				"Active":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				},
+				"Completed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				}
+			},
+			"EncounterType": "QuestTask",
+			"ShouldTrackTaskForClosestDistanceRTPC": false,
+			"MaxRadius": 10000,
+			"MaxRadiusSq": 1e+08
+		}
+	},
+	{
+		"Name": "KillQuest_CA00_Standard01",
+		"TriggerType": "TaskName",
+		"TaskType":
+		{
+			"AssetPath":
+			{
+				"PackageName": "/Script/Dungeons",
+				"AssetName": "KillTask"
+			},
+			"SubPathString": ""
+		},
+		"TaskName": "CA00_Standard01",
+		"TaskDefinition":
+		{
+			"TaskStates":
+			{
+				"Active":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				},
+				"Completed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				}
+			},
+			"EncounterType": "QuestTask",
+			"ShouldTrackTaskForClosestDistanceRTPC": false,
+			"MaxRadius": 10000,
+			"MaxRadiusSq": 1e+08
+		}
+	},
+	{
+		"Name": "KillQuest_CA00_E04",
+		"TriggerType": "TaskName",
+		"TaskType":
+		{
+			"AssetPath":
+			{
+				"PackageName": "/Script/Dungeons",
+				"AssetName": "KillTask"
+			},
+			"SubPathString": ""
+		},
+		"TaskName": "CA00_E04",
+		"TaskDefinition":
+		{
+			"TaskStates":
+			{
+				"Active":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				},
+				"Completed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				}
+			},
+			"EncounterType": "QuestTask",
+			"ShouldTrackTaskForClosestDistanceRTPC": false,
+			"MaxRadius": 10000,
+			"MaxRadiusSq": 1e+08
+		}
+	},
+	{
+		"Name": "KillQuest_CA00_I07",
+		"TriggerType": "TaskName",
+		"TaskType":
+		{
+			"AssetPath":
+			{
+				"PackageName": "/Script/Dungeons",
+				"AssetName": "KillTask"
+			},
+			"SubPathString": ""
+		},
+		"TaskName": "CA00_I07",
+		"TaskDefinition":
+		{
+			"TaskStates":
+			{
+				"Active":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				},
+				"Completed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				}
+			},
+			"EncounterType": "QuestTask",
+			"ShouldTrackTaskForClosestDistanceRTPC": false,
+			"MaxRadius": 10000,
+			"MaxRadiusSq": 1e+08
+		}
+	},
+	{
+		"Name": "KillQuest_CA01_K02",
+		"TriggerType": "TaskName",
+		"TaskType":
+		{
+			"AssetPath":
+			{
+				"PackageName": "/Script/Dungeons",
+				"AssetName": "KillTask"
+			},
+			"SubPathString": ""
+		},
+		"TaskName": "CA01_K02",
+		"TaskDefinition":
+		{
+			"TaskStates":
+			{
+				"Active":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				},
+				"Completed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				},
+				"Failed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				}
+			},
+			"EncounterType": "QuestTask",
+			"ShouldTrackTaskForClosestDistanceRTPC": true,
+			"MaxRadius": 4500,
+			"MaxRadiusSq": 1.225e+07
+		}
+	},
+	{
+		"Name": "KillQuest_CA01_K03",
+		"TriggerType": "TaskName",
+		"TaskType":
+		{
+			"AssetPath":
+			{
+				"PackageName": "/Script/Dungeons",
+				"AssetName": "KillTask"
+			},
+			"SubPathString": ""
+		},
+		"TaskName": "CA01_K03",
+		"TaskDefinition":
+		{
+			"TaskStates":
+			{
+				"Active":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				},
+				"Completed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				},
+				"Failed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				}
+			},
+			"EncounterType": "QuestTask",
+			"ShouldTrackTaskForClosestDistanceRTPC": true,
+			"MaxRadius": 4500,
+			"MaxRadiusSq": 2.025e+07
+		}
+	},
+	{
+		"Name": "KillQuest_CA01_K04",
+		"TriggerType": "TaskName",
+		"TaskType":
+		{
+			"AssetPath":
+			{
+				"PackageName": "/Script/Dungeons",
+				"AssetName": "KillTask"
+			},
+			"SubPathString": ""
+		},
+		"TaskName": "CA01_K04",
+		"TaskDefinition":
+		{
+			"TaskStates":
+			{
+				"Active":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_02.InGameEventName-KillQuest_02"
+					]
+				},
+				"Completed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				},
+				"Failed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				}
+			},
+			"EncounterType": "QuestTask",
+			"ShouldTrackTaskForClosestDistanceRTPC": true,
+			"MaxRadius": 3000,
+			"MaxRadiusSq": 6.25e+06
+		}
+	},
+	{
+		"Name": "KillQuest_CA02_K01",
+		"TriggerType": "TaskName",
+		"TaskType":
+		{
+			"AssetPath":
+			{
+				"PackageName": "/Script/Dungeons",
+				"AssetName": "KillTask"
+			},
+			"SubPathString": ""
+		},
+		"TaskName": "CA02_K01",
+		"TaskDefinition":
+		{
+			"TaskStates":
+			{
+				"Active":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-Arena01.InGameEventName-Arena01"
+					]
+				},
+				"Completed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				},
+				"Failed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				}
+			},
+			"EncounterType": "ArenaFight",
+			"ShouldTrackTaskForClosestDistanceRTPC": true,
+			"MaxRadius": 3500,
+			"MaxRadiusSq": 1.225e+07
+		}
+	},
+	{
+		"Name": "KillQuest_CA02_C_K03",
+		"TriggerType": "TaskName",
+		"TaskType":
+		{
+			"AssetPath":
+			{
+				"PackageName": "/Script/Dungeons",
+				"AssetName": "KillTask"
+			},
+			"SubPathString": ""
+		},
+		"TaskName": "CA02_C_K03",
+		"TaskDefinition":
+		{
+			"TaskStates":
+			{
+				"Active":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				},
+				"Completed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				},
+				"Failed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				}
+			},
+			"EncounterType": "QuestTask",
+			"ShouldTrackTaskForClosestDistanceRTPC": true,
+			"MaxRadius": 2500,
+			"MaxRadiusSq": 6.25e+06
+		}
+	},
+	{
+		"Name": "KillQuest_PLa1_S04_A_K01",
+		"TriggerType": "TaskName",
+		"TaskType":
+		{
+			"AssetPath":
+			{
+				"PackageName": "/Script/Dungeons",
+				"AssetName": "KillTask"
+			},
+			"SubPathString": ""
+		},
+		"TaskName": "PLa1_S04_A_K01",
+		"TaskDefinition":
+		{
+			"TaskStates":
+			{
+				"Active":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				},
+				"Completed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				},
+				"Failed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				}
+			},
+			"EncounterType": "QuestTask",
+			"ShouldTrackTaskForClosestDistanceRTPC": true,
+			"MaxRadius": 2500,
+			"MaxRadiusSq": 6.25e+06
+		}
+	},
+	{
+		"Name": "KillQuest_PLa1_S04_A_K02",
+		"TriggerType": "TaskName",
+		"TaskType":
+		{
+			"AssetPath":
+			{
+				"PackageName": "/Script/Dungeons",
+				"AssetName": "KillTask"
+			},
+			"SubPathString": ""
+		},
+		"TaskName": "PLa1_S04_A_K02",
+		"TaskDefinition":
+		{
+			"TaskStates":
+			{
+				"Active":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				},
+				"Completed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				},
+				"Failed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				}
+			},
+			"EncounterType": "QuestTask",
+			"ShouldTrackTaskForClosestDistanceRTPC": true,
+			"MaxRadius": 2500,
+			"MaxRadiusSq": 6.25e+06
+		}
+	},
+	{
+		"Name": "KillQuest_PLa1_S04_A_K03",
+		"TriggerType": "TaskName",
+		"TaskType":
+		{
+			"AssetPath":
+			{
+				"PackageName": "/Script/Dungeons",
+				"AssetName": "KillTask"
+			},
+			"SubPathString": ""
+		},
+		"TaskName": "PLa1_S04_A_K03",
+		"TaskDefinition":
+		{
+			"TaskStates":
+			{
+				"Active":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				},
+				"Completed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				},
+				"Failed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				}
+			},
+			"EncounterType": "QuestTask",
+			"ShouldTrackTaskForClosestDistanceRTPC": true,
+			"MaxRadius": 2500,
+			"MaxRadiusSq": 6.25e+06
+		}
+	},
+	{
+		"Name": "KillQuest_PLa1_S04_A_K04",
+		"TriggerType": "TaskName",
+		"TaskType":
+		{
+			"AssetPath":
+			{
+				"PackageName": "/Script/Dungeons",
+				"AssetName": "KillTask"
+			},
+			"SubPathString": ""
+		},
+		"TaskName": "PLa1_S04_A_K04",
+		"TaskDefinition":
+		{
+			"TaskStates":
+			{
+				"Active":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				},
+				"Completed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				},
+				"Failed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				}
+			},
+			"EncounterType": "QuestTask",
+			"ShouldTrackTaskForClosestDistanceRTPC": true,
+			"MaxRadius": 2500,
+			"MaxRadiusSq": 6.25e+06
+		}
+	},
+	{
+		"Name": "KillQuest_PLa1_S06_A_K02",
+		"TriggerType": "TaskName",
+		"TaskType":
+		{
+			"AssetPath":
+			{
+				"PackageName": "/Script/Dungeons",
+				"AssetName": "KillTask"
+			},
+			"SubPathString": ""
+		},
+		"TaskName": "PLa1_S06_A_K02",
+		"TaskDefinition":
+		{
+			"TaskStates":
+			{
+				"Active":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				},
+				"Completed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				},
+				"Failed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				}
+			},
+			"EncounterType": "QuestTask",
+			"ShouldTrackTaskForClosestDistanceRTPC": true,
+			"MaxRadius": 2500,
+			"MaxRadiusSq": 6.25e+06
+		}
+	},
+	{
+		"Name": "KillQuest_PLa1_S06_A_K03",
+		"TriggerType": "TaskName",
+		"TaskType":
+		{
+			"AssetPath":
+			{
+				"PackageName": "/Script/Dungeons",
+				"AssetName": "KillTask"
+			},
+			"SubPathString": ""
+		},
+		"TaskName": "PLa1_S06_A_K03",
+		"TaskDefinition":
+		{
+			"TaskStates":
+			{
+				"Active":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				},
+				"Completed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				},
+				"Failed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				}
+			},
+			"EncounterType": "QuestTask",
+			"ShouldTrackTaskForClosestDistanceRTPC": true,
+			"MaxRadius": 2500,
+			"MaxRadiusSq": 6.25e+06
+		}
+	},
+	{
+		"Name": "KillQuest_PLa1_S06_A_K04",
+		"TriggerType": "TaskName",
+		"TaskType":
+		{
+			"AssetPath":
+			{
+				"PackageName": "/Script/Dungeons",
+				"AssetName": "KillTask"
+			},
+			"SubPathString": ""
+		},
+		"TaskName": "PLa1_S06_A_K04",
+		"TaskDefinition":
+		{
+			"TaskStates":
+			{
+				"Active":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				},
+				"Completed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				},
+				"Failed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				}
+			},
+			"EncounterType": "QuestTask",
+			"ShouldTrackTaskForClosestDistanceRTPC": true,
+			"MaxRadius": 2500,
+			"MaxRadiusSq": 6.25e+06
+		}
+	},
+	{
+		"Name": "KillQuest_PLa1_S08_A_K05",
+		"TriggerType": "TaskName",
+		"TaskType":
+		{
+			"AssetPath":
+			{
+				"PackageName": "/Script/Dungeons",
+				"AssetName": "KillTask"
+			},
+			"SubPathString": ""
+		},
+		"TaskName": "PLa1_S08_A_K05",
+		"TaskDefinition":
+		{
+			"TaskStates":
+			{
+				"Active":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				},
+				"Completed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				},
+				"Failed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				}
+			},
+			"EncounterType": "QuestTask",
+			"ShouldTrackTaskForClosestDistanceRTPC": true,
+			"MaxRadius": 3000,
+			"MaxRadiusSq": 9e+06
+		}
+	},
+	{
+		"Name": "KillQuest_PLa1_S08_A_K02",
+		"TriggerType": "TaskName",
+		"TaskType":
+		{
+			"AssetPath":
+			{
+				"PackageName": "/Script/Dungeons",
+				"AssetName": "KillTask"
+			},
+			"SubPathString": ""
+		},
+		"TaskName": "PLa1_S08_A_K02",
+		"TaskDefinition":
+		{
+			"TaskStates":
+			{
+				"Active":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				},
+				"Completed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				},
+				"Failed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				}
+			},
+			"EncounterType": "QuestTask",
+			"ShouldTrackTaskForClosestDistanceRTPC": true,
+			"MaxRadius": 2500,
+			"MaxRadiusSq": 6.25e+06
+		}
+	},
+	{
+		"Name": "KillQuest_PLa1_S08_A_K03",
+		"TriggerType": "TaskName",
+		"TaskType":
+		{
+			"AssetPath":
+			{
+				"PackageName": "/Script/Dungeons",
+				"AssetName": "KillTask"
+			},
+			"SubPathString": ""
+		},
+		"TaskName": "PLa1_S08_A_K03",
+		"TaskDefinition":
+		{
+			"TaskStates":
+			{
+				"Active":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				},
+				"Completed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				},
+				"Failed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				}
+			},
+			"EncounterType": "QuestTask",
+			"ShouldTrackTaskForClosestDistanceRTPC": true,
+			"MaxRadius": 2500,
+			"MaxRadiusSq": 6.25e+06
+		}
+	},
+	{
+		"Name": "KillQuest_PLa1_S08_A_K04",
+		"TriggerType": "TaskName",
+		"TaskType":
+		{
+			"AssetPath":
+			{
+				"PackageName": "/Script/Dungeons",
+				"AssetName": "KillTask"
+			},
+			"SubPathString": ""
+		},
+		"TaskName": "PLa1_S08_A_K04",
+		"TaskDefinition":
+		{
+			"TaskStates":
+			{
+				"Active":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				},
+				"Completed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				},
+				"Failed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				}
+			},
+			"EncounterType": "QuestTask",
+			"ShouldTrackTaskForClosestDistanceRTPC": true,
+			"MaxRadius": 2500,
+			"MaxRadiusSq": 6.25e+06
+		}
+	},
+	{
+		"Name": "KillQuest_PLa2_S15_A_K01",
+		"TriggerType": "TaskName",
+		"TaskType":
+		{
+			"AssetPath":
+			{
+				"PackageName": "/Script/Dungeons",
+				"AssetName": "KillTask"
+			},
+			"SubPathString": ""
+		},
+		"TaskName": "PLa2_S15_A_K01",
+		"TaskDefinition":
+		{
+			"TaskStates":
+			{
+				"Active":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				},
+				"Completed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				},
+				"Failed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				}
+			},
+			"EncounterType": "QuestTask",
+			"ShouldTrackTaskForClosestDistanceRTPC": true,
+			"MaxRadius": 2500,
+			"MaxRadiusSq": 6.25e+06
+		}
+	},
+	{
+		"Name": "KillQuest_PLa2_S17_A_K01",
+		"TriggerType": "TaskName",
+		"TaskType":
+		{
+			"AssetPath":
+			{
+				"PackageName": "/Script/Dungeons",
+				"AssetName": "KillTask"
+			},
+			"SubPathString": ""
+		},
+		"TaskName": "PLa2_S17_A_K01",
+		"TaskDefinition":
+		{
+			"TaskStates":
+			{
+				"Active":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+					]
+				},
+				"Completed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				},
+				"Failed":
+				{
+					"StateValues": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-None.InGameEventName-None"
+					]
+				}
+			},
+			"EncounterType": "QuestTask",
+			"ShouldTrackTaskForClosestDistanceRTPC": true,
+			"MaxRadius": 3500,
+			"MaxRadiusSq": 1.225e+07
+		}
+	}
+]

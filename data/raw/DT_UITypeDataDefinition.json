@@ -1,0 +1,300 @@
+[
+	{
+		"Name": "SoulOrb",
+		"TypeTag":
+		{
+			"TagName": "SW.AbilityCallsign.SoulEnchantment.SoulOrb"
+		},
+		"IconReference": "/OreUI/UI/Icons/Currency/T_UI_Icon_EnchantmentSwirl.T_UI_Icon_EnchantmentSwirl",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_UITypeDataDefinition.csv\", \"SW_AbilityCallsign_SoulEnchantment_SoulOrb_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "EffectSuffixTier",
+		"TypeTag":
+		{
+			"TagName": "SW.Effect.Tier"
+		},
+		"IconReference": "None"
+	},
+	{
+		"Name": "EffectSuffixTier1",
+		"TypeTag":
+		{
+			"TagName": "SW.Effect.Tier.1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Effect.Tier"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Effect"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "None",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.EffectSuffix\")":
+				{
+					"Text": "LOCTABLE(\"DT_UITypeDataDefinition.csv\", \"SW_Effect_Tier_1_SW_TextEntry_EffectSuffix\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "EffectSuffixTier2",
+		"TypeTag":
+		{
+			"TagName": "SW.Effect.Tier.2"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Effect.Tier"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Effect"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "None",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.EffectSuffix\")":
+				{
+					"Text": "LOCTABLE(\"DT_UITypeDataDefinition.csv\", \"SW_Effect_Tier_2_SW_TextEntry_EffectSuffix\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "EffectSuffixTier3",
+		"TypeTag":
+		{
+			"TagName": "SW.Effect.Tier.3"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Effect.Tier"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Effect"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "None",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.EffectSuffix\")":
+				{
+					"Text": "LOCTABLE(\"DT_UITypeDataDefinition.csv\", \"SW_Effect_Tier_3_SW_TextEntry_EffectSuffix\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "EffectSuffixTier4",
+		"TypeTag":
+		{
+			"TagName": "SW.Effect.Tier.4"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Effect.Tier"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Effect"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "None",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.EffectSuffix\")":
+				{
+					"Text": "LOCTABLE(\"DT_UITypeDataDefinition.csv\", \"SW_Effect_Tier_4_SW_TextEntry_EffectSuffix\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "EffectSuffixUnique",
+		"TypeTag":
+		{
+			"TagName": "SW.Effect.Tier.Unique"
+		},
+		"IconReference": "None",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.EffectSuffix\")":
+				{
+					"Text": "LOCTABLE(\"DT_UITypeDataDefinition.csv\", \"SW_Effect_Tier_Unique_SW_TextEntry_EffectSuffix\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "SoulStormTexts",
+		"TypeTag":
+		{
+			"TagName": "SW.AreaModification.SoulStorm"
+		},
+		"IconReference": "None",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Soulstorm.StorminatorsRemaining\")":
+				{
+					"Text": "LOCTABLE(\"DT_UITypeDataDefinition.csv\", \"SW_AreaModification_SoulStorm_SW_TextEntry_Soulstorm_StorminatorsRemaining\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Soulstorm.Beaten\")":
+				{
+					"Text": "LOCTABLE(\"DT_UITypeDataDefinition.csv\", \"SW_AreaModification_SoulStorm_SW_TextEntry_Soulstorm_Beaten\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Soulstorm.Entered\")":
+				{
+					"Text": "LOCTABLE(\"DT_UITypeDataDefinition.csv\", \"SW_AreaModification_SoulStorm_SW_TextEntry_Soulstorm_Entered\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Soulstorm.Storminator.Defeated\")":
+				{
+					"Text": "LOCTABLE(\"DT_UITypeDataDefinition.csv\", \"SW_AreaModification_SoulStorm_SW_TextEntry_Soulstorm_Storminator_Defeated\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Soulstorm.Ended\")":
+				{
+					"Text": "LOCTABLE(\"DT_UITypeDataDefinition.csv\", \"SW_AreaModification_SoulStorm_SW_TextEntry_Soulstorm_Ended\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Soulstorm.Storminator.Hint\")":
+				{
+					"Text": "LOCTABLE(\"DT_UITypeDataDefinition.csv\", \"SW_AreaModification_SoulStorm_SW_TextEntry_Soulstorm_Storminator_Hint\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Soulstorm.Shieldinator.Hint\")":
+				{
+					"Text": "LOCTABLE(\"DT_UITypeDataDefinition.csv\", \"SW_AreaModification_SoulStorm_SW_TextEntry_Soulstorm_Shieldinator_Hint\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Soulstorm.Beaten.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_UITypeDataDefinition.csv\", \"SW_AreaModification_SoulStorm_SW_TextEntry_Soulstorm_Beaten_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Soulstorm.Ended.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_UITypeDataDefinition.csv\", \"SW_AreaModification_SoulStorm_SW_TextEntry_Soulstorm_Ended_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Soulstorm.Entered.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_UITypeDataDefinition.csv\", \"SW_AreaModification_SoulStorm_SW_TextEntry_Soulstorm_Entered_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	}
+]

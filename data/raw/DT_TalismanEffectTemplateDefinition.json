@@ -1,0 +1,3182 @@
+[
+	{
+		"Name": "TalismanRangedBuffI",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.RangedBuff.I"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier1"
+				},
+				{
+					"TagName": "SW.Effect.Power"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.Power"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0.5,
+			"FixedEffectValue": 0.1,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanRangedBuffII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.RangedBuff.II"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier2"
+				},
+				{
+					"TagName": "SW.Effect.Power"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.Power"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0.5,
+			"FixedEffectValue": 0.15,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanRangedBuffIII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.RangedBuff.III"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier3"
+				},
+				{
+					"TagName": "SW.Effect.Power"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.Power"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0.5,
+			"FixedEffectValue": 0.25,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanHealthBoostI",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.HealthBoost.I"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier1"
+				},
+				{
+					"TagName": "SW.Effect.HealthBoost"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.HealthBoost"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 1.2,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanHealthBoostII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.HealthBoost.II"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier2"
+				},
+				{
+					"TagName": "SW.Effect.HealthBoost"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.HealthBoost"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 1.25,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanHealthBoostIII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.HealthBoost.III"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier3"
+				},
+				{
+					"TagName": "SW.Effect.HealthBoost"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.HealthBoost"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 1.35,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanPlummetingI",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.Plummeting.I"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier1"
+				},
+				{
+					"TagName": "SW.Effect.Plummeting"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.Plummeting"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0.5,
+			"FixedEffectValue": 1.1,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanPlummetingII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.Plummeting.II"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier2"
+				},
+				{
+					"TagName": "SW.Effect.Plummeting"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.Plummeting"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0.5,
+			"FixedEffectValue": 1.2,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanPlummetingIII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.Plummeting.III"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier3"
+				},
+				{
+					"TagName": "SW.Effect.Plummeting"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.Plummeting"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0.5,
+			"FixedEffectValue": 1.35,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanBrawlingI",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.Brawling.I"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier1"
+				},
+				{
+					"TagName": "SW.Effect.Sharpness"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.Sharpness"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0.01,
+			"EffectMaxValue": 0.02,
+			"FixedEffectValue": 0.1,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanBrawlingII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.Brawling.II"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier2"
+				},
+				{
+					"TagName": "SW.Effect.Sharpness"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.Sharpness"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0.1,
+			"EffectMaxValue": 0.2,
+			"FixedEffectValue": 0.2,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanBrawlingIII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.Brawling.III"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier3"
+				},
+				{
+					"TagName": "SW.Effect.Sharpness"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.Sharpness"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0.2,
+			"EffectMaxValue": 0.4,
+			"FixedEffectValue": 0.35,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanSoulGatherI",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.SoulGather.I"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier1"
+				},
+				{
+					"TagName": "SW.Effect.SoulGather"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.SoulGather"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 0.4,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanSoulGatherII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.SoulGather.II"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier2"
+				},
+				{
+					"TagName": "SW.Effect.SoulGather"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.SoulGather"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 0.8,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanSoulGatherIII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.SoulGather.III"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier3"
+				},
+				{
+					"TagName": "SW.Effect.SoulGather"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.SoulGather"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 1.4,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanPotionCooldownI",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.PotionCooldown.I"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier1"
+				},
+				{
+					"TagName": "SW.Effect.PotionCooldown"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.PotionCooldown"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": -0.04,
+			"EffectMaxValue": -0.01,
+			"FixedEffectValue": -0.1,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanPotionCooldownII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.PotionCooldown.II"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier2"
+				},
+				{
+					"TagName": "SW.Effect.PotionCooldown"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.PotionCooldown"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": -0.04,
+			"EffectMaxValue": -0.01,
+			"FixedEffectValue": -0.15,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanPotionCooldownIII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.PotionCooldown.III"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier3"
+				},
+				{
+					"TagName": "SW.Effect.PotionCooldown"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.PotionCooldown"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": -0.04,
+			"EffectMaxValue": -0.01,
+			"FixedEffectValue": -0.25,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanHeardbudI",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.Healing.I"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier1"
+				},
+				{
+					"TagName": "SW.Effect.Regeneration"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.Regeneration"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 0.01,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanHeartbudII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.Healing.II"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier2"
+				},
+				{
+					"TagName": "SW.Effect.Regeneration"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.Regeneration"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 0.03,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanHeartbudIII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.Healing.III"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier3"
+				},
+				{
+					"TagName": "SW.Effect.Regeneration"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.Regeneration"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 0.05,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanDoubleDropI",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.DoubleDrop.I"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier1"
+				},
+				{
+					"TagName": "SW.Effect.Looting"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.Looting"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 0.02,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanDoubleDropII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.DoubleDrop.II"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier2"
+				},
+				{
+					"TagName": "SW.Effect.Looting"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.Looting"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 0.04,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanDoubleDropIII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.DoubleDrop.III"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier3"
+				},
+				{
+					"TagName": "SW.Effect.Looting"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.Looting"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 0.07,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanEmeraldIncreaseI",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.EmeraldIncrease.I"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier1"
+				},
+				{
+					"TagName": "SW.Effect.EmeraldsIncrease"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.EmeraldsIncrease"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 0.1,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanEmeraldIncreaseII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.EmeraldIncrease.II"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier2"
+				},
+				{
+					"TagName": "SW.Effect.EmeraldsIncrease"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.EmeraldsIncrease"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 0.2,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanEmeraldIncreaseIII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.EmeraldIncrease.III"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier3"
+				},
+				{
+					"TagName": "SW.Effect.EmeraldsIncrease"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.EmeraldsIncrease"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 0.25,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanDropChanceI",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.DropChance.I"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier1"
+				},
+				{
+					"TagName": "SW.Effect.DropChance"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.DropChance"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 0.01,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanDropChanceII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.DropChance.II"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier2"
+				},
+				{
+					"TagName": "SW.Effect.DropChance"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.DropChance"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 0.02,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanDropChanceIII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.DropChance.III"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier3"
+				},
+				{
+					"TagName": "SW.Effect.DropChance"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.DropChance"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 0.04,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanArtifactCooldownI",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.ArtifactCooldown.I"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier1"
+				},
+				{
+					"TagName": "SW.Effect.Cooldown"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.Cooldown"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": -0.04,
+			"EffectMaxValue": -0.01,
+			"FixedEffectValue": -0.04,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanArtifactCooldownII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.ArtifactCooldown.II"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier2"
+				},
+				{
+					"TagName": "SW.Effect.Cooldown"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.Cooldown"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": -0.04,
+			"EffectMaxValue": -0.01,
+			"FixedEffectValue": -0.08,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanArtifactCooldownIII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.ArtifactCooldown.III"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier3"
+				},
+				{
+					"TagName": "SW.Effect.Cooldown"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.Cooldown"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": -0.04,
+			"EffectMaxValue": -0.01,
+			"FixedEffectValue": -0.14,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanRollingCooldown.I",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.RollingCooldown.I"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier1"
+				},
+				{
+					"TagName": "SW.Effect.RollCooldown"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.RollCooldown"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0.1,
+			"EffectMaxValue": 0.2,
+			"FixedEffectValue": 0.2,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanRollingCooldown.II",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.RollingCooldown.II"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier2"
+				},
+				{
+					"TagName": "SW.Effect.RollCooldown"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.RollCooldown"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0.1,
+			"EffectMaxValue": 0.2,
+			"FixedEffectValue": 0.25,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanRollingCooldown.III",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.RollingCooldown.III"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier3"
+				},
+				{
+					"TagName": "SW.Effect.RollCooldown"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.RollCooldown"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0.1,
+			"EffectMaxValue": 0.2,
+			"FixedEffectValue": 0.45,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanSoulCapacityI",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.SoulCapacity.I"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier1"
+				},
+				{
+					"TagName": "SW.Effect.SoulMax"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.SoulMax"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 1.15,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanSoulCapacityII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.SoulCapacity.II"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier2"
+				},
+				{
+					"TagName": "SW.Effect.SoulMax"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.SoulMax"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 1.2,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanSoulCapacityIII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.SoulCapacity.III"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier3"
+				},
+				{
+					"TagName": "SW.Effect.SoulMax"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.SoulMax"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 1.35,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanAmmoCapacityI",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.AmmoCapacity.I"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier1"
+				},
+				{
+					"TagName": "SW.Effect.AmmoCapacity"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.AmmoCapacity"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 1.2,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanAmmoCapacityII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.AmmoCapacity.II"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier2"
+				},
+				{
+					"TagName": "SW.Effect.AmmoCapacity"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.AmmoCapacity"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 1.4,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanAmmoCapacityIII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.AmmoCapacity.III"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier3"
+				},
+				{
+					"TagName": "SW.Effect.AmmoCapacity"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.AmmoCapacity"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 1.6,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanStatusBuffI",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.StatusBuff.I"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier1"
+				},
+				{
+					"TagName": "SW.Effect.StatusBuff"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.StatusBuff"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 1.1,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanStatusBuffII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.StatusBuff.II"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier2"
+				},
+				{
+					"TagName": "SW.Effect.StatusBuff"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.StatusBuff"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 1.15,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanStatusBuffIII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.StatusBuff.III"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier3"
+				},
+				{
+					"TagName": "SW.Effect.StatusBuff"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.StatusBuff"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 1.25,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanExperienceIncreaseI",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.ExperienceIncrease.I"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier1"
+				},
+				{
+					"TagName": "SW.Effect.ExperienceIncrease"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.ExperienceIncrease"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 1.04,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanExperienceIncreaseII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.ExperienceIncrease.II"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier2"
+				},
+				{
+					"TagName": "SW.Effect.ExperienceIncrease"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.ExperienceIncrease"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 1.06,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanExperienceIncreaseIII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.ExperienceIncrease.III"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier3"
+				},
+				{
+					"TagName": "SW.Effect.ExperienceIncrease"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.ExperienceIncrease"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 1.1,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanHealthyStrikeI",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.HealthyStrike.I"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Effect.HealthyStrike"
+				},
+				{
+					"TagName": "SW.EffectTemplate.Tier1"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Effect"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				}
+			]
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_HealthyStrike",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_HealthyStrikeDataStruct",
+						"HealthThreshold": 0.95,
+						"DamageBoost": 0.1,
+						"EffectMagnitude": 1,
+						"DamageBoostGameplayCue":
+						{
+							"TagName": "None"
+						}
+					}
+				]
+			}
+		],
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.HealthyStrike"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 1,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanHealthyStrikeII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.HealthyStrike.II"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Effect.HealthyStrike"
+				},
+				{
+					"TagName": "SW.EffectTemplate.Tier2"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Effect"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				}
+			]
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_HealthyStrike",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_HealthyStrikeDataStruct",
+						"HealthThreshold": 0.85,
+						"DamageBoost": 0.2,
+						"EffectMagnitude": 2,
+						"DamageBoostGameplayCue":
+						{
+							"TagName": "None"
+						}
+					}
+				]
+			}
+		],
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.HealthyStrike"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 2,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanHealthyStrikeIII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.HealthyStrike.III"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Effect.HealthyStrike"
+				},
+				{
+					"TagName": "SW.EffectTemplate.Tier3"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Effect"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				}
+			]
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_HealthyStrike",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_HealthyStrikeDataStruct",
+						"HealthThreshold": 0.75,
+						"DamageBoost": 0.4,
+						"EffectMagnitude": 3,
+						"DamageBoostGameplayCue":
+						{
+							"TagName": "None"
+						}
+					}
+				]
+			}
+		],
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.HealthyStrike"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 3,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanSpeedIncrementI",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.SpeedIncrement.I"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier1"
+				},
+				{
+					"TagName": "SW.Effect.SpeedIncrement"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"AbilitySpecialization":
+		{
+			"Specializations": [
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_SpeedIncrement",
+					"AbilityCallsign":
+					{
+						"TagName": "None"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.SpeedBoost"
+								},
+								"Type": "Float",
+								"Float": 0.1
+							},
+							"ModOp": "Override"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.EffectMagnitude"
+								},
+								"Type": "Float",
+								"Float": 1
+							},
+							"ModOp": "Override"
+						}
+					]
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.SpeedIncrement"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 1,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanSpeedIncrementII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.SpeedIncrement.II"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier2"
+				},
+				{
+					"TagName": "SW.Effect.SpeedIncrement"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"AbilitySpecialization":
+		{
+			"Specializations": [
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_SpeedIncrement",
+					"AbilityCallsign":
+					{
+						"TagName": "None"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.SpeedBoost"
+								},
+								"Type": "Float",
+								"Float": 0.2
+							},
+							"ModOp": "Override"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.EffectMagnitude"
+								},
+								"Type": "Float",
+								"Float": 2
+							},
+							"ModOp": "Override"
+						}
+					]
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.SpeedIncrement"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 2,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanSpeedIncrementIII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.SpeedIncrement.III"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier3"
+				},
+				{
+					"TagName": "SW.Effect.SpeedIncrement"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"AbilitySpecialization":
+		{
+			"Specializations": [
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_SpeedIncrement",
+					"AbilityCallsign":
+					{
+						"TagName": "None"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.SpeedBoost"
+								},
+								"Type": "Float",
+								"Float": 0.3
+							},
+							"ModOp": "Override"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.EffectMagnitude"
+								},
+								"Type": "Float",
+								"Float": 3
+							},
+							"ModOp": "Override"
+						}
+					]
+				}
+			]
+		},
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.SpeedIncrement"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 3,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanFiringEmeraldI",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.FiringEmerald.I"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Tier1"
+				},
+				{
+					"TagName": "SW.Effect.FiringEmerald"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				}
+			]
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_EmeraldDamageIncreaser",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_FiringEmeraldsDataStruct",
+						"EmeraldCap": 7000,
+						"DamageAtCap": 1.25
+					}
+				]
+			}
+		],
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.FiringEmerald"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 1,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanFiringEmeraldII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.FiringEmerald.II"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Effect.FiringEmerald"
+				},
+				{
+					"TagName": "SW.EffectTemplate.Tier2"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Effect"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				}
+			]
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_EmeraldDamageIncreaser",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_FiringEmeraldsDataStruct",
+						"EmeraldCap": 8000,
+						"DamageAtCap": 1.4
+					}
+				]
+			}
+		],
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.FiringEmerald"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 1.75,
+			"MinimumRequiredItemPower": 0
+		}
+	},
+	{
+		"Name": "TalismanFiringEmeraldIII",
+		"TypeTag":
+		{
+			"TagName": "SW.EffectTemplate.FiringEmerald.III"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Effect.FiringEmerald"
+				},
+				{
+					"TagName": "SW.EffectTemplate.Tier3"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Effect"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				}
+			]
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_EmeraldDamageIncreaser",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_FiringEmeraldsDataStruct",
+						"EmeraldCap": 9000,
+						"DamageAtCap": 1.5
+					}
+				]
+			}
+		],
+		"TemplateData":
+		{
+			"Effect":
+			{
+				"TagName": "SW.Effect.FiringEmerald"
+			},
+			"HasFixedEffectValue": true,
+			"EffectMinValue": 0,
+			"EffectMaxValue": 0,
+			"FixedEffectValue": 2,
+			"MinimumRequiredItemPower": 0
+		}
+	}
+]

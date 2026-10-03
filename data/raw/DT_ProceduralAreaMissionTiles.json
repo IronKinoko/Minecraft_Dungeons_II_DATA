@@ -1,0 +1,119 @@
+[
+	{
+		"Name": "DD_ANC_002",
+		"MissionKey":
+		{
+			"TagName": "SW.AreaMission.Find.Treasure"
+		},
+		"Message": "LOCTABLE(\"QuestDialogueLabels_ProceduralArea.csv\", \"DD_ANC\")",
+		"Priority": "High"
+	},
+	{
+		"Name": "DD_ANC_017",
+		"MissionKey":
+		{
+			"TagName": "SW.AreaMission.Find.Treasure"
+		},
+		"Message": "LOCTABLE(\"QuestDialogueLabels_ProceduralArea.csv\", \"DD_ANC\")",
+		"Priority": "High"
+	},
+	{
+		"Name": "DD_ANC_022",
+		"MissionKey":
+		{
+			"TagName": "SW.AreaMission.Find.Treasure"
+		},
+		"Message": "LOCTABLE(\"QuestDialogueLabels_ProceduralArea.csv\", \"DD_ANC\")",
+		"Priority": "High"
+	},
+	{
+		"Name": "MW_ANC_006",
+		"MissionKey":
+		{
+			"TagName": "SW.AreaMission.Find.Treasure"
+		},
+		"Message": "LOCTABLE(\"QuestDialogueLabels_ProceduralArea.csv\", \"MW_ANC\")",
+		"Priority": "High"
+	},
+	{
+		"Name": "MW_ANC_008",
+		"MissionKey":
+		{
+			"TagName": "SW.AreaMission.Find.Treasure"
+		},
+		"Message": "LOCTABLE(\"QuestDialogueLabels_ProceduralArea.csv\", \"MW_ANC\")",
+		"Priority": "High"
+	},
+	{
+		"Name": "MW_ANC_010",
+		"MissionKey":
+		{
+			"TagName": "SW.AreaMission.Find.Treasure"
+		},
+		"Message": "LOCTABLE(\"QuestDialogueLabels_ProceduralArea.csv\", \"MW_ANC\")",
+		"Priority": "High"
+	},
+	{
+		"Name": "OS_RA_START_001",
+		"MissionKey":
+		{
+			"TagName": "SW.AreaMission.Find.Treasure"
+		},
+		"Message": "LOCTABLE(\"QuestDialogueLabels_ProceduralArea.csv\", \"DD_ANC\")",
+		"Priority": "High"
+	},
+	{
+		"Name": "OS_RA_ANC_002",
+		"MissionKey":
+		{
+			"TagName": "SW.AreaMission.Find.Treasure"
+		},
+		"Message": "LOCTABLE(\"QuestDialogueLabels_ProceduralArea.csv\", \"DD_ANC\")",
+		"Priority": "High"
+	},
+	{
+		"Name": "OS_RA_ANC_003",
+		"MissionKey":
+		{
+			"TagName": "SW.AreaMission.Find.Treasure"
+		},
+		"Message": "LOCTABLE(\"QuestDialogueLabels_ProceduralArea.csv\", \"DD_ANC\")",
+		"Priority": "High"
+	},
+	{
+		"Name": "DeepDark_Anchor_Boss",
+		"MissionKey":
+		{
+			"TagName": "SW.AreaMission.Defeat.RedstoneMonstrosity"
+		},
+		"Message": "LOCTABLE(\"QuestDialogueLabels_ProceduralArea.csv\", \"DeepDark_Boss\")",
+		"Priority": "High"
+	},
+	{
+		"Name": "Meadow_Anchor_Boss",
+		"MissionKey":
+		{
+			"TagName": "SW.AreaMission.Defeat.SculkMonstrosity"
+		},
+		"Message": "LOCTABLE(\"QuestDialogueLabels_ProceduralArea.csv\", \"Meadow_Boss\")",
+		"Priority": "High"
+	},
+	{
+		"Name": "Lush_Anchor_Boss",
+		"MissionKey":
+		{
+			"TagName": "SW.AreaMission.Defeat.MossMonstrosity"
+		},
+		"Message": "LOCTABLE(\"QuestDialogueLabels_ProceduralArea.csv\", \"Lush_Boss\")",
+		"Priority": "High"
+	},
+	{
+		"Name": "BOSS_ANC_RA",
+		"MissionKey":
+		{
+			"TagName": "SW.AreaMission.Defeat.Monarch"
+		},
+		"Message": "LOCTABLE(\"QuestDialogueLabels_ProceduralArea.csv\", \"ANC_Boss\")",
+		"Priority": "High"
+	}
+]

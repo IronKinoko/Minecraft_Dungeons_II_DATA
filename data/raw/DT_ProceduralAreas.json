@@ -1,0 +1,2895 @@
+[
+	{
+		"Name": "DeepDarkA1",
+		"bPackageInBuild": true,
+		"AreaSelectionSettings":
+		{
+			"OverworldArea":
+			{
+				"TagName": "None"
+			},
+			"OverworldAreaDoorways": [],
+			"MinSpawnPoints": 0,
+			"MaxSpawnPoints": 0,
+			"Weights": []
+		},
+		"Areas": [
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.DeepDark.A1"
+				},
+				"Type": "AreaLink",
+				"LevelName": "DeepDarkA1",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DeepDark"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark.A1"
+				},
+				"Size":
+				{
+					"TagName": "None"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			}
+		]
+	},
+	{
+		"Name": "Desert_A1_Fortress",
+		"bPackageInBuild": true,
+		"AreaSelectionSettings":
+		{
+			"OverworldArea":
+			{
+				"TagName": "None"
+			},
+			"OverworldAreaDoorways": [],
+			"MinSpawnPoints": 0,
+			"MaxSpawnPoints": 0,
+			"Weights": []
+		},
+		"Areas": [
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Desert.A1.FortressInt"
+				},
+				"Type": "Interior",
+				"LevelName": "spicewooddeserta1fortressint",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DesertA1.FortressProc"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.Desert.A1.FortressInt"
+				},
+				"Size":
+				{
+					"TagName": "None"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": false,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Desert.A1.TinyTower1"
+				},
+				"Type": "Interior",
+				"LevelName": "Desert_Towers_001",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.Overworld"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.Desert.A1.FortressInt"
+				},
+				"Size":
+				{
+					"TagName": "None"
+				},
+				"LoadingRange": 500,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": false,
+				"bIncludeInMapGeneration": false
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Desert.A1.TinyTower2"
+				},
+				"Type": "Interior",
+				"LevelName": "Desert_Towers_002",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.Overworld"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.Desert.A1.FortressInt"
+				},
+				"Size":
+				{
+					"TagName": "None"
+				},
+				"LoadingRange": 500,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": false,
+				"bIncludeInMapGeneration": false
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Desert.A1.TinyTower3"
+				},
+				"Type": "Interior",
+				"LevelName": "Desert_Towers_003",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.Overworld"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.Desert.A1.FortressInt"
+				},
+				"Size":
+				{
+					"TagName": "None"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": false,
+				"bIncludeInMapGeneration": false
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Desert.A1.TwoEndTower"
+				},
+				"Type": "Interior",
+				"LevelName": "DesertA1_TwoEndTower",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DesertA1.FortressInt"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.Desert.A1.FortressInt"
+				},
+				"Size":
+				{
+					"TagName": "None"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": false,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Desert.A1.SecretIntsSM.FortTrap_Int"
+				},
+				"Type": "Interior",
+				"LevelName": "DesertA1_SecretInt_4",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DesertA1.FortressInt"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.Desert.A1.FortressInt"
+				},
+				"Size":
+				{
+					"TagName": "None"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": false,
+				"bIncludeInMapGeneration": true
+			}
+		]
+	},
+	{
+		"Name": "Desert_A1_IceLagoon",
+		"bPackageInBuild": true,
+		"AreaSelectionSettings":
+		{
+			"OverworldArea":
+			{
+				"TagName": "None"
+			},
+			"OverworldAreaDoorways": [],
+			"MinSpawnPoints": 0,
+			"MaxSpawnPoints": 0,
+			"Weights": []
+		},
+		"Areas": [
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Desert.A1.IceCaves.1"
+				},
+				"Type": "Interior",
+				"LevelName": "DesertA1_IceCave_1",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DesertA1.IceCave"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.Desert.A1.IceCave"
+				},
+				"Size":
+				{
+					"TagName": "None"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Desert.A1.IceCaves.2"
+				},
+				"Type": "Interior",
+				"LevelName": "DesertA1_IceCave_2",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DesertA1.IceCave"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.Desert.A1.IceCave"
+				},
+				"Size":
+				{
+					"TagName": "None"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Desert.A1.SecretIntsSM.Iceberg_Int"
+				},
+				"Type": "Interior",
+				"LevelName": "DesertA1_SecretInt_1",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DesertA1.IceCave"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.Desert.A1.IceCave"
+				},
+				"Size":
+				{
+					"TagName": "None"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Desert.A1.SecretIntsSM.IcedCavern1_Int"
+				},
+				"Type": "Interior",
+				"LevelName": "DesertA1_SecretInt_2",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DesertA1.IceCave"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.Desert.A1.IceCave"
+				},
+				"Size":
+				{
+					"TagName": "None"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Desert.A1.SecretIntsSM.IcedCavern2_Int"
+				},
+				"Type": "Interior",
+				"LevelName": "DesertA1_SecretInt_3",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DesertA1.IceCave"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.Desert.A1.IceCave"
+				},
+				"Size":
+				{
+					"TagName": "None"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Desert.A1.SecretIntsSM.IcedCavern3_Int"
+				},
+				"Type": "Interior",
+				"LevelName": "DesertA1_SecretInt_5",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DesertA1.IceCave"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.Desert.A1.IceCave"
+				},
+				"Size":
+				{
+					"TagName": "None"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			}
+		]
+	},
+	{
+		"Name": "Plains_A1_Rifts",
+		"bPackageInBuild": true,
+		"AreaSelectionSettings":
+		{
+			"OverworldArea":
+			{
+				"TagName": "SW.Area.Plains.A1"
+			},
+			"OverworldAreaDoorways": [
+				{
+					"TagName": "SW.Doorway.PlainsA1.Rift.1"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA1.Rift.2"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA1.Rift.3"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA1.Rift.4"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA1.Rift.5"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA1.Rift.6"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA1.Rift.7"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA1.Rift.8"
+				}
+			],
+			"MinSpawnPoints": 2,
+			"MaxSpawnPoints": 2,
+			"Weights": []
+		},
+		"Areas": [
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Meadow.T1.Rift.1"
+				},
+				"Type": "Rift",
+				"LevelName": "Meadow_Rift_1",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.Wellspring"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Meadow"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Meadow.T1.Rift.2"
+				},
+				"Type": "Rift",
+				"LevelName": "Meadow_Rift_1",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.Wellspring"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Meadow"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Meadow.T1.Rift.3"
+				},
+				"Type": "Rift",
+				"LevelName": "Meadow_Rift_2",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.Wellspring"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Meadow"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Meadow.T1.Rift.4"
+				},
+				"Type": "Rift",
+				"LevelName": "Meadow_Rift_3",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.Wellspring"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Meadow"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Meadow.Boss.1"
+				},
+				"Type": "Rift",
+				"LevelName": "Meadow_Boss",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.Wellspring"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Meadow"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			}
+		]
+	},
+	{
+		"Name": "Plains_A1_Dungeons",
+		"bPackageInBuild": true,
+		"AreaSelectionSettings":
+		{
+			"OverworldArea":
+			{
+				"TagName": "SW.Area.Plains.A1"
+			},
+			"OverworldAreaDoorways": [
+				{
+					"TagName": "SW.Doorway.PlainsA1.Dungeon.1"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA1.Dungeon.2"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA1.Dungeon.3"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA1.Dungeon.4"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA1.Dungeon.5"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA1.Dungeon.6"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA1.Dungeon.7"
+				}
+			],
+			"MinSpawnPoints": 4,
+			"MaxSpawnPoints": 4,
+			"Weights": []
+		},
+		"Areas": [
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.DeepDark.Dungeons.1"
+				},
+				"Type": "Dungeon",
+				"LevelName": "DeepDark_Dungeon_1",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DeepDark"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.DeepDark.Dungeons.2"
+				},
+				"Type": "Dungeon",
+				"LevelName": "DeepDark_Dungeon_2",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DeepDark"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.DeepDark.Boss.4"
+				},
+				"Type": "Dungeon",
+				"LevelName": "DeepDark_Boss",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DeepDark"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.DeepDark.Dungeons.4"
+				},
+				"Type": "Dungeon",
+				"LevelName": "DeepDark_Dungeon_3",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DeepDark"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			}
+		]
+	},
+	{
+		"Name": "Plains_A2_Rifts",
+		"bPackageInBuild": true,
+		"AreaSelectionSettings":
+		{
+			"OverworldArea":
+			{
+				"TagName": "SW.Area.Plains.A2"
+			},
+			"OverworldAreaDoorways": [
+				{
+					"TagName": "SW.Doorway.PlainsA2.Rift.1"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA2.Rift.2"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA2.Rift.3"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA2.Rift.4"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA2.Rift.5"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA2.Rift.6"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA2.Rift.7"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA2.Rift.8"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA2.Rift.9"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA2.Rift.10"
+				}
+			],
+			"MinSpawnPoints": 3,
+			"MaxSpawnPoints": 3,
+			"Weights": []
+		},
+		"Areas": [
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Meadow.T1.Rift.13"
+				},
+				"Type": "Rift",
+				"LevelName": "Meadow_Rift_1",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.Wellspring"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Meadow"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Meadow.T1.Rift.14"
+				},
+				"Type": "Rift",
+				"LevelName": "Meadow_Rift_1",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.Wellspring"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Meadow"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Meadow.T1.Rift.15"
+				},
+				"Type": "Rift",
+				"LevelName": "Meadow_Rift_2",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.Wellspring"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Meadow"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Medium"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Meadow.T1.Rift.16"
+				},
+				"Type": "Rift",
+				"LevelName": "Meadow_Rift_3",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.Wellspring"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Meadow"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Large"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Meadow.Boss.2"
+				},
+				"Type": "Rift",
+				"LevelName": "Meadow_Boss",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.Wellspring"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Meadow"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			}
+		]
+	},
+	{
+		"Name": "Plains_A2_Dungeons",
+		"bPackageInBuild": true,
+		"AreaSelectionSettings":
+		{
+			"OverworldArea":
+			{
+				"TagName": "SW.Area.Plains.A2"
+			},
+			"OverworldAreaDoorways": [
+				{
+					"TagName": "SW.Doorway.PlainsA2.Dungeon.1"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA2.Dungeon.2"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA2.Dungeon.3"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA2.Dungeon.4"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA2.Dungeon.5"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA2.Dungeon.6"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA2.Dungeon.7"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA2.Dungeon.8"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA2.Dungeon.9"
+				}
+			],
+			"MinSpawnPoints": 4,
+			"MaxSpawnPoints": 4,
+			"Weights": []
+		},
+		"Areas": [
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.DeepDark.Dungeons.13"
+				},
+				"Type": "Dungeon",
+				"LevelName": "DeepDark_Dungeon_1",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DeepDark"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.DeepDark.Dungeons.14"
+				},
+				"Type": "Dungeon",
+				"LevelName": "DeepDark_Dungeon_3",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DeepDark"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.DeepDark.Dungeons.15"
+				},
+				"Type": "Dungeon",
+				"LevelName": "DeepDark_Dungeon_2",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DeepDark"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.DeepDark.Dungeons.16"
+				},
+				"Type": "Dungeon",
+				"LevelName": "DeepDark_Dungeon_1",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DeepDark"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.DeepDark.Boss.3"
+				},
+				"Type": "Dungeon",
+				"LevelName": "DeepDark_Boss",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DeepDark"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			}
+		]
+	},
+	{
+		"Name": "Forest_A1_Rifts",
+		"bPackageInBuild": true,
+		"AreaSelectionSettings":
+		{
+			"OverworldArea":
+			{
+				"TagName": "SW.Area.Forest.A1"
+			},
+			"OverworldAreaDoorways": [
+				{
+					"TagName": "SW.Doorway.ForestA1.Rift.1"
+				},
+				{
+					"TagName": "SW.Doorway.ForestA1.Rift.2"
+				},
+				{
+					"TagName": "SW.Doorway.ForestA1.Rift.3"
+				},
+				{
+					"TagName": "SW.Doorway.ForestA1.Rift.4"
+				},
+				{
+					"TagName": "SW.Doorway.ForestA1.Rift.5"
+				},
+				{
+					"TagName": "SW.Doorway.ForestA1.Rift.6"
+				},
+				{
+					"TagName": "SW.Doorway.ForestA1.Rift.7"
+				},
+				{
+					"TagName": "SW.Doorway.ForestA1.Rift.8"
+				},
+				{
+					"TagName": "SW.Doorway.ForestA1.Rift.9"
+				},
+				{
+					"TagName": "SW.Doorway.ForestA1.Rift.10"
+				},
+				{
+					"TagName": "SW.Doorway.ForestA1.Rift.11"
+				},
+				{
+					"TagName": "SW.Doorway.ForestA1.Rift.12"
+				}
+			],
+			"MinSpawnPoints": 3,
+			"MaxSpawnPoints": 3,
+			"Weights": []
+		},
+		"Areas": [
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Meadow.T1.Rift.5"
+				},
+				"Type": "Rift",
+				"LevelName": "Meadow_Rift_1",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.Wellspring"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Meadow"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Medium"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Meadow.T1.Rift.6"
+				},
+				"Type": "Rift",
+				"LevelName": "Meadow_Rift_1",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.Wellspring"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Meadow"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Meadow.T1.Rift.7"
+				},
+				"Type": "Rift",
+				"LevelName": "Meadow_Rift_2",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.Wellspring"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Meadow"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Meadow.T1.Rift.8"
+				},
+				"Type": "Rift",
+				"LevelName": "Meadow_Rift_3",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.Wellspring"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Meadow"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Medium"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Meadow.Boss.3"
+				},
+				"Type": "Rift",
+				"LevelName": "Meadow_Boss",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.Wellspring"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Meadow"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			}
+		]
+	},
+	{
+		"Name": "Forest_A1_Dungeons",
+		"bPackageInBuild": true,
+		"AreaSelectionSettings":
+		{
+			"OverworldArea":
+			{
+				"TagName": "SW.Area.Forest.A1"
+			},
+			"OverworldAreaDoorways": [
+				{
+					"TagName": "SW.Doorway.ForestA1.Dungeon.1"
+				},
+				{
+					"TagName": "SW.Doorway.ForestA1.Dungeon.2"
+				},
+				{
+					"TagName": "SW.Doorway.ForestA1.Dungeon.3"
+				},
+				{
+					"TagName": "SW.Doorway.ForestA1.Dungeon.4"
+				},
+				{
+					"TagName": "SW.Doorway.ForestA1.Dungeon.5"
+				},
+				{
+					"TagName": "SW.Doorway.ForestA1.Dungeon.6"
+				},
+				{
+					"TagName": "SW.Doorway.ForestA1.Dungeon.7"
+				},
+				{
+					"TagName": "SW.Doorway.ForestA1.Dungeon.8"
+				},
+				{
+					"TagName": "SW.Doorway.ForestA1.Dungeon.9"
+				},
+				{
+					"TagName": "SW.Doorway.ForestA1.Dungeon.10"
+				},
+				{
+					"TagName": "SW.Doorway.ForestA1.Dungeon.11"
+				},
+				{
+					"TagName": "SW.Doorway.ForestA1.Dungeon.12"
+				}
+			],
+			"MinSpawnPoints": 4,
+			"MaxSpawnPoints": 4,
+			"Weights": []
+		},
+		"Areas": [
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.DeepDark.Dungeons.5"
+				},
+				"Type": "Dungeon",
+				"LevelName": "DeepDark_Dungeon_1",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DeepDark"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.DeepDark.Dungeons.6"
+				},
+				"Type": "Dungeon",
+				"LevelName": "DeepDark_Dungeon_2",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DeepDark"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.DeepDark.Dungeons.7"
+				},
+				"Type": "Dungeon",
+				"LevelName": "DeepDark_Dungeon_3",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DeepDark"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.DeepDark.Dungeons.8"
+				},
+				"Type": "Dungeon",
+				"LevelName": "DeepDark_Dungeon_1",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DeepDark"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.DeepDark.Boss.1"
+				},
+				"Type": "Dungeon",
+				"LevelName": "DeepDark_Boss",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DeepDark"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			}
+		]
+	},
+	{
+		"Name": "Forest_A1_SpiderCaves",
+		"bPackageInBuild": true,
+		"AreaSelectionSettings":
+		{
+			"OverworldArea":
+			{
+				"TagName": "SW.Area.Forest.A1"
+			},
+			"OverworldAreaDoorways": [],
+			"MinSpawnPoints": 0,
+			"MaxSpawnPoints": 0,
+			"Weights": []
+		},
+		"Areas": [
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Forest.A1.SpiderCaves.1"
+				},
+				"Type": "Interior",
+				"LevelName": "ForestA1_SpiderCave_1",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.Forest.SpiderCave"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.Lush"
+				},
+				"Size":
+				{
+					"TagName": "None"
+				},
+				"LoadingRange": 500,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Forest.A1.SpiderCaves.2"
+				},
+				"Type": "Interior",
+				"LevelName": "ForestA1_SpiderCave_2",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.Forest.SpiderCave"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.Lush"
+				},
+				"Size":
+				{
+					"TagName": "None"
+				},
+				"LoadingRange": 500,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": false,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Forest.A1.SpiderCaves.3"
+				},
+				"Type": "AreaLink",
+				"LevelName": "ForestA1_SpiderCave_3",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.Forest.SpiderCave"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.Lush"
+				},
+				"Size":
+				{
+					"TagName": "None"
+				},
+				"LoadingRange": 500,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": false,
+				"bIncludeInMapGeneration": true
+			}
+		]
+	},
+	{
+		"Name": "Desert_A1_Rifts",
+		"bPackageInBuild": true,
+		"AreaSelectionSettings":
+		{
+			"OverworldArea":
+			{
+				"TagName": "SW.Area.Desert.A1"
+			},
+			"OverworldAreaDoorways": [
+				{
+					"TagName": "SW.Doorway.DesertA1.Rift.1"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1.Rift.2"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1.Rift.3"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1.Rift.4"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1.Rift.5"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1.Rift.6"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1.Rift.7"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1.Rift.8"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1.Rift.9"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1.Rift.10"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1.Rift.11"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1.Rift.12"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1.Rift.13"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1.Rift.14"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1.Rift.15"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1.Rift.16"
+				}
+			],
+			"MinSpawnPoints": 4,
+			"MaxSpawnPoints": 4,
+			"Weights": []
+		},
+		"Areas": [
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Meadow.T1.Rift.9"
+				},
+				"Type": "Rift",
+				"LevelName": "Meadow_Rift_1",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.Wellspring"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Meadow"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Meadow.T1.Rift.10"
+				},
+				"Type": "Rift",
+				"LevelName": "Meadow_Rift_1",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.Wellspring"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Meadow"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Medium"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Meadow.T1.Rift.11"
+				},
+				"Type": "Rift",
+				"LevelName": "Meadow_Rift_2",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.Wellspring"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Meadow"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Meadow.T1.Rift.12"
+				},
+				"Type": "Rift",
+				"LevelName": "Meadow_Rift_3",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.Wellspring"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Meadow"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Large"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Meadow.Boss.4"
+				},
+				"Type": "Rift",
+				"LevelName": "Meadow_Boss",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.Wellspring"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Meadow"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			}
+		]
+	},
+	{
+		"Name": "Desert_A1_Dungeons",
+		"bPackageInBuild": true,
+		"AreaSelectionSettings":
+		{
+			"OverworldArea":
+			{
+				"TagName": "SW.Area.Desert.A1"
+			},
+			"OverworldAreaDoorways": [
+				{
+					"TagName": "SW.Doorway.DesertA1.Dungeon.1"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1.Dungeon.2"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1.Dungeon.3"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1.Dungeon.4"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1.Dungeon.5"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1.Dungeon.6"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1.Dungeon.7"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1.Dungeon.8"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1.Dungeon.9"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1.Dungeon.10"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1.Dungeon.11"
+				}
+			],
+			"MinSpawnPoints": 4,
+			"MaxSpawnPoints": 4,
+			"Weights": []
+		},
+		"Areas": [
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.DeepDark.Dungeons.9"
+				},
+				"Type": "Dungeon",
+				"LevelName": "DeepDark_Dungeon_1",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DeepDark"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.DeepDark.Dungeons.10"
+				},
+				"Type": "Dungeon",
+				"LevelName": "DeepDark_Dungeon_2",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DeepDark"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.DeepDark.Dungeons.11"
+				},
+				"Type": "Dungeon",
+				"LevelName": "DeepDark_Dungeon_3",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DeepDark"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.DeepDark.Dungeons.12"
+				},
+				"Type": "Dungeon",
+				"LevelName": "DeepDark_Dungeon_1",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DeepDark"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.DeepDark.Boss.2"
+				},
+				"Type": "Dungeon",
+				"LevelName": "DeepDark_Boss",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DeepDark"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Small"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			}
+		]
+	},
+	{
+		"Name": "Meadow_A1_Ravines",
+		"bPackageInBuild": true,
+		"AreaSelectionSettings":
+		{
+			"OverworldArea":
+			{
+				"TagName": "SW.Area.Meadow.A1"
+			},
+			"OverworldAreaDoorways": [
+				{
+					"TagName": "SW.Doorway.MeadowA1.Dungeon.1"
+				},
+				{
+					"TagName": "SW.Doorway.MeadowA1.Dungeon.2"
+				},
+				{
+					"TagName": "SW.Doorway.MeadowA1.Dungeon.3"
+				},
+				{
+					"TagName": "SW.Doorway.MeadowA1.Dungeon.4"
+				},
+				{
+					"TagName": "SW.Doorway.MeadowA1.Dungeon.5"
+				},
+				{
+					"TagName": "SW.Doorway.MeadowA1.Dungeon.6"
+				},
+				{
+					"TagName": "SW.Doorway.MeadowA1.Dungeon.7"
+				},
+				{
+					"TagName": "SW.Doorway.MeadowA1.Dungeon.8"
+				},
+				{
+					"TagName": "SW.Doorway.MeadowA1.Dungeon.9"
+				},
+				{
+					"TagName": "SW.Doorway.MeadowA1.Dungeon.10"
+				}
+			],
+			"MinSpawnPoints": 4,
+			"MaxSpawnPoints": 4,
+			"Weights": []
+		},
+		"Areas": [
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Ravines.T1.Dungeon.1"
+				},
+				"Type": "Dungeon",
+				"LevelName": "Ravines_Dungeon_1",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.RavinesT1"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "SW.Audio.Volume.Dimension.Wellspring.Ravines"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Ravines"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Large"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Ravines.T1.Dungeon.2"
+				},
+				"Type": "Dungeon",
+				"LevelName": "Ravines_Dungeon_1",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.RavinesT1"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "SW.Audio.Volume.Dimension.Wellspring.Ravines"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Ravines"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Large"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Ravines.T1.Dungeon.3"
+				},
+				"Type": "Dungeon",
+				"LevelName": "Ravines_Dungeon_2",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.RavinesT1"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "SW.Audio.Volume.Dimension.Wellspring.Ravines"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Ravines"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Large"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Ravines.T1.Dungeon.4"
+				},
+				"Type": "Dungeon",
+				"LevelName": "Ravines_Dungeon_3",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.RavinesT1"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "SW.Audio.Volume.Dimension.Wellspring.Ravines"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Ravines"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Large"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Ravines.Boss.1"
+				},
+				"Type": "Dungeon",
+				"LevelName": "Ravines_Anchor_Boss",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.RavinesT1"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "SW.Audio.Volume.Dimension.Wellspring.Ravines"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Ravines"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Large"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			}
+		]
+	},
+	{
+		"Name": "Carapace_A1_Ravines",
+		"bPackageInBuild": true,
+		"AreaSelectionSettings":
+		{
+			"OverworldArea":
+			{
+				"TagName": "SW.Area.Carapace.A1"
+			},
+			"OverworldAreaDoorways": [
+				{
+					"TagName": "SW.Doorway.Dungeon.CarapaceA1.Dungeons.1"
+				},
+				{
+					"TagName": "SW.Doorway.Dungeon.CarapaceA1.Dungeons.2"
+				},
+				{
+					"TagName": "SW.Doorway.Dungeon.CarapaceA1.Dungeons.3"
+				},
+				{
+					"TagName": "SW.Doorway.Dungeon.CarapaceA1.Dungeons.4"
+				},
+				{
+					"TagName": "SW.Doorway.Dungeon.CarapaceA1.Dungeons.5"
+				}
+			],
+			"MinSpawnPoints": 2,
+			"MaxSpawnPoints": 2,
+			"Weights": []
+		},
+		"Areas": [
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Ravines.T1.Dungeon.5"
+				},
+				"Type": "Dungeon",
+				"LevelName": "Ravines_Dungeon_1",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.RavinesT1"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "SW.Audio.Volume.Dimension.Wellspring.Ravines"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Ravines"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Large"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Ravines.T1.Dungeon.6"
+				},
+				"Type": "Dungeon",
+				"LevelName": "Ravines_Dungeon_1",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.RavinesT1"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "SW.Audio.Volume.Dimension.Wellspring.Ravines"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Ravines"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Large"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Ravines.T1.Dungeon.7"
+				},
+				"Type": "Dungeon",
+				"LevelName": "Ravines_Dungeon_2",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.RavinesT1"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "SW.Audio.Volume.Dimension.Wellspring.Ravines"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Ravines"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Large"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Ravines.T1.Dungeon.8"
+				},
+				"Type": "Dungeon",
+				"LevelName": "Ravines_Dungeon_3",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.RavinesT1"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "SW.Audio.Volume.Dimension.Wellspring.Ravines"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Ravines"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Large"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Ravines.Boss.2"
+				},
+				"Type": "Dungeon",
+				"LevelName": "Ravines_Anchor_Boss",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.RavinesT1"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "SW.Audio.Volume.Dimension.Wellspring.Ravines"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Ravines"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Large"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			}
+		]
+	},
+	{
+		"Name": "Meadow_A2_Ravines",
+		"bPackageInBuild": true,
+		"AreaSelectionSettings":
+		{
+			"OverworldArea":
+			{
+				"TagName": "SW.Area.Meadow.A2"
+			},
+			"OverworldAreaDoorways": [
+				{
+					"TagName": "SW.Doorway.MeadowA2.Dungeon.1"
+				},
+				{
+					"TagName": "SW.Doorway.MeadowA2.Dungeon.2"
+				},
+				{
+					"TagName": "SW.Doorway.MeadowA2.Dungeon.3"
+				},
+				{
+					"TagName": "SW.Doorway.MeadowA2.Dungeon.4"
+				},
+				{
+					"TagName": "SW.Doorway.MeadowA2.Dungeon.5"
+				},
+				{
+					"TagName": "SW.Doorway.MeadowA2.Dungeon.6"
+				},
+				{
+					"TagName": "SW.Doorway.MeadowA2.Dungeon.7"
+				}
+			],
+			"MinSpawnPoints": 3,
+			"MaxSpawnPoints": 3,
+			"Weights": []
+		},
+		"Areas": [
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Ravines.T1.Dungeon.9"
+				},
+				"Type": "Dungeon",
+				"LevelName": "Ravines_Dungeon_1",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.RavinesT1"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "SW.Audio.Volume.Dimension.Wellspring.Ravines"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Ravines"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Large"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Ravines.T1.Dungeon.10"
+				},
+				"Type": "Dungeon",
+				"LevelName": "Ravines_Dungeon_1",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.RavinesT1"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "SW.Audio.Volume.Dimension.Wellspring.Ravines"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Ravines"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Large"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Ravines.T1.Dungeon.11"
+				},
+				"Type": "Dungeon",
+				"LevelName": "Ravines_Dungeon_2",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.RavinesT1"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "SW.Audio.Volume.Dimension.Wellspring.Ravines"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Ravines"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Large"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Ravines.T1.Dungeon.12"
+				},
+				"Type": "Dungeon",
+				"LevelName": "Ravines_Dungeon_3",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.RavinesT1"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "SW.Audio.Volume.Dimension.Wellspring.Ravines"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Ravines"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Large"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			},
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Ravines.Boss.3"
+				},
+				"Type": "Dungeon",
+				"LevelName": "Ravines_Anchor_Boss",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.RavinesT1"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "SW.Audio.Volume.Dimension.Wellspring.Ravines"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Ravines"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Large"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			}
+		]
+	},
+	{
+		"Name": "MeadowT1_Rift",
+		"bPackageInBuild": true,
+		"AreaSelectionSettings":
+		{
+			"OverworldArea":
+			{
+				"TagName": "SW.Area.Forest.A1"
+			},
+			"OverworldAreaDoorways": [],
+			"MinSpawnPoints": 0,
+			"MaxSpawnPoints": 0,
+			"Weights": []
+		},
+		"Areas": [
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Meadow.T1"
+				},
+				"Type": "Rift",
+				"LevelName": "Meadow_Rift_1",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.Wellspring"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Meadow"
+				},
+				"Size":
+				{
+					"TagName": "None"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			}
+		]
+	},
+	{
+		"Name": "Meadow_T1_Boss",
+		"bPackageInBuild": true,
+		"AreaSelectionSettings":
+		{
+			"OverworldArea":
+			{
+				"TagName": "None"
+			},
+			"OverworldAreaDoorways": [],
+			"MinSpawnPoints": 0,
+			"MaxSpawnPoints": 0,
+			"Weights": []
+		},
+		"Areas": [
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Meadow.Boss"
+				},
+				"Type": "Rift",
+				"LevelName": "Meadow_Boss",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.Wellspring"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Meadow"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Large"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			}
+		]
+	},
+	{
+		"Name": "Ravines_T1_Boss",
+		"bPackageInBuild": true,
+		"AreaSelectionSettings":
+		{
+			"OverworldArea":
+			{
+				"TagName": "SW.Area.Carapace.A1"
+			},
+			"OverworldAreaDoorways": [],
+			"MinSpawnPoints": 0,
+			"MaxSpawnPoints": 0,
+			"Weights": []
+		},
+		"Areas": [
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Ravines.Boss"
+				},
+				"Type": "Interior",
+				"LevelName": "Ravines_Anchor_Boss",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.RavinesT1"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "SW.Audio.Volume.Dimension.Wellspring.Ravines"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Sift.Ravines"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Large"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			}
+		]
+	},
+	{
+		"Name": "DeepDark_T1_Boss",
+		"bPackageInBuild": true,
+		"AreaSelectionSettings":
+		{
+			"OverworldArea":
+			{
+				"TagName": "None"
+			},
+			"OverworldAreaDoorways": [],
+			"MinSpawnPoints": 0,
+			"MaxSpawnPoints": 0,
+			"Weights": []
+		},
+		"Areas": [
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.DeepDark.Boss"
+				},
+				"Type": "Dungeon",
+				"LevelName": "DeepDark_Boss",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DeepDark"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Large"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			}
+		]
+	},
+	{
+		"Name": "Lush_T1_Boss",
+		"bPackageInBuild": true,
+		"AreaSelectionSettings":
+		{
+			"OverworldArea":
+			{
+				"TagName": "None"
+			},
+			"OverworldAreaDoorways": [],
+			"MinSpawnPoints": 0,
+			"MaxSpawnPoints": 0,
+			"Weights": []
+		},
+		"Areas": [
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.Lush.Boss"
+				},
+				"Type": "Interior",
+				"LevelName": "Lush_Boss",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.Plains.LushCaves"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark"
+				},
+				"Size":
+				{
+					"TagName": "SW.ProceduralArea.Size.Large"
+				},
+				"LoadingRange": 10000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			}
+		]
+	},
+	{
+		"Name": "Deep_Dark_Tutorial",
+		"bPackageInBuild": true,
+		"AreaSelectionSettings":
+		{
+			"OverworldArea":
+			{
+				"TagName": "SW.Area.Plains.A1"
+			},
+			"OverworldAreaDoorways": [],
+			"MinSpawnPoints": 0,
+			"MaxSpawnPoints": 0,
+			"Weights": []
+		},
+		"Areas": [
+			{
+				"AreaTag":
+				{
+					"TagName": "SW.Area.DeepDark.Tutorial"
+				},
+				"Type": "Interior",
+				"LevelName": "DeepDark_Tutorial",
+				"DefaultLightingTag":
+				{
+					"TagName": "SW.Lighting.DeepDark"
+				},
+				"AudioVolumeOverride":
+				{
+					"TagName": "None"
+				},
+				"Biome":
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark"
+				},
+				"Size":
+				{
+					"TagName": "None"
+				},
+				"LoadingRange": 5000,
+				"UseFixedSeeds": false,
+				"FixedSeeds": [],
+				"UseVoidFill": true,
+				"bIncludeInMapGeneration": true
+			}
+		]
+	}
+]

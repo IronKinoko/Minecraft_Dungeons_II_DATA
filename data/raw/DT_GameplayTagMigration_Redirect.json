@@ -1,0 +1,17 @@
+[
+    {
+        "Name": "Dummy",
+        "OldTagName": "Datatable.Cannot.Be.Empty",
+        "NewTagName": "AI.Ignore"
+    },
+    {
+        "Name": "CorruptedCreeperCape",
+        "OldTagName": "SW.Item.Cosmetic.Cape.Creeper",
+        "NewTagName": "SW.Item.Cosmetic.Cape.CorruptedCreeper"
+    },
+    {
+        "Name": "SliceSlayerCape",
+        "OldTagName": "SW.Item.Cosmetic.Cape.Dominos",
+        "NewTagName": "SW.Item.Cosmetic.Cape.SliceSlayer"
+    }
+]

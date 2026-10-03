@@ -1,0 +1,1331 @@
+[
+	{
+		"Name": "SW.UI.Dialog.EnterPartyCode",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.PartyCode"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"SocialLabels.csv\", \"Party_Join\")"
+			},
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Cancel\")"
+			}
+		],
+		"Title": "LOCTABLE(\"SocialLabels.csv\", \"JoinWithPartyCode_ButtonText\")",
+		"Message": "",
+		"ContentWidget": "/SpicewoodUI/Spicewood/UI/Widget/Dialog/Instance/PartyCode/W_PartyCodeDialogContent.W_PartyCodeDialogContent_C",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.PlayerFeedback",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": ""
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": ""
+			}
+		],
+		"Title": "LOCTABLE(\"PlayerFeedbackLabels.csv\", \"dialog_title\")",
+		"Message": "LOCTABLE(\"PlayerFeedbackLabels.csv\", \"dialog_message\")",
+		"ContentWidget": "/SpicewoodUI/Spicewood/UI/Widget/Dialog/Instance/PlayerFeedback/W_PlayerFeedbackDialogContent.W_PlayerFeedbackDialogContent_C",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.Party.Leave",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Yes\")"
+			},
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_No\")"
+			}
+		],
+		"Title": "LOCTABLE(\"PartyUILabels.csv\", \"Party_Dialog_Leave_Header\")",
+		"Message": "LOCTABLE(\"PartyUILabels.csv\", \"Party_Dialog_Leave_Body\")",
+		"ContentWidget": "/Script/Angelscript.AS_PartyLeaveDialogContent",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.CouchCoop.RejectKBM",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [],
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"CouchCoop.RejectKBM.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"CouchCoop.RejectKBM.Message\")",
+		"ContentWidget": "None",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.Character.SkinSelection.Abort",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Cancel\")"
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"CharacterUILabels.csv\", \"Character_Discard_Option\")"
+			}
+		],
+		"Title": "LOCTABLE(\"CharacterUILabels.csv\", \"DiscardCharacter_Title\")",
+		"Message": "LOCTABLE(\"CharacterUILabels.csv\", \"DiscardCharacter_Message\")",
+		"ContentWidget": "/SpicewoodUI/Spicewood/UI/SkinSelectionScreen/Structure/W_DiscardCharacterDialogContent.W_DiscardCharacterDialogContent_C",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.Vendor.VillageMerchant.NoSpace",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Ok\")"
+			}
+		],
+		"Title": "LOCTABLE(\"VendorLabels.csv\", \"vendor_vendor_villagemerchant_nospace_title\")",
+		"Message": "LOCTABLE(\"VendorLabels.csv\", \"vendor_vendor_villagemerchant_nospace_description\")",
+		"ContentWidget": "None",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.WorldMap.FastTravel",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": ""
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"WorldMapLabels.csv\", \"worldmap_modal_button_fasttravel\")"
+			}
+		],
+		"Title": "LOCTABLE(\"WorldMapLabels.csv\", \"worldmap_modal_title_fasttravel\")",
+		"Message": "LOCTABLE(\"WorldMapLabels.csv\", \"worldmap_modal_description_fasttravel\")",
+		"ContentWidget": "/Script/Angelscript.AS_FastTravelDialogContent",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.WorldMap.Teleport",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": ""
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"WorldMapLabels.csv\", \"worldmap_modal_button_teleport\")"
+			}
+		],
+		"Title": "LOCTABLE(\"WorldMapLabels.csv\", \"worldmap_modal_title_teleport\")",
+		"Message": "LOCTABLE(\"WorldMapLabels.csv\", \"worldmap_modal_description_teleport\")",
+		"ContentWidget": "/Script/Angelscript.AS_TeleportDialogContent",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.Internet.Disconnected",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.InternetDisconnect"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [],
+		"Title": "",
+		"Message": "",
+		"ContentWidget": "/SpicewoodUI/Spicewood/UI/Widget/Dialog/Instance/InternetDisconnect/W_Dialog_Network_Disconnected.W_Dialog_Network_Disconnected_C",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.WidgetName.Dialog.PartySettings",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Back\")"
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Confirm\")"
+			}
+		],
+		"Title": "LOCTABLE(\"SocialLabels.csv\", \"party_settings_title\")",
+		"Message": "",
+		"ContentWidget": "/SpicewoodUI/Spicewood/UI/Widget/Dialog/Instance/Social/W_PartySettingsDialogContent.W_PartySettingsDialogContent_C",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.Conflicting.Save",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Conflicting.Save"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Select\")"
+			}
+		],
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Conflicting.Save.Choice.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Conflicting.Save.Choice.Description\")",
+		"ContentWidget": "/SpicewoodUI/Spicewood/UI/Widget/Dialog/Instance/Saves/W_ConflictingSaveDialog.W_ConflictingSaveDialog_C",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.Conflicting.Save.Confirmation",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Back\")"
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Confirm\")"
+			}
+		],
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Generic.Dialog.Title.Confirmation\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Conflicting.Save.Confirmation\")",
+		"ContentWidget": "/SpicewoodUI/Spicewood/UI/Widget/Dialog/Instance/Saves/W_ConflictingSaveConfirmationDialog.W_ConflictingSaveConfirmationDialog_C",
+		"Priority": 1,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.Character.Delete",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Back\")"
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"CharacterUILabels.csv\", \"Character_Delete_Dialog_Confirm\")"
+			}
+		],
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.ConfirmDeleteCharacter.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Online.Client.ConfirmDeleteCharacter.Message\")",
+		"ContentWidget": "/Script/Angelscript.AS_DeleteCharacterDialogContent",
+		"Priority": 1,
+		"bIsConfirmationHoldAction": true,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.Character.SkinSelection.Edit.Abort",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Cancel\")"
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"CharacterUILabels.csv\", \"Character_Discard_Option\")"
+			}
+		],
+		"Title": "LOCTABLE(\"CharacterUILabels.csv\", \"DiscardEditCharacter_Title\")",
+		"Message": "LOCTABLE(\"CharacterUILabels.csv\", \"DiscardEditCharacter_Message\")",
+		"ContentWidget": "/SpicewoodUI/Spicewood/UI/SkinSelectionScreen/Structure/W_DiscardCharacterDialogContent.W_DiscardCharacterDialogContent_C",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.Settings.Revert.Default.Confirmation",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Cancel\")"
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"SystemMenuLabels.csv\", \"reset_defaults_dialog_button\")"
+			}
+		],
+		"Title": "LOCTABLE(\"SystemMenuLabels.csv\", \"button_settings\")",
+		"Message": "LOCTABLE(\"SystemMenuLabels.csv\", \"reset_defaults_dialog_body\")",
+		"ContentWidget": "None",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.WidgetName.Dialog.Reset.Audio",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Cancel\")"
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"SystemMenuLabels.csv\", \"reset_defaults_dialog_button\")"
+			}
+		],
+		"Title": "LOCTABLE(\"SystemMenuLabels.csv\", \"button_settings\")",
+		"Message": "LOCTABLE(\"SystemMenuLabels.csv\", \"reset_defaults_dialog_body_audio\")",
+		"ContentWidget": "None",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.WidgetName.Dialog.Reset.Accessibility",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Cancel\")"
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"SystemMenuLabels.csv\", \"reset_defaults_dialog_button\")"
+			}
+		],
+		"Title": "LOCTABLE(\"SystemMenuLabels.csv\", \"button_settings\")",
+		"Message": "LOCTABLE(\"SystemMenuLabels.csv\", \"reset_defaults_dialog_body_accessibility\")",
+		"ContentWidget": "None",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.WidgetName.Dialog.Reset.Game",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Cancel\")"
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"SystemMenuLabels.csv\", \"reset_defaults_dialog_button\")"
+			}
+		],
+		"Title": "LOCTABLE(\"SystemMenuLabels.csv\", \"button_settings\")",
+		"Message": "LOCTABLE(\"SystemMenuLabels.csv\", \"reset_defaults_dialog_body_game\")",
+		"ContentWidget": "None",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.WidgetName.Dialog.Reset.Video",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Cancel\")"
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"SystemMenuLabels.csv\", \"reset_defaults_dialog_button\")"
+			}
+		],
+		"Title": "LOCTABLE(\"SystemMenuLabels.csv\", \"button_settings\")",
+		"Message": "LOCTABLE(\"SystemMenuLabels.csv\", \"reset_defaults_dialog_body_video\")",
+		"ContentWidget": "None",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.WidgetName.Dialog.Reset.Interface",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Cancel\")"
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"SystemMenuLabels.csv\", \"reset_defaults_dialog_button\")"
+			}
+		],
+		"Title": "LOCTABLE(\"SystemMenuLabels.csv\", \"button_settings\")",
+		"Message": "LOCTABLE(\"SystemMenuLabels.csv\", \"reset_defaults_dialog_body_interface\")",
+		"ContentWidget": "None",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.WidgetName.Dialog.Reset.Generic",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Cancel\")"
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"SystemMenuLabels.csv\", \"reset_defaults_dialog_button\")"
+			}
+		],
+		"Title": "LOCTABLE(\"SystemMenuLabels.csv\", \"button_settings\")",
+		"Message": "LOCTABLE(\"SystemMenuLabels.csv\", \"reset_defaults_dialog_body_generic\")",
+		"ContentWidget": "None",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.Bindings.NewInput",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Cancel\")"
+			}
+		],
+		"Title": "LOCTABLE(\"SettingsLabels.csv\", \"BindingNewInputDialog_Title\")",
+		"Message": "INVTEXT(\"\")",
+		"ContentWidget": "/Game/Spicewood/UI/Dialogs/Instance/W_BindingsNewInputDialogContent.W_BindingsNewInputDialogContent_C",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.Bindings.InputConflict",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Cancel\")"
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"SettingsLabels.csv\", \"BindingInputConflict_RemoveResult\")"
+			}
+		],
+		"Title": "LOCTABLE(\"SettingsLabels.csv\", \"BindingInputConflictDialog_Title\")",
+		"Message": "LOCTABLE(\"SettingsLabels.csv\", \"BindingInputConflictDialog_Message\")",
+		"ContentWidget": "/Game/Spicewood/UI/Dialogs/Instance/W_BindingConflictDialogContent.W_BindingConflictDialogContent_C",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.Bindings.InputInvalid",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Cancel\")"
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"SettingsLabels.csv\", \"BindingInputInvalidDialog_ExitResult\")"
+			}
+		],
+		"Title": "LOCTABLE(\"SettingsLabels.csv\", \"BindingInputInvalidDialog_Title\")",
+		"Message": "LOCTABLE(\"SettingsLabels.csv\", \"BindingInputInvalidDialog_Message\")",
+		"ContentWidget": "None",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.Bindings.NewInput.Controller",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Cancel\")"
+			}
+		],
+		"Title": "LOCTABLE(\"SettingsLabels.csv\", \"BindingNewInputDialog_Title\")",
+		"Message": "INVTEXT(\"\")",
+		"ContentWidget": "/Game/Spicewood/UI/Dialogs/Instance/W_BindingsNewInputDialogContent.W_BindingsNewInputDialogContent_C",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": true,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.WorldMap.Teleport.Party",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": ""
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"WorldMapLabels.csv\", \"worldmap_modal_button_teleport\")"
+			}
+		],
+		"Title": "LOCTABLE(\"WorldMapLabels.csv\", \"worldmap_modal_title_teleport\")",
+		"Message": "LOCTABLE(\"WorldMapLabels.csv\", \"worldmap_modal_description_teleport_party\")",
+		"ContentWidget": "/Script/Angelscript.AS_TeleportDialogContent",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.Settings.Crossplay.Confirmation",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": ""
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": ""
+			}
+		],
+		"Title": "LOCTABLE(\"SettingsLabels.csv\", \"CrossplayDialog_Confirmation_Title\")",
+		"Message": "LOCTABLE(\"SettingsLabels.csv\", \"CrossplayDialog_Confirmation_Message\")",
+		"ContentWidget": "None",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.BossReplay.CA02",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Cancel\")"
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Confirm\")"
+			}
+		],
+		"Title": "",
+		"Message": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA02_BossReplay_Dialogue1_Paragraph1\")",
+		"ContentWidget": "None",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.BossReplay.CA03",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Cancel\")"
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Confirm\")"
+			}
+		],
+		"Title": "",
+		"Message": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA03_BossReplay_Dialogue1_Paragraph1\")",
+		"ContentWidget": "None",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.BossReplay.CA04",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Cancel\")"
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Confirm\")"
+			}
+		],
+		"Title": "",
+		"Message": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA04_BossReplay_Dialogue1_Paragraph1\")",
+		"ContentWidget": "None",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.BossReplay.CA05",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Cancel\")"
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Confirm\")"
+			}
+		],
+		"Title": "",
+		"Message": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA05_BossReplay_Dialogue1_Paragraph1\")",
+		"ContentWidget": "None",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.BossReplay.CA07",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Cancel\")"
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Confirm\")"
+			}
+		],
+		"Title": "",
+		"Message": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA07_BossReplay_Dialogue1_Paragraph1\")",
+		"ContentWidget": "None",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.BossReplay.CA09.BR",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_No\")"
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Yes\")"
+			}
+		],
+		"Title": "",
+		"Message": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA08_B_BossReplay_Dialogue1_Paragraph1\")",
+		"ContentWidget": "None",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.BossReplay.CA10.BR",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_No\")"
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Yes\")"
+			}
+		],
+		"Title": "",
+		"Message": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA10_SoulConstructReplay_Dialogue1_Paragraph1\")",
+		"ContentWidget": "None",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.BossReplay.CA10.BR.B",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_No\")"
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Yes\")"
+			}
+		],
+		"Title": "",
+		"Message": "LOCTABLE(\"QuestDialogueLabels_Core.csv\", \"CA10_BR_B_Dialogue1_Paragraph1\")",
+		"ContentWidget": "None",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.Corrupt.Settings",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": ""
+			}
+		],
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Settings.Corrupt.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Settings.Corrupt.Message\")",
+		"ContentWidget": "None",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.EnterRedeemCode",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.RedeemCode"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"RedeemCode.Enter.ButtonConfirm\")"
+			},
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Cancel\")"
+			}
+		],
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"RedeemCode.Enter.Title\")",
+		"Message": "",
+		"ContentWidget": "/SpicewoodUI/Spicewood/UI/Widget/Dialog/Instance/RedeemCode/W_RedeemCodeDialogContent.W_RedeemCodeDialogContent_C",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.EnterRedeemCode.Success",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Progressive",
+		"ButtonArray": [
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Ok\")"
+			}
+		],
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"RedeemCode.Success.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"RedeemCode.Success.Message\")",
+		"ContentWidget": "/SpicewoodUI/Spicewood/UI/Widget/Dialog/Instance/RedeemCode/W_RedeemCodeSuccessDialogContent.W_RedeemCodeSuccessDialogContent_C",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.EnterRedeemCode.Failed",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Cancel\")"
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"RedeemCode.Failed.ButtonTryAgain\")"
+			}
+		],
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"RedeemCode.Failed.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"RedeemCode.Failed.Message\")",
+		"ContentWidget": "/Script/Angelscript.AS_RedeemCodeFailedDialogContent",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.ExitToDesktop.Request",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Cancel\")"
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Confirm\")"
+			}
+		],
+		"Title": "LOCTABLE(\"SystemMenuLabels.csv\", \"exit_to_desktop_title\")",
+		"Message": "LOCTABLE(\"SystemMenuLabels.csv\", \"exit_to_desktop_description\")",
+		"ContentWidget": "/Script/Angelscript.AS_ExitToDesktopDialogContent",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Action.SystemInvite.Prompt.Leave.Game",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_No\")"
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Yes\")"
+			}
+		],
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"SystemInvite.Overworld.Leave.Game.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"SystemInvite.Overworld.Leave.Game.Message\")",
+		"ContentWidget": "None",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.AccountLink.InProgress",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "NoHeader",
+		"ButtonArray": [],
+		"Title": "LOCTABLE(\"AccountLinkingLabels.csv\", \"AccountLink.InProgress.Title\")",
+		"Message": "LOCTABLE(\"AccountLinkingLabels.csv\", \"AccountLink.InProgress.Message\")",
+		"ContentWidget": "/SpicewoodUI/Spicewood/UI/Widget/Dialog/Instance/AccountLinking/W_AccountLinkDialogProgressContent.W_AccountLinkDialogProgressContent_C",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.AccountLink.Result.Success",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Progressive",
+		"ButtonArray": [
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Continue\")"
+			}
+		],
+		"Title": "LOCTABLE(\"AccountLinkingLabels.csv\", \"AccountLink.Success.Title\")",
+		"Message": "LOCTABLE(\"AccountLinkingLabels.csv\", \"AccountLink.Success.Message\")",
+		"ContentWidget": "/SpicewoodUI/Spicewood/UI/Widget/Dialog/Instance/AccountLinking/W_AccountLinkResultContent.W_AccountLinkResultContent_C",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.WidgetName.Dialog.Upsell",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Dismiss\")"
+			}
+		],
+		"Title": "",
+		"Message": "",
+		"ContentWidget": "/SpicewoodUI/Spicewood/UI/Widget/Dialog/Instance/Upsell/W_Dialog_Upsell.W_Dialog_Upsell_C",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.AccountUnlink.InProgress",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "NoHeader",
+		"ButtonArray": [],
+		"Title": "LOCTABLE(\"AccountLinkingLabels.csv\", \"AccountUnlink.InProgress.Title\")",
+		"Message": "LOCTABLE(\"AccountLinkingLabels.csv\", \"AccountUnlink.InProgress.Message\")",
+		"ContentWidget": "/SpicewoodUI/Spicewood/UI/Widget/Dialog/Instance/AccountLinking/W_AccountLinkDialogProgressContent.W_AccountLinkDialogProgressContent_C",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.AccountUnlink.Result.Success",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Progressive",
+		"ButtonArray": [
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Continue\")"
+			}
+		],
+		"Title": "LOCTABLE(\"AccountLinkingLabels.csv\", \"AccountUnlink.Result.Success.Title\")",
+		"Message": "LOCTABLE(\"AccountLinkingLabels.csv\", \"AccountUnlink.Result.Success.Message\")",
+		"ContentWidget": "/SpicewoodUI/Spicewood/UI/Widget/Dialog/Instance/AccountLinking/W_AccountUnlinkResultContent.W_AccountUnlinkResultContent_C",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.Rewards.ReturningHero",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Claim\")"
+			}
+		],
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Reward.ReturningHero.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Reward.ReturningHero.Message\")",
+		"ContentWidget": "/SpicewoodUI/Spicewood/UI/Widget/Dialog/Instance/Rewards/W_ReturningHeroRewardDialogContent.W_ReturningHeroRewardDialogContent_C",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.Rewards.PreOrder",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Claim\")"
+			}
+		],
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Reward.PreOrder.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Reward.PreOrder.Message\")",
+		"ContentWidget": "/SpicewoodUI/Spicewood/UI/Widget/Dialog/Instance/Rewards/W_PreOrderRewardDialogContent.W_PreOrderRewardDialogContent_C",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.Rewards.Deluxe",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Claim\")"
+			}
+		],
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Reward.Deluxe.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Reward.Deluxe.Message\")",
+		"ContentWidget": "/SpicewoodUI/Spicewood/UI/Widget/Dialog/Instance/Rewards/W_DeluxeEditionRewardDialogContent.W_DeluxeEditionRewardDialogContent_C",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.EnterRedeemCode.Failed.AlreadyUsed",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Cancel\")"
+			}
+		],
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"RedeemCode.Failed.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"RedeemCode.Failed.Message.CodeAlreadyUsed\")",
+		"ContentWidget": "/Script/Angelscript.AS_RedeemCodeFailedDialogContent",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.EnterRedeemCode.Failed.Invalid",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Cancel\")"
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"RedeemCode.Failed.ButtonTryAgain\")"
+			}
+		],
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"RedeemCode.Failed.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"RedeemCode.Failed.Message.CodeInvalid\")",
+		"ContentWidget": "/Script/Angelscript.AS_RedeemCodeFailedDialogContent",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.EnterRedeemCode.Failed.Expired",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Cancel\")"
+			}
+		],
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"RedeemCode.Failed.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"RedeemCode.Failed.Message.PromotionExpired\")",
+		"ContentWidget": "/Script/Angelscript.AS_RedeemCodeFailedDialogContent",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.EnterRedeemCode.Failed.NoInternet",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Cancel\")"
+			}
+		],
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"RedeemCode.Failed.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"RedeemCode.Failed.Message.NoInternet\")",
+		"ContentWidget": "/Script/Angelscript.AS_RedeemCodeFailedDialogContent",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.EnterRedeemCode.Failed.AlreadyOwned",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Cancel\")"
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"RedeemCode.Failed.ButtonTryAgain\")"
+			}
+		],
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"RedeemCode.Failed.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"RedeemCode.Failed.Message.AlreadyOwned\")",
+		"ContentWidget": "/Script/Angelscript.AS_RedeemCodeFailedDialogContent",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.EnterRedeemCode.Failed.Generic",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Cancel\")"
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"RedeemCode.Failed.ButtonTryAgain\")"
+			}
+		],
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"RedeemCode.Failed.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"RedeemCode.Failed.Message.Generic\")",
+		"ContentWidget": "/Script/Angelscript.AS_RedeemCodeFailedDialogContent",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.Character.Relog.Confirmation",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.Standard"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_No\")"
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"DialogAlertsLabels.csv\", \"DialogAction_Yes\")"
+			}
+		],
+		"Title": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Upsell.Character.Relog.Title\")",
+		"Message": "LOCTABLE(\"DialogAlertsLabels.csv\", \"Upsell.Character.Relog.Message\")",
+		"ContentWidget": "None",
+		"Priority": 1,
+		"bIsConfirmationHoldAction": true,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	},
+	{
+		"Name": "SW.UI.Dialog.LeaveServerQueue",
+		"Variant":
+		{
+			"TagName": "SW.UI.WidgetName.Dialog.ProgressiveDestructive"
+		},
+		"HeaderStyle": "Default",
+		"ButtonArray": [
+			{
+				"Result": "Cancelled",
+				"OptionalDisplayText": ""
+			},
+			{
+				"Result": "Confirmed",
+				"OptionalDisplayText": "LOCTABLE(\"LobbyScreenLabels.csv\", \"server_queue_leave_dialog_confirm_text\")"
+			}
+		],
+		"Title": "LOCTABLE(\"LobbyScreenLabels.csv\", \"server_queue_leave_dialog_header\")",
+		"Message": "LOCTABLE(\"LobbyScreenLabels.csv\", \"server_queue_leave_dialog_text\")",
+		"ContentWidget": "/MainMenu/UI/MenuLayer/LobbyScreen/Widget/W_LeaveQueueDialogContent.W_LeaveQueueDialogContent_C",
+		"Priority": 0,
+		"bIsConfirmationHoldAction": false,
+		"bIsCancelHoldAction": false,
+		"bIsDeclineHoldAction": false
+	}
+]

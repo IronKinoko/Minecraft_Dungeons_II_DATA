@@ -1,0 +1,3163 @@
+[
+	{
+		"Name": "BaseEnchanmentBook",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.Base"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "None"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Pickup"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "None",
+		"ActorReference": "None"
+	},
+	{
+		"Name": "Arcane",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.Arcane"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Utility"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.Arcane.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/EnchantmentType/EnchantmentType-arcane.EnchantmentType-arcane",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_Arcane.T_UI_Icon_Enchantment_Arcane",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_Arcane_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_Arcane_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "Blowback",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.Blowback"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Offensive"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.Blowback.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/EnchantmentType/EnchantmentType-blowBack.EnchantmentType-blowBack",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_Blowback.T_UI_Icon_Enchantment_Blowback",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_Blowback_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_Blowback_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "Borealis",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.Borealis"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Offensive"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.Borealis.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/EnchantmentType/EnchantmentType-borealis.EnchantmentType-borealis",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_Borealis.T_UI_Icon_Enchantment_Borealis",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_Borealis_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_Borealis_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "Channeling",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.Channeling"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Offensive"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.Channeling.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/EnchantmentType/EnchantmentType-channeling.EnchantmentType-channeling",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_Channeling.T_UI_Icon_Enchantment_Channeling",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_Channeling_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_Channeling_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "Dynamo",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.Dynamo"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Utility"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.Dynamo.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/EnchantmentType/EnchantmentType-dynamo.EnchantmentType-dynamo",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_Dynamo.T_UI_Icon_Enchantment_Dynamo",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_Dynamo_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_Dynamo_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "FireAspect",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.FireAspect"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Offensive"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.FireAspect.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/EnchantmentType/EnchantmentType-fireAspect.EnchantmentType-fireAspect",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_FireAspect.T_UI_Icon_Enchantment_FireAspect",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_FireAspect_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_FireAspect_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "FrostCrescent",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.FrostCrescent"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Offensive"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.FrostCrescent.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/EnchantmentType/EnchantmentType-frostCrescent.EnchantmentType-frostCrescent",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_FrostCrescent.T_UI_Icon_Enchantment_FrostCrescent",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_FrostCrescent_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_FrostCrescent_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "GravityPulse",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.GravityPulse"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Utility"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.GravityPulse.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/EnchantmentType/EnchantmentType-gravityPulse.EnchantmentType-gravityPulse",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_GravityPulse.T_UI_Icon_Enchantment_GravityPulse",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_GravityPulse_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_GravityPulse_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "HealthSynergy",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.HealthSynergy"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Utility"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.HealthSynergy.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/EnchantmentType/EnchantmentType-healthSynergy.EnchantmentType-healthSynergy",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_HealthSynergy.T_UI_Icon_Enchantment_HealthSynergy",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_HealthSynergy_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_HealthSynergy_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "PoisonFog",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.PoisonFog"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Offensive"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.PoisonFog.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/EnchantmentType/EnchantmentType-poisonFog.EnchantmentType-poisonFog",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_PoisonFog.T_UI_Icon_Enchantment_PoisonFog",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_PoisonFog_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_PoisonFog_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "PotionBarrier",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.PotionBarrier"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Defensive"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.PotionBarrier.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/EnchantmentType/EnchantmentType-potionBarrier.EnchantmentType-potionBarrier",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_PotionBarrier.T_UI_Icon_Enchantment_PotionBarrier",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_PotionBarrier_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_PotionBarrier_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "Radiance",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.Radiance"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Defensive"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.Radiance.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/EnchantmentType/EnchantmentType-radiance.EnchantmentType-radiance",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_Radiance.T_UI_Icon_Enchantment_Radiance",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_Radiance_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_Radiance_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "ShadowStrike",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.ShadowStrike"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Utility"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.ShadowStrike.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/EnchantmentType/EnchantmentType-shadowStrike.EnchantmentType-shadowStrike",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_ShadowStrike.T_UI_Icon_Enchantment_ShadowStrike",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_ShadowStrike_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_ShadowStrike_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "Shockwave",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.Shockwave"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Offensive"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.Shockwave.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/EnchantmentType/EnchantmentType-shockwave.EnchantmentType-shockwave",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_Shockwave.T_UI_Icon_Enchantment_Shockwave",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_Shockwave_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_Shockwave_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "SoulAspect",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.SoulAspect"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Offensive"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.SoulFireAspect.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/EnchantmentType/EnchantmentType-soulFireAspect.EnchantmentType-soulFireAspect",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_SoulFireAspect.T_UI_Icon_Enchantment_SoulFireAspect",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_SoulAspect_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_SoulAspect_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "SoulInfusedPotion",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.SoulInfusedPotion"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Utility"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.SoulInfusedPotion.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/EnchantmentType/EnchantmentType-soulInfusedPotion.EnchantmentType-soulInfusedPotion",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_SoulInfusedPotion.T_UI_Icon_Enchantment_SoulInfusedPotion",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_SoulInfusedPotion_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_SoulInfusedPotion_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "Swirling",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.Swirling"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Offensive"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.Swirling.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/EnchantmentType/EnchantmentType-swirling.EnchantmentType-swirling",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_Swirling.T_UI_Icon_Enchantment_Swirling",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_Swirling_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_Swirling_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "TempoTheft",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.TempoTheft"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Utility"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.TempoTheft.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/EnchantmentType/EnchantmentType-tempoTheft.EnchantmentType-tempoTheft",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_TempoTheft.T_UI_Icon_Enchantment_TempoTheft",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_TempoTheft_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_TempoTheft_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "Thundering",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.Thundering"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Offensive"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.Thundering.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/EnchantmentType/EnchantmentType-thundering.EnchantmentType-thundering",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_Thundering.T_UI_Icon_Enchantment_Thundering",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_Thundering_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_Thundering_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "Unstoppable",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.Unstoppable"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Offensive"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.Unstoppable.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/EnchantmentType/EnchantmentType-unstoppable.EnchantmentType-unstoppable",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_Unstoppable.T_UI_Icon_Enchantment_Unstoppable",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_Unstoppable_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_Unstoppable_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "MultiRoll",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.MultiRoll"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Utility"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.MultiRoll.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Spicewood/ItemType/EnchantmentType/EnchantmentType/EnchantmentType-multiRoll.EnchantmentType-multiRoll",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_MultiRoll.T_UI_Icon_Enchantment_MultiRoll",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_MultiRoll_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_MultiRoll_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "PotionSharing",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.PotionSharing"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Utility"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.PotionSharing.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/EnchantmentType/EnchantmentType-potionSharing.EnchantmentType-potionSharing",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_PotionSharing.T_UI_Icon_Enchantment_PotionSharing",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_PotionSharing_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_PotionSharing_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "LingeringPower",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.LingeringPower"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Utility"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.LingeringPower.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/EnchantmentType/EnchantmentType-LingeringPower.EnchantmentType-LingeringPower",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_LingeringPower.T_UI_Icon_Enchantment_LingeringPower",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_LingeringPower_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_LingeringPower_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "GuardingStrike",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.GuardingStrike"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Defensive"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.GuardingStrike.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Spicewood/ItemType/EnchantmentType/EnchantmentType/EnchantmentType-guardingStrike.EnchantmentType-guardingStrike",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_GuardingStrike.T_UI_Icon_Enchantment_GuardingStrike",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_GuardingStrike_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_GuardingStrike_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "SpringLoaded",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.SpringLoaded"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Utility"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.Springloaded.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/EnchantmentType/EnchantmentType-springLoaded.EnchantmentType-springLoaded",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_SpringLoaded.T_UI_Icon_Enchantment_SpringLoaded",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_SpringLoaded_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_SpringLoaded_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "ExpandedQuiver",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.ExpandedQuiver"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Utility"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.ExpandedQuiver.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/EnchantmentType/EnchantmentType-expandedQuiver.EnchantmentType-expandedQuiver",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_ExpandedQuiver.T_UI_Icon_Enchantment_ExpandedQuiver",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_ExpandedQuiver_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_ExpandedQuiver_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "CriticalQuiver",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.CriticalQuiver"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Utility"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.CriticalQuiver.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/EnchantmentType/EnchantmentType-criticalQuiver.EnchantmentType-criticalQuiver",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_CriticalQuiver.T_UI_Icon_Enchantment_CriticalQuiver",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_CriticalQuiver_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_CriticalQuiver_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "MultiPotion",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.MultiPotion"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Utility"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.MultiPotion.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/EnchantmentType/EnchantmentType-multiPotion.EnchantmentType-multiPotion",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_LocalBrewery.T_UI_Icon_Enchantment_LocalBrewery",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_MultiPotion_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_MultiPotion_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "Piercing",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.Piercing"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Offensive"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.Piercing.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/EnchantmentType/EnchantmentType-piercing.EnchantmentType-piercing",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_Piercing.T_UI_Icon_Enchantment_Piercing",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_Piercing_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_Piercing_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "Ricochet",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.Ricochet"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Offensive"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.Ricochet.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/EnchantmentType/EnchantmentType-ricochet.EnchantmentType-ricochet",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Enchantment.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_Ricochet.T_UI_Icon_Enchantment_Ricochet",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_Ricochet_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_Ricochet_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "ChainReaction",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.ChainReaction"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Offensive"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.ChainReaction.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/EnchantmentType/EnchantmentType-chainReaction.EnchantmentType-chainReaction",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_ChainReaction.T_UI_Icon_Enchantment_ChainReaction",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_ChainReaction_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_ChainReaction_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	},
+	{
+		"Name": "BurstBowstring",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EnchantmentBook.BurstBowstring"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook.Base"
+				},
+				{
+					"TagName": "SW.EffectCategory.Offensive"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.EnchantmentBook"
+				},
+				{
+					"TagName": "SW.EffectCategory"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AssociatedEnchantment"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Enchantment.BurstBowstring.I"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/EnchantmentType/EnchantmentType-BurstBowstring.EnchantmentType-BurstBowstring",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/2_PickUp/sfx_enchantment_pickUp.sfx_enchantment_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Enchantments/1_Drop/sfx_enchantment_drop.sfx_enchantment_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"IconReference": "/OreUI/UI/Icons/Enchantments/T_UI_Icon_Enchantment_BurstBowstring.T_UI_Icon_Enchantment_BurstBowstring",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_BurstBowstring_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionEnchantmentBook.csv\", \"SW_Item_EnchantmentBook_BurstBowstring_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/EnchantmentBooks/BP_EnchantmentBook.BP_EnchantmentBook_C"
+	}
+]

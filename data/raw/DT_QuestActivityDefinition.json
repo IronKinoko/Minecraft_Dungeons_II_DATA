@@ -1,0 +1,495 @@
+[
+	{
+		"Name": "BaseQuestActivity",
+		"TypeTag":
+		{
+			"TagName": "SW.Activity.Quest"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Activity"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestActivityData":
+		{
+			"QuestTag":
+			{
+				"TagName": "None"
+			},
+			"ActivityId": ""
+		}
+	},
+	{
+		"Name": "CA00",
+		"TypeTag":
+		{
+			"TagName": "SW.Activity.Quest.CA00"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Activity.Quest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Activity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestActivityData":
+		{
+			"QuestTag":
+			{
+				"TagName": "SW.Quest.Id.CA00"
+			},
+			"ActivityId": "progressChapter1"
+		}
+	},
+	{
+		"Name": "CA01",
+		"TypeTag":
+		{
+			"TagName": "SW.Activity.Quest.CA01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Activity.Quest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Activity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestActivityData":
+		{
+			"QuestTag":
+			{
+				"TagName": "SW.Quest.Id.CA01"
+			},
+			"ActivityId": "progressChapter2"
+		}
+	},
+	{
+		"Name": "CA01_B",
+		"TypeTag":
+		{
+			"TagName": "SW.Activity.Quest.CA01_B"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Activity.Quest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Activity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestActivityData":
+		{
+			"QuestTag":
+			{
+				"TagName": "SW.Quest.Id.CA01B"
+			},
+			"ActivityId": "progressChapter2-5"
+		}
+	},
+	{
+		"Name": "CA02",
+		"TypeTag":
+		{
+			"TagName": "SW.Activity.Quest.CA02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Activity.Quest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Activity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestActivityData":
+		{
+			"QuestTag":
+			{
+				"TagName": "SW.Quest.Id.CA02"
+			},
+			"ActivityId": "progressChapter3"
+		}
+	},
+	{
+		"Name": "CA02_C",
+		"TypeTag":
+		{
+			"TagName": "SW.Activity.Quest.CA02_C"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Activity.Quest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Activity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestActivityData":
+		{
+			"QuestTag":
+			{
+				"TagName": "SW.Quest.Id.CA02C"
+			},
+			"ActivityId": "progressChapter3-5"
+		}
+	},
+	{
+		"Name": "CA02_B",
+		"TypeTag":
+		{
+			"TagName": "SW.Activity.Quest.CA02_B"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Activity.Quest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Activity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestActivityData":
+		{
+			"QuestTag":
+			{
+				"TagName": "SW.Quest.Id.CA02B"
+			},
+			"ActivityId": "progressChapter4"
+		}
+	},
+	{
+		"Name": "CA03",
+		"TypeTag":
+		{
+			"TagName": "SW.Activity.Quest.CA03"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Activity.Quest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Activity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestActivityData":
+		{
+			"QuestTag":
+			{
+				"TagName": "SW.Quest.Id.CA03"
+			},
+			"ActivityId": "progressChapter5"
+		}
+	},
+	{
+		"Name": "CA04",
+		"TypeTag":
+		{
+			"TagName": "SW.Activity.Quest.CA04"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Activity.Quest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Activity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestActivityData":
+		{
+			"QuestTag":
+			{
+				"TagName": "SW.Quest.Id.CA04"
+			},
+			"ActivityId": "progressChapter6"
+		}
+	},
+	{
+		"Name": "CA07",
+		"TypeTag":
+		{
+			"TagName": "SW.Activity.Quest.CA07"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Activity.Quest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Activity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestActivityData":
+		{
+			"QuestTag":
+			{
+				"TagName": "SW.Quest.Id.CA07"
+			},
+			"ActivityId": "progressChapter7"
+		}
+	},
+	{
+		"Name": "CA05",
+		"TypeTag":
+		{
+			"TagName": "SW.Activity.Quest.CA05"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Activity.Quest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Activity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestActivityData":
+		{
+			"QuestTag":
+			{
+				"TagName": "SW.Quest.Id.CA05"
+			},
+			"ActivityId": "progressChapter8"
+		}
+	},
+	{
+		"Name": "CA06",
+		"TypeTag":
+		{
+			"TagName": "SW.Activity.Quest.CA06"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Activity.Quest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Activity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestActivityData":
+		{
+			"QuestTag":
+			{
+				"TagName": "SW.Quest.Id.CA06"
+			},
+			"ActivityId": "progressChapter8-5"
+		}
+	},
+	{
+		"Name": "CA08",
+		"TypeTag":
+		{
+			"TagName": "SW.Activity.Quest.CA08"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Activity.Quest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Activity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestActivityData":
+		{
+			"QuestTag":
+			{
+				"TagName": "SW.Quest.Id.CA08"
+			},
+			"ActivityId": "progressChapter9"
+		}
+	},
+	{
+		"Name": "CA08_B",
+		"TypeTag":
+		{
+			"TagName": "SW.Activity.Quest.CA08_B"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Activity.Quest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Activity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestActivityData":
+		{
+			"QuestTag":
+			{
+				"TagName": "SW.Quest.Id.CA08B"
+			},
+			"ActivityId": "progressChapter9-5"
+		}
+	},
+	{
+		"Name": "CA09",
+		"TypeTag":
+		{
+			"TagName": "SW.Activity.Quest.CA09"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Activity.Quest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Activity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestActivityData":
+		{
+			"QuestTag":
+			{
+				"TagName": "SW.Quest.Id.CA09"
+			},
+			"ActivityId": "progressChapter10"
+		}
+	},
+	{
+		"Name": "CA10",
+		"TypeTag":
+		{
+			"TagName": "SW.Activity.Quest.CA10"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Activity.Quest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Activity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"QuestActivityData":
+		{
+			"QuestTag":
+			{
+				"TagName": "SW.Quest.Id.CA10"
+			},
+			"ActivityId": "progressChapter11"
+		}
+	}
+]

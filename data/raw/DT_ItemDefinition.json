@@ -1,0 +1,1043 @@
+[
+	{
+		"Name": "Item",
+		"TypeTag":
+		{
+			"TagName": "SW.Item"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.ProjectilesPassThrough"
+				},
+				{
+					"TagName": "SW.Property.Targetable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Common"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "None",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "SW.AbilityCallsign.ItemPickup"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"ComponentDefinition":
+		{
+			"ServerComponents":
+			{
+				"(TagName=\"\")":
+				{
+					"Components": [
+						"/Script/Dungeons.SimpleMovementComponent",
+						"/Script/ItemGenerator.GASItemComponent"
+					]
+				}
+			}
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "SW.Delegate.Setup.AGearActor"
+			}
+		}
+	},
+	{
+		"Name": "Gear",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.Gear"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Effect.OnEquip"
+				},
+				{
+					"TagName": "SW.TargetingProperties.Interactable"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.OwnerRelevant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Effect"
+				},
+				{
+					"TagName": "SW.TargetingProperties"
+				},
+				{
+					"TagName": "SW.ReplicationGraph"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Common"
+						},
+						{
+							"TagName": "SW.Rarity.Rare"
+						},
+						{
+							"TagName": "SW.Rarity.Special"
+						},
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "None",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Armor",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.Armor"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Gear"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "None",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "MeleeWeapon",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.MeleeWeapon"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Gear"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "None",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "RangedWeapon",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.RangedWeapon"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Gear"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "None",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Talisman",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.Talisman"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Gear"
+				},
+				{
+					"TagName": "SW.Item.Property.EarnsXP"
+				},
+				{
+					"TagName": "SW.Property.Powerless"
+				},
+				{
+					"TagName": "SW.Property.Immeasurable"
+				},
+				{
+					"TagName": "SW.Item.Property.OneOfAKind"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.OwnerRelevant"
+				},
+				{
+					"TagName": "SW.TargetingProperties.Interactable"
+				},
+				{
+					"TagName": "SW.Item.Property.Significant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.ReplicationGraph"
+				},
+				{
+					"TagName": "SW.TargetingProperties"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.None"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"CompensationData":
+		{
+			"Compensation":
+			{
+				"(TagName=\"SW.Item.Currency.Emerald\")": 0
+			}
+		},
+		"IconReference": "None",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Artifact",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.Artifact"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Gear"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Common"
+						},
+						{
+							"TagName": "SW.Rarity.Rare"
+						},
+						{
+							"TagName": "SW.Rarity.Special"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "None",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Well",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.Well"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Artifact"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "None",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "EnchantmentBook",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.EnchantmentBook"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.TargetingProperties.Interactable"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.OwnerRelevant"
+				},
+				{
+					"TagName": "SW.Property.Powerless"
+				},
+				{
+					"TagName": "SW.Property.Immeasurable"
+				},
+				{
+					"TagName": "SW.Item.Property.OneOfAKind"
+				},
+				{
+					"TagName": "SW.Item.Property.Significant.AlwaysSpawn"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.TargetingProperties"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.ReplicationGraph"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Item.Property.Significant"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.None"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"CompensationData":
+		{
+			"Compensation":
+			{
+				"(TagName=\"SW.Item.Currency.Springstone\")": 0
+			}
+		},
+		"IconReference": "None",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Consumable",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.Consumable"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize.Static"
+				},
+				{
+					"TagName": "SW.TargetingProperties.Consumable"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Property.Powerless"
+				},
+				{
+					"TagName": "SW.Property.Immeasurable"
+				},
+				{
+					"TagName": "SW.Property.PerishOnWorldReset"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize"
+				},
+				{
+					"TagName": "SW.ReplicationGraph"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.TargetingProperties"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.None"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "None",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Crossbow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.Crossbow"
+		},
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "None",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Bow",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.Bow"
+		},
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "None",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "OneOfAKind",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.OneOfAKind"
+		},
+		"GameplayEffect":
+		{
+		},
+		"CompensationData":
+		{
+			"Compensation":
+			{
+				"(TagName=\"SW.Item.Currency.Emerald\")": 50
+			}
+		},
+		"IconReference": "None",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "CosmeticCape",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.Cosmetic.Cape"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.OwnerRelevant"
+				},
+				{
+					"TagName": "SW.Property.Powerless"
+				},
+				{
+					"TagName": "SW.Property.Immeasurable"
+				},
+				{
+					"TagName": "SW.Item.Property.OneOfAKind"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.ReplicationGraph"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.None"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "None",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "CosmeticPet",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.Cosmetic.Pet"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.OwnerRelevant"
+				},
+				{
+					"TagName": "SW.Property.Powerless"
+				},
+				{
+					"TagName": "SW.Property.Immeasurable"
+				},
+				{
+					"TagName": "SW.Item.Property.OneOfAKind"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.ReplicationGraph"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.None"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "None",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	}
+]

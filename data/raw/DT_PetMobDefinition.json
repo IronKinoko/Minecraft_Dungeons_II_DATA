@@ -1,0 +1,533 @@
+[
+	{
+		"Name": "Blub",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Pet.Blub"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Property.Tests.Flaky"
+				},
+				{
+					"TagName": "SW.Mob.Default.Pet"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property.Tests"
+				},
+				{
+					"TagName": "SW.Mob.Default"
+				},
+				{
+					"TagName": "SW.Mob"
+				}
+			]
+		},
+		"IconReference": "None",
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Friendlies/Pets/Blub/BP_Blub.BP_Blub_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ValidGameplayCues"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "GameplayCue.SW.OverlapMaterial.Water.Exit"
+						},
+						{
+							"TagName": "GameplayCue.SW.OverlapMaterial.Water.Enter"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "GameplayCue.SW.OverlapMaterial.Water"
+						},
+						{
+							"TagName": "GameplayCue.SW.OverlapMaterial"
+						},
+						{
+							"TagName": "GameplayCue.SW"
+						},
+						{
+							"TagName": "GameplayCue"
+						}
+					]
+				}
+			}
+		],
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 200
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.MovementSpeed"
+				},
+				"Value": 300
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.MinimumAcceptableRadiusModifier"
+				},
+				"Value": 80
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.MaximumAcceptableRadiusModifier"
+				},
+				"Value": 80
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.AggroMultiplier"
+				},
+				"Value": 8
+			}
+		],
+		"AttributeThresholds":
+		{
+		},
+		"AttributeAdjustments":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "/Game/Spicewood/GameplayLogic/StateTrees/Archetypes/ST_Archetype_Pet.ST_Archetype_Pet",
+		"StateTreeConfiguration":
+		{
+		},
+		"StaggerAnimation": "None",
+		"StaggerContextAnimations":
+		{
+		},
+		"DeathReasons":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Attack.Melee\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Companion/IronGolem/sfx_mob_ironGolemHitMarker_Play.sfx_mob_ironGolemHitMarker_Play",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Mob.Companion"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Companion"
+			},
+			"Priority": 0
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"Navigation":
+		{
+		}
+	},
+	{
+		"Name": "TwistedChicken",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Pet.TwistedChicken"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Property.Tests.Flaky"
+				},
+				{
+					"TagName": "SW.Mob.Default.Pet"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property.Tests"
+				},
+				{
+					"TagName": "SW.Mob.Default"
+				},
+				{
+					"TagName": "SW.Mob"
+				}
+			]
+		},
+		"IconReference": "None",
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Friendlies/Pets/TwistedChicken/BP_TwistedChicken.BP_TwistedChicken_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ValidGameplayCues"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "GameplayCue.SW.OverlapMaterial.Water.Exit"
+						},
+						{
+							"TagName": "GameplayCue.SW.OverlapMaterial.Water.Enter"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "GameplayCue.SW.OverlapMaterial.Water"
+						},
+						{
+							"TagName": "GameplayCue.SW.OverlapMaterial"
+						},
+						{
+							"TagName": "GameplayCue.SW"
+						},
+						{
+							"TagName": "GameplayCue"
+						}
+					]
+				}
+			}
+		],
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 200
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.MovementSpeed"
+				},
+				"Value": 300
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.MinimumAcceptableRadiusModifier"
+				},
+				"Value": 80
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.MaximumAcceptableRadiusModifier"
+				},
+				"Value": 80
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.AggroMultiplier"
+				},
+				"Value": 8
+			}
+		],
+		"AttributeThresholds":
+		{
+		},
+		"AttributeAdjustments":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "/Game/Spicewood/GameplayLogic/StateTrees/Archetypes/ST_Archetype_Pet.ST_Archetype_Pet",
+		"StateTreeConfiguration":
+		{
+		},
+		"StaggerAnimation": "None",
+		"StaggerContextAnimations":
+		{
+		},
+		"DeathReasons":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Attack.Melee\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Companion/IronGolem/sfx_mob_ironGolemHitMarker_Play.sfx_mob_ironGolemHitMarker_Play",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Mob.Companion"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Companion"
+			},
+			"Priority": 0
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"Navigation":
+		{
+		}
+	},
+	{
+		"Name": "SlimeSupreme",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Pet.SlimeSupreme"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Property.Tests.Flaky"
+				},
+				{
+					"TagName": "SW.Mob.Default.Pet"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property.Tests"
+				},
+				{
+					"TagName": "SW.Mob.Default"
+				},
+				{
+					"TagName": "SW.Mob"
+				}
+			]
+		},
+		"IconReference": "None",
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Friendlies/Pets/SlimeSupreme/BP_SlimeSupreme.BP_SlimeSupreme_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ValidGameplayCues"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "GameplayCue.SW.OverlapMaterial.Water.Exit"
+						},
+						{
+							"TagName": "GameplayCue.SW.OverlapMaterial.Water.Enter"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "GameplayCue.SW.OverlapMaterial.Water"
+						},
+						{
+							"TagName": "GameplayCue.SW.OverlapMaterial"
+						},
+						{
+							"TagName": "GameplayCue.SW"
+						},
+						{
+							"TagName": "GameplayCue"
+						}
+					]
+				}
+			}
+		],
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 200
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.MovementSpeed"
+				},
+				"Value": 300
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.MinimumAcceptableRadiusModifier"
+				},
+				"Value": 80
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.MaximumAcceptableRadiusModifier"
+				},
+				"Value": 80
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.AggroMultiplier"
+				},
+				"Value": 8
+			}
+		],
+		"AttributeThresholds":
+		{
+		},
+		"AttributeAdjustments":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "/Game/Spicewood/GameplayLogic/StateTrees/Archetypes/ST_Archetype_Pet.ST_Archetype_Pet",
+		"StateTreeConfiguration":
+		{
+		},
+		"StaggerAnimation": "None",
+		"StaggerContextAnimations":
+		{
+		},
+		"DeathReasons":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Attack.Melee\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Companion/IronGolem/sfx_mob_ironGolemHitMarker_Play.sfx_mob_ironGolemHitMarker_Play",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Mob.Companion"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Companion"
+			},
+			"Priority": 0
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"Navigation":
+		{
+		}
+	}
+]

@@ -1,0 +1,1053 @@
+[
+	{
+		"Name": "StorminatorAdjacent",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.StorminatorAdjacent"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_CheckSoulStormNotInArea'"
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "CA09_MeadowA1Adjascent",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.CA09.MeadowA1Adjascent"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.CA09.MeadowA1End"
+						},
+						"bInvertCondition": false
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "CA09_CarapaceA1Mining",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.CA09.CarapaceA1Mining"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.CA09.CarapaceA1Mining"
+						},
+						"bInvertCondition": false
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "CA01_TownGateFight",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.CA01.TownGateFight"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.CA01.TownGateFight"
+						},
+						"bInvertCondition": false
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "CA01_SoulCorruptedFight",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.CA01.SoulCorrupted"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.CA01.SoulCorrupted"
+						},
+						"bInvertCondition": true
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "CA01_B_IllagerFights",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.CA01.B.Fights"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.CA01.B.Fights"
+						},
+						"bInvertCondition": false
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "CA02_C_SM01",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.CA02.C.SM01"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState..CA02.C.SM01"
+						},
+						"bInvertCondition": false
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "CA02_C_SM02",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.CA02.C.SM02"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.CA02.C.SM02"
+						},
+						"bInvertCondition": false
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "CA04_AS01",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.CA04.AS01"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.CA04.AS01"
+						},
+						"bInvertCondition": false
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "CA08_Standard01",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.CA08.Standard01"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.CA08.Standard01"
+						},
+						"bInvertCondition": true
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "SW.GameState.CA08.Standard01"
+			}
+		}
+	},
+	{
+		"Name": "CA02_Active",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.CA02.Active"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState..CA02.Active"
+						},
+						"bInvertCondition": true
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "DesertA1_Miners_Active",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.DEa1_S13_A.Active"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.DEa1_S13_A.Active"
+						},
+						"bInvertCondition": false
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "DesertA1_Miners_Inactive",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.DEa1_S13_A.Inactive"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.DEa1_S13_A.Inactive"
+						},
+						"bInvertCondition": false
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "MeadowA1_MEa1_S05",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.MeadowA1_S05_A"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.MEa1_S05_A.Completed"
+						},
+						"bInvertCondition": false
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "MEa1_S05_A_Sequence02",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.MEa1.S05.Sequence02"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.MEa1.S05.Sequence02"
+						},
+						"bInvertCondition": true
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "MEa1_S05_A_Sequence03",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.MEa1.S05.Sequence03"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.MEa1.S05.Sequence03"
+						},
+						"bInvertCondition": true
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "MEa1_S05_A_Sequence04",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.MEa1.S05.Sequence04"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.MEa1.S05.Sequence04"
+						},
+						"bInvertCondition": true
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "CAa1_S02_A_Sequence04",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.CAa1.S02.Sequence04"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.CAa1.S02.Sequence04"
+						},
+						"bInvertCondition": true
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "CAa1_S02_A_Sequence05",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.CAa1.S02.Sequence05"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.CAa1.S02.Sequence05"
+						},
+						"bInvertCondition": true
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "CAa1_S02_A_Sequence06",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.CAa1.S02.Sequence06"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.CAa1.S02.Sequence06"
+						},
+						"bInvertCondition": true
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "CAa1_S03_A_Sequence05",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.CAa1.S03.Sequence05"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.CAa1.S03.Sequence05"
+						},
+						"bInvertCondition": true
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "MEa2_S03_A_Sequence01",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.MEa2.S03.Sequence01"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.MEa2.S03.Sequence01"
+						},
+						"bInvertCondition": true
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "MEa2_S03_A_Sequence02",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.MEa2.S03.Sequence02"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.MEa2.S03.Sequence02"
+						},
+						"bInvertCondition": true
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "MEa2_S03_A_Sequence03",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.MEa2.S03.Sequence03"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.MEa2.S03.Sequence03"
+						},
+						"bInvertCondition": true
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "MEa2_S03_A_Sequence04",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.MEa2.S03.Sequence04"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.MEa2.S03.Sequence04"
+						},
+						"bInvertCondition": true
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "ThreatLevelOver2",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.OverThreat2"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_CheckAreaThreatLevel'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_CheckAreaThreatLevelData",
+						"ThreatLevelToCheck": 2,
+						"Operator": "MoreThanOrEqual"
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "PLa1_S08_Sequence02",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.PLa1.S08.Sequence02"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.PLa1.S08.Sequence02"
+						},
+						"bInvertCondition": true
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "PLa1_S04_Sequence02",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.PLa1.S04.Sequence02"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.PLa1.S04.Sequence02"
+						},
+						"bInvertCondition": true
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "FOa1_S08_A_AS01",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.FOa1.S08.AS01"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.FOa1.S08.AS01"
+						},
+						"bInvertCondition": true
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "PLa2_S15_A_Sequence02",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.PLa2.S15.Sequence02"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.PLa2.S15.Sequence02"
+						},
+						"bInvertCondition": true
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "PLa2_S15_A_Sequence03",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.PLa2.S15.Sequence03"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.PLa2.S15.Sequence03"
+						},
+						"bInvertCondition": true
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "PLa2_S16_A_Sequence02",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.PLa2.S16.Sequence02"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.PLa2.S16.Sequence02"
+						},
+						"bInvertCondition": true
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "PLa2_S16_A_Sequence03",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.PLa2.S16.Sequence03"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.PLa2.S16.Sequence03"
+						},
+						"bInvertCondition": true
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "PLa2_S16_A_Sequence04",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.PLa2.S16.Sequence04"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.PLa2.S16.Sequence04"
+						},
+						"bInvertCondition": true
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "PLa2_S17_A_Sequence02",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.PLa2.S17.Sequence02"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.PLa2.S17.Sequence02"
+						},
+						"bInvertCondition": true
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "PLa2_S17_A_Sequence03",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.PLa2.S17.Sequence03"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.PLa2.S17.Sequence03"
+						},
+						"bInvertCondition": true
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "NewRow",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.CA08.CA08_E03"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.CA08.CA08_E03"
+						},
+						"bInvertCondition": false
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "NewRow_0",
+		"TypeTag":
+		{
+			"TagName": "SW.SpawnActorProperty.CA08.CA08_E03.FallbackReplacement"
+		},
+		"ActorPropertyData":
+		{
+			"SpawnCondition":
+			{
+				"Condition": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.SWGC_GameStateCheck'",
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.SWGC_GameStateCheckData",
+						"GameStateToCheck":
+						{
+							"TagName": "SW.GameState.CA08.CA08_E03"
+						},
+						"bInvertCondition": false
+					}
+				]
+			},
+			"ReplacementSpawnDataTag":
+			{
+				"TagName": "SW.Area.Meadow.A1"
+			}
+		}
+	}
+]

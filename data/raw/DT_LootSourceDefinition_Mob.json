@@ -1,0 +1,1026 @@
+[
+	{
+		"Name": "Boss",
+		"TypeTag":
+		{
+			"TagName": "SW.Trait.Boss"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 6,
+					"DropChancePerRoll": 0.5,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+					}
+				},
+				"(TagName=\"SW.LootSlot.SpringStone\")":
+				{
+					"NumberOfGuaranteedDrops": 5,
+					"NumberOfRandomRolls": 5,
+					"DropChancePerRoll": 0.5,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.SpringStone"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "MiniBoss",
+		"TypeTag":
+		{
+			"TagName": "SW.Trait.MiniBoss"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 4,
+					"DropChancePerRoll": 0.25,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+					}
+				},
+				"(TagName=\"SW.LootSlot.SpringStone\")":
+				{
+					"NumberOfGuaranteedDrops": 2,
+					"NumberOfRandomRolls": 3,
+					"DropChancePerRoll": 0.5,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.SpringStone"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "GlobalHostileMobLoot",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Default.Hostile"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Emeralds\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 5,
+					"DropChancePerRoll": 0.025,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.Emerald"
+								},
+								"Weight": 5,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.EmeraldBlock"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				},
+				"(TagName=\"SW.LootSlot.TNT\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 1,
+					"DropChancePerRoll": 0.0125,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Consumable.Throwable.TNT"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				},
+				"(TagName=\"SW.LootSlot.Consumable\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 1,
+					"DropChancePerRoll": 0.0125,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Consumable.Food"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.ExceptFromDefaultLootTables"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							}
+						]
+					}
+				},
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 1,
+					"DropChancePerRoll": 0.0125,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "Maw",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Maw"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 3,
+					"DropChancePerRoll": 0.15,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "Geomancer",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Geomancer"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Property.Artifact"
+								},
+								"Weight": 2,
+								"Operation": "Multiply"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "Witch",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Witch"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Artifact.WitchesBrew"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "WitchSlime",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.WitchSlime"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Property.Gear"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Property.EnchantmentBook"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							}
+						]
+					}
+				},
+				"(TagName=\"SW.LootSlot.Emeralds\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.Emerald"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							}
+						]
+					}
+				},
+				"(TagName=\"SW.LootSlot.SpringStone\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.SpringStone"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "LargeSlime",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Slime"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Property.Gear"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Property.EnchantmentBook"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							}
+						]
+					}
+				},
+				"(TagName=\"SW.LootSlot.Emeralds\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.Emerald"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							}
+						]
+					}
+				},
+				"(TagName=\"SW.LootSlot.SpringStone\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.SpringStone"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							}
+						]
+					}
+				},
+				"(TagName=\"SW.LootSlot.TNT\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Consumable.Throwable.TNT"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "MediumSlime",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.SlimeMedium"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Property.Gear"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Property.EnchantmentBook"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							}
+						]
+					}
+				},
+				"(TagName=\"SW.LootSlot.Emeralds\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.Emerald"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							}
+						]
+					}
+				},
+				"(TagName=\"SW.LootSlot.SpringStone\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.SpringStone"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							}
+						]
+					}
+				},
+				"(TagName=\"SW.LootSlot.TNT\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Consumable.Throwable.TNT"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "SmallSlimeSoulstated",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.SlimeSmall.SoulStated"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.SpringStone\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 1,
+					"DropChancePerRoll": 0.25,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.SpringStone"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "FrostbiteDesertBoss",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.FrostbiteDesertBoss"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 2,
+					"DropChancePerRoll": 0.25,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Gauntlet"
+								},
+								"Weight": 50,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "RedStoneCube",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.RedStoneCube"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Property.Gear"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Property.EnchantmentBook"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							}
+						]
+					}
+				},
+				"(TagName=\"SW.LootSlot.Emeralds\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.Emerald"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "PiggyBank",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.PiggyBank"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 2,
+					"DropChancePerRoll": 0.25,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+					}
+				},
+				"(TagName=\"SW.LootSlot.EnchantedBook\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 1,
+					"DropChancePerRoll": 0.5,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "Vex",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Vex"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Property.Gear"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Property.EnchantmentBook"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							}
+						]
+					}
+				},
+				"(TagName=\"SW.LootSlot.Emeralds\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.Emerald"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "PiggyBankOnHit",
+		"TypeTag":
+		{
+			"TagName": "SW.LootSource.PiggyBank.OnHit"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Emeralds\")":
+				{
+					"NumberOfGuaranteedDrops": 2,
+					"NumberOfRandomRolls": 3,
+					"DropChancePerRoll": 1,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.Emerald"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				},
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Property.Gear"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							},
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Property.EnchantmentBook"
+								},
+								"Weight": 0,
+								"Operation": "Multiply"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "SoulStated",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Default.SoulStated"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 1,
+					"DropChancePerRoll": 0.25,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+					}
+				},
+				"(TagName=\"SW.LootSlot.SpringStone\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 3,
+					"DropChancePerRoll": 0.5,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.SpringStone"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "DeepDarkIllagerBackpack",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.DeepDarkIllager.BackpackVariant"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Emeralds\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 4,
+					"DropChancePerRoll": 0.5,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.Item.Currency.Emerald"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				},
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 1,
+					"DropChancePerRoll": 0.025,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "StorminatorBase",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.SoulStorm.Storminator.Base"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+					}
+				},
+				"(TagName=\"SW.LootSlot.SpringStone\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "WitchType3",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Witch.Type3"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Item\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+					}
+				},
+				"(TagName=\"SW.LootSlot.SpecialGear\")":
+				{
+					"NumberOfGuaranteedDrops": 0,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": false,
+					"DropTable":
+					{
+					}
+				}
+			}
+		}
+	},
+	{
+		"Name": "Mosstrosity",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Monstrosity.Moss"
+		},
+		"LootDropDefinition":
+		{
+			"LootSlots":
+			{
+				"(TagName=\"SW.LootSlot.Talismans\")":
+				{
+					"NumberOfGuaranteedDrops": 1,
+					"NumberOfRandomRolls": 0,
+					"DropChancePerRoll": 0,
+					"InheritParentDropTable": true,
+					"DropTable":
+					{
+						"Tags": [
+							{
+								"TypeTag":
+								{
+									"TagName": "sw.Item.Talisman.Llama"
+								},
+								"Weight": 1,
+								"Operation": "Set"
+							}
+						]
+					}
+				}
+			}
+		}
+	}
+]

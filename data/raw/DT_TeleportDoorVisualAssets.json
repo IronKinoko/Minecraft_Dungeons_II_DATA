@@ -1,0 +1,579 @@
+[
+	{
+		"Name": "DefaultDoor",
+		"VisualAssetSizeMapping":
+		{
+			"(TagName=\"SW.ProceduralArea.Size.Any\")": "/Script/Engine.BlueprintGeneratedClass'/Game/Spicewood/Core/Teleporters/TeleportDoorVisualAssets/Door/BP_SpicewoodTeleportDoor_VisualAsset_DoorNoneDefault.BP_SpicewoodTeleportDoor_VisualAsset_DoorNoneDefault_C'"
+		},
+		"SupportedBiomes":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Biome"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SupportedVisualTypes": [
+			"Door",
+			"DungeonRiftStartExit",
+			"DungeonRiftEndExit"
+		]
+	},
+	{
+		"Name": "RiftCarapaceEntrance",
+		"VisualAssetSizeMapping":
+		{
+			"(TagName=\"SW.ProceduralArea.Size.Any\")": "/Script/Engine.BlueprintGeneratedClass'/Game/Spicewood/Core/Teleporters/TeleportDoorVisualAssets/Rifts/New/BP_SpicewoodTeleportDoor_VisualAsset_Rift_ToCarapace.BP_SpicewoodTeleportDoor_VisualAsset_Rift_ToCarapace_C'"
+		},
+		"SupportedBiomes":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Biome.Sift.Fungus"
+				},
+				{
+					"TagName": "SW.Biome.Sift.Carapace"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Biome.Sift"
+				},
+				{
+					"TagName": "SW.Biome"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SupportedVisualTypes": [
+			"Rift"
+		]
+	},
+	{
+		"Name": "RiftEntranceMeadow",
+		"VisualAssetSizeMapping":
+		{
+			"(TagName=\"SW.ProceduralArea.Size.Any\")": "/Script/Engine.BlueprintGeneratedClass'/Game/Spicewood/Core/Teleporters/TeleportDoorVisualAssets/Rifts/New/BP_SpicewoodTeleportDoor_VisualAsset_Rift_ToMeadows.BP_SpicewoodTeleportDoor_VisualAsset_Rift_ToMeadows_C'",
+			"(TagName=\"SW.ProceduralArea.Size.Portal\")": "/Script/Engine.BlueprintGeneratedClass'/Game/Spicewood/Core/Teleporters/TeleportDoorVisualAssets/BP_SpicewoodTeleportDoor_VisualAsset_WellspringPortal.BP_SpicewoodTeleportDoor_VisualAsset_WellspringPortal_C'"
+		},
+		"SupportedBiomes":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Biome.Sift.Meadow"
+				},
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark.A1"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Biome.Sift"
+				},
+				{
+					"TagName": "SW.Biome"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark"
+				},
+				{
+					"TagName": "SW.Biome.Overworld"
+				}
+			]
+		},
+		"SupportedVisualTypes": [
+			"Door",
+			"Rift"
+		]
+	},
+	{
+		"Name": "RiftExitToOverworld",
+		"VisualAssetSizeMapping":
+		{
+			"(TagName=\"SW.ProceduralArea.Size.Any\")": "/Script/Engine.BlueprintGeneratedClass'/Game/Spicewood/Core/Teleporters/TeleportDoorVisualAssets/Rifts/New/BP_SpicewoodTeleportDoor_VisualAsset_Rift_ToOverworld.BP_SpicewoodTeleportDoor_VisualAsset_Rift_ToOverworld_C'"
+		},
+		"SupportedBiomes":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Biome.Sift.Fungus"
+				},
+				{
+					"TagName": "SW.Biome.Sift.Meadow"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Biome.Sift"
+				},
+				{
+					"TagName": "SW.Biome"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SupportedVisualTypes": [
+			"DungeonRiftEndExit",
+			"DungeonRiftStartExit"
+		]
+	},
+	{
+		"Name": "DungeonEntranceOverworld",
+		"VisualAssetSizeMapping":
+		{
+			"(TagName=\"SW.ProceduralArea.Size.Small\")": "/Script/Engine.BlueprintGeneratedClass'/Game/Spicewood/Core/Teleporters/TeleportDoorVisualAssets/Dungeons/DeepDark/BP_SpicewoodTeleportDoor_VisualAsset_DungeonDeepDarkSmall.BP_SpicewoodTeleportDoor_VisualAsset_DungeonDeepDarkSmall_C'",
+			"(TagName=\"SW.ProceduralArea.Size.Medium\")": "/Script/Engine.BlueprintGeneratedClass'/Game/Spicewood/Core/Teleporters/TeleportDoorVisualAssets/Dungeons/DeepDark/BP_SpicewoodTeleportDoor_VisualAsset_DungeonDeepDarkMedium.BP_SpicewoodTeleportDoor_VisualAsset_DungeonDeepDarkMedium_C'",
+			"(TagName=\"SW.ProceduralArea.Size.Large\")": "/Script/Engine.BlueprintGeneratedClass'/Game/Spicewood/Core/Teleporters/TeleportDoorVisualAssets/Dungeons/DeepDark/BP_SpicewoodTeleportDoor_VisualAsset_DungeonDeepDarkLarge.BP_SpicewoodTeleportDoor_VisualAsset_DungeonDeepDarkLarge_C'",
+			"(TagName=\"SW.ProceduralArea.Size.Portal\")": "/Script/Engine.BlueprintGeneratedClass'/Game/Spicewood/Core/Teleporters/TeleportDoorVisualAssets/BP_SpicewoodTeleportDoor_VisualAsset_DeepDarkPortal.BP_SpicewoodTeleportDoor_VisualAsset_DeepDarkPortal_C'"
+		},
+		"SupportedBiomes":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark"
+				},
+				{
+					"TagName": "SW.Biome.Overworld.Lush"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Biome.Overworld"
+				},
+				{
+					"TagName": "SW.Biome"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SupportedVisualTypes": [
+			"Door",
+			"Dungeon"
+		]
+	},
+	{
+		"Name": "DungeonEntranceSift",
+		"VisualAssetSizeMapping":
+		{
+			"(TagName=\"SW.ProceduralArea.Size.Any\")": "/Script/Engine.BlueprintGeneratedClass'/Game/Spicewood/Core/Teleporters/TeleportDoorVisualAssets/Wellspring/BP_SpicewoodTeleportDoor_VisualAsset_DungeonWellspring.BP_SpicewoodTeleportDoor_VisualAsset_DungeonWellspring_C'"
+		},
+		"SupportedBiomes":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Biome.Sift.Ravines"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Biome.Sift"
+				},
+				{
+					"TagName": "SW.Biome"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SupportedVisualTypes": [
+			"Dungeon",
+			"Door"
+		]
+	},
+	{
+		"Name": "DungeonExitToSift",
+		"VisualAssetSizeMapping":
+		{
+			"(TagName=\"SW.ProceduralArea.Size.Any\")": "/Script/Engine.BlueprintGeneratedClass'/Game/Spicewood/Core/Teleporters/TeleportDoorVisualAssets/Dungeons/BP_SpicewoodTeleportDoor_VisualAsset_DungeonExit_Sift.BP_SpicewoodTeleportDoor_VisualAsset_DungeonExit_Sift_C'"
+		},
+		"SupportedBiomes":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Biome.Sift.Ravines"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Biome.Sift"
+				},
+				{
+					"TagName": "SW.Biome"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SupportedVisualTypes": [
+			"DungeonRiftEndExit"
+		]
+	},
+	{
+		"Name": "DungeonExitToOverworld",
+		"VisualAssetSizeMapping":
+		{
+			"(TagName=\"SW.ProceduralArea.Size.Any\")": "/Script/Engine.BlueprintGeneratedClass'/Game/Spicewood/Core/Teleporters/TeleportDoorVisualAssets/Dungeons/BP_SpicewoodTeleportDoor_VisualAsset_DungeonExit.BP_SpicewoodTeleportDoor_VisualAsset_DungeonExit_C'"
+		},
+		"SupportedBiomes":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Biome.Overworld"
+				},
+				{
+					"TagName": "SW.Biome"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SupportedVisualTypes": [
+			"DungeonRiftEndExit"
+		]
+	},
+	{
+		"Name": "IceCaveEntrance",
+		"VisualAssetSizeMapping":
+		{
+			"(TagName=\"SW.ProceduralArea.Size.Any\")": "/Script/Engine.BlueprintGeneratedClass'/Game/Spicewood/Core/Teleporters/TeleportDoorVisualAssets/Door/BP_SpicewoodTeleportDoor_VisualAsset_DoorNoneDefault.BP_SpicewoodTeleportDoor_VisualAsset_DoorNoneDefault_C'"
+		},
+		"SupportedBiomes":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Biome.Overworld.Desert.A1.IceCave"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Biome.Overworld.Desert.A1"
+				},
+				{
+					"TagName": "SW.Biome.Overworld.Desert"
+				},
+				{
+					"TagName": "SW.Biome.Overworld"
+				},
+				{
+					"TagName": "SW.Biome"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SupportedVisualTypes": [
+			"Door"
+		]
+	},
+	{
+		"Name": "DeepDarkPortal",
+		"VisualAssetSizeMapping":
+		{
+			"(TagName=\"SW.ProceduralArea.Size.Portal\")": "/Script/Engine.BlueprintGeneratedClass'/Game/Spicewood/Core/Teleporters/TeleportDoorVisualAssets/BP_SpicewoodTeleportDoor_VisualAsset_DeepDarkPortal.BP_SpicewoodTeleportDoor_VisualAsset_DeepDarkPortal_C'"
+		},
+		"SupportedBiomes":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Biome.Overworld"
+				},
+				{
+					"TagName": "SW.Biome"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SupportedVisualTypes": [
+			"Door"
+		]
+	},
+	{
+		"Name": "WellspringPortal",
+		"VisualAssetSizeMapping":
+		{
+			"(TagName=\"SW.ProceduralArea.Size.Portal\")": "/Script/Engine.BlueprintGeneratedClass'/Game/Spicewood/Core/Teleporters/TeleportDoorVisualAssets/BP_SpicewoodTeleportDoor_VisualAsset_WellspringPortal.BP_SpicewoodTeleportDoor_VisualAsset_WellspringPortal_C'"
+		},
+		"SupportedBiomes":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Biome.Sift.Meadow"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Biome.Sift"
+				},
+				{
+					"TagName": "SW.Biome"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SupportedVisualTypes": [
+			"Door"
+		]
+	},
+	{
+		"Name": "TutorialDungeon",
+		"VisualAssetSizeMapping":
+		{
+			"(TagName=\"SW.ProceduralArea.Size.Small\")": "/Script/Engine.BlueprintGeneratedClass'/Game/Spicewood/Core/Teleporters/TeleportDoorVisualAssets/Door/BP_SpicewoodTeleportDoor_VisualAsset_DoorNoneDefault.BP_SpicewoodTeleportDoor_VisualAsset_DoorNoneDefault_C'"
+		},
+		"SupportedBiomes":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Biome.Overworld.Lush"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Biome.Overworld"
+				},
+				{
+					"TagName": "SW.Biome"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SupportedVisualTypes": [
+			"Dungeon"
+		]
+	},
+	{
+		"Name": "TutorialDungeonExit",
+		"VisualAssetSizeMapping":
+		{
+			"(TagName=\"SW.ProceduralArea.Size.Any\")": "/Script/Engine.BlueprintGeneratedClass'/Game/Spicewood/Core/Teleporters/TeleportDoorVisualAssets/Dungeons/BP_SpicewoodTeleportDoor_VisualAsset_DungeonExit.BP_SpicewoodTeleportDoor_VisualAsset_DungeonExit_C'"
+		},
+		"SupportedBiomes":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark.Tutorial"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark"
+				},
+				{
+					"TagName": "SW.Biome.Overworld"
+				},
+				{
+					"TagName": "SW.Biome"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SupportedVisualTypes": [
+			"Door"
+		]
+	},
+	{
+		"Name": "MA2Portal",
+		"VisualAssetSizeMapping":
+		{
+			"(TagName=\"SW.ProceduralArea.Size.Portal\")": "/Script/Engine.BlueprintGeneratedClass'/Game/Spicewood/Core/Teleporters/TeleportDoorVisualAssets/BP_SpicewoodTeleportDoor_VisualAsset_MA2_Portal.BP_SpicewoodTeleportDoor_VisualAsset_MA2_Portal_C'"
+		},
+		"SupportedBiomes":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Biome.Sift.Meadow.A2"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Biome.Sift.Meadow"
+				},
+				{
+					"TagName": "SW.Biome.Sift"
+				},
+				{
+					"TagName": "SW.Biome"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SupportedVisualTypes": [
+			"Door"
+		]
+	},
+	{
+		"Name": "DDA2Portal",
+		"VisualAssetSizeMapping":
+		{
+			"(TagName=\"SW.ProceduralArea.Size.Portal\")": "/Script/Engine.BlueprintGeneratedClass'/Game/Spicewood/Core/Teleporters/TeleportDoorVisualAssets/BP_SpicewoodTeleportDoor_VisualAsset_DDA2_Portal.BP_SpicewoodTeleportDoor_VisualAsset_DDA2_Portal_C'"
+		},
+		"SupportedBiomes":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Biome.Overworld.Deepdark.A2"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Biome.Overworld.DeepDark"
+				},
+				{
+					"TagName": "SW.Biome.Overworld"
+				},
+				{
+					"TagName": "SW.Biome"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SupportedVisualTypes": [
+			"Door"
+		]
+	},
+	{
+		"Name": "MonarchBossEntrance",
+		"VisualAssetSizeMapping":
+		{
+			"(TagName=\"SW.ProceduralArea.Size.Small\")": "/Script/Engine.BlueprintGeneratedClass'/Game/Spicewood/Core/Teleporters/TeleportDoorVisualAssets/Wellspring/BP_SpicewoodTeleportDoor_VisualAsset_DungeonWellspring.BP_SpicewoodTeleportDoor_VisualAsset_DungeonWellspring_C'"
+		},
+		"SupportedBiomes":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Biome.Sift.Carapace.Monarch"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Biome.Sift.Carapace"
+				},
+				{
+					"TagName": "SW.Biome.Sift"
+				},
+				{
+					"TagName": "SW.Biome"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SupportedVisualTypes": [
+			"Door"
+		]
+	},
+	{
+		"Name": "DesertFortressInt",
+		"VisualAssetSizeMapping":
+		{
+			"(TagName=\"SW.ProceduralArea.Size.Any\")": "/Script/Engine.BlueprintGeneratedClass'/Game/Spicewood/Core/Teleporters/TeleportDoorVisualAssets/Door/BP_SpicewoodTeleportDoor_VisualAsset_DoorNoneDefault.BP_SpicewoodTeleportDoor_VisualAsset_DoorNoneDefault_C'"
+		},
+		"SupportedBiomes":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Biome.Overworld.Desert.A1.FortressInt"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Biome.Overworld.Desert.A1"
+				},
+				{
+					"TagName": "SW.Biome.Overworld.Desert"
+				},
+				{
+					"TagName": "SW.Biome.Overworld"
+				},
+				{
+					"TagName": "SW.Biome"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SupportedVisualTypes": [
+			"Door"
+		]
+	},
+	{
+		"Name": "DesertFortNoteExit",
+		"VisualAssetSizeMapping":
+		{
+			"(TagName=\"SW.ProceduralArea.Size.Medium\")": "/Script/Engine.BlueprintGeneratedClass'/Game/Spicewood/Core/Teleporters/TeleportDoorVisualAssets/Door/BP_SpicewoodTeleportDoor_VisualAsset_DoorNoneDefault.BP_SpicewoodTeleportDoor_VisualAsset_DoorNoneDefault_C'"
+		},
+		"SupportedBiomes":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Biome.Overworld.Desert.A1.FortressInt"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Biome.Overworld.Desert.A1"
+				},
+				{
+					"TagName": "SW.Biome.Overworld.Desert"
+				},
+				{
+					"TagName": "SW.Biome.Overworld"
+				},
+				{
+					"TagName": "SW.Biome"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"SupportedVisualTypes": [
+			"Door",
+			"DungeonRiftStartExit",
+			"DungeonRiftEndExit"
+		]
+	}
+	
+]

@@ -1,0 +1,3214 @@
+[
+	{
+		"Name": "RangedBuffTalisman",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.RangedBuff"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Talisman"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.SecretQuestItem.Mosstrosity"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.Property.SecretQuestItem"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/RangedBuff/T_UI_RangedBuff_Icon1.T_UI_RangedBuff_Icon1",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_RangedBuff_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_RangedBuff_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "HealthBoostTalisman",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.HealthBoost"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Talisman"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/HealthBoost/T_UI_HealthBoost_Icon1.T_UI_HealthBoost_Icon1",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_HealthBoost_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_HealthBoost_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "PlummetingTalisman",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.Plummeting"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Talisman"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.SecretQuestItem.Mosstrosity"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.Property.SecretQuestItem"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Plummeting/T_UI_Plummeting_Icon1.T_UI_Plummeting_Icon1",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_Plummeting_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_Plummeting_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "BrawlingTalisman",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.Brawling"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Talisman"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Brawling/T_UI_Brawling_Icon1.T_UI_Brawling_Icon1",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_Brawling_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_Brawling_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "IronGolemTalisman",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.IronGolem"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Talisman"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.CompanionTalisman"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"GrantedAbilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SpawnCompanion",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.Companion.IronGolem"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CompanionTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Mob.IronGolem"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TalismanLevelTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Talisman.IronGolem.Level"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnGameplayCue"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.DeathGameplayCue"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TalismanLevelUpGameplayCue"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnDistanceOffset"
+						},
+						"Type": "Float",
+						"Float": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnHeightOffset"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RandomOffsetMaxDistance"
+						},
+						"Type": "Vector",
+						"Vector":
+						{
+							"X": 300,
+							"Y": 300,
+							"Z": 0
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 30
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_CompanionInstanceData",
+						"LevelOne":
+						{
+							"AttackMultiplier": 1,
+							"DefenceMultiplier": 1,
+							"CooldownMultiplier": 1
+						},
+						"LevelTwo":
+						{
+							"AttackMultiplier": 1.2,
+							"DefenceMultiplier": 0.75,
+							"CooldownMultiplier": 0.8
+						},
+						"LevelThree":
+						{
+							"AttackMultiplier": 1.5,
+							"DefenceMultiplier": 0.45,
+							"CooldownMultiplier": 0.75
+						}
+					}
+				]
+			}
+		],
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/IronGolem/T_UI_IronGolem_Icon1.T_UI_IronGolem_Icon1",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_IronGolem_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_IronGolem_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "LlamaTalisman",
+		"TypeTag":
+		{
+			"TagName": "sw.Item.Talisman.Llama"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Talisman"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.CompanionTalisman"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"GrantedAbilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SpawnCompanion",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.Companion.Llama"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CompanionTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Mob.Llama"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TalismanLevelTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Talisman.Llama.Level"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnGameplayCue"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.DeathGameplayCue"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TalismanLevelUpGameplayCue"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnDistanceOffset"
+						},
+						"Type": "Float",
+						"Float": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnHeightOffset"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RandomOffsetMaxDistance"
+						},
+						"Type": "Vector",
+						"Vector":
+						{
+							"X": 300,
+							"Y": 300,
+							"Z": 0
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 30
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_CompanionInstanceData",
+						"LevelOne":
+						{
+							"AttackMultiplier": 1,
+							"DefenceMultiplier": 1,
+							"CooldownMultiplier": 1
+						},
+						"LevelTwo":
+						{
+							"AttackMultiplier": 1.2,
+							"DefenceMultiplier": 0.8,
+							"CooldownMultiplier": 0.8
+						},
+						"LevelThree":
+						{
+							"AttackMultiplier": 1.5,
+							"DefenceMultiplier": 0.5,
+							"CooldownMultiplier": 0.75
+						}
+					}
+				]
+			}
+		],
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Llama/T_UI_Llama_Icon1.T_UI_Llama_Icon1",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"sw_Item_Talisman_Llama_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"sw_Item_Talisman_Llama_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "WolfTalisman",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.Wolf"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Tests.Flaky"
+				},
+				{
+					"TagName": "SW.Item.Property.Talisman"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.CompanionTalisman"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property.Tests"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"GrantedAbilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SpawnCompanion",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.Companion.Wolf"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CompanionTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Mob.Wolf"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TalismanLevelTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Talisman.Wolf.Level"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnGameplayCue"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.DeathGameplayCue"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TalismanLevelUpGameplayCue"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnDistanceOffset"
+						},
+						"Type": "Float",
+						"Float": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnHeightOffset"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RandomOffsetMaxDistance"
+						},
+						"Type": "Vector",
+						"Vector":
+						{
+							"X": 300,
+							"Y": 300,
+							"Z": 0
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 30
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_CompanionInstanceData",
+						"LevelOne":
+						{
+							"AttackMultiplier": 1,
+							"DefenceMultiplier": 1,
+							"CooldownMultiplier": 1
+						},
+						"LevelTwo":
+						{
+							"AttackMultiplier": 1.2,
+							"DefenceMultiplier": 0.8,
+							"CooldownMultiplier": 0.8
+						},
+						"LevelThree":
+						{
+							"AttackMultiplier": 1.65,
+							"DefenceMultiplier": 0.5,
+							"CooldownMultiplier": 0.75
+						}
+					}
+				]
+			}
+		],
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Wolf/T_UI_Wolf_Icon1.T_UI_Wolf_Icon1",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_Wolf_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_Wolf_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "SoulGatherTalisman",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.SoulGather"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Talisman"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/SoulGather/T_UI_SoulGather_Icon1.T_UI_SoulGather_Icon1",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_SoulGather_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_SoulGather_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "PotionCooldownTalisman",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.PotionCooldown"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Talisman"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.SecretQuestItem.Mosstrosity"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.Property.SecretQuestItem"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/PotionCooldown/T_UI_PotionCooldown_Icon1.T_UI_PotionCooldown_Icon1",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_PotionCooldown_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_PotionCooldown_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "HealingTalisman",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.Healing"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Talisman"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Healing/T_UI_Healing_Icon1.T_UI_Healing_Icon1",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_Healing_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_Healing_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "SpeedIncrementTalisman",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.SpeedIncrement"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Talisman"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.SecretQuestItem.Mosstrosity"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.Property.SecretQuestItem"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/SpeedIncrement/T_UI_SpeedIncrement_Icon1.T_UI_SpeedIncrement_Icon1",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_SpeedIncrement_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_SpeedIncrement_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "SW.TextEntry.DataGetter.GetAbilityKeyValues"
+					},
+					"ValuesToGet": [
+						{
+							"TagToExtractFrom":
+							{
+								"TagName": "None"
+							},
+							"FormattingData":
+							{
+								"ValueTypeToExtract": "Float",
+								"AlwaysSign": false,
+								"UseGrouping": false,
+								"IsPercentage": true,
+								"RoundingMode": "HalfFromZero",
+								"MinIntegralDigits": 1,
+								"MaxIntegralDigits": 6,
+								"MinFractionalDigits": 0,
+								"MaxFractionalDigits": 2,
+								"Offset": 0,
+								"Multiplier": 1
+							}
+						},
+						{
+							"TagToExtractFrom":
+							{
+								"TagName": "None"
+							},
+							"FormattingData":
+							{
+								"ValueTypeToExtract": "Float",
+								"AlwaysSign": false,
+								"UseGrouping": false,
+								"IsPercentage": false,
+								"RoundingMode": "HalfFromZero",
+								"MinIntegralDigits": 1,
+								"MaxIntegralDigits": 6,
+								"MinFractionalDigits": 0,
+								"MaxFractionalDigits": 2,
+								"Offset": 0,
+								"Multiplier": 1
+							}
+						}
+					]
+				},
+				"(TagName=\"SW.TextEntry.Description.EffectTotal\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_SpeedIncrement_SW_TextEntry_Description_EffectTotal\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "SW.TextEntry.DataGetter.GetAbilityKeyValues"
+					},
+					"ValuesToGet": [
+						{
+							"TagToExtractFrom":
+							{
+								"TagName": "SW.KeyValue.SpeedBoost"
+							},
+							"FormattingData":
+							{
+								"ValueTypeToExtract": "Float",
+								"AlwaysSign": false,
+								"UseGrouping": false,
+								"IsPercentage": true,
+								"RoundingMode": "HalfFromZero",
+								"MinIntegralDigits": 1,
+								"MaxIntegralDigits": 6,
+								"MinFractionalDigits": 0,
+								"MaxFractionalDigits": 2,
+								"Offset": 0,
+								"Multiplier": 1
+							}
+						},
+						{
+							"TagToExtractFrom":
+							{
+								"TagName": "SW.KeyValue.TimeBeforeApplyingSpeedBoost"
+							},
+							"FormattingData":
+							{
+								"ValueTypeToExtract": "Float",
+								"AlwaysSign": false,
+								"UseGrouping": false,
+								"IsPercentage": false,
+								"RoundingMode": "HalfFromZero",
+								"MinIntegralDigits": 1,
+								"MaxIntegralDigits": 6,
+								"MinFractionalDigits": 0,
+								"MaxFractionalDigits": 2,
+								"Offset": 0,
+								"Multiplier": 1
+							}
+						}
+					]
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "DoubleDropTalisman",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.DoubleDrop"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Talisman"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.SecretQuestItem.Mosstrosity"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.Property.SecretQuestItem"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/DoubleDrop/T_UI_DoubleDrop_Icon1.T_UI_DoubleDrop_Icon1",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_DoubleDrop_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_DoubleDrop_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "EmeraldIncrease",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.EmeraldIncrease"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Talisman"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.SecretQuestItem.Mosstrosity"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.Property.SecretQuestItem"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/EmeraldIncrease/T_UI_EmeraldIncrease_Icon1.T_UI_EmeraldIncrease_Icon1",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_EmeraldIncrease_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_EmeraldIncrease_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "DropChanceTalisman",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.DropChance"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Talisman"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/DropChance/T_UI_Talisman_DropChance1_Icon.T_UI_Talisman_DropChance1_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_DropChance_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_DropChance_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "ArtifactCooldownTalisman",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.ArtifactCooldown"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Talisman"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/ArtifactCooldown/T_UI_Talisman_ArtifactCooldown1_Icon.T_UI_Talisman_ArtifactCooldown1_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_ArtifactCooldown_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_ArtifactCooldown_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "RollingCooldownTalisman",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.RollingCooldown"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Talisman"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/RollingCooldown/T_UI_Talisman_RollingCooldown1_Icon.T_UI_Talisman_RollingCooldown1_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_RollingCooldown_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_RollingCooldown_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "SoulCapacityTalisman",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.SoulCapacity"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Talisman"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.SecretQuestItem.Mosstrosity"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.Property.SecretQuestItem"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/SoulCapacity/T_UI_Talisman_SoulCapacity1_Icon.T_UI_Talisman_SoulCapacity1_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_SoulCapacity_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_SoulCapacity_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					},
+					"ValuesToGet": [
+						{
+							"TagToExtractFrom":
+							{
+								"TagName": "SW.Item.Effect.Rerollable"
+							},
+							"FormattingData":
+							{
+								"ValueTypeToExtract": "Float",
+								"AlwaysSign": false,
+								"UseGrouping": false,
+								"IsPercentage": false,
+								"RoundingMode": "HalfFromZero",
+								"MinIntegralDigits": 1,
+								"MaxIntegralDigits": 6,
+								"MinFractionalDigits": 0,
+								"MaxFractionalDigits": 2,
+								"Offset": 1,
+								"Multiplier": 0.1
+							}
+						}
+					]
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "AmmoCapacityTalisman",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.AmmoCapacity"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Talisman"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/AmmoCapacity/T_UI_AmmoCapacity_Icon1.T_UI_AmmoCapacity_Icon1",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_AmmoCapacity_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_AmmoCapacity_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "StatusBuffTalisman",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.StatusBuff"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Talisman"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/StatusBuff/T_UI_Talisman_StatusBuff1_Icon.T_UI_Talisman_StatusBuff1_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_StatusBuff_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_StatusBuff_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "ExperienceIncreaseTalisman",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.ExperienceIncrease"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Talisman"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/ExperienceIncrease/T_UI_ExperianceIncrease_Icon1.T_UI_ExperianceIncrease_Icon1",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_ExperienceIncrease_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_ExperienceIncrease_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "HealthyStrikeTalisman",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.HealthyStrike"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Talisman"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/HealthyStrike/T_UI_Talisman_HealthyStrike1_Icon.T_UI_Talisman_HealthyStrike1_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_HealthyStrike_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_HealthyStrike_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "SW.TextEntry.DataGetter.GetHealthyStrikeValues"
+					},
+					"ValuesToGet": [
+						{
+							"TagToExtractFrom":
+							{
+								"TagName": "None"
+							},
+							"FormattingData":
+							{
+								"ValueTypeToExtract": "Float",
+								"AlwaysSign": false,
+								"UseGrouping": false,
+								"IsPercentage": true,
+								"RoundingMode": "HalfFromZero",
+								"MinIntegralDigits": 1,
+								"MaxIntegralDigits": 6,
+								"MinFractionalDigits": 0,
+								"MaxFractionalDigits": 2,
+								"Offset": 0,
+								"Multiplier": 1
+							}
+						},
+						{
+							"TagToExtractFrom":
+							{
+								"TagName": "None"
+							},
+							"FormattingData":
+							{
+								"ValueTypeToExtract": "Float",
+								"AlwaysSign": false,
+								"UseGrouping": false,
+								"IsPercentage": true,
+								"RoundingMode": "HalfFromZero",
+								"MinIntegralDigits": 1,
+								"MaxIntegralDigits": 6,
+								"MinFractionalDigits": 0,
+								"MaxFractionalDigits": 2,
+								"Offset": 0,
+								"Multiplier": 1
+							}
+						}
+					]
+				},
+				"(TagName=\"SW.TextEntry.Description.EffectTotal\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_HealthyStrike_SW_TextEntry_Description_EffectTotal\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "SW.TextEntry.DataGetter.GetHealthyStrikeValues"
+					},
+					"ValuesToGet": [
+						{
+							"TagToExtractFrom":
+							{
+								"TagName": "None"
+							},
+							"FormattingData":
+							{
+								"ValueTypeToExtract": "Float",
+								"AlwaysSign": false,
+								"UseGrouping": false,
+								"IsPercentage": true,
+								"RoundingMode": "HalfFromZero",
+								"MinIntegralDigits": 1,
+								"MaxIntegralDigits": 6,
+								"MinFractionalDigits": 0,
+								"MaxFractionalDigits": 2,
+								"Offset": 0,
+								"Multiplier": 1
+							}
+						},
+						{
+							"TagToExtractFrom":
+							{
+								"TagName": "None"
+							},
+							"FormattingData":
+							{
+								"ValueTypeToExtract": "Float",
+								"AlwaysSign": false,
+								"UseGrouping": false,
+								"IsPercentage": true,
+								"RoundingMode": "HalfFromZero",
+								"MinIntegralDigits": 1,
+								"MaxIntegralDigits": 6,
+								"MinFractionalDigits": 0,
+								"MaxFractionalDigits": 2,
+								"Offset": 0,
+								"Multiplier": 1
+							}
+						}
+					]
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "PrickleTalisman",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.Prickle"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Talisman"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.CompanionTalisman"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"GrantedAbilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SpawnCompanion",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.Companion.Prickle"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CompanionTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Mob.Prickle"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TalismanLevelTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Talisman.Prickle.Level"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnGameplayCue"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.DeathGameplayCue"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TalismanLevelUpGameplayCue"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnDistanceOffset"
+						},
+						"Type": "Float",
+						"Float": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnHeightOffset"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RandomOffsetMaxDistance"
+						},
+						"Type": "Vector",
+						"Vector":
+						{
+							"X": 300,
+							"Y": 300,
+							"Z": 0
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 30
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_CompanionInstanceData",
+						"LevelOne":
+						{
+							"AttackMultiplier": 1,
+							"DefenceMultiplier": 1,
+							"CooldownMultiplier": 1
+						},
+						"LevelTwo":
+						{
+							"AttackMultiplier": 1.2,
+							"DefenceMultiplier": 0.8,
+							"CooldownMultiplier": 0.8
+						},
+						"LevelThree":
+						{
+							"AttackMultiplier": 1.5,
+							"DefenceMultiplier": 0.5,
+							"CooldownMultiplier": 0.75
+						}
+					}
+				]
+			}
+		],
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Prickle/T_UI_Prickle_Icon1.T_UI_Prickle_Icon1",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_Prickle_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_Prickle_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "WobbleTalisman",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.Wobble"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Talisman"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.CompanionTalisman"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"GrantedAbilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SpawnCompanion",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.Companion.Wobble"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CompanionTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Mob.Wobble"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TalismanLevelTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Talisman.Wobble.Level"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnGameplayCue"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.DeathGameplayCue"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TalismanLevelUpGameplayCue"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnDistanceOffset"
+						},
+						"Type": "Float",
+						"Float": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SpawnHeightOffset"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RandomOffsetMaxDistance"
+						},
+						"Type": "Vector",
+						"Vector":
+						{
+							"X": 300,
+							"Y": 300,
+							"Z": 0
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 30
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_CompanionInstanceData",
+						"LevelOne":
+						{
+							"AttackMultiplier": 1,
+							"DefenceMultiplier": 1,
+							"CooldownMultiplier": 1
+						},
+						"LevelTwo":
+						{
+							"AttackMultiplier": 2,
+							"DefenceMultiplier": 0.8,
+							"CooldownMultiplier": 0.8
+						},
+						"LevelThree":
+						{
+							"AttackMultiplier": 3,
+							"DefenceMultiplier": 0.5,
+							"CooldownMultiplier": 0.75
+						}
+					}
+				]
+			}
+		],
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Wobble/T_UI_Wobble_Icon1.T_UI_Wobble_Icon1",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_Wobble_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_Wobble_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "FiringEmeraldTalisman",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.FiringEmeralds"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Talisman"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.SecretQuestItem.Mosstrosity"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Item.Property.SecretQuestItem"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/FiringEmeralds/T_UI_FiringEmeralds_Icon1.T_UI_FiringEmeralds_Icon1",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_FiringEmeralds_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionTalisman.csv\", \"SW_Item_Talisman_FiringEmeralds_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description.Long\")":
+				{
+					"Text": "",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	}
+]

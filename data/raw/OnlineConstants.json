@@ -1,0 +1,32 @@
+[
+	{
+		"Name": "Constants",
+		"MaxPlayersInSession": 4,
+		"PingInterval": 300,
+		"AutoShutdownInterval": 300,
+		"ServerIdleDetectorTickInterval": 1,
+		"NoPartyTimeout": 15,
+		"TelemetryUrl": "https://self.events.data.microsoft.com/OneCollector/1.0/",
+		"TelemetryApiKey": "a2f461cf47e74f2081271a22bab10635-82fecf3f-edbd-435e-8333-c4819a1be513-7063",
+		"TelemetryIKey": "o:a2f461cf47e74f2081271a22bab10635",
+		"TelemetryEventNamespace": "mcSpicewoodTest",
+		"TelemetrySendIntervalMs": 10000,
+		"TelemetryMaxBatchSizeBytes": 10000,
+		"TelemetryMaxBatchEventCount": 10,
+		"AutoSaveIntervalSeconds": 60,
+		"ClientMinTimeBetweenCharacterSavesSeconds": 5,
+		"ServerMinTimeBetweenCharacterSavesSeconds": 5,
+		"PlayerAFKTimerDurationSecsUntilWarning": 1740,
+		"PlayerAFKTimerDurationSecsUntilKickAfterWarning": 60,
+		"ShouldSendLogsToDatadog": true,
+		"MaxDatadogBatchSize": 3000000,
+		"MaxWaitTimeBetweenDatadogSends": 5.0,
+		"PartyCreationTimeoutSeconds": 10.0,
+		"PartyAddGuestTimeoutSeconds": 10.0,
+		"PartyJoinedInOverworldTimeoutSeconds": 120.0,
+		"MinecraftAPITimeoutSeconds": 30.0,
+		"MinecraftAPITimeoutOnServerSeconds": 30.0,
+		"ServerFramerate": 0,
+		"UpdateMatchmakingDataIntervalSeconds": 60
+	}
+]

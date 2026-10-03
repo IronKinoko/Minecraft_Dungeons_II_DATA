@@ -1,0 +1,860 @@
+[
+	{
+		"Name": "COMPLETE_ARRIVE_IN_BRAVE_HAVEN_QUEST",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.CompleteArriveInBraveHavenQuest"
+		},
+		"AchievementId": "COMPLETE_ARRIVE_IN_BRAVE_HAVEN_QUEST",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionQuest",
+			"QuestState":
+			{
+				"bUseQuestState": true,
+				"QuestName": "CA00",
+				"QuestState": "Completed",
+				"TaskName": "None",
+				"TaskState": "NotSet",
+				"bShowAdditionalTags": false,
+				"OnlyMatchTagsNotState": false
+			}
+		}
+	},
+	{
+		"Name": "COMPLETE_ENTER_THE_NEW_DIMENSION_QUEST",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.CompleteEnterTheNewDimensionQuest"
+		},
+		"AchievementId": "COMPLETE_ENTER_THE_NEW_DIMENSION_QUEST",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionQuest",
+			"QuestState":
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA01",
+				"QuestState": "NotSet",
+				"TaskName": "CA01_PC03",
+				"TaskState": "Completed",
+				"bShowAdditionalTags": false,
+				"OnlyMatchTagsNotState": false
+			}
+		}
+	},
+	{
+		"Name": "COMPLETE_DEFEAT_THE_WANDERING_WITCH_QUEST",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.CompleteDefeatTheWanderingWitchQuest"
+		},
+		"AchievementId": "COMPLETE_DEFEAT_THE_WANDERING_WITCH_QUEST",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionQuest",
+			"QuestState":
+			{
+				"bUseQuestState": true,
+				"QuestName": "CA02_B",
+				"QuestState": "Completed",
+				"TaskName": "None",
+				"TaskState": "NotSet",
+				"bShowAdditionalTags": false,
+				"OnlyMatchTagsNotState": false
+			}
+		}
+	},
+	{
+		"Name": "COMPLETE_DEFEAT_THE_TWISTED_WARDEN_QUEST",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.CompleteDefeatTheTwistedWardenQuest"
+		},
+		"AchievementId": "COMPLETE_DEFEAT_THE_TWISTED_WARDEN_QUEST",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionQuest",
+			"QuestState":
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA03",
+				"QuestState": "NotSet",
+				"TaskName": "CA03_AS01",
+				"TaskState": "Completed",
+				"bShowAdditionalTags": false,
+				"OnlyMatchTagsNotState": false
+			}
+		}
+	},
+	{
+		"Name": "COMPLETE_DEFEAT_A_COPPER_MONSTROSITY_QUEST",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.CompleteDefeatACopperMonstrosityQuest"
+		},
+		"AchievementId": "COMPLETE_DEFEAT_A_COPPER_MONSTROSITY_QUEST",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionQuest",
+			"QuestState":
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA07",
+				"QuestState": "NotSet",
+				"TaskName": "CA07_AS01",
+				"TaskState": "Completed",
+				"bShowAdditionalTags": false,
+				"OnlyMatchTagsNotState": false
+			}
+		}
+	},
+	{
+		"Name": "COMPLETE_DEFEAT_THE_PRIME_ENCHANTER_QUEST",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.CompleteDefeatThePrimeEnchanterQuest"
+		},
+		"AchievementId": "COMPLETE_DEFEAT_THE_PRIME_ENCHANTER_QUEST",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionQuest",
+			"QuestState":
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA05",
+				"QuestState": "NotSet",
+				"TaskName": "CA05_AS03",
+				"TaskState": "Completed",
+				"bShowAdditionalTags": false,
+				"OnlyMatchTagsNotState": false
+			}
+		}
+	},
+	{
+		"Name": "COMPLETE_ACTIVATE_THE_NOTEBLOCK_MACHINE_QUEST",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.CompleteActivateTheNoteblockMachineQuest"
+		},
+		"AchievementId": "COMPLETE_ACTIVATE_THE_NOTEBLOCK_MACHINE_QUEST",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionQuest",
+			"QuestState":
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA06",
+				"QuestState": "NotSet",
+				"TaskName": "CA06_I04",
+				"TaskState": "Completed",
+				"bShowAdditionalTags": false,
+				"OnlyMatchTagsNotState": false
+			}
+		}
+	},
+	{
+		"Name": "COMPLETE_FRIEND_OF_THE_SIFT_QUEST",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.CompleteFriendOfTheWellspringQuest"
+		},
+		"AchievementId": "COMPLETE_FRIEND_OF_THE_SIFT_QUEST",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionQuest",
+			"QuestState":
+			{
+				"bUseQuestState": true,
+				"QuestName": "CA08",
+				"QuestState": "Completed",
+				"TaskName": "None",
+				"TaskState": "NotSet",
+				"bShowAdditionalTags": false,
+				"OnlyMatchTagsNotState": false
+			}
+		}
+	},
+	{
+		"Name": "COMPLETE_CARAPACE_EXPLORER_QUEST",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.CompleteCarapaceExplorerQuest"
+		},
+		"AchievementId": "COMPLETE_CARAPACE_EXPLORER_QUEST",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionQuest",
+			"QuestState":
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA09",
+				"QuestState": "NotSet",
+				"TaskName": "CA09_E03",
+				"TaskState": "Completed",
+				"bShowAdditionalTags": false,
+				"OnlyMatchTagsNotState": false
+			}
+		}
+	},
+	{
+		"Name": "COMPLETE_DEFEAT_THE_SUPREME_EVOKER_AND_SOUL_CONSTRUCT_QUEST",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.CompleteDefeatTheSupremeEvokerAndSoulConstructQuest"
+		},
+		"AchievementId": "COMPLETE_DEFEAT_THE_SUPREME_EVOKER_AND_SOUL_CONSTRUCT_QUEST",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionQuest",
+			"QuestState":
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA10",
+				"QuestState": "NotSet",
+				"TaskName": "CA10_AS04",
+				"TaskState": "Completed",
+				"bShowAdditionalTags": false,
+				"OnlyMatchTagsNotState": false
+			}
+		}
+	},
+	{
+		"Name": "COMPLETE_THE_CORE_QUEST",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.CompleteTheCoreQuest"
+		},
+		"AchievementId": "COMPLETE_THE_CORE_QUEST",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionQuest",
+			"QuestState":
+			{
+				"bUseQuestState": true,
+				"QuestName": "CA10",
+				"QuestState": "Completed",
+				"TaskName": "None",
+				"TaskState": "NotSet",
+				"bShowAdditionalTags": false,
+				"OnlyMatchTagsNotState": false
+			}
+		}
+	},
+	{
+		"Name": "COMPLETE_THE_SOUL_CANDLE_CONSPIRACY_QUEST",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.CompleteTheSoulCandleConspiracyQuest"
+		},
+		"AchievementId": "COMPLETE_THE_SOUL_CANDLE_CONSPIRACY_QUEST",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionQuest",
+			"QuestState":
+			{
+				"bUseQuestState": true,
+				"QuestName": "PLa1_S08_A",
+				"QuestState": "Completed",
+				"TaskName": "None",
+				"TaskState": "NotSet",
+				"bShowAdditionalTags": false,
+				"OnlyMatchTagsNotState": false
+			}
+		}
+	},
+	{
+		"Name": "COMPLETE_THE_CLERICS_APPRENTICE_QUEST",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.CompleteTheClericsApprenticeQuest"
+		},
+		"AchievementId": "COMPLETE_THE_CLERICS_APPRENTICE_QUEST",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionQuest",
+			"QuestState":
+			{
+				"bUseQuestState": true,
+				"QuestName": "FOa1_S10_A",
+				"QuestState": "Completed",
+				"TaskName": "None",
+				"TaskState": "NotSet",
+				"bShowAdditionalTags": false,
+				"OnlyMatchTagsNotState": false
+			}
+		}
+	},
+	{
+		"Name": "COMPLETE_TRUE_ILLAGER_INTELLIGENCE_QUEST",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.CompleteTrueIllagerIntelligenceQuest"
+		},
+		"AchievementId": "COMPLETE_TRUE_ILLAGER_INTELLIGENCE_QUEST",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionQuest",
+			"QuestState":
+			{
+				"bUseQuestState": true,
+				"QuestName": "DEa1_S12_A",
+				"QuestState": "Completed",
+				"TaskName": "None",
+				"TaskState": "NotSet",
+				"bShowAdditionalTags": false,
+				"OnlyMatchTagsNotState": false
+			}
+		}
+	},
+	{
+		"Name": "COMPLETE_RECYCLING_YOUR_MONSTROSITY_QUEST",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.CompleteRecyclingYourMonstrosityQuest"
+		},
+		"AchievementId": "COMPLETE_RECYCLING_YOUR_MONSTROSITY_QUEST",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionQuest",
+			"QuestState":
+			{
+				"bUseQuestState": true,
+				"QuestName": "PLa2_S15_A",
+				"QuestState": "Completed",
+				"TaskName": "None",
+				"TaskState": "NotSet",
+				"bShowAdditionalTags": false,
+				"OnlyMatchTagsNotState": false
+			}
+		}
+	},
+	{
+		"Name": "COMPLETE_WOBBLE_RUN_QUEST",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.CompleteWobbleRunQuest"
+		},
+		"AchievementId": "COMPLETE_WOBBLE_RUN_QUEST",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionQuest",
+			"QuestState":
+			{
+				"bUseQuestState": true,
+				"QuestName": "MEa1_S06_A",
+				"QuestState": "Completed",
+				"TaskName": "None",
+				"TaskState": "NotSet",
+				"bShowAdditionalTags": false,
+				"OnlyMatchTagsNotState": false
+			}
+		}
+	},
+	{
+		"Name": "COMPLETE_LONESOME_IN_LULLABY_HILLS_QUEST",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.CompleteLonesomeInLullabyHillsQuest"
+		},
+		"AchievementId": "COMPLETE_LONESOME_IN_LULLABY_HILLS_QUEST",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionQuest",
+			"QuestState":
+			{
+				"bUseQuestState": true,
+				"QuestName": "MEa2_S03_A",
+				"QuestState": "Completed",
+				"TaskName": "None",
+				"TaskState": "NotSet",
+				"bShowAdditionalTags": false,
+				"OnlyMatchTagsNotState": false
+			}
+		}
+	},
+	{
+		"Name": "COMPLETE_CARAPACE_SIDE_QUEST",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.CompleteCarapaceSideQuest"
+		},
+		"AchievementId": "COMPLETE_CARAPACE_SIDE_QUEST",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionQuest",
+			"QuestState":
+			{
+				"bUseQuestState": true,
+				"QuestName": "CAa1_S03_A",
+				"QuestState": "Completed",
+				"TaskName": "None",
+				"TaskState": "NotSet",
+				"bShowAdditionalTags": false,
+				"OnlyMatchTagsNotState": false
+			}
+		}
+	},
+	{
+		"Name": "EQUIP_A_UNIQUE_ITEM",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.EquipAUniqueItem"
+		},
+		"AchievementId": "EQUIP_A_UNIQUE_ITEM",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionBoolEquipUniqueItem"
+		}
+	},
+	{
+		"Name": "UPGRADE_AN_ENCHANTMENT_TO_LEVEL_3",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.UpgradeAnEnchantmentToLevel3"
+		},
+		"AchievementId": "UPGRADE_AN_ENCHANTMENT_TO_LEVEL_3",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionCountEnchantmentUpgraded",
+			"MaxAmount": 3
+		}
+	},
+	{
+		"Name": "ENCHANT_EVERY_INVENTORY_SLOT_WITH_LEVEL_3_ENCHANTMENTS",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.EnchantEveryInventorySlotWithLevel3Enchantments"
+		},
+		"AchievementId": "ENCHANT_EVERY_INVENTORY_SLOT_WITH_LEVEL_3_ENCHANTMENTS",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionCollectionEquipAllMaxEnchanted",
+			"MaxEnchantmentLevel": 3,
+			"CollectionTags":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.ItemSlot.Equipment.MeleeWeapon"
+					},
+					{
+						"TagName": "SW.ItemSlot.Equipment.RangedWeapon"
+					},
+					{
+						"TagName": "SW.ItemSlot.Equipment.Armor.Boots"
+					},
+					{
+						"TagName": "SW.ItemSlot.Equipment.Armor.Chest"
+					},
+					{
+						"TagName": "SW.ItemSlot.Equipment.Armor.Helmet"
+					},
+					{
+						"TagName": "SW.ItemSlot.Equipment.Armor.Leggings"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.ItemSlot.Equipment"
+					},
+					{
+						"TagName": "SW.ItemSlot"
+					},
+					{
+						"TagName": "SW"
+					},
+					{
+						"TagName": "SW.ItemSlot.Equipment.Armor"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "COLLECT_ALL_ENCHANTMENT_BOOKS",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.CollectAllEnchantmentBooks"
+		},
+		"AchievementId": "COLLECT_ALL_ENCHANTMENT_BOOKS",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionCollectionAllEnchantmentBooks",
+			"CollectionTags":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Item.EnchantmentBook.PoisonFog"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.Shockwave"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.Arcane"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.Blowback"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.Borealis"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.Channeling"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.CriticalQuiver"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.Dynamo"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.ExpandedQuiver"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.FireAspect"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.FrostCrescent"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.GravityPulse"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.GuardingStrike"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.HealthSynergy"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.LingeringPower"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.MultiRoll"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.Piercing"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.MultiPotion"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.PotionBarrier"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.PotionSharing"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.Radiance"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.Ricochet"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.ShadowStrike"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.SoulAspect"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.SoulInfusedPotion"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.SpringLoaded"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.Swirling"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.TempoTheft"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.Thundering"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.Unstoppable"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.BurstBowstring"
+					},
+					{
+						"TagName": "SW.Item.EnchantmentBook.ChainReaction"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Item.EnchantmentBook"
+					},
+					{
+						"TagName": "SW.Item"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "UPGRADE_A_TALISMAN_TO_LEVEL_3",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.UpgradeATalismanToLevel3"
+		},
+		"AchievementId": "UPGRADE_A_TALISMAN_TO_LEVEL_3",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionCountUpgradeTalisman",
+			"MaxAmount": 3
+		}
+	},
+	{
+		"Name": "REFORGE_A_SPECIAL_PIECE_OF_GEAR",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.ReforgeASpecialPieceOfGear"
+		},
+		"AchievementId": "REFORGE_A_SPECIAL_PIECE_OF_GEAR",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionBoolReforgeSpecialItem"
+		}
+	},
+	{
+		"Name": "PURCHASE_A_SPECIAL_GEAR_PIECE_FROM_THE_VILLAGE_MERCHANT",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.PurchaseASpecialGearPieceFromTheVillageMerchant"
+		},
+		"AchievementId": "PURCHASE_A_SPECIAL_GEAR_PIECE_FROM_THE_VILLAGE_MERCHANT",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionBoolPurchaseSpecialItem"
+		}
+	},
+	{
+		"Name": "OPEN_100_CHESTS",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.Open100Chests"
+		},
+		"AchievementId": "OPEN_100_CHESTS",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionCountLootChests",
+			"MaxAmount": 100
+		}
+	},
+	{
+		"Name": "DEFEAT_A_MONARCH",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.DefeatAMonarch"
+		},
+		"AchievementId": "DEFEAT_A_MONARCH",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionBoolBossKill",
+			"BossTags":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Mob.Shade"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Mob"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "DEFEAT_1000_MOBS_WITH_JUMP_ATTACKS",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.Defeat1000MobsWithJumpAttacks"
+		},
+		"AchievementId": "DEFEAT_1000_MOBS_WITH_JUMP_ATTACKS",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionCountJumpAttackKills",
+			"MaxAmount": 1000
+		}
+	},
+	{
+		"Name": "KILL_10_MOBS_WITH_A_TNT",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.Kill10MobsWithATNT"
+		},
+		"AchievementId": "KILL_10_MOBS_WITH_A_TNT",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionCountTntKill",
+			"MaxAmount": 10
+		}
+	},
+	{
+		"Name": "DISCOVER_ALL_MINECART_STATIONS",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.DiscoverAllMinecartStations"
+		},
+		"AchievementId": "DISCOVER_ALL_MINECART_STATIONS",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionCollectionMinecarts",
+			"CollectionTags":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.MinecartStation.Town"
+					},
+					{
+						"TagName": "SW.MinecartStation.PlainsA1.Border"
+					},
+					{
+						"TagName": "SW.MinecartStation.ForestA1.Outpost"
+					},
+					{
+						"TagName": "SW.MinecartStation.ForestA1.SpiderCaveExit"
+					},
+					{
+						"TagName": "SW.MinecartStation.DesertA1.Fortress"
+					},
+					{
+						"TagName": "SW.MinecartStation.DesertA1.Cliffs"
+					},
+					{
+						"TagName": "SW.MinecartStation.DesertA1.MountainX"
+					},
+					{
+						"TagName": "SW.MinecartStation.PlainsA2.VillagerOasis"
+					},
+					{
+						"TagName": "SW.MinecartStation.MeadowA1.SingersHaven"
+					},
+					{
+						"TagName": "SW.MinecartStation.CarapaceA1.Centre"
+					},
+					{
+						"TagName": "SW.MinecartStation.MeadowA2.Fortress"
+					},
+					{
+						"TagName": "SW.MinecartStation.MeadowA2.Hilltop"
+					},
+					{
+						"TagName": "SW.MinecartStation.CarapaceA1.Border"
+					},
+					{
+						"TagName": "SW.MinecartStation.CarapaceA1.North"
+					},
+					{
+						"TagName": "SW.MinecartStation.DesertA1.Fortress2"
+					},
+					{
+						"TagName": "SW.MinecartStation.DesertA1.IceLagoon"
+					},
+					{
+						"TagName": "SW.MinecartStation.Forest.A1.DangerZone"
+					},
+					{
+						"TagName": "SW.MinecartStation.ForestA1.NWPass"
+					},
+					{
+						"TagName": "SW.MinecartStation.MeadowA1.BehindPortal"
+					},
+					{
+						"TagName": "SW.MinecartStation.MeadowA1.SouthEast"
+					},
+					{
+						"TagName": "SW.MinecartStation.MeadowA1.SouthWest"
+					},
+					{
+						"TagName": "SW.MinecartStation.PlainsA1.Barn"
+					},
+					{
+						"TagName": "SW.MinecartStation.PlainsA2.Central"
+					},
+					{
+						"TagName": "SW.MinecartStation.PlainsA2.IllagerCamp"
+					},
+					{
+						"TagName": "SW.MinecartStation.DesertA1.TaigaBeach"
+					},
+					{
+						"TagName": "SW.MinecartStation.PlainsA2.SouthEastBridge"
+					},
+					{
+						"TagName": "SW.MinecartStation.PlainsA2.NorthWestBridge"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.MinecartStation"
+					},
+					{
+						"TagName": "SW"
+					},
+					{
+						"TagName": "SW.MinecartStation.PlainsA1"
+					},
+					{
+						"TagName": "SW.MinecartStation.ForestA1"
+					},
+					{
+						"TagName": "SW.MinecartStation.DesertA1"
+					},
+					{
+						"TagName": "SW.MinecartStation.PlainsA2"
+					},
+					{
+						"TagName": "SW.MinecartStation.MeadowA1"
+					},
+					{
+						"TagName": "SW.MinecartStation.CarapaceA1"
+					},
+					{
+						"TagName": "SW.MinecartStation.MeadowA2"
+					},
+					{
+						"TagName": "SW.MinecartStation.Forest.A1"
+					},
+					{
+						"TagName": "SW.MinecartStation.Forest"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "REACH_LEVEL_50",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.ReachLevel50"
+		},
+		"AchievementId": "REACH_LEVEL_50",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionCountReachLevel",
+			"MaxAmount": 50
+		}
+	},
+	{
+		"Name": "REACH_LEVEL_100",
+		"TypeTag":
+		{
+			"TagName": "SW.Achievements.ReachLevel100"
+		},
+		"AchievementId": "REACH_LEVEL_100",
+		"Condition":
+		{
+			"InstancedStructScriptStruct": "/Script/Achievements.ConditionDefinitionCountReachLevel",
+			"MaxAmount": 100
+		}
+	}
+]

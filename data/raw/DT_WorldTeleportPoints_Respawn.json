@@ -1,0 +1,32 @@
+[
+{
+		"Name": "TeleportPointActor_UAID_F02F7495E43F2B6701_1538500498",
+		"AreaTag":
+		{
+			"TagName": "None"
+		},
+		"DefaultLightingTag":
+		{
+			"TagName": "None"
+		},
+		"IdTag":
+		{
+			"TagName": "SW.TeleportPoint.Town.DefaultSpawn"
+		},
+		"Type": "Respawn",
+		"Location":
+		{
+			"X": 13850,
+			"Y": -12740,
+			"Z": 3592
+		},
+		"Rotation":
+		{
+			"Pitch": 0,
+			"Yaw": 0,
+			"Roll": 0
+		},
+		"Level": "None",
+		"TeleportAudio": "None"
+}
+]

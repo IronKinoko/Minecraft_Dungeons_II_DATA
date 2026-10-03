@@ -1,0 +1,1160 @@
+[
+	{
+		"Name": "CA02_ForestRift",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA02.Rift.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA02/BP_CA02_ForestRift.BP_CA02_ForestRift_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA02_B_WaterfallCauldron01",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA02.B.WaterfallCauldron.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestActorDefinition_ForestA1.csv\", \"SW_QuestActor_CA02_B_WaterfallCauldron_01_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA03/BP_CA02_B_Waterfall_Cauldron01.BP_CA02_B_Waterfall_Cauldron01_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA02_B_WitchesCauldron01",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA02.B.WitchesCauldron.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestActorDefinition_ForestA1.csv\", \"SW_QuestActor_CA02_B_WitchesCauldron_01_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA03/BP_CA02_B_WitchesCauldron01.BP_CA02_B_WitchesCauldron01_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA02_B_SpidercaveCauldron01",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA02.B.SpiderCaveCauldron.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestActorDefinition_ForestA1.csv\", \"SW_QuestActor_CA02_B_SpiderCaveCauldron_01_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA03/BP_CA02_B_SpiderCave_Cauldron01.BP_CA02_B_SpiderCave_Cauldron01_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA02_OutpostGate",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA02.OutpostGate.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestActorDefinition_ForestA1.csv\", \"SW_QuestActor_CA02_OutpostGate_01_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA02/CA02_ForestOutpost_Gate.CA02_ForestOutpost_Gate_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA02_ExploreActor_02",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA02.ExploreActor.02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA02/TemporaryExploreActors/BP_CA02_ExploreActor02.BP_CA02_ExploreActor02_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA02_ExploreActor_03",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA02.ExploreActor.03"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA02/TemporaryExploreActors/BP_CA02_ExploreActor03.BP_CA02_ExploreActor03_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA02_B_ExploreActor_01",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA02.B.ExploreActor.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA03/CA02_B_TemporaryQuestExploreActors/BP_CA02_B_ExploreActor01.BP_CA02_B_ExploreActor01_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA02_B_ExploreActor_02",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA02.B.ExploreActor.02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA03/CA02_B_TemporaryQuestExploreActors/BP_CA02_B_ExploreActor02.BP_CA02_B_ExploreActor02_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA02_B_ExploreActor_03",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA02.B.ExploreActor.03"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA03/CA02_B_TemporaryQuestExploreActors/BP_CA02_B_ExploreActor03.BP_CA02_B_ExploreActor03_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA02_WitchGateBlocker_01",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA02.B.WitchBlocker.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA03/BP_CA02_B_WitchGate_01.BP_CA02_B_WitchGate_01_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA02_WitchGateBlocker_02",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA02.B.WitchBlocker.02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA03/BP_CA02_B_WitchGate_02.BP_CA02_B_WitchGate_02_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA02_B_BridgeBlocker",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA02.B.BridgeBlocker"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA03/BP_CA03_B_TempBlocker.BP_CA03_B_TempBlocker_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA02_C_EmptyCrate01",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA02.C.EmptyCrate.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA02_C/BP_CA02_C_IllagerStash01.BP_CA02_C_IllagerStash01_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA02_C_EmptyCrate02",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA02.C.EmptyCrate.02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA02_C/BP_CA02_C_IllagerStash02.BP_CA02_C_IllagerStash02_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA02_C_EmptyCrate03",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA02.C.EmptyCrate.03"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA02_C/BP_CA02_C_IllagerStash03.BP_CA02_C_IllagerStash03_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA02_C_EnchantsmithBook01",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA02.C.EnchantmentBook.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA02_C/BP_CA02_C_EnchantsmithBook01.BP_CA02_C_EnchantsmithBook01_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA02_C_EnchantsmithBook02",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA02.C.EnchantmentBook.02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA02_C/BP_CA02_C_EnchantsmithBook02.BP_CA02_C_EnchantsmithBook02_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA02_C_EnchantsmithBook03",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA02.C.EnchantmentBook.03"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA02_C/BP_CA02_C_EnchantsmithBook03.BP_CA02_C_EnchantsmithBook03_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA03_ExploreActor_01",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA03.ExploreActor.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA03/CA03_TemporaryQuestExploreActors/BP_CA03_ExploreActor01.BP_CA03_ExploreActor01_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA03_ExploreActor_02",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA03.ExploreActor.02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA03/CA03_TemporaryQuestExploreActors/BP_CA03_ExploreActor02.BP_CA03_ExploreActor02_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA03_ExploreActor_03",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA03.ExploreActor.03"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA03/CA03_TemporaryQuestExploreActors/BP_CA03_ExploreActor03.BP_CA03_ExploreActor03_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA03_DDA1_Note01",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA03.DeepDark.Note.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/DialogueOnlyNPCS/DeepDark/BP_CA03_DDA1_Note01.BP_CA03_DDA1_Note01_C"
+	},
+	{
+		"Name": "CA04_Blocker01",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA04.WoodBlocker.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA04/BP_CA04_WoodBlocker_01.BP_CA04_WoodBlocker_01_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA04_Blocker02",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA07.LockedGate.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA07/BP_CA07_PlainsA2GateClosed.BP_CA07_PlainsA2GateClosed_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA04_Axebundle01",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA04.AxeBundle.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA04/BP_CA04_AxeBundle01.BP_CA04_AxeBundle01_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA04_AxeBundle02",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA04.AxeBundle.02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA04/BP_CA04_AxeBundle02.BP_CA04_AxeBundle02_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA06_NoteblockMachine01",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA06.NoteblockMachine"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA06/BP_CA06_NoteblockMachine.BP_CA06_NoteblockMachine_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA06_NoteblockMachine_Complete",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA06.NoteblockMachine.Complete"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA06/BP_CA06_NoteblockMachine_Complete.BP_CA06_NoteblockMachine_Complete_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA06_NoteblockMachine_Button01",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA06.NoteblockMachineButton"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA06/BP_CA06_Noteblock_Button.BP_CA06_Noteblock_Button_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA06_TemporaryPortalActor01",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA06.TemporaryPortal"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA06/BP_CA06_PortalTempActor.BP_CA06_PortalTempActor_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA06_PortalInteraction01",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA06.Portal.Interaction"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA06/BP_CA06_PortalInteraction.BP_CA06_PortalInteraction_C"
+	},
+	{
+		"Name": "Foa1_S10_A_Satchel",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.FOa1.S10.A.Satchel"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_QuestActorDefinition_ForestA1.csv\", \"SW_QuestActor_FOa1_S10_A_Satchel_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/ForestA1/FOa1_S10_A/BP_FOa1_S10_A_Satchel.BP_FOa1_S10_A_Satchel_C",
+		"ComponentDefinition":
+		{
+			"ClientComponents":
+			{
+				"(TagName=\"SW.ActorComponent.Interaction\")":
+				{
+					"Components": [
+						"/SpicewoodUI/Spicewood/UI/Widget/InWorldPrompts/BP_InWorldPromptPickupComponent.BP_InWorldPromptPickupComponent_C"
+					]
+				}
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CT01_S01_A_SoulBlock",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CT01.SoulBlock"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CaretakerQuests/Forest_S01/BP_SoulBlock_Caretaker.BP_SoulBlock_Caretaker_C",
+		"ComponentDefinition":
+		{
+			"ClientComponents":
+			{
+				"(TagName=\"SW.ActorComponent.Interaction\")":
+				{
+					"Components": [
+						"/SpicewoodUI/Spicewood/UI/Widget/InWorldPrompts/BP_InWorldPromptPickupComponent.BP_InWorldPromptPickupComponent_C"
+					]
+				}
+			}
+		}
+	}
+]

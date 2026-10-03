@@ -1,0 +1,3042 @@
+[
+	{
+		"Name": "Chest",
+		"TypeTag":
+		{
+			"TagName": "SW.LootSource.Chest"
+		},
+		"ActorReference": "None",
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SetupChest",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_OpenChest",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.GameplayEvent.ChestOpened"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_OpenChestData"
+					}
+				]
+			}
+		],
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Targetable"
+				},
+				{
+					"TagName": "SW.TargetingProperties.Interactable"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize.Static"
+				},
+				{
+					"TagName": "SW.LootSource"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.TargetingProperties"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize"
+				},
+				{
+					"TagName": "SW.ReplicationGraph"
+				}
+			]
+		},
+		"ChildOnlyTraits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"Montages":
+		{
+			"(TagName=\"SW.Montage.Appear\")": "/Game/Spicewood/Art/Interactables/Chests/FancyChest/Animations/RewardChest_Appear_Montage.RewardChest_Appear_Montage",
+			"(TagName=\"SW.Montage.Open\")": "/Game/Spicewood/Art/Interactables/Chests/FancyChest/Animations/RewardChest_Opening_Montage.RewardChest_Opening_Montage"
+		},
+		"ComponentDefinition":
+		{
+			"ClientComponents":
+			{
+				"(TagName=\"SW.ActorComponent.Interaction\")":
+				{
+					"Components": [
+						"/SpicewoodUI/Spicewood/UI/Widget/InWorldPrompts/BP_InWorldPromptChestComponent.BP_InWorldPromptChestComponent_C"
+					]
+				}
+			}
+		}
+	},
+	{
+		"Name": "WoodenChest",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.WoodenChest"
+		},
+		"ActorReference": "/Game/Spicewood/Actors/Loot/BP_WoodenChest.BP_WoodenChest_C",
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_DropItem",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_DropItemInstanceData",
+						"LootSourceTagOverride":
+						{
+							"TagName": "None"
+						},
+						"IncludeAdditionalLootContext": true,
+						"LootEntitlementRulesTag":
+						{
+							"TagName": "SW.ItemCreator.Entitlement.AllPlayers"
+						}
+					}
+				]
+			}
+		],
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootSource.Chest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.LootSource"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		}
+	},
+	{
+		"Name": "FancyChest",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.FancyChest"
+		},
+		"ActorReference": "/Game/Spicewood/Actors/Loot/BP_FancyChest.BP_FancyChest_C",
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_DropItem",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_DropItemInstanceData",
+						"LootSourceTagOverride":
+						{
+							"TagName": "None"
+						},
+						"IncludeAdditionalLootContext": true,
+						"LootEntitlementRulesTag":
+						{
+							"TagName": "SW.ItemCreator.Entitlement.AllPlayers"
+						}
+					}
+				]
+			}
+		],
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootSource.Chest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.LootSource"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		}
+	},
+	{
+		"Name": "WellspringChest",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.WellspringChest"
+		},
+		"ActorReference": "/Game/Spicewood/Actors/Loot/BP_FancyChest.BP_FancyChest_C",
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootSource.Chest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.LootSource"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		}
+	},
+	{
+		"Name": "SeedTrough",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.SeedTrough"
+		},
+		"ActorReference": "/Game/Spicewood/Quests/PlainsA2/PLa2_S07_a/BP_PLa2_S07_SeedTroughFancyChest.BP_PLa2_S07_SeedTroughFancyChest_C",
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SetupChest",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_OpenChest",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.GameplayEvent.ChestOpened"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_OpenChestData"
+					}
+				]
+			}
+		],
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Targetable"
+				},
+				{
+					"TagName": "SW.TargetingProperties.Interactable"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize.Static"
+				},
+				{
+					"TagName": "SW.LootSource.SeedTroughActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.TargetingProperties"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize"
+				},
+				{
+					"TagName": "SW.ReplicationGraph"
+				},
+				{
+					"TagName": "SW.LootSource"
+				}
+			]
+		},
+		"Montages":
+		{
+			"(TagName=\"SW.Montage.Open\")": "/Game/Spicewood/Art/Interactables/Chests/FancyChest/Animations/RewardChest_Opening_Montage.RewardChest_Opening_Montage",
+			"(TagName=\"SW.Montage.Appear\")": "/Game/Spicewood/Art/Interactables/Chests/FancyChest/Animations/RewardChest_Appear_Montage.RewardChest_Appear_Montage"
+		},
+		"ComponentDefinition":
+		{
+			"ClientComponents":
+			{
+				"(TagName=\"\")":
+				{
+					"Components": [
+						"/SpicewoodUI/Spicewood/UI/Widget/InWorldPrompts/BP_InWorldIconWidgetComponent.BP_InWorldIconWidgetComponent_C"
+					]
+				},
+				"(TagName=\"SW.ActorComponent.Interaction\")":
+				{
+					"Components": [
+						"/SpicewoodUI/Spicewood/UI/Widget/InWorldPrompts/BP_InWorldPromptQuestInteractComponent.BP_InWorldPromptQuestInteractComponent_C"
+					]
+				}
+			}
+		}
+	},
+	{
+		"Name": "SeedSack",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.SeedSack"
+		},
+		"ActorReference": "/Game/Spicewood/Quests/PlainsA2/PLa2_S07_a/BP_PLa2_S07_SeedSack.BP_PLa2_S07_SeedSack_C",
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SetupChest",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_OpenChest",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.GameplayEvent.ChestOpened"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_OpenChestData"
+					}
+				]
+			}
+		],
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Targetable"
+				},
+				{
+					"TagName": "SW.TargetingProperties.Interactable"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize.Static"
+				},
+				{
+					"TagName": "SW.LootSource.SeedSackActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.TargetingProperties"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize"
+				},
+				{
+					"TagName": "SW.ReplicationGraph"
+				},
+				{
+					"TagName": "SW.LootSource"
+				}
+			]
+		},
+		"Montages":
+		{
+			"(TagName=\"SW.Montage.Open\")": "/Game/Spicewood/Art/Interactables/Chests/FancyChest/Animations/RewardChest_Opening_Montage.RewardChest_Opening_Montage",
+			"(TagName=\"SW.Montage.Appear\")": "/Game/Spicewood/Art/Interactables/Chests/FancyChest/Animations/RewardChest_Appear_Montage.RewardChest_Appear_Montage"
+		},
+		"ComponentDefinition":
+		{
+			"ClientComponents":
+			{
+				"(TagName=\"\")":
+				{
+					"Components": [
+						"/SpicewoodUI/Spicewood/UI/Widget/InWorldPrompts/BP_InWorldIconWidgetComponent.BP_InWorldIconWidgetComponent_C"
+					]
+				},
+				"(TagName=\"SW.ActorComponent.Interaction\")":
+				{
+					"Components": [
+						"/SpicewoodUI/Spicewood/UI/Widget/InWorldPrompts/BP_InWorldPromptQuestInteractComponent.BP_InWorldPromptQuestInteractComponent_C"
+					]
+				}
+			}
+		}
+	},
+	{
+		"Name": "SmallEmeraldPot",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.Pot.Small.Emerald"
+		},
+		"ActorReference": "/Game/Spicewood/Actors/Loot/BP_EmeraldPotSmall.BP_EmeraldPotSmall_C",
+		"AbilitySpecialization":
+		{
+			"Specializations": [
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_HandleFinalDeath",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.HandleFinalDeath"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.OnDeathCueTag"
+								},
+								"Type": "GameplayTag",
+								"GameplayTag":
+								{
+									"TagName": "GameplayCue.SW.Prop.PotBreak.Small.Emerald"
+								}
+							},
+							"ModOp": "Override"
+						}
+					]
+				}
+			]
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_DropItem",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"TriggeredByGameplayEvents":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.GameplayEvent.Hit"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.GameplayEvent"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_DropItemInstanceData",
+						"LootSourceTagOverride":
+						{
+							"TagName": "SW.LootSource.Pot.Emerald"
+						},
+						"IncludeAdditionalLootContext": true,
+						"LootEntitlementRulesTag":
+						{
+							"TagName": "SW.ItemCreator.Entitlement.AllPlayers"
+						}
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_GrantTeam",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.GrantTeam"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TeamTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Team.Neutral"
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				]
+			}
+		],
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize.Static"
+				},
+				{
+					"TagName": "SW.LootSource.Pot.Emerald"
+				},
+				{
+					"TagName": "SW.TargetingProperties.BreakablePot"
+				},
+				{
+					"TagName": "SW.PropActor.Default.Hostile"
+				},
+				{
+					"TagName": "SW.Property.Neutral"
+				},
+				{
+					"TagName": "SW.Property.Attackable.UINoDamageNumbers"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Property.Editor.TypeSystemReload"
+				},
+				{
+					"TagName": "SW.Property.SpawnGroundChecks.EnsureOnGround"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize"
+				},
+				{
+					"TagName": "SW.ReplicationGraph"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.LootSource.Pot"
+				},
+				{
+					"TagName": "SW.LootSource"
+				},
+				{
+					"TagName": "SW.TargetingProperties"
+				},
+				{
+					"TagName": "SW.PropActor.Default"
+				},
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Property.Attackable"
+				},
+				{
+					"TagName": "SW.Property.Editor"
+				},
+				{
+					"TagName": "SW.Property.SpawnGroundChecks"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.SpawnVerticalOffset"
+				},
+				"Type": "Float",
+				"Float": 50
+			}
+		]
+	},
+	{
+		"Name": "SmallSpringStonePot",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.Pot.Small.SpringStone"
+		},
+		"ActorReference": "/Game/Spicewood/Actors/Loot/BP_SpringStonePotSmall.BP_SpringStonePotSmall_C",
+		"AbilitySpecialization":
+		{
+			"Specializations": [
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_HandleFinalDeath",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.HandleFinalDeath"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.OnDeathCueTag"
+								},
+								"Type": "GameplayTag",
+								"GameplayTag":
+								{
+									"TagName": "GameplayCue.SW.Prop.PotBreak.Small.Springstone"
+								}
+							},
+							"ModOp": "Override"
+						}
+					]
+				}
+			]
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_DropItem",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"TriggeredByGameplayEvents":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.GameplayEvent.Hit"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.GameplayEvent"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_DropItemInstanceData",
+						"LootSourceTagOverride":
+						{
+							"TagName": "SW.LootSource.Pot.SpringStone"
+						},
+						"IncludeAdditionalLootContext": true,
+						"LootEntitlementRulesTag":
+						{
+							"TagName": "SW.ItemCreator.Entitlement.AllPlayers"
+						}
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_GrantTeam",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.GrantTeam"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TeamTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Team.Neutral"
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				]
+			}
+		],
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize.Static"
+				},
+				{
+					"TagName": "SW.TargetingProperties.BreakablePot"
+				},
+				{
+					"TagName": "SW.PropActor.Default.Hostile"
+				},
+				{
+					"TagName": "SW.Property.Neutral"
+				},
+				{
+					"TagName": "SW.LootSource.Pot.SpringStone"
+				},
+				{
+					"TagName": "SW.Property.Attackable.UINoDamageNumbers"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize"
+				},
+				{
+					"TagName": "SW.ReplicationGraph"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.TargetingProperties"
+				},
+				{
+					"TagName": "SW.PropActor.Default"
+				},
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.LootSource.Pot"
+				},
+				{
+					"TagName": "SW.LootSource"
+				},
+				{
+					"TagName": "SW.Property.Attackable"
+				}
+			]
+		}
+	},
+	{
+		"Name": "LargeEmeraldPot",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.Pot.Large.Emerald"
+		},
+		"ActorReference": "/Game/Spicewood/Actors/Loot/BP_EmeraldPotLarge.BP_EmeraldPotLarge_C",
+		"AbilitySpecialization":
+		{
+			"Specializations": [
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_HandleFinalDeath",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.HandleFinalDeath"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.OnDeathCueTag"
+								},
+								"Type": "GameplayTag",
+								"GameplayTag":
+								{
+									"TagName": "GameplayCue.SW.Prop.PotBreak.Large.Emerald"
+								}
+							},
+							"ModOp": "Override"
+						}
+					]
+				}
+			]
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_DropItem",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"TriggeredByGameplayEvents":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.GameplayEvent.Hit"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.GameplayEvent"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_DropItemInstanceData",
+						"LootSourceTagOverride":
+						{
+							"TagName": "SW.LootSource.Pot.Emerald"
+						},
+						"IncludeAdditionalLootContext": true,
+						"LootEntitlementRulesTag":
+						{
+							"TagName": "SW.ItemCreator.Entitlement.AllPlayers"
+						}
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_GrantTeam",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.GrantTeam"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TeamTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Team.Neutral"
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				]
+			}
+		],
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize.Static"
+				},
+				{
+					"TagName": "SW.LootSource.Pot.Emerald"
+				},
+				{
+					"TagName": "SW.TargetingProperties.BreakablePot"
+				},
+				{
+					"TagName": "SW.PropActor.Default.Hostile"
+				},
+				{
+					"TagName": "SW.Property.Neutral"
+				},
+				{
+					"TagName": "SW.Property.Attackable.UINoDamageNumbers"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize"
+				},
+				{
+					"TagName": "SW.ReplicationGraph"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.LootSource.Pot"
+				},
+				{
+					"TagName": "SW.LootSource"
+				},
+				{
+					"TagName": "SW.TargetingProperties"
+				},
+				{
+					"TagName": "SW.PropActor.Default"
+				},
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Property.Attackable"
+				}
+			]
+		}
+	},
+	{
+		"Name": "LargeSpringStonePot",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.Pot.Large.SpringStone"
+		},
+		"ActorReference": "/Game/Spicewood/Actors/Loot/BP_SpringStonePotLarge.BP_SpringStonePotLarge_C",
+		"AbilitySpecialization":
+		{
+			"Specializations": [
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_HandleFinalDeath",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.HandleFinalDeath"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.OnDeathCueTag"
+								},
+								"Type": "GameplayTag",
+								"GameplayTag":
+								{
+									"TagName": "GameplayCue.SW.Prop.PotBreak.Large.Springstone"
+								}
+							},
+							"ModOp": "Override"
+						}
+					]
+				}
+			]
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_DropItem",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"TriggeredByGameplayEvents":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.GameplayEvent.Hit"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.GameplayEvent"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_DropItemInstanceData",
+						"LootSourceTagOverride":
+						{
+							"TagName": "SW.LootSource.Pot.SpringStone"
+						},
+						"IncludeAdditionalLootContext": true,
+						"LootEntitlementRulesTag":
+						{
+							"TagName": "SW.ItemCreator.Entitlement.AllPlayers"
+						}
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_GrantTeam",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.GrantTeam"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TeamTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Team.Neutral"
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				]
+			}
+		],
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize.Static"
+				},
+				{
+					"TagName": "SW.TargetingProperties.BreakablePot"
+				},
+				{
+					"TagName": "SW.PropActor.Default.Hostile"
+				},
+				{
+					"TagName": "SW.Property.Neutral"
+				},
+				{
+					"TagName": "SW.LootSource.Pot.SpringStone"
+				},
+				{
+					"TagName": "SW.Property.Attackable.UINoDamageNumbers"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize"
+				},
+				{
+					"TagName": "SW.ReplicationGraph"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.TargetingProperties"
+				},
+				{
+					"TagName": "SW.PropActor.Default"
+				},
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.LootSource.Pot"
+				},
+				{
+					"TagName": "SW.LootSource"
+				},
+				{
+					"TagName": "SW.Property.Attackable"
+				}
+			]
+		}
+	},
+	{
+		"Name": "DeepDarkChest",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.DeepDarkChest"
+		},
+		"ActorReference": "/Game/Spicewood/Actors/Loot/BP_DeepDarkChest.BP_DeepDarkChest_C",
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_DropItem",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_DropItemInstanceData",
+						"LootSourceTagOverride":
+						{
+							"TagName": "None"
+						},
+						"IncludeAdditionalLootContext": true,
+						"LootEntitlementRulesTag":
+						{
+							"TagName": "SW.ItemCreator.Entitlement.AllPlayers"
+						}
+					}
+				]
+			}
+		],
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootSource.Chest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.LootSource"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		}
+	},
+	{
+		"Name": "FancyChest_Procedural",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.FancyChest.Procedural"
+		},
+		"ActorReference": "/Game/Spicewood/Actors/Loot/BP_EndChest.BP_EndChest_C",
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootActor.FancyChest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.LootActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		}
+	},
+	{
+		"Name": "WellspringChest_Procedural",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.WellspringChest.Procedural"
+		},
+		"ActorReference": "/Game/Spicewood/Actors/Loot/BP_EndChest.BP_EndChest_C",
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootActor.WellspringChest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.LootActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		}
+	},
+	{
+		"Name": "CampWoodenChest",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.CampWoodenChest"
+		},
+		"ActorReference": "/Game/Spicewood/Actors/Loot/BP_FancyChest.BP_FancyChest_C",
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootSource.Chest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.LootSource"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		}
+	},
+	{
+		"Name": "RandomizedLootActorPreview",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.Preview.RandomDefault"
+		},
+		"ActorReference": "/Game/Spicewood/Actors/Loot/BP_RandomizedLootActorPreview.BP_RandomizedLootActorPreview_C",
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootSource"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		}
+	},
+	{
+		"Name": "TalismansChest",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.TalismansChest"
+		},
+		"ActorReference": "None",
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootActor.FancyChest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.LootActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		}
+	},
+	{
+		"Name": "StorminatorChest",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.StorminatorChest"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/Chests/SoulChest/BP_FancySoulChest.BP_FancySoulChest_C",
+		"AbilitySpecialization":
+		{
+			"Specializations": [
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_OpenChest",
+					"AbilityCallsign":
+					{
+						"TagName": "None"
+					},
+					"InstanceDataSpecializations": [
+						{
+							"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_OpenChestData",
+							"AdditionalContextTags":
+							{
+								"GameplayTags": [
+									{
+										"TagName": "SW.Item.Property.StorminatorReward"
+									}
+								],
+								"ParentTags": [
+									{
+										"TagName": "SW.Item.Property"
+									},
+									{
+										"TagName": "SW.Item"
+									},
+									{
+										"TagName": "SW"
+									}
+								]
+							},
+							"ModOps": [
+								{
+									"PropertyName": "AdditionalContextTags",
+									"ModOp": "Override"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Targetable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		}
+	},
+	{
+		"Name": "StorminatorChestFinal",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.StorminatorChest.Final"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/Chests/SoulChest/BP_SoulChest.BP_SoulChest_C",
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.LootActor.StorminatorChest"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.LootActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"Montages":
+		{
+			"(TagName=\"SW.Montage.Appear\")": "/Game/Spicewood/Art/Interactables/Chests/FancyChest/Animations/SoulChest_Appear_Montage.SoulChest_Appear_Montage",
+			"(TagName=\"SW.Montage.Open\")": "/Game/Spicewood/Art/Interactables/Chests/FancyChest/Animations/RewardChest_Opening_Montage.RewardChest_Opening_Montage"
+		}
+	}
+]

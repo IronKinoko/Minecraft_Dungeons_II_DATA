@@ -1,0 +1,356 @@
+[
+  {
+    "Type": "CurveTable",
+    "Name": "CT_MobVariantSpawnChances",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveTable'",
+    "Package": "/Game/Spicewood/GameplayLogic/CT_MobVariantSpawnChances",
+    "CurveTableMode": "SimpleCurves",
+    "Rows": {
+      "VindicatorVariant1": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 0.9
+          },
+          {
+            "Time": 6.0,
+            "Value": 1.5
+          },
+          {
+            "Time": 7.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 2.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "VindicatorVariant2": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 7.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "PillagerVariant1": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 3.0,
+            "Value": 0.4
+          },
+          {
+            "Time": 4.0,
+            "Value": 0.6
+          },
+          {
+            "Time": 5.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 7.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 2.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "PillagerVariant2": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 7.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "ZombieVariant1": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.5
+          },
+          {
+            "Time": 2.0,
+            "Value": 0.7
+          },
+          {
+            "Time": 3.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 5.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 2.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "RoyalGuard": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 5.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "Ravager": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 6.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "ZombieVariant2": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 0.2
+          },
+          {
+            "Time": 4.0,
+            "Value": 0.8
+          },
+          {
+            "Time": 5.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "SkeletonVariant1": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.5
+          },
+          {
+            "Time": 2.0,
+            "Value": 0.7
+          },
+          {
+            "Time": 3.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 5.0,
+            "Value": 2.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 2.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "SkeletonVariant2": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 0.3
+          },
+          {
+            "Time": 3.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 4.0,
+            "Value": 1.5
+          },
+          {
+            "Time": 20.0,
+            "Value": 1.5
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "Vanguard": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 2.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 7.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "SpiderJockey": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 5.0,
+            "Value": 1.0
+          },
+          {
+            "Time": 20.0,
+            "Value": 1.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      },
+      "SoulStatedType2": {
+        "InterpMode": 0,
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 3.0,
+            "Value": 0.0
+          },
+          {
+            "Time": 7.0,
+            "Value": 0.8
+          },
+          {
+            "Time": 8.0,
+            "Value": 1.2
+          },
+          {
+            "Time": 9.0,
+            "Value": 1.4
+          },
+          {
+            "Time": 10.0,
+            "Value": 1.5
+          },
+          {
+            "Time": 20.0,
+            "Value": 1.5
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": 4,
+        "PostInfinityExtrap": 4
+      }
+    }
+  }
+]

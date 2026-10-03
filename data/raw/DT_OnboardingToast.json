@@ -1,0 +1,10 @@
+[
+	{
+		"Name": "SW.UI.Onboarding.Toast.EquipItems",
+		"Text": "LOCTABLE(\"OnboardingLabels.csv\", \"toast_equipitems\")",
+		"RepeatIndefinitely": false,
+		"ShowCount": 5,
+		"Lifetime": 7,
+		"UnlockedTutorials": []
+	}
+]

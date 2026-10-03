@@ -1,0 +1,343 @@
+[
+	{
+		"Name": "PlainsA2-SouthEastBridge",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.PlainsA2.SouthEastBridge"
+		},
+		"TeleportTag":
+		{
+			"TagName": "Sw.TeleportPoint.Plains.A2.SouthEastBridge.MinecartStation"
+		}
+	},
+	{
+		"Name": "DesertA1-Fortress",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.DesertA1.Fortress"
+		},
+		"TeleportTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.Fortress.MinecartStation"
+		}
+	},
+	{
+		"Name": "PlainsA1-Border",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.PlainsA1.Border"
+		},
+		"TeleportTag":
+		{
+			"TagName": "Sw.TeleportPoint.Plains.A1.Border.MinecartStation"
+		}
+	},
+	{
+		"Name": "ForestA1-SpiderCaveExit",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.ForestA1.SpiderCaveExit"
+		},
+		"TeleportTag":
+		{
+			"TagName": "SW.TeleportPoint.Forest.A1.SpiderCaveExit.MineCartStation"
+		}
+	},
+	{
+		"Name": "DesertA1-Cliffs",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.DesertA1.Cliffs"
+		},
+		"TeleportTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.Cliffs.MinecartStation"
+		}
+	},
+	{
+		"Name": "ForestA1-Outpost",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.ForestA1.Outpost"
+		},
+		"TeleportTag":
+		{
+			"TagName": "SW.TeleportPoint.Forest.A1.Outpost.MinecartStation"
+		}
+	},
+	{
+		"Name": "ForestA1-DangerZone",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.Forest.A1.DangerZone"
+		},
+		"TeleportTag":
+		{
+			"TagName": "SW.TeleportPoint.Forest.A1.DangerZone.MinecartStation"
+		}
+	},
+	{
+		"Name": "DesertA1-MountainPass",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.DesertA1.MountainX"
+		},
+		"TeleportTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.MountainX.MinecartStation"
+		}
+	},
+	{
+		"Name": "PlainsA2-VillagerOasis",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.PlainsA2.VillagerOasis"
+		},
+		"TeleportTag":
+		{
+			"TagName": "Sw.TeleportPoint.Plains.A2.VillagerOasis.MinecartStation"
+		}
+	},
+	{
+		"Name": "MeadowA1-SingersHaven",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.MeadowA1.SingersHaven"
+		},
+		"TeleportTag":
+		{
+			"TagName": "SW.TeleportPoint.Meadow.A1.SingersHaven.MinecartStation"
+		}
+	},
+	{
+		"Name": "CarapaceA1-Centre",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.CarapaceA1.Centre"
+		},
+		"TeleportTag":
+		{
+			"TagName": "SW.TeleportPoint.Carapace.A1.Centre.MinecartStation"
+		}
+	},
+	{
+		"Name": "TestSaveEligibilityGym-1",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.TestSaveEligibilityGym.One"
+		},
+		"TeleportTag":
+		{
+			"TagName": "SW.TeleportPoint.Test.SaveEligibilityGym.A1.One.MinecartStation"
+		}
+	},
+	{
+		"Name": "TestSaveEligibilityGym-2",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.TestSaveEligibilityGym.Two"
+		},
+		"TeleportTag":
+		{
+			"TagName": "SW.TeleportPoint.Test.SaveEligibilityGym.A1.Two.MinecartStation"
+		}
+	},
+	{
+		"Name": "TownFountain",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.Town.Fountain"
+		},
+		"TeleportTag":
+		{
+			"TagName": "SW.TeleportPoint.Town.FakeMinecartStation"
+		}
+	},
+	{
+		"Name": "MeadowA2-Hilltop",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.MeadowA2.Hilltop"
+		},
+		"TeleportTag":
+		{
+			"TagName": "SW.TeleportPoint.Meadow.A2.Hilltop.MinecartStation"
+		}
+	},
+	{
+		"Name": "MeadowA2-Fortress",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.MeadowA2.Fortress"
+		},
+		"TeleportTag":
+		{
+			"TagName": "SW.TeleportPoint.Meadow.A2.Fortress.MinecartStation"
+		}
+	},
+	{
+		"Name": "CaveVillage",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.PeaksA1.CaveVillage"
+		},
+		"TeleportTag":
+		{
+			"TagName": "SW.TeleportPoint.Peaks.A1.CaveVillage.MinecartStation"
+		}
+	},
+	{
+		"Name": "PlainsA2-NorthWestBridge",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.PlainsA2.NorthWestBridge"
+		},
+		"TeleportTag":
+		{
+			"TagName": "Sw.TeleportPoint.Plains.A2.NorthWestBridge.MinecartStation"
+		}
+	},
+	{
+		"Name": "ForestA1-NWPass",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.ForestA1.NWPass"
+		},
+		"TeleportTag":
+		{
+			"TagName": "SW.TeleportPoint.Forest.A1.NWPass.MinecartStation"
+		}
+	},
+	{
+		"Name": "DesertA1-IceLagoon",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.DesertA1.IceLagoon"
+		},
+		"TeleportTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.IceLagoon.MinecartStation"
+		}
+	},
+	{
+		"Name": "PlainsA2-Central",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.PlainsA2.Central"
+		},
+		"TeleportTag":
+		{
+			"TagName": "Sw.TeleportPoint.Plains.A2.Central.MinecartStation"
+		}
+	},
+	{
+		"Name": "PlainsA2-IllagerCamp",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.PlainsA2.IllagerCamp"
+		},
+		"TeleportTag":
+		{
+			"TagName": "Sw.TeleportPoint.Plains.A2.IllagerCamp.MinecartStation"
+		}
+	},
+	{
+		"Name": "MeadowA1-BehindPortal",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.MeadowA1.BehindPortal"
+		},
+		"TeleportTag":
+		{
+			"TagName": "SW.TeleportPoint.Meadow.A1.BehindPortal.MinecartStation"
+		}
+	},
+	{
+		"Name": "MeadowA1-SouthWest",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.MeadowA1.SouthWest"
+		},
+		"TeleportTag":
+		{
+			"TagName": "SW.TeleportPoint.Meadow.A1.SouthWest.MinecartStation"
+		}
+	},
+	{
+		"Name": "MeadowA1-SouthEast",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.MeadowA1.SouthEast"
+		},
+		"TeleportTag":
+		{
+			"TagName": "SW.TeleportPoint.Meadow.A1.SouthEast.MinecartStation"
+		}
+	},
+	{
+		"Name": "CarapaceA1-Border",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.CarapaceA1.Border"
+		},
+		"TeleportTag":
+		{
+			"TagName": "SW.TeleportPoint.Carapace.A1.Border.MinecartStation"
+		}
+	},
+	{
+		"Name": "CarapaceA1-North",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.CarapaceA1.North"
+		},
+		"TeleportTag":
+		{
+			"TagName": "SW.TeleportPoint.Carapace.A1.North.MinecartStation"
+		}
+	},
+	{
+		"Name": "Town",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.Town"
+		},
+		"TeleportTag":
+		{
+			"TagName": "SW.TeleportPoint.Town.MinecartStation"
+		}
+	},
+	{
+		"Name": "DesertA1-Fortress2",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.DesertA1.Fortress2"
+		},
+		"TeleportTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.Fortress.MinecartStation2"
+		}
+	},
+	{
+		"Name": "PlainsA1-Barn",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.PlainsA1.Barn"
+		},
+		"TeleportTag":
+		{
+			"TagName": "Sw.TeleportPoint.Plains.A1.Barn.MinecartStation"
+		}
+	},
+	{
+		"Name": "DesertA1-IceShelf",
+		"ActorTag":
+		{
+			"TagName": "SW.MinecartStation.DesertA1.TaigaBeach"
+		},
+		"TeleportTag":
+		{
+			"TagName": "SW.TeleportPoint.DesertA1.TaigaBeach.MinecartStation"
+		}
+	}
+]

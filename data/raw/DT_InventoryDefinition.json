@@ -1,0 +1,45 @@
+[
+	{
+		"Name": "PlayerInventory",
+		"TypeTag":
+		{
+			"TagName": "SW.Player"
+		},
+		"InventoryData":
+		{
+			"InventorySlots":
+			{
+				"(TagName=\"SW.ItemSlot.Inventory.MeleeWeapon\")": 80,
+				"(TagName=\"SW.ItemSlot.Inventory.RangedWeapon\")": 80,
+				"(TagName=\"SW.ItemSlot.Inventory.Armor.Boots\")": 80,
+				"(TagName=\"SW.ItemSlot.Inventory.Armor.Chest\")": 80,
+				"(TagName=\"SW.ItemSlot.Inventory.Armor.Helmet\")": 80,
+				"(TagName=\"SW.ItemSlot.Inventory.Armor.Leggings\")": 80,
+				"(TagName=\"SW.ItemSlot.Inventory.Artifact\")": 80,
+				"(TagName=\"SW.ItemSlot.Inventory.Talisman\")": 80,
+				"(TagName=\"SW.ItemSlot.Inventory.QuestItem\")": 100,
+				"(TagName=\"SW.ItemSlot.Inventory.EnchantmentBook\")": 200,
+				"(TagName=\"SW.ItemSlot.Inventory.VillageMerchant.Tier0\")": 3,
+				"(TagName=\"SW.ItemSlot.Inventory.VillageMerchant.Tier1\")": 3,
+				"(TagName=\"SW.ItemSlot.Inventory.VillageMerchant.Tier2\")": 3,
+				"(TagName=\"SW.ItemSlot.Equipment.MeleeWeapon\")": 1,
+				"(TagName=\"SW.ItemSlot.Equipment.RangedWeapon\")": 1,
+				"(TagName=\"SW.ItemSlot.Equipment.Armor.Boots\")": 1,
+				"(TagName=\"SW.ItemSlot.Equipment.Armor.Chest\")": 1,
+				"(TagName=\"SW.ItemSlot.Equipment.Armor.Helmet\")": 1,
+				"(TagName=\"SW.ItemSlot.Equipment.Armor.Leggings\")": 1,
+				"(TagName=\"SW.ItemSlot.Equipment.Artifact.Slot0\")": 1,
+				"(TagName=\"SW.ItemSlot.Equipment.Artifact.Slot1\")": 1,
+				"(TagName=\"SW.ItemSlot.Equipment.Artifact.Slot2\")": 1,
+				"(TagName=\"SW.ItemSlot.Equipment.Artifact.Slot3\")": 1,
+				"(TagName=\"SW.ItemSlot.Equipment.Talisman.Slot1\")": 1,
+				"(TagName=\"SW.ItemSlot.Equipment.Talisman.Slot2\")": 1,
+				"(TagName=\"SW.ItemSlot.Equipment.Talisman.Slot3\")": 1,
+				"(TagName=\"SW.ItemSlot.Equipment.Cosmetic.Capes\")": 1,
+				"(TagName=\"SW.ItemSlot.Inventory.Cosmetic.Capes\")": 80,
+				"(TagName=\"SW.ItemSlot.Equipment.Cosmetic.Pets\")": 1,
+				"(TagName=\"SW.ItemSlot.Inventory.Cosmetic.Pets\")": 80
+			}
+		}
+	}
+]

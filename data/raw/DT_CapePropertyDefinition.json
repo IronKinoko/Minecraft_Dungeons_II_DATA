@@ -1,0 +1,194 @@
+[
+	{
+		"Name": "BaseCape",
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Cape.Pickup"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Cape.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.Cosmetic.Cape"
+		},
+		"ActorReference": "None"
+	},
+	{
+		"Name": "SoulCape",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/CapeType/CapeType-Soul.CapeType-Soul",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Capes/Capes_equip_Play.Capes_equip_Play",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Capes/Capes_unequip_Play.Capes_unequip_Play"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Cosmetic.Cape.Soul"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Capes/Skins/SoulCape/BP_SoulCape.BP_SoulCape_C"
+	},
+	{
+		"Name": "TwistedCape",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/CapeType/CapeType-Twisted.CapeType-Twisted",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Capes/Capes_equip_Play.Capes_equip_Play",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Capes/Capes_unequip_Play.Capes_unequip_Play"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Cosmetic.Cape.Twisted"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Capes/Skins/TwistedCape/BP_TwistedCape.BP_TwistedCape_C"
+	},
+	{
+		"Name": "SpecialCape",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/CapeType/CapeType-Special.CapeType-Special",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Capes/Capes_equip_Play.Capes_equip_Play",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Capes/Capes_unequip_Play.Capes_unequip_Play"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Cosmetic.Cape.Special"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Capes/Skins/SpecialCape/BP_SpecialCape.BP_SpecialCape_C"
+	},
+	{
+		"Name": "CorruptedCreeperCape",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/CapeType/CapeType-CorruptedCreeper.CapeType-CorruptedCreeper",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Capes/Capes_equip_Play.Capes_equip_Play",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Capes/Capes_unequip_Play.Capes_unequip_Play"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Cosmetic.Cape.CorruptedCreeper"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Capes/Skins/CorruptedCreeperCape/BP_CorruptedCreeperCape.BP_CorruptedCreeperCape_C"
+	},
+	{
+		"Name": "HeroCape",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/CapeType/CapeType-Hero.CapeType-Hero",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Capes/Capes_equip_Play.Capes_equip_Play",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Capes/Capes_unequip_Play.Capes_unequip_Play"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Cosmetic.Cape.Hero"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Capes/Skins/HeroCape/BP_HeroCape.BP_HeroCape_C"
+	},
+	{
+		"Name": "MojangCape",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/CapeType/CapeType-Mojang.CapeType-Mojang",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Capes/Capes_equip_Play.Capes_equip_Play",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Capes/Capes_unequip_Play.Capes_unequip_Play"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Cosmetic.Cape.Mojang"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Capes/Skins/MojangCape/BP_MojangCape.BP_MojangCape_C"
+	},
+	{
+		"Name": "SliceSlayerCape",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/CapeType/CapeType-SliceSlayer.CapeType-SliceSlayer",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Capes/Capes_equip_Play.Capes_equip_Play",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Capes/Capes_unequip_Play.Capes_unequip_Play"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Cosmetic.Cape.SliceSlayer"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Capes/Skins/SliceSlayerCape/BP_SliceSlayerCape.BP_SliceSlayerCape_C"
+	}
+]

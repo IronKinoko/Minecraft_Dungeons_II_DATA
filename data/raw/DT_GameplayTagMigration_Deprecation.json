@@ -1,0 +1,426 @@
+[
+	{
+		"Name": "Dummy",
+		"DeprecatedTagName": "Datatable.Cannot.Be.Empty"
+	},
+	{
+		"Name": "ChainsIV",
+		"DeprecatedTagName": "SW.EffectTemplate.Chains.IV"
+	},
+	{
+		"Name": "CooldownIV",
+		"DeprecatedTagName": "SW.EffectTemplate.Cooldown.IV"
+	},
+	{
+		"Name": "PointBlankIV",
+		"DeprecatedTagName": "SW.EffectTemplate.PointBlank.IV"
+	},
+	{
+		"Name": "ProjectileProtectionIV",
+		"DeprecatedTagName": "SW.EffectTemplate.ProjectileProtection.IV"
+	},
+	{
+		"Name": "VestigeIV",
+		"DeprecatedTagName": "SW.EffectTemplate.Vestige.IV"
+	},
+	{
+		"Name": "CharmTrinket",
+		"DeprecatedTagName": "SW.Item.Artifact.CharmTrinket"
+	},
+	{
+		"Name": "EnchantersTome",
+		"DeprecatedTagName": "SW.Item.Artifact.EnchantersTome"
+	},
+	{
+		"Name": "EnchantersTomeUnique",
+		"DeprecatedTagName": "SW.Item.Artifact.EnchantersTome_Unique1"
+	},
+	{
+		"Name": "KnittingNeedles",
+		"DeprecatedTagName": "SW.Item.Artifact.KnittingNeedles"
+	},
+	{
+		"Name": "MinecartUnique",
+		"DeprecatedTagName": "SW.Item.Artifact.Minecart_Unique"
+	},
+	{
+		"Name": "CounterWeights",
+		"DeprecatedTagName": "SW.Item.CounterWeights"
+	},
+	{
+		"Name": "CounterWeightsUnique",
+		"DeprecatedTagName": "SW.Item.CounterWeights_Unique1"
+	},
+	{
+		"Name": "WhipUnique",
+		"DeprecatedTagName": "SW.Item.Whip_Unique1"
+	},
+	{
+		"Name": "FixbugwhereR1tagwasremovedbeforecharactertagformattestwasinplace",
+		"DeprecatedTagName": "SW.UI.Onboarding.TextPanel.Town.Revival"
+	},
+	{
+		"Name": "SW.Effect.LifeLeechMelee",
+		"DeprecatedTagName": "SW.Effect.LifeLeechMelee"
+	},
+	{
+		"Name": "SW.Effect.Taunter",
+		"DeprecatedTagName": "SW.Effect.Taunter"
+	},
+	{
+		"Name": "SW.EffectTemplate.LifeLeechMelee",
+		"DeprecatedTagName": "SW.EffectTemplate.LifeLeechMelee"
+	},
+	{
+		"Name": "SW.EffectTemplate.LifeLeechMelee.I",
+		"DeprecatedTagName": "SW.EffectTemplate.LifeLeechMelee.I"
+	},
+	{
+		"Name": "SW.EffectTemplate.LifeLeechMelee.II",
+		"DeprecatedTagName": "SW.EffectTemplate.LifeLeechMelee.II"
+	},
+	{
+		"Name": "SW.EffectTemplate.LifeLeechMelee.III",
+		"DeprecatedTagName": "SW.EffectTemplate.LifeLeechMelee.III"
+	},
+	{
+		"Name": "SW.EffectTemplate.LifeLeechMelee.Unique",
+		"DeprecatedTagName": "SW.EffectTemplate.LifeLeechMelee.Unique"
+	},
+	{
+		"Name": "SW.EffectTemplate.Taunter",
+		"DeprecatedTagName": "SW.EffectTemplate.Taunter"
+	},
+	{
+		"Name": "SW.EffectTemplate.Taunter.I",
+		"DeprecatedTagName": "SW.EffectTemplate.Taunter.I"
+	},
+	{
+		"Name": "SW.EffectTemplate.Taunter.II",
+		"DeprecatedTagName": "SW.EffectTemplate.Taunter.II"
+	},
+	{
+		"Name": "SW.EffectTemplate.Taunter.III",
+		"DeprecatedTagName": "SW.EffectTemplate.Taunter.III"
+	},
+	{
+		"Name": "SW.EffectTemplate.Taunter.Unique",
+		"DeprecatedTagName": "SW.EffectTemplate.Taunter.Unique"
+	},
+	{
+		"Name": "SW.Enchantment.BeastBurst",
+		"DeprecatedTagName": "SW.Enchantment.BeastBurst"
+	},
+	{
+		"Name": "SW.Enchantment.BeastBurst.I",
+		"DeprecatedTagName": "SW.Enchantment.BeastBurst.I"
+	},
+	{
+		"Name": "SW.Enchantment.BeastBurst.II",
+		"DeprecatedTagName": "SW.Enchantment.BeastBurst.II"
+	},
+	{
+		"Name": "SW.Enchantment.BeastBurst.III",
+		"DeprecatedTagName": "SW.Enchantment.BeastBurst.III"
+	},
+	{
+		"Name": "SW.Enchantment.CriticalFlurry",
+		"DeprecatedTagName": "SW.Enchantment.CriticalFlurry"
+	},
+	{
+		"Name": "SW.Enchantment.CriticalFlurry.I",
+		"DeprecatedTagName": "SW.Enchantment.CriticalFlurry.I"
+	},
+	{
+		"Name": "SW.Enchantment.CriticalFlurry.II",
+		"DeprecatedTagName": "SW.Enchantment.CriticalFlurry.II"
+	},
+	{
+		"Name": "SW.Enchantment.CriticalFlurry.III",
+		"DeprecatedTagName": "SW.Enchantment.CriticalFlurry.III"
+	},
+	{
+		"Name": "SW.Enchantment.StrengtheningPotion",
+		"DeprecatedTagName": "SW.Enchantment.StrengtheningPotion"
+	},
+	{
+		"Name": "SW.Enchantment.StrengtheningPotion.I",
+		"DeprecatedTagName": "SW.Enchantment.StrengtheningPotion.I"
+	},
+	{
+		"Name": "SW.Enchantment.StrengtheningPotion.II",
+		"DeprecatedTagName": "SW.Enchantment.StrengtheningPotion.II"
+	},
+	{
+		"Name": "SW.Enchantment.StrengtheningPotion.III",
+		"DeprecatedTagName": "SW.Enchantment.StrengtheningPotion.III"
+	},
+	{
+		"Name": "SW.Item.ArmorSet.Mercenary",
+		"DeprecatedTagName": "SW.Item.ArmorSet.Mercenary"
+	},
+	{
+		"Name": "SW.Item.ArmorSet.Mercenary_Unique",
+		"DeprecatedTagName": "SW.Item.ArmorSet.Mercenary_Unique"
+	},
+	{
+		"Name": "SW.Item.ArmorSet.Souldancer",
+		"DeprecatedTagName": "SW.Item.ArmorSet.Souldancer"
+	},
+	{
+		"Name": "SW.Item.ArmorSet.Souldancer_Unique",
+		"DeprecatedTagName": "SW.Item.ArmorSet.Souldancer_Unique"
+	},
+	{
+		"Name": "SW.Item.Artifact.Armorstand_Unique1",
+		"DeprecatedTagName": "SW.Item.Artifact.Armorstand_Unique1"
+	},
+	{
+		"Name": "SW.Item.Artifact.BucketOfAxolotl",
+		"DeprecatedTagName": "SW.Item.Artifact.BucketOfAxolotl"
+	},
+	{
+		"Name": "SW.Item.Artifact.Caketapult",
+		"DeprecatedTagName": "SW.Item.Artifact.Caketapult"
+	},
+	{
+		"Name": "SW.Item.Artifact.FiendishTrinket",
+		"DeprecatedTagName": "SW.Item.Artifact.FiendishTrinket"
+	},
+	{
+		"Name": "SW.Item.Artifact.FiendishTrinket_Unique1",
+		"DeprecatedTagName": "SW.Item.Artifact.FiendishTrinket_Unique1"
+	},
+	{
+		"Name": "SW.Item.Artifact.MoxieMittens",
+		"DeprecatedTagName": "SW.Item.Artifact.MoxieMittens"
+	},
+	{
+		"Name": "SW.Item.Artifact.Spinblade_Unique1",
+		"DeprecatedTagName": "SW.Item.Artifact.Spinblade_Unique1"
+	},
+	{
+		"Name": "SW.Item.Artifact.ToxicCane",
+		"DeprecatedTagName": "SW.Item.Artifact.ToxicCane"
+	},
+	{
+		"Name": "SW.Item.Club",
+		"DeprecatedTagName": "SW.Item.Club"
+	},
+	{
+		"Name": "SW.Item.Club_Unique1",
+		"DeprecatedTagName": "SW.Item.Club_Unique1"
+	},
+	{
+		"Name": "SW.Item.EnchantmentBook.BeastBurst",
+		"DeprecatedTagName": "SW.Item.EnchantmentBook.BeastBurst"
+	},
+	{
+		"Name": "SW.Item.EnchantmentBook.CriticalFlurry",
+		"DeprecatedTagName": "SW.Item.EnchantmentBook.CriticalFlurry"
+	},
+	{
+		"Name": "SW.Item.EnchantmentBook.StrengtheningPotion",
+		"DeprecatedTagName": "SW.Item.EnchantmentBook.StrengtheningPotion"
+	},
+	{
+		"Name": "SW.Item.Falchion",
+		"DeprecatedTagName": "SW.Item.Falchion"
+	},
+	{
+		"Name": "SW.Item.Falchion_Unique1",
+		"DeprecatedTagName": "SW.Item.Falchion_Unique1"
+	},
+	{
+		"Name": "SW.Item.FightingSticks",
+		"DeprecatedTagName": "SW.Item.FightingSticks"
+	},
+	{
+		"Name": "SW.Item.FightingSticks_Unique1",
+		"DeprecatedTagName": "SW.Item.FightingSticks_Unique1"
+	},
+	{
+		"Name": "SW.Item.GreatCrossbow",
+		"DeprecatedTagName": "SW.Item.GreatCrossbow"
+	},
+	{
+		"Name": "SW.Item.GreatCrossbow_Unique1",
+		"DeprecatedTagName": "SW.Item.GreatCrossbow_Unique1"
+	},
+	{
+		"Name": "SW.Item.Halberd",
+		"DeprecatedTagName": "SW.Item.Halberd"
+	},
+	{
+		"Name": "SW.Item.Halberd_Unique1",
+		"DeprecatedTagName": "SW.Item.Halberd_Unique1"
+	},
+	{
+		"Name": "SW.Item.Lance",
+		"DeprecatedTagName": "SW.Item.Lance"
+	},
+	{
+		"Name": "SW.Item.Lance_Unique1",
+		"DeprecatedTagName": "SW.Item.Lance_Unique1"
+	},
+	{
+		"Name": "SW.Item.MercenaryBoots",
+		"DeprecatedTagName": "SW.Item.MercenaryBoots"
+	},
+	{
+		"Name": "SW.Item.MercenaryBoots_Unique",
+		"DeprecatedTagName": "SW.Item.MercenaryBoots_Unique"
+	},
+	{
+		"Name": "SW.Item.MercenaryChest",
+		"DeprecatedTagName": "SW.Item.MercenaryChest"
+	},
+	{
+		"Name": "SW.Item.MercenaryChest_Unique",
+		"DeprecatedTagName": "SW.Item.MercenaryChest_Unique"
+	},
+	{
+		"Name": "SW.Item.MercenaryHelmet",
+		"DeprecatedTagName": "SW.Item.MercenaryHelmet"
+	},
+	{
+		"Name": "SW.Item.MercenaryHelmet_Unique",
+		"DeprecatedTagName": "SW.Item.MercenaryHelmet_Unique"
+	},
+	{
+		"Name": "SW.Item.MercenaryLeggings",
+		"DeprecatedTagName": "SW.Item.MercenaryLeggings"
+	},
+	{
+		"Name": "SW.Item.MercenaryLeggings_Unique",
+		"DeprecatedTagName": "SW.Item.MercenaryLeggings_Unique"
+	},
+	{
+		"Name": "SW.Item.ShortStaff",
+		"DeprecatedTagName": "SW.Item.ShortStaff"
+	},
+	{
+		"Name": "SW.Item.ShortStaff_Unique1",
+		"DeprecatedTagName": "SW.Item.ShortStaff_Unique1"
+	},
+	{
+		"Name": "SW.Item.Shortsword",
+		"DeprecatedTagName": "SW.Item.Shortsword"
+	},
+	{
+		"Name": "SW.Item.Shortsword_Unique1",
+		"DeprecatedTagName": "SW.Item.Shortsword_Unique1"
+	},
+	{
+		"Name": "SW.Item.SouldancerBoots",
+		"DeprecatedTagName": "SW.Item.SouldancerBoots"
+	},
+	{
+		"Name": "SW.Item.SouldancerBoots_Unique",
+		"DeprecatedTagName": "SW.Item.SouldancerBoots_Unique"
+	},
+	{
+		"Name": "SW.Item.SouldancerChest",
+		"DeprecatedTagName": "SW.Item.SouldancerChest"
+	},
+	{
+		"Name": "SW.Item.SouldancerChest_Unique",
+		"DeprecatedTagName": "SW.Item.SouldancerChest_Unique"
+	},
+	{
+		"Name": "SW.Item.SouldancerHelmet",
+		"DeprecatedTagName": "SW.Item.SouldancerHelmet"
+	},
+	{
+		"Name": "SW.Item.SouldancerHelmet_Unique",
+		"DeprecatedTagName": "SW.Item.SouldancerHelmet_Unique"
+	},
+	{
+		"Name": "SW.Item.SouldancerLeggings",
+		"DeprecatedTagName": "SW.Item.SouldancerLeggings"
+	},
+	{
+		"Name": "SW.Item.SouldancerLeggings_Unique",
+		"DeprecatedTagName": "SW.Item.SouldancerLeggings_Unique"
+	},
+	{
+		"Name": "SW.Item.Stiletto",
+		"DeprecatedTagName": "SW.Item.Stiletto"
+	},
+	{
+		"Name": "SW.Item.Stiletto_Unique1",
+		"DeprecatedTagName": "SW.Item.Stiletto_Unique1"
+	},
+	{
+		"Name": "SW.Item.Talisman.LifeLeechMelee",
+		"DeprecatedTagName": "SW.Item.Talisman.LifeLeechMelee"
+	},
+	{
+		"Name": "SW.Item.Twinblade",
+		"DeprecatedTagName": "SW.Item.Twinblade"
+	},
+	{
+		"Name": "SW.Item.Twinblade_Unique1",
+		"DeprecatedTagName": "SW.Item.Twinblade_Unique1"
+	},
+	{
+		"Name": "SW.Item.Wraps",
+		"DeprecatedTagName": "SW.Item.Wraps"
+	},
+	{
+		"Name": "SW.Item.Wraps_Unique1",
+		"DeprecatedTagName": "SW.Item.Wraps_Unique1"
+	},
+	{
+		"Name": "SW.Effect.LifeLeechRanged",
+		"DeprecatedTagName": "SW.Effect.LifeLeechRanged"
+	},
+	{
+		"Name": "SW.Effect.SetByCaller.LifeLeechRangedMultiplier",
+		"DeprecatedTagName": "SW.Effect.SetByCaller.LifeLeechRangedMultiplier"
+	},
+	{
+		"Name": "SW.EffectTemplate.LifeLeechRanged",
+		"DeprecatedTagName": "SW.EffectTemplate.LifeLeechRanged"
+	},
+	{
+		"Name": "SW.EffectTemplate.LifeLeechRanged.I",
+		"DeprecatedTagName": "SW.EffectTemplate.LifeLeechRanged.I"
+	},
+	{
+		"Name": "SW.EffectTemplate.LifeLeechRanged.II",
+		"DeprecatedTagName": "SW.EffectTemplate.LifeLeechRanged.II"
+	},
+	{
+		"Name": "SW.EffectTemplate.LifeLeechRanged.III",
+		"DeprecatedTagName": "SW.EffectTemplate.LifeLeechRanged.III"
+	},
+	{
+		"Name": "SW.Item.Talisman.LifeLeechRanged",
+		"DeprecatedTagName": "SW.Item.Talisman.LifeLeechRanged"
+	},
+	{
+		"Name": "SW.Effect.SuccessiveHit",
+		"DeprecatedTagName": "SW.Effect.SuccessiveHit"
+	},
+	{
+		"Name": "SW.EffectTemplate.SuccessiveHIts",
+		"DeprecatedTagName": "SW.EffectTemplate.SuccessiveHIts"
+	},
+	{
+		"Name": "SW.EffectTemplate.SuccessiveHIts.I",
+		"DeprecatedTagName": "SW.EffectTemplate.SuccessiveHIts.I"
+	},
+	{
+		"Name": "SW.EffectTemplate.SuccessiveHIts.II",
+		"DeprecatedTagName": "SW.EffectTemplate.SuccessiveHIts.II"
+	},
+	{
+		"Name": "SW.EffectTemplate.SuccessiveHIts.III",
+		"DeprecatedTagName": "SW.EffectTemplate.SuccessiveHIts.III"
+	},
+	{
+		"Name": "SW.Item.Talisman.SuccessiveHits",
+		"DeprecatedTagName": "SW.Item.Talisman.SuccessiveHits"
+	}
+]

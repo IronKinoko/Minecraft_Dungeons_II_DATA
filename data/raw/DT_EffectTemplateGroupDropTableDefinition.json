@@ -1,0 +1,406 @@
+[
+	{
+		"Name": "AllGear",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.Gear"
+		},
+		"PrimaryETG":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplateGroup.Archetype.Utility"
+					},
+					"Weight": 0.25,
+					"Operation": "Set"
+				}
+			]
+		},
+		"SecondaryETG":
+		{
+		}
+	},
+	{
+		"Name": "AllArtifacts",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.Artifact"
+		},
+		"PrimaryETG":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplateGroup.Artifact"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				}
+			]
+		},
+		"SecondaryETG":
+		{
+		}
+	},
+	{
+		"Name": "MeleeWeapons",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.MeleeWeapon"
+		},
+		"PrimaryETG":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplateGroup.Weapon"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				}
+			]
+		},
+		"SecondaryETG":
+		{
+		}
+	},
+	{
+		"Name": "RangedWeapons",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.RangedWeapon"
+		},
+		"PrimaryETG":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplateGroup.Weapon"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				}
+			]
+		},
+		"SecondaryETG":
+		{
+		}
+	},
+	{
+		"Name": "Armor",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.Armor"
+		},
+		"PrimaryETG":
+		{
+		},
+		"SecondaryETG":
+		{
+		}
+	},
+	{
+		"Name": "Fighter",
+		"TypeTag":
+		{
+			"TagName": "SW.Archetype.Fighter"
+		},
+		"PrimaryETG":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplateGroup.Archetype.Fighter"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				}
+			]
+		},
+		"SecondaryETG":
+		{
+		}
+	},
+	{
+		"Name": "Ranger",
+		"TypeTag":
+		{
+			"TagName": "SW.Archetype.Ranger"
+		},
+		"PrimaryETG":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplateGroup.Archetype.Ranger"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				}
+			]
+		},
+		"SecondaryETG":
+		{
+		}
+	},
+	{
+		"Name": "Tank",
+		"TypeTag":
+		{
+			"TagName": "SW.Archetype.Tank"
+		},
+		"PrimaryETG":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplateGroup.Archetype.Tank"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				}
+			]
+		},
+		"SecondaryETG":
+		{
+		}
+	},
+	{
+		"Name": "Trickster",
+		"TypeTag":
+		{
+			"TagName": "SW.Archetype.Trickster"
+		},
+		"PrimaryETG":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplateGroup.Archetype.Trickster"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				}
+			]
+		},
+		"SecondaryETG":
+		{
+		}
+	},
+	{
+		"Name": "Mage",
+		"TypeTag":
+		{
+			"TagName": "SW.Archetype.Mage"
+		},
+		"PrimaryETG":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplateGroup.Archetype.Mage"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				}
+			]
+		},
+		"SecondaryETG":
+		{
+		}
+	},
+	{
+		"Name": "Support",
+		"TypeTag":
+		{
+			"TagName": "SW.Archetype.Support"
+		},
+		"PrimaryETG":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplateGroup.Archetype.Support"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				}
+			]
+		},
+		"SecondaryETG":
+		{
+		}
+	},
+	{
+		"Name": "Summoner",
+		"TypeTag":
+		{
+			"TagName": "SW.Archetype.Summoner"
+		},
+		"PrimaryETG":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplateGroup.Archetype.Summoner"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				}
+			]
+		},
+		"SecondaryETG":
+		{
+		}
+	},
+	{
+		"Name": "Utility",
+		"TypeTag":
+		{
+			"TagName": "SW.Archetype.Utility"
+		},
+		"PrimaryETG":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplateGroup.Archetype.Utility"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				}
+			]
+		},
+		"SecondaryETG":
+		{
+		}
+	},
+	{
+		"Name": "Fire",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.Elemental.Fire"
+		},
+		"PrimaryETG":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplateGroup.Elemental.Fire"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				}
+			]
+		},
+		"SecondaryETG":
+		{
+		}
+	},
+	{
+		"Name": "Frost",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.Elemental.Frost"
+		},
+		"PrimaryETG":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplateGroup.Elemental.Frost"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				}
+			]
+		},
+		"SecondaryETG":
+		{
+		}
+	},
+	{
+		"Name": "Poison",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.Elemental.Poison"
+		},
+		"PrimaryETG":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplateGroup.Elemental.Poison"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				}
+			]
+		},
+		"SecondaryETG":
+		{
+		}
+	},
+	{
+		"Name": "Lightning",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.Elemental.Lightning"
+		},
+		"PrimaryETG":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplateGroup.Elemental.Lightning"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				}
+			]
+		},
+		"SecondaryETG":
+		{
+		}
+	},
+	{
+		"Name": "Soul",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.Elemental.Soul"
+		},
+		"PrimaryETG":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.EffectTemplateGroup.Elemental.Soul"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				}
+			]
+		},
+		"SecondaryETG":
+		{
+		}
+	}
+]

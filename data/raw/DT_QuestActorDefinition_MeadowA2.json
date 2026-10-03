@@ -1,0 +1,482 @@
+[
+	{
+		"Name": "CA11_SoulConstruct_Inactive",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA11.SoulConstruct.Inactive"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA11/BP_CA11_SoulConstruct_Inactive.BP_CA11_SoulConstruct_Inactive_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA11_SoulBlock_01",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA11.SoulBlock.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA11/BP_CA11_SoulBlock_01.BP_CA11_SoulBlock_01_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA11_OverloadPoint_01",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA11.OverloadPoint.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA11/BP_CA11_OverloadPoint_01.BP_CA11_OverloadPoint_01_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA10_BlockPlacementLocation",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA10.BlockPlacementLocation.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA10/BP_CA10_BlockPlacementLocation.BP_CA10_BlockPlacementLocation_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA10_TempBlocker_01",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA10.TempBlocker.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA10/BP_CA10_TempBlocker_01.BP_CA10_TempBlocker_01_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA10_BR_QuestGiver",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA10.BR.QuestGiver"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA10_BR/BP_CA10_BR_QuestGiver.BP_CA10_BR_QuestGiver_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA10_BR_B_QuestGiver",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA10.BR.B.QuestGiver"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA10_BR/CA10_BR_B/BP_CA10_BR_B_QuestGiver.BP_CA10_BR_B_QuestGiver_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "MEa2_S02_A_Sculkblock",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.MEa2.S02.A.SculkBlock"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA2/MEa2_S02_A/BP_MEa2_S02_A_SculkBlock.BP_MEa2_S02_A_SculkBlock_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "MEa2_S02_A_Prototype01",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.MEa2.S02.A.Prototype01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA2/MEa2_S02_A/BP_MEa2_S02_A_Prototype01.BP_MEa2_S02_A_Prototype01_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "MEa2_S02_A_Prototype02",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.MEa2.S02.A.Prototype02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA2/MEa2_S02_A/BP_MEa2_S02_A_Prototype02.BP_MEa2_S02_A_Prototype02_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "MEa2_S02_A_Prototype03",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.MEa2.S02.A.Prototype03"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA2/MEa2_S02_A/BP_MEa2_S02_A_Prototype03.BP_MEa2_S02_A_Prototype03_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "MEa2_S03_A_SoulBlock01",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.MEa2.S03.A.Soulblock01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA1/MEa2_S03_A/BP_MEa2_S03_A_SoulBlock01.BP_MEa2_S03_A_SoulBlock01_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "MEa2_S03_A_SoulBlock02",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.MEa2.S03.A.Soulblock02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA1/MEa2_S03_A/BP_MEa2_S03_A_SoulBlock02.BP_MEa2_S03_A_SoulBlock02_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "MEa2_S03_A_SoulBlock03",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.MEa2.S03.A.Soulblock03"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA1/MEa2_S03_A/BP_MEa2_S03_A_SoulBlock03.BP_MEa2_S03_A_SoulBlock03_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "MEa2_S03_A_SoulBlock04",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.MEa2.S03.A.Soulblock04"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA1/MEa2_S03_A/BP_MEa2_S03_A_SoulBlock04.BP_MEa2_S03_A_SoulBlock04_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	}
+]

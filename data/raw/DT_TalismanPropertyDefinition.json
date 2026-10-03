@@ -1,0 +1,2786 @@
+[
+	{
+		"Name": "BaseTalisman",
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/2_talisman_pickUp/sfx_talisman_pickUp.sfx_talisman_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Talisman.Pickup"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/1_talisman_drop/sfx_talisman_drop.sfx_talisman_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Talisman.Drop"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/3_talisman_equip/sfx_talisman_equip.sfx_talisman_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/4_talisman_unequip/sfx_talisman_unequip.sfx_talisman_unequip"
+		},
+		"ItemLevels":
+		{
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.Talisman"
+		},
+		"ActorReference": "None"
+	},
+	{
+		"Name": "AmmoCapacity",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/TalismanType/TalismanType-ammoCapacity.TalismanType-ammoCapacity",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/2_talisman_pickUp/sfx_talisman_pickUp.sfx_talisman_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/1_talisman_drop/sfx_talisman_drop.sfx_talisman_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/3_talisman_equip/sfx_talisman_equip.sfx_talisman_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/4_talisman_unequip/sfx_talisman_unequip.sfx_talisman_unequip"
+		},
+		"ItemLevels":
+		{
+			"Levels": [
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.1"
+					},
+					"XPRequiredForNextLevel": 18480,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/AmmoCapacity/T_UI_AmmoCapacity_Icon1.T_UI_AmmoCapacity_Icon1",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/AmmoCapacity/T_AmmoCapacity1.T_AmmoCapacity1",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.AmmoCapacity.I"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.AmmoCapacity"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.2"
+					},
+					"XPRequiredForNextLevel": 73920,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/AmmoCapacity/T_UI_AmmoCapacity_Icon2.T_UI_AmmoCapacity_Icon2",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/AmmoCapacity/T_AmmoCapacity2.T_AmmoCapacity2",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.AmmoCapacity.II"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.AmmoCapacity"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.3"
+					},
+					"XPRequiredForNextLevel": 0,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/AmmoCapacity/T_UI_AmmoCapacity_Icon3.T_UI_AmmoCapacity_Icon3",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/AmmoCapacity/T_AmmoCapacity3.T_AmmoCapacity3",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.AmmoCapacity.III"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.AmmoCapacity"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.AmmoCapacity"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/AmmoCapacity/BP_AmmoCapacity.BP_AmmoCapacity_C"
+	},
+	{
+		"Name": "Brawling",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/TalismanType/TalismanType-brawling.TalismanType-brawling",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/2_talisman_pickUp/sfx_talisman_pickUp.sfx_talisman_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/1_talisman_drop/sfx_talisman_drop.sfx_talisman_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/3_talisman_equip/sfx_talisman_equip.sfx_talisman_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/4_talisman_unequip/sfx_talisman_unequip.sfx_talisman_unequip"
+		},
+		"ItemLevels":
+		{
+			"Levels": [
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.1"
+					},
+					"XPRequiredForNextLevel": 18480,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Brawling/T_UI_Brawling_Icon1.T_UI_Brawling_Icon1",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Brawling/T_Brawling1.T_Brawling1",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.Brawling.I"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.Brawling"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.2"
+					},
+					"XPRequiredForNextLevel": 73920,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Brawling/T_UI_Brawling_Icon2.T_UI_Brawling_Icon2",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Brawling/T_Brawling2.T_Brawling2",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.Brawling.II"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.Brawling"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.3"
+					},
+					"XPRequiredForNextLevel": 0,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Brawling/T_UI_Brawling_Icon3.T_UI_Brawling_Icon3",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Brawling/T_Brawling3.T_Brawling3",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.Brawling.III"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.Brawling"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.Brawling"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Brawling/BP_Brawling.BP_Brawling_C"
+	},
+	{
+		"Name": "DropChance",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/TalismanType/TalismanType-dropChance.TalismanType-dropChance",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/2_talisman_pickUp/sfx_talisman_pickUp.sfx_talisman_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/1_talisman_drop/sfx_talisman_drop.sfx_talisman_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/3_talisman_equip/sfx_talisman_equip.sfx_talisman_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/4_talisman_unequip/sfx_talisman_unequip.sfx_talisman_unequip"
+		},
+		"ItemLevels":
+		{
+			"Levels": [
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.1"
+					},
+					"XPRequiredForNextLevel": 18480,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/DropChance/T_UI_Talisman_DropChance1_Icon.T_UI_Talisman_DropChance1_Icon",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/DropChance/T_DropChance1.T_DropChance1",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.DropChance.I"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.DropChance"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.2"
+					},
+					"XPRequiredForNextLevel": 73920,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/DropChance/T_UI_Talisman_DropChance2_Icon.T_UI_Talisman_DropChance2_Icon",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/DropChance/T_DropChance2.T_DropChance2",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.DropChance.II"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.DropChance"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.3"
+					},
+					"XPRequiredForNextLevel": 0,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/DropChance/T_UI_Talisman_DropChance3_Icon.T_UI_Talisman_DropChance3_Icon",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/DropChance/T_DropChance3.T_DropChance3",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.DropChance.III"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.DropChance"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.DropChance"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/DropChance/BP_DropChance.BP_DropChance_C"
+	},
+	{
+		"Name": "DoubleDrop",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/TalismanType/TalismanType-doubleDrop.TalismanType-doubleDrop",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/2_talisman_pickUp/sfx_talisman_pickUp.sfx_talisman_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/1_talisman_drop/sfx_talisman_drop.sfx_talisman_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/3_talisman_equip/sfx_talisman_equip.sfx_talisman_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/4_talisman_unequip/sfx_talisman_unequip.sfx_talisman_unequip"
+		},
+		"ItemLevels":
+		{
+			"Levels": [
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.1"
+					},
+					"XPRequiredForNextLevel": 18480,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/DoubleDrop/T_UI_DoubleDrop_Icon1.T_UI_DoubleDrop_Icon1",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/DoubleDrop/T_DoubleDrop_1.T_DoubleDrop_1",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.DoubleDrop.I"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.DoubleDrop"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.2"
+					},
+					"XPRequiredForNextLevel": 73920,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/DoubleDrop/T_UI_DoubleDrop_Icon2.T_UI_DoubleDrop_Icon2",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/DoubleDrop/T_DoubleDrop_2.T_DoubleDrop_2",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.DoubleDrop.II"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.DoubleDrop"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.3"
+					},
+					"XPRequiredForNextLevel": 0,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/DoubleDrop/T_UI_DoubleDrop_Icon3.T_UI_DoubleDrop_Icon3",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/DoubleDrop/T_DoubleDrop_3.T_DoubleDrop_3",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.DoubleDrop.III"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.DoubleDrop"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.DoubleDrop"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/DoubleDrop/BP_DoubleDrop.BP_DoubleDrop_C"
+	},
+	{
+		"Name": "ExperienceIncrease",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/TalismanType/TalismanType-experienceIncrease.TalismanType-experienceIncrease",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/2_talisman_pickUp/sfx_talisman_pickUp.sfx_talisman_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/1_talisman_drop/sfx_talisman_drop.sfx_talisman_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/3_talisman_equip/sfx_talisman_equip.sfx_talisman_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/4_talisman_unequip/sfx_talisman_unequip.sfx_talisman_unequip"
+		},
+		"ItemLevels":
+		{
+			"Levels": [
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.1"
+					},
+					"XPRequiredForNextLevel": 18480,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/ExperienceIncrease/T_UI_ExperianceIncrease_Icon1.T_UI_ExperianceIncrease_Icon1",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/ExperienceIncrease/T_ExperienceIncrease_1.T_ExperienceIncrease_1",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.ExperienceIncrease.I"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.ExperienceIncrease"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.2"
+					},
+					"XPRequiredForNextLevel": 73920,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/ExperienceIncrease/T_UI_ExperianceIncrease_Icon2.T_UI_ExperianceIncrease_Icon2",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/ExperienceIncrease/T_ExperienceIncrease_2.T_ExperienceIncrease_2",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.ExperienceIncrease.II"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.ExperienceIncrease"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.3"
+					},
+					"XPRequiredForNextLevel": 0,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/ExperienceIncrease/T_UI_ExperianceIncrease_Icon3.T_UI_ExperianceIncrease_Icon3",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/ExperienceIncrease/T_ExperienceIncrease_3.T_ExperienceIncrease_3",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.ExperienceIncrease.III"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.ExperienceIncrease"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.ExperienceIncrease"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/ExperienceIncrease/BP_ExperianceIncrease.BP_ExperianceIncrease_C"
+	},
+	{
+		"Name": "EmeraldIncrease",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/TalismanType/TalismanType-emeraldIncrease.TalismanType-emeraldIncrease",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/2_talisman_pickUp/sfx_talisman_pickUp.sfx_talisman_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/1_talisman_drop/sfx_talisman_drop.sfx_talisman_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/3_talisman_equip/sfx_talisman_equip.sfx_talisman_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/4_talisman_unequip/sfx_talisman_unequip.sfx_talisman_unequip"
+		},
+		"ItemLevels":
+		{
+			"Levels": [
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.1"
+					},
+					"XPRequiredForNextLevel": 18480,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/EmeraldIncrease/T_UI_EmeraldIncrease_Icon1.T_UI_EmeraldIncrease_Icon1",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/EmeraldIncrease/T_EmeraldIncrease_1.T_EmeraldIncrease_1",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.EmeraldIncrease.I"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.EmeraldIncrease"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.2"
+					},
+					"XPRequiredForNextLevel": 73920,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/EmeraldIncrease/T_UI_EmeraldIncrease_Icon2.T_UI_EmeraldIncrease_Icon2",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/EmeraldIncrease/T_EmeraldIncrease_2.T_EmeraldIncrease_2",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.EmeraldIncrease.II"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.EmeraldIncrease"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.3"
+					},
+					"XPRequiredForNextLevel": 0,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/EmeraldIncrease/T_UI_EmeraldIncrease_Icon3.T_UI_EmeraldIncrease_Icon3",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/EmeraldIncrease/T_EmeraldIncrease_3.T_EmeraldIncrease_3",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.EmeraldIncrease.III"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.EmeraldIncrease"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.EmeraldIncrease"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/EmeraldIncrease/BP_EmeraldIncrease.BP_EmeraldIncrease_C"
+	},
+	{
+		"Name": "PotionCooldown",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/TalismanType/TalismanType-potionCooldown.TalismanType-potionCooldown",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/2_talisman_pickUp/sfx_talisman_pickUp.sfx_talisman_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/1_talisman_drop/sfx_talisman_drop.sfx_talisman_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/3_talisman_equip/sfx_talisman_equip.sfx_talisman_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/4_talisman_unequip/sfx_talisman_unequip.sfx_talisman_unequip"
+		},
+		"ItemLevels":
+		{
+			"Levels": [
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.1"
+					},
+					"XPRequiredForNextLevel": 18480,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/PotionCooldown/T_UI_PotionCooldown_Icon1.T_UI_PotionCooldown_Icon1",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/PotionCooldown/T_PotionCooldown1.T_PotionCooldown1",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.PotionCooldown.I"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.PotionCooldown"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.2"
+					},
+					"XPRequiredForNextLevel": 73920,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/PotionCooldown/T_UI_PotionCooldown_Icon2.T_UI_PotionCooldown_Icon2",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/PotionCooldown/T_PotionCooldown2.T_PotionCooldown2",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.PotionCooldown.II"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.PotionCooldown"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.3"
+					},
+					"XPRequiredForNextLevel": 0,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/PotionCooldown/T_UI_PotionCooldown_Icon3.T_UI_PotionCooldown_Icon3",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/PotionCooldown/T_PotionCooldown3.T_PotionCooldown3",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.PotionCooldown.III"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.PotionCooldown"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.PotionCooldown"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/PotionCooldown/BP_PotionCooldown.BP_PotionCooldown_C"
+	},
+	{
+		"Name": "Healing",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/TalismanType/TalismanType-healing.TalismanType-healing",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/2_talisman_pickUp/sfx_talisman_pickUp.sfx_talisman_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/1_talisman_drop/sfx_talisman_drop.sfx_talisman_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/3_talisman_equip/sfx_talisman_equip.sfx_talisman_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/4_talisman_unequip/sfx_talisman_unequip.sfx_talisman_unequip"
+		},
+		"ItemLevels":
+		{
+			"Levels": [
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.1"
+					},
+					"XPRequiredForNextLevel": 18480,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Healing/T_UI_Healing_Icon1.T_UI_Healing_Icon1",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Healing/T_Healing1.T_Healing1",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.Healing.I"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.Healing"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.2"
+					},
+					"XPRequiredForNextLevel": 73920,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Healing/T_UI_Healing_Icon2.T_UI_Healing_Icon2",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Healing/T_Healing2.T_Healing2",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.Healing.II"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.Healing"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.3"
+					},
+					"XPRequiredForNextLevel": 0,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Healing/T_UI_Healing_Icon3.T_UI_Healing_Icon3",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Healing/T_Healing3.T_Healing3",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.Healing.III"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.Healing"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.Healing"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Healing/BP_Healing.BP_Healing_C"
+	},
+	{
+		"Name": "HealthBoost",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/TalismanType/TalismanType-healthboost.TalismanType-healthboost",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/2_talisman_pickUp/sfx_talisman_pickUp.sfx_talisman_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/1_talisman_drop/sfx_talisman_drop.sfx_talisman_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/3_talisman_equip/sfx_talisman_equip.sfx_talisman_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/4_talisman_unequip/sfx_talisman_unequip.sfx_talisman_unequip"
+		},
+		"ItemLevels":
+		{
+			"Levels": [
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.1"
+					},
+					"XPRequiredForNextLevel": 18480,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/HealthBoost/T_UI_HealthBoost_Icon1.T_UI_HealthBoost_Icon1",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/HealthBoost/T_HealthBoost_1.T_HealthBoost_1",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.HealthBoost.I"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.HealthBoost"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.2"
+					},
+					"XPRequiredForNextLevel": 73920,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/HealthBoost/T_UI_HealthBoost_Icon2.T_UI_HealthBoost_Icon2",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/HealthBoost/T_HealthBoost_2.T_HealthBoost_2",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.HealthBoost.II"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.HealthBoost"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.3"
+					},
+					"XPRequiredForNextLevel": 0,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/HealthBoost/T_UI_HealthBoost_Icon3.T_UI_HealthBoost_Icon3",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/HealthBoost/T_HealthBoost_3.T_HealthBoost_3",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.HealthBoost.III"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.HealthBoost"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.HealthBoost"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/HealthBoost/BP_HealthBoost_3.BP_HealthBoost_3_C"
+	},
+	{
+		"Name": "HealthyStrike",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/TalismanType/TalismanType-healthyStrike.TalismanType-healthyStrike",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/2_talisman_pickUp/sfx_talisman_pickUp.sfx_talisman_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/1_talisman_drop/sfx_talisman_drop.sfx_talisman_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/3_talisman_equip/sfx_talisman_equip.sfx_talisman_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/4_talisman_unequip/sfx_talisman_unequip.sfx_talisman_unequip"
+		},
+		"ItemLevels":
+		{
+			"Levels": [
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.1"
+					},
+					"XPRequiredForNextLevel": 18480,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/HealthyStrike/T_UI_Talisman_HealthyStrike1_Icon.T_UI_Talisman_HealthyStrike1_Icon",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/HealthyStrike/T_HealthyStrike1.T_HealthyStrike1",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.HealthyStrike.I"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.HealthyStrike"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.2"
+					},
+					"XPRequiredForNextLevel": 73920,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/HealthyStrike/T_UI_Talisman_HealthyStrike2_Icon.T_UI_Talisman_HealthyStrike2_Icon",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/HealthyStrike/T_HealthyStrike2.T_HealthyStrike2",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.HealthyStrike.II"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.HealthyStrike"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.3"
+					},
+					"XPRequiredForNextLevel": 0,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/HealthyStrike/T_UI_Talisman_HealthyStrike3_Icon.T_UI_Talisman_HealthyStrike3_Icon",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/HealthyStrike/T_HealthyStrike3.T_HealthyStrike3",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.HealthyStrike.III"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.HealthyStrike"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.HealthyStrike"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/HealthyStrike/BP_HealthyStrike.BP_HealthyStrike_C"
+	},
+	{
+		"Name": "IronGolem",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/TalismanType/TalismanType-ironGolem.TalismanType-ironGolem",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/2_talisman_pickUp/sfx_talisman_pickUp.sfx_talisman_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/1_talisman_drop/sfx_talisman_drop.sfx_talisman_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/3_talisman_equip/sfx_talisman_equip.sfx_talisman_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/4_talisman_unequip/sfx_talisman_unequip.sfx_talisman_unequip"
+		},
+		"ItemLevels":
+		{
+			"Levels": [
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.1"
+					},
+					"XPRequiredForNextLevel": 18480,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/IronGolem/T_UI_IronGolem_Icon1.T_UI_IronGolem_Icon1",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/IronGolem/T_CompanionTalisman1.T_CompanionTalisman1",
+					"GrantedTags":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.Talisman.IronGolem.Level.1"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.Talisman.IronGolem.Level"
+							},
+							{
+								"TagName": "SW.Talisman.IronGolem"
+							},
+							{
+								"TagName": "SW.Talisman"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.2"
+					},
+					"XPRequiredForNextLevel": 73920,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/IronGolem/T_UI_IronGolem_Icon2.T_UI_IronGolem_Icon2",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/IronGolem/T_CompanionTalisman2.T_CompanionTalisman2",
+					"GrantedTags":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.Talisman.IronGolem.Level.2"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.Talisman.IronGolem.Level"
+							},
+							{
+								"TagName": "SW.Talisman.IronGolem"
+							},
+							{
+								"TagName": "SW.Talisman"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.3"
+					},
+					"XPRequiredForNextLevel": 0,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/IronGolem/T_UI_IronGolem_Icon3.T_UI_IronGolem_Icon3",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/IronGolem/T_CompanionTalisman3.T_CompanionTalisman3",
+					"GrantedTags":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.Talisman.IronGolem.Level.3"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.Talisman.IronGolem.Level"
+							},
+							{
+								"TagName": "SW.Talisman.IronGolem"
+							},
+							{
+								"TagName": "SW.Talisman"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.IronGolem"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/IronGolem/BP_IronGolem.BP_IronGolem_C"
+	},
+	{
+		"Name": "Llama",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/TalismanType/TalismanType-llama.TalismanType-llama",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/2_talisman_pickUp/sfx_talisman_pickUp.sfx_talisman_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/1_talisman_drop/sfx_talisman_drop.sfx_talisman_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/3_talisman_equip/sfx_talisman_equip.sfx_talisman_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/4_talisman_unequip/sfx_talisman_unequip.sfx_talisman_unequip"
+		},
+		"ItemLevels":
+		{
+			"Levels": [
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.1"
+					},
+					"XPRequiredForNextLevel": 18480,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Llama/T_UI_Llama_Icon1.T_UI_Llama_Icon1",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/IronGolem/T_CompanionTalisman1.T_CompanionTalisman1",
+					"GrantedTags":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.Talisman.Llama.Level.1"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.Talisman.Llama.Level"
+							},
+							{
+								"TagName": "SW.Talisman.Llama"
+							},
+							{
+								"TagName": "SW.Talisman"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.2"
+					},
+					"XPRequiredForNextLevel": 73920,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Llama/T_UI_Llama_Icon2.T_UI_Llama_Icon2",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/IronGolem/T_CompanionTalisman2.T_CompanionTalisman2",
+					"GrantedTags":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.Talisman.Llama.Level.2"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.Talisman.Llama.Level"
+							},
+							{
+								"TagName": "SW.Talisman.Llama"
+							},
+							{
+								"TagName": "SW.Talisman"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.3"
+					},
+					"XPRequiredForNextLevel": 0,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Llama/T_UI_Llama_Icon3.T_UI_Llama_Icon3",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/IronGolem/T_CompanionTalisman3.T_CompanionTalisman3",
+					"GrantedTags":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.Talisman.Llama.Level.3"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.Talisman.Llama.Level"
+							},
+							{
+								"TagName": "SW.Talisman.Llama"
+							},
+							{
+								"TagName": "SW.Talisman"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "sw.Item.Talisman.Llama"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Llama/BP_LlamaTalisman.BP_LlamaTalisman_C"
+	},
+	{
+		"Name": "Plummeting",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/TalismanType/TalismanType-plummeting.TalismanType-plummeting",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/2_talisman_pickUp/sfx_talisman_pickUp.sfx_talisman_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/1_talisman_drop/sfx_talisman_drop.sfx_talisman_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/3_talisman_equip/sfx_talisman_equip.sfx_talisman_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/4_talisman_unequip/sfx_talisman_unequip.sfx_talisman_unequip"
+		},
+		"ItemLevels":
+		{
+			"Levels": [
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.1"
+					},
+					"XPRequiredForNextLevel": 18480,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Plummeting/T_UI_Plummeting_Icon1.T_UI_Plummeting_Icon1",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Plummeting/T_Plummeting1.T_Plummeting1",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.Plummeting.I"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.Plummeting"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.2"
+					},
+					"XPRequiredForNextLevel": 73920,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Plummeting/T_UI_Plummeting_Icon2.T_UI_Plummeting_Icon2",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Plummeting/T_Plummeting2.T_Plummeting2",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.Plummeting.II"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.Plummeting"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.3"
+					},
+					"XPRequiredForNextLevel": 0,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Plummeting/T_UI_Plummeting_Icon3.T_UI_Plummeting_Icon3",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Plummeting/T_Plummeting3.T_Plummeting3",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.Plummeting.III"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.Plummeting"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.Plummeting"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Plummeting/BP_Plummeting.BP_Plummeting_C"
+	},
+	{
+		"Name": "RangedBuff",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/TalismanType/TalismanType-rangedBuff.TalismanType-rangedBuff",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/2_talisman_pickUp/sfx_talisman_pickUp.sfx_talisman_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/1_talisman_drop/sfx_talisman_drop.sfx_talisman_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/3_talisman_equip/sfx_talisman_equip.sfx_talisman_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/4_talisman_unequip/sfx_talisman_unequip.sfx_talisman_unequip"
+		},
+		"ItemLevels":
+		{
+			"Levels": [
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.1"
+					},
+					"XPRequiredForNextLevel": 18480,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/RangedBuff/T_UI_RangedBuff_Icon1.T_UI_RangedBuff_Icon1",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/RangedBuff/T_RangedBuff1.T_RangedBuff1",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.RangedBuff.I"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.RangedBuff"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.2"
+					},
+					"XPRequiredForNextLevel": 73920,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/RangedBuff/T_UI_RangedBuff_Icon2.T_UI_RangedBuff_Icon2",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/RangedBuff/T_RangedBuff2.T_RangedBuff2",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.RangedBuff.II"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.RangedBuff"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.3"
+					},
+					"XPRequiredForNextLevel": 0,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/RangedBuff/T_UI_RangedBuff_Icon3.T_UI_RangedBuff_Icon3",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/RangedBuff/T_RangedBuff3.T_RangedBuff3",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.RangedBuff.III"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.RangedBuff"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.RangedBuff"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/RangedBuff/BP_RangedBuff.BP_RangedBuff_C"
+	},
+	{
+		"Name": "SoulCapacity",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/TalismanType/TalismanType-soulCapacity.TalismanType-soulCapacity",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/2_talisman_pickUp/sfx_talisman_pickUp.sfx_talisman_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/1_talisman_drop/sfx_talisman_drop.sfx_talisman_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/3_talisman_equip/sfx_talisman_equip.sfx_talisman_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/4_talisman_unequip/sfx_talisman_unequip.sfx_talisman_unequip"
+		},
+		"ItemLevels":
+		{
+			"Levels": [
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.1"
+					},
+					"XPRequiredForNextLevel": 18480,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/SoulCapacity/T_UI_Talisman_SoulCapacity1_Icon.T_UI_Talisman_SoulCapacity1_Icon",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/SoulCapacity/T_SoulCapacity1.T_SoulCapacity1",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.SoulCapacity.I"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.SoulCapacity"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.2"
+					},
+					"XPRequiredForNextLevel": 73920,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/SoulCapacity/T_UI_Talisman_SoulCapacity2_Icon.T_UI_Talisman_SoulCapacity2_Icon",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/SoulCapacity/T_SoulCapacity2.T_SoulCapacity2",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.SoulCapacity.II"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.SoulCapacity"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.3"
+					},
+					"XPRequiredForNextLevel": 0,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/SoulCapacity/T_UI_Talisman_SoulCapacity3_Icon.T_UI_Talisman_SoulCapacity3_Icon",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/SoulCapacity/T_SoulCapacity3.T_SoulCapacity3",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.SoulCapacity.III"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.SoulCapacity"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.SoulCapacity"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/SoulCapacity/BP_SoulCapacity.BP_SoulCapacity_C"
+	},
+	{
+		"Name": "SoulGather",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/TalismanType/TalismanType-soulGather.TalismanType-soulGather",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/2_talisman_pickUp/sfx_talisman_pickUp.sfx_talisman_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/1_talisman_drop/sfx_talisman_drop.sfx_talisman_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/3_talisman_equip/sfx_talisman_equip.sfx_talisman_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/4_talisman_unequip/sfx_talisman_unequip.sfx_talisman_unequip"
+		},
+		"ItemLevels":
+		{
+			"Levels": [
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.1"
+					},
+					"XPRequiredForNextLevel": 18480,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/SoulGather/T_UI_SoulGather_Icon1.T_UI_SoulGather_Icon1",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/SoulGather/T_SoulGather_1.T_SoulGather_1",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.SoulGather.I"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.SoulGather"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.2"
+					},
+					"XPRequiredForNextLevel": 73920,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/SoulGather/T_UI_SoulGather_Icon2.T_UI_SoulGather_Icon2",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/SoulGather/T_SoulGather_2.T_SoulGather_2",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.SoulGather.II"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.SoulGather"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.3"
+					},
+					"XPRequiredForNextLevel": 0,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/SoulGather/T_UI_SoulGather_Icon3.T_UI_SoulGather_Icon3",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/SoulGather/T_SoulGather_3.T_SoulGather_3",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.SoulGather.III"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.SoulGather"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.SoulGather"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/SoulGather/BP_SoulGather.BP_SoulGather_C"
+	},
+	{
+		"Name": "SpeedIncrement",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/TalismanType/TalismanType-speedIncrement.TalismanType-speedIncrement",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/2_talisman_pickUp/sfx_talisman_pickUp.sfx_talisman_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/1_talisman_drop/sfx_talisman_drop.sfx_talisman_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/3_talisman_equip/sfx_talisman_equip.sfx_talisman_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/4_talisman_unequip/sfx_talisman_unequip.sfx_talisman_unequip"
+		},
+		"ItemLevels":
+		{
+			"Levels": [
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.1"
+					},
+					"XPRequiredForNextLevel": 18480,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/SpeedIncrement/T_UI_SpeedIncrement_Icon1.T_UI_SpeedIncrement_Icon1",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/SpeedIncrement/T_SpeedIncrement1.T_SpeedIncrement1",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.SpeedIncrement.I"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.SpeedIncrement"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.2"
+					},
+					"XPRequiredForNextLevel": 73920,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/SpeedIncrement/T_UI_SpeedIncrement_Icon2.T_UI_SpeedIncrement_Icon2",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/SpeedIncrement/T_SpeedIncrement2.T_SpeedIncrement2",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.SpeedIncrement.II"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.SpeedIncrement"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.3"
+					},
+					"XPRequiredForNextLevel": 0,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/SpeedIncrement/T_UI_SpeedIncrement_Icon3.T_UI_SpeedIncrement_Icon3",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/SpeedIncrement/T_SpeedIncrement3.T_SpeedIncrement3",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.SpeedIncrement.III"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.SpeedIncrement"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.SpeedIncrement"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/SpeedIncrement/BP_SpeedIncrement.BP_SpeedIncrement_C"
+	},
+	{
+		"Name": "Wolf",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/TalismanType/TalismanType-wolf.TalismanType-wolf",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/2_talisman_pickUp/sfx_talisman_pickUp.sfx_talisman_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/1_talisman_drop/sfx_talisman_drop.sfx_talisman_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/3_talisman_equip/sfx_talisman_equip.sfx_talisman_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/4_talisman_unequip/sfx_talisman_unequip.sfx_talisman_unequip"
+		},
+		"ItemLevels":
+		{
+			"Levels": [
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.1"
+					},
+					"XPRequiredForNextLevel": 18480,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Wolf/T_UI_Wolf_Icon1.T_UI_Wolf_Icon1",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/IronGolem/T_CompanionTalisman1.T_CompanionTalisman1",
+					"GrantedTags":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.Talisman.Wolf.Level.1"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.Talisman.Wolf.Level"
+							},
+							{
+								"TagName": "SW.Talisman.Wolf"
+							},
+							{
+								"TagName": "SW.Talisman"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.2"
+					},
+					"XPRequiredForNextLevel": 73920,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Wolf/T_UI_Wolf_Icon2.T_UI_Wolf_Icon2",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/IronGolem/T_CompanionTalisman2.T_CompanionTalisman2",
+					"GrantedTags":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.Talisman.Wolf.Level.2"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.Talisman.Wolf.Level"
+							},
+							{
+								"TagName": "SW.Talisman.Wolf"
+							},
+							{
+								"TagName": "SW.Talisman"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.3"
+					},
+					"XPRequiredForNextLevel": 0,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Wolf/T_UI_Wolf_Icon3.T_UI_Wolf_Icon3",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/IronGolem/T_CompanionTalisman3.T_CompanionTalisman3",
+					"GrantedTags":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.Talisman.Wolf.Level.3"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.Talisman.Wolf.Level"
+							},
+							{
+								"TagName": "SW.Talisman.Wolf"
+							},
+							{
+								"TagName": "SW.Talisman"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.Wolf"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Wolf/BP_WolfTalisman.BP_WolfTalisman_C"
+	},
+	{
+		"Name": "RollingCooldown",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/TalismanType/TalismanType-rollingCooldown.TalismanType-rollingCooldown",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/2_talisman_pickUp/sfx_talisman_pickUp.sfx_talisman_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/1_talisman_drop/sfx_talisman_drop.sfx_talisman_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/3_talisman_equip/sfx_talisman_equip.sfx_talisman_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/4_talisman_unequip/sfx_talisman_unequip.sfx_talisman_unequip"
+		},
+		"ItemLevels":
+		{
+			"Levels": [
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.1"
+					},
+					"XPRequiredForNextLevel": 18480,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/RollingCooldown/T_UI_Talisman_RollingCooldown1_Icon.T_UI_Talisman_RollingCooldown1_Icon",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/RollingCooldown/T_RollingCooldown1.T_RollingCooldown1",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.RollingCooldown.I"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.RollingCooldown"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.2"
+					},
+					"XPRequiredForNextLevel": 73920,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/RollingCooldown/T_UI_Talisman_RollingCooldown2_Icon.T_UI_Talisman_RollingCooldown2_Icon",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/RollingCooldown/T_RollingCooldown2.T_RollingCooldown2",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.RollingCooldown.II"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.RollingCooldown"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.3"
+					},
+					"XPRequiredForNextLevel": 0,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/RollingCooldown/T_UI_Talisman_RollingCooldown3_Icon.T_UI_Talisman_RollingCooldown3_Icon",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/RollingCooldown/T_RollingCooldown3.T_RollingCooldown3",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.RollingCooldown.III"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.RollingCooldown"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.RollingCooldown"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/RollingCooldown/BP_RollingCooldown.BP_RollingCooldown_C"
+	},
+	{
+		"Name": "ArtifactCooldown",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/TalismanType/TalismanType-artifactCooldown.TalismanType-artifactCooldown",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/2_talisman_pickUp/sfx_talisman_pickUp.sfx_talisman_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/1_talisman_drop/sfx_talisman_drop.sfx_talisman_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/3_talisman_equip/sfx_talisman_equip.sfx_talisman_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/4_talisman_unequip/sfx_talisman_unequip.sfx_talisman_unequip"
+		},
+		"ItemLevels":
+		{
+			"Levels": [
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.1"
+					},
+					"XPRequiredForNextLevel": 18480,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/ArtifactCooldown/T_UI_Talisman_ArtifactCooldown1_Icon.T_UI_Talisman_ArtifactCooldown1_Icon",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/ArtifactCooldown/T_ArtifactCooldown1.T_ArtifactCooldown1",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.ArtifactCooldown.I"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.ArtifactCooldown"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.2"
+					},
+					"XPRequiredForNextLevel": 73920,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/ArtifactCooldown/T_UI_Talisman_ArtifactCooldown2_Icon.T_UI_Talisman_ArtifactCooldown2_Icon",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/ArtifactCooldown/T_ArtifactCooldown2.T_ArtifactCooldown2",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.ArtifactCooldown.II"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.ArtifactCooldown"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.3"
+					},
+					"XPRequiredForNextLevel": 0,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/ArtifactCooldown/T_UI_Talisman_ArtifactCooldown3_Icon.T_UI_Talisman_ArtifactCooldown3_Icon",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/ArtifactCooldown/T_ArtifactCooldown3.T_ArtifactCooldown3",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.ArtifactCooldown.III"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.ArtifactCooldown"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.ArtifactCooldown"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/ArtifactCooldown/BP_ArtifactCooldown.BP_ArtifactCooldown_C"
+	},
+	{
+		"Name": "StatusBuff",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/TalismanType/TalismanType-statusBuff.TalismanType-statusBuff",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/2_talisman_pickUp/sfx_talisman_pickUp.sfx_talisman_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/1_talisman_drop/sfx_talisman_drop.sfx_talisman_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/3_talisman_equip/sfx_talisman_equip.sfx_talisman_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/4_talisman_unequip/sfx_talisman_unequip.sfx_talisman_unequip"
+		},
+		"ItemLevels":
+		{
+			"Levels": [
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.1"
+					},
+					"XPRequiredForNextLevel": 18480,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/StatusBuff/T_UI_Talisman_StatusBuff1_Icon.T_UI_Talisman_StatusBuff1_Icon",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/StatusBuff/T_StatusBuff1.T_StatusBuff1",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.StatusBuff.I"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.StatusBuff"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.2"
+					},
+					"XPRequiredForNextLevel": 73920,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/StatusBuff/T_UI_Talisman_StatusBuff2_Icon.T_UI_Talisman_StatusBuff2_Icon",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/StatusBuff/T_StatusBuff2.T_StatusBuff2",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.StatusBuff.II"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.StatusBuff"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.3"
+					},
+					"XPRequiredForNextLevel": 0,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/StatusBuff/T_UI_Talisman_StatusBuff3_Icon.T_UI_Talisman_StatusBuff3_Icon",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/StatusBuff/T_StatusBuff3.T_StatusBuff3",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.StatusBuff.III"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.StatusBuff"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.StatusBuff"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/StatusBuff/BP_StatusBuff.BP_StatusBuff_C"
+	},
+	{
+		"Name": "Prickle",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/TalismanType/TalismanType-prickle.TalismanType-prickle",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/2_talisman_pickUp/sfx_talisman_pickUp.sfx_talisman_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/1_talisman_drop/sfx_talisman_drop.sfx_talisman_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/3_talisman_equip/sfx_talisman_equip.sfx_talisman_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/4_talisman_unequip/sfx_talisman_unequip.sfx_talisman_unequip"
+		},
+		"ItemLevels":
+		{
+			"Levels": [
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.1"
+					},
+					"XPRequiredForNextLevel": 18480,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Prickle/T_UI_Prickle_Icon1.T_UI_Prickle_Icon1",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/IronGolem/T_CompanionTalisman1.T_CompanionTalisman1",
+					"GrantedTags":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.Talisman.Prickle.Level.1"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.Talisman.Prickle.Level"
+							},
+							{
+								"TagName": "SW.Talisman.Prickle"
+							},
+							{
+								"TagName": "SW.Talisman"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.2"
+					},
+					"XPRequiredForNextLevel": 73920,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Prickle/T_UI_Prickle_Icon2.T_UI_Prickle_Icon2",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/IronGolem/T_CompanionTalisman2.T_CompanionTalisman2",
+					"GrantedTags":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.Talisman.Prickle.Level.2"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.Talisman.Prickle.Level"
+							},
+							{
+								"TagName": "SW.Talisman.Prickle"
+							},
+							{
+								"TagName": "SW.Talisman"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.3"
+					},
+					"XPRequiredForNextLevel": 0,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Prickle/T_UI_Prickle_Icon3.T_UI_Prickle_Icon3",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/IronGolem/T_CompanionTalisman3.T_CompanionTalisman3",
+					"GrantedTags":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.Talisman.Prickle.Level.3"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.Talisman.Prickle.Level"
+							},
+							{
+								"TagName": "SW.Talisman.Prickle"
+							},
+							{
+								"TagName": "SW.Talisman"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.Prickle"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Prickle/BP_PrickleTalisman.BP_PrickleTalisman_C"
+	},
+	{
+		"Name": "Wobble",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/TalismanType/TalismanType-wobble.TalismanType-wobble",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/2_talisman_pickUp/sfx_talisman_pickUp.sfx_talisman_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/1_talisman_drop/sfx_talisman_drop.sfx_talisman_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/3_talisman_equip/sfx_talisman_equip.sfx_talisman_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/4_talisman_unequip/sfx_talisman_unequip.sfx_talisman_unequip"
+		},
+		"ItemLevels":
+		{
+			"Levels": [
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.1"
+					},
+					"XPRequiredForNextLevel": 18480,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Wobble/T_UI_Wobble_Icon1.T_UI_Wobble_Icon1",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/IronGolem/T_CompanionTalisman1.T_CompanionTalisman1",
+					"GrantedTags":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.Talisman.Wobble.Level.1"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.Talisman.Wobble.Level"
+							},
+							{
+								"TagName": "SW.Talisman.Wobble"
+							},
+							{
+								"TagName": "SW.Talisman"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.2"
+					},
+					"XPRequiredForNextLevel": 73920,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Wobble/T_UI_Wobble_Icon2.T_UI_Wobble_Icon2",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/IronGolem/T_CompanionTalisman2.T_CompanionTalisman2",
+					"GrantedTags":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.Talisman.Wobble.Level.2"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.Talisman.Wobble.Level"
+							},
+							{
+								"TagName": "SW.Talisman.Wobble"
+							},
+							{
+								"TagName": "SW.Talisman"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.3"
+					},
+					"XPRequiredForNextLevel": 0,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Wobble/T_UI_Wobble_Icon3.T_UI_Wobble_Icon3",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/IronGolem/T_CompanionTalisman3.T_CompanionTalisman3",
+					"GrantedTags":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.Talisman.Wobble.Level.3"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.Talisman.Wobble.Level"
+							},
+							{
+								"TagName": "SW.Talisman.Wobble"
+							},
+							{
+								"TagName": "SW.Talisman"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.Wobble"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/Wobble/BP_WobbleTalisman.BP_WobbleTalisman_C"
+	},
+	{
+		"Name": "FiringEmeralds",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/TalismanType/TalismanType-firingEmeralds.TalismanType-firingEmeralds",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/2_talisman_pickUp/sfx_talisman_pickUp.sfx_talisman_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/1_talisman_drop/sfx_talisman_drop.sfx_talisman_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/3_talisman_equip/sfx_talisman_equip.sfx_talisman_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Talismans/4_talisman_unequip/sfx_talisman_unequip.sfx_talisman_unequip"
+		},
+		"ItemLevels":
+		{
+			"Levels": [
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.1"
+					},
+					"XPRequiredForNextLevel": 18480,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/FiringEmeralds/T_UI_FiringEmeralds_Icon1.T_UI_FiringEmeralds_Icon1",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/FiringEmeralds/T_FiringEmeralds1.T_FiringEmeralds1",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.FiringEmerald.I"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.FiringEmerald"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.2"
+					},
+					"XPRequiredForNextLevel": 73920,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/FiringEmeralds/T_UI_FiringEmeralds_Icon2.T_UI_FiringEmeralds_Icon2",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/FiringEmeralds/T_FiringEmeralds2.T_FiringEmeralds2",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.FiringEmerald.II"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.FiringEmerald"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				},
+				{
+					"Level":
+					{
+						"TagName": "SW.Item.Property.Level.3"
+					},
+					"XPRequiredForNextLevel": 0,
+					"LevelIconOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/FiringEmeralds/T_UI_FiringEmeralds_Icon3.T_UI_FiringEmeralds_Icon3",
+					"LevelTextureOverride": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/FiringEmeralds/T_FiringEmeralds3.T_FiringEmeralds3",
+					"Effects":
+					{
+						"GameplayTags": [
+							{
+								"TagName": "SW.EffectTemplate.FiringEmerald.III"
+							}
+						],
+						"ParentTags": [
+							{
+								"TagName": "SW.EffectTemplate.FiringEmerald"
+							},
+							{
+								"TagName": "SW.EffectTemplate"
+							},
+							{
+								"TagName": "SW"
+							}
+						]
+					}
+				}
+			]
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Talisman.FiringEmeralds"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Talismans/FiringEmeralds/BP_FiringEmeralds.BP_FiringEmeralds_C"
+	}
+]

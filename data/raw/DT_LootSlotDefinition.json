@@ -1,0 +1,175 @@
+[
+	{
+		"Name": "Item",
+		"TypeTag":
+		{
+			"TagName": "SW.LootSlot.Item"
+		},
+		"SlotData":
+		{
+			"AllowAdditionalDrops": true,
+			"AdditionalDropChanceAttributeTag":
+			{
+				"TagName": "SW.Attribute.LootingMultiplier"
+			},
+			"MaxAdditionalDropsAttributeTag":
+			{
+				"TagName": "SW.Attribute.MaximumLootingPayouts"
+			},
+			"AllowDropChanceModification": true,
+			"ModifyDropChanceAttributeTag":
+			{
+				"TagName": "SW.Attribute.DropChanceIncrease"
+			},
+			"AllowDropDuplication": true,
+			"DropDuplicationChanceAttributeTag":
+			{
+				"TagName": "SW.Attribute.DropDuplicationChance"
+			},
+			"LootModificationFunctions": [
+				{
+					"TagName": "SW.LootModificationFunction.PreventRepeatingDrops"
+				}
+			],
+			"RecentDropsToTrack": 3,
+			"SingleRollPerParty": false
+		}
+	},
+	{
+		"Name": "Emeralds",
+		"TypeTag":
+		{
+			"TagName": "SW.LootSlot.Emeralds"
+		},
+		"SlotData":
+		{
+			"AllowAdditionalDrops": true,
+			"AdditionalDropChanceAttributeTag":
+			{
+				"TagName": "SW.Attribute.EmeraldIncreasePercentage"
+			},
+			"MaxAdditionalDropsAttributeTag":
+			{
+				"TagName": "SW.Attribute.MaxAdditionalEmeralds"
+			},
+			"AllowDropChanceModification": true,
+			"ModifyDropChanceAttributeTag":
+			{
+				"TagName": "SW.Attribute.EmeraldDropChanceIncrease"
+			},
+			"AllowDropDuplication": false,
+			"DropDuplicationChanceAttributeTag":
+			{
+				"TagName": "None"
+			},
+			"RecentDropsToTrack": 0,
+			"SingleRollPerParty": false
+		}
+	},
+	{
+		"Name": "TNT",
+		"TypeTag":
+		{
+			"TagName": "SW.LootSlot.TNT"
+		},
+		"SlotData":
+		{
+			"AllowAdditionalDrops": false,
+			"AdditionalDropChanceAttributeTag":
+			{
+				"TagName": "None"
+			},
+			"MaxAdditionalDropsAttributeTag":
+			{
+				"TagName": "None"
+			},
+			"AllowDropChanceModification": false,
+			"ModifyDropChanceAttributeTag":
+			{
+				"TagName": "None"
+			},
+			"AllowDropDuplication": false,
+			"DropDuplicationChanceAttributeTag":
+			{
+				"TagName": "None"
+			},
+			"RecentDropsToTrack": 0,
+			"SingleRollPerParty": true
+		}
+	},
+	{
+		"Name": "EnchantmentBooks",
+		"TypeTag":
+		{
+			"TagName": "SW.LootSlot.EnchantedBook"
+		},
+		"SlotData":
+		{
+			"AllowAdditionalDrops": false,
+			"AdditionalDropChanceAttributeTag":
+			{
+				"TagName": "None"
+			},
+			"MaxAdditionalDropsAttributeTag":
+			{
+				"TagName": "None"
+			},
+			"AllowDropChanceModification": false,
+			"ModifyDropChanceAttributeTag":
+			{
+				"TagName": "None"
+			},
+			"AllowDropDuplication": false,
+			"DropDuplicationChanceAttributeTag":
+			{
+				"TagName": "None"
+			},
+			"LootModificationFunctions": [
+				{
+					"TagName": "SW.LootModificationFunction.PreventRepeatingDrops"
+				},
+				{
+					"TagName": "SW.LootModificationFunction.PreventDuplicateOneOfAKindDrops"
+				}
+			],
+			"RecentDropsToTrack": 4,
+			"SingleRollPerParty": false
+		}
+	},
+	{
+		"Name": "Talismans",
+		"TypeTag":
+		{
+			"TagName": "SW.LootSlot.Talismans"
+		},
+		"SlotData":
+		{
+			"AllowAdditionalDrops": false,
+			"AdditionalDropChanceAttributeTag":
+			{
+				"TagName": "None"
+			},
+			"MaxAdditionalDropsAttributeTag":
+			{
+				"TagName": "None"
+			},
+			"AllowDropChanceModification": false,
+			"ModifyDropChanceAttributeTag":
+			{
+				"TagName": "None"
+			},
+			"AllowDropDuplication": false,
+			"DropDuplicationChanceAttributeTag":
+			{
+				"TagName": "None"
+			},
+			"LootModificationFunctions": [
+				{
+					"TagName": "SW.LootModificationFunction.PreventDuplicateOneOfAKindDrops"
+				}
+			],
+			"RecentDropsToTrack": 4,
+			"SingleRollPerParty": false
+		}
+	}
+]

@@ -1,0 +1,79 @@
+﻿护符ID,护符名,等级,下一级所需经验,固定效果,图标
+SW.Item.Talisman.RangedBuff,紫水晶透镜,1,18480,冲击 1：远程攻击造成的伤害提高 10%。,icons/dd2ce282c4cd07e9.png
+SW.Item.Talisman.RangedBuff,紫水晶透镜,2,73920,冲击 2：远程攻击造成的伤害提高 15%。,icons/752ce8ebc52d1d6b.png
+SW.Item.Talisman.RangedBuff,紫水晶透镜,3,0,冲击 3：远程攻击造成的伤害提高 25%。,icons/91ffb6d295b113f8.png
+SW.Item.Talisman.HealthBoost,蜂蜡之印,1,18480,体格 1：玩家的最大生命值提高 20%。,icons/4f9905a48a869e5c.png
+SW.Item.Talisman.HealthBoost,蜂蜡之印,2,73920,体格 2：玩家的最大生命值提高 25%。,icons/e49e8db9c36032cf.png
+SW.Item.Talisman.HealthBoost,蜂蜡之印,3,0,体格 3：玩家的最大生命值提高 35%。,icons/05bcab5dfcf74220.png
+SW.Item.Talisman.Plummeting,豹猫之爪,1,18480,跳跃者 1：跳跃近战攻击造成的伤害提高 10%。,icons/66415625edc0bcba.png
+SW.Item.Talisman.Plummeting,豹猫之爪,2,73920,跳跃者 2：跳跃近战攻击造成的伤害提高 20%。,icons/02813f3db77d7000.png
+SW.Item.Talisman.Plummeting,豹猫之爪,3,0,跳跃者 3：跳跃近战攻击造成的伤害提高 35%。,icons/25905c8e34d793a9.png
+SW.Item.Talisman.Brawling,铁拳,1,18480,锋利 1：近战攻击造成的伤害提高 10%。,icons/6bb5caa56bdb5cc1.png
+SW.Item.Talisman.Brawling,铁拳,2,73920,锋利 2：近战攻击造成的伤害提高 20%。,icons/c6767d71c820799f.png
+SW.Item.Talisman.Brawling,铁拳,3,0,锋利 3：近战攻击造成的伤害提高 35%。,icons/9026c29c926252d8.png
+SW.Item.Talisman.IronGolem,傀儡工具包,1,18480,,icons/2d83fa7b65b9bfd0.png
+SW.Item.Talisman.IronGolem,傀儡工具包,2,73920,,icons/09351b7ba4ea6d6b.png
+SW.Item.Talisman.IronGolem,傀儡工具包,3,0,,icons/9aed81ac83fa168e.png
+sw.Item.Talisman.Llama,神奇小麦,1,18480,,icons/b92cb76f51abc8b2.png
+sw.Item.Talisman.Llama,神奇小麦,2,73920,,icons/ae08aeec7d6064b1.png
+sw.Item.Talisman.Llama,神奇小麦,3,0,,icons/16b8b2ee6bffef74.png
+SW.Item.Talisman.Wolf,美味骨头,1,18480,,icons/7b6e32a7dc8b8704.png
+SW.Item.Talisman.Wolf,美味骨头,2,73920,,icons/66894244b908c690.png
+SW.Item.Talisman.Wolf,美味骨头,3,0,,icons/9c9ab920b025eea6.png
+SW.Item.Talisman.SoulGather,扭曲之牙,1,18480,SoulGather_TalismanEffect 1：获得的灵魂增加 40%。,icons/2ccfc355c51b4638.png
+SW.Item.Talisman.SoulGather,扭曲之牙,2,73920,SoulGather_TalismanEffect 2：获得的灵魂增加 80%。,icons/1442bbf1e4feb5fa.png
+SW.Item.Talisman.SoulGather,扭曲之牙,3,0,SoulGather_TalismanEffect 3：获得的灵魂增加 140%。,icons/d3341e72ffa87c2f.png
+SW.Item.Talisman.PotionCooldown,萤石瓶,1,18480,药剂师 1：药水冷却时间缩短 10%。,icons/39c01164684ddb99.png
+SW.Item.Talisman.PotionCooldown,萤石瓶,2,73920,药剂师 2：药水冷却时间缩短 15%。,icons/61178b72e79e8a3d.png
+SW.Item.Talisman.PotionCooldown,萤石瓶,3,0,药剂师 3：药水冷却时间缩短 25%。,icons/4f409e680b5c70ae.png
+SW.Item.Talisman.Healing,治愈之心,1,18480,生命回复 1：脱离战斗 5 秒后，每秒恢复 2% 生命值。,icons/1e5713d11d2741cd.png
+SW.Item.Talisman.Healing,治愈之心,2,73920,生命回复 2：脱离战斗 5 秒后，每秒恢复 6% 生命值。,icons/251ea90e9e4146b0.png
+SW.Item.Talisman.Healing,治愈之心,3,0,生命回复 3：脱离战斗 5 秒后，每秒恢复 10% 生命值。,icons/e27607525eac69bc.png
+SW.Item.Talisman.SpeedIncrement,冲力徽章,1,18480,速度提升 1：移动超过 3 秒后，移动速度提高 10%。,icons/dd7ba2ab2915f9e9.png
+SW.Item.Talisman.SpeedIncrement,冲力徽章,2,73920,速度提升 2：移动超过 3 秒后，移动速度提高 20%。,icons/a4b92b4099a60c42.png
+SW.Item.Talisman.SpeedIncrement,冲力徽章,3,0,速度提升 3：移动超过 3 秒后，移动速度提高 30%。,icons/3b5a9359278f464b.png
+SW.Item.Talisman.DoubleDrop,幸运四叶草,1,18480,搜刮者 1：有 2% 的几率掉落额外的战利品。,icons/512609af9f288cd1.png
+SW.Item.Talisman.DoubleDrop,幸运四叶草,2,73920,搜刮者 2：有 4% 的几率掉落额外的战利品。,icons/351f35366b54c65d.png
+SW.Item.Talisman.DoubleDrop,幸运四叶草,3,0,搜刮者 3：有 7% 的几率掉落额外的战利品。,icons/f1fc16c031916979.png
+SW.Item.Talisman.EmeraldIncrease,幸运绿宝石,1,18480,探勘者 1：有 10% 的几率获得额外的绿宝石。,icons/0217ea04bd646126.png
+SW.Item.Talisman.EmeraldIncrease,幸运绿宝石,2,73920,探勘者 2：有 20% 的几率获得额外的绿宝石。,icons/e44a1be505150eac.png
+SW.Item.Talisman.EmeraldIncrease,幸运绿宝石,3,0,探勘者 3：有 25% 的几率获得额外的绿宝石。,icons/36615d1cd8debfe7.png
+SW.Item.Talisman.DropChance,寻宝者护符,1,18480,DropChance_TalismanEffect 1：击败敌人时掉落战利品的几率提高 1%。,icons/61aa131e18b1e079.png
+SW.Item.Talisman.DropChance,寻宝者护符,2,73920,DropChance_TalismanEffect 2：击败敌人时掉落战利品的几率提高 2%。,icons/e4fea417dd2467dd.png
+SW.Item.Talisman.DropChance,寻宝者护符,3,0,DropChance_TalismanEffect 3：击败敌人时掉落战利品的几率提高 4%。,icons/aa54b9901d7b6187.png
+SW.Item.Talisman.ArtifactCooldown,效率精华,1,18480,冷却时间 1：法器冷却时间缩短 4%。,icons/0c670f4babc03055.png
+SW.Item.Talisman.ArtifactCooldown,效率精华,2,73920,冷却时间 2：法器冷却时间缩短 8%。,icons/3bca239dfb250041.png
+SW.Item.Talisman.ArtifactCooldown,效率精华,3,0,冷却时间 3：法器冷却时间缩短 14%。,icons/0eb02b911d3864b2.png
+SW.Item.Talisman.RollingCooldown,犰狳护身符,1,18480,特技 1：翻滚的冷却时间缩短 20%。,icons/610d304258c78ec2.png
+SW.Item.Talisman.RollingCooldown,犰狳护身符,2,73920,特技 2：翻滚的冷却时间缩短 25%。,icons/a990d6550428e24a.png
+SW.Item.Talisman.RollingCooldown,犰狳护身符,3,0,特技 3：翻滚的冷却时间缩短 45%。,icons/71b243afc50c9af8.png
+SW.Item.Talisman.SoulCapacity,灵魂碎片,1,18480,灵性 1：灵魂容量提高 15%。,icons/ca388b1d6caf8a74.png
+SW.Item.Talisman.SoulCapacity,灵魂碎片,2,73920,灵性 2：灵魂容量提高 20%。,icons/5303c54652f40bb9.png
+SW.Item.Talisman.SoulCapacity,灵魂碎片,3,0,灵性 3：灵魂容量提高 35%。,icons/950700ad7882974c.png
+SW.Item.Talisman.AmmoCapacity,深色橡树枝,1,18480,"箭袋 1：装备词条定义：箭矢携带量增加 10%。
+护符词条定义：箭矢携带量增加 20%。
+同一 ID 存在数值差异，实际生效值待核验。",icons/8ace3b77350fe6df.png
+SW.Item.Talisman.AmmoCapacity,深色橡树枝,2,73920,"箭袋 2：装备词条定义：箭矢携带量增加 15%。
+护符词条定义：箭矢携带量增加 40%。
+同一 ID 存在数值差异，实际生效值待核验。",icons/51b5a97d2ab39775.png
+SW.Item.Talisman.AmmoCapacity,深色橡树枝,3,0,"箭袋 3：装备词条定义：箭矢携带量增加 20%。
+护符词条定义：箭矢携带量增加 60%。
+同一 ID 存在数值差异，实际生效值待核验。",icons/1e2ee32368222486.png
+SW.Item.Talisman.StatusBuff,幽匿徽章,1,18480,强化 1：使施加于自身的正面状态持续时间延长 10%。,icons/5c90cfbb010f9395.png
+SW.Item.Talisman.StatusBuff,幽匿徽章,2,73920,强化 2：使施加于自身的正面状态持续时间延长 15%。,icons/c00195cb7fab0deb.png
+SW.Item.Talisman.StatusBuff,幽匿徽章,3,0,强化 3：使施加于自身的正面状态持续时间延长 25%。,icons/6059c60c6bee7abf.png
+SW.Item.Talisman.ExperienceIncrease,经验之眼,1,18480,天才 1：获得的经验值提高 4%。,icons/66f4d5af6e7ea36a.png
+SW.Item.Talisman.ExperienceIncrease,经验之眼,2,73920,天才 2：获得的经验值提高 6%。,icons/fa26e5d62a750c23.png
+SW.Item.Talisman.ExperienceIncrease,经验之眼,3,0,天才 3：获得的经验值提高 10%。,icons/5a143a520ff6af1d.png
+SW.Item.Talisman.HealthyStrike,浮须触手,1,18480,活力打击 1：生命值高于 95% 时，伤害提高 10%。,icons/a030c34caf7af175.png
+SW.Item.Talisman.HealthyStrike,浮须触手,2,73920,活力打击 2：生命值高于 85% 时，伤害提高 20%。,icons/c4d5189b44ac8e63.png
+SW.Item.Talisman.HealthyStrike,浮须触手,3,0,活力打击 3：生命值高于 75% 时，伤害提高 40%。,icons/0c7623b755e343ba.png
+SW.Item.Talisman.Prickle,刺须怪印记,1,18480,,icons/624cec690f7c15b6.png
+SW.Item.Talisman.Prickle,刺须怪印记,2,73920,,icons/b56f7fcb42d77475.png
+SW.Item.Talisman.Prickle,刺须怪印记,3,0,,icons/073f9777d11c2a24.png
+SW.Item.Talisman.Wobble,晃墩墩石,1,18480,,icons/c0b15c9417f877ec.png
+SW.Item.Talisman.Wobble,晃墩墩石,2,73920,,icons/cac28286dff40ca9.png
+SW.Item.Talisman.Wobble,晃墩墩石,3,0,,icons/fe20a2d3b3ec4717.png
+SW.Item.Talisman.FiringEmeralds,节俭吊坠,1,18480,炫富投掷器 1：根据持有的绿宝石数量，最多提供 25% 伤害加成，生效上限为 7000 颗绿宝石。,icons/66ec50caa548aacb.png
+SW.Item.Talisman.FiringEmeralds,节俭吊坠,2,73920,炫富投掷器 2：根据持有的绿宝石数量，最多提供 40% 伤害加成，生效上限为 8000 颗绿宝石。,icons/be000984704e9d66.png
+SW.Item.Talisman.FiringEmeralds,节俭吊坠,3,0,炫富投掷器 3：根据持有的绿宝石数量，最多提供 50% 伤害加成，生效上限为 9000 颗绿宝石。,icons/e70763d826893819.png

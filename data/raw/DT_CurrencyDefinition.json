@@ -1,0 +1,1420 @@
+[
+	{
+		"Name": "CurrencyBase",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Currency"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.State.Untargetable"
+				},
+				{
+					"TagName": "SW.Property.SpawnGroundChecks.None"
+				},
+				{
+					"TagName": "SW.ItemCreator.DoNotRequirePathableSpawnPoint"
+				},
+				{
+					"TagName": "SW.Property.PerishOnWorldReset"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW.Property.SpawnGroundChecks"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.ItemCreator"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AttractItemRange"
+				},
+				"Type": "Float",
+				"Float": 1500
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.None"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AllowPickupWhenDead"
+				},
+				"Type": "Bool",
+				"Bool": false
+			}
+		],
+		"ActorReference": "None",
+		"ComponentDefinition":
+		{
+			"ServerComponents":
+			{
+				"(TagName=\"\")":
+				{
+					"Components": [
+						"/Script/Dungeons.WalkPickupComponent",
+						"/Script/Dungeons.SimpleMovementComponent",
+						"/Script/ItemGenerator.GASItemComponent"
+					]
+				}
+			}
+		},
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Currency/2_currency_pickUp/sfx_item_currency_pickUp.sfx_item_currency_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Currency.Pickup"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Currency/1_currency_drop/sfx_item_currency_drop.sfx_item_currency_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Currency.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"CurrencyData":
+		{
+			"PickupModifyingAttribute":
+			{
+				"TagName": "None"
+			},
+			"ModifyingGameplayEffect":
+			{
+				"TagName": "None"
+			},
+			"PullInThreshold": 3000,
+			"PullInAcceleration": 100,
+			"PullInMaxSpeed": 1000,
+			"PickupDistance": 50,
+			"ExpirationTime": 600,
+			"EnablePullDelay": 2.5,
+			"TrailColor":
+			{
+				"R": 1,
+				"G": 1,
+				"B": 1,
+				"A": 1
+			},
+			"FallToZHeightFromGround": 50,
+			"GravityStrength": 980,
+			"MaxFallSpeed": 2000
+		}
+	},
+	{
+		"Name": "Emerald",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Currency.Emerald"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.StorableFollowsPlayer"
+				},
+				{
+					"TagName": "SW.Item.Currency"
+				},
+				{
+					"TagName": "SW.ItemCreator.Entitlement.ActivePlayersInRange"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.OwnerRelevant"
+				},
+				{
+					"TagName": "SW.Currency.Type.Accelerated"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.ItemCreator.Entitlement"
+				},
+				{
+					"TagName": "SW.ItemCreator"
+				},
+				{
+					"TagName": "SW.ReplicationGraph"
+				},
+				{
+					"TagName": "SW.Currency.Type"
+				},
+				{
+					"TagName": "SW.Currency"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+			"Modifiers": [
+				{
+					"Attribute":
+					{
+						"AttributeName": "Emeralds",
+						"Attribute": "/Script/SpicewoodGAS.ATR_Currency:Emeralds",
+						"AttributeOwner": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.ATR_Currency'"
+					},
+					"ModifierOp": "AddBase",
+					"ModifierMagnitude":
+					{
+						"MagnitudeCalculationType": "ScalableFloat",
+						"ScalableFloatMagnitude":
+						{
+							"Value": 1,
+							"Curve":
+							{
+								"CurveTable": "None",
+								"RowName": "None"
+							},
+							"RegistryType":
+							{
+								"Name": "None"
+							}
+						},
+						"AttributeBasedMagnitude":
+						{
+							"Coefficient":
+							{
+								"Value": 1,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PreMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PostMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"BackingAttribute":
+							{
+								"AttributeToCapture":
+								{
+									"AttributeName": "",
+									"Attribute": "",
+									"AttributeOwner": "None"
+								},
+								"AttributeSource": "Source",
+								"bSnapshot": false
+							},
+							"AttributeCurve":
+							{
+								"CurveTable": "None",
+								"RowName": "None"
+							},
+							"AttributeCalculationType": "AttributeMagnitude",
+							"FinalChannel": "Channel0"
+						},
+						"CustomMagnitude":
+						{
+							"CalculationClassMagnitude": "None",
+							"Coefficient":
+							{
+								"Value": 1,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PreMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PostMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"FinalLookupCurve":
+							{
+								"CurveTable": "None",
+								"RowName": "None"
+							}
+						},
+						"SetByCallerMagnitude":
+						{
+							"DataName": "None",
+							"DataTag":
+							{
+								"TagName": "None"
+							}
+						}
+					},
+					"EvaluationChannelSettings":
+					{
+						"Channel": "Channel0"
+					}
+				}
+			],
+			"AdditionalDefinitions": [
+				{
+					"Type": "DurationPolicy",
+					"DurationPolicy": "Instant",
+					"AreStatusEffects": false
+				},
+				{
+					"Type": "GameplayCues",
+					"GameplayCues": [
+						{
+							"MagnitudeAttribute":
+							{
+								"AttributeName": "",
+								"Attribute": "",
+								"AttributeOwner": "None"
+							},
+							"MinLevel": 0,
+							"MaxLevel": 0,
+							"GameplayCueTags":
+							{
+								"GameplayTags": [
+									{
+										"TagName": "GameplayCue.SW.Emerald.Pickup"
+									}
+								],
+								"ParentTags": [
+									{
+										"TagName": "GameplayCue.SW.Emerald"
+									},
+									{
+										"TagName": "GameplayCue.SW"
+									},
+									{
+										"TagName": "GameplayCue"
+									}
+								]
+							}
+						}
+					],
+					"AreStatusEffects": false
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.DropAValue"
+				},
+				"Type": "Float",
+				"Float": 50
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.DropBValue"
+				},
+				"Type": "Float",
+				"Float": 2000
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.DropCValue"
+				},
+				"Type": "Float",
+				"Float": 50
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.DropPow1Value"
+				},
+				"Type": "Float",
+				"Float": 1.5
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.DropPow2Value"
+				},
+				"Type": "Float",
+				"Float": 1
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.DropMultiple"
+				},
+				"Type": "Float",
+				"Float": 25
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.SalvageAmount"
+				},
+				"Type": "Int",
+				"Int": 10
+			}
+		],
+		"ActorReference": "/Game/Spicewood/Art/Interactables/Emeralds/BP_Emerald.BP_Emerald_C",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/CurrencyType/CurrencyType-Emerald.CurrencyType-Emerald",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Currency/2_currency_pickUp/sfx_item_currency_pickUp.sfx_item_currency_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Currency.Pickup"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Currency/1_currency_drop/sfx_item_currency_drop.sfx_item_currency_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Currency.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"CurrencyData":
+		{
+			"PickupModifyingAttribute":
+			{
+				"TagName": "None"
+			},
+			"ModifyingGameplayEffect":
+			{
+				"TagName": "SW.GameplayEffect.ModifyEmeraldsDelta"
+			},
+			"PullInThreshold": 3000,
+			"PullInAcceleration": 55,
+			"PullInMaxSpeed": 800,
+			"PickupDistance": 100,
+			"ExpirationTime": 600,
+			"EnablePullDelay": 1,
+			"TrailColor":
+			{
+				"R": 0.076,
+				"G": 0.9,
+				"B": 0.078,
+				"A": 1
+			},
+			"FallToZHeightFromGround": 75,
+			"GravityStrength": 7500,
+			"MaxFallSpeed": 3000
+		},
+		"StaticMeshBundle":
+		{
+			"StaticMeshes": [
+				"/Game/Spicewood/Art/Interactables/Emeralds/SM_Emerald.SM_Emerald"
+			]
+		}
+	},
+	{
+		"Name": "Soul",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Currency.Soul"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.StorableFollowsPlayer"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Currency"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.OwnerRelevant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.ReplicationGraph"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+			"Modifiers": [
+				{
+					"Attribute":
+					{
+						"AttributeName": "Souls",
+						"Attribute": "/Script/SpicewoodGAS.ATR_Soul:Souls",
+						"AttributeOwner": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.ATR_Soul'"
+					},
+					"ModifierOp": "AddBase",
+					"ModifierMagnitude":
+					{
+						"MagnitudeCalculationType": "SetByCaller",
+						"ScalableFloatMagnitude":
+						{
+							"Value": 0,
+							"Curve":
+							{
+								"CurveTable": "None",
+								"RowName": "None"
+							},
+							"RegistryType":
+							{
+								"Name": "None"
+							}
+						},
+						"AttributeBasedMagnitude":
+						{
+							"Coefficient":
+							{
+								"Value": 1,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PreMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PostMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"BackingAttribute":
+							{
+								"AttributeToCapture":
+								{
+									"AttributeName": "",
+									"Attribute": "",
+									"AttributeOwner": "None"
+								},
+								"AttributeSource": "Source",
+								"bSnapshot": false
+							},
+							"AttributeCurve":
+							{
+								"CurveTable": "None",
+								"RowName": "None"
+							},
+							"AttributeCalculationType": "AttributeMagnitude",
+							"FinalChannel": "Channel0"
+						},
+						"CustomMagnitude":
+						{
+							"CalculationClassMagnitude": "None",
+							"Coefficient":
+							{
+								"Value": 1,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PreMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PostMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"FinalLookupCurve":
+							{
+								"CurveTable": "None",
+								"RowName": "None"
+							}
+						},
+						"SetByCallerMagnitude":
+						{
+							"DataName": "None",
+							"DataTag":
+							{
+								"TagName": "SW.Effect.SetByCaller.Level"
+							}
+						}
+					},
+					"EvaluationChannelSettings":
+					{
+						"Channel": "Channel0"
+					},
+					"SourceTags":
+					{
+						"IgnoreTags":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.GameplayEffect.SoulChanneling"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW.GameplayEffect"
+								},
+								{
+									"TagName": "SW"
+								}
+							]
+						}
+					}
+				}
+			],
+			"AdditionalDefinitions": [
+				{
+					"Type": "DurationPolicy",
+					"DurationPolicy": "Instant",
+					"AreStatusEffects": false
+				},
+				{
+					"Type": "GameplayCues",
+					"GameplayCues": [
+						{
+							"MagnitudeAttribute":
+							{
+								"AttributeName": "Souls",
+								"Attribute": "/Script/SpicewoodGAS.ATR_Soul:Souls",
+								"AttributeOwner": "None"
+							},
+							"MinLevel": 0,
+							"MaxLevel": 1,
+							"GameplayCueTags":
+							{
+								"GameplayTags": [
+									{
+										"TagName": "GameplayCue.SW.Soul.Pickup"
+									}
+								],
+								"ParentTags": [
+									{
+										"TagName": "GameplayCue.SW.Soul"
+									},
+									{
+										"TagName": "GameplayCue.SW"
+									},
+									{
+										"TagName": "GameplayCue"
+									}
+								]
+							}
+						}
+					],
+					"AreStatusEffects": false
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.RotateWithVelocity"
+				},
+				"Type": "Bool",
+				"Bool": true
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ValidGameplayCues"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "GameplayCue.SW.Soul.Drop"
+				}
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AttractItemRange"
+				},
+				"Type": "Float",
+				"Float": 3000
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.AllowPickupWhenDead"
+				},
+				"Type": "Bool",
+				"Bool": true
+			}
+		],
+		"ActorReference": "/Game/Spicewood/Art/Interactables/Emeralds/BP_Soul.BP_Soul_C",
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"CurrencyData":
+		{
+			"PickupModifyingAttribute":
+			{
+				"TagName": "SW.Attribute.SoulGathering"
+			},
+			"ModifyingGameplayEffect":
+			{
+				"TagName": "None"
+			},
+			"PullInThreshold": 3000,
+			"PullInAcceleration": 80,
+			"PullInMaxSpeed": 1000,
+			"PickupDistance": 100,
+			"ExpirationTime": 600,
+			"EnablePullDelay": 1,
+			"TrailColor":
+			{
+				"R": 1,
+				"G": 1,
+				"B": 1,
+				"A": 1
+			},
+			"FallToZHeightFromGround": 50,
+			"GravityStrength": 980,
+			"MaxFallSpeed": 2000
+		}
+	},
+	{
+		"Name": "SpringStone",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Currency.SpringStone"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.StorableFollowsPlayer"
+				},
+				{
+					"TagName": "SW.Item.Currency"
+				},
+				{
+					"TagName": "SW.ItemCreator.Entitlement.ActivePlayersInRange"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.OwnerRelevant"
+				},
+				{
+					"TagName": "SW.Currency.Type.Accelerated"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.ItemCreator.Entitlement"
+				},
+				{
+					"TagName": "SW.ItemCreator"
+				},
+				{
+					"TagName": "SW.ReplicationGraph"
+				},
+				{
+					"TagName": "SW.Currency.Type"
+				},
+				{
+					"TagName": "SW.Currency"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+			"Modifiers": [
+				{
+					"Attribute":
+					{
+						"AttributeName": "SpringStone",
+						"Attribute": "/Script/SpicewoodGAS.ATR_Currency:SpringStone",
+						"AttributeOwner": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.ATR_Currency'"
+					},
+					"ModifierOp": "AddBase",
+					"ModifierMagnitude":
+					{
+						"MagnitudeCalculationType": "ScalableFloat",
+						"ScalableFloatMagnitude":
+						{
+							"Value": 1,
+							"Curve":
+							{
+								"CurveTable": "None",
+								"RowName": "None"
+							},
+							"RegistryType":
+							{
+								"Name": "None"
+							}
+						},
+						"AttributeBasedMagnitude":
+						{
+							"Coefficient":
+							{
+								"Value": 1,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PreMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PostMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"BackingAttribute":
+							{
+								"AttributeToCapture":
+								{
+									"AttributeName": "",
+									"Attribute": "",
+									"AttributeOwner": "None"
+								},
+								"AttributeSource": "Source",
+								"bSnapshot": false
+							},
+							"AttributeCurve":
+							{
+								"CurveTable": "None",
+								"RowName": "None"
+							},
+							"AttributeCalculationType": "AttributeMagnitude",
+							"FinalChannel": "Channel0"
+						},
+						"CustomMagnitude":
+						{
+							"CalculationClassMagnitude": "None",
+							"Coefficient":
+							{
+								"Value": 1,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PreMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PostMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"FinalLookupCurve":
+							{
+								"CurveTable": "None",
+								"RowName": "None"
+							}
+						},
+						"SetByCallerMagnitude":
+						{
+							"DataName": "None",
+							"DataTag":
+							{
+								"TagName": "None"
+							}
+						}
+					},
+					"EvaluationChannelSettings":
+					{
+						"Channel": "Channel0"
+					}
+				}
+			],
+			"AdditionalDefinitions": [
+				{
+					"Type": "DurationPolicy",
+					"DurationPolicy": "Instant",
+					"AreStatusEffects": false
+				},
+				{
+					"Type": "GameplayCues",
+					"GameplayCues": [
+						{
+							"MagnitudeAttribute":
+							{
+								"AttributeName": "",
+								"Attribute": "",
+								"AttributeOwner": "None"
+							},
+							"MinLevel": 0,
+							"MaxLevel": 0,
+							"GameplayCueTags":
+							{
+								"GameplayTags": [
+									{
+										"TagName": "GameplayCue.SW.Springstone.Pickup"
+									}
+								],
+								"ParentTags": [
+									{
+										"TagName": "GameplayCue.SW.Springstone"
+									},
+									{
+										"TagName": "GameplayCue.SW"
+									},
+									{
+										"TagName": "GameplayCue"
+									}
+								]
+							}
+						}
+					],
+					"AreStatusEffects": false
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ValidGameplayCues"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "GameplayCue.SW.SpringStone.Drop"
+				}
+			}
+		],
+		"ActorReference": "/Game/Spicewood/Art/Interactables/SpringStones/BP_SpringStone.BP_SpringStone_C",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/CurrencyType/CurrencyType-SpringStone.CurrencyType-SpringStone",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Currency/2_currency_pickUp/sfx_item_currency_pickUp.sfx_item_currency_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Currency/1_currency_drop/sfx_item_currency_drop.sfx_item_currency_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"CurrencyData":
+		{
+			"PickupModifyingAttribute":
+			{
+				"TagName": "None"
+			},
+			"ModifyingGameplayEffect":
+			{
+				"TagName": "SW.GameplayEffect.ModifySpringStoneDelta"
+			},
+			"PullInThreshold": 3000,
+			"PullInAcceleration": 35,
+			"PullInMaxSpeed": 400,
+			"PickupDistance": 100,
+			"ExpirationTime": 600,
+			"EnablePullDelay": 1.5,
+			"TrailColor":
+			{
+				"R": 0.14242,
+				"G": 0.3825,
+				"B": 0.9,
+				"A": 1
+			},
+			"FallToZHeightFromGround": 75,
+			"GravityStrength": 5000,
+			"MaxFallSpeed": 2500
+		},
+		"StaticMeshBundle":
+		{
+			"StaticMeshes": [
+				"/Game/Spicewood/Art/Interactables/SpringStones/SM_SpringStone.SM_SpringStone"
+			]
+		}
+	},
+	{
+		"Name": "EmeraldBlock",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Currency.EmeraldBlock"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Currency.Emerald"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Currency"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+			"Modifiers": [
+				{
+					"Attribute":
+					{
+						"AttributeName": "Emeralds",
+						"Attribute": "/Script/SpicewoodGAS.ATR_Currency:Emeralds",
+						"AttributeOwner": "/Script/CoreUObject.Class'/Script/SpicewoodGAS.ATR_Currency'"
+					},
+					"ModifierOp": "AddBase",
+					"ModifierMagnitude":
+					{
+						"MagnitudeCalculationType": "ScalableFloat",
+						"ScalableFloatMagnitude":
+						{
+							"Value": 9,
+							"Curve":
+							{
+								"CurveTable": "None",
+								"RowName": "None"
+							},
+							"RegistryType":
+							{
+								"Name": "None"
+							}
+						},
+						"AttributeBasedMagnitude":
+						{
+							"Coefficient":
+							{
+								"Value": 1,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PreMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PostMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"BackingAttribute":
+							{
+								"AttributeToCapture":
+								{
+									"AttributeName": "",
+									"Attribute": "",
+									"AttributeOwner": "None"
+								},
+								"AttributeSource": "Source",
+								"bSnapshot": false
+							},
+							"AttributeCurve":
+							{
+								"CurveTable": "None",
+								"RowName": "None"
+							},
+							"AttributeCalculationType": "AttributeMagnitude",
+							"FinalChannel": "Channel0"
+						},
+						"CustomMagnitude":
+						{
+							"CalculationClassMagnitude": "None",
+							"Coefficient":
+							{
+								"Value": 1,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PreMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"PostMultiplyAdditiveValue":
+							{
+								"Value": 0,
+								"Curve":
+								{
+									"CurveTable": "None",
+									"RowName": "None"
+								},
+								"RegistryType":
+								{
+									"Name": "None"
+								}
+							},
+							"FinalLookupCurve":
+							{
+								"CurveTable": "None",
+								"RowName": "None"
+							}
+						},
+						"SetByCallerMagnitude":
+						{
+							"DataName": "None",
+							"DataTag":
+							{
+								"TagName": "None"
+							}
+						}
+					},
+					"EvaluationChannelSettings":
+					{
+						"Channel": "Channel0"
+					}
+				}
+			],
+			"AdditionalDefinitions": [
+				{
+					"Type": "DurationPolicy",
+					"DurationPolicy": "Instant",
+					"AreStatusEffects": false
+				},
+				{
+					"Type": "GameplayCues",
+					"GameplayCues": [
+						{
+							"MagnitudeAttribute":
+							{
+								"AttributeName": "",
+								"Attribute": "",
+								"AttributeOwner": "None"
+							},
+							"MinLevel": 0,
+							"MaxLevel": 0,
+							"GameplayCueTags":
+							{
+								"GameplayTags": [
+									{
+										"TagName": "GameplayCue.SW.Emerald.Pickup"
+									}
+								],
+								"ParentTags": [
+									{
+										"TagName": "GameplayCue.SW.Emerald"
+									},
+									{
+										"TagName": "GameplayCue.SW"
+									},
+									{
+										"TagName": "GameplayCue"
+									}
+								]
+							}
+						}
+					],
+					"AreStatusEffects": false
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Art/Interactables/Emeralds/BP_EmeraldBlock.BP_EmeraldBlock_C",
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		},
+		"CurrencyData":
+		{
+			"PickupModifyingAttribute":
+			{
+				"TagName": "None"
+			},
+			"ModifyingGameplayEffect":
+			{
+				"TagName": "None"
+			},
+			"PullInThreshold": 3000,
+			"PullInAcceleration": 55,
+			"PullInMaxSpeed": 800,
+			"PickupDistance": 100,
+			"ExpirationTime": 600,
+			"EnablePullDelay": 1,
+			"TrailColor":
+			{
+				"R": 0.076,
+				"G": 0.9,
+				"B": 0.078,
+				"A": 1
+			},
+			"FallToZHeightFromGround": 75,
+			"GravityStrength": 5000,
+			"MaxFallSpeed": 2500
+		}
+	}
+]

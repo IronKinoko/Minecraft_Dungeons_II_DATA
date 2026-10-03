@@ -1,0 +1,608 @@
+[
+	{
+		"Name": "TNT",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.TNT"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize.Dynamic"
+				},
+				{
+					"TagName": "SW.PropActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize"
+				},
+				{
+					"TagName": "SW.ReplicationGraph"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Items/Throwable/BP_TNTPropActor.BP_TNTPropActor_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.SpawnedByItemTag"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.Item.Consumable.Throwable.TNT"
+				}
+			}
+		],
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_TimedAOE",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.SelfDestruct"
+				},
+				"TriggeredByGameplayEvents":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.GameplayEvent.Spawn"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.GameplayEvent"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Time"
+						},
+						"Type": "Float",
+						"Float": 3
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Suicide"
+						},
+						"Type": "Bool",
+						"Bool": true
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RepeatTimer"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AttackTypeTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.RequireTarget"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Damage"
+						},
+						"Type": "Float",
+						"Float": 85
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Range"
+						},
+						"Type": "Float",
+						"Float": 1000
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.DamageEffectTags"
+						},
+						"Type": "GameplayTagContainer",
+						"GameplayTagContainer":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.GameplayEffect.Damage.Instant.Blast"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW.GameplayEffect.Damage.Instant"
+								},
+								{
+									"TagName": "SW.GameplayEffect.Damage"
+								},
+								{
+									"TagName": "SW.GameplayEffect"
+								},
+								{
+									"TagName": "SW"
+								}
+							]
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.DamageCalculationTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Damage.Absolute"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.FriendlyFire"
+						},
+						"Type": "Bool",
+						"Bool": true
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.EffectsToApplyToTargetOnHit"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.StatusToApplyToTargetOnHit"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.EffectsToApplyToSelfOnHit"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.StatusToApplyToSelfOnHit"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfTagsRequiredForAdditionalEffects"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AdditionalEffectsToApplyToTargetOnHit"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AdditionalStatusToApplyToTargetOnHit"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SplashDamage"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SplashRange"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AttackCanBeSideStepped"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.GameplayCueTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.WorldActorGameplayCueTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "GameplayCue.SW.Explosion.TNT"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActorsToSpawnOnAOE"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.UsesSouls"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AttackWeight"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Attack.Weight.SuperHeavy"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.OptionalDynamicDamageTypes"
+						},
+						"Type": "GameplayTagContainer",
+						"GameplayTagContainer":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.Attack.Throwable.TNT"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW.Attack.Throwable"
+								},
+								{
+									"TagName": "SW.Attack"
+								},
+								{
+									"TagName": "SW"
+								}
+							]
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Section1Name"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Section1AnimationModifierTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Section2Name"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Section2AnimationModifierTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Section3Name"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Section3AnimationModifierTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Section4Name"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Section4AnimationModifierTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.LoopingSectionID"
+						},
+						"Type": "Int",
+						"Int": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.LoopSeconds"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationAddTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationRemoveTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.DeactivationAddTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.DeactivationRemoveTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.UseReplicationForTags"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "AnticipationAnim",
+								"Object": "None"
+							},
+							{
+								"Name": "Anim",
+								"Object": "None"
+							}
+						]
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_AOEMeleeAttackInstanceData",
+						"AttackKnockbackData":
+						{
+							"Strength": 1500,
+							"LaunchAngleInDegrees": 15,
+							"bForceKnockback": false,
+							"bDisableMovementControl": true,
+							"DisableMovementControlSeconds": 0.4,
+							"Direction":
+							{
+								"TagName": "SW.Knockback.Direction.Target"
+							}
+						}
+					}
+				]
+			}
+		],
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.CriticalHitMultiplier"
+				},
+				"Value": 1.2
+			}
+		],
+		"AdditionalAssets":
+		{
+			"Name": "None",
+			"Assets": [
+				{
+					"Name": "None",
+					"Object": "/Game/Spicewood/Art/Characters/Player/Items/Throwable/SM_TNTBlock.SM_TNTBlock"
+				}
+			]
+		}
+	}
+]

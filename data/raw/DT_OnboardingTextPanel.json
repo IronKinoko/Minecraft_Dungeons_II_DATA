@@ -1,0 +1,14 @@
+[
+	{
+		"Name": "SW.UI.Onboarding.Textpanel.Town.Revival",
+		"Text": "LOCTABLE(\"OnboardingLabels.csv\", \"panel_town_revival_overview_description\")",
+		"RepeatIndefinitely": false,
+		"ShowCount": 1,
+		"Lifetime": 20,
+		"UnlockedTutorials": [
+			{
+				"TagName": "SW.UI.TutorialLog.Navigation.TeleportStatue"
+			}
+		]
+	}
+]

@@ -1,0 +1,180 @@
+[
+	{
+		"Name": "BaseRarity",
+		"TypeTag":
+		{
+			"TagName": "SW.Rarity.Base"
+		},
+		"RarityDefinition":
+		{
+			"NumberOfEffectsData":
+			{
+				"BaseNumberOfRerollableEffects": 0
+			},
+			"RarityWeight": 0,
+			"ItemPowerGenerationOffset": 0,
+			"bExceptFromEffectItemPowerRequirements": false
+		}
+	},
+	{
+		"Name": "Common",
+		"TypeTag":
+		{
+			"TagName": "SW.Rarity.Common"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Rarity.Base"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Rarity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"RarityDefinition":
+		{
+			"NumberOfEffectsData":
+			{
+				"BaseNumberOfRerollableEffects": 0
+			},
+			"RarityWeight": 1,
+			"ItemPowerGenerationOffset": -2,
+			"bExceptFromEffectItemPowerRequirements": false
+		}
+	},
+	{
+		"Name": "Rare",
+		"TypeTag":
+		{
+			"TagName": "SW.Rarity.Rare"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Rarity.Base"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Rarity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"RarityDefinition":
+		{
+			"NumberOfEffectsData":
+			{
+				"BaseNumberOfRerollableEffects": 1,
+				"AdditionalEffectChances":
+				{
+					"(TagName=\"SW.Item.Property.StorminatorReward\")": 1
+				}
+			},
+			"RarityWeight": 2,
+			"ItemPowerGenerationOffset": -2,
+			"bExceptFromEffectItemPowerRequirements": false
+		}
+	},
+	{
+		"Name": "Special",
+		"TypeTag":
+		{
+			"TagName": "SW.Rarity.Special"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Rarity.Base"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Rarity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"RarityDefinition":
+		{
+			"NumberOfEffectsData":
+			{
+				"BaseNumberOfRerollableEffects": 2,
+				"AdditionalEffectChances":
+				{
+					"(TagName=\"SW.Item.Property.StorminatorReward\")": 1
+				}
+			},
+			"RarityWeight": 3,
+			"ItemPowerGenerationOffset": -1,
+			"bExceptFromEffectItemPowerRequirements": false
+		}
+	},
+	{
+		"Name": "Unique",
+		"TypeTag":
+		{
+			"TagName": "SW.Rarity.Unique"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Rarity.Base"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Rarity"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"RarityDefinition":
+		{
+			"NumberOfEffectsData":
+			{
+				"BaseNumberOfRerollableEffects": 1,
+				"AdditionalEffectChances":
+				{
+					"(TagName=\"SW.Item.Property.StorminatorReward\")": 1
+				}
+			},
+			"RarityWeight": 4,
+			"ItemPowerGenerationOffset": 0,
+			"bExceptFromEffectItemPowerRequirements": false
+		}
+	},
+	{
+		"Name": "NoRarity",
+		"TypeTag":
+		{
+			"TagName": "SW.Rarity.None"
+		},
+		"RarityDefinition":
+		{
+			"NumberOfEffectsData":
+			{
+				"BaseNumberOfRerollableEffects": 0
+			},
+			"RarityWeight": 0,
+			"ItemPowerGenerationOffset": 0,
+			"bExceptFromEffectItemPowerRequirements": false
+		}
+	}
+]

@@ -1,0 +1,290 @@
+[
+	{
+		"Name": "SW.UI.DesignToken.Color.Option.Maroon",
+		"Color":
+		{
+			"B": 0,
+			"G": 0,
+			"R": 128,
+			"A": 255
+		},
+		"DisplayName": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"95C8AF8942B59F397DBB5E8D190273DB\", \"Maroon\")",
+		"DescriptionRichText": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"9584EA4E4300CCAA19E601912418135B\", \"Maroon\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Option.Target.Unfriendly",
+		"Color":
+		{
+			"B": 0,
+			"G": 0,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"BE16B4B442022A3014DACFA11884532D\", \"Red\")",
+		"DescriptionRichText": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"1FB2DBD941247184820E16B535C4008F\", \"Default Enemy Mob Colour\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Option.Coral",
+		"Color":
+		{
+			"B": 128,
+			"G": 128,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"14E262CE43EB701D1F13C3827422A5BD\", \"Coral\")",
+		"DescriptionRichText": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"33DF5CAA4731B3A534ADEAB16723B0A9\", \"Coral\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Option.Item.Common",
+		"Color":
+		{
+			"B": 137,
+			"G": 157,
+			"R": 180,
+			"A": 255
+		},
+		"DisplayName": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"83AFAAFD44AB052CF9409DB501AAF75F\", \"Beige\")",
+		"DescriptionRichText": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"4223D35C452B26D2FD90A68FF9269536\", \"Default Common Item Colour\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Option.Social.Player1",
+		"Color":
+		{
+			"B": 66,
+			"G": 187,
+			"R": 243,
+			"A": 255
+		},
+		"DisplayName": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"12AAB257464B66B5F9C0B1B5587009C6\", \"Mustard\")",
+		"DescriptionRichText": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"90EBBE954821E1E53778AF8781BB811B\", \"Default Player 1 Colour\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Option.Item.Unique",
+		"Color":
+		{
+			"B": 47,
+			"G": 126,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"94C17D10489AABAD7923388F38C16664\", \"Orange\")",
+		"DescriptionRichText": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"474C2D0248223DBEA12A11ACBFCEAE88\", \"Default Unique Item Colour\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Option.Target.Interactable",
+		"Color":
+		{
+			"B": 0,
+			"G": 255,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"D8D2DB374CDB0A8B6B0CB0BD43C327C6\", \"Yellow\")",
+		"DescriptionRichText": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"823864514F2A9032FC1776A2C195DB47\", \"Yellow\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Option.Forest",
+		"Color":
+		{
+			"B": 0,
+			"G": 69,
+			"R": 0,
+			"A": 255
+		},
+		"DisplayName": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"07452AA6495233C41637ADBD76A92C27\", \"Forest\")",
+		"DescriptionRichText": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"87D748A74DDD9AD666A0A4B0B45FBC77\", \"Forest\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Option.Green",
+		"Color":
+		{
+			"B": 20,
+			"G": 170,
+			"R": 0,
+			"A": 255
+		},
+		"DisplayName": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"07A17FE1436EA2F8E77B209BBA3D258F\", \"Green\")",
+		"DescriptionRichText": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"1C19DBA9498AE2A421C8098F2983AFFE\", \"Green\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Option.Item.Rare",
+		"Color":
+		{
+			"B": 114,
+			"G": 223,
+			"R": 117,
+			"A": 255
+		},
+		"DisplayName": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"76B2685A40A106FD2E1E7184F7D35B5A\", \"Leaf\")",
+		"DescriptionRichText": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"F7959A0E4A0CBBB22377349F83361FC2\", \"Default Rare Item Colour\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Option.Sage",
+		"Color":
+		{
+			"B": 128,
+			"G": 192,
+			"R": 128,
+			"A": 255
+		},
+		"DisplayName": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"9ED6642945CC0BB722D10B9625BC8217\", \"Sage\")",
+		"DescriptionRichText": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"E1A5C48F4787333396289197028B1B83\", \"Sage\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Option.Social.Player2",
+		"Color":
+		{
+			"B": 191,
+			"G": 231,
+			"R": 60,
+			"A": 255
+		},
+		"DisplayName": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"D74838CD4B87C45E19CE779DFE5E372E\", \"Cyan\")",
+		"DescriptionRichText": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"5C1C89724A4619059D12BBB560DA75BB\", \"Default Player 2 Colour\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Option.Gameplay.Itempower",
+		"Color":
+		{
+			"B": 253,
+			"G": 211,
+			"R": 81,
+			"A": 255
+		},
+		"DisplayName": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"E3A7D8A94738CE44A0A32FA0D1B4920F\", \"Sky\")",
+		"DescriptionRichText": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"839DD5694302A3D60BBA66B6685418A4\", \"Default Friendly Mob Colour\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Option.Item.Special",
+		"Color":
+		{
+			"B": 254,
+			"G": 162,
+			"R": 44,
+			"A": 255
+		},
+		"DisplayName": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"0588DE2D44703C94709FABBCB4F7486E\", \"Azure\")",
+		"DescriptionRichText": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"958FBAB644256BF78489888276278C9B\", \"Default Special Item Colour\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Option.Blue",
+		"Color":
+		{
+			"B": 255,
+			"G": 0,
+			"R": 0,
+			"A": 255
+		},
+		"DisplayName": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"114292DC487470BC800701BC30CED469\", \"Blue\")",
+		"DescriptionRichText": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"62CE5A4040BA8EB8498EAD824B6C67E6\", \"Blue\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Option.Midnight",
+		"Color":
+		{
+			"B": 128,
+			"G": 0,
+			"R": 0,
+			"A": 255
+		},
+		"DisplayName": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"0A4E8E2E49584D9D35E1A4A0D9CF89F7\", \"Midnight\")",
+		"DescriptionRichText": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"1E2A153A493C042BB8106E8018750C06\", \"Midnight\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Option.Void",
+		"Color":
+		{
+			"B": 128,
+			"G": 0,
+			"R": 64,
+			"A": 255
+		},
+		"DisplayName": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"2CC3966A41D67576747955B03F60DE0C\", \"Void\")",
+		"DescriptionRichText": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"433DE06E44B9F0B571DC238DF87325E1\", \"Void\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Option.Purple",
+		"Color":
+		{
+			"B": 255,
+			"G": 0,
+			"R": 128,
+			"A": 255
+		},
+		"DisplayName": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"F2CF0E594F7E6FE4F2207BA019EA2C5B\", \"Purple\")",
+		"DescriptionRichText": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"8818C4CA4EC56CD233EAB0B633BB7494\", \"Purple\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Option.Social.Player4",
+		"Color":
+		{
+			"B": 255,
+			"G": 126,
+			"R": 135,
+			"A": 255
+		},
+		"DisplayName": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"88AAD3DE4CDA69D67E5E2499CF0A1AD6\", \"Lilac\")",
+		"DescriptionRichText": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"F22BE7E442700E2C832326A841E0BB8F\", \"Default Player 4 Colour\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Option.Gameplay.Enchantment",
+		"Color":
+		{
+			"B": 245,
+			"G": 91,
+			"R": 198,
+			"A": 255
+		},
+		"DisplayName": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"3A62494E491FB41E99AE1FAB57969A33\", \"Magenta\")",
+		"DescriptionRichText": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"7AC306DE43FFE332652EEBB6879B2386\", \"Magenta\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Option.Social.Player3",
+		"Color":
+		{
+			"B": 193,
+			"G": 101,
+			"R": 251,
+			"A": 255
+		},
+		"DisplayName": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"912E8C424FBC4586421B508C56AC6BD9\", \"Pink\")",
+		"DescriptionRichText": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"6D4DCBA6447881A2B23BA2ACC45086B5\", \"Default Player 3 Colour\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Option.Social.PlayerSolo",
+		"Color":
+		{
+			"B": 255,
+			"G": 255,
+			"R": 255,
+			"A": 255
+		},
+		"DisplayName": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"7CF071954C8B9CF80E3D6DBF6CFC6505\", \"White\")",
+		"DescriptionRichText": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"F4DA7C0741A845E3B702449BA122ED68\", \"White\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Option.Target.Friendly",
+		"Color":
+		{
+			"B": 128,
+			"G": 128,
+			"R": 128,
+			"A": 255
+		},
+		"DisplayName": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"8B29E78A41AA0C90E24077ACFB0FDF47\", \"Grey\")",
+		"DescriptionRichText": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"C03E78C845BA45218BCC14B51B8F36B7\", \"Grey\")"
+	},
+	{
+		"Name": "SW.UI.DesignToken.Color.Option.Black",
+		"Color":
+		{
+			"B": 0,
+			"G": 0,
+			"R": 0,
+			"A": 255
+		},
+		"DisplayName": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"2695199B44BFB9EA7BF1DD981C31FF40\", \"Black\")",
+		"DescriptionRichText": "NSLOCTEXT(\"[8D6E3B1093108665F894DB610FA61603]\", \"3BD6BA494C06F5039F4D08849CC748D6\", \"Black\")"
+	}
+]

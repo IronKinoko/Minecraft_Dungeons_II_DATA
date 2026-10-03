@@ -1,0 +1,6573 @@
+[
+	{
+		"Name": "WarHammer",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.WarHammer"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Tank"
+				},
+				{
+					"TagName": "SW.Item.Property.HeavyWeapon"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.WarHammer_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Warhammer/T_UI_Warhammer_Icon.T_UI_Warhammer_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_WarHammer_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_WarHammer_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Pike",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Pike"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Item.Property.MediumWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Ranger"
+				},
+				{
+					"TagName": "SW.Archetype.Summoner"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.Pike_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Pike/T_UI_Pike_Icon.T_UI_Pike_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Pike_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Pike_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Sword",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Sword"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Fighter"
+				},
+				{
+					"TagName": "SW.Item.Property.MediumWeapon"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.Sword_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Sword/T_UI_Sword_Icon.T_UI_Sword_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Sword_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Sword_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Gauntlet",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Gauntlet"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Archetype.Fighter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.Gauntlet_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Gauntlet/T_UI_Gauntlets_Icon.T_UI_Gauntlets_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Gauntlet_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Gauntlet_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Daggers",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Daggers"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.LightWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Support"
+				},
+				{
+					"TagName": "SW.Archetype.Ranger"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.Daggers_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Daggers/T_UI_Daggers_Icon.T_UI_Daggers_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Daggers_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Daggers_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Axe",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Axe"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Item.Property.MediumWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Ranger"
+				},
+				{
+					"TagName": "SW.Archetype.Summoner"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.Axe_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Axe/T_UI_Axe_Icon.T_UI_Axe_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Axe_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Axe_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "ShortSpear",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.ShortSpear"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Item.Property.MediumWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Ranger"
+				},
+				{
+					"TagName": "SW.Archetype.Summoner"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.ShortSpear_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Shortspear/T_UI_Shortspear_Icon.T_UI_Shortspear_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_ShortSpear_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_ShortSpear_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Pickaxe",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Pickaxe"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Item.Property.MediumWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Support"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.Pickaxe_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Pickaxe/T_UI_Pickaxe_Icon.T_UI_Pickaxe_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Pickaxe_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Pickaxe_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Rapier",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Rapier"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Trickster"
+				},
+				{
+					"TagName": "SW.Item.Property.LightWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Support"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.Rapier_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Rapier/T_UI_Rapier_Icon.T_UI_Rapier_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Rapier_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Rapier_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "WarHammer_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.WarHammer_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Tank"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.HeavyWeapon"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.ExplosiveStrike.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.ExplosiveStrike"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Warhammer/Warhammer_Unique/T_UI_Warhammer_Unique_Icon.T_UI_Warhammer_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_WarHammer_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_WarHammer_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Pike_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Pike_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.MediumWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Mage"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.LightningFocus.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.LightningFocus"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Pike/Pike_Unique/T_UI_Pike_Unique_Icon.T_UI_Pike_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Pike_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Pike_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Sword_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Sword_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Fighter"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.MediumWeapon"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.FireFocus.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.FireFocus"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Sword/Sword_Unique/T_UI_Sword_Unique_Icon.T_UI_Sword_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Sword_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Sword_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Gauntlet_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Gauntlet_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Archetype.Fighter"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Enchantment.MaulerDive"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Enchantment"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Gauntlet/Gauntlet_Unique/T_UI_Gauntlets_Unique_Icon.T_UI_Gauntlets_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Gauntlet_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Gauntlet_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Daggers_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Daggers_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Archetype.Trickster"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.LightWeapon"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.PoisonFocus.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.PoisonFocus"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Daggers/Daggers_Unique/T_UI_Daggers_Unique_Icon.T_UI_Daggers_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Daggers_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Daggers_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Axe_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Axe_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.MediumWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Ranger"
+				},
+				{
+					"TagName": "SW.Archetype.Summoner"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Reconstruction.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.Reconstruction"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Axe/Axe_Unique/T_UI_Axe_Unique_Icon.T_UI_Axe_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Axe_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Axe_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "ShortSpear_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.ShortSpear_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.MediumWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Ranger"
+				},
+				{
+					"TagName": "SW.Archetype.Summoner"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Enchantment.PhantomLance"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Enchantment"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Shortspear/Shortspear_Unique/T_UI_Shortspear_Unique_Icon.T_UI_Shortspear_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_ShortSpear_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_ShortSpear_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "GiantClub_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.GiantClub_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Tank"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.HeavyWeapon"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Enchantment.FlameBelch.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Enchantment.FlameBelch"
+				},
+				{
+					"TagName": "SW.Enchantment"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/GiantClub/GiantClub_Unique/T_UI_GiantClub_Unique_Icon.T_UI_GiantClub_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_GiantClub_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_GiantClub_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Pickaxe_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Pickaxe_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.MediumWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Support"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Prospector.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.Prospector"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Pickaxe/Pickaxe_Unique/T_UI_Pickaxe_Unique_Icon.T_UI_Pickaxe_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Pickaxe_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Pickaxe_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Rapier_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Rapier_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Trickster"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.LightWeapon"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.RapidStrike.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.RapidStrike"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Rapier/Rapier_Unique/T_UI_Rapier_Unique_Icon.T_UI_Rapier_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Rapier_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Rapier_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Claymore",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Claymore"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Fighter"
+				},
+				{
+					"TagName": "SW.Item.Property.HeavyWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Tank"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.Claymore_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Claymore/T_UI_Claymore_Icon.T_UI_Claymore_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Claymore_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Claymore_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Greatsword",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Greatsword"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Fighter"
+				},
+				{
+					"TagName": "SW.Archetype.Tank"
+				},
+				{
+					"TagName": "SW.Item.Property.HeavyWeapon"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.Greatsword_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Greatsword/T_UI_Greatsword_Icon.T_UI_Greatsword_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Greatsword_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Greatsword_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Claws",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Claws"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Trickster"
+				},
+				{
+					"TagName": "SW.Item.Property.LightWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Summoner"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.Claws_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Claws/T_UI_Claws_Icon.T_UI_Claws_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Claws_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Claws_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Glaive",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Glaive"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Item.Property.HeavyWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Tank"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.Glaive_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Glaive/T_UI_Glaive_Icon.T_UI_Glaive_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Glaive_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Glaive_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Battlestaff",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Battlestaff"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Mage"
+				},
+				{
+					"TagName": "SW.Item.Property.HeavyWeapon"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.Battlestaff_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Battlestaff/T_UI_Battlestaff_Icon.T_UI_Battlestaff_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Battlestaff_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Battlestaff_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Cleaver",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Cleaver"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Item.Property.MediumWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Summoner"
+				},
+				{
+					"TagName": "SW.Archetype.Support"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.Cleaver_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Cleaver/T_UI_Cleaver_Icon.T_UI_Cleaver_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Cleaver_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Cleaver_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Sickles",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Sickles"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Trickster"
+				},
+				{
+					"TagName": "SW.Item.Property.LightWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Summoner"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.Sickles_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Sickles/T_UI_Sickles_Icon.T_UI_Sickles_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Sickles_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Sickles_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Scythe",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Scythe"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Item.Property.MediumWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Mage"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.Scythe_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Scythe/T_UI_Scythe_Icon.T_UI_Scythe_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Scythe_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Scythe_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "GiantClub",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.GiantClub"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Tank"
+				},
+				{
+					"TagName": "SW.Item.Property.HeavyWeapon"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.GiantClub_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/GiantClub/T_UI_GiantClub_Icon.T_UI_GiantClub_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_GiantClub_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_GiantClub_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "CurvedGreatsword",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.CurvedGreatsword"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Trickster"
+				},
+				{
+					"TagName": "SW.Archetype.Fighter"
+				},
+				{
+					"TagName": "SW.Item.Property.HeavyWeapon"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.CurvedGreatsword_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/CurvedGreatsword/T_UI_CurvedGreatsword_Icon.T_UI_CurvedGreatsword_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_CurvedGreatsword_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_CurvedGreatsword_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "GiantMallet",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.GiantMallet"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Tank"
+				},
+				{
+					"TagName": "SW.Item.Property.HeavyWeapon"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.GiantMallet_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/GiantMallet/T_UI_GiantMallet_Icon.T_UI_GiantMallet_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_GiantMallet_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_GiantMallet_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "StraightSword",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.StraightSword"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Item.Property.MediumWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Mage"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.StraightSword_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Straightsword/T_UI_Straightsword_Icon.T_UI_Straightsword_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_StraightSword_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_StraightSword_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "CurvedLongsword",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.CurvedLongsword"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Fighter"
+				},
+				{
+					"TagName": "SW.Item.Property.MediumWeapon"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.CurvedLongsword_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/CurvedLongsword/T_UI_CurvedLongsword_Icon.T_UI_CurvedLongsword_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_CurvedLongsword_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_CurvedLongsword_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Shovel",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Shovel"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Tank"
+				},
+				{
+					"TagName": "SW.Item.Property.HeavyWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Support"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.Shovel_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Shovel/T_UI_Shovel_Icon.T_UI_Shovel_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Shovel_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Shovel_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Mace",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Mace"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Tank"
+				},
+				{
+					"TagName": "SW.Item.Property.MediumWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Summoner"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.Mace_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Mace/T_UI_Mace_Icon.T_UI_Mace_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Mace_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Mace_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Dagger",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Dagger"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Item.Property.LightWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Mage"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.Dagger_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Dagger/T_UI_Dagger_Icon.T_UI_Dagger_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Dagger_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Dagger_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Sabre",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Sabre"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Fighter"
+				},
+				{
+					"TagName": "SW.Item.Property.MediumWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Support"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.Sabre_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Sabre/T_UI_Sabre_Icon.T_UI_Sabre_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Sabre_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Sabre_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Hammer",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Hammer"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Tank"
+				},
+				{
+					"TagName": "SW.Item.Property.MediumWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Support"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.Hammer_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Hammer/T_UI_Hammer_Icon.T_UI_Hammer_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Hammer_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Hammer_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Moonsword",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.MoonSword"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Mage"
+				},
+				{
+					"TagName": "SW.Item.Property.HeavyWeapon"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.MoonSword_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Moonsword/T_UI_Moonsword_Icon.T_UI_Moonsword_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_MoonSword_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_MoonSword_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "GreatAxe",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.GreatAxe"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Fighter"
+				},
+				{
+					"TagName": "SW.Item.Property.HeavyWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Support"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"GameplayEffect":
+		{
+		},
+		"UniqueSubstitutionData":
+		{
+			"UniqueSubstitution":
+			{
+				"TagName": "SW.Item.GreatAxe_Unique1"
+			}
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Greataxe/T_UI_Greataxe_Icon.T_UI_Greataxe_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_GreatAxe_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_GreatAxe_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Claymore_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Claymore_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Fighter"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.HeavyWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Tank"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.SweepingEdge.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.SweepingEdge"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Claymore/Claymore_Unique/T_UI_Claymore_Unique_Icon.T_UI_Claymore_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Claymore_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Claymore_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Greatsword_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Greatsword_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Fighter"
+				},
+				{
+					"TagName": "SW.Archetype.Tank"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.HeavyWeapon"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Enchantment.GravityPulse.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Enchantment.GravityPulse"
+				},
+				{
+					"TagName": "SW.Enchantment"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Greatsword/Greatsword_Unique/T_UI_Greatsword_Unique_Icon.T_UI_Greatsword_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Greatsword_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Greatsword_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Claws_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Claws_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Trickster"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.LightWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Summoner"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Enchantment.ClawingShadow.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Enchantment.ClawingShadow"
+				},
+				{
+					"TagName": "SW.Enchantment"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Claws/Claws_unique/T_UI_Claws_Unique_Icon.T_UI_Claws_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Claws_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Claws_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Glaive_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Glaive_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.HeavyWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Tank"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Vanguard.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.Vanguard"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Glaive/Glaive_Unique/T_UI_Glaive_Unique_Icon.T_UI_Glaive_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Glaive_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Glaive_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Battlestaff_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Battlestaff_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Mage"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.HeavyWeapon"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.ElementalHit.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.ElementalHit"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Battlestaff/Battlestaff_Unique/T_UI_Battlestaff_Unique_Icon.T_UI_Battlestaff_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Battlestaff_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Battlestaff_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Cleaver_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Cleaver_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.MediumWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Summoner"
+				},
+				{
+					"TagName": "SW.Archetype.Support"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.AnimaConduit.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.AnimaConduit"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Cleaver/Cleaver_Unique/T_UI_Cleaver_Unique_Icon.T_UI_Cleaver_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Cleaver_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Cleaver_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Sickles_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Sickles_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Trickster"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.LightWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Summoner"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.HealingFocus.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.HealingFocus"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Sickles/Sickles_Unique/T_UI_Sickles_Unique_Icon.T_UI_Sickles_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Sickles_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Sickles_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Scythe_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Scythe_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.MediumWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Mage"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.SoulSiphon.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.SoulSiphon"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Scythe/Scythe_Unique/T_UI_Scythe_Unique_Icon.T_UI_Scythe_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Scythe_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Scythe_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "CurvedGreatsword_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.CurvedGreatsword_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.HeavyWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Mage"
+				},
+				{
+					"TagName": "SW.Archetype.Support"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.SoulCurse"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/CurvedGreatsword/CurvedGreatsword_Unique/T_UI_CurvedGreatsword_Unique_Icon.T_UI_CurvedGreatsword_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_CurvedGreatsword_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_CurvedGreatsword_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "GiantMallet_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.GiantMallet_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Tank"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.HeavyWeapon"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Effecttemplate.Protection.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.Protection"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/GiantMallet/GiantMallet_Unique/T_UI_GiantMallet_Unique_Icon.T_UI_GiantMallet_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_GiantMallet_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_GiantMallet_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "StraightSword_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.StraightSword_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.MediumWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Mage"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.FrostFocus.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.FrostFocus"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Straightsword/Straightsword_Unique/T_UI_Straightsword_Unique_Icon.T_UI_Straightsword_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_StraightSword_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_StraightSword_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "CurvedLongsword_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.CurvedLongsword_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Fighter"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.MediumWeapon"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Duelist.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.Duelist"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/CurvedLongsword/CurvedLongsword_Unique/T_UI_CurvedLongsword_Unique_Icon.T_UI_CurvedLongsword_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_CurvedLongsword_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_CurvedLongsword_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Shovel_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Shovel_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Tank"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.HeavyWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Support"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Enchantment.Shockwave.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Enchantment.Shockwave"
+				},
+				{
+					"TagName": "SW.Enchantment"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Shovel/Shovel_Unique/T_UI_Shovel_Unique_Icon.T_UI_Shovel_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Shovel_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Shovel_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Mace_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Mace_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Tank"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.MediumWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Summoner"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Finesse.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.Finesse"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Mace/Mace_Unique/T_UI_Mace_Unique_Icon.T_UI_Mace_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Mace_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Mace_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Dagger_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Dagger_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.LightWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Mage"
+				},
+				{
+					"TagName": "SW.Archetype.Trickster"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.SoulFocus.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.SoulFocus"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Dagger/Dagger_Unique/T_UI_Dagger_Unique_Icon.T_UI_Dagger_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Dagger_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Dagger_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Sabre_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Sabre_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Trickster"
+				},
+				{
+					"TagName": "SW.Archetype.Fighter"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.MediumWeapon"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Acrobat.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.Acrobat"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Sabre/Sabre_Unique/T_UI_Sabre_Unique_Icon.T_UI_Sabre_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Sabre_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Sabre_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Hammer_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Hammer_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Tank"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.MediumWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Support"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Opulence.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.Opulence"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Hammer/Hammer_Unique/T_UI_Hammer_Unique_Icon.T_UI_Hammer_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Hammer_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_Hammer_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Moonsword_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.MoonSword_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Mage"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.HeavyWeapon"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.Reeling.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.Reeling"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Moonsword/Moonsword_Unique/T_UI_Moonsword_Unique_Icon.T_UI_Moonsword_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_MoonSword_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_MoonSword_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "GreatAxe_Unique1",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.GreatAxe_Unique1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.MeleeWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Fighter"
+				},
+				{
+					"TagName": "SW.Item.Property.Unique"
+				},
+				{
+					"TagName": "SW.Item.Property.HeavyWeapon"
+				},
+				{
+					"TagName": "SW.Archetype.Support"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Archetype"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PossibleRarities"
+				},
+				"Type": "GameplayTagContainer",
+				"GameplayTagContainer":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Rarity.Unique"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Rarity"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				}
+			}
+		],
+		"GameplayEffect":
+		{
+		},
+		"Effects":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.EffectTemplate.StrenghteningStrike.Unique"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.EffectTemplate.StrenghteningStrike"
+				},
+				{
+					"TagName": "SW.EffectTemplate"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Weapons/Greataxe/Greataxe_Unique/T_UI_Greataxe_Unique_Icon.T_UI_Greataxe_Unique_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_GreatAxe_Unique1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionMelee.csv\", \"SW_Item_GreatAxe_Unique1_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AdditionalAssets":
+		{
+			"Name": "None"
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		}
+	}
+]

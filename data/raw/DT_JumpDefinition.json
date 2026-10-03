@@ -1,0 +1,35 @@
+[
+	{
+		"Name": "Jump1",
+		"TypeTag":
+		{
+			"TagName": "SW.Jump.Variant.1"
+		},
+		"JumpData":
+		{
+			"Delay": 0
+		}
+	},
+	{
+		"Name": "Jump2",
+		"TypeTag":
+		{
+			"TagName": "SW.Jump.Variant.2"
+		},
+		"JumpData":
+		{
+			"Delay": 0
+		}
+	},
+	{
+		"Name": "Jump3",
+		"TypeTag":
+		{
+			"TagName": "SW.Jump.Variant.3"
+		},
+		"JumpData":
+		{
+			"Delay": 0
+		}
+	}
+]

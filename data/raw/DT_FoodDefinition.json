@@ -1,0 +1,781 @@
+[
+	{
+		"Name": "Apple",
+		"TagList":
+		{
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Consumable.Food.Apple"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Consumable.Food"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Consumable"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Items/Consumable/BP_Apple.BP_Apple_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.HealPercentage"
+				},
+				"Type": "Float",
+				"Float": 0.4
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PeriodicHealPercentage"
+				},
+				"Type": "Float",
+				"Float": 0
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.EffectDuration"
+				},
+				"Type": "Float",
+				"Float": 0
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ValidGameplayCues"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "GameplayCue.SW.Trigger.Potion.Health"
+				}
+			}
+		],
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_FoodDefinition.csv\", \"SW_Item_Consumable_Food_Apple_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_FoodDefinition.csv\", \"SW_Item_Consumable_Food_Apple_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ConsumableType/ConsumableType-Apple.ConsumableType-Apple",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Consumables/2_consumable_pickUp/sfx_consumable_pickUp.sfx_consumable_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Consumable.Pickup"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Consumables/1_consumable_drop/sfx_consumable_drop.sfx_consumable_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Consumable.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		}
+	},
+	{
+		"Name": "Carrot",
+		"TagList":
+		{
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Consumable.Food.Carrot"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Consumable.Food"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Consumable"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Items/Consumable/BP_Carrot.BP_Carrot_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.HealPercentage"
+				},
+				"Type": "Float",
+				"Float": 0.3
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PeriodicHealPercentage"
+				},
+				"Type": "Float",
+				"Float": 0
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.EffectDuration"
+				},
+				"Type": "Float",
+				"Float": 0
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ValidGameplayCues"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "GameplayCue.SW.Trigger.Potion.Health"
+				}
+			}
+		],
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_FoodDefinition.csv\", \"SW_Item_Consumable_Food_Carrot_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_FoodDefinition.csv\", \"SW_Item_Consumable_Food_Carrot_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ConsumableType/ConsumableType-Carrot.ConsumableType-Carrot",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Consumables/2_consumable_pickUp/sfx_consumable_pickUp.sfx_consumable_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Consumable.Pickup"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Consumables/1_consumable_drop/sfx_consumable_drop.sfx_consumable_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Consumable.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		}
+	},
+	{
+		"Name": "Food",
+		"TagList":
+		{
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Consumable.Food"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Consumable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "None",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "SW.AbilityCallsign.ConsumeFood"
+			}
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.HealPercentage"
+				},
+				"Type": "Float",
+				"Float": 0
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PeriodicHealPercentage"
+				},
+				"Type": "Float",
+				"Float": 0
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.EffectDuration"
+				},
+				"Type": "Float",
+				"Float": 0
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ValidGameplayCues"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "None"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Consumable.Pickup"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Consumable.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		}
+	},
+	{
+		"Name": "Melon",
+		"TagList":
+		{
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Consumable.Food.Melon"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Consumable.Food"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Consumable"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Items/Consumable/BP_Melon.BP_Melon_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.HealPercentage"
+				},
+				"Type": "Float",
+				"Float": 0.2
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PeriodicHealPercentage"
+				},
+				"Type": "Float",
+				"Float": 0
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.EffectDuration"
+				},
+				"Type": "Float",
+				"Float": 0
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ValidGameplayCues"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "GameplayCue.SW.Trigger.Potion.Health"
+				}
+			}
+		],
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_FoodDefinition.csv\", \"SW_Item_Consumable_Food_Melon_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_FoodDefinition.csv\", \"SW_Item_Consumable_Food_Melon_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ConsumableType/ConsumableType-Melon.ConsumableType-Melon",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Consumables/2_consumable_pickUp/sfx_consumable_pickUp.sfx_consumable_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Consumable.Pickup"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Consumables/1_consumable_drop/sfx_consumable_drop.sfx_consumable_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Consumable.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		}
+	},
+	{
+		"Name": "Potato",
+		"TagList":
+		{
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Consumable.Food.Potato"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Consumable.Food"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Consumable"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Items/Consumable/BP_Potato.BP_Potato_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.HealPercentage"
+				},
+				"Type": "Float",
+				"Float": 0.1
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PeriodicHealPercentage"
+				},
+				"Type": "Float",
+				"Float": 0
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.EffectDuration"
+				},
+				"Type": "Float",
+				"Float": 0
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ValidGameplayCues"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "GameplayCue.SW.Trigger.Potion.Health"
+				}
+			}
+		],
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_FoodDefinition.csv\", \"SW_Item_Consumable_Food_Potato_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_FoodDefinition.csv\", \"SW_Item_Consumable_Food_Potato_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ConsumableType/ConsumableType-Potato.ConsumableType-Potato",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Consumables/2_consumable_pickUp/sfx_consumable_pickUp.sfx_consumable_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Consumable.Pickup"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Consumables/1_consumable_drop/sfx_consumable_drop.sfx_consumable_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Consumable.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		}
+	},
+	{
+		"Name": "PumpkinPie",
+		"TagList":
+		{
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Consumable.Food.PumpkinPie"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Consumable.Food"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Consumable"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Items/Consumable/BP_PumpkinPie.BP_PumpkinPie_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.HealPercentage"
+				},
+				"Type": "Float",
+				"Float": 0.5
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PeriodicHealPercentage"
+				},
+				"Type": "Float",
+				"Float": 0
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.EffectDuration"
+				},
+				"Type": "Float",
+				"Float": 0
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ValidGameplayCues"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "GameplayCue.SW.Trigger.Potion.Health"
+				}
+			}
+		],
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_FoodDefinition.csv\", \"SW_Item_Consumable_Food_PumpkinPie_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_FoodDefinition.csv\", \"SW_Item_Consumable_Food_PumpkinPie_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Items/ConsumableType/ConsumableType-PumpkinPie.ConsumableType-PumpkinPie",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Consumables/2_consumable_pickUp/sfx_consumable_pickUp.sfx_consumable_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Consumable.Pickup"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Consumables/1_consumable_drop/sfx_consumable_drop.sfx_consumable_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Consumable.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		}
+	},
+	{
+		"Name": "SoulPotato",
+		"TagList":
+		{
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Consumable.Food.SoulPotato"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Consumable.Food"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.ExceptFromDefaultLootTables"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Consumable"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Items/Consumable/BP_SoulPotato.BP_SoulPotato_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.HealPercentage"
+				},
+				"Type": "Float",
+				"Float": 0.3
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.PeriodicHealPercentage"
+				},
+				"Type": "Float",
+				"Float": 0.02
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.EffectDuration"
+				},
+				"Type": "Float",
+				"Float": 1
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ValidGameplayCues"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "None"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		}
+	}
+]

@@ -1,0 +1,3674 @@
+[
+	{
+		"Name": "BaseArmor",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Voyager.ArmorType-Voyager",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Armor.Pickup"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Armor.Drop"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.Armor"
+		},
+		"ActorReference": "None"
+	},
+	{
+		"Name": "caveCrawlerHelmet",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-caveCrawler.ArmorType-caveCrawler",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.CaveCrawlerHelmet"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Cavecrawler_Armor/CavecrawlerHelmet/BP_CaveCrawlerHelmet.BP_CaveCrawlerHelmet_C"
+	},
+	{
+		"Name": "caveCrawlerChest",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-caveCrawler.ArmorType-caveCrawler",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.CaveCrawlerChest"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Cavecrawler_Armor/CavecrawlerChest/BP_CaveCrawlerChest.BP_CaveCrawlerChest_C"
+	},
+	{
+		"Name": "caveCrawlerLeggings",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-caveCrawler.ArmorType-caveCrawler",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.CaveCrawlerLeggings"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Cavecrawler_Armor/CavecrawlerLeggings/BP_CaveCrawlerLeggings.BP_CaveCrawlerLeggings_C"
+	},
+	{
+		"Name": "caveCrawlerBoots",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-caveCrawler.ArmorType-caveCrawler",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.CaveCrawlerBoots"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Cavecrawler_Armor/CavecrawlerBoots/BP_CaveCrawlerBoots.BP_CaveCrawlerBoots_C"
+	},
+	{
+		"Name": "ScampHelmet",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Scamp.ArmorType-Scamp",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.ScampHelmet"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Scamp_Armor/ScampArmor_Helmet/BP_ScampArmorHelmet.BP_ScampArmorHelmet_C"
+	},
+	{
+		"Name": "ScampChest",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Scamp.ArmorType-Scamp",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.ScampChest"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Scamp_Armor/ScampArmor_Chest/BP_ScampArmor_Chest.BP_ScampArmor_Chest_C"
+	},
+	{
+		"Name": "ScampLeggings",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Scamp.ArmorType-Scamp",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.ScampLeggings"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Scamp_Armor/ScampArmor_Leggings/BP_ScampArmorLeggings.BP_ScampArmorLeggings_C"
+	},
+	{
+		"Name": "ScampBoots",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Scamp.ArmorType-Scamp",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.ScampBoots"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Scamp_Armor/ScampArmor_Boots/BP_ScampArmorBoots.BP_ScampArmorBoots_C"
+	},
+	{
+		"Name": "VoyagerBoots",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Voyager.ArmorType-Voyager",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.VoyagerBoots"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Voyagers_Armor/VoyagerArmor_Boots/BP_VoyagerBoots.BP_VoyagerBoots_C"
+	},
+	{
+		"Name": "VoyagerChest",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Voyager.ArmorType-Voyager",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.VoyagerChest"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Voyagers_Armor/VoyagerArmor_Chest/BP_VoyagerChest.BP_VoyagerChest_C"
+	},
+	{
+		"Name": "VoyagerLeggings",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Voyager.ArmorType-Voyager",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.VoyagerLeggings"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Voyagers_Armor/VoyagerArmor_Leggings/BP_VoyagerLeggings.BP_VoyagerLeggings_C"
+	},
+	{
+		"Name": "VoyagerHelmet",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Voyager.ArmorType-Voyager",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.VoyagerHelmet"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Voyagers_Armor/VoyagerArmor_Helmet/BP_VoyagerHelmet.BP_VoyagerHelmet_C"
+	},
+	{
+		"Name": "RealmreacherBoots",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Realmreacher.ArmorType-Realmreacher",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.RealmreacherBoots"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Realmreacher_Armor/RealmReacherBoots/BP_RealmreacherBoots.BP_RealmreacherBoots_C"
+	},
+	{
+		"Name": "RealmreacherHelmet",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Realmreacher.ArmorType-Realmreacher",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.RealmreacherHelmet"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Realmreacher_Armor/RealmReacherHelmet/BP_RealmreacherHelmet.BP_RealmreacherHelmet_C"
+	},
+	{
+		"Name": "WolfclutchBoots",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Wolfclutch.ArmorType-Wolfclutch",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.WolfclutchBoots"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Wolfclutch_Armor/Wolfclutch_Boots/BP_Wolfclutch_Boots.BP_Wolfclutch_Boots_C"
+	},
+	{
+		"Name": "WolfclutchChest",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Wolfclutch.ArmorType-Wolfclutch",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.WolfclutchChest"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Wolfclutch_Armor/Wolfclutch_Chest/BP_WolfclutchChestplate.BP_WolfclutchChestplate_C"
+	},
+	{
+		"Name": "WolfclutchHelmet",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Wolfclutch.ArmorType-Wolfclutch",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.WolfclutchHelmet"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Wolfclutch_Armor/Wolfclutch_Helmet/BP_WolfclutchHelmet.BP_WolfclutchHelmet_C"
+	},
+	{
+		"Name": "WolfclutchLeggings",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Wolfclutch.ArmorType-Wolfclutch",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.WolfclutchLeggings"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Wolfclutch_Armor/Wolfclutch_Leggins/BP_WolfclutchLeggings.BP_WolfclutchLeggings_C"
+	},
+	{
+		"Name": "FrostrimeHelmet",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-Frostrime.ArmorType-Frostrime",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.FrostRimeHelmet"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Frostrime_Armor/FrostrimeHelmet/BP_FrostrimeHelmet.BP_FrostrimeHelmet_C"
+	},
+	{
+		"Name": "FrostrimeChest",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-Frostrime.ArmorType-Frostrime",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.FrostRimeChest"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Frostrime_Armor/FrostrimeChest/BP_FrostrimeChest.BP_FrostrimeChest_C"
+	},
+	{
+		"Name": "FrostrimeLeggings",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-Frostrime.ArmorType-Frostrime",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.FrostRimeLeggings"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Frostrime_Armor/FrostrimeLeggings/BP_FrostrimeLeggings.BP_FrostrimeLeggings_C"
+	},
+	{
+		"Name": "FrostrimeBoots",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-Frostrime.ArmorType-Frostrime",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.FrostRimeBoots"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Frostrime_Armor/FrostrimeBoots/BP_FrostrimeBoots.BP_FrostrimeBoots_C"
+	},
+	{
+		"Name": "UndauntedBoots",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-Undaunted.ArmorType-Undaunted",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.UndauntedBoots"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Undaunted_Armor/UndauntedBoots/BP_UndauntedBoots.BP_UndauntedBoots_C"
+	},
+	{
+		"Name": "UndauntedHelmet",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-Undaunted.ArmorType-Undaunted",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.UndauntedHelmet"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Undaunted_Armor/UndauntedHelmet/BP_UndauntedHelmet.BP_UndauntedHelmet_C"
+	},
+	{
+		"Name": "UndauntedLeggings",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-Undaunted.ArmorType-Undaunted",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.UndauntedLeggings"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Undaunted_Armor/UndauntedLeggings/BP_UndauntedLeggings.BP_UndauntedLeggings_C"
+	},
+	{
+		"Name": "UndauntedChest",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-Undaunted.ArmorType-Undaunted",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.UndauntedChest"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Undaunted_Armor/UndauntedChest/BP_UndauntedChest.BP_UndauntedChest_C"
+	},
+	{
+		"Name": "UndauntedHelmet_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-UndauntedUnique.ArmorType-UndauntedUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.UndauntedHelmet_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Undaunted_Armor/Unique/UndauntedHelmet_Unique/BP_UndauntedHelmet_Unique.BP_UndauntedHelmet_Unique_C"
+	},
+	{
+		"Name": "UndauntedChest_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-UndauntedUnique.ArmorType-UndauntedUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.UndauntedChest_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Undaunted_Armor/Unique/UndauntedChest_Unique/BP_UndauntedChestpiece_Unique.BP_UndauntedChestpiece_Unique_C"
+	},
+	{
+		"Name": "UndauntedLeggings_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-UndauntedUnique.ArmorType-UndauntedUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.UndauntedLeggings_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Undaunted_Armor/Unique/UndauntedLeggings_Unique/BP_UndauntedLeggings_Unique.BP_UndauntedLeggings_Unique_C"
+	},
+	{
+		"Name": "UndauntedBoots_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-UndauntedUnique.ArmorType-UndauntedUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.UndauntedBoots_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Undaunted_Armor/Unique/UndauntedBoots_Unique/BP_UndauntedBoots_Unique.BP_UndauntedBoots_Unique_C"
+	},
+	{
+		"Name": "FrostrimeHelmet_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-FrostrimeUnique.ArmorType-FrostrimeUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.FrostRimeHelmet_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Frostrime_Armor/Unique/FrostrimeHelmet_Unique/BP_FrostrimeHelmet_Unqiue.BP_FrostrimeHelmet_Unqiue_C"
+	},
+	{
+		"Name": "FrostrimeChest_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-FrostrimeUnique.ArmorType-FrostrimeUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.FrostRimeChest_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Frostrime_Armor/Unique/FrostrimeChest_Unique/BP_FrostrimeChest_Unique.BP_FrostrimeChest_Unique_C"
+	},
+	{
+		"Name": "FrostrimeLeggings_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-FrostrimeUnique.ArmorType-FrostrimeUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.FrostRimeLeggings_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Frostrime_Armor/Unique/FrostrimeLeggings_Unique/BP_FrostrimeLeggings_Unique.BP_FrostrimeLeggings_Unique_C"
+	},
+	{
+		"Name": "FrostrimeBoots_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-FrostrimeUnique.ArmorType-FrostrimeUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.FrostRimeBoots_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Frostrime_Armor/Unique/FrostrimeBoots_Unique/BP_FrostrimeBoots_Unique.BP_FrostrimeBoots_Unique_C"
+	},
+	{
+		"Name": "ScampBoots_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-ScampUnique.ArmorType-ScampUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.ScampBoots_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Scamp_Armor/Unique/ScampArmor_Boots_Unique/BP_ScampArmorBoots_Unique.BP_ScampArmorBoots_Unique_C"
+	},
+	{
+		"Name": "ScampHelmet_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-ScampUnique.ArmorType-ScampUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.ScampHelmet_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Scamp_Armor/Unique/ScampArmor_Helmet_Unique/BP_ScampArmorHelmet_Unique.BP_ScampArmorHelmet_Unique_C"
+	},
+	{
+		"Name": "ScampChest_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-ScampUnique.ArmorType-ScampUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.ScampChest_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Scamp_Armor/Unique/ScampArmor_Chest_Unique/BP_ScampArmor_Chest_Unique.BP_ScampArmor_Chest_Unique_C"
+	},
+	{
+		"Name": "ScampLeggings_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-ScampUnique.ArmorType-ScampUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.ScampLeggings_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Scamp_Armor/Unique/ScampArmor_Leggings_Unique/BP_ScampArmorLeggings_Unique.BP_ScampArmorLeggings_Unique_C"
+	},
+	{
+		"Name": "VoyagerBoots_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-VoyagerUnique.ArmorType-VoyagerUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.VoyagerBoots_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Voyagers_Armor/Unique/VoyagerBoots_Unique/BP_VoyagerBoots_Unique.BP_VoyagerBoots_Unique_C"
+	},
+	{
+		"Name": "VoyagerChest_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-VoyagerUnique.ArmorType-VoyagerUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.VoyagerChest_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Voyagers_Armor/Unique/VoyagerChest_Unique/BP_VoyagerChestplate_Unique.BP_VoyagerChestplate_Unique_C"
+	},
+	{
+		"Name": "VoyagerHelmet_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-VoyagerUnique.ArmorType-VoyagerUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.VoyagerHelmet_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Voyagers_Armor/Unique/VoyagerHelmet_Unique/BP_VoyagerHelmet_Unique.BP_VoyagerHelmet_Unique_C"
+	},
+	{
+		"Name": "VoyagerLeggings_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-VoyagerUnique.ArmorType-VoyagerUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.VoyagerLeggings_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Voyagers_Armor/Unique/VoyagerLeggings_Unique/BP_VoyagerLeggings_Unique.BP_VoyagerLeggings_Unique_C"
+	},
+	{
+		"Name": "caveCrawlerHelmet_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-caveCrawlerUnique.ArmorType-caveCrawlerUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.CaveCrawlerHelmet_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Cavecrawler_Armor/Unique/CavecrawlerHelmet_Unique/BP_CaveCrawlerHelmet_Unique.BP_CaveCrawlerHelmet_Unique_C"
+	},
+	{
+		"Name": "caveCrawlerChest_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-caveCrawlerUnique.ArmorType-caveCrawlerUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.CaveCrawlerChest_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Cavecrawler_Armor/Unique/CavecrawlerChest_Unique/BP_CaveCrawlerChest_Unique.BP_CaveCrawlerChest_Unique_C"
+	},
+	{
+		"Name": "caveCrawlerLeggings_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-caveCrawlerUnique.ArmorType-caveCrawlerUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.CaveCrawlerLeggings_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Cavecrawler_Armor/Unique/CavecrawlerLeggings_Unique/BP_CaveCrawlerLeggings_Unique.BP_CaveCrawlerLeggings_Unique_C"
+	},
+	{
+		"Name": "caveCrawlerBoots_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-caveCrawlerUnique.ArmorType-caveCrawlerUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.CaveCrawlerBoots_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Cavecrawler_Armor/Unique/CavecrawlerBoots_Unique/BP_CaveCrawlerBoots_Unique.BP_CaveCrawlerBoots_Unique_C"
+	},
+	{
+		"Name": "RealmreacherLeggings",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Realmreacher.ArmorType-Realmreacher",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.RealmreacherLeggings"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Realmreacher_Armor/RealmReacherLeggings/BP_RealmreacherLeggings.BP_RealmreacherLeggings_C"
+	},
+	{
+		"Name": "RealmreacherChest",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Realmreacher.ArmorType-Realmreacher",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.RealmreacherChest"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Realmreacher_Armor/RealmReacherChest/BP_RealmreacherChestplate.BP_RealmreacherChestplate_C"
+	},
+	{
+		"Name": "RealmreacherBoots_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-RealmreacherUnique.ArmorType-RealmreacherUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.RealmreacherBoots_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Realmreacher_Armor/Unique/RealmReacherBoots_Unique/BP_RealmreacherBoots_Unique.BP_RealmreacherBoots_Unique_C"
+	},
+	{
+		"Name": "RealmreacherHelmet_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-RealmreacherUnique.ArmorType-RealmreacherUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.RealmreacherHelmet_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Realmreacher_Armor/Unique/RealmReacherHelmet_Unique/BP_RealmreacherHelmet_Unique.BP_RealmreacherHelmet_Unique_C"
+	},
+	{
+		"Name": "RealmreacherLeggings_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-RealmreacherUnique.ArmorType-RealmreacherUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.RealmreacherLeggings_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Realmreacher_Armor/Unique/RealmReacherLeggings_Unique/BP_RealmreacherLeggings_Unique.BP_RealmreacherLeggings_Unique_C"
+	},
+	{
+		"Name": "RealmreacherChest_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-RealmreacherUnique.ArmorType-RealmreacherUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.RealmreacherChest_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Realmreacher_Armor/Unique/RealmReacherChest_Unique/BP_RealmreacherChestplate_Unique.BP_RealmreacherChestplate_Unique_C"
+	},
+	{
+		"Name": "StalwartHelmet",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Stalwart.ArmorType-Stalwart",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.StalwartHelmet"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Stalwart_Armor/StalwartHelmet/BP_StalwartHelmet.BP_StalwartHelmet_C"
+	},
+	{
+		"Name": "StalwartChest",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Stalwart.ArmorType-Stalwart",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.StalwartChest"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Stalwart_Armor/StalwartChest/BP_StalwartChestplate.BP_StalwartChestplate_C"
+	},
+	{
+		"Name": "StalwartLeggings",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Stalwart.ArmorType-Stalwart",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.StalwartLeggings"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Stalwart_Armor/StalwartLeggings/BP_StalwartLeggings.BP_StalwartLeggings_C"
+	},
+	{
+		"Name": "StalwartBoots",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Stalwart.ArmorType-Stalwart",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.StalwartBoots"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Stalwart_Armor/StalwartBoots/BP_StalwartBoots.BP_StalwartBoots_C"
+	},
+	{
+		"Name": "StalwartHelmet_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-StalwartUnique.ArmorType-StalwartUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.StalwartHelmet_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Stalwart_Armor/Unique/StalwartHelmet_Unique/BP_StalwartHelmet_Unique.BP_StalwartHelmet_Unique_C"
+	},
+	{
+		"Name": "StalwartChest_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-StalwartUnique.ArmorType-StalwartUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.StalwartChest_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Stalwart_Armor/Unique/StalwartChest_Unique/BP_StalwartChestplate_Unique.BP_StalwartChestplate_Unique_C"
+	},
+	{
+		"Name": "StalwartLeggings_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-StalwartUnique.ArmorType-StalwartUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.StalwartLeggings_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Stalwart_Armor/Unique/StalwartLeggings_Unique/BP_StalwartLeggings_Unique.BP_StalwartLeggings_Unique_C"
+	},
+	{
+		"Name": "StalwartBoots_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-StalwartUnique.ArmorType-StalwartUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.StalwartBoots_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Stalwart_Armor/Unique/StalwartBoots_Unique/BP_StalwartBoots_Unique.BP_StalwartBoots_Unique_C"
+	},
+	{
+		"Name": "WolfclutchBoots_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-WolfclutchUnique.ArmorType-WolfclutchUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.WolfclutchBoots_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Wolfclutch_Armor/Unique/Wolfclutch_Boots_Unique/BP_Wolfclutch_Boots_Unique.BP_Wolfclutch_Boots_Unique_C"
+	},
+	{
+		"Name": "WolfclutchChest_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-WolfclutchUnique.ArmorType-WolfclutchUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.WolfclutchChest_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Wolfclutch_Armor/Unique/Wolfclutch_Chest_Unique/BP_WolfclutchChestplate_Unique.BP_WolfclutchChestplate_Unique_C"
+	},
+	{
+		"Name": "WolfclutchHelmet_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-WolfclutchUnique.ArmorType-WolfclutchUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.WolfclutchHelmet_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Wolfclutch_Armor/Unique/Wolfclutch_Helmet_Unique/BP_WolfclutchHelmet_Unique.BP_WolfclutchHelmet_Unique_C"
+	},
+	{
+		"Name": "WolfclutchLeggings_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-WolfclutchUnique.ArmorType-WolfclutchUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.WolfclutchLeggings_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Wolfclutch_Armor/Unique/Wolfclutch_Leggings_Unique/BP_WolfclutchLeggings_Unique.BP_WolfclutchLeggings_Unique_C"
+	},
+	{
+		"Name": "MysticHelmet",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Mystic.ArmorType-Mystic",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.MysticHelmet"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Mystic_Armor/MysticHelmet/BP_MysticHelmet.BP_MysticHelmet_C"
+	},
+	{
+		"Name": "MysticChest",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Mystic.ArmorType-Mystic",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.MysticChest"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Mystic_Armor/MysticChest/BP_MysticChestplate.BP_MysticChestplate_C"
+	},
+	{
+		"Name": "MysticLeggings",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Mystic.ArmorType-Mystic",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.MysticLeggings"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Mystic_Armor/MysticLeggings/BP_MysticLeggings.BP_MysticLeggings_C"
+	},
+	{
+		"Name": "MysticBoots",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Mystic.ArmorType-Mystic",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.MysticBoots"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Mystic_Armor/MysticBoots/BP_MysticBoots.BP_MysticBoots_C"
+	},
+	{
+		"Name": "MysticHelmet_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-MysticUnique.ArmorType-MysticUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.MysticHelmet_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Mystic_Armor/Unique/MysticHelmet_Unique/BP_MysticHelmet_Unique.BP_MysticHelmet_Unique_C"
+	},
+	{
+		"Name": "MysticChest_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-MysticUnique.ArmorType-MysticUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.MysticChest_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Mystic_Armor/Unique/MysticChest_Unique/BP_MysticChestplate_Unique.BP_MysticChestplate_Unique_C"
+	},
+	{
+		"Name": "MysticLeggings_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-MysticUnique.ArmorType-MysticUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.MysticLeggings_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Mystic_Armor/Unique/MysticLeggings_Unique/BP_MysticLeggings_Unique.BP_MysticLeggings_Unique_C"
+	},
+	{
+		"Name": "MysticBoots_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-MysticUnique.ArmorType-MysticUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.MysticBoots_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Mystic_Armor/Unique/MysticBoots_Unique/BP_MysticBoots_Unique.BP_MysticBoots_Unique_C"
+	},
+	{
+		"Name": "PhantomHelmet",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-Phantom.ArmorType-Phantom",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.PhantomHelmet"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Phantom_Armor/PhantomHelmet/BP_PhantomHelmet.BP_PhantomHelmet_C"
+	},
+	{
+		"Name": "PhantomChest",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-Phantom.ArmorType-Phantom",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.PhantomChest"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Phantom_Armor/PhantomChest/BP_PhantomChestplate.BP_PhantomChestplate_C"
+	},
+	{
+		"Name": "PhantomLeggings",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-Phantom.ArmorType-Phantom",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.PhantomLeggings"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Phantom_Armor/PhantomLeggings/BP_PhantomLeggings.BP_PhantomLeggings_C"
+	},
+	{
+		"Name": "PhantomBoots",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-Phantom.ArmorType-Phantom",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.PhantomBoots"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Phantom_Armor/PhantomBoots/BP_PhantomBoots.BP_PhantomBoots_C"
+	},
+	{
+		"Name": "HewnbarkHelmet",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-HewnBark.ArmorType-HewnBark",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.HewnBarkHelmet"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Hewnbark_Armor/HewnbarkHelmet/BP_HewnbarkHelmet.BP_HewnbarkHelmet_C"
+	},
+	{
+		"Name": "HewnbarkChest",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-HewnBark.ArmorType-HewnBark",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.HewnBarkChest"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Hewnbark_Armor/HewnbarkChest/BP_HewnbarkChestplate.BP_HewnbarkChestplate_C"
+	},
+	{
+		"Name": "HewnbarkLeggings",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-HewnBark.ArmorType-HewnBark",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.HewnBarkLeggings"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Hewnbark_Armor/HewnbarkLeggings/BP_HewnbarkLeggings.BP_HewnbarkLeggings_C"
+	},
+	{
+		"Name": "HewnbarkBoots",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-HewnBark.ArmorType-HewnBark",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.HewnBarkBoots"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Hewnbark_Armor/HewnbarkBoots/BP_HewnbarkBoots.BP_HewnbarkBoots_C"
+	},
+	{
+		"Name": "TimewornHelmet",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-TimeWorn.ArmorType-TimeWorn",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.TimewornHelmet"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Timeworn_Armor/TimewornHelmet/BP_TimewornHelmet.BP_TimewornHelmet_C"
+	},
+	{
+		"Name": "TimewornChest",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-TimeWorn.ArmorType-TimeWorn",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.TimewornChest"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Timeworn_Armor/TimewornChest/BP_TimewornChestplate.BP_TimewornChestplate_C"
+	},
+	{
+		"Name": "TimewornLeggings",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-TimeWorn.ArmorType-TimeWorn",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.TimewornLeggings"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Timeworn_Armor/TimewornLeggings/BP_TimewornLeggings.BP_TimewornLeggings_C"
+	},
+	{
+		"Name": "TimewornBoots",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-TimeWorn.ArmorType-TimeWorn",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.TimewornBoots"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Timeworn_Armor/TimewornBoots/BP_TimewornBoots.BP_TimewornBoots_C"
+	},
+	{
+		"Name": "HoneyHelmet",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-Honey.ArmorType-Honey",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.HoneyHelmet"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Honey_Armor/HoneyHelmet/BP_HoneyHelmet.BP_HoneyHelmet_C"
+	},
+	{
+		"Name": "HoneyChest",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-Honey.ArmorType-Honey",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.HoneyChest"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Honey_Armor/HoneyChest/BP_HoneyChestplate.BP_HoneyChestplate_C"
+	},
+	{
+		"Name": "HoneyLeggings",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-Honey.ArmorType-Honey",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.HoneyLeggings"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Honey_Armor/HoneyLeggings/BP_HoneyLeggings.BP_HoneyLeggings_C"
+	},
+	{
+		"Name": "HoneyBoots",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-Honey.ArmorType-Honey",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.HoneyBoots"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Honey_Armor/HoneyBoots/BP_HoneyBoots.BP_HoneyBoots_C"
+	},
+	{
+		"Name": "MushroomHelmet",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-Mushroom.ArmorType-Mushroom",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.MushroomHelmet"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Mushroom_Armor/MushroomHelmet/BP_MushroomHelmet.BP_MushroomHelmet_C"
+	},
+	{
+		"Name": "MushroomChest",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-Mushroom.ArmorType-Mushroom",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.MushroomChest"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Mushroom_Armor/MushroomChest/BP_MushroomChestplate.BP_MushroomChestplate_C"
+	},
+	{
+		"Name": "MushroomLeggings",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-Mushroom.ArmorType-Mushroom",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.MushroomLeggings"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Mushroom_Armor/MushroomLeggings/BP_MushroomLeggings.BP_MushroomLeggings_C"
+	},
+	{
+		"Name": "MushroomBoots",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-Mushroom.ArmorType-Mushroom",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.MushroomBoots"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Mushroom_Armor/MushroomBoots/BP_MushroomBoots.BP_MushroomBoots_C"
+	},
+	{
+		"Name": "DiscipleHelmet",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-Disciple.ArmorType-Disciple",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.DiscipleHelmet"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Disciple_Armor/DiscipleHelmet/BP_DiscipleHelmet.BP_DiscipleHelmet_C"
+	},
+	{
+		"Name": "DiscipleChest",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-Disciple.ArmorType-Disciple",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.DiscipleChest"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Disciple_Armor/DiscipleChest/BP_DiscipleChestplate.BP_DiscipleChestplate_C"
+	},
+	{
+		"Name": "DiscipleLeggings",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-Disciple.ArmorType-Disciple",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.DiscipleLeggings"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Disciple_Armor/DiscipleLeggings/BP_DisciplerLeggings.BP_DisciplerLeggings_C"
+	},
+	{
+		"Name": "DiscipleBoots",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-Disciple.ArmorType-Disciple",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.DiscipleBoots"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Disciple_Armor/DiscipleBoots/BP_DiscipleBoots.BP_DiscipleBoots_C"
+	},
+	{
+		"Name": "WellspringHelmet",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Wellspring.ArmorType-Wellspring",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.WellspringHelmet"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Wellspring_Armor/WellspringHelmet/BP_WellspringHelmet.BP_WellspringHelmet_C"
+	},
+	{
+		"Name": "WellspringChest",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Wellspring.ArmorType-Wellspring",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.WellspringChest"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Wellspring_Armor/WellspringChest/BP_WellspringChestplate.BP_WellspringChestplate_C"
+	},
+	{
+		"Name": "WellspringLeggings",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Wellspring.ArmorType-Wellspring",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.WellspringLeggings"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Wellspring_Armor/WellspringLeggings/BP_WellspringLeggings.BP_WellspringLeggings_C"
+	},
+	{
+		"Name": "WellspringBoots",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Wellspring.ArmorType-Wellspring",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.WellspringBoots"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Wellspring_Armor/WellspringBoots/BP_WellspringBoots.BP_WellspringBoots_C"
+	},
+	{
+		"Name": "RedstoneHelmet",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Redstone.ArmorType-Redstone",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.RedstoneHelmet"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Redstone_Armor/RedstoneHelmet/BP_RedstoneHelmet.BP_RedstoneHelmet_C"
+	},
+	{
+		"Name": "RedstoneChest",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Redstone.ArmorType-Redstone",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.RedstoneChest"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Redstone_Armor/RedstoneChest/BP_RedstoneChestplate.BP_RedstoneChestplate_C"
+	},
+	{
+		"Name": "RedstoneLeggings",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Redstone.ArmorType-Redstone",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.RedstoneLeggings"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Redstone_Armor/RedstoneLeggings/BP_RedstoneLeggings.BP_RedstoneLeggings_C"
+	},
+	{
+		"Name": "RedstoneBoots",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Redstone.ArmorType-Redstone",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.RedstoneBoots"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Redstone_Armor/RedstoneBoots/BP_RedstoneBoots.BP_RedstoneBoots_C"
+	},
+	{
+		"Name": "EvocationHelmet",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-EvocationRobes.ArmorType-EvocationRobes",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EvocationHelmet"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Evocation_Armor/EvocationHelmet/BP_EvocationHelmet.BP_EvocationHelmet_C"
+	},
+	{
+		"Name": "EvocationChest",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-EvocationRobes.ArmorType-EvocationRobes",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EvocationChest"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Evocation_Armor/EvocationChest/BP_EvocationChestplate.BP_EvocationChestplate_C"
+	},
+	{
+		"Name": "EvocationLeggings",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-EvocationRobes.ArmorType-EvocationRobes",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EvocationLeggings"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Evocation_Armor/EvocationLeggings/BP_EvocationLeggings.BP_EvocationLeggings_C"
+	},
+	{
+		"Name": "EvocationBoots",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-EvocationRobes.ArmorType-EvocationRobes",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EvocationBoots"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Evocation_Armor/EvocationBoots/BP_EvocationBoots.BP_EvocationBoots_C"
+	},
+	{
+		"Name": "PhantomHelmet_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-PhantomUnique.ArmorType-PhantomUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.PhantomHelmet_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Phantom_Armor/Unique/PhantomHelmet_Unique/BP_PhantomHelmet_Unique.BP_PhantomHelmet_Unique_C"
+	},
+	{
+		"Name": "PhantomChest_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-PhantomUnique.ArmorType-PhantomUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.PhantomChest_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Phantom_Armor/Unique/PhantomChest_Unique/BP_PhantomChestplate_Unique.BP_PhantomChestplate_Unique_C"
+	},
+	{
+		"Name": "PhantomLeggings_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-PhantomUnique.ArmorType-PhantomUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.PhantomLeggings_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Phantom_Armor/Unique/PhantomLeggings_Unique/BP_PhantomLeggings_Unique.BP_PhantomLeggings_Unique_C"
+	},
+	{
+		"Name": "PhantomBoots_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-PhantomUnique.ArmorType-PhantomUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.PhantomBoots_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Phantom_Armor/Unique/PhantomBoots_Unique/BP_PhantomBoots_Unique.BP_PhantomBoots_Unique_C"
+	},
+	{
+		"Name": "HewnbarkHelmet_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-HewnbarkUnique.ArmorType-HewnbarkUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.HewnBarkHelmet_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Hewnbark_Armor/Unique/HewnbarkHelmet_Unique/BP_HewnbarkHelmet_Unique.BP_HewnbarkHelmet_Unique_C"
+	},
+	{
+		"Name": "HewnbarkChest_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-HewnbarkUnique.ArmorType-HewnbarkUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.HewnBarkChest_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Hewnbark_Armor/Unique/HewnbarkChest_Unique/BP_HewnbarkChestplate_Unique.BP_HewnbarkChestplate_Unique_C"
+	},
+	{
+		"Name": "HewnbarkLeggings_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-HewnbarkUnique.ArmorType-HewnbarkUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.HewnBarkLeggings_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Hewnbark_Armor/Unique/HewnbarkLeggings_Unique/BP_HewnbarkLeggings_Unique.BP_HewnbarkLeggings_Unique_C"
+	},
+	{
+		"Name": "HewnbarkBoots_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-HewnbarkUnique.ArmorType-HewnbarkUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.HewnBarkBoots_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Hewnbark_Armor/Unique/HewnbarkBoots_Unique/BP_HewnbarkBoots_Unique.BP_HewnbarkBoots_Unique_C"
+	},
+	{
+		"Name": "TimewornHelmet_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-TimewornUnique.ArmorType-TimewornUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.TimewornHelmet_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Timeworn_Armor/Unique/TimewornHelmet_Unique/BP_TimewornHelmet_Unique.BP_TimewornHelmet_Unique_C"
+	},
+	{
+		"Name": "TimewornChest_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-TimewornUnique.ArmorType-TimewornUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.TimewornChest_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Timeworn_Armor/Unique/TimewornChest_Unique/BP_TimewornChestplate_Unique.BP_TimewornChestplate_Unique_C"
+	},
+	{
+		"Name": "TimewornLeggings_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-TimewornUnique.ArmorType-TimewornUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.TimewornLeggings_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Timeworn_Armor/Unique/TimewornLeggings_Unique/BP_TimewornLeggings_Unique.BP_TimewornLeggings_Unique_C"
+	},
+	{
+		"Name": "TimewornBoots_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-TimewornUnique.ArmorType-TimewornUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.TimewornBoots_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Timeworn_Armor/Unique/TimewornBoots_Unique/BP_TimewornBoots_Unique.BP_TimewornBoots_Unique_C"
+	},
+	{
+		"Name": "HoneyHelmet_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-HoneyUnique.ArmorType-HoneyUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.HoneyHelmet_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Honey_Armor/Unique/HoneyHelmet_Unique/BP_HoneyHelmet_Unique.BP_HoneyHelmet_Unique_C"
+	},
+	{
+		"Name": "HoneyChest_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-HoneyUnique.ArmorType-HoneyUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.HoneyChest_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Honey_Armor/Unique/HoneyChest_Unique/BP_HoneyChestplate_Unique.BP_HoneyChestplate_Unique_C"
+	},
+	{
+		"Name": "HoneyLeggings_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-HoneyUnique.ArmorType-HoneyUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.HoneyLeggings_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Honey_Armor/Unique/HoneyLeggings_Unique/BP_HoneyLeggings_Unique.BP_HoneyLeggings_Unique_C"
+	},
+	{
+		"Name": "HoneyBoots_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-HoneyUnique.ArmorType-HoneyUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.HoneyBoots_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Honey_Armor/Unique/HoneyBoots_Unique/BP_HoneyBoots_Unique.BP_HoneyBoots_Unique_C"
+	},
+	{
+		"Name": "MushroomHelmet_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-MushroomUnique.ArmorType-MushroomUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.MushroomHelmet_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Mushroom_Armor/Unique/MushroomHelmet_Unique/BP_MushroomHelmet_Unique.BP_MushroomHelmet_Unique_C"
+	},
+	{
+		"Name": "MushroomChest_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-MushroomUnique.ArmorType-MushroomUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.MushroomChest_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Mushroom_Armor/Unique/MushroomChest_Unique/BP_MushroomChestplate_Unique.BP_MushroomChestplate_Unique_C"
+	},
+	{
+		"Name": "MushroomLeggings_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-MushroomUnique.ArmorType-MushroomUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.MushroomLeggings_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Mushroom_Armor/Unique/MushroomLeggings_Unique/BP_MushroomLeggings_Unique.BP_MushroomLeggings_Unique_C"
+	},
+	{
+		"Name": "MushroomBoots_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-MushroomUnique.ArmorType-MushroomUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.MushroomBoots_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Mushroom_Armor/Unique/MushroomBoots_Unique/BP_MushroomBoots_Unique.BP_MushroomBoots_Unique_C"
+	},
+	{
+		"Name": "DiscipleHelmet_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-DiscipleUnique.ArmorType-DiscipleUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.DiscipleHelmet_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Disciple_Armor/Unique/DiscipleHelmet_Unique/BP_DiscipleHelmet_Unique.BP_DiscipleHelmet_Unique_C"
+	},
+	{
+		"Name": "DiscipleChest_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-DiscipleUnique.ArmorType-DiscipleUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.DiscipleChest_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Disciple_Armor/Unique/DiscipleChest_Unique/BP_DiscipleChestplate_Unique.BP_DiscipleChestplate_Unique_C"
+	},
+	{
+		"Name": "DiscipleLeggings_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-DiscipleUnique.ArmorType-DiscipleUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.DiscipleLeggings_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Disciple_Armor/Unique/DiscipleLeggings_Unique/BP_DiscipleLeggings_Unique.BP_DiscipleLeggings_Unique_C"
+	},
+	{
+		"Name": "DiscipleBoots_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-DiscipleUnique.ArmorType-DiscipleUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.DiscipleBoots_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Disciple_Armor/Unique/DiscipleBoots_Unique/BP_DiscipleBoot_Unique.BP_DiscipleBoot_Unique_C"
+	},
+	{
+		"Name": "WellspringHelmet_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-WellspringUnique.ArmorType-WellspringUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.WellspringHelmet_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Wellspring_Armor/Unique/WellspringHelmet_Unique/BP_WellspringHelmet_Unique.BP_WellspringHelmet_Unique_C"
+	},
+	{
+		"Name": "WellspringChest_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-WellspringUnique.ArmorType-WellspringUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.WellspringChest_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Wellspring_Armor/Unique/WellspringChest_Unique/BP_WellspringChestplate_Unique.BP_WellspringChestplate_Unique_C"
+	},
+	{
+		"Name": "WellspringLeggings_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-WellspringUnique.ArmorType-WellspringUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.WellspringLeggings_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Wellspring_Armor/Unique/WellspringLeggings_Unique/BP_WellspringLeggings_Unique.BP_WellspringLeggings_Unique_C"
+	},
+	{
+		"Name": "WellspringBoots_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-WellspringUnique.ArmorType-WellspringUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.WellspringBoots_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Wellspring_Armor/Unique/WellspringBoots_Unique/BP_WellspringBoots_Unique.BP_WellspringBoots_Unique_C"
+	},
+	{
+		"Name": "RedstoneHelmet_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-RedstoneUnique.ArmorType-RedstoneUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.RedstoneHelmet_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Redstone_Armor/Unique/RedstoneHelmet_Unique/BP_RedstoneHelmet_Unique.BP_RedstoneHelmet_Unique_C"
+	},
+	{
+		"Name": "RedstoneChest_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-RedstoneUnique.ArmorType-RedstoneUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.RedstoneChest_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Redstone_Armor/Unique/RedstoneChest_Unique/BP_RedstoneChestplate_Unique.BP_RedstoneChestplate_Unique_C"
+	},
+	{
+		"Name": "RedstoneLeggings_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-RedstoneUnique.ArmorType-RedstoneUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.RedstoneLeggings_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Redstone_Armor/Unique/RedstoneLeggings_Unique/BP_RedstoneLeggings_Unique.BP_RedstoneLeggings_Unique_C"
+	},
+	{
+		"Name": "RedstoneBoots_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-RedstoneUnique.ArmorType-RedstoneUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.RedstoneBoots_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Redstone_Armor/Unique/RedstoneBoots_Unique/BP_RedstoneBoots_Unique.BP_RedstoneBoots_Unique_C"
+	},
+	{
+		"Name": "EvocationHelmet_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-EvocationUnique.ArmorType-EvocationUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EvocationHelmet_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Evocation_Armor/Unique/EvocationHelmet_Unique/BP_EvocationHelmet_Unique.BP_EvocationHelmet_Unique_C"
+	},
+	{
+		"Name": "EvocationChest_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-EvocationUnique.ArmorType-EvocationUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EvocationChest_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Evocation_Armor/Unique/EvocationChest_Unique/BP_EvocationChestplate_Unique.BP_EvocationChestplate_Unique_C"
+	},
+	{
+		"Name": "EvocationLeggings_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-EvocationUnique.ArmorType-EvocationUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EvocationLeggings_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Evocation_Armor/Unique/EvocationLeggings_Unique/BP_EvocationLeggings_Unique.BP_EvocationLeggings_Unique_C"
+	},
+	{
+		"Name": "EvocationBoots_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-EvocationUnique.ArmorType-EvocationUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.EvocationBoots_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Evocation_Armor/Unique/EvocationBoots_Unique/BP_EvocationBoots_Unique.BP_EvocationBoots_Unique_C"
+	},
+	{
+		"Name": "ScavengerHelmet",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Scavenger.ArmorType-Scavenger",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.ScavengerHelmet"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Scavenger_Armor/ScavengerHelmet/BP_ScavengerHelmet.BP_ScavengerHelmet_C"
+	},
+	{
+		"Name": "ScavengerChest",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Scavenger.ArmorType-Scavenger",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.ScavengerChest"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Scavenger_Armor/ScavengerChest/BP_ScavengerChestplate.BP_ScavengerChestplate_C"
+	},
+	{
+		"Name": "ScavengerLeggings",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Scavenger.ArmorType-Scavenger",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.ScavengerLeggings"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Scavenger_Armor/ScavengerLeggings/BP_ScavengerLeggings.BP_ScavengerLeggings_C"
+	},
+	{
+		"Name": "ScavengerBoots",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/Switches/Player/ArmourSwitch/ArmourSet/ArmorType-Scavenger.ArmorType-Scavenger",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.ScavengerBoots"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Scavenger_Armor/ScavengerBoots/BP_ScavengerBoots.BP_ScavengerBoots_C"
+	},
+	{
+		"Name": "ScavengerHelmet_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-ScavengerUnique.ArmorType-ScavengerUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_helmet_equip.sfx_armor_helmet_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.ScavengerHelmet_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Scavenger_Armor/Unique/ScavengerHelmet_Unique/BP_ScavengerHelmet_Unique.BP_ScavengerHelmet_Unique_C"
+	},
+	{
+		"Name": "ScavengerChest_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-ScavengerUnique.ArmorType-ScavengerUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_chest_equip.sfx_armor_chest_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.ScavengerChest_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Scavenger_Armor/Unique/ScavengerChest_Unique/BP_ScavengerChestplate_Unique.BP_ScavengerChestplate_Unique_C"
+	},
+	{
+		"Name": "ScavengerLeggings_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-ScavengerUnique.ArmorType-ScavengerUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_leggings_equip.sfx_armor_leggings_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.ScavengerLeggings_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Scavenger_Armor/Unique/ScavengerLeggings_Unique/BP_ScavengerLeggings_Unique.BP_ScavengerLeggings_Unique_C"
+	},
+	{
+		"Name": "ScavengerBoots_Unique",
+		"ItemAudios":
+		{
+			"SwitchAudio": "/Game/Spicewood/Audio/Wwise/ArmorType-ScavengerUnique.ArmorType-ScavengerUnique",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/2_armor_pickUp/sfx_armor_pickUp.sfx_armor_pickUp",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/1_armor_drop/sfx_armor_drop.sfx_armor_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnEquipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/3_armor_equip/sfx_armor_boots_equip.sfx_armor_boots_equip",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Armor/4_armor_unequip/sfx_armor_unequip.sfx_armor_unequip"
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.ScavengerBoots_Unique"
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Equipment/Armor/Scavenger_Armor/Unique/ScavengerBoots_Unique/BP_ScavengerBoots_Unique.BP_ScavengerBoots_Unique_C"
+	}
+]

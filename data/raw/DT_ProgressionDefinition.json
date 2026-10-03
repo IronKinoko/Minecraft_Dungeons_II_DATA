@@ -1,0 +1,832 @@
+[
+	{
+		"Name": "NoProgression",
+		"TypeTag":
+		{
+			"TagName": "SW.Progression.None"
+		},
+		"ProgressionData":
+		{
+			"PlayerLevel": 1,
+			"AdditionalGearItems": 0,
+			"LootSource":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Town",
+		"TypeTag":
+		{
+			"TagName": "SW.Progression.Town.FirstVisit"
+		},
+		"ProgressionData":
+		{
+			"PlayerLevel": 1,
+			"AdditionalGearItems": 0,
+			"LootSource":
+			{
+				"TagName": "None"
+			},
+			"PreviousProgressionData":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Progression.None"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Progression"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "PlainsStart",
+		"TypeTag":
+		{
+			"TagName": "SW.Progression.Plains.A1.Start"
+		},
+		"ProgressionData":
+		{
+			"PlayerLevel": 2,
+			"AdditionalGearItems": 0,
+			"LootSource":
+			{
+				"TagName": "None"
+			},
+			"MinecartStationsToUnlock":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.MinecartStation.Town.Fountain"
+					},
+					{
+						"TagName": "SW.MinecartStation.PlainsA1.Barn"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.MinecartStation.Town"
+					},
+					{
+						"TagName": "SW.MinecartStation"
+					},
+					{
+						"TagName": "SW"
+					},
+					{
+						"TagName": "SW.MinecartStation.PlainsA1"
+					}
+				]
+			},
+			"PreviousProgressionData":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Progression.Town.FirstVisit"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Progression.Town"
+					},
+					{
+						"TagName": "SW.Progression"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "ForestStart",
+		"TypeTag":
+		{
+			"TagName": "SW.Progression.Forest.A1.Start"
+		},
+		"ProgressionData":
+		{
+			"PlayerLevel": 6,
+			"AdditionalGearItems": 2,
+			"LootSource":
+			{
+				"TagName": "SW.Area.Plains.A1"
+			},
+			"PreviousProgressionData":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Progression.Plains.A1.Start"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Progression.Plains.A1"
+					},
+					{
+						"TagName": "SW.Progression.Plains"
+					},
+					{
+						"TagName": "SW.Progression"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "ForestA1Outpost",
+		"TypeTag":
+		{
+			"TagName": "SW.Progression.Forest.A1.Outpost"
+		},
+		"ProgressionData":
+		{
+			"PlayerLevel": 9,
+			"AdditionalGearItems": 3,
+			"LootSource":
+			{
+				"TagName": "SW.Area.Forest.A1"
+			},
+			"MinecartStationsToUnlock":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.MinecartStation.ForestA1.Outpost"
+					},
+					{
+						"TagName": "SW.MinecartStation.PlainsA1.Border"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.MinecartStation.ForestA1"
+					},
+					{
+						"TagName": "SW.MinecartStation"
+					},
+					{
+						"TagName": "SW"
+					},
+					{
+						"TagName": "SW.MinecartStation.PlainsA1"
+					}
+				]
+			},
+			"PreviousProgressionData":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Progression.Forest.A1.Start"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Progression.Forest.A1"
+					},
+					{
+						"TagName": "SW.Progression.Forest"
+					},
+					{
+						"TagName": "SW.Progression"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "WitchT3",
+		"TypeTag":
+		{
+			"TagName": "SW.Progression.WitchT3"
+		},
+		"ProgressionData":
+		{
+			"PlayerLevel": 13,
+			"AdditionalGearItems": 3,
+			"LootSource":
+			{
+				"TagName": "SW.Area.Forest.A1"
+			},
+			"MinecartStationsToUnlock":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.MinecartStation.ForestA1.SpiderCaveExit"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.MinecartStation.ForestA1"
+					},
+					{
+						"TagName": "SW.MinecartStation"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"PreviousProgressionData":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Progression.Forest.A1.Outpost"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Progression.Forest.A1"
+					},
+					{
+						"TagName": "SW.Progression.Forest"
+					},
+					{
+						"TagName": "SW.Progression"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "DeepDarkStart",
+		"TypeTag":
+		{
+			"TagName": "SW.Progression.DeepDark.A1.Start"
+		},
+		"ProgressionData":
+		{
+			"PlayerLevel": 14,
+			"AdditionalGearItems": 4,
+			"LootSource":
+			{
+				"TagName": "SW.Area.Forest.A1"
+			},
+			"MinecartStationsToUnlock":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.MinecartStation.ForestA1.SpiderCaveExit"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.MinecartStation.ForestA1"
+					},
+					{
+						"TagName": "SW.MinecartStation"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"PreviousProgressionData":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Progression.Forest.A1.Outpost"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Progression.Forest.A1"
+					},
+					{
+						"TagName": "SW.Progression.Forest"
+					},
+					{
+						"TagName": "SW.Progression"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "Maw",
+		"TypeTag":
+		{
+			"TagName": "SW.Progression.Maw"
+		},
+		"ProgressionData":
+		{
+			"PlayerLevel": 16,
+			"AdditionalGearItems": 4,
+			"LootSource":
+			{
+				"TagName": "SW.Area.DeepDark.A1"
+			},
+			"PreviousProgressionData":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Progression.DeepDark.A1.Start"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Progression.DeepDark.A1"
+					},
+					{
+						"TagName": "SW.Progression.DeepDark"
+					},
+					{
+						"TagName": "SW.Progression"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "PostMaw",
+		"TypeTag":
+		{
+			"TagName": "SW.Progression.PostMaw"
+		},
+		"ProgressionData":
+		{
+			"PlayerLevel": 17,
+			"AdditionalGearItems": 5,
+			"LootSource":
+			{
+				"TagName": "SW.Area.DeepDark.A1"
+			},
+			"PreviousProgressionData":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Progression.DeepDark.A1.Start"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Progression.DeepDark.A1"
+					},
+					{
+						"TagName": "SW.Progression.DeepDark"
+					},
+					{
+						"TagName": "SW.Progression"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "PlainsA2Start",
+		"TypeTag":
+		{
+			"TagName": "SW.Progression.Plains.A2.Start"
+		},
+		"ProgressionData":
+		{
+			"PlayerLevel": 21,
+			"AdditionalGearItems": 6,
+			"LootSource":
+			{
+				"TagName": "SW.Area.DeepDark.A1"
+			},
+			"MinecartStationsToUnlock":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.MinecartStation.ForestA1.NWPass"
+					},
+					{
+						"TagName": "SW.MinecartStation.Forest.A1.DangerZone"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.MinecartStation.ForestA1"
+					},
+					{
+						"TagName": "SW.MinecartStation"
+					},
+					{
+						"TagName": "SW"
+					},
+					{
+						"TagName": "SW.MinecartStation.Forest.A1"
+					},
+					{
+						"TagName": "SW.MinecartStation.Forest"
+					}
+				]
+			},
+			"PreviousProgressionData":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Progression.PostMaw"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Progression"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "DesertStart",
+		"TypeTag":
+		{
+			"TagName": "SW.Progression.Desert.A1.Start"
+		},
+		"ProgressionData":
+		{
+			"PlayerLevel": 26,
+			"AdditionalGearItems": 7,
+			"LootSource":
+			{
+				"TagName": "SW.Area.Plains.A2"
+			},
+			"MinecartStationsToUnlock":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.MinecartStation.PlainsA2.Central"
+					},
+					{
+						"TagName": "SW.MinecartStation.PlainsA2.IllagerCamp"
+					},
+					{
+						"TagName": "SW.MinecartStation.PlainsA2.NorthWestBridge"
+					},
+					{
+						"TagName": "SW.MinecartStation.PlainsA2.SouthEastBridge"
+					},
+					{
+						"TagName": "SW.MinecartStation.PlainsA2.VillagerOasis"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.MinecartStation.PlainsA2"
+					},
+					{
+						"TagName": "SW.MinecartStation"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"PreviousProgressionData":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Progression.Plains.A2.Start"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Progression.Plains.A2"
+					},
+					{
+						"TagName": "SW.Progression.Plains"
+					},
+					{
+						"TagName": "SW.Progression"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "MeadowA1Start",
+		"TypeTag":
+		{
+			"TagName": "SW.Progression.Meadow.A1.Start"
+		},
+		"ProgressionData":
+		{
+			"PlayerLevel": 33,
+			"AdditionalGearItems": 8,
+			"LootSource":
+			{
+				"TagName": "SW.Area.Desert.A1"
+			},
+			"MinecartStationsToUnlock":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.MinecartStation.DesertA1.Cliffs"
+					},
+					{
+						"TagName": "SW.MinecartStation.DesertA1.Fortress"
+					},
+					{
+						"TagName": "SW.MinecartStation.DesertA1.Fortress2"
+					},
+					{
+						"TagName": "SW.MinecartStation.DesertA1.IceLagoon"
+					},
+					{
+						"TagName": "SW.MinecartStation.DesertA1.MountainX"
+					},
+					{
+						"TagName": "SW.MinecartStation.DesertA1.TaigaBeach"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.MinecartStation.DesertA1"
+					},
+					{
+						"TagName": "SW.MinecartStation"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"PreviousProgressionData":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Progression.Desert.A1.Start"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Progression.Desert.A1"
+					},
+					{
+						"TagName": "SW.Progression.Desert"
+					},
+					{
+						"TagName": "SW.Progression"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "CarapaceStart",
+		"TypeTag":
+		{
+			"TagName": "SW.Progression.Carapace.A1.Start"
+		},
+		"ProgressionData":
+		{
+			"PlayerLevel": 36,
+			"AdditionalGearItems": 8,
+			"LootSource":
+			{
+				"TagName": "SW.Area.Meadow.A1"
+			},
+			"MinecartStationsToUnlock":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.MinecartStation.MeadowA1.BehindPortal"
+					},
+					{
+						"TagName": "SW.MinecartStation.MeadowA1.CentralZone"
+					},
+					{
+						"TagName": "SW.MinecartStation.MeadowA1.SingersHaven"
+					},
+					{
+						"TagName": "SW.MinecartStation.MeadowA1.SouthEast"
+					},
+					{
+						"TagName": "SW.MinecartStation.MeadowA1.SouthWest"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.MinecartStation.MeadowA1"
+					},
+					{
+						"TagName": "SW.MinecartStation"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"PreviousProgressionData":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Progression.Meadow.A1.Start"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Progression.Meadow.A1"
+					},
+					{
+						"TagName": "SW.Progression.Meadow"
+					},
+					{
+						"TagName": "SW.Progression"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "Monarch",
+		"TypeTag":
+		{
+			"TagName": "SW.Progression.Monarch"
+		},
+		"ProgressionData":
+		{
+			"PlayerLevel": 40,
+			"AdditionalGearItems": 9,
+			"LootSource":
+			{
+				"TagName": "SW.Area.Carapace.A1"
+			},
+			"PreviousProgressionData":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Progression.Carapace.A1.Start"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Progression.Carapace.A1"
+					},
+					{
+						"TagName": "SW.Progression.Carapace"
+					},
+					{
+						"TagName": "SW.Progression"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "MeadowA2Start",
+		"TypeTag":
+		{
+			"TagName": "SW.Progression.Meadow.A2.Start"
+		},
+		"ProgressionData":
+		{
+			"PlayerLevel": 42,
+			"AdditionalGearItems": 10,
+			"LootSource":
+			{
+				"TagName": "SW.Area.Carapace.A1"
+			},
+			"MinecartStationsToUnlock":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.MinecartStation.CarapaceA1.Border"
+					},
+					{
+						"TagName": "SW.MinecartStation.CarapaceA1.North"
+					},
+					{
+						"TagName": "SW.MinecartStation.CarapaceA1.Centre"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.MinecartStation.CarapaceA1"
+					},
+					{
+						"TagName": "SW.MinecartStation"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"PreviousProgressionData":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Progression.Carapace.A1.Start"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Progression.Carapace.A1"
+					},
+					{
+						"TagName": "SW.Progression.Carapace"
+					},
+					{
+						"TagName": "SW.Progression"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	},
+	{
+		"Name": "DeepDarkA2Start",
+		"TypeTag":
+		{
+			"TagName": "SW.Progression.DeepDark.A2.Start"
+		},
+		"ProgressionData":
+		{
+			"PlayerLevel": 45,
+			"AdditionalGearItems": 10,
+			"LootSource":
+			{
+				"TagName": "SW.Area.Meadow.A2"
+			},
+			"MinecartStationsToUnlock":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.MinecartStation.MeadowA2.Hilltop"
+					},
+					{
+						"TagName": "SW.MinecartStation.MeadowA2.Fortress"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.MinecartStation.MeadowA2"
+					},
+					{
+						"TagName": "SW.MinecartStation"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"PreviousProgressionData":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Progression.Meadow.A2.Start"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Progression.Meadow.A2"
+					},
+					{
+						"TagName": "SW.Progression.Meadow"
+					},
+					{
+						"TagName": "SW.Progression"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		}
+	}
+]

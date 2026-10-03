@@ -1,0 +1,3419 @@
+[
+	{
+		"Name": "MainParent",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize.Dynamic"
+				},
+				{
+					"TagName": "SW.DamageDealer"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize"
+				},
+				{
+					"TagName": "SW.ReplicationGraph"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "None",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ArtifactBaseDamage"
+				},
+				"Type": "Float",
+				"Float": 50
+			}
+		],
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_GrantTeam",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.GrantTeam"
+				},
+				"DynamicAbilityTags":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.Ability.GrantTeam.AutomaticallyInheritInstigatorTeamTag"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.Ability.GrantTeam"
+						},
+						{
+							"TagName": "SW.Ability"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TeamTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Team.Default"
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				]
+			}
+		],
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "DefaultTargetable",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.Default.Targetable"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.State.AI.Aggro.Aggressive"
+				},
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW.Property.Targetable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.State.AI.Aggro"
+				},
+				{
+					"TagName": "SW.State.AI"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"ActorReference": "None",
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 1
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Damage.BaseDamageMultiplier"
+				},
+				"Value": 1
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Resistance.BaseDamageResistanceMultiplier"
+				},
+				"Value": 1
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.MeleeAttackSpeed"
+				},
+				"Value": 1
+			}
+		],
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "DefaultUntargetable",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.Default.Untargetable"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW.State.AI.Aggro.Aggressive"
+				},
+				{
+					"TagName": "SW.State.Untargetable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.AI.Aggro"
+				},
+				{
+					"TagName": "SW.State.AI"
+				},
+				{
+					"TagName": "SW.State"
+				}
+			]
+		},
+		"ActorReference": "None",
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Damage.BaseDamageMultiplier"
+				},
+				"Value": 1
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.MeleeAttackSpeed"
+				},
+				"Value": 1
+			}
+		],
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "DefaultUnhittable",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.Default.Unhittable"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW.State.AI.Aggro.Aggressive"
+				},
+				{
+					"TagName": "SW.State.Untargetable"
+				},
+				{
+					"TagName": "SW.State.Unhittable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.AI.Aggro"
+				},
+				{
+					"TagName": "SW.State.AI"
+				},
+				{
+					"TagName": "SW.State"
+				}
+			]
+		},
+		"ActorReference": "None",
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Damage.BaseDamageMultiplier"
+				},
+				"Value": 1
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.MeleeAttackSpeed"
+				},
+				"Value": 1
+			}
+		],
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "DefaultHostile",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.Default.Hostile"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.PropActor.Default.Targetable"
+				},
+				{
+					"TagName": "SW.State.Life.Alive"
+				},
+				{
+					"TagName": "SW.Property.Attackable"
+				},
+				{
+					"TagName": "SW.Ability.DisableRagdoll"
+				},
+				{
+					"TagName": "SW.Tracked.Damageable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.PropActor.Default"
+				},
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State.Life"
+				},
+				{
+					"TagName": "SW.State"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Ability"
+				},
+				{
+					"TagName": "SW.Tracked"
+				}
+			]
+		},
+		"ActorReference": "None",
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 1
+			}
+		],
+		"AttributeThresholds":
+		{
+			"Thresholds": [
+				{
+					"Event":
+					{
+						"TagName": "SW.GameplayEvent.Death.Final"
+					},
+					"FireOnce": true,
+					"Attribute":
+					{
+						"TagName": "SW.Attribute.Health"
+					},
+					"Operator": "LessThanOrEqual",
+					"CalculationType": "Absolute",
+					"Value": 0
+				}
+			]
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_HandleFinalDeath",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.HandleFinalDeath"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.OnDeathCueTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.bDeathCueExecutedOnPlayerASC"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.bCleanupActorOnClient"
+						},
+						"Type": "Bool",
+						"Bool": true
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CleanupLifeSpan"
+						},
+						"Type": "Float",
+						"Float": 0.0001
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SuppressAutoLifeDeadTag"
+						},
+						"Type": "Bool",
+						"Bool": true
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.DeathWrapUpEvents"
+						},
+						"Type": "GameplayTagContainer"
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				]
+			}
+		],
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+			"TagMap":
+			{
+				"(TagName=\"SW.Attack.Artifact\")":
+				{
+					"TagName": "SW.VFXContext.Death.Attacked"
+				},
+				"(TagName=\"SW.Attack.Melee\")":
+				{
+					"TagName": "SW.VFXContext.Death.Attacked"
+				},
+				"(TagName=\"SW.Attack.Ranged\")":
+				{
+					"TagName": "SW.VFXContext.Death.Attacked"
+				}
+			}
+		},
+		"ComponentDefinition":
+		{
+			"ClientComponents":
+			{
+				"(TagName=\"SW.ActorComponent.Health\")":
+				{
+					"Components": [
+						"/SpicewoodUI/Spicewood/UI/Widget/Enemies/BP_EnemyHealthBarComponent.BP_EnemyHealthBarComponent_C"
+					]
+				}
+			}
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "NewRow_16",
+		"TypeTag":
+		{
+			"TagName": "SW.DesertA1.FortressInt.TempBridge.BossTileArena"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.MapActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Enemies/Bosses/FrostbiteDesert_Boss/BP_Frostbite_Desert_Platform.BP_Frostbite_Desert_Platform_C",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "RadianceEnchantment",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.Radiance"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.PropActor.Well"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/FX/Enchantment/Radiance/BP_RadianceActor.BP_RadianceActor_C",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_ApplyEffectOnOverlap",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.WellAbility"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Range"
+						},
+						"Type": "Float",
+						"Float": 300
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityLifetime"
+						},
+						"Type": "Float",
+						"Float": 2
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_ApplyEffectOnOverlapData",
+						"ShapeData":
+						{
+							"OverlapShape": "Sphere",
+							"BoxShape":
+							{
+								"X": 1,
+								"Y": 1,
+								"Z": 1
+							},
+							"CapsuleHeight": 2,
+							"ShapeOffset":
+							{
+								"X": 0,
+								"Y": 0,
+								"Z": 0
+							}
+						},
+						"RangeModifyingAttribute":
+						{
+							"TagName": "SW.Attribute.ExpandMultiplier"
+						},
+						"ApplyToFriendlies": true,
+						"ApplyToHostiles": false,
+						"ApplyToSelf": false,
+						"Damage": 0,
+						"DamageCalculationTag":
+						{
+							"TagName": "None"
+						},
+						"AttackTypeTag":
+						{
+							"TagName": "None"
+						},
+						"AttackWeight": "Medium",
+						"AllowOverlapEffectsToLinger": false,
+						"AllowOverlapStatusesToLinger": false,
+						"OverlapStatuses":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.Status.Regeneration.Infinite"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW.Status.Regeneration"
+								},
+								{
+									"TagName": "SW.Status"
+								},
+								{
+									"TagName": "SW"
+								}
+							]
+						},
+						"LingeringStatuses":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.Status.Regeneration"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW.Status"
+								},
+								{
+									"TagName": "SW"
+								}
+							]
+						},
+						"bShouldTrackStatusEffects": false,
+						"bShouldApplyLingeringStatusEffectsOnUntracked": false,
+						"bReApplyOverlapStatuses": false,
+						"ReApplicationInterval": 1,
+						"GameplayCue":
+						{
+							"TagName": "None"
+						},
+						"bShouldSyncGCNPositionToShapeData": false,
+						"DestroyActorOnAbilityEnd": false,
+						"ActorLifetimeAfterAbilityEnd": 0,
+						"Knockback":
+						{
+							"Strength": 0,
+							"LaunchAngleInDegrees": 0,
+							"bForceKnockback": false,
+							"bDisableMovementControl": true,
+							"DisableMovementControlSeconds": 0.4,
+							"Direction":
+							{
+								"TagName": "SW.Knockback.Direction.Target"
+							}
+						},
+						"OverlappingComponentOverride": "None"
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_KillPropActor",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"TriggeredByGameplayEvents":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.GameplayEvent.Spawn"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.GameplayEvent"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.LifeTime"
+						},
+						"Type": "Float",
+						"Float": 2
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.UseLifeTime"
+						},
+						"Type": "Bool",
+						"Bool": true
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.OnDeathCueTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.State.Life.Dead"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.bDeathCueExecutedOnPlayerASC"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.bCleanupActorOnClient"
+						},
+						"Type": "Bool",
+						"Bool": true
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CleanupLifeSpan"
+						},
+						"Type": "Float",
+						"Float": 0.0001
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SuppressAutoLifeDeadTag"
+						},
+						"Type": "Bool",
+						"Bool": true
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.DeathWrapUpEvents"
+						},
+						"Type": "GameplayTagContainer"
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "DeathAnimation",
+								"Object": "None"
+							}
+						]
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_KillPropActorData",
+						"DestructionGCNTag":
+						{
+							"TagName": "None"
+						}
+					}
+				]
+			}
+		],
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "BorealisEnchantment",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.Borealis"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.PropActor.Default.Unhittable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.PropActor.Default"
+				},
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Script/SWCoreGAS.SWASCActor",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_BorealisExplosion",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.PrimingTime"
+						},
+						"Type": "Float",
+						"Float": 0.05
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Duration"
+						},
+						"Type": "Float",
+						"Float": 3
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.DamageDelayTime"
+						},
+						"Type": "Float",
+						"Float": 0.15
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationRadius"
+						},
+						"Type": "Float",
+						"Float": 25
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.DamageRadius"
+						},
+						"Type": "Float",
+						"Float": 150
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.BaseDamage"
+						},
+						"Type": "Float",
+						"Float": 15
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.DamageType"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.GameplayEffect.Damage.Instant.Blast"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.FriendlyFire"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_GrantTeam",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TeamTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				]
+			}
+		],
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "PotionSharingEnchantment",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.PotionSharing"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.PropActor.Well"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/FX/Enchantment/PotionSharing/BP_PotionSharingActor.BP_PotionSharingActor_C",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_ApplyEffectOnOverlap",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.WellAbility"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Range"
+						},
+						"Type": "Float",
+						"Float": 300
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityLifetime"
+						},
+						"Type": "Float",
+						"Float": 2
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_ApplyEffectOnOverlapData",
+						"ShapeData":
+						{
+							"OverlapShape": "Sphere",
+							"BoxShape":
+							{
+								"X": 1,
+								"Y": 1,
+								"Z": 1
+							},
+							"CapsuleHeight": 2,
+							"ShapeOffset":
+							{
+								"X": 0,
+								"Y": 0,
+								"Z": 0
+							}
+						},
+						"RangeModifyingAttribute":
+						{
+							"TagName": "SW.Attribute.ExpandMultiplier"
+						},
+						"ApplyToFriendlies": true,
+						"ApplyToHostiles": false,
+						"ApplyToSelf": false,
+						"Damage": 0,
+						"DamageCalculationTag":
+						{
+							"TagName": "None"
+						},
+						"AttackTypeTag":
+						{
+							"TagName": "None"
+						},
+						"AttackWeight": "Medium",
+						"AllowOverlapEffectsToLinger": false,
+						"AllowOverlapStatusesToLinger": false,
+						"OverlapStatuses":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.Status.Regeneration.Infinite"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW.Status.Regeneration"
+								},
+								{
+									"TagName": "SW.Status"
+								},
+								{
+									"TagName": "SW"
+								}
+							]
+						},
+						"LingeringStatuses":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.Status.Regeneration"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW.Status"
+								},
+								{
+									"TagName": "SW"
+								}
+							]
+						},
+						"bShouldTrackStatusEffects": false,
+						"bShouldApplyLingeringStatusEffectsOnUntracked": false,
+						"bReApplyOverlapStatuses": false,
+						"ReApplicationInterval": 1,
+						"GameplayCue":
+						{
+							"TagName": "None"
+						},
+						"bShouldSyncGCNPositionToShapeData": false,
+						"DestroyActorOnAbilityEnd": true,
+						"ActorLifetimeAfterAbilityEnd": 0,
+						"Knockback":
+						{
+							"Strength": 0,
+							"LaunchAngleInDegrees": 0,
+							"bForceKnockback": false,
+							"bDisableMovementControl": true,
+							"DisableMovementControlSeconds": 0.4,
+							"Direction":
+							{
+								"TagName": "SW.Knockback.Direction.Target"
+							}
+						},
+						"OverlappingComponentOverride": "None"
+					}
+				]
+			}
+		],
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "PotionSharingTierII",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.PotionSharing.Tier.II"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.PropActor.PotionSharing"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "None",
+		"AbilitySpecialization":
+		{
+			"Specializations": [
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_ApplyEffectOnOverlap",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.WellAbility"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.AbilityLifetime"
+								},
+								"Type": "Float",
+								"Float": 4
+							},
+							"ModOp": "Override"
+						}
+					],
+					"InstanceDataSpecializations": [
+						{
+							"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_ApplyEffectOnOverlapData"
+						}
+					]
+				}
+			]
+		},
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "PotionSharingTierIII",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.PotionSharing.Tier.III"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.PropActor.PotionSharing"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "None",
+		"AbilitySpecialization":
+		{
+			"Specializations": [
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_ApplyEffectOnOverlap",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.WellAbility"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.AbilityLifetime"
+								},
+								"Type": "Float",
+								"Float": 6
+							},
+							"ModOp": "Override"
+						}
+					],
+					"InstanceDataSpecializations": [
+						{
+							"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_ApplyEffectOnOverlapData"
+						}
+					]
+				}
+			]
+		},
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "TownteleporPortal",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.TownTeleport.Portal"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.TargetingProperties.Interactable"
+				},
+				{
+					"TagName": "SW.Property.Targetable"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.OwnerRelevant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.TargetingProperties"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.ReplicationGraph"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Core/Teleporters/TownTeleport/BP_TownTeleportPortal.BP_TownTeleportPortal_C",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_GrantTeam",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TeamTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Team.Neutral"
+						}
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				]
+			}
+		],
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "ArenaGrandIllusioner",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.Arena.GrandIllusioner"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.PropActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Enemies/Bosses/Illager_GrandIllusioner/GrandIllusioner_Rift/BP_GrandIllusioner_Rift.BP_GrandIllusioner_Rift_C",
+		"AbilitySpecialization":
+		{
+			"Specializations": [
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_GrantTeam",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.GrantTeam"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.TeamTag"
+								},
+								"Type": "GameplayTag",
+								"GameplayTag":
+								{
+									"TagName": "SW.Team.Neutral"
+								}
+							},
+							"ModOp": "Override"
+						}
+					]
+				}
+			]
+		},
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "PusherGimmick",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.PusherGimmick"
+		},
+		"ActorReference": "None",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Attack.Melee\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/sfx_prop_traps_crusher_impact_Play.sfx_prop_traps_crusher_impact_Play",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				},
+				"(TagName=\"SW.Audio.Generic.Hurt\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/sfx_prop_traps_crusher_hitmarker_Play.sfx_prop_traps_crusher_hitmarker_Play",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "PusherInstant",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.Gimmick.Pusher.Instant"
+		},
+		"ActorReference": "None",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Attack.Melee\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/sfx_prop_traps_crusher_impact_Play.sfx_prop_traps_crusher_impact_Play",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				},
+				"(TagName=\"SW.Audio.Generic.Hurt\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/sfx_prop_traps_crusher_hitmarker_Play.sfx_prop_traps_crusher_hitmarker_Play",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "PusherPiston",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.Gimmick.Pusher.Piston"
+		},
+		"ActorReference": "None",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Attack.Melee\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/sfx_prop_traps_crusher_impact_Play.sfx_prop_traps_crusher_impact_Play",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				},
+				"(TagName=\"SW.Audio.Generic.Hurt\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/sfx_prop_traps_crusher_hitmarker_Play.sfx_prop_traps_crusher_hitmarker_Play",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "PusherFortress",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.Gimmick.Pusher.Fortress"
+		},
+		"ActorReference": "None",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Attack.Melee\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Level/Props/Traps/SoulContainerTrap/sfx_trap_pusher_soulContainer_impact_Activate.sfx_trap_pusher_soulContainer_impact_Activate",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				},
+				"(TagName=\"SW.Audio.Generic.Hurt\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Level/Props/Traps/SoulContainerTrap/sfx_trap_pusher_soulContainer_hitmarker_Activate.sfx_trap_pusher_soulContainer_hitmarker_Activate",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "PusherCrate",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.Gimmick.Pusher.Crate"
+		},
+		"ActorReference": "None",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Attack.Melee\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Level/Props/Traps/PusherCrateTrap/sfx_prop_trap_pusherCrate_impact_Play.sfx_prop_trap_pusherCrate_impact_Play",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				},
+				"(TagName=\"SW.Audio.Generic.Hurt\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Level/Props/Traps/PusherCrateTrap/sfx_prop_trap_pusherCrate_hitmarker_Play.sfx_prop_trap_pusherCrate_hitmarker_Play",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "Impaler",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.Gimmick.Impaler"
+		},
+		"ActorReference": "None",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Attack.Melee\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/sfx_prop_trap_impaler_hitmarker_activate.sfx_prop_trap_impaler_hitmarker_activate",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				},
+				"(TagName=\"SW.Audio.Generic.Hurt\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "BladeTrapSpin",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.Gimmick.Blade.Spin"
+		},
+		"ActorReference": "None",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Attack.Melee\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Level/Props/Traps/SpinBlade/sfx_prop_trap_splinBlade_impacts_activate.sfx_prop_trap_splinBlade_impacts_activate",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				},
+				"(TagName=\"SW.Audio.Generic.Hurt\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "BladeTrapFloor",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.Gimmick.Blade.Floor"
+		},
+		"ActorReference": "None",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Attack.Melee\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/sfx_prop_trap_floorBlade_impacts_activate.sfx_prop_trap_floorBlade_impacts_activate",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				},
+				"(TagName=\"SW.Audio.Generic.Hurt\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "Flamethrower",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.Gimmick.Flamethrower"
+		},
+		"ActorReference": "None",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Attack.Melee\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				},
+				"(TagName=\"SW.Audio.Generic.Hurt\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "StalactiteStone",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.Gimmick.Stalactite.Stone"
+		},
+		"ActorReference": "None",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Attack.Melee\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/sfx_prop_fallingObject_impact_Play.sfx_prop_fallingObject_impact_Play",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				},
+				"(TagName=\"SW.Audio.Generic.Hurt\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "StalactiteIce",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.Gimmick.Stalactite.Ice"
+		},
+		"ActorReference": "None",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Attack.Melee\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/sfx_prop_fallingObject_impact_Play.sfx_prop_fallingObject_impact_Play",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				},
+				"(TagName=\"SW.Audio.Generic.Hurt\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "StalactiteAmethyst",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.Gimmick.Stalactite.Amethyst"
+		},
+		"ActorReference": "None",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Attack.Melee\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/sfx_prop_fallingObject_impact_Play.sfx_prop_fallingObject_impact_Play",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				},
+				"(TagName=\"SW.Audio.Generic.Hurt\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "FallingBlockStone",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.Gimmick.FallingBlock.Stone"
+		},
+		"ActorReference": "None",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Attack.Melee\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/sfx_prop_fallingObject_impact_Play.sfx_prop_fallingObject_impact_Play",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				},
+				"(TagName=\"SW.Audio.Generic.Hurt\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "FallingBlockIce",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.Gimmick.FallingBlock.Ice"
+		},
+		"ActorReference": "None",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Attack.Melee\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/sfx_prop_fallingObject_impact_Play.sfx_prop_fallingObject_impact_Play",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				},
+				"(TagName=\"SW.Audio.Generic.Hurt\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "FallingBlockHay",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.Gimmick.FallingBlock.Hay"
+		},
+		"ActorReference": "None",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Attack.Melee\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Level/Props/Traps/FallingObject_HayBale/sfx_prop_fallingObject_hayBale_Impact_Play.sfx_prop_fallingObject_hayBale_Impact_Play",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				},
+				"(TagName=\"SW.Audio.Generic.Hurt\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Level/Props/Traps/FallingObject_HayBale/sfx_prop_fallingObject_hayBale_Hitmarker_Play.sfx_prop_fallingObject_hayBale_Hitmarker_Play",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "FallingBlockCrate",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.Gimmick.FallingBlock.Crate"
+		},
+		"ActorReference": "None",
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"AIStateTree": "None",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Attack.Melee\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Level/Props/Traps/FallingObject_WoodBox/sfx_prop_fallingObject_woodCrates_impact_Play.sfx_prop_fallingObject_woodCrates_impact_Play",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				},
+				"(TagName=\"SW.Audio.Generic.Hurt\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Level/Props/Traps/FallingObject_WoodBox/sfx_prop_fallingObject_woodCrates_hitMarker_Play.sfx_prop_fallingObject_woodCrates_hitMarker_Play",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Level.Gimmicks.Danger.Dynamic"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	}
+]

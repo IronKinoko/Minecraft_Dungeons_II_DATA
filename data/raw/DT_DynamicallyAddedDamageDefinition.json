@@ -1,0 +1,282 @@
+[
+	{
+		"Name": "ArtifactAdditionalFireDamage",
+		"TypeTag":
+		{
+			"TagName": "SW.DynamicallyAddedDamage.Artifact.Fire"
+		},
+		"DamageDataToAdd":
+		{
+			"SourceTags":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Attack.Melee"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Attack"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"bDoesDamage": true,
+			"AdditionalDamageData":
+			{
+				"DamageType":
+				{
+					"TagName": "SW.GameplayEffect.Damage.Instant.Fire"
+				},
+				"Value": 2,
+				"CalculationType":
+				{
+					"TagName": "SW.Damage.Absolute"
+				}
+			},
+			"AdditionalStatusEffect":
+			{
+				"TagName": "SW.Status.Burning"
+			},
+			"KnockbackData":
+			{
+				"Strength": 0,
+				"LaunchAngleInDegrees": 0,
+				"bForceKnockback": false,
+				"bDisableMovementControl": true,
+				"DisableMovementControlSeconds": 0.4,
+				"Direction":
+				{
+					"TagName": "SW.Knockback.Direction.Target"
+				}
+			},
+			"StaggerValue": 0
+		}
+	},
+	{
+		"Name": "ArtifactAdditionalFreezingDamage",
+		"TypeTag":
+		{
+			"TagName": "SW.DynamicallyAddedDamage.Artifact.Freezing"
+		},
+		"DamageDataToAdd":
+		{
+			"SourceTags":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Attack.Melee"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Attack"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"bDoesDamage": true,
+			"AdditionalDamageData":
+			{
+				"DamageType":
+				{
+					"TagName": "SW.GameplayEffect.Damage.Instant.Ice"
+				},
+				"Value": 2,
+				"CalculationType":
+				{
+					"TagName": "SW.Damage.Absolute"
+				}
+			},
+			"AdditionalStatusEffect":
+			{
+				"TagName": "SW.Status.Freezing"
+			},
+			"KnockbackData":
+			{
+				"Strength": 0,
+				"LaunchAngleInDegrees": 0,
+				"bForceKnockback": false,
+				"bDisableMovementControl": true,
+				"DisableMovementControlSeconds": 0.4,
+				"Direction":
+				{
+					"TagName": "SW.Knockback.Direction.Target"
+				}
+			},
+			"StaggerValue": 0
+		}
+	},
+	{
+		"Name": "ArtifactAdditionalConductiveDamage",
+		"TypeTag":
+		{
+			"TagName": "SW.DynamicallyAddedDamage.Artifact.Conductive"
+		},
+		"DamageDataToAdd":
+		{
+			"SourceTags":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Attack.Melee"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Attack"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"bDoesDamage": true,
+			"AdditionalDamageData":
+			{
+				"DamageType":
+				{
+					"TagName": "SW.GameplayEffect.Damage.Instant.Lightning"
+				},
+				"Value": 2,
+				"CalculationType":
+				{
+					"TagName": "SW.Damage.Absolute"
+				}
+			},
+			"AdditionalStatusEffect":
+			{
+				"TagName": "SW.Status.Conductive"
+			},
+			"KnockbackData":
+			{
+				"Strength": 0,
+				"LaunchAngleInDegrees": 0,
+				"bForceKnockback": false,
+				"bDisableMovementControl": true,
+				"DisableMovementControlSeconds": 0.4,
+				"Direction":
+				{
+					"TagName": "SW.Knockback.Direction.Target"
+				}
+			},
+			"StaggerValue": 0
+		}
+	},
+	{
+		"Name": "ArtifactAdditionalPoisonDamage",
+		"TypeTag":
+		{
+			"TagName": "SW.DynamicallyAddedDamage.Artifact.Poison"
+		},
+		"DamageDataToAdd":
+		{
+			"SourceTags":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Attack.Melee"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Attack"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"bDoesDamage": true,
+			"AdditionalDamageData":
+			{
+				"DamageType":
+				{
+					"TagName": "SW.GameplayEffect.Damage.Instant.Poison"
+				},
+				"Value": 2,
+				"CalculationType":
+				{
+					"TagName": "SW.Damage.Absolute"
+				}
+			},
+			"AdditionalStatusEffect":
+			{
+				"TagName": "SW.Status.Poisoned"
+			},
+			"KnockbackData":
+			{
+				"Strength": 0,
+				"LaunchAngleInDegrees": 0,
+				"bForceKnockback": false,
+				"bDisableMovementControl": true,
+				"DisableMovementControlSeconds": 0.4,
+				"Direction":
+				{
+					"TagName": "SW.Knockback.Direction.Target"
+				}
+			},
+			"StaggerValue": 0
+		}
+	},
+	{
+		"Name": "ArtifactAdditionalBlastDamage",
+		"TypeTag":
+		{
+			"TagName": "SW.DynamicallyAddedDamage.Artifact.Blast"
+		},
+		"DamageDataToAdd":
+		{
+			"SourceTags":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Attack.Melee"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Attack"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"bDoesDamage": true,
+			"AdditionalDamageData":
+			{
+				"DamageType":
+				{
+					"TagName": "SW.GameplayEffect.Damage.Instant.Blast"
+				},
+				"Value": 2,
+				"CalculationType":
+				{
+					"TagName": "SW.Damage.Absolute"
+				}
+			},
+			"AdditionalStatusEffect":
+			{
+				"TagName": "None"
+			},
+			"KnockbackData":
+			{
+				"Strength": 1750,
+				"LaunchAngleInDegrees": 25,
+				"bForceKnockback": false,
+				"bDisableMovementControl": true,
+				"DisableMovementControlSeconds": 0.4,
+				"Direction":
+				{
+					"TagName": "SW.Knockback.Direction.Target"
+				}
+			},
+			"StaggerValue": 0
+		}
+	}
+]

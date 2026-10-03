@@ -1,0 +1,402 @@
+[
+	{
+		"Name": "Default",
+		"TypeTag":
+		{
+			"TagName": "SW.TargetingProperties.Default"
+		},
+		"TargetingProperties":
+		{
+			"Moving":
+			{
+				"Range": 300,
+				"DistanceWeight": 1,
+				"Angle": 360,
+				"AngleWeight": 0.3,
+				"CurrentTargetWeight": 0,
+				"BaseWeight": 0,
+				"bRequireLineOfSight": false
+			},
+			"Idling":
+			{
+				"Range": 300,
+				"DistanceWeight": 1,
+				"Angle": 360,
+				"AngleWeight": 0,
+				"CurrentTargetWeight": 0,
+				"BaseWeight": 0,
+				"bRequireLineOfSight": false
+			},
+			"PassivelyAiming":
+			{
+				"Range": 300,
+				"DistanceWeight": 1,
+				"Angle": 360,
+				"AngleWeight": 0,
+				"CurrentTargetWeight": 0,
+				"BaseWeight": 0,
+				"bRequireLineOfSight": false
+			},
+			"ActivelyAiming":
+			{
+				"Range": 300,
+				"DistanceWeight": 1,
+				"Angle": 360,
+				"AngleWeight": 0,
+				"CurrentTargetWeight": 0,
+				"BaseWeight": 0,
+				"bRequireLineOfSight": false
+			}
+		}
+	},
+	{
+		"Name": "Interactable",
+		"TypeTag":
+		{
+			"TagName": "SW.TargetingProperties.Interactable"
+		},
+		"TargetingProperties":
+		{
+			"Moving":
+			{
+				"Range": 300,
+				"DistanceWeight": 1,
+				"Angle": 360,
+				"AngleWeight": 0.5,
+				"CurrentTargetWeight": 0,
+				"BaseWeight": 4,
+				"bRequireLineOfSight": false
+			},
+			"Idling":
+			{
+				"Range": 300,
+				"DistanceWeight": 1,
+				"Angle": 360,
+				"AngleWeight": 0,
+				"CurrentTargetWeight": 0,
+				"BaseWeight": 4,
+				"bRequireLineOfSight": false
+			},
+			"PassivelyAiming":
+			{
+				"Range": 300,
+				"DistanceWeight": 1,
+				"Angle": 360,
+				"AngleWeight": 0,
+				"CurrentTargetWeight": 0,
+				"BaseWeight": 4,
+				"bRequireLineOfSight": false
+			},
+			"ActivelyAiming":
+			{
+				"Range": 300,
+				"DistanceWeight": 1,
+				"Angle": 360,
+				"AngleWeight": 0,
+				"CurrentTargetWeight": 0,
+				"BaseWeight": 4,
+				"bRequireLineOfSight": false
+			}
+		}
+	},
+	{
+		"Name": "Consumable",
+		"TypeTag":
+		{
+			"TagName": "SW.TargetingProperties.Consumable"
+		},
+		"TargetingProperties":
+		{
+			"Moving":
+			{
+				"Range": 250,
+				"DistanceWeight": 1,
+				"Angle": 360,
+				"AngleWeight": 0.5,
+				"CurrentTargetWeight": 0,
+				"BaseWeight": 0,
+				"bRequireLineOfSight": false
+			},
+			"Idling":
+			{
+				"Range": 250,
+				"DistanceWeight": 1,
+				"Angle": 360,
+				"AngleWeight": 0,
+				"CurrentTargetWeight": 0,
+				"BaseWeight": 0,
+				"bRequireLineOfSight": false
+			},
+			"PassivelyAiming":
+			{
+				"Range": 250,
+				"DistanceWeight": 1,
+				"Angle": 360,
+				"AngleWeight": 0,
+				"CurrentTargetWeight": 0,
+				"BaseWeight": 0,
+				"bRequireLineOfSight": false
+			},
+			"ActivelyAiming":
+			{
+				"Range": 250,
+				"DistanceWeight": 1,
+				"Angle": 360,
+				"AngleWeight": 0,
+				"CurrentTargetWeight": 0,
+				"BaseWeight": 0,
+				"bRequireLineOfSight": false
+			}
+		}
+	},
+	{
+		"Name": "NPC",
+		"TypeTag":
+		{
+			"TagName": "SW.TargetingProperties.NPC"
+		},
+		"TargetingProperties":
+		{
+			"Moving":
+			{
+				"Range": 500,
+				"DistanceWeight": 1,
+				"Angle": 360,
+				"AngleWeight": 0,
+				"CurrentTargetWeight": 0,
+				"BaseWeight": 1,
+				"bRequireLineOfSight": false
+			},
+			"Idling":
+			{
+				"Range": 500,
+				"DistanceWeight": 1,
+				"Angle": 360,
+				"AngleWeight": 0,
+				"CurrentTargetWeight": 0,
+				"BaseWeight": 1,
+				"bRequireLineOfSight": false
+			},
+			"PassivelyAiming":
+			{
+				"Range": 500,
+				"DistanceWeight": 1,
+				"Angle": 360,
+				"AngleWeight": 0,
+				"CurrentTargetWeight": 0,
+				"BaseWeight": 1,
+				"bRequireLineOfSight": false
+			},
+			"ActivelyAiming":
+			{
+				"Range": 500,
+				"DistanceWeight": 1,
+				"Angle": 360,
+				"AngleWeight": 0,
+				"CurrentTargetWeight": 0,
+				"BaseWeight": 1,
+				"bRequireLineOfSight": false
+			}
+		}
+	},
+	{
+		"Name": "Player",
+		"TypeTag":
+		{
+			"TagName": "SW.TargetingProperties.Player"
+		},
+		"TargetingProperties":
+		{
+			"Moving":
+			{
+				"Range": 250,
+				"DistanceWeight": 1,
+				"Angle": 280,
+				"AngleWeight": 0,
+				"CurrentTargetWeight": 0,
+				"BaseWeight": 10,
+				"bRequireLineOfSight": false
+			},
+			"Idling":
+			{
+				"Range": 250,
+				"DistanceWeight": 1,
+				"Angle": 360,
+				"AngleWeight": 0,
+				"CurrentTargetWeight": 0,
+				"BaseWeight": 10,
+				"bRequireLineOfSight": false
+			},
+			"PassivelyAiming":
+			{
+				"Range": 250,
+				"DistanceWeight": 1,
+				"Angle": 360,
+				"AngleWeight": 0,
+				"CurrentTargetWeight": 0,
+				"BaseWeight": 10,
+				"bRequireLineOfSight": false
+			},
+			"ActivelyAiming":
+			{
+				"Range": 250,
+				"DistanceWeight": 0,
+				"Angle": 280,
+				"AngleWeight": 0,
+				"CurrentTargetWeight": 0,
+				"BaseWeight": 10,
+				"bRequireLineOfSight": false
+			}
+		}
+	},
+	{
+		"Name": "Attackable",
+		"TypeTag":
+		{
+			"TagName": "SW.TargetingProperties.Attackable"
+		},
+		"TargetingProperties":
+		{
+			"Moving":
+			{
+				"Range": 2900,
+				"DistanceWeight": 1,
+				"Angle": 60,
+				"AngleWeight": 0.25,
+				"CurrentTargetWeight": 0,
+				"BaseWeight": 3,
+				"bRequireLineOfSight": false
+			},
+			"Idling":
+			{
+				"Range": 2900,
+				"DistanceWeight": 1,
+				"Angle": 360,
+				"AngleWeight": 0.5,
+				"CurrentTargetWeight": 1,
+				"BaseWeight": 3,
+				"bRequireLineOfSight": false
+			},
+			"PassivelyAiming":
+			{
+				"Range": 2900,
+				"DistanceWeight": 1,
+				"Angle": 360,
+				"AngleWeight": 0.5,
+				"CurrentTargetWeight": 1,
+				"BaseWeight": 3,
+				"bRequireLineOfSight": false
+			},
+			"ActivelyAiming":
+			{
+				"Range": 2900,
+				"DistanceWeight": 0.25,
+				"Angle": 45,
+				"AngleWeight": 1,
+				"CurrentTargetWeight": 0,
+				"BaseWeight": 3,
+				"bRequireLineOfSight": false
+			}
+		}
+	},
+	{
+		"Name": "Unkillable",
+		"TypeTag":
+		{
+			"TagName": "SW.TargetingProperties.Unkillable"
+		},
+		"TargetingProperties":
+		{
+			"Moving":
+			{
+				"Range": 2000,
+				"DistanceWeight": 1,
+				"Angle": 60,
+				"AngleWeight": 0.3,
+				"CurrentTargetWeight": 0,
+				"BaseWeight": 0,
+				"bRequireLineOfSight": false
+			},
+			"Idling":
+			{
+				"Range": 2000,
+				"DistanceWeight": 1,
+				"Angle": 360,
+				"AngleWeight": 0,
+				"CurrentTargetWeight": 0,
+				"BaseWeight": 0,
+				"bRequireLineOfSight": false
+			},
+			"PassivelyAiming":
+			{
+				"Range": 2000,
+				"DistanceWeight": 1,
+				"Angle": 360,
+				"AngleWeight": 0,
+				"CurrentTargetWeight": 0,
+				"BaseWeight": 0,
+				"bRequireLineOfSight": false
+			},
+			"ActivelyAiming":
+			{
+				"Range": 2000,
+				"DistanceWeight": 1,
+				"Angle": 60,
+				"AngleWeight": 0.6,
+				"CurrentTargetWeight": 0,
+				"BaseWeight": 0,
+				"bRequireLineOfSight": false
+			}
+		}
+	},
+	{
+		"Name": "BreakablePot",
+		"TypeTag":
+		{
+			"TagName": "SW.TargetingProperties.BreakablePot"
+		},
+		"TargetingProperties":
+		{
+			"Moving":
+			{
+				"Range": 1500,
+				"DistanceWeight": 1,
+				"Angle": 60,
+				"AngleWeight": 0.25,
+				"CurrentTargetWeight": 0,
+				"BaseWeight": 0,
+				"bRequireLineOfSight": false
+			},
+			"Idling":
+			{
+				"Range": 1500,
+				"DistanceWeight": 1,
+				"Angle": 360,
+				"AngleWeight": 0.5,
+				"CurrentTargetWeight": 1,
+				"BaseWeight": 0,
+				"bRequireLineOfSight": false
+			},
+			"PassivelyAiming":
+			{
+				"Range": 1500,
+				"DistanceWeight": 1,
+				"Angle": 360,
+				"AngleWeight": 0.5,
+				"CurrentTargetWeight": 1,
+				"BaseWeight": 0,
+				"bRequireLineOfSight": false
+			},
+			"ActivelyAiming":
+			{
+				"Range": 1500,
+				"DistanceWeight": 0.25,
+				"Angle": 45,
+				"AngleWeight": 1,
+				"CurrentTargetWeight": 0,
+				"BaseWeight": 0,
+				"bRequireLineOfSight": false
+			}
+		}
+	}
+]

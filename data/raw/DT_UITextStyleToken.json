@@ -1,0 +1,474 @@
+[
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.Body.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Style_Body_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Tags.Medium",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Tags_Variants/StyleVar_Tags_Medium"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.Caption.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Style_Caption_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.NavBarHeader.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Style_NavBarHeader_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.BigCode.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Custom_Variants/Style_BigCode_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.Button.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Style_Button_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.Button.Subtle.Normal.Base.Text",
+		"TextStyle": "/OreUI/UI/Typography/ButtonVariants/Subtle/Style_Button-Subtle-Normal-Base_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.Button.Subtle.Disabled.Text",
+		"TextStyle": "/OreUI/UI/Typography/ButtonVariants/Subtle/Style_Button-Subtle-Disabled_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.Button.Subtle.Normal.Hovered.Text",
+		"TextStyle": "/OreUI/UI/Typography/ButtonVariants/Subtle/Style_Button-Subtle-Normal-Hovered_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.Button.Subtle.Selected.Base.Text",
+		"TextStyle": "/OreUI/UI/Typography/ButtonVariants/Subtle/Style_Button-Subtle-Selected-Base_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.Button.Subtle.Selected.Hovered.Text",
+		"TextStyle": "/OreUI/UI/Typography/ButtonVariants/Subtle/Style_Button-Subtle-Selected-Hovered_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.Header4.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Style_Header4_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.PrimaryButton.Text",
+		"TextStyle": "/OreUI/UI/Typography/ButtonVariants/Primary/Style_PrimaryButton_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.ButtonPrimary.Disabled.Text",
+		"TextStyle": "/OreUI/UI/Typography/ButtonVariants/Primary/Style_ButtonPrimary-Disabled_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.ButtonPrimary.Normal.Base.Text",
+		"TextStyle": "/OreUI/UI/Typography/ButtonVariants/Primary/Style_ButtonPrimary-Normal-Base_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.ButtonPrimary.Normal.Hovered.Text",
+		"TextStyle": "/OreUI/UI/Typography/ButtonVariants/Primary/Style_ButtonPrimary-Normal-Hovered_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.ButtonPrimary.Selected.Base.Text",
+		"TextStyle": "/OreUI/UI/Typography/ButtonVariants/Primary/Style_ButtonPrimary-Selected-Base_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.ButtonPrimary.Selected.Hovered.Text",
+		"TextStyle": "/OreUI/UI/Typography/ButtonVariants/Primary/Style_ButtonPrimary-Selected-Hovered_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Header5.WithOutline.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Header5_Variants/StyleVar_Header5_WithOutline_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.Header1.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Style_Header1_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Header1.Outline.Couch.Coop.Frame.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Header1_Variants/StyleVar_Header1_Outline_Couch_Coop_Frame_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Body.QuestDialog.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Body_Variants/StyleVar_Body_QuestDialog_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Body.WithOutline.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Body_Variants/StyleVar_Body_WithOutline_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.Header5.WithouShadow.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Header5_Variants/Style_Header5_WithouShadow_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.SectionHeader1.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Style_SectionHeader1_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.SectionHeader.Shadowed.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/SectionHeader_Variants/StyleVar_SectionHeader_Shadowed_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.SectionHeader2.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Style_SectionHeader2_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.ButtonListEntry.Disabled.Text",
+		"TextStyle": "/OreUI/UI/Typography/ButtonVariants/ListEntry/Style_ButtonListEntry-Disabled_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.ButtonListEntry.Normal.Base.Text",
+		"TextStyle": "/OreUI/UI/Typography/ButtonVariants/ListEntry/Style_ButtonListEntry-Normal-Base_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.ButtonListEntry.Normal.Hover.Text",
+		"TextStyle": "/OreUI/UI/Typography/ButtonVariants/ListEntry/Style_ButtonListEntry-Normal-Hover_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.ButtonListEntry.Normal.Pressed.Text",
+		"TextStyle": "/OreUI/UI/Typography/ButtonVariants/ListEntry/Style_ButtonListEntry-Normal-Pressed_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.Header5.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Style_Header5_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Caption.Small.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Caption_Variants/StyleVar_Caption_Small_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Tags.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Tags_Variants/StyleVar_Tags_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.Numeric3.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Style_Numeric3_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Header4.Text.Leading.Small",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Header4_Variants/StyleVar_Header4_Text_Leading_Small"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.SectionHeader1.Bold",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/SectionHeader_Variants/Style_SectionHeader1_Bold"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.Numeric1.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Style_Numeric1_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.Numeric1.Text.Drop.Shadow",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Numeric1_Variants/Style_Numeric1_Text_Drop_Shadow"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.Numeric2.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Style_Numeric2_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Numeric3.Outline.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Numeric3_Variants/StyleVar_Numeric3_Outline_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.EnchantmentLevelIndicator",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Custom_Variants/Style_EnchantmentLevelIndicator"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Header1.CreditsOutline.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Header1_Variants/StyleVar_Header1_CreditsOutline_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.CreditsHeader0.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Custom_Variants/Style_CreditsHeader0_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.CreditsHeader1.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Custom_Variants/Style_CreditsHeader1_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.CreditsBody.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Custom_Variants/Style_CreditsBody_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Caption.Outline.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Caption_Variants/StyleVar_Caption_Outline_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Caption.ModalHeader.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/ModalHeader_Variants/StyleVar_Caption_ModalHeader_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.Header3.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Style_Header3_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Numeric3.Outline.Thick.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Numeric3_Variants/StyleVar_Numeric3_Outline_Thick_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Header4.Text.Outline",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Header4_Variants/StyleVar_Header4_Text_Outline"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.SectionHeader2.Outline.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/SectionHeader2_Variants/StyleVar_SectionHeader2_Outline_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Header2.Shadow.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Header2_Variants/StyleVar_Header2_Shadow_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.NavBarHeader.Normal.Base.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/NavbarHeader_Variants/StyleVar_NavBarHeader_Normal-Base_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.NavBarHeader.Normal.Hover.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/NavbarHeader_Variants/StyleVar_NavBarHeader_Normal-Hover_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.NavBarHeader.Selected.Base.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/NavbarHeader_Variants/StyleVar_NavBarHeader_Selected-Base_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.ModalHeader.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Style_ModalHeader_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.Header5.Faded",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Header5_Variants/Style_Header5_Faded"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.LobbyButton.Normal.Hovered.Text",
+		"TextStyle": "/OreUI/UI/Button/Role/Text/TextStyles/Normal/Style_LobbyButton-Normal-Hovered_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.LobbyButtonLarge.Disabled.Text",
+		"TextStyle": "/OreUI/UI/Button/Role/Text/TextStyles/Large/Style_LobbyButtonLarge-Disabled_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.LobbyButtonLarge.Normal.Base.Text",
+		"TextStyle": "/OreUI/UI/Button/Role/Text/TextStyles/Large/Style_LobbyButtonLarge-Normal-Base_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.LobbyButtonLarge.Normal.Hovered.Text",
+		"TextStyle": "/OreUI/UI/Button/Role/Text/TextStyles/Large/Style_LobbyButtonLarge-Normal-Hovered_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.LobbyButtonLarge.Normal.Pressed.Text",
+		"TextStyle": "/OreUI/UI/Button/Role/Text/TextStyles/Large/Style_LobbyButtonLarge-Normal-Pressed_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.LobbyButtonLarge.Selected.Base.Text",
+		"TextStyle": "/OreUI/UI/Button/Role/Text/TextStyles/Large/Style_LobbyButtonLarge-Selected-Base_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.LobbyButtonLarge.Selected.Hover.Text",
+		"TextStyle": "/OreUI/UI/Button/Role/Text/TextStyles/Large/Style_LobbyButtonLarge-Selected-Hover_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.LobbyButtonLarge.Selected.Pressed.Text",
+		"TextStyle": "/OreUI/UI/Button/Role/Text/TextStyles/Large/Style_LobbyButtonLarge-Selected-Pressed_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.Header2.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Style_Header2_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Tags.Small.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Tags_Variants/StyleVar_Tags_Small_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.LobbyButton.Disabled.Text",
+		"TextStyle": "/OreUI/UI/Button/Role/Text/TextStyles/Normal/Style_LobbyButton-Disabled_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.LobbyButton.Normal.Base.Text",
+		"TextStyle": "/OreUI/UI/Button/Role/Text/TextStyles/Normal/Style_LobbyButton-Normal-Base_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.LobbyButton.Normal.Pressed.Text",
+		"TextStyle": "/OreUI/UI/Button/Role/Text/TextStyles/Normal/Style_LobbyButton-Normal-Pressed_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.LobbyButton.Selected.Base.Text",
+		"TextStyle": "/OreUI/UI/Button/Role/Text/TextStyles/Normal/Style_LobbyButton-Selected-Base_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.LobbyButton.Selected.Hover.Text",
+		"TextStyle": "/OreUI/UI/Button/Role/Text/TextStyles/Normal/Style_LobbyButton-Selected-Hover_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.LobbyButton.Selected.Pressed.Text",
+		"TextStyle": "/OreUI/UI/Button/Role/Text/TextStyles/Normal/Style_LobbyButton-Selected-Pressed_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Tags.Colossal",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Tags_Variants/StyleVar_Tags_Colossal"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Header2.Outline.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Header2_Variants/StyleVar_Header2_Outline_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.NavBarHeader.Selected.Hover.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/NavbarHeader_Variants/StyleVar_NavBarHeader_Selected-Hover_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Header1.Outline.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Header1_Variants/StyleVar_Header1_Outline_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.ButtonRadio.Normal.Base.Text",
+		"TextStyle": "/OreUI/UI/Typography/ButtonVariants/Radio/Style_ButtonRadio-Normal-Base_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Numeric2.Outline.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Numeric2_Variants/StyleVar_Numeric2_Outline_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.NumericGiant.LevelUp.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Custom_Variants/StyleVar_NumericGiant_LevelUp_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.Header5.No.Drop.Shadow.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Header5_Variants/Style_Header5_No_Drop_Shadow_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.SectionHeader1.White.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/SectionHeader_Variants/Style_SectionHeader1_White_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.ButtonRadio.Diabled.Text",
+		"TextStyle": "/OreUI/UI/Typography/ButtonVariants/Radio/Style_ButtonRadio-Diabled_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.ButtonRadio.Normal.Hover.Text",
+		"TextStyle": "/OreUI/UI/Typography/ButtonVariants/Radio/Style_ButtonRadio-Normal-Hover_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Body.FontSize37.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Body_Variants/StyleVar_Body_FontSize37_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.NumericCustom.HUD.RangedAmmo.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Feature_Specific/StyleVar_NumericCustom_HUD_RangedAmmo_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.Header5.Text.Reduced.Line.Height",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Header5_Variants/Style_Header5_Text_Reduced_Line_Height"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Header4.PlayerNumber.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Header4_Variants/StyleVar_Header4_PlayerNumber_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Numeric4.Outline",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Numeric4_Variants/StyleVar_Numeric4_Outline"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.SectionHeader2.Bold.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/SectionHeader2_Variants/Style_SectionHeader2_Bold_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Caption.MinecraftSixteen.Medium",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Caption_Variants/StyleVar_Caption_MinecraftSixteen_Medium"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Caption.MinecraftSixteen.Outline.2px.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Caption_Variants/StyleVar_Caption_MinecraftSixteen_Outline_2px_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.Numeric4.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Style_Numeric4_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.NavBarHeader.Text.Outline.3px.Shadow",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/NavbarHeader_Variants/StyleVar_NavBarHeader_Text_Outline_3px_Shadow"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Header5.WithOutline.WithShadow.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Header5_Variants/StyleVar_Header5_WithOutline_WithShadow_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.SectionHeader.GreyB3B3B3.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/SectionHeader_Variants/StyleVar_SectionHeader_GreyB3B3B3_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.SectionHeader.Yellow.Outline.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/SectionHeader_Variants/StyleVar_SectionHeader_Yellow_Outline_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.SectionHeader.NoShadowed.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/SectionHeader_Variants/StyleVar_SectionHeader_NoShadowed_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.SectionHeader1.Outline3px.Shadow4px.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/SectionHeader_Variants/Style_SectionHeader1_Outline3px_Shadow4px_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.Tags.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Style_Tags_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.Illager.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Style_Illager_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Tags.Shadow",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Tags_Variants/StyleVar_Tags_Shadow"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.SectionHeader.White.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/SectionHeader_Variants/StyleVar_SectionHeader_White_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.SectionHeader2.Shadow.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/SectionHeader2_Variants/Style_SectionHeader2_Shadow_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.SectionHeader2.Disabled.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/SectionHeader2_Variants/StyleVar_SectionHeader2_Disabled_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Numeric3.Outline.Low.Opacity",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Numeric3_Variants/StyleVar_Numeric3_Outline_Low_Opacity"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Numeric2.OutlineThin.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Numeric2_Variants/StyleVar_Numeric2_OutlineThin_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.NavBarHeader.Grey.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/NavbarHeader_Variants/StyleVar_NavBarHeader_Grey_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Header5.WithOutline.Thick.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Header5_Variants/StyleVar_Header5_WithOutline_Thick_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.Header4.Faded",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Header4_Variants/Style_Header4_Faded"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.Header1.Shadow.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Header1_Variants/StyleVar_Header1_Shadow_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Server.Queue.Wait.Number",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Feature_Specific/Server_Queue_Wait_Number"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.NumericGiant.Text.Faded.Drop.Shadow",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Custom_Variants/Style_NumericGiant_Text_Faded_Drop_Shadow"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.NumericGiant.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Custom_Variants/Style_NumericGiant_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.HeaderGiant.Text",
+		"TextStyle": "/OreUI/UI/Typography/TextStyles/Custom_Variants/Style_HeaderGiant_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.Style.ButtonSecondary.Normal.Base.Text",
+		"TextStyle": "/OreUI/UI/Typography/ButtonVariants/Secondary/Style_ButtonSecondary-Normal-Base_Text"
+	},
+	{
+		"Name": "SW.UI.DesignToken.TextStyle.StyleVar.ListButtonBig.Text.Bigger",
+		"TextStyle": "/OreUI/UI/Typography/ButtonVariants/ListEntry/StyleVar_ListButtonBig_Text_Bigger"
+	}
+]

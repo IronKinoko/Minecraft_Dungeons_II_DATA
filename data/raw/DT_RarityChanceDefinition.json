@@ -1,0 +1,824 @@
+[
+	{
+		"Name": "Default",
+		"TypeTag":
+		{
+			"TagName": "SW.RarityChanceDefinition.Default"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Common"
+					},
+					"Weight": 50,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Rare"
+					},
+					"Weight": 25,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Special"
+					},
+					"Weight": 20,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Unique"
+					},
+					"Weight": 5,
+					"Operation": "Set"
+				}
+			]
+		}
+	},
+	{
+		"Name": "Player",
+		"TypeTag":
+		{
+			"TagName": "SW.Player"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.RarityChanceDefinition.Default"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.RarityChanceDefinition"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TagList":
+		{
+		}
+	},
+	{
+		"Name": "Talisman",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.Talisman"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.None"
+					},
+					"Weight": 1e+06,
+					"Operation": "Set"
+				}
+			]
+		}
+	},
+	{
+		"Name": "DefaultMob",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Default.Hostile"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.RarityChanceDefinition.Default"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.RarityChanceDefinition"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TagList":
+		{
+		}
+	},
+	{
+		"Name": "DefaultArea",
+		"TypeTag":
+		{
+			"TagName": "SW.Area"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.RarityChanceDefinition.Default"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.RarityChanceDefinition"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TagList":
+		{
+		}
+	},
+	{
+		"Name": "Consumable",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.Consumable"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.None"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				}
+			]
+		}
+	},
+	{
+		"Name": "Currency",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Currency"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.None"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				}
+			]
+		}
+	},
+	{
+		"Name": "QuestItem",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.QuestItem"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.None"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				}
+			]
+		}
+	},
+	{
+		"Name": "WoodenChest",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.WoodenChest"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Common"
+					},
+					"Weight": 0.5,
+					"Operation": "Multiply"
+				}
+			]
+		}
+	},
+	{
+		"Name": "FancyChest",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.FancyChest"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Common"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				}
+			]
+		}
+	},
+	{
+		"Name": "MiniBoss",
+		"TypeTag":
+		{
+			"TagName": "SW.Trait.MiniBoss"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Common"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				}
+			]
+		}
+	},
+	{
+		"Name": "Boss",
+		"TypeTag":
+		{
+			"TagName": "SW.Trait.Boss"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Common"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Rare"
+					},
+					"Weight": 30,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Special"
+					},
+					"Weight": 20,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Unique"
+					},
+					"Weight": 10,
+					"Operation": "Set"
+				}
+			]
+		}
+	},
+	{
+		"Name": "QuestRewardDefault",
+		"TypeTag":
+		{
+			"TagName": "SW.RarityChance.Quest.Default"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Common"
+					},
+					"Weight": 30,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Rare"
+					},
+					"Weight": 60,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Special"
+					},
+					"Weight": 40,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Unique"
+					},
+					"Weight": 5,
+					"Operation": "Set"
+				}
+			]
+		}
+	},
+	{
+		"Name": "MerchantTier0",
+		"TypeTag":
+		{
+			"TagName": "SW.RarityChance.Merchant.Tier0"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.None"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Common"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Rare"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Special"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Unique"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				}
+			]
+		}
+	},
+	{
+		"Name": "MerchantTier1",
+		"TypeTag":
+		{
+			"TagName": "SW.RarityChance.Merchant.Tier1"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.None"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Common"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Rare"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Special"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Unique"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				}
+			]
+		}
+	},
+	{
+		"Name": "MerchantTier2",
+		"TypeTag":
+		{
+			"TagName": "SW.RarityChance.Merchant.Tier2"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.None"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Common"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Rare"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Special"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Unique"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				}
+			]
+		}
+	},
+	{
+		"Name": "EnchantmentBook",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Property.EnchantmentBook"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.None"
+					},
+					"Weight": 1e+06,
+					"Operation": "Set"
+				}
+			]
+		}
+	},
+	{
+		"Name": "QuestRewardCommon",
+		"TypeTag":
+		{
+			"TagName": "SW.RarityChance.Quest.Common"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Common"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Rare"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Special"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Unique"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				}
+			]
+		}
+	},
+	{
+		"Name": "QuestRewardRare",
+		"TypeTag":
+		{
+			"TagName": "SW.RarityChance.Quest.Rare"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Common"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Rare"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Special"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Unique"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				}
+			]
+		}
+	},
+	{
+		"Name": "QuestRewardSpecial",
+		"TypeTag":
+		{
+			"TagName": "SW.RarityChance.Quest.Special"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Common"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Rare"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Special"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Unique"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				}
+			]
+		}
+	},
+	{
+		"Name": "QuestRewardUnique",
+		"TypeTag":
+		{
+			"TagName": "SW.RarityChance.Quest.Unique"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Common"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Rare"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Special"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Unique"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				}
+			]
+		}
+	},
+	{
+		"Name": "StorminatorRewardChest",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.StorminatorChest"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Common"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Rare"
+					},
+					"Weight": 0.01,
+					"Operation": "Multiply"
+				}
+			]
+		}
+	},
+	{
+		"Name": "PiggyBank",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.PiggyBank"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Common"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				}
+			]
+		}
+	},
+	{
+		"Name": "CampChest",
+		"TypeTag":
+		{
+			"TagName": "SW.LootActor.CampWoodenChest"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Common"
+					},
+					"Weight": 1,
+					"Operation": "Set"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Rare"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Special"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Unique"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				}
+			]
+		}
+	},
+	{
+		"Name": "LowDifficulty",
+		"TypeTag":
+		{
+			"TagName": "SW.Difficulty.Low"
+		},
+		"TagList":
+		{
+			"Tags": [
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Special"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				},
+				{
+					"TypeTag":
+					{
+						"TagName": "SW.Rarity.Unique"
+					},
+					"Weight": 0,
+					"Operation": "Multiply"
+				}
+			]
+		}
+	}
+]

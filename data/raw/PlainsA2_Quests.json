@@ -1,0 +1,997 @@
+{
+	"Name": "PlainsA2_Quests",
+	"DefaultQuestData":
+	{
+		"id": "PLa2_",
+		"id_tag": "None",
+		"initial_state": "Locked",
+		"quest_type": "SideQuest",
+		"RewardData":
+		{
+			"questSize":
+			{
+				"tagName": "SW.QuestSize.Small"
+			},
+			"areaRewardScalingTag":
+			{
+				"tagName": "SW.Area.Plains.A2"
+			},
+			"firstCompletionLootSourceData": [],
+			"lootSourceData": [
+				{
+					"lootSourceTag":
+					{
+						"tagName": "None"
+					},
+					"lootTags":
+					{
+						"gameplayTags": [
+							{
+								"tagName": "SW.Area.Plains.A2"
+							},
+							{
+								"tagName": "SW.Quest.Loot.AreaDropModifier"
+							}
+						]
+					}
+				}
+			]
+		},
+		"serialize_progress_for_quest": true,
+		"is_replayable": false,
+		"replay_whole_arc": false,
+		"replay_rule": "TimeBased",
+		"replay_delay_time": 30,
+		"UnlockBannerData":
+		{
+			"unlocksQuest": false,
+			"unlocksArea": false,
+			"unlocksTownContent": false,
+			"unlocksSoulStorm": false
+		},
+		"unlock_quests_timer_override": 0,
+		"name": "",
+		"comment": "",
+		"quest_arc": "",
+		"MetaData":
+		{
+			"keyValues": []
+		},
+		"prerequisites": []
+	},
+	"Quests": [
+		{
+			"id": "PLa2_S15_A",
+			"id_tag": "SW.Quest.Id.PLa2S15A",
+			"initial_state": "Locked",
+			"quest_type": "SideQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Small"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Plains.A2"
+				},
+				"firstCompletionLootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Melee.CurvedLongswordUnique_01"
+								}
+							]
+						}
+					}
+				],
+				"lootSourceData": []
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": false,
+				"unlocksArea": false,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "Supply Raid",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": []
+			},
+			"prerequisites": [
+				"CA07"
+			],
+			"goals":
+			{
+				"name": "PLa2_S15_A_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "PLa2_S15_A_Sequence02",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "PLa2_S15_A_E01",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"destination": "PLa2_S15_A_E01_Target"
+							},
+							{
+								"name": "PLa2_S15_A_SM01",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"mob_types": [
+									"SW.Mob.Vindicator",
+									"SW.Mob.Pillager"
+								],
+								"mob_count": 5,
+								"volume_name": "PLa2_S15_A_SM01",
+								"group_tag": "PLa2_S15_A_SM01_Group"
+							},
+							{
+								"name": "PLa2_S15_A_K01",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"TaskLocationOverrideType": "OtherTask",
+								"OtherTaskId": "PLa2_S15_A_SM01",
+								"kill_target": "PLa2_S15_A_SM01_Group",
+								"kill_target_types": [
+									"SW.Mob.Vindicator",
+									"SW.Mob.Pillager"
+								],
+								"kill_count": 5
+							},
+							{
+								"name": "PLa2_S15_A_I01",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "PLa2_S15_A_I01_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							}
+						]
+					},
+					{
+						"name": "PLa2_S15_A_Sequence03",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "PLa2_S15_A_E02",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"destination": "PLa2_S15_A_E02_Target"
+							},
+							{
+								"name": "PLa2_S15_A_SM02",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"mob_types": [
+									"SW.Mob.Vindicator",
+									"SW.Mob.Pillager"
+								],
+								"mob_count": 5,
+								"volume_name": "PLa2_S15_A_SM02",
+								"group_tag": "PLa2_S15_A_SM02_Group"
+							},
+							{
+								"name": "PLa2_S15_A_K02",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"TaskLocationOverrideType": "OtherTask",
+								"OtherTaskId": "PLa2_S15_A_SM02",
+								"kill_target": "PLa2_S15_A_SM02_Group",
+								"kill_target_types": [
+									"SW.Mob.Vindicator",
+									"SW.Mob.Pillager"
+								],
+								"kill_count": 5
+							},
+							{
+								"name": "PLa2_S15_A_I02",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "PLa2_S15_A_I02_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							}
+						]
+					},
+					{
+						"name": "PLa2_S15_A_E03",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "PLa2_S15_A_E03_Target"
+					},
+					{
+						"name": "PLa2_S15_A_AS01",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.PlainsA2.PLa2.S15.A.Arena01"
+					},
+					{
+						"name": "PLa2_S15_A_I04",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "PLa2_S15_A_I04_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "PLa2_S15_A_I05",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "PLa2_S15_A_I05_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					}
+				]
+			}
+		},
+		{
+			"id": "PLa2_S16_A",
+			"id_tag": "SW.Quest.Id.PLa2S16A",
+			"initial_state": "Locked",
+			"quest_type": "SideQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Small"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Plains.A2"
+				},
+				"firstCompletionLootSourceData": [],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Talisman.Healing"
+								}
+							]
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": false,
+				"unlocksArea": false,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": []
+			},
+			"prerequisites": [
+				"CA07"
+			],
+			"goals":
+			{
+				"name": "PLa2_S16_A_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "PLa2_S16_A_E05",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "PLa2_S16_A_E05_Dest"
+					},
+					{
+						"name": "PLa2_S16_A_I10",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "PLa2_S16_A_I10_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "PLa2_S16_A_Sequence02",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "PLa2_S16_A_E01",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"destination": "PLa2_S16_A_E01_Trigger"
+							},
+							{
+								"name": "PLa2_S16_A_Standard04",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"type": "Standard",
+								"subgoals": [
+									{
+										"name": "PLa2_S16_A_SM08",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"mob_types": [
+											"SW.Mob.Vindicator",
+											"SW.Mob.Pillager"
+										],
+										"mob_count": 6,
+										"volume_name": "PLa2_S16_A_SM01_SpawnVolume",
+										"group_tag": "PLa2_S16_A_SM01_Group"
+									},
+									{
+										"name": "PLa2_S16_A_SM01",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"mob_types": [
+											"SW.Mob.Ravager"
+										],
+										"mob_count": 1,
+										"volume_name": "PLa2_S16_A_SM01_SpawnVolume",
+										"group_tag": "PLa2_S16_A_SM01_Group"
+									}
+								]
+							},
+							{
+								"name": "PLa2_S16_A_K01",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"TaskLocationOverrideType": "OtherTask",
+								"OtherTaskId": "PLa2_S16_A_SM01",
+								"kill_target": "PLa2_S16_A_SM01_Group",
+								"kill_target_types": [
+									"SW.Mob.Ravager",
+									"SW.Mob.Pillager",
+									"SW.Mob.Vindicator"
+								],
+								"kill_count": 7
+							}
+						]
+					},
+					{
+						"name": "PLa2_S16_A_Standard01",
+						"comment": "",
+						"show_progress": true,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "PLa2_S16_A_I02",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "PLa2_S16_A_I02_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "PLa2_S16_A_I03",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "PLa2_S16_A_I03_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "PLa2_S16_A_I14",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "PLa2_S16_A_I14_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							}
+						]
+					},
+					{
+						"name": "PLa2_S16_A_Sequence03",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "PLa2_S16_A_E02",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"destination": "PLa2_S16_A_E02_Trigger"
+							},
+							{
+								"name": "PLa2_S16_A_Standard05",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"type": "Standard",
+								"subgoals": [
+									{
+										"name": "PLa2_S16_A_SM05",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"mob_types": [
+											"SW.Mob.Vindicator",
+											"SW.Mob.Pillager"
+										],
+										"mob_count": 6,
+										"volume_name": "PLa2_S16_A_SM01_SpawnVolume",
+										"group_tag": "PLa2_S16_A_SM01_Group"
+									},
+									{
+										"name": "PLa2_S16_A_SM02",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"mob_types": [
+											"SW.Mob.Ravager"
+										],
+										"mob_count": 2,
+										"volume_name": "PLa2_S16_A_SM02_SpawnVolume",
+										"group_tag": "PLa2_S16_A_SM02_Group"
+									}
+								]
+							},
+							{
+								"name": "PLa2_S16_A_K02",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"TaskLocationOverrideType": "OtherTask",
+								"OtherTaskId": "PLa2_S16_A_SM02",
+								"kill_target": "PLa2_S16_A_SM02_Group",
+								"kill_target_types": [
+									"SW.Mob.Ravager"
+								],
+								"kill_count": 2
+							}
+						]
+					},
+					{
+						"name": "PLa2_S16_A_Standard02",
+						"comment": "",
+						"show_progress": true,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "PLa2_S16_A_I06",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "PLa2_S16_A_I06_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "PLa2_S16_A_I07",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "PLa2_S16_A_I07_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "PLa2_S16_A_I11",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "PLa2_S16_A_I11_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "PLa2_S16_A_I12",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "PLa2_S16_A_I12_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							}
+						]
+					},
+					{
+						"name": "PLa2_S16_A_Sequence04",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "PLa2_S16_A_E03",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"destination": "PLa2_S16_A_E03_Trigger"
+							},
+							{
+								"name": "PLa2_S16_A_Standard06",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"type": "Standard",
+								"subgoals": [
+									{
+										"name": "PLa2_S16_A_SM06",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"mob_types": [
+											"SW.Mob.Vindicator",
+											"SW.Mob.Pillager"
+										],
+										"mob_count": 6,
+										"volume_name": "PLa2_S16_A_SM03_SpawnVolume",
+										"group_tag": "PLa2_S16_A_SM03_Group"
+									},
+									{
+										"name": "PLa2_S16_A_SM03",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"mob_types": [
+											"SW.Mob.Ravager"
+										],
+										"mob_count": 2,
+										"volume_name": "PLa2_S16_A_SM03_SpawnVolume",
+										"group_tag": "PLa2_S16_A_SM03_Group"
+									},
+									{
+										"name": "PLa2_S16_A_SM07",
+										"comment": "",
+										"show_progress": false,
+										"bResetProgressIfActiveOnLoad": true,
+										"mob_types": [
+											"SW.Mob.Ravager.WithRider"
+										],
+										"mob_count": 1,
+										"volume_name": "PLa2_S16_A_SM03_SpawnVolume",
+										"group_tag": "PLa2_S16_A_SM03_Group"
+									}
+								]
+							},
+							{
+								"name": "PLa2_S16_A_K03",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"TaskLocationOverrideType": "OtherTask",
+								"OtherTaskId": "PLa2_S16_A_SM03",
+								"kill_target": "PLa2_S16_A_SM03_Group",
+								"kill_target_types": [
+									"SW.Mob.Ravager",
+									"SW.Mob.Ravager.WithRider",
+									"SW.Mob.Vindicator",
+									"SW.Mob.Pillager"
+								],
+								"kill_count": 8
+							}
+						]
+					},
+					{
+						"name": "PLa2_S16_A_Standard03",
+						"comment": "",
+						"show_progress": true,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Standard",
+						"subgoals": [
+							{
+								"name": "PLa2_S16_A_I08",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "PLa2_S16_A_I08_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "PLa2_S16_A_I09",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "PLa2_S16_A_I09_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							},
+							{
+								"name": "PLa2_S16_A_I13",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"interact_target": "PLa2_S16_A_I13_Target",
+								"howmany_count": 1,
+								"disable_interaction": true
+							}
+						]
+					},
+					{
+						"name": "PLa2_S16_A_I04",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "PLa2_S16_A_I04_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "PLa2_S16_A_F01",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"follow_goal_data":
+						{
+							"nPCTypeTag":
+							{
+								"tagName": "SW.NPC.PLa2.S16.A.QuestGiver"
+							},
+							"nPCDestination": "PLa2_S16_A_F01_NPCDest",
+							"allowedAreas":
+							{
+								"gameplayTags": []
+							}
+						}
+					},
+					{
+						"name": "PLa2_S16_A_SM04",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"mob_types": [
+							"SW.Mob.Ravager"
+						],
+						"mob_count": 2,
+						"volume_name": "PLa2_S16_A_SM04_SpawnVolume",
+						"group_tag": "PLa2_S16_A_SM04_Group"
+					},
+					{
+						"name": "PLa2_S16_A_K04",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": true,
+						"TaskLocationOverrideType": "OtherTask",
+						"OtherTaskId": "PLa2_S16_A_SM04",
+						"kill_target": "PLa2_S16_A_SM04_Group",
+						"kill_target_types": [
+							"SW.Mob.Ravager"
+						],
+						"kill_count": 1
+					},
+					{
+						"name": "PLa2_S16_A_F02",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"follow_goal_data":
+						{
+							"nPCTypeTag":
+							{
+								"tagName": "SW.NPC.PLa2.S16.A.QuestGiver"
+							},
+							"nPCDestination": "PLa2_S16_A_F02_NPCDest",
+							"allowedAreas":
+							{
+								"gameplayTags": []
+							}
+						}
+					},
+					{
+						"name": "PLa2_S16_A_I05",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "PLa2_S16_A_I05_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					}
+				]
+			}
+		},
+		{
+			"id": "PLa2_S17_A",
+			"id_tag": "SW.Quest.Id.PLa2S17A",
+			"initial_state": "Locked",
+			"quest_type": "SideQuest",
+			"RewardData":
+			{
+				"questSize":
+				{
+					"tagName": "SW.QuestSize.Small"
+				},
+				"areaRewardScalingTag":
+				{
+					"tagName": "SW.Area.Plains.A2"
+				},
+				"firstCompletionLootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Artifact.CorruptedSeed"
+								},
+								{
+									"tagName": "SW.RarityChance.Quest.Special"
+								}
+							]
+						}
+					}
+				],
+				"lootSourceData": [
+					{
+						"lootSourceTag":
+						{
+							"tagName": "None"
+						},
+						"lootTags":
+						{
+							"gameplayTags": [
+								{
+									"tagName": "SW.Quest.Loot.Talisman.RollingCooldown"
+								}
+							]
+						}
+					}
+				]
+			},
+			"serialize_progress_for_quest": true,
+			"is_replayable": false,
+			"replay_whole_arc": false,
+			"replay_rule": "TimeBased",
+			"replay_delay_time": 30,
+			"UnlockBannerData":
+			{
+				"unlocksQuest": false,
+				"unlocksArea": false,
+				"unlocksTownContent": false,
+				"unlocksSoulStorm": false
+			},
+			"unlock_quests_timer_override": 0,
+			"name": "",
+			"comment": "",
+			"quest_arc": "",
+			"MetaData":
+			{
+				"keyValues": []
+			},
+			"prerequisites": [
+				"CA07"
+			],
+			"goals":
+			{
+				"name": "PLa2_S17_A_Sequence01",
+				"comment": "",
+				"show_progress": false,
+				"bResetProgressIfActiveOnLoad": false,
+				"type": "Sequence",
+				"subgoals": [
+					{
+						"name": "PLa2_S17_A_E01",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"destination": "PLa2_S17_A_E01_Trigger"
+					},
+					{
+						"name": "PLa2_S17_A_I01",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "PLa2_S17_A_I01Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "PLa2_S17_A_MT01",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"npc_tag": "PLa2_S17_A_MT01_NPCTarget"
+					},
+					{
+						"name": "PLa2_S17_A_I03",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "PLa2_S17_A_I03_Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					},
+					{
+						"name": "PLa2_S17_A_AS01",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"arena_tag": "SW.ArenaSetup.PlainsA2.PLa2.S17.A.Arena01"
+					},
+					{
+						"name": "PLa2_S17_A_Sequence02",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "PLa2_S17_A_E02",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"destination": "PLa2_S17_A_E02_Trigger"
+							},
+							{
+								"name": "PLa2_S17_A_SM01",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"mob_types": [
+									"SW.Mob.Vindicator.SoulStated"
+								],
+								"mob_count": 1,
+								"volume_name": "PLa2_S17_A_SM01_Vol",
+								"group_tag": "PLa2_S17_A_K01Group"
+							},
+							{
+								"name": "PLa2_S17_A_SM02",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"mob_types": [
+									"SW.Mob.Pillager",
+									"SW.Mob.Vindicator"
+								],
+								"mob_count": 6,
+								"volume_name": "PLa2_S17_A_SM01_Vol",
+								"group_tag": "PLa2_S17_A_K01Group"
+							},
+							{
+								"name": "PLa2_S17_A_K01",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"TaskLocationOverrideType": "OtherTask",
+								"OtherTaskId": "PLa2_S17_A_SM01",
+								"kill_target": "PLa2_S17_A_K01Group",
+								"kill_target_types": [
+									"SW.Mob.Vindicator.SoulStated",
+									"SW.Mob.Vindicator",
+									"SW.Mob.Pillager"
+								],
+								"kill_count": 7
+							}
+						]
+					},
+					{
+						"name": "PLa2_S17_A_Sequence03",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"type": "Sequence",
+						"subgoals": [
+							{
+								"name": "PLa2_S17_A_E03",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": false,
+								"destination": "PLa2_S17_A_E03_Trigger"
+							},
+							{
+								"name": "PLa2_S17_A_SM03",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"mob_types": [
+									"SW.Mob.Geomancer.SoulStated"
+								],
+								"mob_count": 1,
+								"volume_name": "PLa2_S17_A_SM03_Vol",
+								"group_tag": "PLa2_S17_A_K02Group"
+							},
+							{
+								"name": "PLa2_S17_A_SM04",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"mob_types": [
+									"SW.Mob.Pillager",
+									"SW.Mob.Vindicator"
+								],
+								"mob_count": 8,
+								"volume_name": "PLa2_S17_A_SM03_Vol",
+								"group_tag": "PLa2_S17_A_K02Group"
+							},
+							{
+								"name": "PLa2_S17_A_K02",
+								"comment": "",
+								"show_progress": false,
+								"bResetProgressIfActiveOnLoad": true,
+								"TaskLocationOverrideType": "OtherTask",
+								"OtherTaskId": "PLa2_S17_A_SM03",
+								"kill_target": "PLa2_S17_A_K02Group",
+								"kill_target_types": [
+									"SW.Mob.Geomancer.SoulStated",
+									"SW.Mob.Pillager",
+									"SW.Mob.Vindicator"
+								],
+								"kill_count": 9
+							}
+						]
+					},
+					{
+						"name": "PLa2_S17_A_I02",
+						"comment": "",
+						"show_progress": false,
+						"bResetProgressIfActiveOnLoad": false,
+						"interact_target": "PLa2_S17_A_I02Target",
+						"howmany_count": 1,
+						"disable_interaction": true
+					}
+				]
+			}
+		}
+	]
+}

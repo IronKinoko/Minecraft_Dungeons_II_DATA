@@ -1,0 +1,32 @@
+[
+	{
+		"Name": "1",
+		"TypeTag":
+		{
+			"TagName": "OnlineDataTables.SoulStormScheduleAreaRotation"
+		},
+		"AreaTags": [
+			{
+				"TagName": "SW.Area.Forest.A1"
+			},
+			{
+				"TagName": "SW.Area.Meadow.A1"
+			},
+			{
+				"TagName": "SW.Area.Plains.A2"
+			},
+			{
+				"TagName": "SW.Area.Carapace.A1"
+			},
+			{
+				"TagName": "SW.Area.Meadow.A2"
+			},
+			{
+				"TagName": "SW.Area.Desert.A1"
+			},
+			{
+				"TagName": "SW.Area.Plains.A1"
+			}
+		]
+	}
+]

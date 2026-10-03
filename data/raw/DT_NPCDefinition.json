@@ -1,0 +1,5551 @@
+[
+	{
+		"Name": "Base",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.Base"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Targetable"
+				},
+				{
+					"TagName": "SW.TargetingProperties.NPC"
+				},
+				{
+					"TagName": "SW.Trait.Character"
+				},
+				{
+					"TagName": "SW.Trait.CanSeeFriendlies"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.TargetingProperties"
+				},
+				{
+					"TagName": "SW.Trait"
+				}
+			]
+		},
+		"ActorReference": "None",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "QuestCharacter",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.QuestCharacter"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.Base"
+				},
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_QuestFollow",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.QuestFollow"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationMaximumDistance"
+						},
+						"Type": "Float",
+						"Float": 1000
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ValidTargetMaximumDistance"
+						},
+						"Type": "Float",
+						"Float": 3500
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.FollowMinimumDistance"
+						},
+						"Type": "Float",
+						"Float": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TeleportToTargetTriggerDistance"
+						},
+						"Type": "Float",
+						"Float": 2400
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.PathingAttemptsBeforeTeleport"
+						},
+						"Type": "Int",
+						"Int": 3
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TeleportRadius"
+						},
+						"Type": "Float",
+						"Float": 250
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TeleportCue"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "GameplayCue.SW.Ability.Disappear"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.WaitForPlayerAtDisallowedAreaDuration"
+						},
+						"Type": "Float",
+						"Float": 10
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "FollowerStoppedAnimationMontage",
+								"Object": "/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/AM_Villager_Shake_Head.AM_Villager_Shake_Head"
+							}
+						]
+					}
+				]
+			},
+			{
+				"Ability": "/Script/Dungeons.GA_QuestInteract",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.HideAfterInteraction"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "SW.Event.QuestInteraction"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_Follow",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ChaseLoop"
+						},
+						"Type": "Bool",
+						"Bool": true
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ShouldRepositionWithEQS"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ShouldUseMovementRange"
+						},
+						"Type": "Bool",
+						"Bool": false
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MovementRange"
+						},
+						"Type": "Float",
+						"Float": 1000
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MinTargetHorizontalDistance"
+						},
+						"Type": "Float",
+						"Float": -1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MaxTargetHorizontalDistance"
+						},
+						"Type": "Float",
+						"Float": -1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MinTargetVerticalDistance"
+						},
+						"Type": "Float",
+						"Float": -1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.MaxTargetVerticalDistance"
+						},
+						"Type": "Float",
+						"Float": -1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.WaitDelay"
+						},
+						"Type": "Float",
+						"Float": 0.5
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "EQS"
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_FollowParameters",
+						"bOverrideAcceptanceRadius": true,
+						"AcceptanceRadiusOverride": 1000,
+						"NavigationFilter": "None"
+					}
+				]
+			}
+		],
+		"ActorReference": "/Game/Spicewood/Art/Characters/Friendlies/Villager/Quests/BP_QuestCharacterBase.BP_QuestCharacterBase_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"ComponentDefinition":
+		{
+			"ClientComponents":
+			{
+				"(TagName=\"\")":
+				{
+					"Components": [
+						"/SpicewoodUI/Spicewood/UI/Widget/InWorldPrompts/BP_InWorldIconWidgetComponent.BP_InWorldIconWidgetComponent_C",
+						"/SpicewoodUI/Spicewood/UI/Widget/InWorldNPCListenIn/BP_InWorldDialogueWidgetComponent.BP_InWorldDialogueWidgetComponent_C"
+					]
+				},
+				"(TagName=\"SW.ActorComponent.Interaction\")":
+				{
+					"Components": [
+						"/SpicewoodUI/Spicewood/UI/Widget/InWorldPrompts/BP_InWorldPromptQuestGiverComponent.BP_InWorldPromptQuestGiverComponent_C"
+					]
+				}
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "MerchantBase",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.Merchant"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.Base"
+				},
+				{
+					"TagName": "SW.TargetingProperties.Interactable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.TargetingProperties"
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.UpgradeCost"
+				},
+				"Type": "Int",
+				"Int": 50
+			}
+		],
+		"ActorReference": "/Game/Spicewood/Art/Environment/Town/Architecture/VillageMerchant/BP_Villagemerchant.BP_Villagemerchant_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"ComponentDefinition":
+		{
+			"ClientComponents":
+			{
+				"(TagName=\"\")":
+				{
+					"Components": [
+						"/SpicewoodUI/Spicewood/UI/Vendors/BP_VendorNameComponent.BP_VendorNameComponent_C",
+						"/SpicewoodUI/Spicewood/UI/Widget/InWorldPrompts/BP_InWorldPromptVendorInteractComponent.BP_InWorldPromptVendorInteractComponent_C"
+					]
+				}
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "VillageMerchant",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.VillageMerchant"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.Merchant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_NPCDefinition.csv\", \"SW_NPC_VillageMerchant_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.MeleeWeapon"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.RangedWeapon"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.Helmet"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.Chest"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.Leggings"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.Boots"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.Artifact"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.DiscountMin"
+				},
+				"Type": "Float",
+				"Float": 0
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.DiscountMax"
+				},
+				"Type": "Float",
+				"Float": 0.2
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.DiscountStepIncrease"
+				},
+				"Type": "Float",
+				"Float": 0.05
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.RareCostMultiplier"
+				},
+				"Type": "Float",
+				"Float": 2
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.SpecialCostMultiplier"
+				},
+				"Type": "Float",
+				"Float": 3
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.UniqueCostMultiplier"
+				},
+				"Type": "Float",
+				"Float": 4
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.RefreshCost"
+				},
+				"Type": "Int",
+				"Int": 3
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.SlotsPerRarity"
+				},
+				"Type": "Int",
+				"Int": 3
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.UITag"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.UI.WidgetName.Vendor.VillageMerchant"
+				}
+			}
+		],
+		"ActorReference": "/Game/Spicewood/Art/Characters/Friendlies/Villager/_Town/Merchant/BP_Villager_Merchant.BP_Villager_Merchant_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "SW.AbilityCallsign.Vendor"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+			"AudioEventDefinitions": [
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Village.Merchant.Buy"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_buy_Play.sfx_ui_village_merchant_buy_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Village.Merchant.Refresh"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_refresh_Play.sfx_ui_village_merchant_refresh_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Village.Merchant.Locked.Click"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_locked_click_Play.sfx_ui_village_merchant_locked_click_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Village.Merchant.Locked.Hover"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_locked_hover_Play.sfx_ui_village_merchant_locked_hover_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Village.Merchant.Select.Weapon"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_select_weapon_Play.sfx_ui_village_merchant_select_weapon_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.VillageMerchant.Audio.Activate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_open_Play.sfx_ui_village_merchant_open_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-Merchant.Overlay_Fullscreen-Merchant"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.VillageMerchant.Audio.Deactivate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_close_Play.sfx_ui_village_merchant_close_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-None.Overlay_Fullscreen-None"
+					],
+					"IsLoadedByUI": false
+				}
+			]
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "/SpicewoodUI/Spicewood/UI/Texture/Minimap/Icons/T_UI_Icon_VillageMerchant.T_UI_Icon_VillageMerchant"
+		}
+	},
+	{
+		"Name": "OldBlacksmith",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.OldBlacksmith"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.Merchant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_NPCDefinition.csv\", \"SW_NPC_OldBlacksmith_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.UITag"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.UI.WidgetName.Vendor.Blacksmith"
+				}
+			}
+		],
+		"ActorReference": "/Game/Spicewood/Art/Characters/Friendlies/Villager_Old/Variants/Blacksmith/BP_Villager_Old_Blacksmith.BP_Villager_Old_Blacksmith_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "SW.AbilityCallsign.Vendor"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+			"AudioEventDefinitions": [
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Vendor.Blacksmith.Select.Weapon"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Blacksmith/sfx_ui_blacksmith_select_weapon_Play.sfx_ui_blacksmith_select_weapon_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.Blacksmith.Audio.Activate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Blacksmith/sfx_ui_blacksmith_open_Play.sfx_ui_blacksmith_open_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-Merchant.Overlay_Fullscreen-Merchant"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.Blacksmith.Audio.Deactivate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Blacksmith/sfx_ui_blacksmith_close_Play.sfx_ui_blacksmith_close_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-None.Overlay_Fullscreen-None"
+					],
+					"IsLoadedByUI": false
+				}
+			]
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "/SpicewoodUI/Spicewood/UI/Texture/Minimap/Icons/T_UI_Icon_Blacksmith.T_UI_Icon_Blacksmith"
+		}
+	},
+	{
+		"Name": "Enchantsmith",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.Enchantsmith"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.Merchant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_NPCDefinition.csv\", \"SW_NPC_Enchantsmith_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.UITag"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.UI.WidgetName.Vendor.Enchantsmith"
+				}
+			}
+		],
+		"ActorReference": "/Game/Spicewood/Art/Characters/Friendlies/Villager/_Town/Enchantsmith/BP_Villager_Enchantsmith.BP_Villager_Enchantsmith_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "SW.AbilityCallsign.Vendor"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+			"AudioEventDefinitions": [
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.Appear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_open_Play.sfx_ui_enchantsmith_open_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.BookGridHoverSelection"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_hover_book_Play.sfx_ui_enchantsmith_hover_book_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.CancelSelectionTransition"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/sfx_ui_button_back_Play.sfx_ui_button_back_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.Disappear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_close_Play.sfx_ui_enchantsmith_close_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.DisenchantAnimation"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_remove_enchant_Play.sfx_ui_enchantsmith_remove_enchant_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.DisenchantConfirmationAppear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_select_book_Play.sfx_ui_enchantsmith_select_book_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.DisenchantConfirmationDisappear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/sfx_ui_button_back_Play.sfx_ui_button_back_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.EnchantAnimation"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_enchant_item_Play.sfx_ui_enchantsmith_enchant_item_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.EnchantConfirmationAppear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_select_book_Play.sfx_ui_enchantsmith_select_book_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.EnchantConfirmationDisappear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/sfx_ui_button_back_Play.sfx_ui_button_back_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.ItemSelectionTransition"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_select_item_Play.sfx_ui_enchantsmith_select_item_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.ReplaceAnimation"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_replace_enchant_Play.sfx_ui_enchantsmith_replace_enchant_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.ReplaceConfirmationAppear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_select_book_Play.sfx_ui_enchantsmith_select_book_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.ReplaceConfirmationDisappear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/sfx_ui_button_back_Play.sfx_ui_button_back_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.UpgradeAnimation"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_upgrade_enchant_Play.sfx_ui_enchantsmith_upgrade_enchant_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.UpgradeConfirmationAppear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_select_book_Play.sfx_ui_enchantsmith_select_book_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.UpgradeConfirmationDisappear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/sfx_ui_button_back_Play.sfx_ui_button_back_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.Enchantsmith.Audio.Activate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_open_Play.sfx_ui_enchantsmith_open_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-Merchant.Overlay_Fullscreen-Merchant"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.Enchantsmith.Audio.Deactivate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_close_Play.sfx_ui_enchantsmith_close_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-None.Overlay_Fullscreen-None"
+					],
+					"IsLoadedByUI": false
+				}
+			]
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "/SpicewoodUI/Spicewood/UI/Texture/Minimap/Icons/T_UI_Icon_Enchantsmith.T_UI_Icon_Enchantsmith"
+		}
+	},
+	{
+		"Name": "Weaponsmith",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.Weaponsmith"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/Town/BP_Villager_WeaponSmith_Quest.BP_Villager_WeaponSmith_Quest_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA00_Villager01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA00.Villager.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_NPCDefinition.csv\", \"SW_NPC_CA00_Villager_01_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA00/BP_CA00_VillagerInPeril01.BP_CA00_VillagerInPeril01_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA00_Villager_Docks",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA00.VillagerDocks"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_NPCDefinition.csv\", \"SW_NPC_CA00_VillagerDocks_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA00/BP_CA00_Villager_Docks.BP_CA00_Villager_Docks_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA01_QuestGiver",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA01.QuestGiver"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_NPCDefinition.csv\", \"SW_NPC_CA01_QuestGiver_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA01/BP_CA01_TownQuestGiver.BP_CA01_TownQuestGiver_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA01_MerchantsApprentice",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA01.MerchantsApprentice"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_NPCDefinition.csv\", \"SW_NPC_CA01_MerchantsApprentice_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/BP_CA01_MerchantsApprentice.BP_CA01_MerchantsApprentice_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA01_CartographersApprentice",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA01.CartographersApprentice"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_NPCDefinition.csv\", \"SW_NPC_CA01_CartographersApprentice_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/BP_CA01_CartographersApprentice.BP_CA01_CartographersApprentice_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA02_Villager01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA02.Villager.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_NPCDefinition.csv\", \"SW_NPC_CA02_Villager_01_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA02/BP_CA02_BurrowVillager.BP_CA02_BurrowVillager_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA02_CuriousVillager",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA02.CuriousVillager"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_NPCDefinition.csv\", \"SW_NPC_CA02_CuriousVillager_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA02/BP_CA02_TelescopeVillager.BP_CA02_TelescopeVillager_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA02_Cartographer",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA02.Cartographer"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_NPCDefinition.csv\", \"SW_NPC_CA02_Cartographer_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA02/BP_CA02_Cartographer.BP_CA02_Cartographer_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA03_OutpostVillager01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA03.OutpostNPC"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_NPCDefinition.csv\", \"SW_NPC_CA03_OutpostNPC_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA03/BP_CA03_B_VIllager01.BP_CA03_B_VIllager01_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA07_QuestGiver",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA07.QuestGiver"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_NPCDefinition.csv\", \"SW_NPC_CA07_QuestGiver_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/BP_CA07_QuestGiver.BP_CA07_QuestGiver_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "TO_SO1_A_Blacksmith",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.T0.S01.A.Blacksmith"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_NPCDefinition.csv\", \"SW_NPC_T0_S01_A_Blacksmith_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/Town/TO_S01_A/BP_TO_S01_A_Blacksmith.BP_TO_S01_A_Blacksmith_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "CA01_BlacksmithsApprentice",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CA01.BlacksmithsApprentice"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_NPCDefinition.csv\", \"SW_NPC_CA01_BlacksmithsApprentice_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/BP_CA01_BlacksmithApprentice.BP_CA01_BlacksmithApprentice_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "Blacksmith_Town",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.OldBlacksmith.Town"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.Merchant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_NPCDefinition.csv\", \"SW_NPC_OldBlacksmith_Town_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.UITag"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.UI.WidgetName.Vendor.Blacksmith"
+				}
+			}
+		],
+		"ActorReference": "/Game/Spicewood/Art/Characters/Friendlies/Villager_Old/Variants/Blacksmith/BP_Villager_Old_Blacksmith.BP_Villager_Old_Blacksmith_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "SW.AbilityCallsign.Vendor"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+			"AudioEventDefinitions": [
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Vendor.Blacksmith.Select.Weapon"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Blacksmith/sfx_ui_blacksmith_select_weapon_Play.sfx_ui_blacksmith_select_weapon_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.Blacksmith.Audio.Activate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Blacksmith/sfx_ui_blacksmith_open_Play.sfx_ui_blacksmith_open_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-Merchant.Overlay_Fullscreen-Merchant"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.Blacksmith.Audio.Deactivate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Blacksmith/sfx_ui_blacksmith_close_Play.sfx_ui_blacksmith_close_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-None.Overlay_Fullscreen-None"
+					],
+					"IsLoadedByUI": false
+				}
+			]
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "/SpicewoodUI/Spicewood/UI/Texture/Minimap/Icons/T_UI_Icon_Blacksmith.T_UI_Icon_Blacksmith"
+		}
+	},
+	{
+		"Name": "Blacksmith_ForestA1Outpost",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.OldBlacksmith.ForestA1.Outpost"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.Merchant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_NPCDefinition.csv\", \"SW_NPC_OldBlacksmith_ForestA1_Outpost_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.UITag"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.UI.WidgetName.Vendor.Blacksmith"
+				}
+			}
+		],
+		"ActorReference": "/Game/Spicewood/Art/Characters/Friendlies/Villager_Old/Variants/Blacksmith/BP_Villager_Old_Blacksmith.BP_Villager_Old_Blacksmith_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "SW.AbilityCallsign.Vendor"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+			"AudioEventDefinitions": [
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Vendor.Blacksmith.Select.Weapon"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Blacksmith/sfx_ui_blacksmith_select_weapon_Play.sfx_ui_blacksmith_select_weapon_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.Blacksmith.Audio.Activate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Blacksmith/sfx_ui_blacksmith_open_Play.sfx_ui_blacksmith_open_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-Merchant.Overlay_Fullscreen-Merchant"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.Blacksmith.Audio.Deactivate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Blacksmith/sfx_ui_blacksmith_close_Play.sfx_ui_blacksmith_close_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-None.Overlay_Fullscreen-None"
+					],
+					"IsLoadedByUI": false
+				}
+			]
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "/SpicewoodUI/Spicewood/UI/Texture/Minimap/Icons/T_UI_Icon_Blacksmith.T_UI_Icon_Blacksmith"
+		}
+	},
+	{
+		"Name": "Blacksmith_ForestA1Woodcutter",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.OldBlacksmith.ForestA1.Woodcutter"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.Merchant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_NPCDefinition.csv\", \"SW_NPC_OldBlacksmith_ForestA1_Woodcutter_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.UITag"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.UI.WidgetName.Vendor.Blacksmith"
+				}
+			}
+		],
+		"ActorReference": "/Game/Spicewood/Art/Characters/Friendlies/Villager_Old/Variants/Blacksmith/BP_Villager_Old_Blacksmith.BP_Villager_Old_Blacksmith_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "SW.AbilityCallsign.Vendor"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+			"AudioEventDefinitions": [
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Vendor.Blacksmith.Select.Weapon"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Blacksmith/sfx_ui_blacksmith_select_weapon_Play.sfx_ui_blacksmith_select_weapon_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.Blacksmith.Audio.Activate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Blacksmith/sfx_ui_blacksmith_open_Play.sfx_ui_blacksmith_open_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-Merchant.Overlay_Fullscreen-Merchant"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.Blacksmith.Audio.Deactivate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Blacksmith/sfx_ui_blacksmith_close_Play.sfx_ui_blacksmith_close_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-None.Overlay_Fullscreen-None"
+					],
+					"IsLoadedByUI": false
+				}
+			]
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "/SpicewoodUI/Spicewood/UI/Texture/Minimap/Icons/T_UI_Icon_Blacksmith.T_UI_Icon_Blacksmith"
+		}
+	},
+	{
+		"Name": "Blacksmith_DesertA1Fortress",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.OldBlacksmith.DesertA1.Fortress"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.Merchant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_NPCDefinition.csv\", \"SW_NPC_OldBlacksmith_DesertA1_Fortress_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.UITag"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.UI.WidgetName.Vendor.Blacksmith"
+				}
+			}
+		],
+		"ActorReference": "/Game/Spicewood/Art/Characters/Friendlies/Villager_Old/Variants/Blacksmith/BP_Villager_Old_Blacksmith.BP_Villager_Old_Blacksmith_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "SW.AbilityCallsign.Vendor"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+			"AudioEventDefinitions": [
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Vendor.Blacksmith.Select.Weapon"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Blacksmith/sfx_ui_blacksmith_select_weapon_Play.sfx_ui_blacksmith_select_weapon_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.Blacksmith.Audio.Activate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Blacksmith/sfx_ui_blacksmith_open_Play.sfx_ui_blacksmith_open_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-Merchant.Overlay_Fullscreen-Merchant"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.Blacksmith.Audio.Deactivate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Blacksmith/sfx_ui_blacksmith_close_Play.sfx_ui_blacksmith_close_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-None.Overlay_Fullscreen-None"
+					],
+					"IsLoadedByUI": false
+				}
+			]
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "/SpicewoodUI/Spicewood/UI/Texture/Minimap/Icons/T_UI_Icon_Blacksmith.T_UI_Icon_Blacksmith"
+		}
+	},
+	{
+		"Name": "Blacksmith_PlainsA2PuddlePond",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.OldBlacksmith.PlainsA2.PuddlePond"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.Merchant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_NPCDefinition.csv\", \"SW_NPC_OldBlacksmith_PlainsA2_PuddlePond_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.UITag"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.UI.WidgetName.Vendor.Blacksmith"
+				}
+			}
+		],
+		"ActorReference": "/Game/Spicewood/Art/Characters/Friendlies/Villager_Old/Variants/Blacksmith/BP_Villager_Old_Blacksmith.BP_Villager_Old_Blacksmith_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "SW.AbilityCallsign.Vendor"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+			"AudioEventDefinitions": [
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Vendor.Blacksmith.Select.Weapon"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Blacksmith/sfx_ui_blacksmith_select_weapon_Play.sfx_ui_blacksmith_select_weapon_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.Blacksmith.Audio.Activate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Blacksmith/sfx_ui_blacksmith_open_Play.sfx_ui_blacksmith_open_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-Merchant.Overlay_Fullscreen-Merchant"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.Blacksmith.Audio.Deactivate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Blacksmith/sfx_ui_blacksmith_close_Play.sfx_ui_blacksmith_close_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-None.Overlay_Fullscreen-None"
+					],
+					"IsLoadedByUI": false
+				}
+			]
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "/SpicewoodUI/Spicewood/UI/Texture/Minimap/Icons/T_UI_Icon_Blacksmith.T_UI_Icon_Blacksmith"
+		}
+	},
+	{
+		"Name": "Enchantsmith_Town",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.Enchantsmith.Town"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.Merchant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_NPCDefinition.csv\", \"SW_NPC_Enchantsmith_Town_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.UITag"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.UI.WidgetName.Vendor.Enchantsmith"
+				}
+			}
+		],
+		"ActorReference": "/Game/Spicewood/Art/Characters/Friendlies/Villager/_Town/Enchantsmith/BP_Villager_Enchantsmith.BP_Villager_Enchantsmith_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "SW.AbilityCallsign.Vendor"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+			"AudioEventDefinitions": [
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.Appear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_open_Play.sfx_ui_enchantsmith_open_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.BookGridHoverSelection"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_hover_book_Play.sfx_ui_enchantsmith_hover_book_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.CancelSelectionTransition"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/sfx_ui_button_back_Play.sfx_ui_button_back_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.Disappear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_close_Play.sfx_ui_enchantsmith_close_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.DisenchantAnimation"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_remove_enchant_Play.sfx_ui_enchantsmith_remove_enchant_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.DisenchantConfirmationAppear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_select_book_Play.sfx_ui_enchantsmith_select_book_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.DisenchantConfirmationDisappear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/sfx_ui_button_back_Play.sfx_ui_button_back_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.EnchantAnimation"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_enchant_item_Play.sfx_ui_enchantsmith_enchant_item_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.EnchantConfirmationAppear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_select_book_Play.sfx_ui_enchantsmith_select_book_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.EnchantConfirmationDisappear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/sfx_ui_button_back_Play.sfx_ui_button_back_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.ItemSelectionTransition"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_select_item_Play.sfx_ui_enchantsmith_select_item_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.ReplaceAnimation"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_replace_enchant_Play.sfx_ui_enchantsmith_replace_enchant_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.ReplaceConfirmationAppear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_select_book_Play.sfx_ui_enchantsmith_select_book_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.ReplaceConfirmationDisappear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/sfx_ui_button_back_Play.sfx_ui_button_back_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.UpgradeAnimation"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_upgrade_enchant_Play.sfx_ui_enchantsmith_upgrade_enchant_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.UpgradeConfirmationAppear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_select_book_Play.sfx_ui_enchantsmith_select_book_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.UpgradeConfirmationDisappear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/sfx_ui_button_back_Play.sfx_ui_button_back_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.Enchantsmith.Audio.Activate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_open_Play.sfx_ui_enchantsmith_open_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-Merchant.Overlay_Fullscreen-Merchant"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.Enchantsmith.Audio.Deactivate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_close_Play.sfx_ui_enchantsmith_close_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-None.Overlay_Fullscreen-None"
+					],
+					"IsLoadedByUI": false
+				}
+			]
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "/SpicewoodUI/Spicewood/UI/Texture/Minimap/Icons/T_UI_Icon_Enchantsmith.T_UI_Icon_Enchantsmith"
+		}
+	},
+	{
+		"Name": "Enchantsmith_ForestA1Outpost",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.Enchantsmith.ForestA1.Outpost"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.Merchant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_NPCDefinition.csv\", \"SW_NPC_Enchantsmith_ForestA1_Outpost_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.UITag"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.UI.WidgetName.Vendor.Enchantsmith"
+				}
+			}
+		],
+		"ActorReference": "/Game/Spicewood/Art/Characters/Friendlies/Villager/_Town/Enchantsmith/BP_Villager_Enchantsmith.BP_Villager_Enchantsmith_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "SW.AbilityCallsign.Vendor"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+			"AudioEventDefinitions": [
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.Appear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_open_Play.sfx_ui_enchantsmith_open_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.BookGridHoverSelection"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_hover_book_Play.sfx_ui_enchantsmith_hover_book_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.CancelSelectionTransition"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/sfx_ui_button_back_Play.sfx_ui_button_back_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.Disappear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_close_Play.sfx_ui_enchantsmith_close_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.DisenchantAnimation"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_remove_enchant_Play.sfx_ui_enchantsmith_remove_enchant_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.DisenchantConfirmationAppear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_select_book_Play.sfx_ui_enchantsmith_select_book_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.DisenchantConfirmationDisappear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/sfx_ui_button_back_Play.sfx_ui_button_back_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.EnchantAnimation"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_enchant_item_Play.sfx_ui_enchantsmith_enchant_item_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.EnchantConfirmationAppear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_select_book_Play.sfx_ui_enchantsmith_select_book_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.EnchantConfirmationDisappear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/sfx_ui_button_back_Play.sfx_ui_button_back_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.ItemSelectionTransition"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_select_item_Play.sfx_ui_enchantsmith_select_item_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.ReplaceAnimation"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_replace_enchant_Play.sfx_ui_enchantsmith_replace_enchant_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.ReplaceConfirmationAppear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_select_book_Play.sfx_ui_enchantsmith_select_book_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.ReplaceConfirmationDisappear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/sfx_ui_button_back_Play.sfx_ui_button_back_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.UpgradeAnimation"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_upgrade_enchant_Play.sfx_ui_enchantsmith_upgrade_enchant_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.UpgradeConfirmationAppear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_select_book_Play.sfx_ui_enchantsmith_select_book_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.UpgradeConfirmationDisappear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/sfx_ui_button_back_Play.sfx_ui_button_back_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.Enchantsmith.Audio.Activate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_open_Play.sfx_ui_enchantsmith_open_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-Merchant.Overlay_Fullscreen-Merchant"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.Enchantsmith.Audio.Deactivate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_close_Play.sfx_ui_enchantsmith_close_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-None.Overlay_Fullscreen-None"
+					],
+					"IsLoadedByUI": false
+				}
+			]
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "/SpicewoodUI/Spicewood/UI/Texture/Minimap/Icons/T_UI_Icon_Enchantsmith.T_UI_Icon_Enchantsmith"
+		}
+	},
+	{
+		"Name": "Enchantsmith_ForestA1Woodcutter",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.Enchantsmith.ForestA1.Woodcutter"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.Merchant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_NPCDefinition.csv\", \"SW_NPC_Enchantsmith_ForestA1_Woodcutter_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.UITag"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.UI.WidgetName.Vendor.Enchantsmith"
+				}
+			}
+		],
+		"ActorReference": "/Game/Spicewood/Art/Characters/Friendlies/Villager/_Town/Enchantsmith/BP_Villager_Enchantsmith.BP_Villager_Enchantsmith_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "SW.AbilityCallsign.Vendor"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+			"AudioEventDefinitions": [
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.Appear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_open_Play.sfx_ui_enchantsmith_open_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.BookGridHoverSelection"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_hover_book_Play.sfx_ui_enchantsmith_hover_book_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.CancelSelectionTransition"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/sfx_ui_button_back_Play.sfx_ui_button_back_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.Disappear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_close_Play.sfx_ui_enchantsmith_close_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.DisenchantAnimation"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_remove_enchant_Play.sfx_ui_enchantsmith_remove_enchant_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.DisenchantConfirmationAppear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_select_book_Play.sfx_ui_enchantsmith_select_book_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.DisenchantConfirmationDisappear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/sfx_ui_button_back_Play.sfx_ui_button_back_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.EnchantAnimation"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_enchant_item_Play.sfx_ui_enchantsmith_enchant_item_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.EnchantConfirmationAppear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_select_book_Play.sfx_ui_enchantsmith_select_book_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.EnchantConfirmationDisappear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/sfx_ui_button_back_Play.sfx_ui_button_back_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.ItemSelectionTransition"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_select_item_Play.sfx_ui_enchantsmith_select_item_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.ReplaceAnimation"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_replace_enchant_Play.sfx_ui_enchantsmith_replace_enchant_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.ReplaceConfirmationAppear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_select_book_Play.sfx_ui_enchantsmith_select_book_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.ReplaceConfirmationDisappear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/sfx_ui_button_back_Play.sfx_ui_button_back_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.UpgradeAnimation"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_upgrade_enchant_Play.sfx_ui_enchantsmith_upgrade_enchant_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.UpgradeConfirmationAppear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_select_book_Play.sfx_ui_enchantsmith_select_book_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.UpgradeConfirmationDisappear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/sfx_ui_button_back_Play.sfx_ui_button_back_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.Enchantsmith.Audio.Activate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_open_Play.sfx_ui_enchantsmith_open_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-Merchant.Overlay_Fullscreen-Merchant"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.Enchantsmith.Audio.Deactivate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_close_Play.sfx_ui_enchantsmith_close_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-None.Overlay_Fullscreen-None"
+					],
+					"IsLoadedByUI": false
+				}
+			]
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "/SpicewoodUI/Spicewood/UI/Texture/Minimap/Icons/T_UI_Icon_Enchantsmith.T_UI_Icon_Enchantsmith"
+		}
+	},
+	{
+		"Name": "Enchantsmith_DesertA1Fortress",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.Enchantsmith.DesertA1.Fortress"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.Merchant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_NPCDefinition.csv\", \"SW_NPC_Enchantsmith_DesertA1_Fortress_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.UITag"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.UI.WidgetName.Vendor.Enchantsmith"
+				}
+			}
+		],
+		"ActorReference": "/Game/Spicewood/Art/Characters/Friendlies/Villager/_Town/Enchantsmith/BP_Villager_Enchantsmith.BP_Villager_Enchantsmith_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "SW.AbilityCallsign.Vendor"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+			"AudioEventDefinitions": [
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.Appear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_open_Play.sfx_ui_enchantsmith_open_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.BookGridHoverSelection"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_hover_book_Play.sfx_ui_enchantsmith_hover_book_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.CancelSelectionTransition"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/sfx_ui_button_back_Play.sfx_ui_button_back_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.Disappear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_close_Play.sfx_ui_enchantsmith_close_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.DisenchantAnimation"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_remove_enchant_Play.sfx_ui_enchantsmith_remove_enchant_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.DisenchantConfirmationAppear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_select_book_Play.sfx_ui_enchantsmith_select_book_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.DisenchantConfirmationDisappear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/sfx_ui_button_back_Play.sfx_ui_button_back_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.EnchantAnimation"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_enchant_item_Play.sfx_ui_enchantsmith_enchant_item_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.EnchantConfirmationAppear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_select_book_Play.sfx_ui_enchantsmith_select_book_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.EnchantConfirmationDisappear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/sfx_ui_button_back_Play.sfx_ui_button_back_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.ItemSelectionTransition"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_select_item_Play.sfx_ui_enchantsmith_select_item_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.ReplaceAnimation"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_replace_enchant_Play.sfx_ui_enchantsmith_replace_enchant_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.ReplaceConfirmationAppear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_select_book_Play.sfx_ui_enchantsmith_select_book_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.ReplaceConfirmationDisappear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/sfx_ui_button_back_Play.sfx_ui_button_back_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.UpgradeAnimation"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_upgrade_enchant_Play.sfx_ui_enchantsmith_upgrade_enchant_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.UpgradeConfirmationAppear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_select_book_Play.sfx_ui_enchantsmith_select_book_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.UpgradeConfirmationDisappear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/sfx_ui_button_back_Play.sfx_ui_button_back_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.Enchantsmith.Audio.Activate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_open_Play.sfx_ui_enchantsmith_open_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-Merchant.Overlay_Fullscreen-Merchant"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.Enchantsmith.Audio.Deactivate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_close_Play.sfx_ui_enchantsmith_close_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-None.Overlay_Fullscreen-None"
+					],
+					"IsLoadedByUI": false
+				}
+			]
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "/SpicewoodUI/Spicewood/UI/Texture/Minimap/Icons/T_UI_Icon_Enchantsmith.T_UI_Icon_Enchantsmith"
+		}
+	},
+	{
+		"Name": "Enchantsmith_PlainsA2PuddlePond",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.Enchantsmith.PlainsA2.PuddlePond"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.Merchant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_NPCDefinition.csv\", \"SW_NPC_Enchantsmith_PlainsA2_PuddlePond_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.UITag"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.UI.WidgetName.Vendor.Enchantsmith"
+				}
+			}
+		],
+		"ActorReference": "/Game/Spicewood/Art/Characters/Friendlies/Villager/_Town/Enchantsmith/BP_Villager_Enchantsmith.BP_Villager_Enchantsmith_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "SW.AbilityCallsign.Vendor"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+			"AudioEventDefinitions": [
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.Appear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_open_Play.sfx_ui_enchantsmith_open_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.BookGridHoverSelection"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_hover_book_Play.sfx_ui_enchantsmith_hover_book_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.CancelSelectionTransition"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/sfx_ui_button_back_Play.sfx_ui_button_back_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.Disappear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_close_Play.sfx_ui_enchantsmith_close_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.DisenchantAnimation"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_remove_enchant_Play.sfx_ui_enchantsmith_remove_enchant_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.DisenchantConfirmationAppear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_select_book_Play.sfx_ui_enchantsmith_select_book_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.DisenchantConfirmationDisappear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/sfx_ui_button_back_Play.sfx_ui_button_back_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.EnchantAnimation"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_enchant_item_Play.sfx_ui_enchantsmith_enchant_item_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.EnchantConfirmationAppear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_select_book_Play.sfx_ui_enchantsmith_select_book_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.EnchantConfirmationDisappear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/sfx_ui_button_back_Play.sfx_ui_button_back_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.ItemSelectionTransition"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_select_item_Play.sfx_ui_enchantsmith_select_item_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.ReplaceAnimation"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_replace_enchant_Play.sfx_ui_enchantsmith_replace_enchant_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.ReplaceConfirmationAppear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_select_book_Play.sfx_ui_enchantsmith_select_book_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.ReplaceConfirmationDisappear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/sfx_ui_button_back_Play.sfx_ui_button_back_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.UpgradeAnimation"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_upgrade_enchant_Play.sfx_ui_enchantsmith_upgrade_enchant_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.UpgradeConfirmationAppear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_select_book_Play.sfx_ui_enchantsmith_select_book_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Enchantsmith.UpgradeConfirmationDisappear"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/sfx_ui_button_back_Play.sfx_ui_button_back_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.Enchantsmith.Audio.Activate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_open_Play.sfx_ui_enchantsmith_open_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-Merchant.Overlay_Fullscreen-Merchant"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.Enchantsmith.Audio.Deactivate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Enchantsmith/sfx_ui_enchantsmith_close_Play.sfx_ui_enchantsmith_close_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-None.Overlay_Fullscreen-None"
+					],
+					"IsLoadedByUI": false
+				}
+			]
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "/SpicewoodUI/Spicewood/UI/Texture/Minimap/Icons/T_UI_Icon_Enchantsmith.T_UI_Icon_Enchantsmith"
+		}
+	},
+	{
+		"Name": "VillageMerchant_Town",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.VillageMerchant.Town"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.Merchant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_NPCDefinition.csv\", \"SW_NPC_VillageMerchant_Town_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.MeleeWeapon"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.RangedWeapon"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.Helmet"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.Chest"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.Leggings"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.Boots"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.Artifact"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.DiscountMin"
+				},
+				"Type": "Float",
+				"Float": 0
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.DiscountMax"
+				},
+				"Type": "Float",
+				"Float": 0.2
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.DiscountStepIncrease"
+				},
+				"Type": "Float",
+				"Float": 0.05
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.RareCostMultiplier"
+				},
+				"Type": "Float",
+				"Float": 2
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.SpecialCostMultiplier"
+				},
+				"Type": "Float",
+				"Float": 3
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.UniqueCostMultiplier"
+				},
+				"Type": "Float",
+				"Float": 4
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.RefreshCost"
+				},
+				"Type": "Int",
+				"Int": 3
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.SlotsPerRarity"
+				},
+				"Type": "Int",
+				"Int": 3
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.UITag"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.UI.WidgetName.Vendor.VillageMerchant"
+				}
+			}
+		],
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/BP_CA01_MerchantsApprentice.BP_CA01_MerchantsApprentice_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "SW.AbilityCallsign.Vendor"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+			"AudioEventDefinitions": [
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Village.Merchant.Buy"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_buy_Play.sfx_ui_village_merchant_buy_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Village.Merchant.Refresh"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_refresh_Play.sfx_ui_village_merchant_refresh_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Village.Merchant.Locked.Click"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_locked_click_Play.sfx_ui_village_merchant_locked_click_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Village.Merchant.Locked.Hover"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_locked_hover_Play.sfx_ui_village_merchant_locked_hover_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Village.Merchant.Select.Weapon"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_select_weapon_Play.sfx_ui_village_merchant_select_weapon_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.VillageMerchant.Audio.Activate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_open_Play.sfx_ui_village_merchant_open_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-Merchant.Overlay_Fullscreen-Merchant"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.VillageMerchant.Audio.Deactivate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_close_Play.sfx_ui_village_merchant_close_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-None.Overlay_Fullscreen-None"
+					],
+					"IsLoadedByUI": false
+				}
+			]
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "/SpicewoodUI/Spicewood/UI/Texture/Minimap/Icons/T_UI_Icon_VillageMerchant.T_UI_Icon_VillageMerchant"
+		}
+	},
+	{
+		"Name": "VillageMerchant_ForestA1Oupost",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.VillageMerchant.ForestA1.Outpost"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.Merchant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_NPCDefinition.csv\", \"SW_NPC_VillageMerchant_ForestA1_Outpost_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.MeleeWeapon"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.RangedWeapon"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.Helmet"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.Chest"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.Leggings"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.Boots"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.Artifact"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.DiscountMin"
+				},
+				"Type": "Float",
+				"Float": 0
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.DiscountMax"
+				},
+				"Type": "Float",
+				"Float": 0.2
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.DiscountStepIncrease"
+				},
+				"Type": "Float",
+				"Float": 0.05
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.RareCostMultiplier"
+				},
+				"Type": "Float",
+				"Float": 2
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.SpecialCostMultiplier"
+				},
+				"Type": "Float",
+				"Float": 3
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.UniqueCostMultiplier"
+				},
+				"Type": "Float",
+				"Float": 4
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.RefreshCost"
+				},
+				"Type": "Int",
+				"Int": 3
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.SlotsPerRarity"
+				},
+				"Type": "Int",
+				"Int": 3
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.UITag"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.UI.WidgetName.Vendor.VillageMerchant"
+				}
+			}
+		],
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/BP_MerchantsApprentice_ForestA1.BP_MerchantsApprentice_ForestA1_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "SW.AbilityCallsign.Vendor"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+			"AudioEventDefinitions": [
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Village.Merchant.Buy"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_buy_Play.sfx_ui_village_merchant_buy_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Village.Merchant.Refresh"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_refresh_Play.sfx_ui_village_merchant_refresh_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Village.Merchant.Locked.Click"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_locked_click_Play.sfx_ui_village_merchant_locked_click_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Village.Merchant.Locked.Hover"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_locked_hover_Play.sfx_ui_village_merchant_locked_hover_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Village.Merchant.Select.Weapon"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_select_weapon_Play.sfx_ui_village_merchant_select_weapon_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.VillageMerchant.Audio.Activate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_open_Play.sfx_ui_village_merchant_open_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-Merchant.Overlay_Fullscreen-Merchant"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.VillageMerchant.Audio.Deactivate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_close_Play.sfx_ui_village_merchant_close_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-None.Overlay_Fullscreen-None"
+					],
+					"IsLoadedByUI": false
+				}
+			]
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "/SpicewoodUI/Spicewood/UI/Texture/Minimap/Icons/T_UI_Icon_VillageMerchant.T_UI_Icon_VillageMerchant"
+		}
+	},
+	{
+		"Name": "VillageMerchant_ForestA1Woodcutter",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.VillageMerchant.ForestA1.Woodcutter"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.Merchant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_NPCDefinition.csv\", \"SW_NPC_VillageMerchant_ForestA1_Woodcutter_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.MeleeWeapon"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.RangedWeapon"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.Helmet"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.Chest"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.Leggings"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.Boots"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.Artifact"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.DiscountMin"
+				},
+				"Type": "Float",
+				"Float": 0
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.DiscountMax"
+				},
+				"Type": "Float",
+				"Float": 0.2
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.DiscountStepIncrease"
+				},
+				"Type": "Float",
+				"Float": 0.05
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.RareCostMultiplier"
+				},
+				"Type": "Float",
+				"Float": 2
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.SpecialCostMultiplier"
+				},
+				"Type": "Float",
+				"Float": 3
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.UniqueCostMultiplier"
+				},
+				"Type": "Float",
+				"Float": 4
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.RefreshCost"
+				},
+				"Type": "Int",
+				"Int": 3
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.SlotsPerRarity"
+				},
+				"Type": "Int",
+				"Int": 3
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.UITag"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.UI.WidgetName.Vendor.VillageMerchant"
+				}
+			}
+		],
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/BP_MerchantsApprentice_ForestA1.BP_MerchantsApprentice_ForestA1_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "SW.AbilityCallsign.Vendor"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+			"AudioEventDefinitions": [
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Village.Merchant.Buy"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_buy_Play.sfx_ui_village_merchant_buy_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Village.Merchant.Refresh"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_refresh_Play.sfx_ui_village_merchant_refresh_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Village.Merchant.Locked.Click"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_locked_click_Play.sfx_ui_village_merchant_locked_click_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Village.Merchant.Locked.Hover"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_locked_hover_Play.sfx_ui_village_merchant_locked_hover_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Village.Merchant.Select.Weapon"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_select_weapon_Play.sfx_ui_village_merchant_select_weapon_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.VillageMerchant.Audio.Activate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_open_Play.sfx_ui_village_merchant_open_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-Merchant.Overlay_Fullscreen-Merchant"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.VillageMerchant.Audio.Deactivate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_close_Play.sfx_ui_village_merchant_close_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-None.Overlay_Fullscreen-None"
+					],
+					"IsLoadedByUI": false
+				}
+			]
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "/SpicewoodUI/Spicewood/UI/Texture/Minimap/Icons/T_UI_Icon_VillageMerchant.T_UI_Icon_VillageMerchant"
+		}
+	},
+	{
+		"Name": "VillageMerchant_DesertA1Fortress",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.VillageMerchant.DesertA1.Fortress"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.Merchant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_NPCDefinition.csv\", \"SW_NPC_VillageMerchant_DesertA1_Fortress_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.MeleeWeapon"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.RangedWeapon"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.Helmet"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.Chest"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.Leggings"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.Boots"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.Artifact"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.DiscountMin"
+				},
+				"Type": "Float",
+				"Float": 0
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.DiscountMax"
+				},
+				"Type": "Float",
+				"Float": 0.2
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.DiscountStepIncrease"
+				},
+				"Type": "Float",
+				"Float": 0.05
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.RareCostMultiplier"
+				},
+				"Type": "Float",
+				"Float": 2
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.SpecialCostMultiplier"
+				},
+				"Type": "Float",
+				"Float": 3
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.UniqueCostMultiplier"
+				},
+				"Type": "Float",
+				"Float": 4
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.RefreshCost"
+				},
+				"Type": "Int",
+				"Int": 3
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.SlotsPerRarity"
+				},
+				"Type": "Int",
+				"Int": 3
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.UITag"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.UI.WidgetName.Vendor.VillageMerchant"
+				}
+			}
+		],
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/BP_CA01_MerchantsApprentice.BP_CA01_MerchantsApprentice_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "SW.AbilityCallsign.Vendor"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+			"AudioEventDefinitions": [
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Village.Merchant.Buy"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_buy_Play.sfx_ui_village_merchant_buy_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Village.Merchant.Refresh"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_refresh_Play.sfx_ui_village_merchant_refresh_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Village.Merchant.Locked.Click"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_locked_click_Play.sfx_ui_village_merchant_locked_click_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Village.Merchant.Locked.Hover"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_locked_hover_Play.sfx_ui_village_merchant_locked_hover_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Village.Merchant.Select.Weapon"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_select_weapon_Play.sfx_ui_village_merchant_select_weapon_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.VillageMerchant.Audio.Activate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_open_Play.sfx_ui_village_merchant_open_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-Merchant.Overlay_Fullscreen-Merchant"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.VillageMerchant.Audio.Deactivate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_close_Play.sfx_ui_village_merchant_close_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-None.Overlay_Fullscreen-None"
+					],
+					"IsLoadedByUI": false
+				}
+			]
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "/SpicewoodUI/Spicewood/UI/Texture/Minimap/Icons/T_UI_Icon_VillageMerchant.T_UI_Icon_VillageMerchant"
+		}
+	},
+	{
+		"Name": "VillageMerchant_PlainsA2PuddlePond",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.VillageMerchant.PlainsA2.PuddlePond"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.Merchant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_NPCDefinition.csv\", \"SW_NPC_VillageMerchant_PlainsA2_PuddlePond_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.MeleeWeapon"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.RangedWeapon"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.Helmet"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.Chest"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.Leggings"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.Boots"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.BaseCost.Artifact"
+				},
+				"Type": "Int",
+				"Int": 20
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.DiscountMin"
+				},
+				"Type": "Float",
+				"Float": 0
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.DiscountMax"
+				},
+				"Type": "Float",
+				"Float": 0.2
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.DiscountStepIncrease"
+				},
+				"Type": "Float",
+				"Float": 0.05
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.RareCostMultiplier"
+				},
+				"Type": "Float",
+				"Float": 2
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.SpecialCostMultiplier"
+				},
+				"Type": "Float",
+				"Float": 3
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.UniqueCostMultiplier"
+				},
+				"Type": "Float",
+				"Float": 4
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.RefreshCost"
+				},
+				"Type": "Int",
+				"Int": 3
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.SlotsPerRarity"
+				},
+				"Type": "Int",
+				"Int": 3
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.UITag"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.UI.WidgetName.Vendor.VillageMerchant"
+				}
+			}
+		],
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/BP_CA01_MerchantsApprentice.BP_CA01_MerchantsApprentice_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "SW.AbilityCallsign.Vendor"
+			}
+		},
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Mob.Quest"
+			},
+			"Priority": 0
+		},
+		"UIAudioEvents":
+		{
+			"AudioEventDefinitions": [
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Village.Merchant.Buy"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_buy_Play.sfx_ui_village_merchant_buy_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Village.Merchant.Refresh"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_refresh_Play.sfx_ui_village_merchant_refresh_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Village.Merchant.Locked.Click"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_locked_click_Play.sfx_ui_village_merchant_locked_click_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Village.Merchant.Locked.Hover"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_locked_hover_Play.sfx_ui_village_merchant_locked_hover_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.Audio.Village.Merchant.Select.Weapon"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_select_weapon_Play.sfx_ui_village_merchant_select_weapon_Play"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.VillageMerchant.Audio.Activate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_open_Play.sfx_ui_village_merchant_open_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-Merchant.Overlay_Fullscreen-Merchant"
+					],
+					"IsLoadedByUI": false
+				},
+				{
+					"AudioTag":
+					{
+						"TagName": "SW.UI.WidgetName.Vendor.VillageMerchant.Audio.Deactivate"
+					},
+					"AudioEvents": [
+						"/Game/Spicewood/Audio/Wwise/Events/SpiceWood/UI/UI_Menus/Merchants/Village_Merchant/sfx_ui_village_merchant_close_Play.sfx_ui_village_merchant_close_Play"
+					],
+					"AudioStates": [
+						"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/UI/Overlay_Fullscreen/Overlay_Fullscreen-None.Overlay_Fullscreen-None"
+					],
+					"IsLoadedByUI": false
+				}
+			]
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "/SpicewoodUI/Spicewood/UI/Texture/Minimap/Icons/T_UI_Icon_VillageMerchant.T_UI_Icon_VillageMerchant"
+		}
+	},
+	{
+		"Name": "DeepDark_Caretaker_S01",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CT01.CT1.DeepDark"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CaretakerQuests/Forest_S01/BP_Caretaker01_S01_DeepDark.BP_Caretaker01_S01_DeepDark_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "DeepDark_Caretaker_S02",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CT01.CT2.DeepDark"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CaretakerQuests/Desert_S02/BP_Caretaker01_S02_DeepDark.BP_Caretaker01_S02_DeepDark_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "DeepDark_Caretaker_S03",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CT01.CT3.DeepDark"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CaretakerQuests/PlainsA1_S03/BP_Caretaker01_S03_DeepDark.BP_Caretaker01_S03_DeepDark_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	},
+	{
+		"Name": "DeepDark_Caretaker_S04",
+		"TypeTag":
+		{
+			"TagName": "SW.NPC.CT01.CT4.DeepDark"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.NPC.QuestCharacter"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.NPC"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CaretakerQuests/PlainsA2_S04/BP_Caretaker01_S04_DeepDark.BP_Caretaker01_S04_DeepDark_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"UIAudioEvents":
+		{
+		},
+		"UIAssociatedData":
+		{
+			"VendorIcon": "None"
+		}
+	}
+]

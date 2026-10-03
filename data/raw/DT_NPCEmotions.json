@@ -1,0 +1,582 @@
+[
+	{
+		"Name": "Happy",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Happy.Villager"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Celebrate.Villager_Celebrate"
+		]
+	},
+	{
+		"Name": "Excited",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Excited.Villager"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Surprise_Happy.Villager_Surprise_Happy"
+		]
+	},
+	{
+		"Name": "Laugh",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Laugh.Villager"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Laughing.Villager_Laughing",
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Laughing2.Villager_Laughing2"
+		]
+	},
+	{
+		"Name": "Wave",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Wave.Villager"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Greeting_Wave.Villager_Greeting_Wave"
+		]
+	},
+	{
+		"Name": "Sad",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Sad.Villager"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Sad_Sigh.Villager_Sad_Sigh"
+		]
+	},
+	{
+		"Name": "Sad_Cry",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Sad.Villager.Cry"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Cry.Villager_Cry",
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Sad_Sob.Villager_Sad_Sob"
+		]
+	},
+	{
+		"Name": "Concerned",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Concerned.Villager"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Concerned.Villager_Concerned"
+		]
+	},
+	{
+		"Name": "Angry",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Angry.Villager"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Angry.Villager_Angry"
+		]
+	},
+	{
+		"Name": "Scared",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Scared.Villager"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Scared.Villager_Scared",
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Surprise_Shock.Villager_Surprise_Shock"
+		]
+	},
+	{
+		"Name": "No",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.No.Villager"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Shake_Head.Villager_Shake_Head"
+		]
+	},
+	{
+		"Name": "Relieved",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Relieved.Villager"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Relieved.Villager_Relieved"
+		]
+	},
+	{
+		"Name": "Satisfied",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Satisfied.Villager"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Idle.Villager_Idle"
+		]
+	},
+	{
+		"Name": "Curious",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Curious.Villager"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Examining_Mob.Villager_Examining_Mob"
+		]
+	},
+	{
+		"Name": "Confused",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Confused.Villager"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Ponder.Villager_Ponder",
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Confused.Villager_Confused"
+		]
+	},
+	{
+		"Name": "Ponder",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Ponder.Villager"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Ponder.Villager_Ponder"
+		]
+	},
+	{
+		"Name": "Hurt",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Hurt.Villager"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Stun.Villager_Stun"
+		]
+	},
+	{
+		"Name": "Sick",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Sick.Villager"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Stun.Villager_Stun",
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Sick.Villager_Sick"
+		]
+	},
+	{
+		"Name": "Talking",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Talking.Villager"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Talking2.Villager_Talking2",
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Talking3.Villager_Talking3",
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Talking.Villager_Talking",
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Talking4.Villager_Talking4"
+		]
+	},
+	{
+		"Name": "Talking_Sneaky",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Talking.Villager.Sneaky"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Talking_Sneaky.Villager_Talking_Sneaky"
+		]
+	},
+	{
+		"Name": "Talking_Scared",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Talking.Villager.Scared"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Scared_Talking.Villager_Scared_Talking"
+		]
+	},
+	{
+		"Name": "Talking_Sitting",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Talking.Villager.Sit"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Sitting_Talking.Villager_Sitting_Talking"
+		]
+	},
+	{
+		"Name": "Talking_Sitting_Sneaky",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Talking.Villager.Sit.Sneaky"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Sitting_Talking_Sneaky.Villager_Sitting_Talking_Sneaky"
+		]
+	},
+	{
+		"Name": "Gifting",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Gifting.Villager"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Gifting.Villager_Gifting"
+		]
+	},
+	{
+		"Name": "Thanks",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Thanks.Villager"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Bowing.Villager_Bowing",
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Nod.Villager_Nod"
+		]
+	},
+	{
+		"Name": "Thanks_Nod",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Thanks.Nod"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Nod.Villager_Nod"
+		]
+	},
+	{
+		"Name": "Point_L",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.PointL.Villager"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Point_L.Villager_Point_L"
+		]
+	},
+	{
+		"Name": "Point_R",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.PointR.Villager"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Point_R.Villager_Point_R"
+		]
+	},
+	{
+		"Name": "Look_Up",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.LookUp.Villager"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Idle_LookUp.Villager_Idle_LookUp"
+		]
+	},
+	{
+		"Name": "Cold_Sad",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Sad.Villager.Cold"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Cold_Sad.Villager_Cold_Sad"
+		]
+	},
+	{
+		"Name": "Cold_Talking",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Talking.Villager.Cold"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Cold_Talking.Villager_Cold_Talking"
+		]
+	},
+	{
+		"Name": "Cold_Thanks",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Thanks.Villager.Cold"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager/Animations/Villager_Cold_Thanking.Villager_Cold_Thanking"
+		]
+	},
+	{
+		"Name": "Wolf_Howl",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Wolf.Howl"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Wolf/Animations/Wolf_Howl.Wolf_Howl"
+		]
+	},
+	{
+		"Name": "Wolf_Bark",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Wolf.Bark"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Wolf/Animations/Wolf_Bark.Wolf_Bark"
+		]
+	},
+	{
+		"Name": "Old_Talking",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Talking.OldVillager"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager_Old/Animations/Villager_Old_Talking.Villager_Old_Talking",
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager_Old/Animations/Villager_Old_Talking_Var1.Villager_Old_Talking_Var1"
+		]
+	},
+	{
+		"Name": "Old_Talking_Scared",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Talking.OldVillager.Scared"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager_Old/Animations/Villager_Old_Scared_Talking.Villager_Old_Scared_Talking"
+		]
+	},
+	{
+		"Name": "Old_Sad",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Sad.OldVillager"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager_Old/Animations/Villager_Old_Sad_Sob.Villager_Old_Sad_Sob"
+		]
+	},
+	{
+		"Name": "Old_Angry",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Angry.OldVillager"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager_Old/Animations/Villager_Old_Angry.Villager_Old_Angry"
+		]
+	},
+	{
+		"Name": "Old_Thanks",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Thanks.OldVillager"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager_Old/Animations/Villager_Old_Greeting_Bow.Villager_Old_Greeting_Bow"
+		]
+	},
+	{
+		"Name": "Old_Thanks_Nod",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Thanks.Nod.OldVillager"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager_Old/Animations/Villager_Old_Nod.Villager_Old_Nod"
+		]
+	},
+	{
+		"Name": "Old_Point_L",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.PointL.OldVillager"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager_Old/Animations/Villager_Old_Point_L.Villager_Old_Point_L"
+		]
+	},
+	{
+		"Name": "Old_Point_R",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.PointR.OldVillager"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/Villager_Old/Animations/Villager_Old_Point_R.Villager_Old_Point_R"
+		]
+	},
+	{
+		"Name": "Caretaker_Happy",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Happy.Caretaker"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/CaretakerGolem/Animation/CareTakerGolem_Happy.CaretakerGolem_Happy"
+		]
+	},
+	{
+		"Name": "Caretaker_Happy_Toot",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Happy.Caretaker.Toot"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/CaretakerGolem/Animation/CareTakerGolem_Happy_Toot.CareTakerGolem_Happy_Toot"
+		]
+	},
+	{
+		"Name": "Caretaker_Talking",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Talking.Caretaker"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/CaretakerGolem/Animation/CareTakerGolem_Talking.CareTakerGolem_Talking"
+		]
+	},
+	{
+		"Name": "Caretaker_Sing",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Sing.Caretaker"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/CaretakerGolem/Animation/CareTakerGolem_Sing.CareTakerGolem_Sing"
+		]
+	},
+	{
+		"Name": "Caretaker_Concerned",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Concerned.Caretaker"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/CaretakerGolem/Animation/CareTakerGolem_Idle_LookAround.CareTakerGolem_Idle_LookAround"
+		]
+	},
+	{
+		"Name": "Caretaker_Sad",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Sad.Caretaker"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/CaretakerGolem/Animation/CareTakerGolem_Sad_Toot.CareTakerGolem_Sad_Toot"
+		]
+	},
+	{
+		"Name": "Caretaker_Scared",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Scared.Caretaker"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/CaretakerGolem/Animation/CareTakerGolem_Scared.CaretakerGolem_Scared"
+		]
+	},
+	{
+		"Name": "Caretaker_Scared_Shock",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Scared.Caretaker.Shock"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/CaretakerGolem/Animation/CareTakerGolem_Surprise_Shock.CareTakerGolem_Surprise_Shock"
+		]
+	},
+	{
+		"Name": "Caretaker_No",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.No.Caretaker"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/CaretakerGolem/Animation/CareTakerGolem_Shake_Head.CareTakerGolem_Shake_Head"
+		]
+	},
+	{
+		"Name": "Caretaker_Relieved",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Relieved.Caretaker"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/CaretakerGolem/Animation/CareTakerGolem_Relieved.CareTakerGolem_Relieved"
+		]
+	},
+	{
+		"Name": "Caretaker_Thanks",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Thanks.Caretaker"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/CaretakerGolem/Animation/CareTakerGolem_Bowing.CareTakerGolem_Bowing"
+		]
+	},
+	{
+		"Name": "Caretaker_Sneeze",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Sneeze.Caretaker"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/CaretakerGolem/Animation/CareTakerGolem_Sneeze.CareTakerGolem_Sneeze"
+		]
+	},
+	{
+		"Name": "Caretaker_Point_L",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.PointL.Caretaker"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/CaretakerGolem/Animation/CareTakerGolem_Point_L.CareTakerGolem_Point_L"
+		]
+	},
+	{
+		"Name": "Caretaker_Point_R",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.PointR.Caretaker"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/CaretakerGolem/Animation/CareTakerGolem_Point_R.CareTakerGolem_Point_R"
+		]
+	},
+	{
+		"Name": "Caretaker_Wave",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Wave.Caretaker"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/CaretakerGolem/Animation/CareTakerGolem_Greeting_Wave.CareTakerGolem_Greeting_Wave"
+		]
+	},
+	{
+		"Name": "Singer_Talking",
+		"EmotionTag":
+		{
+			"TagName": "SW.NPC.Emotion.Talking.Singer"
+		},
+		"Animations": [
+			"/Game/Spicewood/Art/Characters/Friendlies/NPCs/Singer/Animations/Singer_Talking.Singer_Talking"
+		]
+	}
+]

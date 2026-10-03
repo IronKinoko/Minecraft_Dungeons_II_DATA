@@ -1,0 +1,701 @@
+[
+	{
+		"Name": "BaseCape",
+		"CapeData":
+		{
+			"ChestArmorCapeOffset":
+			{
+				"(TagName=\"SW.Item.RealmreacherChest_Unique\")":
+				{
+					"X": 0,
+					"Y": 0,
+					"Z": -15
+				},
+				"(TagName=\"SW.Item.WolfclutchChest\")":
+				{
+					"X": 0,
+					"Y": 0,
+					"Z": -8
+				},
+				"(TagName=\"SW.Item.WolfclutchChest_Unique\")":
+				{
+					"X": 0,
+					"Y": 0,
+					"Z": -16
+				},
+				"(TagName=\"SW.Item.StalwartChest\")":
+				{
+					"X": 0,
+					"Y": 0,
+					"Z": -11
+				},
+				"(TagName=\"SW.Item.StalwartChest_Unique\")":
+				{
+					"X": 0,
+					"Y": 0,
+					"Z": -11
+				},
+				"(TagName=\"SW.Item.FrostRimeChest\")":
+				{
+					"X": 0,
+					"Y": 0,
+					"Z": -5
+				},
+				"(TagName=\"SW.Item.FrostRimeChest_Unique\")":
+				{
+					"X": 0,
+					"Y": -5,
+					"Z": -12
+				},
+				"(TagName=\"SW.Item.UndauntedChest\")":
+				{
+					"X": 0,
+					"Y": 0,
+					"Z": -5
+				},
+				"(TagName=\"SW.Item.UndauntedChest_Unique\")":
+				{
+					"X": 0,
+					"Y": 0,
+					"Z": -11
+				}
+			}
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Cosmetic.Cape.Base"
+		},
+		"IconReference": "None",
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": false,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Soul",
+		"CapeData":
+		{
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Cosmetic.Cape.Soul"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.Cosmetic.Cape"
+				},
+				{
+					"TagName": "SW.Item.Cosmetic.Cape.Base"
+				},
+				{
+					"TagName": "SW.Item.Property.Significant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property.Cosmetic"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Item.Cosmetic.Cape"
+				},
+				{
+					"TagName": "SW.Item.Cosmetic"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Capes/Skins/SoulCape/T_UI_Cape_Soul_Icon.T_UI_Cape_Soul_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionCape.csv\", \"SW_Item_Cosmetic_Cape_Soul_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionCape.csv\", \"SW_Item_Cosmetic_Cape_Soul_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.UnlockExplanation\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionCape.csv\", \"SW_Item_Cosmetic_Cape_Soul_SW_TextEntry_UnlockExplanation\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": false,
+			"UpsellProduct":
+			{
+				"TagName": "SW.Product.DeluxeEdition"
+			}
+		}
+	},
+	{
+		"Name": "Twisted",
+		"CapeData":
+		{
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Cosmetic.Cape.Twisted"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.Cosmetic.Cape"
+				},
+				{
+					"TagName": "SW.Item.Cosmetic.Cape.Base"
+				},
+				{
+					"TagName": "SW.Item.Property.Significant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property.Cosmetic"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Item.Cosmetic.Cape"
+				},
+				{
+					"TagName": "SW.Item.Cosmetic"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Capes/Skins/TwistedCape/T_UI_Cape_Twisted_Icon.T_UI_Cape_Twisted_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionCape.csv\", \"SW_Item_Cosmetic_Cape_Twisted_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionCape.csv\", \"SW_Item_Cosmetic_Cape_Twisted_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.UnlockExplanation\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionCape.csv\", \"SW_Item_Cosmetic_Cape_Twisted_SW_TextEntry_UnlockExplanation\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": false,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Special",
+		"CapeData":
+		{
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Cosmetic.Cape.Special"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.Cosmetic.Cape"
+				},
+				{
+					"TagName": "SW.Item.Cosmetic.Cape.Base"
+				},
+				{
+					"TagName": "SW.Item.Property.Significant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property.Cosmetic"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Item.Cosmetic.Cape"
+				},
+				{
+					"TagName": "SW.Item.Cosmetic"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Capes/Skins/SpecialCape/T_UI_Cape_Special_Icon.T_UI_Cape_Special_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionCape.csv\", \"SW_Item_Cosmetic_Cape_Special_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionCape.csv\", \"SW_Item_Cosmetic_Cape_Special_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.UnlockExplanation\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionCape.csv\", \"SW_Item_Cosmetic_Cape_Special_SW_TextEntry_UnlockExplanation\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": false,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "CorruptedCreeper",
+		"CapeData":
+		{
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Cosmetic.Cape.CorruptedCreeper"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.Cosmetic.Cape"
+				},
+				{
+					"TagName": "SW.Item.Cosmetic.Cape.Base"
+				},
+				{
+					"TagName": "SW.Item.Property.Significant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property.Cosmetic"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Item.Cosmetic.Cape"
+				},
+				{
+					"TagName": "SW.Item.Cosmetic"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Capes/Skins/CorruptedCreeperCape/T_UI_Cape_CorruptedCreeper_Icon.T_UI_Cape_CorruptedCreeper_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionCape.csv\", \"SW_Item_Cosmetic_Cape_CorruptedCreeper_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionCape.csv\", \"SW_Item_Cosmetic_Cape_CorruptedCreeper_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.UnlockExplanation\")":
+				{
+					"Text": "",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": false,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Hero",
+		"CapeData":
+		{
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Cosmetic.Cape.Hero"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.Cosmetic.Cape"
+				},
+				{
+					"TagName": "SW.Item.Cosmetic.Cape.Base"
+				},
+				{
+					"TagName": "SW.Item.Property.Significant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property.Cosmetic"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Item.Cosmetic.Cape"
+				},
+				{
+					"TagName": "SW.Item.Cosmetic"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Capes/Skins/HeroCape/T_UI_Cape_Hero_Icon.T_UI_Cape_Hero_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionCape.csv\", \"SW_Item_Cosmetic_Cape_Hero_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionCape.csv\", \"SW_Item_Cosmetic_Cape_Hero_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.UnlockExplanation\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionCape.csv\", \"SW_Item_Cosmetic_Cape_Hero_SW_TextEntry_UnlockExplanation\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": false,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "Mojang",
+		"CapeData":
+		{
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Cosmetic.Cape.Mojang"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.Cosmetic.Cape"
+				},
+				{
+					"TagName": "SW.Item.Cosmetic.Cape.Base"
+				},
+				{
+					"TagName": "SW.Item.Property.Significant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property.Cosmetic"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Item.Cosmetic.Cape"
+				},
+				{
+					"TagName": "SW.Item.Cosmetic"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Capes/Skins/MojangCape/T_UI_Cape_Mojang_Icon.T_UI_Cape_Mojang_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionCape.csv\", \"SW_Item_Cosmetic_Cape_Mojang_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionCape.csv\", \"SW_Item_Cosmetic_Cape_Mojang_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.UnlockExplanation\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionCape.csv\", \"SW_Item_Cosmetic_Cape_Mojang_SW_TextEntry_UnlockExplanation\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": false,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		}
+	},
+	{
+		"Name": "SliceSlayer",
+		"CapeData":
+		{
+		},
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Cosmetic.Cape.SliceSlayer"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Item.Property.Cosmetic.Cape"
+				},
+				{
+					"TagName": "SW.Item.Cosmetic.Cape.Base"
+				},
+				{
+					"TagName": "SW.Item.Property.Significant"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Item.Property.Cosmetic"
+				},
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW.Item.Cosmetic.Cape"
+				},
+				{
+					"TagName": "SW.Item.Cosmetic"
+				}
+			]
+		},
+		"IconReference": "/Game/Spicewood/Art/Characters/Player/Capes/Skins/SliceSlayerCape/T_UI_Cape_SliceSlayer_Icon.T_UI_Cape_SliceSlayer_Icon",
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionCape.csv\", \"SW_Item_Cosmetic_Cape_SliceSlayer_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionCape.csv\", \"SW_Item_Cosmetic_Cape_SliceSlayer_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.UnlockExplanation\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionCape.csv\", \"SW_Item_Cosmetic_Cape_SliceSlayer_SW_TextEntry_UnlockExplanation\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"AvailabilityData":
+		{
+			"bAlwaysAvailable": false,
+			"UpsellProduct":
+			{
+				"TagName": "None"
+			}
+		}
+	}
+]

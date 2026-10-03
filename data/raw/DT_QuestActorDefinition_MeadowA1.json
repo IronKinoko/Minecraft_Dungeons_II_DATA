@@ -1,0 +1,846 @@
+[
+	{
+		"Name": "CA02_SentinelArenaFightBlocker",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA02.SentinelArenaFightBlocker"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA02/BP_SentinelArenaBlocker.BP_SentinelArenaBlocker_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA02_ExploreActor_04",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA02.ExploreActor.04"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA02/TemporaryExploreActors/BP_CA02_ExploreActor04.BP_CA02_ExploreActor04_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA02_ExploreActor_05",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA02.ExploreActor.05"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA02/TemporaryExploreActors/BP_CA02_ExploreActor05.BP_CA02_ExploreActor05_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA08_CaretakerSculkBlock01",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA08.CaretakerSculkBlock.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA08/BP_CA08_SculkBlock01.BP_CA08_SculkBlock01_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA08_CaretakerSculkBlock02",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA08.CaretakerSculkBlock.02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA08/BP_CA08_SculkBlock02.BP_CA08_SculkBlock02_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA08_CaretakerSculkBlock03",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA08.CaretakerSculkBlock.03"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA08/BP_CA08_SculkBlock03.BP_CA08_SculkBlock03_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "CA08_B_Banner01",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA08.B.Banner.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA08_B/BP_CA08_B_Banner01.BP_CA08_B_Banner01_C"
+	},
+	{
+		"Name": "CA08_B_Banner02",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA08.B.Banner.02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA08_B/BP_CA08_B_Banner02.BP_CA08_B_Banner02_C"
+	},
+	{
+		"Name": "CA08_B_Banner03",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA08.B.Banner.03"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA08_B/BP_CA08_B_Banner03.BP_CA08_B_Banner03_C"
+	},
+	{
+		"Name": "CA08_B_SculkPatch01",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA08.B.SculkPatch.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA08_B/BP_CA08_B_SculkPatch.BP_CA08_B_SculkPatch_C"
+	},
+	{
+		"Name": "CA08_B_Gate01",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA08.B.Gate.01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA08_B/BP_CA08_B_FootholdGate.BP_CA08_B_FootholdGate_C"
+	},
+	{
+		"Name": "CA09_BR_QuestGiver",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.CA09.BR.QuestGiver"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/CoreQuests/CA09_BR/BP_CA09_BR_QuestGiver.BP_CA09_BR_QuestGiver_C"
+	},
+	{
+		"Name": "MEa1_S05_A_Cage01",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.MEa1.S05.A.Cage01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				},
+				{
+					"TagName": "SW.State.Unknockable"
+				},
+				{
+					"TagName": "SW.State.Invulnerable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA1/MEa1_S05_A/BP_MEa1_S05_A_Cage01.BP_MEa1_S05_A_Cage01_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "MEa1_S05_A_Cage02",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.MEa1.S05.A.Cage02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				},
+				{
+					"TagName": "SW.State.Unknockable"
+				},
+				{
+					"TagName": "SW.State.Invulnerable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA1/MEa1_S05_A/BP_MEa1_S05_A_Cage02.BP_MEa1_S05_A_Cage02_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "MEa1_S05_A_Cage03",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.MEa1.S05.A.Cage03"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				},
+				{
+					"TagName": "SW.State.Unknockable"
+				},
+				{
+					"TagName": "SW.State.Invulnerable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA1/MEa1_S05_A/BP_MEa1_S05_A_Cage03.BP_MEa1_S05_A_Cage03_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "MEa1_S05_A_Cage04",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.MEa1.S05.A.Cage04"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				},
+				{
+					"TagName": "SW.State.Unknockable"
+				},
+				{
+					"TagName": "SW.State.Invulnerable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.State"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA1/MEa1_S05_A/BP_MEa1_S05_A_Cage04.BP_MEa1_S05_A_Cage04_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "MEa1_S05_A_Note",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.MEa1.S05.A.Note"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA1/MEa1_S05_A/BP_MEa1_S05_A_Note.BP_MEa1_S05_A_Note_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "MEa1_S06_A_Bush01",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.MEa1.S06.A.Bush01"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA1/MEa1_S06_A/BP_MEa1_S06_A_Bush01.BP_MEa1_S06_A_Bush01_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "MEa1_S06_A_Bush02",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.MEa1.S06.A.Bush02"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA1/MEa1_S06_A/BP_MEa1_S06_A_Bush02.BP_MEa1_S06_A_Bush02_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "MEa1_S06_A_Bush03",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.MEa1.S06.A.Bush03"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA1/MEa1_S06_A/BP_MEa1_S06_A_Bush03.BP_MEa1_S06_A_Bush03_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "MEa1_S06_A_Bush04",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.MEa1.S06.A.Bush04"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA1/MEa1_S06_A/BP_MEa1_S06_A_Bush04.BP_MEa1_S06_A_Bush04_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "MEa1_S06_A_Bush05",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.MEa1.S06.A.Bush05"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA1/MEa1_S06_A/BP_MEa1_S06_A_Bush05.BP_MEa1_S06_A_Bush05_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "MEa1_S06_A_Bush06",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.MEa1.S06.A.Bush06"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA1/MEa1_S06_A/BP_MEa1_S06_A_Bush06.BP_MEa1_S06_A_Bush06_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "MEa1_S06_A_Bush07",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.MEa1.S06.A.Bush07"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA1/MEa1_S06_A/BP_MEa1_S06_A_Bush07.BP_MEa1_S06_A_Bush07_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "MEa1_S06_A_Bush08",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.MEa1.S06.A.Bush08"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA1/MEa1_S06_A/BP_MEa1_S06_A_Bush08.BP_MEa1_S06_A_Bush08_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "MEa1_S06_A_Bush09",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.MEa1.S06.A.Bush09"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA1/MEa1_S06_A/BP_MEa1_S06_A_Bush09.BP_MEa1_S06_A_Bush09_C",
+		"AudioMobDefinition":
+		{
+			"Category":
+			{
+				"TagName": "SW.Audio.Category.Level.Prop.Quest"
+			},
+			"Priority": 0
+		}
+	},
+	{
+		"Name": "MEa1_S06_A_TutorialBush",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestActor.MEa1.S06.A.TutorialBush"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.QuestActor"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"ActorReference": "/Game/Spicewood/Quests/MeadowA1/MEa1_S06_A/BP_MEa1_S06_A_TutorialBush.BP_MEa1_S06_A_TutorialBush_C"
+	}
+]

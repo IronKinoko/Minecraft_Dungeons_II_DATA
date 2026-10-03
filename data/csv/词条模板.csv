@@ -1,0 +1,573 @@
+﻿ID,名称,阶级,类型,效果说明,效果参数,原文模板,固定模板数值,原始模板数值或范围,最低装备强度,排斥查询,稀有度,来源
+SW.EffectTemplate.Protection.I,防护,1,装备词条,受到的伤害降低 10%。,10%,受到的伤害降低 {0}。,True,10%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#ProtectionI
+SW.EffectTemplate.Protection.II,防护,2,装备词条,受到的伤害降低 15%。,15%,受到的伤害降低 {0}。,True,15%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#ProtectionII
+SW.EffectTemplate.Protection.III,防护,3,装备词条,受到的伤害降低 20%。,20%,受到的伤害降低 {0}。,True,20%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#ProtectionIII
+SW.Effecttemplate.Protection.Unique,防护,独特,装备词条,受到的伤害降低 25%。,25%,受到的伤害降低 {0}。,True,25%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#ProtectionUnique
+SW.EffectTemplate.Sharpness.I,锋利,1,装备词条,近战攻击造成的伤害提高 10%。,10%,近战攻击造成的伤害提高 {0}。,True,10%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact, SW.Item.Property.RangedWeapon )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#SharpnessI
+SW.EffectTemplate.Sharpness.II,锋利,2,装备词条,近战攻击造成的伤害提高 20%。,20%,近战攻击造成的伤害提高 {0}。,True,20%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#SharpnessII
+SW.EffectTemplate.Sharpness.III,锋利,3,装备词条,近战攻击造成的伤害提高 30%。,30%,近战攻击造成的伤害提高 {0}。,True,30%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#SharpnessIII
+SW.EffectTemplate.Sharpness.Unique,锋利,独特,装备词条,近战攻击造成的伤害提高 30%。,30%,近战攻击造成的伤害提高 {0}。,True,30%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#SharpnessUnique
+SW.EffectTemplate.RapidStrike.I,迅捷,1,装备词条,近战攻击速度提高 10%。,10%,近战攻击速度提高 {0}。,True,10%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#RapidStrikeI
+SW.EffectTemplate.RapidStrike.II,迅捷,2,装备词条,近战攻击速度提高 15%。,15%,近战攻击速度提高 {0}。,True,15%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#RapidStrikeII
+SW.EffectTemplate.RapidStrike.III,迅捷,3,装备词条,近战攻击速度提高 20%。,20%,近战攻击速度提高 {0}。,True,20%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#RapidStrikeIII
+SW.EffectTemplate.RapidStrike.Unique,迅捷,独特,装备词条,近战攻击速度提高 30%。,30%,近战攻击速度提高 {0}。,True,30%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#RapidStrikeUnique
+SW.EffectTemplate.SpeedBoost.I,速度,1,装备词条,移动速度提高 5%。,5%,移动速度提高 {0}。,True,5%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#SpeedBoostI
+SW.EffectTemplate.SpeedBoost.II,速度,2,装备词条,移动速度提高 10%。,10%,移动速度提高 {0}。,True,10%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#SpeedBoostII
+SW.EffectTemplate.SpeedBoost.III,速度,3,装备词条,移动速度提高 15%。,15%,移动速度提高 {0}。,True,15%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#SpeedBoostIII
+SW.EffectTemplate.SpeedBoost.Unique,速度,独特,装备词条,移动速度提高 20%。,20%,移动速度提高 {0}。,True,20%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#SpeedBoostUnique
+SW.EffectTemplate.CriticalHit.I,暴击,1,装备词条,暴击几率提高 5%。,5%,暴击几率提高 {0}。,True,5%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#CriticalHitI
+SW.EffectTemplate.CriticalHit.II,暴击,2,装备词条,暴击几率提高 10%。,10%,暴击几率提高 {0}。,True,10%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#CriticalHitII
+SW.EffectTemplate.CriticalHit.III,暴击,3,装备词条,暴击几率提高 15%。,15%,暴击几率提高 {0}。,True,15%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#CriticalHitIII
+SW.EffectTemplate.CriticalHit.Unique,暴击,独特,装备词条,暴击几率提高 20%。,20%,暴击几率提高 {0}。,True,20%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#CriticalHitUnique
+SW.EffectTemplate.Cooldown.I,冷却时间,1,装备词条,法器冷却时间缩短 10%。,10%,法器冷却时间缩短 {0}。,True,10%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#CooldownI
+SW.EffectTemplate.Cooldown.II,冷却时间,2,装备词条,法器冷却时间缩短 15%。,15%,法器冷却时间缩短 {0}。,True,15%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#CooldownII
+SW.EffectTemplate.Cooldown.III,冷却时间,3,装备词条,法器冷却时间缩短 20%。,20%,法器冷却时间缩短 {0}。,True,20%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#CooldownIII
+SW.EffectTemplate.Cooldown.Unique,冷却时间,独特,装备词条,法器冷却时间缩短 30%。,30%,法器冷却时间缩短 {0}。,True,30%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#CooldownUnique
+SW.EffectTemplate.Power.I,冲击,1,装备词条,远程攻击造成的伤害提高 10%。,10%,远程攻击造成的伤害提高 {0}。,True,10%,0," ALL(  ANY( SW.Item.Property.Armor, SW.Item.Property.MeleeWeapon, SW.Item.Property.Artifact ),  NONE( SW.Item.Artifact.Quiver ) )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#PowerI
+SW.EffectTemplate.Power.II,冲击,2,装备词条,远程攻击造成的伤害提高 20%。,20%,远程攻击造成的伤害提高 {0}。,True,20%,0," ALL(  ANY( SW.Item.Property.Armor, SW.Item.Property.MeleeWeapon, SW.Item.Property.Artifact ),  NONE( SW.Item.Artifact.Quiver ) )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#PowerII
+SW.EffectTemplate.Power.III,冲击,3,装备词条,远程攻击造成的伤害提高 30%。,30%,远程攻击造成的伤害提高 {0}。,True,30%,0," ALL(  ANY( SW.Item.Property.Armor, SW.Item.Property.MeleeWeapon, SW.Item.Property.Artifact ),  NONE( SW.Item.Artifact.Quiver ) )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#PowerIII
+SW.EffectTemplate.Power.Unique,冲击,独特,装备词条,远程攻击造成的伤害提高 30%。,30%,远程攻击造成的伤害提高 {0}。,True,30%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#PowerUnique
+SW.EffectTemplate.Constitution.I,恢复,1,装备词条,受到的所有治疗效果提高 10%。,10%,受到的所有治疗效果提高 {0}。,True,10%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#ConstitutionI
+SW.EffectTemplate.Constitution.II,恢复,2,装备词条,受到的所有治疗效果提高 20%。,20%,受到的所有治疗效果提高 {0}。,True,20%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#ConstitutionII
+SW.EffectTemplate.Constitution.III,恢复,3,装备词条,受到的所有治疗效果提高 30%。,30%,受到的所有治疗效果提高 {0}。,True,30%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#ConstitutionIII
+SW.EffectTemplate.Constitution.Unique,恢复,独特,装备词条,受到的所有治疗效果提高 40%。,40%,受到的所有治疗效果提高 {0}。,True,40%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#ConstitutionUnique
+SW.EffectTemplate.Hairtrigger.I,快速装填,1,装备词条,使远程武器的射击间隔缩短 20%。,20%,使远程武器的射击间隔缩短 {0}。,True,20%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact, SW.Item.Property.MeleeWeapon, SW.Item.Property.Bow )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#HairtriggerI
+SW.EffectTemplate.Hairtrigger.II,快速装填,2,装备词条,使远程武器的射击间隔缩短 30%。,30%,使远程武器的射击间隔缩短 {0}。,True,30%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact, SW.Item.Property.MeleeWeapon, SW.Item.Property.Bow )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#HairtriggerII
+SW.EffectTemplate.Hairtrigger.III,快速装填,3,装备词条,使远程武器的射击间隔缩短 40%。,40%,使远程武器的射击间隔缩短 {0}。,True,40%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact, SW.Item.Property.MeleeWeapon, SW.Item.Property.Bow )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#HairtriggerIII
+SW.EffectTemplate.Hairtrigger.Unique,快速装填,独特,装备词条,使远程武器的射击间隔缩短 40%。,40%,使远程武器的射击间隔缩短 {0}。,True,40%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#HairtriggerUnique
+SW.EffectTemplate.Sidestep.I,躲避,1,装备词条,有 10% 的几率躲避近战伤害。,10%,有 {0} 的几率躲避近战伤害。,True,10%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#SidestepI
+SW.EffectTemplate.Sidestep.II,躲避,2,装备词条,有 15% 的几率躲避近战伤害。,15%,有 {0} 的几率躲避近战伤害。,True,15%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#SidestepII
+SW.EffectTemplate.Sidestep.III,躲避,3,装备词条,有 20% 的几率躲避近战伤害。,20%,有 {0} 的几率躲避近战伤害。,True,20%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#SidestepIII
+SW.EffectTemplate.Sidestep.Unique,躲避,独特,装备词条,有 20% 的几率躲避近战伤害。,20%,有 {0} 的几率躲避近战伤害。,True,20%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#SideStepUnique
+SW.EffectTemplate.Regeneration.I,生命回复,1,装备词条,脱离战斗 5 秒后，每秒恢复 10% 生命值。,10%,脱离战斗 5 秒后，每秒恢复 {0} 生命值。,True,10%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#RegenerationI
+SW.EffectTemplate.Regeneration.II,生命回复,2,装备词条,脱离战斗 5 秒后，每秒恢复 15% 生命值。,15%,脱离战斗 5 秒后，每秒恢复 {0} 生命值。,True,15%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#RegenerationII
+SW.EffectTemplate.Regeneration.III,生命回复,3,装备词条,脱离战斗 5 秒后，每秒恢复 20% 生命值。,20%,脱离战斗 5 秒后，每秒恢复 {0} 生命值。,True,20%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#RegenerationIII
+SW.EffectTemplate.Regeneration.Unique,生命回复,独特,装备词条,脱离战斗 5 秒后，每秒恢复 30% 生命值。,30%,脱离战斗 5 秒后，每秒恢复 {0} 生命值。,True,30%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#RegenerationUnique
+SW.EffectTemplate.Finesse.I,灵巧,1,装备词条,跳跃或翻滚时，攻击伤害提高 15%。,15%,跳跃或翻滚时，攻击伤害提高 {0}。,True,15%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact, SW.Item.Property.RangedWeapon )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#FinesseI
+SW.EffectTemplate.Finesse.II,灵巧,2,装备词条,跳跃或翻滚时，攻击伤害提高 25%。,25%,跳跃或翻滚时，攻击伤害提高 {0}。,True,25%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#FinesseII
+SW.EffectTemplate.Finesse.III,灵巧,3,装备词条,跳跃或翻滚时，攻击伤害提高 35%。,35%,跳跃或翻滚时，攻击伤害提高 {0}。,True,35%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#FinesseIII
+SW.EffectTemplate.Finesse.Unique,灵巧,独特,装备词条,跳跃或翻滚时，攻击伤害提高 35%。,35%,跳跃或翻滚时，攻击伤害提高 {0}。,True,35%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#FinesseUnique
+SW.EffectTemplate.FireFocus.I,火焰法师,1,装备词条,火焰攻击造成的伤害提高 10%。,10%,火焰攻击造成的伤害提高 {0}。,True,10%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#FireFocusI
+SW.EffectTemplate.FireFocus.II,火焰法师,2,装备词条,火焰攻击造成的伤害提高 15%。,15%,火焰攻击造成的伤害提高 {0}。,True,15%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#FireFocusII
+SW.EffectTemplate.FireFocus.III,火焰法师,3,装备词条,火焰攻击造成的伤害提高 20%。,20%,火焰攻击造成的伤害提高 {0}。,True,20%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#FireFocusIII
+SW.EffectTemplate.FireFocus.Unique,火焰法师,独特,装备词条,火焰攻击造成的伤害提高 20%。,20%,火焰攻击造成的伤害提高 {0}。,True,20%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#FireFocusUnique
+SW.EffectTemplate.ProjectileProtection.I,弹射物防护,1,装备词条,受到远程攻击的伤害降低 10%。,10%,受到远程攻击的伤害降低 {0}。,True,10%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#ProjectileProtectionI
+SW.EffectTemplate.ProjectileProtection.II,弹射物防护,2,装备词条,受到远程攻击的伤害降低 15%。,15%,受到远程攻击的伤害降低 {0}。,True,15%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#ProjectileProtectionII
+SW.EffectTemplate.ProjectileProtection.III,弹射物防护,3,装备词条,受到远程攻击的伤害降低 20%。,20%,受到远程攻击的伤害降低 {0}。,True,20%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#ProjectileProtectionIII
+SW.EffectTemplate.ProjectileProtection.Unique,弹射物防护,独特,装备词条,受到远程攻击的伤害降低 25%。,25%,受到远程攻击的伤害降低 {0}。,True,25%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#ProjectileProtectionUnique
+SW.EffectTemplate.Vestige.I,巫师,1,装备词条,法器攻击造成的伤害提高 10%。,10%,法器攻击造成的伤害提高 {0}。,True,10%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#VestigeI
+SW.EffectTemplate.Vestige.II,巫师,2,装备词条,法器攻击造成的伤害提高 15%。,15%,法器攻击造成的伤害提高 {0}。,True,15%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#VestigeII
+SW.EffectTemplate.Vestige.III,巫师,3,装备词条,法器攻击造成的伤害提高 20%。,20%,法器攻击造成的伤害提高 {0}。,True,20%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#VestigeIII
+SW.EffectTemplate.Vestige.Unique,巫师,独特,装备词条,法器攻击造成的伤害提高 25%。,25%,法器攻击造成的伤害提高 {0}。,True,25%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#VestigeUnique
+SW.EffectTemplate.LightningFocus.I,闪电法师,1,装备词条,闪电攻击造成的伤害提高 10%。,10%,闪电攻击造成的伤害提高 {0}。,True,10%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#LightningFocusI
+SW.EffectTemplate.LightningFocus.II,闪电法师,2,装备词条,闪电攻击造成的伤害提高 15%。,15%,闪电攻击造成的伤害提高 {0}。,True,15%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#LightningFocusII
+SW.EffectTemplate.LightningFocus.III,闪电法师,3,装备词条,闪电攻击造成的伤害提高 20%。,20%,闪电攻击造成的伤害提高 {0}。,True,20%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#LightningFocusIII
+SW.EffectTemplate.LightningFocus.Unique,闪电法师,独特,装备词条,闪电攻击造成的伤害提高 25%。,25%,闪电攻击造成的伤害提高 {0}。,True,25%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#LightningFocusUnique
+SW.EffectTemplate.SoulFocus.I,灵魂法师,1,装备词条,灵魂攻击造成的伤害提高 10%。,10%,灵魂攻击造成的伤害提高 {0}。,True,10%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#SoulFocusI
+SW.EffectTemplate.SoulFocus.II,灵魂法师,2,装备词条,灵魂攻击造成的伤害提高 15%。,15%,灵魂攻击造成的伤害提高 {0}。,True,15%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#SoulFocusII
+SW.EffectTemplate.SoulFocus.III,灵魂法师,3,装备词条,灵魂攻击造成的伤害提高 20%。,20%,灵魂攻击造成的伤害提高 {0}。,True,20%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#SoulFocusIII
+SW.EffectTemplate.SoulFocus.Unique,灵魂法师,独特,装备词条,灵魂攻击造成的伤害提高 20%。,20%,灵魂攻击造成的伤害提高 {0}。,True,20%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#SoulFocusUnique
+SW.EffectTemplate.PoisonFocus.I,剧毒法师,1,装备词条,毒素攻击造成的伤害提高 10%。,10%,毒素攻击造成的伤害提高 {0}。,True,10%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#PoisonFocusI
+SW.EffectTemplate.PoisonFocus.II,剧毒法师,2,装备词条,毒素攻击造成的伤害提高 15%。,15%,毒素攻击造成的伤害提高 {0}。,True,15%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#PoisonFocusII
+SW.EffectTemplate.PoisonFocus.III,剧毒法师,3,装备词条,毒素攻击造成的伤害提高 20%。,20%,毒素攻击造成的伤害提高 {0}。,True,20%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#PoisonFocusIII
+SW.EffectTemplate.PoisonFocus.Unique,剧毒法师,独特,装备词条,毒素攻击造成的伤害提高 20%。,20%,毒素攻击造成的伤害提高 {0}。,True,20%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#PoisonFocusUnique
+SW.EffectTemplate.CriticalEdge.I,暴击锋刃,1,装备词条,所有暴击伤害提高 10%。,10%,所有暴击伤害提高 {0}。,True,10%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#CriticalEdgeI
+SW.EffectTemplate.CriticalEdge.II,暴击锋刃,2,装备词条,所有暴击伤害提高 20%。,20%,所有暴击伤害提高 {0}。,True,20%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#CriticalEdgeII
+SW.EffectTemplate.CriticalEdge.III,暴击锋刃,3,装备词条,所有暴击伤害提高 30%。,30%,所有暴击伤害提高 {0}。,True,30%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#CriticalEdgeIII
+SW.EffectTemplate.CriticalEdge.Unique,暴击锋刃,独特,装备词条,所有暴击伤害提高 40%。,40%,所有暴击伤害提高 {0}。,True,40%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#CriticalEdgeUnique
+SW.EffectTemplate.Precision.I,精准,1,装备词条,近战攻击的暴击几率提高 10%。,10%,近战攻击的暴击几率提高 {0}。,True,10%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact, SW.Item.Property.RangedWeapon )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#PrecisionI
+SW.EffectTemplate.Precision.II,精准,2,装备词条,近战攻击的暴击几率提高 15%。,15%,近战攻击的暴击几率提高 {0}。,True,15%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#PrecisionII
+SW.EffectTemplate.Precision.III,精准,3,装备词条,近战攻击的暴击几率提高 20%。,20%,近战攻击的暴击几率提高 {0}。,True,20%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#PrecisionIII
+SW.EffectTemplate.Precision.Unique,精准,独特,装备词条,近战攻击的暴击几率提高 25%。,25%,近战攻击的暴击几率提高 {0}。,True,25%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#PrecisionUnique
+SW.EffectTemplate.MasterStrike.I,强力,1,装备词条,近战武器的暴击伤害提高 15%。,15%,近战武器的暴击伤害提高 {0}。,True,15%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact, SW.Item.Property.RangedWeapon )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#MasterStrikeI
+SW.EffectTemplate.MasterStrike.II,强力,2,装备词条,近战武器的暴击伤害提高 20%。,20%,近战武器的暴击伤害提高 {0}。,True,20%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#MasterStrikeII
+SW.EffectTemplate.MasterStrike.III,强力,3,装备词条,近战武器的暴击伤害提高 25%。,25%,近战武器的暴击伤害提高 {0}。,True,25%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#MasterStrikeIII
+SW.EffectTemplate.MasterStrike.Unique,强力,独特,装备词条,近战武器的暴击伤害提高 45%。,45%,近战武器的暴击伤害提高 {0}。,True,45%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#MasterStrikeUnique
+SW.EffectTemplate.EagleEye.I,瞄准,1,装备词条,远程攻击的暴击几率提高 10%。,10%,远程攻击的暴击几率提高 {0}。,True,10%,0," ALL(  ANY( SW.Item.Property.Armor, SW.Item.Property.MeleeWeapon, SW.Item.Property.Artifact ),  NONE( SW.Item.Artifact.Quiver ) )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#EagleEyeI
+SW.EffectTemplate.EagleEye.II,瞄准,2,装备词条,远程攻击的暴击几率提高 15%。,15%,远程攻击的暴击几率提高 {0}。,True,15%,0," ALL(  ANY( SW.Item.Property.Armor, SW.Item.Property.MeleeWeapon, SW.Item.Property.Artifact ),  NONE( SW.Item.Artifact.Quiver ) )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#EagleEyeII
+SW.EffectTemplate.EagleEye.III,瞄准,3,装备词条,远程攻击的暴击几率提高 20%。,20%,远程攻击的暴击几率提高 {0}。,True,20%,0," ALL(  ANY( SW.Item.Property.Armor, SW.Item.Property.MeleeWeapon, SW.Item.Property.Artifact ),  NONE( SW.Item.Artifact.Quiver ) )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#EagleEyeIII
+SW.EffectTemplate.EagleEye.Unique,瞄准,独特,装备词条,远程攻击的暴击几率提高 25%。,25%,远程攻击的暴击几率提高 {0}。,True,25%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#EagleEyeUnique
+SW.EffectTemplate.MasterMarksman.I,精准射手,1,装备词条,远程武器的暴击伤害提高 15%。,15%,远程武器的暴击伤害提高 {0}。,True,15%,0," ALL(  ANY( SW.Item.Property.Armor, SW.Item.Property.MeleeWeapon, SW.Item.Property.Artifact ),  NONE( SW.Item.Artifact.Quiver ) )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#MasterMarksmanI
+SW.EffectTemplate.MasterMarksman.II,精准射手,2,装备词条,远程武器的暴击伤害提高 20%。,20%,远程武器的暴击伤害提高 {0}。,True,20%,0," ALL(  ANY( SW.Item.Property.Armor, SW.Item.Property.MeleeWeapon, SW.Item.Property.Artifact ),  NONE( SW.Item.Artifact.Quiver ) )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#MasterMarksmanII
+SW.EffectTemplate.MasterMarksman.III,精准射手,3,装备词条,远程武器的暴击伤害提高 25%。,25%,远程武器的暴击伤害提高 {0}。,True,25%,0," ALL(  ANY( SW.Item.Property.Armor, SW.Item.Property.MeleeWeapon, SW.Item.Property.Artifact ),  NONE( SW.Item.Artifact.Quiver ) )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#MasterMarksmanIII
+SW.EffectTemplate.MasterMarksman.Unique,精准射手,独特,装备词条,远程武器的暴击伤害提高 45%。,45%,远程武器的暴击伤害提高 {0}。,True,45%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#MasterMarksmanUnique
+SW.EffectTemplate.Reeling.I,冲力,1,装备词条,命中时，使敌人陷入失衡的几率提高 20%。,20%,命中时，使敌人陷入失衡的几率提高 {0}。,True,20%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#ReelingI
+SW.EffectTemplate.Reeling.II,冲力,2,装备词条,命中时，使敌人陷入失衡的几率提高 30%。,30%,命中时，使敌人陷入失衡的几率提高 {0}。,True,30%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#ReelingII
+SW.EffectTemplate.Reeling.III,冲力,3,装备词条,命中时，使敌人陷入失衡的几率提高 40%。,40%,命中时，使敌人陷入失衡的几率提高 {0}。,True,40%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#ReelingIII
+SW.EffectTemplate.Reeling.Unique,冲力,独特,装备词条,命中时，使敌人陷入失衡的几率提高 60%。,60%,命中时，使敌人陷入失衡的几率提高 {0}。,True,60%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#ReelingUnique
+SW.EffectTemplate.Reconstruction.I,制箭师,1,装备词条,远程弹药冷却时间缩短 15%。,15%,远程弹药冷却时间缩短 {0}。,True,15%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#ReconstructionI
+SW.EffectTemplate.Reconstruction.II,制箭师,2,装备词条,远程弹药冷却时间缩短 20%。,20%,远程弹药冷却时间缩短 {0}。,True,20%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#ReconstructionII
+SW.EffectTemplate.Reconstruction.III,制箭师,3,装备词条,远程弹药冷却时间缩短 25%。,25%,远程弹药冷却时间缩短 {0}。,True,25%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#ReconstructionIII
+SW.EffectTemplate.Reconstruction.Unique,制箭师,独特,装备词条,远程弹药冷却时间缩短 35%。,35%,远程弹药冷却时间缩短 {0}。,True,35%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#ReconstructionUnique
+SW.EffectTemplate.Desperation.I,不屈,1,装备词条,额外造成相当于玩家总损失生命值 10% 的伤害。,10%,额外造成相当于玩家总损失生命值 {0} 的伤害。,True,10%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#DesperationI
+SW.EffectTemplate.Desperation.II,不屈,2,装备词条,额外造成相当于玩家总损失生命值 15% 的伤害。,15%,额外造成相当于玩家总损失生命值 {0} 的伤害。,True,15%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#DesperationII
+SW.EffectTemplate.Desperation.III,不屈,3,装备词条,额外造成相当于玩家总损失生命值 20% 的伤害。,20%,额外造成相当于玩家总损失生命值 {0} 的伤害。,True,20%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#DesperationIII
+SW.EffectTemplate.Desperation.Unique,不屈,独特,装备词条,额外造成相当于玩家总损失生命值 25% 的伤害。,25%,额外造成相当于玩家总损失生命值 {0} 的伤害。,True,25%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#DesperationUnique
+SW.EffectTemplate.Supercharge.I,神射手,1,装备词条,蓄力远程攻击造成的伤害提高 30%。,30%,蓄力远程攻击造成的伤害提高 {0}。,True,30%,0," ALL(  ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact, SW.Item.Property.MeleeWeapon, SW.Item.Property.Crossbow ),  NONE( SW.Item.Artifact.Quiver ) )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#SuperchargeI
+SW.EffectTemplate.Supercharge.II,神射手,2,装备词条,蓄力远程攻击造成的伤害提高 35%。,35%,蓄力远程攻击造成的伤害提高 {0}。,True,35%,0," ALL(  ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact, SW.Item.Property.MeleeWeapon, SW.Item.Property.Crossbow ),  NONE( SW.Item.Artifact.Quiver ) )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#SuperchargeII
+SW.EffectTemplate.Supercharge.III,神射手,3,装备词条,蓄力远程攻击造成的伤害提高 40%。,40%,蓄力远程攻击造成的伤害提高 {0}。,True,40%,0," ALL(  ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact, SW.Item.Property.MeleeWeapon, SW.Item.Property.Crossbow ),  NONE( SW.Item.Artifact.Quiver ) )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#SuperchargeIII
+SW.EffectTemplate.Supercharge.Unique,神射手,独特,装备词条,蓄力远程攻击造成的伤害提高 60%。,60%,蓄力远程攻击造成的伤害提高 {0}。,True,60%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#SuperchargeUnique
+SW.EffectTemplate.Expand.I,图腾范围,1,装备词条,使所有正面状态的效果范围扩大 20%。,20%,使所有正面状态的效果范围扩大 {0}。,True,20%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#ExpandI
+SW.EffectTemplate.Expand.II,图腾范围,2,装备词条,使所有正面状态的效果范围扩大 30%。,30%,使所有正面状态的效果范围扩大 {0}。,True,30%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#ExpandII
+SW.EffectTemplate.Expand.III,图腾范围,3,装备词条,使所有正面状态的效果范围扩大 40%。,40%,使所有正面状态的效果范围扩大 {0}。,True,40%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#ExpandIII
+SW.EffectTemplate.Expand.Unique,图腾范围,独特,装备词条,使所有正面状态的效果范围扩大 55%。,55%,使所有正面状态的效果范围扩大 {0}。,True,55%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Unique,DT_EffectTemplateDefinition.json#ExpandUnique
+SW.EffectTemplate.ElementalProtection.I,元素防护,1,装备词条,受到的元素攻击伤害降低 10%。,10%,受到的元素攻击伤害降低 {0}。,True,10%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#ElementalProtectionI
+SW.EffectTemplate.ElementalProtection.II,元素防护,2,装备词条,受到的元素攻击伤害降低 15%。,15%,受到的元素攻击伤害降低 {0}。,True,15%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#ElementalProtectionII
+SW.EffectTemplate.ElementalProtection.III,元素防护,3,装备词条,受到的元素攻击伤害降低 20%。,20%,受到的元素攻击伤害降低 {0}。,True,20%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#ElementalProtectionIII
+SW.EffectTemplate.ElementalProtection.Unique,元素防护,独特,装备词条,受到的元素攻击伤害降低 25%。,25%,受到的元素攻击伤害降低 {0}。,True,25%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#ElementalProtectionUnique
+SW.EffectTemplate.Opportunist.I,恶霸,1,装备词条,对受负面状态影响的敌人造成的伤害提高 25%。,25%,对受负面状态影响的敌人造成的伤害提高 {0}。,True,25%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#OpportunistI
+SW.EffectTemplate.Opportunist.II,恶霸,2,装备词条,对受负面状态影响的敌人造成的伤害提高 35%。,35%,对受负面状态影响的敌人造成的伤害提高 {0}。,True,35%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#OpportunistII
+SW.EffectTemplate.Opportunist.III,恶霸,3,装备词条,对受负面状态影响的敌人造成的伤害提高 50%。,50%,对受负面状态影响的敌人造成的伤害提高 {0}。,True,50%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#OpportunistIII
+SW.EffectTemplate.Opportunist.Unique,恶霸,独特,装备词条,对受负面状态影响的敌人造成的伤害提高 50%。,50%,对受负面状态影响的敌人造成的伤害提高 {0}。,True,50%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Unique,DT_EffectTemplateDefinition.json#OpportunistUnique
+SW.EffectTemplate.Deflect.I,弹开,1,装备词条,有 10% 的几率弹开敌人的弹射物。,10%,有 {0} 的几率弹开敌人的弹射物。,True,10%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#DeflectI
+SW.EffectTemplate.Deflect.II,弹开,2,装备词条,有 15% 的几率弹开敌人的弹射物。,15%,有 {0} 的几率弹开敌人的弹射物。,True,15%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#DeflectII
+SW.EffectTemplate.Deflect.III,弹开,3,装备词条,有 20% 的几率弹开敌人的弹射物。,20%,有 {0} 的几率弹开敌人的弹射物。,True,20%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#DeflectIII
+SW.EffectTemplate.Deflect.Unique,弹开,独特,装备词条,有 25% 的几率弹开敌人的弹射物。,25%,有 {0} 的几率弹开敌人的弹射物。,True,25%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#DeflectUnique
+SW.EffectTemplate.Looting.I,搜刮者,1,装备词条,有 20% 的几率掉落额外的战利品。,20%,有 {0} 的几率掉落额外的战利品。,True,20%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#LootingI
+SW.EffectTemplate.Looting.II,搜刮者,2,装备词条,有 40% 的几率掉落额外的战利品。,40%,有 {0} 的几率掉落额外的战利品。,True,40%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#LootingII
+SW.EffectTemplate.Looting.III,搜刮者,3,装备词条,有 60% 的几率掉落额外的战利品。,60%,有 {0} 的几率掉落额外的战利品。,True,60%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#LootingIII
+SW.EffectTemplate.Looting.Unique,搜刮者,独特,装备词条,有 80% 的几率掉落额外的战利品。,80%,有 {0} 的几率掉落额外的战利品。,True,80%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#LootingUnique
+SW.EffectTemplate.Opulence.I,袭击者,1,装备词条,有 1% 的几率掉落更稀有的战利品。,1%,有 {0} 的几率掉落更稀有的战利品。,True,1%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#OpulenceI
+SW.EffectTemplate.Opulence.II,袭击者,2,装备词条,有 2% 的几率掉落更稀有的战利品。,2%,有 {0} 的几率掉落更稀有的战利品。,True,2%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#OpulenceII
+SW.EffectTemplate.Opulence.III,袭击者,3,装备词条,有 3% 的几率掉落更稀有的战利品。,3%,有 {0} 的几率掉落更稀有的战利品。,True,3%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#OpulenceIII
+SW.EffectTemplate.Opulence.Unique,袭击者,独特,装备词条,有 5% 的几率掉落更稀有的战利品。,5%,有 {0} 的几率掉落更稀有的战利品。,True,5%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Unique,DT_EffectTemplateDefinition.json#OpulenceUnique
+SW.EffectTemplate.SwiftSneak.I,神行者,1,装备词条,暗影潜行期间，移动速度提高 15%。,15%,暗影潜行期间，移动速度提高 {0}。,True,15%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#SwiftSneakI
+SW.EffectTemplate.SwiftSneak.II,神行者,2,装备词条,暗影潜行期间，移动速度提高 20%。,20%,暗影潜行期间，移动速度提高 {0}。,True,20%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#SwiftSneakII
+SW.EffectTemplate.SwiftSneak.III,神行者,3,装备词条,暗影潜行期间，移动速度提高 30%。,30%,暗影潜行期间，移动速度提高 {0}。,True,30%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#SwiftSneakIII
+SW.EffectTemplate.SwiftSneak.Unique,神行者,独特,装备词条,暗影潜行期间，移动速度提高 40%。,40%,暗影潜行期间，移动速度提高 {0}。,True,40%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#SwiftSneakUnique
+SW.EffectTemplate.Gambler.I,刺客,1,装备词条,有 10% 的几率在攻击时维持“暗影潜行”状态。,10%,有 {0} 的几率在攻击时维持“暗影潜行”状态。,True,10%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#GamblerI
+SW.EffectTemplate.Gambler.II,刺客,2,装备词条,有 15% 的几率在攻击时维持“暗影潜行”状态。,15%,有 {0} 的几率在攻击时维持“暗影潜行”状态。,True,15%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#GamblerII
+SW.EffectTemplate.Gambler.III,刺客,3,装备词条,有 20% 的几率在攻击时维持“暗影潜行”状态。,20%,有 {0} 的几率在攻击时维持“暗影潜行”状态。,True,20%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#GamblerIII
+SW.EffectTemplate.Gambler.Unique,刺客,独特,装备词条,有 25% 的几率在攻击时维持“暗影潜行”状态。,25%,有 {0} 的几率在攻击时维持“暗影潜行”状态。,True,25%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#GamplerUnique
+SW.EffectTemplate.SweepingEdge.I,斗士,1,装备词条,近战攻击对次要目标造成的伤害提高 20%。,20%,近战攻击对次要目标造成的伤害提高 {0}。,True,20%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact, SW.Item.Property.RangedWeapon )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#SweepingEdge.I
+SW.EffectTemplate.SweepingEdge.II,斗士,2,装备词条,近战攻击对次要目标造成的伤害提高 30%。,30%,近战攻击对次要目标造成的伤害提高 {0}。,True,30%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#SweepingEdge.II
+SW.EffectTemplate.SweepingEdge.III,斗士,3,装备词条,近战攻击对次要目标造成的伤害提高 40%。,40%,近战攻击对次要目标造成的伤害提高 {0}。,True,40%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#SweepingEdge.III
+SW.EffectTemplate.SweepingEdge.Unique,斗士,独特,装备词条,近战攻击对次要目标造成的伤害提高 50%。,50%,近战攻击对次要目标造成的伤害提高 {0}。,True,50%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#SweepingEdgeUnique
+SW.EffectTemplate.Thorns.I,反刺,1,装备词条,将所受伤害的 50% 反弹给攻击者。,50%,将所受伤害的 {0} 反弹给攻击者。,True,50%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#Thorns.I
+SW.EffectTemplate.Thorns.II,反刺,2,装备词条,将所受伤害的 65% 反弹给攻击者。,65%,将所受伤害的 {0} 反弹给攻击者。,True,65%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#Thorns.II
+SW.EffectTemplate.Thorns.III,反刺,3,装备词条,将所受伤害的 80% 反弹给攻击者。,80%,将所受伤害的 {0} 反弹给攻击者。,True,80%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#Thorns.III
+SW.EffectTemplate.Thorns.Unique,反刺,独特,装备词条,将所受伤害的 100% 反弹给攻击者。,100%,将所受伤害的 {0} 反弹给攻击者。,True,100%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#ThornsUnique
+SW.EffectTemplate.PotionMaster.I,药剂师,1,装备词条,药水冷却时间缩短 5%。,5%,药水冷却时间缩短 {0}。,True,5%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#PotionMaster.I
+SW.EffectTemplate.PotionMaster.II,药剂师,2,装备词条,药水冷却时间缩短 10%。,10%,药水冷却时间缩短 {0}。,True,10%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#PotionMaster.II
+SW.EffectTemplate.PotionMaster.III,药剂师,3,装备词条,药水冷却时间缩短 20%。,20%,药水冷却时间缩短 {0}。,True,20%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#PotionMaster.III
+SW.EffectTemplate.PotionMaster.Unique,药剂师,独特,装备词条,药水冷却时间缩短 25%。,25%,药水冷却时间缩短 {0}。,True,25%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#PotionMasterUnique
+SW.EffectTemplate.FrostFocus.I,冰霜法师,1,装备词条,冰霜攻击造成的伤害提高 10%。,10%,冰霜攻击造成的伤害提高 {0}。,True,10%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#FrostFocus.I
+SW.EffectTemplate.FrostFocus.II,冰霜法师,2,装备词条,冰霜攻击造成的伤害提高 15%。,15%,冰霜攻击造成的伤害提高 {0}。,True,15%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#FrostFocus.II
+SW.EffectTemplate.FrostFocus.III,冰霜法师,3,装备词条,冰霜攻击造成的伤害提高 20%。,20%,冰霜攻击造成的伤害提高 {0}。,True,20%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#FrostFocus.III
+SW.EffectTemplate.FrostFocus.Unique,冰霜法师,独特,装备词条,冰霜攻击造成的伤害提高 30%。,30%,冰霜攻击造成的伤害提高 {0}。,True,30%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#FrostFocusUnique
+SW.EffectTemplate.PointBlank.I,贴身射击,1,装备词条,近距离时，远程攻击造成的伤害提高 25%。,25%,近距离时，远程攻击造成的伤害提高 {0}。,True,25%,0," ALL(  ANY( SW.Item.Property.Armor, SW.Item.Property.MeleeWeapon, SW.Item.Property.Artifact ),  NONE( SW.Item.Artifact.Quiver ) )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#PointBlank.I
+SW.EffectTemplate.PointBlank.II,贴身射击,2,装备词条,近距离时，远程攻击造成的伤害提高 50%。,50%,近距离时，远程攻击造成的伤害提高 {0}。,True,50%,0," ALL(  ANY( SW.Item.Property.Armor, SW.Item.Property.MeleeWeapon, SW.Item.Property.Artifact ),  NONE( SW.Item.Artifact.Quiver ) )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#PointBlank.II
+SW.EffectTemplate.PointBlank.III,贴身射击,3,装备词条,近距离时，远程攻击造成的伤害提高 75%。,75%,近距离时，远程攻击造成的伤害提高 {0}。,True,75%,0," ALL(  ANY( SW.Item.Property.Armor, SW.Item.Property.MeleeWeapon, SW.Item.Property.Artifact ),  NONE( SW.Item.Artifact.Quiver ) )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#PointBlank.III
+SW.EffectTemplate.PointBlank.Unique,贴身射击,独特,装备词条,近距离时，远程攻击造成的伤害提高 100%。,100%,近距离时，远程攻击造成的伤害提高 {0}。,True,100%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#PointBlankUnique
+SW.EffectTemplate.Sniper.I,狙击手,1,装备词条,远距离时，远程攻击造成的伤害提高 25%。,25%,远距离时，远程攻击造成的伤害提高 {0}。,True,25%,0," ALL(  ANY( SW.Item.Property.Armor, SW.Item.Property.MeleeWeapon, SW.Item.Property.Artifact ),  NONE( SW.Item.Artifact.Quiver ) )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#Sniper.I
+SW.EffectTemplate.Sniper.II,狙击手,2,装备词条,远距离时，远程攻击造成的伤害提高 50%。,50%,远距离时，远程攻击造成的伤害提高 {0}。,True,50%,0," ALL(  ANY( SW.Item.Property.Armor, SW.Item.Property.MeleeWeapon, SW.Item.Property.Artifact ),  NONE( SW.Item.Artifact.Quiver ) )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#Sniper.II
+SW.EffectTemplate.Sniper.III,狙击手,3,装备词条,远距离时，远程攻击造成的伤害提高 75%。,75%,远距离时，远程攻击造成的伤害提高 {0}。,True,75%,0," ALL(  ANY( SW.Item.Property.Armor, SW.Item.Property.MeleeWeapon, SW.Item.Property.Artifact ),  NONE( SW.Item.Artifact.Quiver ) )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#Sniper.III
+SW.EffectTemplate.Sniper.Unique,狙击手,独特,装备词条,远距离时，远程攻击造成的伤害提高 100%。,100%,远距离时，远程攻击造成的伤害提高 {0}。,True,100%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#SniperUnique
+SW.EffectTemplate.BagOfSouls.I,灵性,1,装备词条,灵魂容量提高 25%。,25%,灵魂容量提高 {0}。,True,25%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#BagOfSouls.I
+SW.EffectTemplate.BagOfSouls.II,灵性,2,装备词条,灵魂容量提高 30%。,30%,灵魂容量提高 {0}。,True,30%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#BagOfSouls.II
+SW.EffectTemplate.BagOfSouls.III,灵性,3,装备词条,灵魂容量提高 35%。,35%,灵魂容量提高 {0}。,True,35%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#BagOfSouls.III
+SW.EffectTemplate.BagOfSouls.Unique,灵性,独特,装备词条,灵魂容量提高 50%。,50%,灵魂容量提高 {0}。,True,50%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#BagofSoulsUnique
+SW.EffectTemplate.SoulSiphon.I,死神,1,装备词条,获得的灵魂增加 25%。,25%,获得的灵魂增加 {0}。,True,25%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#SoulSiphon.I
+SW.EffectTemplate.SoulSiphon.II,死神,2,装备词条,获得的灵魂增加 35%。,35%,获得的灵魂增加 {0}。,True,35%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#SoulSiphon.II
+SW.EffectTemplate.SoulSiphon.III,死神,3,装备词条,获得的灵魂增加 45%。,45%,获得的灵魂增加 {0}。,True,45%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#SoulSiphon.III
+SW.EffectTemplate.SoulSiphon.Unique,死神,独特,装备词条,获得的灵魂增加 60%。,60%,获得的灵魂增加 {0}。,True,60%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#SoulSiphonUnique
+SW.EffectTemplate.Acrobat.I,特技,1,装备词条,翻滚的冷却时间缩短 10%。,10%,翻滚的冷却时间缩短 {0}。,True,10%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#Acrobat.I
+SW.EffectTemplate.Acrobat.II,特技,2,装备词条,翻滚的冷却时间缩短 15%。,15%,翻滚的冷却时间缩短 {0}。,True,15%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#Acrobat.II
+SW.EffectTemplate.Acrobat.III,特技,3,装备词条,翻滚的冷却时间缩短 25%。,25%,翻滚的冷却时间缩短 {0}。,True,25%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#Acrobat.III
+SW.EffectTemplate.Acrobat.Unique,特技,独特,装备词条,翻滚的冷却时间缩短 40%。,40%,翻滚的冷却时间缩短 {0}。,True,40%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#AcrobatUnique
+SW.EffectTemplate.AnimaConduit.I,炼金术士,1,装备词条,每收集一个灵魂，恢复最大生命值的 1%。,1%,每收集一个灵魂，恢复最大生命值的 {0}。,True,1%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#AnimaConduit.I
+SW.EffectTemplate.AnimaConduit.II,炼金术士,2,装备词条,每收集一个灵魂，恢复最大生命值的 3%。,3%,每收集一个灵魂，恢复最大生命值的 {0}。,True,3%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#AnimaConduit.II
+SW.EffectTemplate.AnimaConduit.III,炼金术士,3,装备词条,每收集一个灵魂，恢复最大生命值的 5%。,5%,每收集一个灵魂，恢复最大生命值的 {0}。,True,5%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#AnimaConduit.III
+SW.EffectTemplate.AnimaConduit.Unique,炼金术士,独特,装备词条,每收集一个灵魂，恢复最大生命值的 7%。,7%,每收集一个灵魂，恢复最大生命值的 {0}。,True,7%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#AnimaConduitUnique
+SW.EffectTemplate.MultiShot.I,游侠,1,装备词条,有 20% 的几率发射额外弹射物。,20%,有 {0} 的几率发射额外弹射物。,True,20%,0," ALL(  ANY( SW.Item.Property.Armor, SW.Item.Property.MeleeWeapon, SW.Item.Property.Artifact ),  NONE( SW.Item.Artifact.Quiver ) )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#MultiShot.I
+SW.EffectTemplate.MultiShot.II,游侠,2,装备词条,有 30% 的几率发射额外弹射物。,30%,有 {0} 的几率发射额外弹射物。,True,30%,0," ALL(  ANY( SW.Item.Property.Armor, SW.Item.Property.MeleeWeapon, SW.Item.Property.Artifact ),  NONE( SW.Item.Artifact.Quiver ) )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#MultiShot.II
+SW.EffectTemplate.MultiShot.III,游侠,3,装备词条,有 40% 的几率发射额外弹射物。,40%,有 {0} 的几率发射额外弹射物。,True,40%,0," ALL(  ANY( SW.Item.Property.Armor, SW.Item.Property.MeleeWeapon, SW.Item.Property.Artifact ),  NONE( SW.Item.Artifact.Quiver ) )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#MultiShot.III
+SW.EffectTemplate.MultiShot.Unique,游侠,独特,装备词条,有 60% 的几率发射额外弹射物。,60%,有 {0} 的几率发射额外弹射物。,True,60%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#MultiShotUnique
+SW.EffectTemplate.Vivify.I,盟友,1,装备词条,施加于自身和盟友的正面状态持续时间延长 15%。,15%,施加于自身和盟友的正面状态持续时间延长 {0}。,True,15%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#Vivify.I
+SW.EffectTemplate.Vivify.II,盟友,2,装备词条,施加于自身和盟友的正面状态持续时间延长 30%。,30%,施加于自身和盟友的正面状态持续时间延长 {0}。,True,30%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#Vivify.II
+SW.EffectTemplate.Vivify.III,盟友,3,装备词条,施加于自身和盟友的正面状态持续时间延长 50%。,50%,施加于自身和盟友的正面状态持续时间延长 {0}。,True,50%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#Vivify.III
+SW.EffectTemplate.Vivify.Unique,盟友,独特,装备词条,施加于自身和盟友的正面状态持续时间延长 70%。,70%,施加于自身和盟友的正面状态持续时间延长 {0}。,True,70%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#VivifyUnique
+SW.EffectTemplate.Resilience.I,韧性,1,装备词条,从负面状态恢复的速度提高 20%。,20%,从负面状态恢复的速度提高 {0}。,True,20%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#Resilience.I
+SW.EffectTemplate.Resilience.II,韧性,2,装备词条,从负面状态恢复的速度提高 25%。,25%,从负面状态恢复的速度提高 {0}。,True,25%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#Resilience.II
+SW.EffectTemplate.Resilience.III,韧性,3,装备词条,从负面状态恢复的速度提高 30%。,30%,从负面状态恢复的速度提高 {0}。,True,30%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#Resilience.III
+SW.EffectTemplate.Resilience.Unique,韧性,独特,装备词条,从负面状态恢复的速度提高 50%。,50%,从负面状态恢复的速度提高 {0}。,True,50%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#ResilienceUnique
+SW.EffectTemplate.Saboteur.I,污染,1,装备词条,使敌人陷入负面状态的持续时间延长 40%。,40%,使敌人陷入负面状态的持续时间延长 {0}。,True,40%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#Saboteur.I
+SW.EffectTemplate.Saboteur.II,污染,2,装备词条,使敌人陷入负面状态的持续时间延长 60%。,60%,使敌人陷入负面状态的持续时间延长 {0}。,True,60%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#Saboteur.II
+SW.EffectTemplate.Saboteur.III,污染,3,装备词条,使敌人陷入负面状态的持续时间延长 80%。,80%,使敌人陷入负面状态的持续时间延长 {0}。,True,80%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#Saboteur.III
+SW.EffectTemplate.Saboteur.Unique,污染,独特,装备词条,使敌人陷入负面状态的持续时间延长 100%。,100%,使敌人陷入负面状态的持续时间延长 {0}。,True,100%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#SaboteurUnique
+SW.EffectTemplate.Chains.I,桎梏,1,装备词条,攻击命中时，有 10% 的几率施加“束缚”状态。,10%,攻击命中时，有 {0} 的几率施加“束缚”状态。,True,10%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#Chains.I
+SW.EffectTemplate.Chains.II,桎梏,2,装备词条,攻击命中时，有 15% 的几率施加“束缚”状态。,15%,攻击命中时，有 {0} 的几率施加“束缚”状态。,True,15%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#Chains.II
+SW.EffectTemplate.Chains.III,桎梏,3,装备词条,攻击命中时，有 25% 的几率施加“束缚”状态。,25%,攻击命中时，有 {0} 的几率施加“束缚”状态。,True,25%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#Chains.III
+SW.EffectTemplate.HealingFocus.I,治疗者,1,装备词条,自己和盟友获得的治疗效果提高 25%。,25%,自己和盟友获得的治疗效果提高 {0}。,True,25%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#HealingFocus.I
+SW.EffectTemplate.HealingFocus.II,治疗者,2,装备词条,自己和盟友获得的治疗效果提高 35%。,35%,自己和盟友获得的治疗效果提高 {0}。,True,35%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#HealingFocus.II
+SW.EffectTemplate.HealingFocus.III,治疗者,3,装备词条,自己和盟友获得的治疗效果提高 50%。,50%,自己和盟友获得的治疗效果提高 {0}。,True,50%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#HealingFocus.III
+SW.EffectTemplate.HealingFocus.Unique,治疗者,独特,装备词条,自己和盟友获得的治疗效果提高 50%。,50%,自己和盟友获得的治疗效果提高 {0}。,True,50%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#HealingFocusUnique
+SW.EffectTemplate.ShadowWalk.I,潜行,1,装备词条,暗影潜行的持续时间延长 20%。,20%,暗影潜行的持续时间延长 {0}。,True,20%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#ShadowWalk.I
+SW.EffectTemplate.ShadowWalk.II,潜行,2,装备词条,暗影潜行的持续时间延长 25%。,25%,暗影潜行的持续时间延长 {0}。,True,25%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#ShadowWalk.II
+SW.EffectTemplate.ShadowWalk.III,潜行,3,装备词条,暗影潜行的持续时间延长 35%。,35%,暗影潜行的持续时间延长 {0}。,True,35%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#ShadowWalk.III
+SW.EffectTemplate.ShadowWalk.Unique,潜行,独特,装备词条,暗影潜行的持续时间延长 45%。,45%,暗影潜行的持续时间延长 {0}。,True,45%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#ShadowWalkUnique
+SW.EffectTemplate.Prospector.I,探勘者,1,装备词条,有 5% 的几率获得额外的绿宝石。,5%,有 {0} 的几率获得额外的绿宝石。,True,5%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#ProspectorI
+SW.EffectTemplate.Prospector.II,探勘者,2,装备词条,有 10% 的几率获得额外的绿宝石。,10%,有 {0} 的几率获得额外的绿宝石。,True,10%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#ProspectorII
+SW.EffectTemplate.Prospector.III,探勘者,3,装备词条,有 15% 的几率获得额外的绿宝石。,15%,有 {0} 的几率获得额外的绿宝石。,True,15%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#ProspectorIII
+SW.EffectTemplate.Prospector.Unique,探勘者,独特,装备词条,有 20% 的几率获得额外的绿宝石。,20%,有 {0} 的几率获得额外的绿宝石。,True,20%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#ProspectorUnique
+SW.EffectTemplate.Duelist.I,决斗者,1,装备词条,近战攻击对主要目标造成的伤害提高 20%。,20%,近战攻击对主要目标造成的伤害提高 {0}。,True,20%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact, SW.Item.Property.RangedWeapon )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#DuelistI
+SW.EffectTemplate.Duelist.II,决斗者,2,装备词条,近战攻击对主要目标造成的伤害提高 25%。,25%,近战攻击对主要目标造成的伤害提高 {0}。,True,25%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#DuelistII
+SW.EffectTemplate.Duelist.III,决斗者,3,装备词条,近战攻击对主要目标造成的伤害提高 30%。,30%,近战攻击对主要目标造成的伤害提高 {0}。,True,30%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#DuelistIII
+SW.EffectTemplate.Duelist.Unique,决斗者,独特,装备词条,近战攻击对主要目标造成的伤害提高 40%。,40%,近战攻击对主要目标造成的伤害提高 {0}。,True,40%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#DuelistUnique
+SW.EffectTemplate.Lucky.I,幸运,1,装备词条,有 10% 的几率掉落稀有度相同、效果不同的物品。,10%,有 {0} 的几率掉落稀有度相同、效果不同的物品。,True,10%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#Lucky.I
+SW.EffectTemplate.Lucky.II,幸运,2,装备词条,有 15% 的几率掉落稀有度相同、效果不同的物品。,15%,有 {0} 的几率掉落稀有度相同、效果不同的物品。,True,15%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#Lucky.II
+SW.EffectTemplate.Lucky.III,幸运,3,装备词条,有 20% 的几率掉落稀有度相同、效果不同的物品。,20%,有 {0} 的几率掉落稀有度相同、效果不同的物品。,True,20%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#Lucky.III
+SW.EffectTemplate.Lucky.Unique,幸运,独特,装备词条,有 30% 的几率掉落稀有度相同、效果不同的物品。,30%,有 {0} 的几率掉落稀有度相同、效果不同的物品。,True,30%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#LuckyUnique
+SW.EffectTemplate.BeastBoss.I,群兽首领,1,装备词条,同伴造成的伤害提高 20%。,20%,同伴造成的伤害提高 {0}。,True,20%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#BeastBoss.I
+SW.EffectTemplate.BeastBoss.II,群兽首领,2,装备词条,同伴造成的伤害提高 25%。,25%,同伴造成的伤害提高 {0}。,True,25%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#BeastBoss.II
+SW.EffectTemplate.BeastBoss.III,群兽首领,3,装备词条,同伴造成的伤害提高 30%。,30%,同伴造成的伤害提高 {0}。,True,30%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#BeastBoss.III
+SW.EffectTemplate.BeastBoss.Unique,群兽首领,独特,装备词条,同伴造成的伤害提高 40%。,40%,同伴造成的伤害提高 {0}。,True,40%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#BeastBossUnique
+SW.EffectTemplate.ArrowBurst.I,制弓师,1,装备词条,箭矢恢复时有 20% 几率额外获得一支箭。,20%,箭矢恢复时有 {0} 几率额外获得一支箭。,True,20%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#ArrowBurst.I
+SW.EffectTemplate.ArrowBurst.II,制弓师,2,装备词条,箭矢恢复时有 25% 几率额外获得一支箭。,25%,箭矢恢复时有 {0} 几率额外获得一支箭。,True,25%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#ArrowBurst.II
+SW.EffectTemplate.ArrowBurst.III,制弓师,3,装备词条,箭矢恢复时有 30% 几率额外获得一支箭。,30%,箭矢恢复时有 {0} 几率额外获得一支箭。,True,30%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#ArrowBurst.III
+SW.EffectTemplate.ArrowBurst.Unique,制弓师,独特,装备词条,箭矢恢复时有 50% 几率额外获得一支箭。,50%,箭矢恢复时有 {0} 几率额外获得一支箭。,True,50%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#ArrowBurstUnique
+SW.EffectTemplate.Knockback.I,击退,1,装备词条,攻击造成的击退效果提高 15%。,15%,攻击造成的击退效果提高 {0}。,True,15%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#Knockback.I
+SW.EffectTemplate.Knockback.II,击退,2,装备词条,攻击造成的击退效果提高 20%。,20%,攻击造成的击退效果提高 {0}。,True,20%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#Knockback.II
+SW.EffectTemplate.Knockback.III,击退,3,装备词条,攻击造成的击退效果提高 30%。,30%,攻击造成的击退效果提高 {0}。,True,30%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#Knockback.III
+SW.EffectTemplate.Knockback.Unique,击退,独特,装备词条,攻击造成的击退效果提高 40%。,40%,攻击造成的击退效果提高 {0}。,True,40%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#KnockbackUnique
+SW.EffectTemplate.Friendship.I,牧羊人,1,装备词条,同伴受到的伤害降低 5%。,5%,同伴受到的伤害降低 {0}。,True,5%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#Friendship.I
+SW.EffectTemplate.Friendship.II,牧羊人,2,装备词条,同伴受到的伤害降低 10%。,10%,同伴受到的伤害降低 {0}。,True,10%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#Friendship.II
+SW.EffectTemplate.Friendship.III,牧羊人,3,装备词条,同伴受到的伤害降低 15%。,15%,同伴受到的伤害降低 {0}。,True,15%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#Friendship.III
+SW.EffectTemplate.Friendship.Unique,牧羊人,独特,装备词条,同伴受到的伤害降低 20%。,20%,同伴受到的伤害降低 {0}。,True,20%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#FriendshipUnique
+SW.EffectTemplate.FriendsForever.I,兽医,1,装备词条,被击败的同伴复活速度加快 5%。,5%,被击败的同伴复活速度加快 {0}。,True,5%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#FriendsForever.I
+SW.EffectTemplate.FriendsForever.II,兽医,2,装备词条,被击败的同伴复活速度加快 10%。,10%,被击败的同伴复活速度加快 {0}。,True,10%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#FriendsForever.II
+SW.EffectTemplate.FriendsForever.III,兽医,3,装备词条,被击败的同伴复活速度加快 15%。,15%,被击败的同伴复活速度加快 {0}。,True,15%,0," ANY( SW.Item.Property.MeleeWeapon, SW.Item.Property.RangedWeapon )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#FriendsForever.III
+SW.EffectTemplate.FriendsForever.Unique,兽医,独特,装备词条,被击败的同伴复活速度加快 20%。,20%,被击败的同伴复活速度加快 {0}。,True,20%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#FriendsForeverUnique
+SW.EffectTemplate.Committed.I,赏金猎人,1,装备词条,对受伤敌人造成的伤害提高 20%。,20%,对受伤敌人造成的伤害提高 {0}。,True,20%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#CommittedI
+SW.EffectTemplate.Committed.II,赏金猎人,2,装备词条,对受伤敌人造成的伤害提高 25%。,25%,对受伤敌人造成的伤害提高 {0}。,True,25%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#CommittedII
+SW.EffectTemplate.Committed.III,赏金猎人,3,装备词条,对受伤敌人造成的伤害提高 30%。,30%,对受伤敌人造成的伤害提高 {0}。,True,30%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#CommittedIII
+SW.EffectTemplate.Committed.Unique,赏金猎人,独特,装备词条,对受伤敌人造成的伤害提高 40%。,40%,对受伤敌人造成的伤害提高 {0}。,True,40%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#CommittedUnique
+SW.EffectTemplate.Vanguard.I,先锋,1,装备词条,对满血敌人造成的伤害提高 20%。,20%,对满血敌人造成的伤害提高 {0}。,True,20%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#VanguardI
+SW.EffectTemplate.Vanguard.II,先锋,2,装备词条,对满血敌人造成的伤害提高 35%。,35%,对满血敌人造成的伤害提高 {0}。,True,35%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#VanguardII
+SW.EffectTemplate.Vanguard.III,先锋,3,装备词条,对满血敌人造成的伤害提高 50%。,50%,对满血敌人造成的伤害提高 {0}。,True,50%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#VanguardIII
+SW.EffectTemplate.Vanguard.Unique,先锋,独特,装备词条,对满血敌人造成的伤害提高 60%。,60%,对满血敌人造成的伤害提高 {0}。,True,60%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#VanguardUnique
+SW.EffectTemplate.AmmoCapacity.I,箭袋,1,装备词条,箭矢携带量增加 10%。,10%,箭矢携带量增加 {0}。,True,10%,0, NONE( SW.Item.Artifact.Quiver ),SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_EffectTemplateDefinition.json#AmmoCapacity.I
+SW.EffectTemplate.AmmoCapacity.II,箭袋,2,装备词条,箭矢携带量增加 15%。,15%,箭矢携带量增加 {0}。,True,15%,0, NONE( SW.Item.Artifact.Quiver ),SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_EffectTemplateDefinition.json#AmmoCapacity.II
+SW.EffectTemplate.AmmoCapacity.III,箭袋,3,装备词条,箭矢携带量增加 20%。,20%,箭矢携带量增加 {0}。,True,20%,0, NONE( SW.Item.Artifact.Quiver ),SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_EffectTemplateDefinition.json#AmmoCapacity.III
+SW.EffectTemplate.AmmoCapacity.Unique,箭袋,独特,装备词条,箭矢携带量增加 45%。,45%,箭矢携带量增加 {0}。,True,45%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#AmmoCapacityUnique
+SW.EffectTemplate.Plummeting.Unique,跳跃者,独特,装备词条,跳跃近战攻击造成的伤害提高 50%。,50%,跳跃近战攻击造成的伤害提高 {0}。,True,50%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#PlummetingUnique
+SW.EffectTemplate.SoulCurse,灵魂诅咒,独特,装备词条,命中时对敌人施加“魂蚀”状态。,,命中时对敌人施加“魂蚀”状态。,True,1,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#SoulCurseUnique
+SW.EffectTemplate.ExplosiveStrike.Unique,烟火特效,独特,装备词条,使用此武器命中时会发生爆炸！,,使用此武器命中时会发生爆炸！,True,1,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#ExplosiveStrikeUnique
+SW.EffectTemplate.ElementalHit.Unique,随机法师,独特,装备词条,击败敌人后，有几率获得随机的元素近战增益效果。,,击败敌人后，有几率获得随机的元素近战增益效果。,True,1,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#ElementalHit
+SW.EffectTemplate.ExperienceIncrease.Unique,天才,独特,装备词条,获得的经验值提高 8%。,8%,获得的经验值提高 {0}。,True,8%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#ExperienceIncreaseUnique
+SW.EffectTemplate.HealthBoost.Unique,体格,独特,装备词条,玩家的最大生命值提高 30%。,30%,玩家的最大生命值提高 {0}。,True,30%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#HealthBoostUnique
+SW.EffectTemplate.StatusBuff.Unique,强化,独特,装备词条,使施加于自身的正面状态持续时间延长 20%。,20%,使施加于自身的正面状态持续时间延长 {0}。,True,20%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#StatusBuffUnique
+SW.EffectTemplate.ArtifactHealing.Unique,神器,独特,装备词条,使用法器时，恢复 6% 最大生命值。,6%,使用法器时，恢复 {0} 最大生命值。,True,6%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#ArtifactHealingUnique
+SW.EffectTemplate.StrenghteningStrike.Unique,强力打击,独特,装备词条,攻击命中时有 70% 的几率获得“强力”状态。,70%,攻击命中时有 {0} 的几率获得“强力”状态。,True,6%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#StrenghtheningStrike.Unique
+SW.EffectTemplate.Chains.Unique,桎梏,独特,装备词条,攻击命中时，有 30% 的几率施加“束缚”状态。,30%,攻击命中时，有 {0} 的几率施加“束缚”状态。,True,30%,0," ANY( SW.Item.Property.Armor, SW.Item.Property.Artifact )",SW.Rarity.Unique,DT_EffectTemplateDefinition.json#Chains.Unique
+SW.EffectTemplate.Jumpshot.Unique,跳跃射击,独特,装备词条,跳跃射击造成的伤害提高 6%。,6%,跳跃射击造成的伤害提高 {0}。,True,6%,0,,SW.Rarity.Unique,DT_EffectTemplateDefinition.json#Jumpshot.Unique
+SW.EffectTemplate.RangedBuff.I,冲击,1,护符词条,远程攻击造成的伤害提高 10%。,10%,远程攻击造成的伤害提高 {0}。,True,10%,0,,SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_TalismanEffectTemplateDefinition.json#TalismanRangedBuffI
+SW.EffectTemplate.RangedBuff.II,冲击,2,护符词条,远程攻击造成的伤害提高 15%。,15%,远程攻击造成的伤害提高 {0}。,True,15%,0,,SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanRangedBuffII
+SW.EffectTemplate.RangedBuff.III,冲击,3,护符词条,远程攻击造成的伤害提高 25%。,25%,远程攻击造成的伤害提高 {0}。,True,25%,0,,SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanRangedBuffIII
+SW.EffectTemplate.HealthBoost.I,体格,1,护符词条,玩家的最大生命值提高 20%。,20%,玩家的最大生命值提高 {0}。,True,20%,0,,SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_TalismanEffectTemplateDefinition.json#TalismanHealthBoostI
+SW.EffectTemplate.HealthBoost.II,体格,2,护符词条,玩家的最大生命值提高 25%。,25%,玩家的最大生命值提高 {0}。,True,25%,0,,SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanHealthBoostII
+SW.EffectTemplate.HealthBoost.III,体格,3,护符词条,玩家的最大生命值提高 35%。,35%,玩家的最大生命值提高 {0}。,True,35%,0,,SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanHealthBoostIII
+SW.EffectTemplate.Plummeting.I,跳跃者,1,护符词条,跳跃近战攻击造成的伤害提高 10%。,10%,跳跃近战攻击造成的伤害提高 {0}。,True,10%,0,,SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_TalismanEffectTemplateDefinition.json#TalismanPlummetingI
+SW.EffectTemplate.Plummeting.II,跳跃者,2,护符词条,跳跃近战攻击造成的伤害提高 20%。,20%,跳跃近战攻击造成的伤害提高 {0}。,True,20%,0,,SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanPlummetingII
+SW.EffectTemplate.Plummeting.III,跳跃者,3,护符词条,跳跃近战攻击造成的伤害提高 35%。,35%,跳跃近战攻击造成的伤害提高 {0}。,True,35%,0,,SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanPlummetingIII
+SW.EffectTemplate.Brawling.I,锋利,1,护符词条,近战攻击造成的伤害提高 10%。,10%,近战攻击造成的伤害提高 {0}。,True,10%,0,,SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_TalismanEffectTemplateDefinition.json#TalismanBrawlingI
+SW.EffectTemplate.Brawling.II,锋利,2,护符词条,近战攻击造成的伤害提高 20%。,20%,近战攻击造成的伤害提高 {0}。,True,20%,0,,SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanBrawlingII
+SW.EffectTemplate.Brawling.III,锋利,3,护符词条,近战攻击造成的伤害提高 35%。,35%,近战攻击造成的伤害提高 {0}。,True,35%,0,,SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanBrawlingIII
+SW.EffectTemplate.SoulGather.I,SoulGather_TalismanEffect,1,护符词条,获得的灵魂增加 40%。,40%,获得的灵魂增加 {0}。,True,40%,0,,SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_TalismanEffectTemplateDefinition.json#TalismanSoulGatherI
+SW.EffectTemplate.SoulGather.II,SoulGather_TalismanEffect,2,护符词条,获得的灵魂增加 80%。,80%,获得的灵魂增加 {0}。,True,80%,0,,SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanSoulGatherII
+SW.EffectTemplate.SoulGather.III,SoulGather_TalismanEffect,3,护符词条,获得的灵魂增加 140%。,140%,获得的灵魂增加 {0}。,True,140%,0,,SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanSoulGatherIII
+SW.EffectTemplate.PotionCooldown.I,药剂师,1,护符词条,药水冷却时间缩短 10%。,10%,药水冷却时间缩短 {0}。,True,10%,0,,SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_TalismanEffectTemplateDefinition.json#TalismanPotionCooldownI
+SW.EffectTemplate.PotionCooldown.II,药剂师,2,护符词条,药水冷却时间缩短 15%。,15%,药水冷却时间缩短 {0}。,True,15%,0,,SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanPotionCooldownII
+SW.EffectTemplate.PotionCooldown.III,药剂师,3,护符词条,药水冷却时间缩短 25%。,25%,药水冷却时间缩短 {0}。,True,25%,0,,SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanPotionCooldownIII
+SW.EffectTemplate.Healing.I,生命回复,1,护符词条,脱离战斗 5 秒后，每秒恢复 2% 生命值。,2%,脱离战斗 5 秒后，每秒恢复 {0} 生命值。,True,2%,0,,SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_TalismanEffectTemplateDefinition.json#TalismanHeardbudI
+SW.EffectTemplate.Healing.II,生命回复,2,护符词条,脱离战斗 5 秒后，每秒恢复 6% 生命值。,6%,脱离战斗 5 秒后，每秒恢复 {0} 生命值。,True,6%,0,,SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanHeartbudII
+SW.EffectTemplate.Healing.III,生命回复,3,护符词条,脱离战斗 5 秒后，每秒恢复 10% 生命值。,10%,脱离战斗 5 秒后，每秒恢复 {0} 生命值。,True,10%,0,,SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanHeartbudIII
+SW.EffectTemplate.DoubleDrop.I,搜刮者,1,护符词条,有 2% 的几率掉落额外的战利品。,2%,有 {0} 的几率掉落额外的战利品。,True,2%,0,,SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_TalismanEffectTemplateDefinition.json#TalismanDoubleDropI
+SW.EffectTemplate.DoubleDrop.II,搜刮者,2,护符词条,有 4% 的几率掉落额外的战利品。,4%,有 {0} 的几率掉落额外的战利品。,True,4%,0,,SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanDoubleDropII
+SW.EffectTemplate.DoubleDrop.III,搜刮者,3,护符词条,有 7% 的几率掉落额外的战利品。,7%,有 {0} 的几率掉落额外的战利品。,True,7%,0,,SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanDoubleDropIII
+SW.EffectTemplate.EmeraldIncrease.I,探勘者,1,护符词条,有 10% 的几率获得额外的绿宝石。,10%,有 {0} 的几率获得额外的绿宝石。,True,10%,0,,SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_TalismanEffectTemplateDefinition.json#TalismanEmeraldIncreaseI
+SW.EffectTemplate.EmeraldIncrease.II,探勘者,2,护符词条,有 20% 的几率获得额外的绿宝石。,20%,有 {0} 的几率获得额外的绿宝石。,True,20%,0,,SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanEmeraldIncreaseII
+SW.EffectTemplate.EmeraldIncrease.III,探勘者,3,护符词条,有 25% 的几率获得额外的绿宝石。,25%,有 {0} 的几率获得额外的绿宝石。,True,25%,0,,SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanEmeraldIncreaseIII
+SW.EffectTemplate.DropChance.I,DropChance_TalismanEffect,1,护符词条,击败敌人时掉落战利品的几率提高 1%。,1%,击败敌人时掉落战利品的几率提高 {0}。,True,1%,0,,SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_TalismanEffectTemplateDefinition.json#TalismanDropChanceI
+SW.EffectTemplate.DropChance.II,DropChance_TalismanEffect,2,护符词条,击败敌人时掉落战利品的几率提高 2%。,2%,击败敌人时掉落战利品的几率提高 {0}。,True,2%,0,,SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanDropChanceII
+SW.EffectTemplate.DropChance.III,DropChance_TalismanEffect,3,护符词条,击败敌人时掉落战利品的几率提高 4%。,4%,击败敌人时掉落战利品的几率提高 {0}。,True,4%,0,,SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanDropChanceIII
+SW.EffectTemplate.ArtifactCooldown.I,冷却时间,1,护符词条,法器冷却时间缩短 4%。,4%,法器冷却时间缩短 {0}。,True,4%,0,,SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_TalismanEffectTemplateDefinition.json#TalismanArtifactCooldownI
+SW.EffectTemplate.ArtifactCooldown.II,冷却时间,2,护符词条,法器冷却时间缩短 8%。,8%,法器冷却时间缩短 {0}。,True,8%,0,,SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanArtifactCooldownII
+SW.EffectTemplate.ArtifactCooldown.III,冷却时间,3,护符词条,法器冷却时间缩短 14%。,14%,法器冷却时间缩短 {0}。,True,14%,0,,SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanArtifactCooldownIII
+SW.EffectTemplate.RollingCooldown.I,特技,1,护符词条,翻滚的冷却时间缩短 20%。,20%,翻滚的冷却时间缩短 {0}。,True,20%,0,,SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_TalismanEffectTemplateDefinition.json#TalismanRollingCooldown.I
+SW.EffectTemplate.RollingCooldown.II,特技,2,护符词条,翻滚的冷却时间缩短 25%。,25%,翻滚的冷却时间缩短 {0}。,True,25%,0,,SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanRollingCooldown.II
+SW.EffectTemplate.RollingCooldown.III,特技,3,护符词条,翻滚的冷却时间缩短 45%。,45%,翻滚的冷却时间缩短 {0}。,True,45%,0,,SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanRollingCooldown.III
+SW.EffectTemplate.SoulCapacity.I,灵性,1,护符词条,灵魂容量提高 15%。,15%,灵魂容量提高 {0}。,True,15%,0,,SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_TalismanEffectTemplateDefinition.json#TalismanSoulCapacityI
+SW.EffectTemplate.SoulCapacity.II,灵性,2,护符词条,灵魂容量提高 20%。,20%,灵魂容量提高 {0}。,True,20%,0,,SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanSoulCapacityII
+SW.EffectTemplate.SoulCapacity.III,灵性,3,护符词条,灵魂容量提高 35%。,35%,灵魂容量提高 {0}。,True,35%,0,,SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanSoulCapacityIII
+SW.EffectTemplate.AmmoCapacity.I,箭袋,1,护符词条,箭矢携带量增加 20%。,20%,箭矢携带量增加 {0}。,True,20%,0, NONE( SW.Item.Artifact.Quiver ),SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_TalismanEffectTemplateDefinition.json#TalismanAmmoCapacityI
+SW.EffectTemplate.AmmoCapacity.II,箭袋,2,护符词条,箭矢携带量增加 40%。,40%,箭矢携带量增加 {0}。,True,40%,0, NONE( SW.Item.Artifact.Quiver ),SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanAmmoCapacityII
+SW.EffectTemplate.AmmoCapacity.III,箭袋,3,护符词条,箭矢携带量增加 60%。,60%,箭矢携带量增加 {0}。,True,60%,0, NONE( SW.Item.Artifact.Quiver ),SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanAmmoCapacityIII
+SW.EffectTemplate.StatusBuff.I,强化,1,护符词条,使施加于自身的正面状态持续时间延长 10%。,10%,使施加于自身的正面状态持续时间延长 {0}。,True,10%,0,,SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_TalismanEffectTemplateDefinition.json#TalismanStatusBuffI
+SW.EffectTemplate.StatusBuff.II,强化,2,护符词条,使施加于自身的正面状态持续时间延长 15%。,15%,使施加于自身的正面状态持续时间延长 {0}。,True,15%,0,,SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanStatusBuffII
+SW.EffectTemplate.StatusBuff.III,强化,3,护符词条,使施加于自身的正面状态持续时间延长 25%。,25%,使施加于自身的正面状态持续时间延长 {0}。,True,25%,0,,SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanStatusBuffIII
+SW.EffectTemplate.ExperienceIncrease.I,天才,1,护符词条,获得的经验值提高 4%。,4%,获得的经验值提高 {0}。,True,4%,0,,SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_TalismanEffectTemplateDefinition.json#TalismanExperienceIncreaseI
+SW.EffectTemplate.ExperienceIncrease.II,天才,2,护符词条,获得的经验值提高 6%。,6%,获得的经验值提高 {0}。,True,6%,0,,SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanExperienceIncreaseII
+SW.EffectTemplate.ExperienceIncrease.III,天才,3,护符词条,获得的经验值提高 10%。,10%,获得的经验值提高 {0}。,True,10%,0,,SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanExperienceIncreaseIII
+SW.EffectTemplate.HealthyStrike.I,活力打击,1,护符词条,生命值高于 95% 时，伤害提高 10%。,95% / 10%,生命值高于 {1} 时，伤害提高 {0}。,True,100%,0,,SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_TalismanEffectTemplateDefinition.json#TalismanHealthyStrikeI
+SW.EffectTemplate.HealthyStrike.II,活力打击,2,护符词条,生命值高于 85% 时，伤害提高 20%。,85% / 20%,生命值高于 {1} 时，伤害提高 {0}。,True,200%,0,,SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanHealthyStrikeII
+SW.EffectTemplate.HealthyStrike.III,活力打击,3,护符词条,生命值高于 75% 时，伤害提高 40%。,75% / 40%,生命值高于 {1} 时，伤害提高 {0}。,True,300%,0,,SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanHealthyStrikeIII
+SW.EffectTemplate.SpeedIncrement.I,速度提升,1,护符词条,移动超过 3 秒后，移动速度提高 10%。,3 / 10%,移动超过 {1} 秒后，移动速度提高 {0}。,True,100%,0,,SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_TalismanEffectTemplateDefinition.json#TalismanSpeedIncrementI
+SW.EffectTemplate.SpeedIncrement.II,速度提升,2,护符词条,移动超过 3 秒后，移动速度提高 20%。,3 / 20%,移动超过 {1} 秒后，移动速度提高 {0}。,True,200%,0,,SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanSpeedIncrementII
+SW.EffectTemplate.SpeedIncrement.III,速度提升,3,护符词条,移动超过 3 秒后，移动速度提高 30%。,3 / 30%,移动超过 {1} 秒后，移动速度提高 {0}。,True,300%,0,,SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanSpeedIncrementIII
+SW.EffectTemplate.FiringEmerald.I,炫富投掷器,1,护符词条,根据持有的绿宝石数量，最多提供 25% 伤害加成，生效上限为 7000 颗绿宝石。,25% / 7000,根据持有的绿宝石数量，最多提供 {0} 伤害加成，生效上限为 {1} 颗绿宝石。,True,0%,0,,SW.Rarity.Common；SW.Rarity.Rare；SW.Rarity.Special；SW.Rarity.Unique,DT_TalismanEffectTemplateDefinition.json#TalismanFiringEmeraldI
+SW.EffectTemplate.FiringEmerald.II,炫富投掷器,2,护符词条,根据持有的绿宝石数量，最多提供 40% 伤害加成，生效上限为 8000 颗绿宝石。,40% / 8000,根据持有的绿宝石数量，最多提供 {0} 伤害加成，生效上限为 {1} 颗绿宝石。,True,75%,0,,SW.Rarity.Special；SW.Rarity.Rare；SW.Rarity.Unique；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanFiringEmeraldII
+SW.EffectTemplate.FiringEmerald.III,炫富投掷器,3,护符词条,根据持有的绿宝石数量，最多提供 50% 伤害加成，生效上限为 9000 颗绿宝石。,50% / 9000,根据持有的绿宝石数量，最多提供 {0} 伤害加成，生效上限为 {1} 颗绿宝石。,True,100%,0,,SW.Rarity.Special；SW.Rarity.Unique；SW.Rarity.Rare；SW.Rarity.Common,DT_TalismanEffectTemplateDefinition.json#TalismanFiringEmeraldIII
+SW.Enchantment.PoisonFog.I,毒雾,1,附魔,"冲击波会造成 10% 的武器伤害，并使生物中毒一段时间。
+跳跃攻击和终结攻击会产生剧毒冲击波，对敌人造成伤害并使其中毒一段时间。
+触发冷却配置：0.75 秒。",10%,冲击波会造成 {0} 的武器伤害，并使生物中毒一段时间。,True,100%,0,,,DT_EnchantmentDefinition.json#PoisonFog.I
+SW.Enchantment.PoisonFog.II,毒雾,2,附魔,"冲击波会造成 20% 的武器伤害，并使生物中毒一段时间。
+跳跃攻击和终结攻击会产生剧毒冲击波，对敌人造成伤害并使其中毒一段时间。
+触发冷却配置：0.75 秒。",20%,冲击波会造成 {0} 的武器伤害，并使生物中毒一段时间。,True,100%,0,,,DT_EnchantmentDefinition.json#PoisonFog.II
+SW.Enchantment.PoisonFog.III,毒雾,3,附魔,"冲击波会造成 30% 的武器伤害，并使生物中毒一段时间。
+跳跃攻击和终结攻击会产生剧毒冲击波，对敌人造成伤害并使其中毒一段时间。
+触发冷却配置：0.75 秒。",30%,冲击波会造成 {0} 的武器伤害，并使生物中毒一段时间。,True,100%,0,,,DT_EnchantmentDefinition.json#PoisonFog.III
+SW.Enchantment.FireAspect.I,火焰附加,1,附魔,"冲击波会造成 35% 的武器伤害，并短暂点燃生物。
+跳跃攻击和终结攻击会产生火焰冲击波，对敌人造成伤害并使其短暂点燃。
+触发冷却配置：0.75 秒。",35%,冲击波会造成 {0} 的武器伤害，并短暂点燃生物。,True,100%,0,,,DT_EnchantmentDefinition.json#FireAspect.I
+SW.Enchantment.FireAspect.II,火焰附加,2,附魔,"冲击波会造成 45% 的武器伤害，并短暂点燃生物。
+跳跃攻击和终结攻击会产生火焰冲击波，对敌人造成伤害并使其短暂点燃。
+触发冷却配置：0.75 秒。",45%,冲击波会造成 {0} 的武器伤害，并短暂点燃生物。,True,100%,0,,,DT_EnchantmentDefinition.json#FireAspect.II
+SW.Enchantment.FireAspect.III,火焰附加,3,附魔,"冲击波会造成 50% 的武器伤害，并短暂点燃生物。
+跳跃攻击和终结攻击会产生火焰冲击波，对敌人造成伤害并使其短暂点燃。
+触发冷却配置：0.75 秒。",50%,冲击波会造成 {0} 的武器伤害，并短暂点燃生物。,True,100%,0,,,DT_EnchantmentDefinition.json#FireAspect.III
+SW.Enchantment.FlameBelch.Unique,火焰附加,独特,附魔,"冲击波会造成 80% 的武器伤害，并短暂点燃生物。
+跳跃攻击和终结攻击会产生火焰冲击波，对敌人造成伤害并使其短暂点燃。
+触发冷却配置：0.75 秒。",80%,冲击波会造成 {0} 的武器伤害，并短暂点燃生物。,True,100%,0,,,DT_EnchantmentDefinition.json#FlameBelch.Unique
+SW.Enchantment.MultiRoll.I,空翻,1,附魔,"获得 1 次额外翻滚。
+获得连续翻滚的能力。",1,获得 {0} 次额外翻滚。,True,1,0,,,DT_EnchantmentDefinition.json#MultiRoll.I
+SW.Enchantment.MultiRoll.II,空翻,2,附魔,"获得 2 次额外翻滚。
+获得连续翻滚的能力。",2,获得 {0} 次额外翻滚。,True,2,0,,,DT_EnchantmentDefinition.json#MultiRoll.II
+SW.Enchantment.MultiRoll.III,空翻,3,附魔,"获得 3 次额外翻滚。
+获得连续翻滚的能力。",3,获得 {0} 次额外翻滚。,True,3,0,,,DT_EnchantmentDefinition.json#MultiRoll.III
+SW.Enchantment.Shockwave.I,震荡波,1,附魔,"震荡波会造成 20% 的武器伤害，并使击退效果提高 125%。
+跳跃攻击和终结攻击会产生震荡波，对敌人造成伤害并将其击退。
+触发冷却配置：0.75 秒。",20% / 125%,震荡波会造成 {0} 的武器伤害，并使击退效果提高 {1}。,True,100%,0,,,DT_EnchantmentDefinition.json#Shockwave.I
+SW.Enchantment.Shockwave.II,震荡波,2,附魔,"震荡波会造成 35% 的武器伤害，并使击退效果提高 150%。
+跳跃攻击和终结攻击会产生震荡波，对敌人造成伤害并将其击退。
+触发冷却配置：0.75 秒。",35% / 150%,震荡波会造成 {0} 的武器伤害，并使击退效果提高 {1}。,True,100%,0,,,DT_EnchantmentDefinition.json#Shockwave.II
+SW.Enchantment.Shockwave.III,震荡波,3,附魔,"震荡波会造成 50% 的武器伤害，并使击退效果提高 175%。
+跳跃攻击和终结攻击会产生震荡波，对敌人造成伤害并将其击退。
+触发冷却配置：0.75 秒。",50% / 175%,震荡波会造成 {0} 的武器伤害，并使击退效果提高 {1}。,True,100%,0,,,DT_EnchantmentDefinition.json#Shockwave.III
+SW.Enchantment.Shockwave.Unique,震荡波,独特,附魔,"震荡波会造成 20% 的武器伤害，并使击退效果提高 200%。
+跳跃攻击和终结攻击会产生震荡波，对敌人造成伤害并将其击退。
+触发冷却配置：0.75 秒。",20% / 200%,震荡波会造成 {0} 的武器伤害，并使击退效果提高 {1}。,True,100%,0,,,DT_EnchantmentDefinition.json#Shockwave.Unique
+SW.Enchantment.FrostCrescent.I,寒霜斩,1,附魔,"冲击波会造成 10% 的武器伤害，并短暂冻结生物，使其攻击速度和移动速度降低。
+跳跃攻击和终结攻击会产生冰霜冲击波，对敌人造成伤害并使其短暂冻结，降低其攻击速度和移动速度。
+触发冷却配置：0.75 秒。",10%,冲击波会造成 {0} 的武器伤害，并短暂冻结生物，使其攻击速度和移动速度降低。,True,100%,0,,,DT_EnchantmentDefinition.json#FrostCrescent.I
+SW.Enchantment.FrostCrescent.II,寒霜斩,2,附魔,"冲击波会造成 15% 的武器伤害，并短暂冻结生物，使其攻击速度和移动速度降低。
+跳跃攻击和终结攻击会产生冰霜冲击波，对敌人造成伤害并使其短暂冻结，降低其攻击速度和移动速度。
+触发冷却配置：0.75 秒。",15%,冲击波会造成 {0} 的武器伤害，并短暂冻结生物，使其攻击速度和移动速度降低。,True,200%,0,,,DT_EnchantmentDefinition.json#FrostCrescent.II
+SW.Enchantment.FrostCrescent.III,寒霜斩,3,附魔,"冲击波会造成 20% 的武器伤害，并短暂冻结生物，使其攻击速度和移动速度降低。
+跳跃攻击和终结攻击会产生冰霜冲击波，对敌人造成伤害并使其短暂冻结，降低其攻击速度和移动速度。
+触发冷却配置：0.75 秒。",20%,冲击波会造成 {0} 的武器伤害，并短暂冻结生物，使其攻击速度和移动速度降低。,True,300%,0,,,DT_EnchantmentDefinition.json#FrostCrescent.III
+SW.Enchantment.Channeling.I,闪电涌动,1,附魔,"冲击波会造成 60% 的武器伤害，同时短暂电击生物，使其变弱但速度变快。
+跳跃攻击和终结攻击会产生闪电冲击波，对敌人造成伤害和短暂电击，使其变弱但速度变快。
+触发冷却配置：0.75 秒。",60%,冲击波会造成 {0} 的武器伤害，同时短暂电击生物，使其变弱但速度变快。,True,100%,0,,,DT_EnchantmentDefinition.json#Channeling.I
+SW.Enchantment.Channeling.II,闪电涌动,2,附魔,"冲击波会造成 75% 的武器伤害，同时短暂电击生物，使其变弱但速度变快。
+跳跃攻击和终结攻击会产生闪电冲击波，对敌人造成伤害和短暂电击，使其变弱但速度变快。
+触发冷却配置：0.75 秒。",75%,冲击波会造成 {0} 的武器伤害，同时短暂电击生物，使其变弱但速度变快。,True,200%,0,,,DT_EnchantmentDefinition.json#Channeling.II
+SW.Enchantment.Channeling.III,闪电涌动,3,附魔,"冲击波会造成 90% 的武器伤害，同时短暂电击生物，使其变弱但速度变快。
+跳跃攻击和终结攻击会产生闪电冲击波，对敌人造成伤害和短暂电击，使其变弱但速度变快。
+触发冷却配置：0.75 秒。",90%,冲击波会造成 {0} 的武器伤害，同时短暂电击生物，使其变弱但速度变快。,True,300%,0,,,DT_EnchantmentDefinition.json#Channeling.III
+SW.Enchantment.SoulFireAspect.I,灵魂冲击,1,附魔,"冲击波会造成 50% 的武器伤害，并持续造成额外灵魂伤害。
+跳跃攻击和终结攻击会产生灵魂冲击波，对敌人造成伤害并持续附加灵魂伤害。
+触发冷却配置：0.75 秒。",50%,冲击波会造成 {0} 的武器伤害，并持续造成额外灵魂伤害。,True,100%,0,,,DT_EnchantmentDefinition.json#SoulFireASpect.I
+SW.Enchantment.SoulFireAspect.II,灵魂冲击,2,附魔,"冲击波会造成 60% 的武器伤害，并持续造成额外灵魂伤害。
+跳跃攻击和终结攻击会产生灵魂冲击波，对敌人造成伤害并持续附加灵魂伤害。
+触发冷却配置：0.75 秒。",60%,冲击波会造成 {0} 的武器伤害，并持续造成额外灵魂伤害。,True,200%,0,,,DT_EnchantmentDefinition.json#SoulFireASpect.II
+SW.Enchantment.SoulFireAspect.III,灵魂冲击,3,附魔,"冲击波会造成 75% 的武器伤害，并持续造成额外灵魂伤害。
+跳跃攻击和终结攻击会产生灵魂冲击波，对敌人造成伤害并持续附加灵魂伤害。
+触发冷却配置：0.75 秒。",75%,冲击波会造成 {0} 的武器伤害，并持续造成额外灵魂伤害。,True,300%,0,,,DT_EnchantmentDefinition.json#SoulFireASpect.III
+SW.Enchantment.TempoTheft.I,速度窃取,1,附魔,"击败敌人时，有 30% 几率提高移动速度。
+击败敌人时有几率获得“疾行”状态，短暂提高移动速度。",30%,击败敌人时，有 {0} 几率提高移动速度。,True,30%,0,,,DT_EnchantmentDefinition.json#TempoTheft.I
+SW.Enchantment.TempoTheft.II,速度窃取,2,附魔,"击败敌人时，有 40% 几率提高移动速度。
+击败敌人时有几率获得“疾行”状态，短暂提高移动速度。",40%,击败敌人时，有 {0} 几率提高移动速度。,True,40%,0,,,DT_EnchantmentDefinition.json#TempoTheft.II
+SW.Enchantment.TempoTheft.III,速度窃取,3,附魔,"击败敌人时，有 50% 几率提高移动速度。
+击败敌人时有几率获得“疾行”状态，短暂提高移动速度。",50%,击败敌人时，有 {0} 几率提高移动速度。,True,50%,0,,,DT_EnchantmentDefinition.json#TempoTheft.III
+SW.Enchantment.Radiance.I,治疗重击,1,附魔,"击败敌人时，有 20% 几率为盟友生成回复之泉。
+击败敌人时有几率生成泉水，使盟友获得“回复”状态，恢复其生命值。",20%,击败敌人时，有 {0} 几率为盟友生成回复之泉。,True,30%,0,,,DT_EnchantmentDefinition.json#Radiance.I
+SW.Enchantment.Radiance.II,治疗重击,2,附魔,"击败敌人时，有 35% 几率为盟友生成回复之泉。
+击败敌人时有几率生成泉水，使盟友获得“回复”状态，恢复其生命值。",35%,击败敌人时，有 {0} 几率为盟友生成回复之泉。,True,40%,0,,,DT_EnchantmentDefinition.json#Radiance.II
+SW.Enchantment.Radiance.III,治疗重击,3,附魔,"击败敌人时，有 50% 几率为盟友生成回复之泉。
+击败敌人时有几率生成泉水，使盟友获得“回复”状态，恢复其生命值。",50%,击败敌人时，有 {0} 几率为盟友生成回复之泉。,True,50%,0,,,DT_EnchantmentDefinition.json#Radiance.III
+SW.Enchantment.Blowback,坠落冲击,,附魔,"跳跃攻击落地时额外造成 5% 伤害，并使击退效果提高 125%。
+跳跃攻击会造成冲击，对附近敌人造成额外伤害和击退效果。",5% / 125%,跳跃攻击落地时额外造成 {0} 伤害，并使击退效果提高 {1}。,True,0%,0,,,DT_EnchantmentDefinition.json#Blowback
+SW.Enchantment.Blowback.I,坠落冲击,1,附魔,"跳跃攻击落地时额外造成 5% 伤害，并使击退效果提高 125%。
+跳跃攻击会造成冲击，对附近敌人造成额外伤害和击退效果。",5% / 125%,跳跃攻击落地时额外造成 {0} 伤害，并使击退效果提高 {1}。,False,继承基础附魔,0,,,DT_EnchantmentDefinition.json#Blowback.I
+SW.Enchantment.Blowback.II,坠落冲击,2,附魔,"跳跃攻击落地时额外造成 5% 伤害，并使击退效果提高 175%。
+跳跃攻击会造成冲击，对附近敌人造成额外伤害和击退效果。",5% / 175%,跳跃攻击落地时额外造成 {0} 伤害，并使击退效果提高 {1}。,False,继承基础附魔,0,,,DT_EnchantmentDefinition.json#Blowback.II
+SW.Enchantment.Blowback.III,坠落冲击,3,附魔,"跳跃攻击落地时额外造成 5% 伤害，并使击退效果提高 200%。
+跳跃攻击会造成冲击，对附近敌人造成额外伤害和击退效果。",5% / 200%,跳跃攻击落地时额外造成 {0} 伤害，并使击退效果提高 {1}。,False,继承基础附魔,0,,,DT_EnchantmentDefinition.json#Blowback.III
+SW.Enchantment.ShadowStrike,暗影潜行,,附魔,"击败敌人时，有 15% 几率进入“暗影潜行”状态。
+击败敌人时有几率进入“暗影潜行”状态，使你对敌人隐身。",15%,击败敌人时，有 {0} 几率进入“暗影潜行”状态。,True,15%,0,,,DT_EnchantmentDefinition.json#ShadowStrike
+SW.Enchantment.ShadowStrike.I,暗影潜行,1,附魔,"击败敌人时，有 15% 几率进入“暗影潜行”状态。
+击败敌人时有几率进入“暗影潜行”状态，使你对敌人隐身。",15%,击败敌人时，有 {0} 几率进入“暗影潜行”状态。,True,15%,0,,,DT_EnchantmentDefinition.json#ShadowStrike.I
+SW.Enchantment.ShadowStrike.II,暗影潜行,2,附魔,"击败敌人时，有 20% 几率进入“暗影潜行”状态。
+击败敌人时有几率进入“暗影潜行”状态，使你对敌人隐身。",20%,击败敌人时，有 {0} 几率进入“暗影潜行”状态。,True,20%,0,,,DT_EnchantmentDefinition.json#ShadowStrike.II
+SW.Enchantment.ShadowStrike.III,暗影潜行,3,附魔,"击败敌人时，有 35% 几率进入“暗影潜行”状态。
+击败敌人时有几率进入“暗影潜行”状态，使你对敌人隐身。",35%,击败敌人时，有 {0} 几率进入“暗影潜行”状态。,True,35%,0,,,DT_EnchantmentDefinition.json#ShadowStrike.III
+SW.Enchantment.ClawingShadow.Unique,暗影之爪,独特,附魔,"攻击敌人时有 8% 几率进入“暗影潜行”状态。
+附魔：能在攻击时进入暗影潜行状态。
+触发冷却配置：2 秒。",8%,攻击敌人时有 {0} 几率进入“暗影潜行”状态。,True,8%,0,,,DT_EnchantmentDefinition.json#ClawingShadow.Unique
+SW.Enchantment.Swirling,旋风攻击,,附魔,"旋风会对附近的敌人额外造成 50% 的武器伤害。
+武器攻击会释放旋风，对附近的敌人造成额外伤害。
+触发冷却配置：0.75 秒。",50%,旋风会对附近的敌人额外造成 {0} 的武器伤害。,True,100%,0,,,DT_EnchantmentDefinition.json#Swirling
+SW.Enchantment.Swirling.I,旋风攻击,1,附魔,"旋风会对附近的敌人额外造成 50% 的武器伤害。
+武器攻击会释放旋风，对附近的敌人造成额外伤害。
+触发冷却配置：0.75 秒。",50%,旋风会对附近的敌人额外造成 {0} 的武器伤害。,True,50%,0,,,DT_EnchantmentDefinition.json#Swirling.I
+SW.Enchantment.Swirling.II,旋风攻击,2,附魔,"旋风会对附近的敌人额外造成 75% 的武器伤害。
+武器攻击会释放旋风，对附近的敌人造成额外伤害。
+触发冷却配置：0.75 秒。",75%,旋风会对附近的敌人额外造成 {0} 的武器伤害。,True,75%,0,,,DT_EnchantmentDefinition.json#Swirling.II
+SW.Enchantment.Swirling.III,旋风攻击,3,附魔,"旋风会对附近的敌人额外造成 100% 的武器伤害。
+武器攻击会释放旋风，对附近的敌人造成额外伤害。
+触发冷却配置：0.75 秒。",100%,旋风会对附近的敌人额外造成 {0} 的武器伤害。,True,100%,0,,,DT_EnchantmentDefinition.json#Swirling.III
+SW.Enchantment.Swirling.Unique,龙卷风,独特,附魔,"每次攻击时，旋风攻击会造成 60% 近战武器伤害。
+一种附魔，能让你施展强力旋转攻击且不会眩晕。",60%,旋风会对附近的敌人额外造成 {0} 的武器伤害。,True,100%,0,,,DT_EnchantmentDefinition.json#Swirling.Unique
+SW.Enchantment.PotionSharing.I,伙伴药剂,1,附魔,"使用药水会为盟友生成回复之泉，持续 2 秒。
+使用生命药水会生成泉水，使你和盟友获得“回复”状态，恢复你们的生命值。即使满血也可以使用药水。",2,使用药水会为盟友生成回复之泉，持续 {0} 秒。,True,2,0,,,DT_EnchantmentDefinition.json#PotionSharing.I
+SW.Enchantment.PotionSharing.II,伙伴药剂,2,附魔,"使用药水会为盟友生成回复之泉，持续 4 秒。
+使用生命药水会生成泉水，使你和盟友获得“回复”状态，恢复你们的生命值。即使满血也可以使用药水。",4,使用药水会为盟友生成回复之泉，持续 {0} 秒。,True,4,0,,,DT_EnchantmentDefinition.json#PotionSharing.II
+SW.Enchantment.PotionSharing.III,伙伴药剂,3,附魔,"使用药水会为盟友生成回复之泉，持续 6 秒。
+使用生命药水会生成泉水，使你和盟友获得“回复”状态，恢复你们的生命值。即使满血也可以使用药水。",6,使用药水会为盟友生成回复之泉，持续 {0} 秒。,True,6,0,,,DT_EnchantmentDefinition.json#PotionSharing.III
+SW.Enchantment.PotionBarrier.I,屏障药剂,1,附魔,"使用药水会为盟友生成强固之泉，持续 2 秒。
+使用生命药水会生成泉水，使你和盟友获得“强固”状态，以抵御敌人攻击。即使满血也可以使用药水。",2,使用药水会为盟友生成强固之泉，持续 {0} 秒。,True,2,0,,,DT_EnchantmentDefinition.json#PotionBarrier.I
+SW.Enchantment.PotionBarrier.II,屏障药剂,2,附魔,"使用药水会为盟友生成强固之泉，持续 4 秒。
+使用生命药水会生成泉水，使你和盟友获得“强固”状态，以抵御敌人攻击。即使满血也可以使用药水。",4,使用药水会为盟友生成强固之泉，持续 {0} 秒。,True,4,0,,,DT_EnchantmentDefinition.json#PotionBarrier.II
+SW.Enchantment.PotionBarrier.III,屏障药剂,3,附魔,"使用药水会为盟友生成强固之泉，持续 6 秒。
+使用生命药水会生成泉水，使你和盟友获得“强固”状态，以抵御敌人攻击。即使满血也可以使用药水。",6,使用药水会为盟友生成强固之泉，持续 {0} 秒。,True,6,0,,,DT_EnchantmentDefinition.json#PotionBarrier.III
+SW.Enchantment.Unstoppable.I,疯牛冲锋,1,附魔,"冲撞敌人会对其造成伤害和击退效果。
+全速冲刺一小段时间后，冲撞敌人会对其造成伤害和击退效果。",,冲撞敌人会对其造成伤害和击退效果。,True,100%,0,,,DT_EnchantmentDefinition.json#Unstoppable.I
+SW.Enchantment.Unstoppable.II,疯牛冲锋,2,附魔,"冲撞敌人会对其造成伤害和击退效果。
+全速冲刺一小段时间后，冲撞敌人会对其造成伤害和击退效果。",,冲撞敌人会对其造成伤害和击退效果。,True,115%,0,,,DT_EnchantmentDefinition.json#Unstoppable.II
+SW.Enchantment.Unstoppable.III,疯牛冲锋,3,附魔,"冲撞敌人会对其造成伤害和击退效果。
+全速冲刺一小段时间后，冲撞敌人会对其造成伤害和击退效果。",,冲撞敌人会对其造成伤害和击退效果。,True,130%,0,,,DT_EnchantmentDefinition.json#Unstoppable.III
+SW.Enchantment.Unstoppable.Unique,疯牛冲锋,独特,附魔,"冲撞敌人会对其造成伤害和击退效果。
+全速冲刺一小段时间后，冲撞敌人会对其造成伤害和击退效果。",,冲撞敌人会对其造成伤害和击退效果。,True,150%,0,,,DT_EnchantmentDefinition.json#Unstoppable.Unique
+SW.Enchantment.Borealis,末影地雷,,附魔,"武器攻击会部署 2 枚地雷，在敌人接近时或一小段时间后爆炸。
+武器攻击会部署末地水晶，在敌人接近时或一小段时间后爆炸。
+触发冷却配置：0.75 秒。",2,武器攻击会部署 {0} 枚地雷，在敌人接近时或一小段时间后爆炸。,True,1,0,,,DT_EnchantmentDefinition.json#Borealis
+SW.Enchantment.Borealis.I,末影地雷,1,附魔,"武器攻击会部署 2 枚地雷，在敌人接近时或一小段时间后爆炸。
+武器攻击会部署末地水晶，在敌人接近时或一小段时间后爆炸。
+触发冷却配置：0.75 秒。",2,武器攻击会部署 {0} 枚地雷，在敌人接近时或一小段时间后爆炸。,False,继承基础附魔,0,,,DT_EnchantmentDefinition.json#Borealis.I
+SW.Enchantment.Borealis.II,末影地雷,2,附魔,"武器攻击会部署 3 枚地雷，在敌人接近时或一小段时间后爆炸。
+武器攻击会部署末地水晶，在敌人接近时或一小段时间后爆炸。
+触发冷却配置：0.75 秒。",3,武器攻击会部署 {0} 枚地雷，在敌人接近时或一小段时间后爆炸。,False,继承基础附魔,0,,,DT_EnchantmentDefinition.json#Borealis.II
+SW.Enchantment.Borealis.III,末影地雷,3,附魔,"武器攻击会部署 4 枚地雷，在敌人接近时或一小段时间后爆炸。
+武器攻击会部署末地水晶，在敌人接近时或一小段时间后爆炸。
+触发冷却配置：0.75 秒。",4,武器攻击会部署 {0} 枚地雷，在敌人接近时或一小段时间后爆炸。,False,继承基础附魔,0,,,DT_EnchantmentDefinition.json#Borealis.III
+SW.Enchantment.Arcane.I,法器增幅器,1,附魔,"使用法器时会缩短法器冷却时间并提高法器伤害，持续 6 秒。
+使用法器时会获得“驭器”状态，缩短法器冷却时间，同时提高法器伤害和灵魂收集量。",6,使用法器时会缩短法器冷却时间并提高法器伤害，持续 {0} 秒。,True,6,0,,,DT_EnchantmentDefinition.json#Arcane.I
+SW.Enchantment.Arcane.II,法器增幅器,2,附魔,"使用法器时会缩短法器冷却时间并提高法器伤害，持续 7.5 秒。
+使用法器时会获得“驭器”状态，缩短法器冷却时间，同时提高法器伤害和灵魂收集量。",7.5,使用法器时会缩短法器冷却时间并提高法器伤害，持续 {0} 秒。,True,7.5,0,,,DT_EnchantmentDefinition.json#Arcane.II
+SW.Enchantment.Arcane.III,法器增幅器,3,附魔,"使用法器时会缩短法器冷却时间并提高法器伤害，持续 9 秒。
+使用法器时会获得“驭器”状态，缩短法器冷却时间，同时提高法器伤害和灵魂收集量。",9,使用法器时会缩短法器冷却时间并提高法器伤害，持续 {0} 秒。,True,9,0,,,DT_EnchantmentDefinition.json#Arcane.III
+SW.Enchantment.Thundering.I,引雷,1,附魔,"有 25% 几率使 15% 的武器伤害扩散为闪电伤害。
+攻击有几率将闪电伤害扩散到附近的敌人。",25% / 15%,有 {0} 几率使 {1} 的武器伤害扩散为闪电伤害。,False,0%～50%,0,,,DT_EnchantmentDefinition.json#Thundering.I
+SW.Enchantment.Thundering.II,引雷,2,附魔,"有 33% 几率使 30% 的武器伤害扩散为闪电伤害。
+攻击有几率将闪电伤害扩散到附近的敌人。",33% / 30%,有 {0} 几率使 {1} 的武器伤害扩散为闪电伤害。,False,0%～50%,0,,,DT_EnchantmentDefinition.json#Thundering.II
+SW.Enchantment.Thundering.III,引雷,3,附魔,"有 50% 几率使 50% 的武器伤害扩散为闪电伤害。
+攻击有几率将闪电伤害扩散到附近的敌人。",50%,有 {0} 几率使 {1} 的武器伤害扩散为闪电伤害。,False,0%～50%,0,,,DT_EnchantmentDefinition.json#Thundering.III
+SW.Enchantment.LingeringPower.I,力量增幅器,1,附魔,"使用法器时会使你的下一次近战或远程攻击获得 20% 的伤害增幅。
+使用法器时会使你的下一次近战或远程攻击获得伤害增幅，每次使用后效果会叠加。",20%,使用法器时会使你的下一次近战或远程攻击获得 {0} 的伤害增幅。,False,0%～50%,0,,,DT_EnchantmentDefinition.json#LingeringPower.I
+SW.Enchantment.LingeringPower.II,力量增幅器,2,附魔,"使用法器时会使你的下一次近战或远程攻击获得 30% 的伤害增幅。
+使用法器时会使你的下一次近战或远程攻击获得伤害增幅，每次使用后效果会叠加。",30%,使用法器时会使你的下一次近战或远程攻击获得 {0} 的伤害增幅。,False,0%～50%,0,,,DT_EnchantmentDefinition.json#LingeringPower.II
+SW.Enchantment.LingeringPower.III,力量增幅器,3,附魔,"使用法器时会使你的下一次近战或远程攻击获得 40% 的伤害增幅。
+使用法器时会使你的下一次近战或远程攻击获得伤害增幅，每次使用后效果会叠加。",40%,使用法器时会使你的下一次近战或远程攻击获得 {0} 的伤害增幅。,False,0%～50%,0,,,DT_EnchantmentDefinition.json#LingeringPower.III
+SW.Enchantment.GravityPulse.I,重力脉冲,1,附魔,"使用法器时会将 4 格内的所有敌人拉向你。
+使用法器时会将附近的所有敌人拉向你。",4,使用法器时会将 {0} 格内的所有敌人拉向你。,True,0,0,,,DT_EnchantmentDefinition.json#GravityPulse.I
+SW.Enchantment.GravityPulse.II,重力脉冲,2,附魔,"使用法器时会将 8 格内的所有敌人拉向你。
+使用法器时会将附近的所有敌人拉向你。",8,使用法器时会将 {0} 格内的所有敌人拉向你。,True,0,0,,,DT_EnchantmentDefinition.json#GravityPulse.II
+SW.Enchantment.GravityPulse.III,重力脉冲,3,附魔,"使用法器时会将 10 格内的所有敌人拉向你。
+使用法器时会将附近的所有敌人拉向你。",10,使用法器时会将 {0} 格内的所有敌人拉向你。,True,0,0,,,DT_EnchantmentDefinition.json#GravityPulse.III
+SW.Enchantment.GravityPulse.Unique,重力强袭,独特,附魔,"攻击有几率将 10 格内的所有敌人拉向你。
+使用法器时会将附近的所有敌人拉向你。",10,使用法器时会将 {0} 格内的所有敌人拉向你。,True,0,0,,,DT_EnchantmentDefinition.json#GravityPulse.Unique
+SW.Enchantment.Dynamo.I,活力,1,附魔,"翻滚会使你的下一次近战或远程攻击获得 20% 伤害增幅。
+翻滚会使你的下一次近战或远程攻击获得伤害增幅，每次使用后效果会叠加。",20%,翻滚会使你的下一次近战或远程攻击获得 {0} 伤害增幅。,True,20%,0,,,DT_EnchantmentDefinition.json#Dynamo.I
+SW.Enchantment.Dynamo.II,活力,2,附魔,"翻滚会使你的下一次近战或远程攻击获得 30% 伤害增幅。
+翻滚会使你的下一次近战或远程攻击获得伤害增幅，每次使用后效果会叠加。",30%,翻滚会使你的下一次近战或远程攻击获得 {0} 伤害增幅。,True,30%,0,,,DT_EnchantmentDefinition.json#Dynamo.II
+SW.Enchantment.Dynamo.III,活力,3,附魔,"翻滚会使你的下一次近战或远程攻击获得 40% 伤害增幅。
+翻滚会使你的下一次近战或远程攻击获得伤害增幅，每次使用后效果会叠加。",40%,翻滚会使你的下一次近战或远程攻击获得 {0} 伤害增幅。,True,40%,0,,,DT_EnchantmentDefinition.json#Dynamo.III
+SW.Enchantment.GuardingStrike.I,防护重击,1,附魔,"击败敌人时，有 10% 几率为盟友生成强固之泉。
+击败敌人时有几率生成泉水，使你和盟友获得“强固”状态，以抵御敌人攻击。",10%,击败敌人时，有 {0} 几率为盟友生成强固之泉。,True,10%,0,,,DT_EnchantmentDefinition.json#GuardingStrikeI
+SW.Enchantment.GuardingStrike.II,防护重击,2,附魔,"击败敌人时，有 20% 几率为盟友生成强固之泉。
+击败敌人时有几率生成泉水，使你和盟友获得“强固”状态，以抵御敌人攻击。",20%,击败敌人时，有 {0} 几率为盟友生成强固之泉。,True,20%,0,,,DT_EnchantmentDefinition.json#GuardingStrikeII
+SW.Enchantment.GuardingStrike.III,防护重击,3,附魔,"击败敌人时，有 40% 几率为盟友生成强固之泉。
+击败敌人时有几率生成泉水，使你和盟友获得“强固”状态，以抵御敌人攻击。",40%,击败敌人时，有 {0} 几率为盟友生成强固之泉。,True,40%,0,,,DT_EnchantmentDefinition.json#GuardingStrikeIII
+SW.Enchantment.GuardingStrike.Unique,防护重击,独特,附魔,"击败敌人时，有 60% 几率为盟友生成强固之泉。
+击败敌人时有几率生成泉水，使你和盟友获得“强固”状态，以抵御敌人攻击。",60%,击败敌人时，有 {0} 几率为盟友生成强固之泉。,True,60%,0,,,DT_EnchantmentDefinition.json#GuardingStrike.Unique
+SW.Enchantment.HealthSynergy.I,生命增效,1,附魔,"使用法器时可恢复最大生命值的 15%。
+使用法器时可恢复生命值。",15%,使用法器时可恢复最大生命值的 {0}。,True,15%,0,,,DT_EnchantmentDefinition.json#HealthSynergy.I
+SW.Enchantment.HealthSynergy.II,生命增效,2,附魔,"使用法器时可恢复最大生命值的 25%。
+使用法器时可恢复生命值。",25%,使用法器时可恢复最大生命值的 {0}。,True,25%,0,,,DT_EnchantmentDefinition.json#HealthSynergy.II
+SW.Enchantment.HealthSynergy.III,生命增效,3,附魔,"使用法器时可恢复最大生命值的 35%。
+使用法器时可恢复生命值。",35%,使用法器时可恢复最大生命值的 {0}。,True,35%,0,,,DT_EnchantmentDefinition.json#HealthSynergy.III
+SW.Enchantment.Springloaded.I,弹簧蓄力,1,附魔,"使用法器时会获得“疾行”状态，提高移动速度，持续 4 秒。
+使用法器时会获得“疾行”状态，提高移动速度。",4,使用法器时会获得“疾行”状态，提高移动速度，持续 {0} 秒。,True,4,0,,,DT_EnchantmentDefinition.json#SpringLoaded.I
+SW.Enchantment.Springloaded.II,弹簧蓄力,2,附魔,"使用法器时会获得“疾行”状态，提高移动速度，持续 5 秒。
+使用法器时会获得“疾行”状态，提高移动速度。",5,使用法器时会获得“疾行”状态，提高移动速度，持续 {0} 秒。,True,5,0,,,DT_EnchantmentDefinition.json#SpringLoaded.II
+SW.Enchantment.Springloaded.III,弹簧蓄力,3,附魔,"使用法器时会获得“疾行”状态，提高移动速度，持续 6 秒。
+使用法器时会获得“疾行”状态，提高移动速度。",6,使用法器时会获得“疾行”状态，提高移动速度，持续 {0} 秒。,True,6,0,,,DT_EnchantmentDefinition.json#SpringLoaded.III
+SW.Enchantment.ExpandedQuiver.I,末影箭袋,1,附魔,"获得 2 支额外箭矢。
+提高箭矢容量上限。",2,获得 {0} 支额外箭矢。,True,2,0,,,DT_EnchantmentDefinition.json#ExpandedQuiver.I
+SW.Enchantment.ExpandedQuiver.II,末影箭袋,2,附魔,"获得 3 支额外箭矢。
+提高箭矢容量上限。",3,获得 {0} 支额外箭矢。,True,3,0,,,DT_EnchantmentDefinition.json#ExpandedQuiver.II
+SW.Enchantment.ExpandedQuiver.III,末影箭袋,3,附魔,"获得 4 支额外箭矢。
+提高箭矢容量上限。",4,获得 {0} 支额外箭矢。,True,4,0,,,DT_EnchantmentDefinition.json#ExpandedQuiver.III
+SW.Enchantment.CriticalQuiver.I,暴击箭袋,1,附魔,"暴击时补充 1 支箭矢。
+暴击时会为箭袋补充箭矢。",1,暴击时补充 {0} 支箭矢。,True,1,0,,,DT_EnchantmentDefinition.json#CriticalQuiver.I
+SW.Enchantment.CriticalQuiver.II,暴击箭袋,2,附魔,"暴击时补充 3 支箭矢。
+暴击时会为箭袋补充箭矢。",3,暴击时补充 {0} 支箭矢。,True,3,0,,,DT_EnchantmentDefinition.json#CriticalQuiver.II
+SW.Enchantment.CriticalQuiver.III,暴击箭袋,3,附魔,"暴击时补充 5 支箭矢。
+暴击时会为箭袋补充箭矢。",5,暴击时补充 {0} 支箭矢。,True,5,0,,,DT_EnchantmentDefinition.json#CriticalQuiver.III
+SW.Enchantment.SoulInfusedPotion.I,远古炼金术,1,附魔,"使用药水时可获得 30 个灵魂。
+使用生命药水时会获得额外灵魂。即使满血也可以使用药水。",30,使用药水时可获得 {0} 个灵魂。,True,0.5,0,,,DT_EnchantmentDefinition.json#SoulInfusedPotion.I
+SW.Enchantment.SoulInfusedPotion.II,远古炼金术,2,附魔,"使用药水时可获得 45 个灵魂。
+使用生命药水时会获得额外灵魂。即使满血也可以使用药水。",45,使用药水时可获得 {0} 个灵魂。,True,0.6,0,,,DT_EnchantmentDefinition.json#SoulInfusedPotion.II
+SW.Enchantment.SoulInfusedPotion.III,远古炼金术,3,附魔,"使用药水时可获得 60 个灵魂。
+使用生命药水时会获得额外灵魂。即使满血也可以使用药水。",60,使用药水时可获得 {0} 个灵魂。,True,0.85,0,,,DT_EnchantmentDefinition.json#SoulInfusedPotion.III
+SW.Enchantment.MultiPotion.I,无尽药剂,1,附魔,"获得 1 瓶额外生命药水。
+获得额外生命药水使用次数。",1,获得 {0} 瓶额外生命药水。,True,1,0,,,DT_EnchantmentDefinition.json#MultiPotion.I
+SW.Enchantment.MultiPotion.II,无尽药剂,2,附魔,"获得 2 瓶额外生命药水。
+获得额外生命药水使用次数。",2,获得 {0} 瓶额外生命药水。,True,2,0,,,DT_EnchantmentDefinition.json#MultiPotion.II
+SW.Enchantment.MultiPotion.III,无尽药剂,3,附魔,"获得 3 瓶额外生命药水。
+获得额外生命药水使用次数。",3,获得 {0} 瓶额外生命药水。,True,3,0,,,DT_EnchantmentDefinition.json#MultiPotion.III
+SW.Enchantment.MaulerDive,霜电附魔,,附魔,"跳跃攻击会产生闪电和冰霜冲击波，对敌人造成伤害。
+一种附魔，能使跳跃攻击附带冰霜与闪电之力。",,跳跃攻击会产生闪电和冰霜冲击波，对敌人造成伤害。,True,100%,0,,,DT_EnchantmentDefinition.json#MaulerDive.Unique
+SW.Enchantment.PhantomLance,灵液冲击,,附魔,"冲击波会造成 90% 的武器伤害，并短暂造成额外灵魂伤害。
+一种附魔，能使攻击附带由灵魂之力驱动的灵液冲击。",90%,冲击波会造成 {0} 的武器伤害，并短暂造成额外灵魂伤害。,True,100%,0,,,DT_EnchantmentDefinition.json#PhantomLance.Unique
+SW.Enchantment.Piercing.I,穿透,1,附魔,"弹射物最多可穿透 1 个敌人。
+使射出的箭矢和弹射物可以穿透多个目标。",1,弹射物最多可穿透 {0} 个敌人。,True,1,0,,,DT_EnchantmentDefinition.json#Piercing.I
+SW.Enchantment.Piercing.II,穿透,2,附魔,"弹射物最多可穿透 3 个敌人。
+使射出的箭矢和弹射物可以穿透多个目标。",3,弹射物最多可穿透 {0} 个敌人。,True,3,0,,,DT_EnchantmentDefinition.json#Piercing.II
+SW.Enchantment.Piercing.III,穿透,3,附魔,"弹射物最多可穿透 5 个敌人。
+使射出的箭矢和弹射物可以穿透多个目标。",5,弹射物最多可穿透 {0} 个敌人。,True,5,0,,,DT_EnchantmentDefinition.json#Piercing.III
+SW.Enchantment.Ricochet.I,弹射,1,附魔,"弹射物最多可弹射 1 次。
+使射出的箭矢和弹射物可以在多个目标之间弹射。",1,弹射物最多可弹射 {0} 次。,True,1,0,,,DT_EnchantmentDefinition.json#Ricochet.I
+SW.Enchantment.Ricochet.II,弹射,2,附魔,"弹射物最多可弹射 2 次。
+使射出的箭矢和弹射物可以在多个目标之间弹射。",2,弹射物最多可弹射 {0} 次。,True,2,0,,,DT_EnchantmentDefinition.json#Ricochet.II
+SW.Enchantment.Ricochet.III,弹射,3,附魔,"弹射物最多可弹射 3 次。
+使射出的箭矢和弹射物可以在多个目标之间弹射。",3,弹射物最多可弹射 {0} 次。,True,3,0,,,DT_EnchantmentDefinition.json#Ricochet.III
+SW.Enchantment.Dynamo.Unique,活力,独特,附魔,"翻滚会使你的下一次近战或远程攻击获得 50% 伤害增幅。
+翻滚会使你的下一次近战或远程攻击获得伤害增幅，每次使用后效果会叠加。",50%,翻滚会使你的下一次近战或远程攻击获得 {0} 伤害增幅。,True,50%,0,,,DT_EnchantmentDefinition.json#Dynamo.Unique
+SW.Enchantment.Ricochet.Unique,弹射,独特,附魔,"弹射物最多可弹射 10 次。
+使射出的箭矢和弹射物可以在多个目标之间弹射。",10,弹射物最多可弹射 {0} 次。,True,10,0,,,DT_EnchantmentDefinition.json#Ricochet.Unique
+SW.Enchantment.Piercing.Unique,穿透,独特,附魔,"弹射物最多可穿透 10 个敌人。
+使射出的箭矢和弹射物可以穿透多个目标。",10,弹射物最多可穿透 {0} 个敌人。,True,10,0,,,DT_EnchantmentDefinition.json#Piercing.Unique
+SW.Enchantment.ChainReaction.I,连锁反应,1,附魔,"弹射物有 20% 几率额外生成 4 个弹射物。
+远程攻击命中目标时，有几率向附近的敌人发射额外弹射物。",20% / 4,弹射物有 {0} 几率额外生成 {1} 个弹射物。,True,100%,0,,,DT_EnchantmentDefinition.json#ChainReaction.I
+SW.Enchantment.ChainReaction.II,连锁反应,2,附魔,"弹射物有 30% 几率额外生成 6 个弹射物。
+远程攻击命中目标时，有几率向附近的敌人发射额外弹射物。",30% / 6,弹射物有 {0} 几率额外生成 {1} 个弹射物。,True,300%,0,,,DT_EnchantmentDefinition.json#ChainReaction.II
+SW.Enchantment.ChainReaction.III,连锁反应,3,附魔,"弹射物有 40% 几率额外生成 8 个弹射物。
+远程攻击命中目标时，有几率向附近的敌人发射额外弹射物。",40% / 8,弹射物有 {0} 几率额外生成 {1} 个弹射物。,True,500%,0,,,DT_EnchantmentDefinition.json#ChainReaction.III
+SW.Enchantment.BurstBowstring.I,翻滚射击,1,附魔,"翻滚会齐射 1 支箭矢，造成 110% 的远程武器伤害。
+翻滚会向附近敌人齐射箭矢。",1 / 110%,翻滚会齐射 {0} 支箭矢，造成 {1} 的远程武器伤害。,True,1.2,0,,,DT_EnchantmentDefinition.json#BurstBowstring.I
+SW.Enchantment.BurstBowstring.II,翻滚射击,2,附魔,"翻滚会齐射 1 支箭矢，造成 120% 的远程武器伤害。
+翻滚会向附近敌人齐射箭矢。",1 / 120%,翻滚会齐射 {0} 支箭矢，造成 {1} 的远程武器伤害。,True,1.4,0,,,DT_EnchantmentDefinition.json#BurstBowstring.II
+SW.Enchantment.BurstBowstring.III,翻滚射击,3,附魔,"翻滚会齐射 2 支箭矢，造成 130% 的远程武器伤害。
+翻滚会向附近敌人齐射箭矢。",2 / 130%,翻滚会齐射 {0} 支箭矢，造成 {1} 的远程武器伤害。,True,1.5,0,,,DT_EnchantmentDefinition.json#BurstBowstring.III

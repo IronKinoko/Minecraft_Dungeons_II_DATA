@@ -1,0 +1,50 @@
+[
+	{
+		"Name": "Small",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestSize.Small"
+		},
+		"QuestSizeDefinition":
+		{
+			"XPReward": 500,
+			"FirstCompletionXpRewardMultiplier": 1.1
+		}
+	},
+	{
+		"Name": "Medium",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestSize.Medium"
+		},
+		"QuestSizeDefinition":
+		{
+			"XPReward": 1000,
+			"FirstCompletionXpRewardMultiplier": 1.1
+		}
+	},
+	{
+		"Name": "Large",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestSize.Large"
+		},
+		"QuestSizeDefinition":
+		{
+			"XPReward": 2500,
+			"FirstCompletionXpRewardMultiplier": 1.1
+		}
+	},
+	{
+		"Name": "ExtraLarge",
+		"TypeTag":
+		{
+			"TagName": "SW.QuestSize.ExtraLarge"
+		},
+		"QuestSizeDefinition":
+		{
+			"XPReward": 3800,
+			"FirstCompletionXpRewardMultiplier": 1.1
+		}
+	}
+]

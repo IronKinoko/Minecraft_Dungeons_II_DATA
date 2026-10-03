@@ -1,0 +1,169 @@
+[
+	{
+		"Name": "Throwable",
+		"IconReference": "None",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Consumable.Throwable"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Property.Consumable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Property"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"ActorReference": "None",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "SW.AbilityCallsign.ItemPickup"
+			}
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ValidGameplayCues"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "None"
+				}
+			}
+		],
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "None",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Projectile.Pickup"
+			},
+			"OnDropped": "None",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Regular.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "None"
+		}
+	},
+	{
+		"Name": "TNT",
+		"IconReference": "/Game/Spicewood/UI/HUD/Player/Hotbar/Ammo/T_TNTIcon.T_TNTIcon",
+		"TypeTag":
+		{
+			"TagName": "SW.Item.Consumable.Throwable.TNT"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Item.Consumable.Throwable"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Item.Consumable"
+				},
+				{
+					"TagName": "SW.Item"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/Player/Items/Throwable/BP_TNTItem.BP_TNTItem_C",
+		"InteractionRedirection":
+		{
+			"CallsignToActivate":
+			{
+				"TagName": "None"
+			}
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.ValidGameplayCues"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "GameplayCue.SW.ThowThrowable"
+				}
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.TagToSpawn"
+				},
+				"Type": "GameplayTag",
+				"GameplayTag":
+				{
+					"TagName": "SW.PropActor.TNT"
+				}
+			}
+		],
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionThrowable.csv\", \"SW_Item_Consumable_Throwable_TNT_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemDefinitionThrowable.csv\", \"SW_Item_Consumable_Throwable_TNT_SW_TextEntry_Description\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"ItemAudios":
+		{
+			"SwitchAudio": "None",
+			"OnPickedup": "/Game/Spicewood/Audio/Wwise/Events/TestCase/ItemEvents/ItemEvents_TNT/sfx_item_tnt_pickup.sfx_item_tnt_pickup",
+			"OnPickedupAudioCategory":
+			{
+				"TagName": "None"
+			},
+			"OnDropped": "/Game/Spicewood/Audio/Wwise/sfx_item_tnt_drop.sfx_item_tnt_drop",
+			"OnDroppedAudioCategory":
+			{
+				"TagName": "SW.Audio.Category.Item.Regular.Drop"
+			},
+			"OnEquipped": "None",
+			"OnUnequipped": "/Game/Spicewood/Audio/Wwise/Events/TestCase/ItemEvents/ItemEvents_TNT/play_sfx_item_tntThrow.play_sfx_item_tntThrow"
+		}
+	}
+]

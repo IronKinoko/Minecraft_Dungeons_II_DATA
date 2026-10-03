@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "game": "Minecraft Dungeons II",
+    "version": "1.1.1.0",
+    "engine": "Unreal Engine 5",
+    "engine_minor": "未从版本资源确认；数据以 UE5.6 兼容结构解析",
+    "date": "2026-09-30",
+    "archive_files": 63538,
+    "items": 339,
+    "unique": 116,
+    "category_counts": {
+      "近战武器": 58,
+      "远程武器": 22,
+      "护甲": 152,
+      "法器": 40,
+      "附魔书": 32,
+      "护符": 24,
+      "披风": 7,
+      "宠物": 3,
+      "投掷物": 1
+    },
+    "affixes": 431,
+    "icons": 505,
+    "loot_sources": 163,
+    "loot_slots": 191,
+    "quests": 44,
+    "scope": "当前安装文件、已加载词条与掉落池的快照",
+    "probability_note": "物品掉落计算按来源、区域、当前威胁、难度、历史和已拥有物品等条件计算一次触发至少获得一件的概率；词条概率则以装备和稀有度已经生成为条件。掉落槽随机触发率不等于物品掉率。",
+    "method_note": "候选按标签、稀有度和互斥条件展开，移除已存在的同效果词条。池合并、威胁曲线和不放回抽取顺序已核对本机生成代码；百分比以装备已生成为条件。",
+    "level_note": "角色等级不能单独决定词条概率。生成代码读取掉落责任玩家的当前威胁等级；推荐角色等级函数返回 max(威胁−1,0)×5，仅是参考值，不是词条解锁要求。",
+    "rarity_note": "默认权重 50/25/20/5；实际还受稀有度曲线、来源、难度及可用稀有度筛选影响。低难度规则把 Special 和 Unique 权重乘 0。",
+    "unique_affix_ids": 428,
+    "affix_definition_conflicts": 3,
+    "effect_descriptions": 431,
+    "effect_description_unresolved": 0,
+    "probability_items": 272,
+    "probability_models": 94,
+    "affix_reverse_families": 113,
+    "excluded_random_templates": 7314,
+    "runtime_weight_differences": 4,
+    "updated": "2026-10-01",
+    "world_maps": 872,
+    "world_points": 12756,
+    "drop_sources": 371
+  },
+  "issues": [
+    {
+      "item": "",
+      "issue": "同 ID 词条存在不同数值定义",
+      "reference": "SW.EffectTemplate.AmmoCapacity.I"
+    },
+    {
+      "item": "",
+      "issue": "同 ID 词条存在不同数值定义",
+      "reference": "SW.EffectTemplate.AmmoCapacity.II"
+    },
+    {
+      "item": "",
+      "issue": "同 ID 词条存在不同数值定义",
+      "reference": "SW.EffectTemplate.AmmoCapacity.III"
+    },
+    {
+      "item": "SW.Item.Cosmetic.Cape.Soul",
+      "issue": "未在已解析掉落表中定位来源"
+    },
+    {
+      "item": "SW.Item.Cosmetic.Cape.Twisted",
+      "issue": "未在已解析掉落表中定位来源"
+    },
+    {
+      "item": "SW.Item.Cosmetic.Cape.Special",
+      "issue": "未在已解析掉落表中定位来源"
+    },
+    {
+      "item": "SW.Item.Cosmetic.Cape.CorruptedCreeper",
+      "issue": "未在已解析掉落表中定位来源"
+    },
+    {
+      "item": "SW.Item.Cosmetic.Cape.Hero",
+      "issue": "未在已解析掉落表中定位来源"
+    },
+    {
+      "item": "SW.Item.Cosmetic.Cape.Mojang",
+      "issue": "未在已解析掉落表中定位来源"
+    },
+    {
+      "item": "SW.Item.Cosmetic.Cape.SliceSlayer",
+      "issue": "未在已解析掉落表中定位来源"
+    },
+    {
+      "item": "SW.Item.Cosmetic.Pet.Blub",
+      "issue": "未在已解析掉落表中定位来源"
+    },
+    {
+      "item": "SW.Item.Cosmetic.Pet.TwistedChicken",
+      "issue": "未在已解析掉落表中定位来源"
+    },
+    {
+      "item": "SW.Item.Cosmetic.Pet.SlimeSupreme",
+      "issue": "未在已解析掉落表中定位来源"
+    }
+  ],
+  "abstract": [
+    {
+      "id": "SW.Item.Property.Armor.Boots",
+      "category": "护甲",
+      "source": "DT_ItemDefinitionArmor.json#ArmorBoots",
+      "reason": "分类或继承模板；没有独立物品图标"
+    },
+    {
+      "id": "SW.Item.Property.Armor.Chest",
+      "category": "护甲",
+      "source": "DT_ItemDefinitionArmor.json#ArmorChest",
+      "reason": "分类或继承模板；没有独立物品图标"
+    },
+    {
+      "id": "SW.Item.Property.Armor.Helmet",
+      "category": "护甲",
+      "source": "DT_ItemDefinitionArmor.json#ArmorHelmet",
+      "reason": "分类或继承模板；没有独立物品图标"
+    },
+    {
+      "id": "SW.Item.Property.Armor.Leggings",
+      "category": "护甲",
+      "source": "DT_ItemDefinitionArmor.json#ArmorLeggings",
+      "reason": "分类或继承模板；没有独立物品图标"
+    },
+    {
+      "id": "SW.Item.Artifact.Quiver",
+      "category": "法器",
+      "source": "DT_ItemDefinitionArtifact.json#Quiver",
+      "reason": "分类或继承模板；没有独立物品图标"
+    },
+    {
+      "id": "SW.Item.EnchantmentBook.Base",
+      "category": "附魔书",
+      "source": "DT_ItemDefinitionEnchantmentBook.json#BaseEnchanmentBook",
+      "reason": "分类或继承模板；没有独立物品图标"
+    },
+    {
+      "id": "SW.Item.Cosmetic.Cape.Base",
+      "category": "披风",
+      "source": "DT_ItemDefinitionCape.json#BaseCape",
+      "reason": "分类或继承模板；没有独立物品图标"
+    },
+    {
+      "id": "SW.Item.Consumable.Throwable",
+      "category": "投掷物",
+      "source": "DT_ItemDefinitionThrowable.json#Throwable",
+      "reason": "分类或继承模板；没有独立物品图标"
+    }
+  ],
+  "icon_count": 505,
+  "world": {
+    "map_packages_scanned": 2196,
+    "actor_records": 32423,
+    "maps": 872,
+    "points": 12756,
+    "kinds": {
+      "mechanism": 3085,
+      "travel": 30,
+      "entrance": 341,
+      "combat": 3427,
+      "chest": 504,
+      "goal": 377,
+      "npc": 208,
+      "loot_spawn": 305,
+      "resource": 3456,
+      "quest": 174,
+      "checkpoint": 849
+    },
+    "quests": 44,
+    "side_quests": 29,
+    "unmapped": []
+  },
+  "drop_model": {
+    "sources": 371,
+    "areas": 137,
+    "items": 372,
+    "baseline_rows": 15938
+  }
+}

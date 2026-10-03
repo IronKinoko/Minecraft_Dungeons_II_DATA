@@ -1,0 +1,909 @@
+[
+	{
+		"Name": "CS01",
+		"CutsceneName":
+		{
+			"TagName": "SW.UI.Cutscene.Cutscenes.CS01"
+		},
+		"ProceduralAreaName":
+		{
+			"TagName": "None"
+		},
+		"ProceduralTileName": "",
+		"PlayOnce": true,
+		"TimeOfDayEnterValueOverride": -1,
+		"TimeOfDayExitValueOverride": -1,
+		"Sequence": "/Game/Spicewood/Sequences/Cutscenes/CS01_IllagerHighCouncil/CS01_IllagerHighCouncil_Master.CS01_IllagerHighCouncil_Master",
+		"PreLoadedStreamingSources": [
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669F59C902_1771675553"
+		],
+		"DoNotPreloadCutsceneOnPlatforms": [],
+		"AudioEnterStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-CS01.Scene-CS01"
+		],
+		"AudioExitStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-None.Scene-None"
+		],
+		"ShouldUseStartingDelay": false,
+		"PostCutsceneTeleportPoint":
+		{
+			"TagName": "None"
+		},
+		"PostCutsceneTeleportPointSaveCheckpoint": true,
+		"LightingPresetPostCutscene":
+		{
+			"TagName": "SW.Lighting.Camp"
+		},
+		"DoNotAutoPlayInPIE": true
+	},
+	{
+		"Name": "MS48",
+		"CutsceneName":
+		{
+			"TagName": "SW.UI.Cutscene.Miniscene.MS48"
+		},
+		"ProceduralAreaName":
+		{
+			"TagName": "None"
+		},
+		"ProceduralTileName": "",
+		"PlayOnce": true,
+		"TimeOfDayEnterValueOverride": -1,
+		"TimeOfDayExitValueOverride": -1,
+		"Sequence": "/Game/Spicewood/Sequences/Miniscenes/MS48_CampA1_PlayerReturnsToCamp/MS48_CampA1_PlayerReturnsToCamp.MS48_CampA1_PlayerReturnsToCamp",
+		"PreLoadedStreamingSources": [
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_6C5AB09B351EBADE02_1498934888"
+		],
+		"DoNotPreloadCutsceneOnPlatforms": [],
+		"AudioEnterStateOverrides": [],
+		"AudioExitStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-None.Scene-None",
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_01.InGameEventName-KillQuest_01"
+		],
+		"ShouldUseStartingDelay": true,
+		"PostCutsceneTeleportPoint":
+		{
+			"TagName": "SW.TeleportPoint.Camp.MS48"
+		},
+		"PostCutsceneTeleportPointSaveCheckpoint": true,
+		"LightingPresetPostCutscene":
+		{
+			"TagName": "SW.Lighting.Camp"
+		},
+		"DoNotAutoPlayInPIE": false
+	},
+	{
+		"Name": "CS02",
+		"CutsceneName":
+		{
+			"TagName": "SW.UI.Cutscene.Cutscenes.CS02"
+		},
+		"ProceduralAreaName":
+		{
+			"TagName": "None"
+		},
+		"ProceduralTileName": "",
+		"PlayOnce": true,
+		"TimeOfDayEnterValueOverride": -1,
+		"TimeOfDayExitValueOverride": -1,
+		"Sequence": "/Game/Spicewood/Sequences/Cutscenes/CS02_TheTown_PlayerArrival/CS02_TheTown_PlayerArrival.CS02_TheTown_PlayerArrival",
+		"PreLoadedStreamingSources": [
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669FDACC02_1916050621",
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669F6BC902_1674486721",
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_6C5AB09B351EE4DC02_1442328163"
+		],
+		"DoNotPreloadCutsceneOnPlatforms": [],
+		"AudioEnterStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-CS02.Scene-CS02"
+		],
+		"AudioExitStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-None.Scene-None"
+		],
+		"ShouldUseStartingDelay": true,
+		"PostCutsceneTeleportPoint":
+		{
+			"TagName": "SW.TeleportPoint.Town.Docks"
+		},
+		"PostCutsceneTeleportPointSaveCheckpoint": true,
+		"LightingPresetPostCutscene":
+		{
+			"TagName": "SW.Lighting.Overworld"
+		},
+		"DoNotAutoPlayInPIE": false
+	},
+	{
+		"Name": "CS30",
+		"CutsceneName":
+		{
+			"TagName": "SW.UI.Cutscene.Cutscenes.CS30"
+		},
+		"ProceduralAreaName":
+		{
+			"TagName": "None"
+		},
+		"ProceduralTileName": "",
+		"PlayOnce": true,
+		"TimeOfDayEnterValueOverride": -1,
+		"TimeOfDayExitValueOverride": -1,
+		"Sequence": "/Game/Spicewood/Sequences/Cutscenes/CS30_PlainsA1_ARiftOpens/CS30_PlainsA1_ARiftOpens.CS30_PlainsA1_ARiftOpens",
+		"PreLoadedStreamingSources": [
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669F5CC902_1702313085",
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669F6BC902_1794089722"
+		],
+		"DoNotPreloadCutsceneOnPlatforms": [],
+		"AudioEnterStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-CS30.Scene-CS30",
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-KillQuest_02.InGameEventName-KillQuest_02"
+		],
+		"AudioExitStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-None.Scene-None"
+		],
+		"ShouldUseStartingDelay": true,
+		"PostCutsceneTeleportPoint":
+		{
+			"TagName": "None"
+		},
+		"PostCutsceneTeleportPointSaveCheckpoint": true,
+		"LightingPresetPostCutscene":
+		{
+			"TagName": "SW.Lighting.Overworld"
+		},
+		"DoNotAutoPlayInPIE": false
+	},
+	{
+		"Name": "MS03",
+		"CutsceneName":
+		{
+			"TagName": "SW.UI.Cutscene.MiniScene.MS03"
+		},
+		"ProceduralAreaName":
+		{
+			"TagName": "None"
+		},
+		"ProceduralTileName": "",
+		"PlayOnce": true,
+		"TimeOfDayEnterValueOverride": 0,
+		"TimeOfDayExitValueOverride": -1,
+		"Sequence": "/Game/Spicewood/Sequences/Miniscenes/MS03_MeadowsR1/MS03_MeadowsR1_RiftIntro.MS03_MeadowsR1_RiftIntro",
+		"PreLoadedStreamingSources": [
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669F6BC902_1947767723"
+		],
+		"DoNotPreloadCutsceneOnPlatforms": [],
+		"AudioEnterStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-MS03.Scene-MS03"
+		],
+		"AudioExitStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-None.Scene-None"
+		],
+		"ShouldUseStartingDelay": true,
+		"PostCutsceneTeleportPoint":
+		{
+			"TagName": "SW.TeleportPoint.MeadowR0.Entrance"
+		},
+		"PostCutsceneTeleportPointSaveCheckpoint": true,
+		"LightingPresetPostCutscene":
+		{
+			"TagName": "SW.Lighting.Wellspring"
+		},
+		"DoNotAutoPlayInPIE": false
+	},
+	{
+		"Name": "MS44",
+		"CutsceneName":
+		{
+			"TagName": "SW.UI.Cutscene.MiniScene.MS44"
+		},
+		"ProceduralAreaName":
+		{
+			"TagName": "None"
+		},
+		"ProceduralTileName": "",
+		"PlayOnce": true,
+		"TimeOfDayEnterValueOverride": -1,
+		"TimeOfDayExitValueOverride": -1,
+		"Sequence": "/Game/Spicewood/Sequences/Miniscenes/MS44_ForestA1_IllagerThroughRift/MS44_ForestA1_IllagerThroughRift.MS44_ForestA1_IllagerThroughRift",
+		"PreLoadedStreamingSources": [
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669F6BC902_2090424764",
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669F6CC902_1210440941"
+		],
+		"DoNotPreloadCutsceneOnPlatforms": [],
+		"AudioEnterStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Scene/Scene/Scene-MS44.Scene-MS44"
+		],
+		"AudioExitStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-None.Scene-None"
+		],
+		"ShouldUseStartingDelay": true,
+		"PostCutsceneTeleportPoint":
+		{
+			"TagName": "None"
+		},
+		"PostCutsceneTeleportPointSaveCheckpoint": true,
+		"LightingPresetPostCutscene":
+		{
+			"TagName": "SW.Lighting.Forest.ForestA1"
+		},
+		"DoNotAutoPlayInPIE": false
+	},
+	{
+		"Name": "MS43",
+		"CutsceneName":
+		{
+			"TagName": "SW.UI.Cutscene.MiniScene.MS43"
+		},
+		"ProceduralAreaName":
+		{
+			"TagName": "None"
+		},
+		"ProceduralTileName": "",
+		"PlayOnce": true,
+		"TimeOfDayEnterValueOverride": -1,
+		"TimeOfDayExitValueOverride": -1,
+		"Sequence": "/Game/Spicewood/Sequences/Miniscenes/MS43_MeadowsR1_SentinelsIntro/MS43_MeadowsR1_SentinelsIntro.MS43_MeadowsR1_SentinelsIntro",
+		"PreLoadedStreamingSources": [
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669F6CC902_1670667942"
+		],
+		"DoNotPreloadCutsceneOnPlatforms": [],
+		"AudioEnterStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Scene/Scene/Scene-MS43.Scene-MS43"
+		],
+		"AudioExitStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-None.Scene-None"
+		],
+		"ShouldUseStartingDelay": true,
+		"PostCutsceneTeleportPoint":
+		{
+			"TagName": "None"
+		},
+		"PostCutsceneTeleportPointSaveCheckpoint": true,
+		"LightingPresetPostCutscene":
+		{
+			"TagName": "SW.Lighting.Wellspring"
+		},
+		"DoNotAutoPlayInPIE": false
+	},
+	{
+		"Name": "CS06",
+		"CutsceneName":
+		{
+			"TagName": "SW.UI.Cutscene.Cutscenes.CS06"
+		},
+		"ProceduralAreaName":
+		{
+			"TagName": "None"
+		},
+		"ProceduralTileName": "",
+		"PlayOnce": true,
+		"TimeOfDayEnterValueOverride": -1,
+		"TimeOfDayExitValueOverride": -1,
+		"Sequence": "/Game/Spicewood/Sequences/Cutscenes/CS06_MeadowsA1_TheHealthyWardenSings/CS06_MeadowsA1_TheHealthyWardenSings.CS06_MeadowsA1_TheHealthyWardenSings",
+		"PreLoadedStreamingSources": [
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669F6CC902_1860740943",
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669F6CC902_1950042944",
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669F6CC902_2035818945"
+		],
+		"DoNotPreloadCutsceneOnPlatforms": [],
+		"AudioEnterStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-CS06.Scene-CS06"
+		],
+		"AudioExitStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-None.Scene-None"
+		],
+		"ShouldUseStartingDelay": true,
+		"PostCutsceneTeleportPoint":
+		{
+			"TagName": "SW.TeleportPoint.MeadowR1.CS06"
+		},
+		"PostCutsceneTeleportPointSaveCheckpoint": true,
+		"LightingPresetPostCutscene":
+		{
+			"TagName": "SW.Lighting.Wellspring"
+		},
+		"DoNotAutoPlayInPIE": false
+	},
+	{
+		"Name": "CS07",
+		"CutsceneName":
+		{
+			"TagName": "SW.UI.Cutscene.Cutscenes.CS07"
+		},
+		"ProceduralAreaName":
+		{
+			"TagName": "None"
+		},
+		"ProceduralTileName": "",
+		"PlayOnce": true,
+		"TimeOfDayEnterValueOverride": -1,
+		"TimeOfDayExitValueOverride": -1,
+		"Sequence": "/Game/Spicewood/Sequences/Cutscenes/CS07_ForestA1_TheForestAwakens/CS07_TheForestAwakens.CS07_TheForestAwakens",
+		"PreLoadedStreamingSources": [
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669F6BC902_2090424764",
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669F6CC902_1210440941"
+		],
+		"DoNotPreloadCutsceneOnPlatforms": [],
+		"AudioEnterStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-CS07.Scene-CS07"
+		],
+		"AudioExitStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-None.Scene-None"
+		],
+		"ShouldUseStartingDelay": true,
+		"PostCutsceneTeleportPoint":
+		{
+			"TagName": "SW.TeleportPoint.Forest.A1.CS07"
+		},
+		"PostCutsceneTeleportPointSaveCheckpoint": true,
+		"LightingPresetPostCutscene":
+		{
+			"TagName": "SW.Lighting.Forest.ForestA1"
+		},
+		"DoNotAutoPlayInPIE": false
+	},
+	{
+		"Name": "CS08",
+		"CutsceneName":
+		{
+			"TagName": "SW.UI.Cutscene.Cutscenes.CS08"
+		},
+		"ProceduralAreaName":
+		{
+			"TagName": "None"
+		},
+		"ProceduralTileName": "",
+		"PlayOnce": true,
+		"TimeOfDayEnterValueOverride": -1,
+		"TimeOfDayExitValueOverride": -1,
+		"Sequence": "/Game/Spicewood/Sequences/Cutscenes/CS08_ForestA1_WitchBossIntro/CS08_WitchBossIntro.CS08_WitchBossIntro",
+		"PreLoadedStreamingSources": [
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669F6CC902_1210440941"
+		],
+		"DoNotPreloadCutsceneOnPlatforms": [],
+		"AudioEnterStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-CS08.Scene-CS08"
+		],
+		"AudioExitStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-None.Scene-None",
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-Arena02.InGameEventName-Arena02"
+		],
+		"ShouldUseStartingDelay": true,
+		"PostCutsceneTeleportPoint":
+		{
+			"TagName": "SW.TeleportPoint.Forest.A1.CS08"
+		},
+		"PostCutsceneTeleportPointSaveCheckpoint": true,
+		"LightingPresetPostCutscene":
+		{
+			"TagName": "SW.Lighting.Forest.ForestA1"
+		},
+		"DoNotAutoPlayInPIE": false
+	},
+	{
+		"Name": "CS10",
+		"CutsceneName":
+		{
+			"TagName": "SW.UI.Cutscene.Cutscenes.CS10"
+		},
+		"ProceduralAreaName":
+		{
+			"TagName": "SW.Area.DeepDark.A1"
+		},
+		"ProceduralTileName": "DDA1_ANC_003",
+		"PlayOnce": true,
+		"TimeOfDayEnterValueOverride": -1,
+		"TimeOfDayExitValueOverride": -1,
+		"Sequence": "/Game/Spicewood/Sequences/Cutscenes/CS10_DeepDarkA1_EncounterWithTheCouncil/CS10_DeepDarkA1_EncounterWithTheCouncil.CS10_DeepDarkA1_EncounterWithTheCouncil",
+		"PreLoadedStreamingSources": [
+			"/Game/Spicewood/Maps/Procedural/DeepDarkA1/DDA1_ANC_003.DDA1_ANC_003:PersistentLevel.CutsceneStreamingSource_UAID_04421A2266E4CAA102_1197746238"
+		],
+		"DoNotPreloadCutsceneOnPlatforms": [],
+		"AudioEnterStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-CS10.Scene-CS10"
+		],
+		"AudioExitStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-None.Scene-None",
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-Arena02.InGameEventName-Arena02"
+		],
+		"ShouldUseStartingDelay": true,
+		"PostCutsceneTeleportPoint":
+		{
+			"TagName": "SW.TeleportPoint.CS10"
+		},
+		"PostCutsceneTeleportPointSaveCheckpoint": false,
+		"LightingPresetPostCutscene":
+		{
+			"TagName": "SW.Lighting.DeepDark"
+		},
+		"DoNotAutoPlayInPIE": false
+	},
+	{
+		"Name": "MS29",
+		"CutsceneName":
+		{
+			"TagName": "SW.UI.Cutscene.Miniscene.MS29"
+		},
+		"ProceduralAreaName":
+		{
+			"TagName": "None"
+		},
+		"ProceduralTileName": "",
+		"PlayOnce": true,
+		"TimeOfDayEnterValueOverride": -1,
+		"TimeOfDayExitValueOverride": -1,
+		"Sequence": "/Game/Spicewood/Sequences/Cutscenes/MS29_PlainsA2_CopperMonstosity/MS29_PlainsA2_CopperMonstrosity.MS29_PlainsA2_CopperMonstrosity",
+		"PreLoadedStreamingSources": [
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669F6DC902_1113037122"
+		],
+		"DoNotPreloadCutsceneOnPlatforms": [],
+		"AudioEnterStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-MS29.Scene-MS29"
+		],
+		"AudioExitStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-None.Scene-None",
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-Arena02.InGameEventName-Arena02"
+		],
+		"ShouldUseStartingDelay": true,
+		"PostCutsceneTeleportPoint":
+		{
+			"TagName": "Sw.TeleportPoint.Plains.A2.NoteblockTower.Top.MS29"
+		},
+		"PostCutsceneTeleportPointSaveCheckpoint": true,
+		"LightingPresetPostCutscene":
+		{
+			"TagName": "SW.Lighting.PlainsA2"
+		},
+		"DoNotAutoPlayInPIE": false
+	},
+	{
+		"Name": "CS21",
+		"CutsceneName":
+		{
+			"TagName": "SW.UI.cutscene.cutscenes.CS21"
+		},
+		"ProceduralAreaName":
+		{
+			"TagName": "None"
+		},
+		"ProceduralTileName": "",
+		"PlayOnce": true,
+		"TimeOfDayEnterValueOverride": -1,
+		"TimeOfDayExitValueOverride": -1,
+		"Sequence": "/Game/Spicewood/Sequences/Cutscenes/CS21_DesertA1_Noteblockdiscovery/CS21_DesertA1_Noteblockdiscovery.CS21_DesertA1_Noteblockdiscovery",
+		"PreLoadedStreamingSources": [
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669FA8C902_1608175497"
+		],
+		"DoNotPreloadCutsceneOnPlatforms": [],
+		"AudioEnterStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-CS21.Scene-CS21"
+		],
+		"AudioExitStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-None.Scene-None"
+		],
+		"ShouldUseStartingDelay": true,
+		"PostCutsceneTeleportPoint":
+		{
+			"TagName": "None"
+		},
+		"PostCutsceneTeleportPointSaveCheckpoint": true,
+		"LightingPresetPostCutscene":
+		{
+			"TagName": "SW.Lighting.Plains.PlainsA2NoteblockRoom"
+		},
+		"DoNotAutoPlayInPIE": false
+	},
+	{
+		"Name": "CS16",
+		"CutsceneName":
+		{
+			"TagName": "SW.UI.Cutscene.Cutscenes.CS16"
+		},
+		"ProceduralAreaName":
+		{
+			"TagName": "None"
+		},
+		"ProceduralTileName": "",
+		"PlayOnce": true,
+		"TimeOfDayEnterValueOverride": -1,
+		"TimeOfDayExitValueOverride": -1,
+		"Sequence": "/Game/Spicewood/Sequences/Cutscenes/CS16_DesertA1_FortressIntroduction/CS16_DesertA1_FortressIntroduction.CS16_DesertA1_FortressIntroduction",
+		"PreLoadedStreamingSources": [
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669F5CC902_1914021086"
+		],
+		"DoNotPreloadCutsceneOnPlatforms": [],
+		"AudioEnterStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-CS16.Scene-CS16"
+		],
+		"AudioExitStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-None.Scene-None"
+		],
+		"ShouldUseStartingDelay": true,
+		"PostCutsceneTeleportPoint":
+		{
+			"TagName": "None"
+		},
+		"PostCutsceneTeleportPointSaveCheckpoint": true,
+		"LightingPresetPostCutscene":
+		{
+			"TagName": "SW.Lighting.DesertA1"
+		},
+		"DoNotAutoPlayInPIE": false
+	},
+	{
+		"Name": "CS20",
+		"CutsceneName":
+		{
+			"TagName": "SW.UI.Cutscene.Cutscenes.CS20"
+		},
+		"ProceduralAreaName":
+		{
+			"TagName": "SW.Area.Desert.A1.FortressInt"
+		},
+		"ProceduralTileName": "DesertA1_Anchor_Bossroom_002",
+		"PlayOnce": true,
+		"TimeOfDayEnterValueOverride": -1,
+		"TimeOfDayExitValueOverride": -1,
+		"Sequence": "/Game/Spicewood/Sequences/Cutscenes/CS20_DesertA1_Boss/CS20_DesertA1_Boss.CS20_DesertA1_Boss",
+		"PreLoadedStreamingSources": [
+			"/Game/Spicewood/Maps/Procedural/DesertA1_BossArena_Tiles.DesertA1_BossArena_Tiles:PersistentLevel.CutsceneStreamingSource_2"
+		],
+		"DoNotPreloadCutsceneOnPlatforms": [],
+		"AudioEnterStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-CS20.Scene-CS20"
+		],
+		"AudioExitStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-None.Scene-None",
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-Arena02.InGameEventName-Arena02"
+		],
+		"ShouldUseStartingDelay": true,
+		"PostCutsceneTeleportPoint":
+		{
+			"TagName": "SW.TeleportPoint.CS20"
+		},
+		"PostCutsceneTeleportPointSaveCheckpoint": false,
+		"LightingPresetPostCutscene":
+		{
+			"TagName": "SW.Lighting.DesertA1.MaulerArena"
+		},
+		"DoNotAutoPlayInPIE": false
+	},
+	{
+		"Name": "CS23",
+		"CutsceneName":
+		{
+			"TagName": "SW.UI.Cutscene.Cutscenes.CS23"
+		},
+		"ProceduralAreaName":
+		{
+			"TagName": "None"
+		},
+		"ProceduralTileName": "",
+		"PlayOnce": true,
+		"TimeOfDayEnterValueOverride": -1,
+		"TimeOfDayExitValueOverride": -1,
+		"Sequence": "/Game/Spicewood/Sequences/Cutscenes/CS23_PlainsA2_NoteblockCollection/CS23_PlainsA2_Noteblockdiscovery.CS23_PlainsA2_Noteblockdiscovery",
+		"PreLoadedStreamingSources": [
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669FA9C902_1150991674"
+		],
+		"DoNotPreloadCutsceneOnPlatforms": [],
+		"AudioEnterStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-CS23.Scene-CS23"
+		],
+		"AudioExitStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-None.Scene-None"
+		],
+		"ShouldUseStartingDelay": true,
+		"PostCutsceneTeleportPoint":
+		{
+			"TagName": "None"
+		},
+		"PostCutsceneTeleportPointSaveCheckpoint": true,
+		"LightingPresetPostCutscene":
+		{
+			"TagName": "SW.Lighting.Desert.NoteblockRoom"
+		},
+		"DoNotAutoPlayInPIE": false
+	},
+	{
+		"Name": "CS17",
+		"CutsceneName":
+		{
+			"TagName": "SW.UI.Cutscene.Cutscenes.CS17"
+		},
+		"ProceduralAreaName":
+		{
+			"TagName": "None"
+		},
+		"ProceduralTileName": "",
+		"PlayOnce": true,
+		"TimeOfDayEnterValueOverride": -1,
+		"TimeOfDayExitValueOverride": -1,
+		"Sequence": "/Game/Spicewood/Sequences/Cutscenes/CS17_DesertA1_FortressResolution/CS17_DesertA1_FortressResolution.CS17_DesertA1_FortressResolution",
+		"PreLoadedStreamingSources": [
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669F5CC902_1914021086"
+		],
+		"DoNotPreloadCutsceneOnPlatforms": [],
+		"AudioEnterStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-CS17.Scene-CS17"
+		],
+		"AudioExitStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-None.Scene-None"
+		],
+		"ShouldUseStartingDelay": true,
+		"PostCutsceneTeleportPoint":
+		{
+			"TagName": "None"
+		},
+		"PostCutsceneTeleportPointSaveCheckpoint": true,
+		"LightingPresetPostCutscene":
+		{
+			"TagName": "SW.Lighting.DesertA1.FortressInt"
+		},
+		"DoNotAutoPlayInPIE": false
+	},
+	{
+		"Name": "CS12",
+		"CutsceneName":
+		{
+			"TagName": "SW.UI.Cutscene.Cutscenes.CS12"
+		},
+		"ProceduralAreaName":
+		{
+			"TagName": "SW.Area.DeepDark.A1"
+		},
+		"ProceduralTileName": "DDA1_ANC_003",
+		"PlayOnce": true,
+		"TimeOfDayEnterValueOverride": -1,
+		"TimeOfDayExitValueOverride": -1,
+		"Sequence": "/Game/Spicewood/Sequences/Cutscenes/CS12_DeepDarkA1_NoteBlockMachineActivated/CS12_DeepDarkA1_NoteBlockMachineActivated.CS12_DeepDarkA1_NoteBlockMachineActivated",
+		"PreLoadedStreamingSources": [
+			"/Game/Spicewood/Maps/Procedural/DeepDarkA1/DDA1_ANC_003.DDA1_ANC_003:PersistentLevel.CutsceneStreamingSource_UAID_04421A2266E4CAA102_1197746238"
+		],
+		"DoNotPreloadCutsceneOnPlatforms": [],
+		"AudioEnterStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-CS12.Scene-CS12"
+		],
+		"AudioExitStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-None.Scene-None"
+		],
+		"ShouldUseStartingDelay": true,
+		"PostCutsceneTeleportPoint":
+		{
+			"TagName": "None"
+		},
+		"PostCutsceneTeleportPointSaveCheckpoint": true,
+		"LightingPresetPostCutscene":
+		{
+			"TagName": "SW.Lighting.DeepDark"
+		},
+		"DoNotAutoPlayInPIE": false
+	},
+	{
+		"Name": "CS14",
+		"CutsceneName":
+		{
+			"TagName": "SW.UI.Cutscene.Cutscenes.CS14"
+		},
+		"ProceduralAreaName":
+		{
+			"TagName": "None"
+		},
+		"ProceduralTileName": "",
+		"PlayOnce": true,
+		"TimeOfDayEnterValueOverride": -1,
+		"TimeOfDayExitValueOverride": -1,
+		"Sequence": "/Game/Spicewood/Sequences/Cutscenes/CS14_MeadowsA1_MawIsTransformed/CS14_MeadowsA1_MawIsTransformed.CS14_MeadowsA1_MawIsTransformed",
+		"PreLoadedStreamingSources": [
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669F6CC902_1860740943",
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669F6CC902_2035818945"
+		],
+		"DoNotPreloadCutsceneOnPlatforms": [],
+		"AudioEnterStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-CS14.Scene-CS14"
+		],
+		"AudioExitStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-None.Scene-None"
+		],
+		"ShouldUseStartingDelay": true,
+		"PostCutsceneTeleportPoint":
+		{
+			"TagName": "SW.TeleportPoint.Forest.A1.CS14Ending"
+		},
+		"PostCutsceneTeleportPointSaveCheckpoint": true,
+		"LightingPresetPostCutscene":
+		{
+			"TagName": "SW.Lighting.Wellspring"
+		},
+		"DoNotAutoPlayInPIE": false
+	},
+	{
+		"Name": "MS49",
+		"CutsceneName":
+		{
+			"TagName": "SW.UI.cutscene.Miniscene.MS49"
+		},
+		"ProceduralAreaName":
+		{
+			"TagName": "None"
+		},
+		"ProceduralTileName": "",
+		"PlayOnce": true,
+		"TimeOfDayEnterValueOverride": -1,
+		"TimeOfDayExitValueOverride": -1,
+		"Sequence": "/Game/Spicewood/Sequences/Miniscenes/MS49_MeadowsA1_SingerGiftsSong/MS49_MeadowsA1_SingerGiftsSong.MS49_MeadowsA1_SingerGiftsSong",
+		"PreLoadedStreamingSources": [
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669F6CC902_1860740943",
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669F6CC902_2035818945"
+		],
+		"DoNotPreloadCutsceneOnPlatforms": [],
+		"AudioEnterStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Scene/Scene/Scene-MS49.Scene-MS49"
+		],
+		"AudioExitStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-None.Scene-None"
+		],
+		"ShouldUseStartingDelay": true,
+		"PostCutsceneTeleportPoint":
+		{
+			"TagName": "None"
+		},
+		"PostCutsceneTeleportPointSaveCheckpoint": true,
+		"LightingPresetPostCutscene":
+		{
+			"TagName": "SW.Lighting.Wellspring"
+		},
+		"DoNotAutoPlayInPIE": false
+	},
+	{
+		"Name": "MS46",
+		"CutsceneName":
+		{
+			"TagName": "SW.UI.Cutscene.Miniscene.MS46"
+		},
+		"ProceduralAreaName":
+		{
+			"TagName": "None"
+		},
+		"ProceduralTileName": "",
+		"PlayOnce": true,
+		"TimeOfDayEnterValueOverride": -1,
+		"TimeOfDayExitValueOverride": -1,
+		"Sequence": "/Game/Spicewood/Sequences/Miniscenes/MS46_MeadowsA2_Flyover/MS46_MeadowsA2_Flyover.MS46_MeadowsA2_Flyover",
+		"PreLoadedStreamingSources": [
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669FA9C902_1442354675"
+		],
+		"DoNotPreloadCutsceneOnPlatforms": [],
+		"AudioEnterStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Scene/Scene/Scene-MS46.Scene-MS46"
+		],
+		"AudioExitStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-None.Scene-None"
+		],
+		"ShouldUseStartingDelay": true,
+		"PostCutsceneTeleportPoint":
+		{
+			"TagName": "None"
+		},
+		"PostCutsceneTeleportPointSaveCheckpoint": true,
+		"LightingPresetPostCutscene":
+		{
+			"TagName": "SW.Lighting.Wellspring.MA2"
+		},
+		"DoNotAutoPlayInPIE": false
+	},
+	{
+		"Name": "CS27",
+		"CutsceneName":
+		{
+			"TagName": "SW.UI.Cutscene.Cutscenes.CS27"
+		},
+		"ProceduralAreaName":
+		{
+			"TagName": "None"
+		},
+		"ProceduralTileName": "",
+		"PlayOnce": true,
+		"TimeOfDayEnterValueOverride": -1,
+		"TimeOfDayExitValueOverride": -1,
+		"Sequence": "/Game/Spicewood/Sequences/Cutscenes/CS27_DeepDarkA2_SupremeEvokerIntro/CS27_DeepDarkA2_SupremeEvokerIntro.CS27_DeepDarkA2_SupremeEvokerIntro",
+		"PreLoadedStreamingSources": [
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669FA9C902_1864129677"
+		],
+		"DoNotPreloadCutsceneOnPlatforms": [],
+		"AudioEnterStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-CS27.Scene-CS27"
+		],
+		"AudioExitStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-None.Scene-None",
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-Arena02.InGameEventName-Arena02"
+		],
+		"ShouldUseStartingDelay": true,
+		"PostCutsceneTeleportPoint":
+		{
+			"TagName": "None"
+		},
+		"PostCutsceneTeleportPointSaveCheckpoint": true,
+		"LightingPresetPostCutscene":
+		{
+			"TagName": "SW.Lighting.DeepDark.A2"
+		},
+		"DoNotAutoPlayInPIE": false
+	},
+	{
+		"Name": "MS47",
+		"CutsceneName":
+		{
+			"TagName": "SW.UI.Cutscene.Miniscene.MS47"
+		},
+		"ProceduralAreaName":
+		{
+			"TagName": "None"
+		},
+		"ProceduralTileName": "",
+		"PlayOnce": true,
+		"TimeOfDayEnterValueOverride": -1,
+		"TimeOfDayExitValueOverride": -1,
+		"Sequence": "/Game/Spicewood/Sequences/Miniscenes/MS47_DeepDarkA2_EvokerDefeated/MS47_DeepDarkA2_EvokerDefeated.MS47_DeepDarkA2_EvokerDefeated",
+		"PreLoadedStreamingSources": [
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669FA9C902_1864129677"
+		],
+		"DoNotPreloadCutsceneOnPlatforms": [],
+		"AudioEnterStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Scene/Scene/Scene-MS47.Scene-MS47"
+		],
+		"AudioExitStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-None.Scene-None",
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Encounter/InGameEventName/InGameEventName-Arena03.InGameEventName-Arena03"
+		],
+		"ShouldUseStartingDelay": true,
+		"PostCutsceneTeleportPoint":
+		{
+			"TagName": "None"
+		},
+		"PostCutsceneTeleportPointSaveCheckpoint": true,
+		"LightingPresetPostCutscene":
+		{
+			"TagName": "SW.Lighting.DeepDark.A2"
+		},
+		"DoNotAutoPlayInPIE": false
+	},
+	{
+		"Name": "CS28",
+		"CutsceneName":
+		{
+			"TagName": "SW.UI.Cutscene.Cutscenes.CS28"
+		},
+		"ProceduralAreaName":
+		{
+			"TagName": "None"
+		},
+		"ProceduralTileName": "",
+		"PlayOnce": true,
+		"TimeOfDayEnterValueOverride": -1,
+		"TimeOfDayExitValueOverride": -1,
+		"Sequence": "/Game/Spicewood/Sequences/Cutscenes/CS28_Finale/CS28_Finale.CS28_Finale",
+		"PreLoadedStreamingSources": [
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669FA9C902_1864129677",
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669F6BC902_1674486721",
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669FDFCC02_2102060509",
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_6C5AB09B351EE4DC02_1442328163",
+			"/Game/Spicewood/Maps/Overworld/Overworld.Overworld:PersistentLevel.CutsceneStreamingSource_UAID_04421A22669F6CC902_1950042944"
+		],
+		"DoNotPreloadCutsceneOnPlatforms": [],
+		"AudioEnterStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-CS28.Scene-CS28"
+		],
+		"AudioExitStateOverrides": [
+			"/Game/Spicewood/Audio/Wwise/States/Default_Work_Unit/Narrative_Event/Scene/Scene-None.Scene-None"
+		],
+		"ShouldUseStartingDelay": true,
+		"PostCutsceneTeleportPoint":
+		{
+			"TagName": "SW.TeleportPoint.CS28"
+		},
+		"PostCutsceneTeleportPointSaveCheckpoint": true,
+		"LightingPresetPostCutscene":
+		{
+			"TagName": "SW.Lighting.Overworld"
+		},
+		"DoNotAutoPlayInPIE": false
+	}
+]

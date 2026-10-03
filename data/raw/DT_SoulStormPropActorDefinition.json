@@ -1,0 +1,4528 @@
+[
+	{
+		"Name": "Storminator",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.SoulStorm.Storminator.Base"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Trait.NonBumpable"
+				},
+				{
+					"TagName": "SW.PropActor.Default.HostileMob"
+				},
+				{
+					"TagName": "SW.TargetingProperties.Attackable"
+				},
+				{
+					"TagName": "SW.Property.SpawnActorCollisionHandlingMethod.AlwaysSpawn"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize.Dynamic.ExtendedCullDistance"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Trait"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.PropActor.Default"
+				},
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW.TargetingProperties"
+				},
+				{
+					"TagName": "SW.Property.SpawnActorCollisionHandlingMethod"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize.Dynamic"
+				},
+				{
+					"TagName": "SW.ReplicationGraph.RepSpatialize"
+				},
+				{
+					"TagName": "SW.ReplicationGraph"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/InWorldEvents/SoulStorm/Storminator/BP_Soulstorm_Pillar.BP_Soulstorm_Pillar_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.MobCost"
+				},
+				"Type": "Float",
+				"Float": 1
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.SpawnVerticalOffset"
+				},
+				"Type": "Float",
+				"Float": 110
+			}
+		],
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 800
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Resistance.KnockbackResistanceMultiplier"
+				},
+				"Value": 0
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.SoulDamageResistanceMultiplier"
+				},
+				"Value": 0.5
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.MeleeDamageResistanceMultiplier"
+				},
+				"Value": 0.8
+			}
+		],
+		"AttributeThresholds":
+		{
+			"Thresholds": [
+				{
+					"Event":
+					{
+						"TagName": "SW.GameplayEvent.SoulStorm.Health.BelowTarget"
+					},
+					"FireOnce": true,
+					"Attribute":
+					{
+						"TagName": "SW.Attribute.Health"
+					},
+					"Operator": "LessThan",
+					"CalculationType": "Relative",
+					"Value": 1
+				},
+				{
+					"Event":
+					{
+						"TagName": "SW.GameplayEvent.SoulStorm.Health.BelowTarget"
+					},
+					"FireOnce": true,
+					"Attribute":
+					{
+						"TagName": "SW.Attribute.Health"
+					},
+					"Operator": "LessThan",
+					"CalculationType": "Relative",
+					"Value": 0.9
+				},
+				{
+					"Event":
+					{
+						"TagName": "SW.GameplayEvent.SoulStorm.Health.BelowTarget"
+					},
+					"FireOnce": true,
+					"Attribute":
+					{
+						"TagName": "SW.Attribute.Health"
+					},
+					"Operator": "LessThan",
+					"CalculationType": "Relative",
+					"Value": 0.8
+				},
+				{
+					"Event":
+					{
+						"TagName": "SW.GameplayEvent.SoulStorm.Health.BelowTarget"
+					},
+					"FireOnce": true,
+					"Attribute":
+					{
+						"TagName": "SW.Attribute.Health"
+					},
+					"Operator": "LessThan",
+					"CalculationType": "Relative",
+					"Value": 0.7
+				},
+				{
+					"Event":
+					{
+						"TagName": "SW.GameplayEvent.SoulStorm.Health.BelowTarget"
+					},
+					"FireOnce": true,
+					"Attribute":
+					{
+						"TagName": "SW.Attribute.Health"
+					},
+					"Operator": "LessThan",
+					"CalculationType": "Relative",
+					"Value": 0.6
+				},
+				{
+					"Event":
+					{
+						"TagName": "SW.GameplayEvent.SoulStorm.Health.BelowTarget"
+					},
+					"FireOnce": true,
+					"Attribute":
+					{
+						"TagName": "SW.Attribute.Health"
+					},
+					"Operator": "LessThan",
+					"CalculationType": "Relative",
+					"Value": 0.5
+				},
+				{
+					"Event":
+					{
+						"TagName": "SW.GameplayEvent.SoulStorm.Health.BelowTarget"
+					},
+					"FireOnce": true,
+					"Attribute":
+					{
+						"TagName": "SW.Attribute.Health"
+					},
+					"Operator": "LessThan",
+					"CalculationType": "Relative",
+					"Value": 0.3
+				},
+				{
+					"Event":
+					{
+						"TagName": "SW.GameplayEvent.SoulStorm.Health.BelowTarget"
+					},
+					"FireOnce": true,
+					"Attribute":
+					{
+						"TagName": "SW.Attribute.Health"
+					},
+					"Operator": "LessThan",
+					"CalculationType": "Relative",
+					"Value": 0.2
+				}
+			]
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SoulstormPillarInternalSpawner",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.Soulstorm.StorminatorInternalSpawner"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 30
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "SpawnWaveAnim",
+								"Object": "/Game/Spicewood/Art/Characters/InWorldEvents/SoulStorm/Storminator/Animations/AM_Storminator_SpawnWave.AM_Storminator_SpawnWave"
+							},
+							{
+								"Name": "ActivationAnim",
+								"Object": "/Game/Spicewood/Art/Characters/InWorldEvents/SoulStorm/Storminator/Animations/AM_Storminator_Activate.AM_Storminator_Activate"
+							}
+						]
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_SoulstormPillarInternalData",
+						"WaveArray": [
+							{
+								"SpawnDefinition":
+								{
+									"TagName": "SW.SpawnDefinition.Creepers"
+								},
+								"SpawnFunctionOverride": "Circular_FacingTarget_StartingTargetDirection",
+								"MaxHealthPercentage": 100,
+								"MinHealthPercentage": 30,
+								"RandomInsideRadius": true,
+								"MaxRadius": 900,
+								"MinRadius": 900,
+								"SpawnInterval": 1,
+								"bForceUseMaxPopulation": false,
+								"MobBudgetForThisWave": 80,
+								"MobBudgetPlayerScaling": [ 1, 1, 1, 1 ]
+							},
+							{
+								"SpawnDefinition":
+								{
+									"TagName": "SW.SpawnDefinition.Storminator.Wave.Easy"
+								},
+								"SpawnFunctionOverride": "Circular_FacingTarget_StartingTargetDirection",
+								"MaxHealthPercentage": 100,
+								"MinHealthPercentage": 30,
+								"RandomInsideRadius": true,
+								"MaxRadius": 850,
+								"MinRadius": 850,
+								"SpawnInterval": 0.1,
+								"bForceUseMaxPopulation": false,
+								"MobBudgetForThisWave": 80,
+								"MobBudgetPlayerScaling": [ 1, 1, 1, 1 ]
+							},
+							{
+								"SpawnDefinition":
+								{
+									"TagName": "SW.SpawnDefinition.Storminator.Wave.SoulstatedUndead"
+								},
+								"SpawnFunctionOverride": "Circular_FacingTarget_StartingTargetDirection",
+								"MaxHealthPercentage": 75,
+								"MinHealthPercentage": 0,
+								"RandomInsideRadius": true,
+								"MaxRadius": 800,
+								"MinRadius": 800,
+								"SpawnInterval": 0.1,
+								"bForceUseMaxPopulation": false,
+								"MobBudgetForThisWave": 1,
+								"MobBudgetPlayerScaling": [ 1, 1, 1, 1 ]
+							},
+							{
+								"SpawnDefinition":
+								{
+									"TagName": "SW.SpawnDefinition.Sentinels.MeleeMix"
+								},
+								"SpawnFunctionOverride": "Circular_FacingTarget_StartingTargetDirection",
+								"MaxHealthPercentage": 100,
+								"MinHealthPercentage": 30,
+								"RandomInsideRadius": true,
+								"MaxRadius": 850,
+								"MinRadius": 850,
+								"SpawnInterval": 0.1,
+								"bForceUseMaxPopulation": false,
+								"MobBudgetForThisWave": 40,
+								"MobBudgetPlayerScaling": [ 1, 1.2, 1.5, 2 ]
+							}
+						],
+						"MobBudget": 80,
+						"MaxPopulation": 30,
+						"PostSpawnInjectionTags":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.SoulStorm.StorminatorSpawned"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW.SoulStorm"
+								},
+								{
+									"TagName": "SW"
+								}
+							]
+						},
+						"TotalMobBudgetPlayerScaling": [ 1, 1.2, 1.5, 2 ]
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SoulstormPillarInternalSpawner",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.Soulstorm.Hit"
+				},
+				"TriggeredByGameplayEvents":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.GameplayEvent.Hit"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.GameplayEvent"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 2
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 20
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "SpawnWaveAnim",
+								"Object": "/Game/Spicewood/Art/Characters/InWorldEvents/SoulStorm/Storminator/Animations/AM_Storminator_SpawnWave.AM_Storminator_SpawnWave"
+							},
+							{
+								"Name": "ActivationAnim",
+								"Object": "/Game/Spicewood/Art/Characters/InWorldEvents/SoulStorm/Storminator/Animations/AM_Storminator_Activate.AM_Storminator_Activate"
+							}
+						]
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_SoulstormPillarInternalData",
+						"WaveArray": [
+							{
+								"SpawnDefinition":
+								{
+									"TagName": "SW.SpawnDefinition.Storminator.Wave.Easy"
+								},
+								"SpawnFunctionOverride": "Circular_FacingTarget_StartingTargetDirection",
+								"MaxHealthPercentage": 100,
+								"MinHealthPercentage": 1,
+								"RandomInsideRadius": true,
+								"MaxRadius": 400,
+								"MinRadius": 1200,
+								"SpawnInterval": 1,
+								"bForceUseMaxPopulation": false,
+								"MobBudgetForThisWave": 30,
+								"MobBudgetPlayerScaling": [ 1, 1.2, 1.5, 1.75 ]
+							}
+						],
+						"MobBudget": 30,
+						"MaxPopulation": 3,
+						"PostSpawnInjectionTags":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.SoulStorm.StorminatorSpawned"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW.SoulStorm"
+								},
+								{
+									"TagName": "SW"
+								}
+							]
+						},
+						"TotalMobBudgetPlayerScaling": [ 1, 1.2, 1.5, 1.75 ]
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SpawnTypeSystemActors",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.Soulstorm.SpawnShield"
+				},
+				"TriggeredByGameplayEvents":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.GameplayEvent.SoulStorm.Health.BelowTarget"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.GameplayEvent.SoulStorm.Health"
+						},
+						{
+							"TagName": "SW.GameplayEvent.SoulStorm"
+						},
+						{
+							"TagName": "SW.GameplayEvent"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "SpawnAnim",
+								"Object": "None"
+							}
+						]
+					},
+					{
+						"Name": "Images"
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_SpawnTypeSystemActorsData",
+						"bSpawnFromLootTable": false,
+						"bIncludeAreaLootTable": false,
+						"bUseMobWaves": false,
+						"TagToSpawn":
+						{
+							"TagName": "SW.PropActor.SoulStorm.Barrier"
+						},
+						"SpawnFunctionOverride": "Circular",
+						"StartDelay": 0.01,
+						"WaitToContinuePreSpawnEvent":
+						{
+							"TagName": "None"
+						},
+						"TelegraphDelay": 0,
+						"SpawnInterval": 0.3,
+						"MinimumSpawns": 3,
+						"MaximumSpawns": 3,
+						"bTrackPopulation": true,
+						"MaxPopulation": 4,
+						"bDestroyAtWorldReset": true,
+						"SpawnLocationType":
+						{
+							"TagName": "SW.SpawnLocation.Owner"
+						},
+						"SpawnLocationIdentifier":
+						{
+							"TagName": "SW.Relation.SpawnLocation"
+						},
+						"SpawnRotationType":
+						{
+							"TagName": "SW.SpawnRotation.Default"
+						},
+						"RotateImage": false,
+						"ImageRotateOffset": 90,
+						"SpawnInstigatorHandlingMethod":
+						{
+							"TagName": "None"
+						},
+						"CollisionHandlingMethod": "AdjustIfPossibleButAlwaysSpawn",
+						"LocationHandlingMethod": "Reference",
+						"bTraceToFloor": true,
+						"GroundChecks": "EnsureOnGroundInNavmesh",
+						"AsyncTraceLengthOverride": -1,
+						"SpawnHeightOffset": 100,
+						"SpawnDirectionOffset": 0,
+						"bRandomiseSpawnDirection": false,
+						"bRandomRadius": true,
+						"MinRadius": 1000,
+						"MaxRadius": 1000,
+						"bRoundCalculatedPositionToGrid": false,
+						"LaunchVector":
+						{
+							"X": 0,
+							"Y": 0,
+							"Z": 0
+						},
+						"bCheckIfItemPowerShouldBeApplied": false,
+						"EndDelay": 0,
+						"bSuicideOnEnd": false,
+						"RunAnimationIndependent": false,
+						"AnimStartSectionName": "None",
+						"AnimSpawnSectionName": "None",
+						"TargetToFocus":
+						{
+							"TagName": "SW.AI.FocusTarget.None"
+						},
+						"bRandomiseAIPrimaryTargetOnSpawn": false,
+						"PreSpawnGameplayCue":
+						{
+							"TagName": "None"
+						},
+						"MinTargetHorizontalDistance": -1,
+						"MaxTargetHorizontalDistance": -1,
+						"MinTargetVerticalDistance": -1,
+						"MaxTargetVerticalDistance": -1,
+						"bDistributeTargetsToSpawnedActors": false,
+						"EventToSendTargetWith":
+						{
+							"TagName": "None"
+						},
+						"ActivationChanceAttribute":
+						{
+							"TagName": "None"
+						},
+						"PostSpawnOwnerEventType": "None",
+						"PostSpawnActorOwnerEvent":
+						{
+							"TagName": "None"
+						},
+						"PostSpawnActorActorEvent":
+						{
+							"TagName": "None"
+						},
+						"InheritTagsFromOwner":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.Team"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW"
+								}
+							]
+						},
+						"SummonedActorLifetimeManagementFlags": 0,
+						"OverrideSpawnAnim":
+						{
+							"TagName": "None"
+						},
+						"OverrideSpawnVFX":
+						{
+							"TagName": "None"
+						},
+						"PerceptionInstanceData":
+						{
+							"PerceptionInstanceMode": "Append"
+						},
+						"bAttachToOwnerSocket": false,
+						"SocketName": "None",
+						"GameplayCue":
+						{
+							"TagName": "None"
+						}
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SpawnTypeSystemActors",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.ApplyDeathEffects"
+				},
+				"TriggeredByGameplayEvents":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.GameplayEvent.SWASCActorDeath"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.GameplayEvent"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "SpawnAnim",
+								"Object": "None"
+							}
+						]
+					},
+					{
+						"Name": "Images"
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_SpawnTypeSystemActorsData",
+						"bSpawnFromLootTable": false,
+						"bIncludeAreaLootTable": false,
+						"bUseMobWaves": false,
+						"TagToSpawn":
+						{
+							"TagName": "SW.LootActor.StorminatorChest.Easy"
+						},
+						"SpawnFunctionOverride": "Default",
+						"StartDelay": 0,
+						"WaitToContinuePreSpawnEvent":
+						{
+							"TagName": "None"
+						},
+						"TelegraphDelay": 0,
+						"SpawnInterval": 0.1,
+						"MinimumSpawns": 1,
+						"MaximumSpawns": 1,
+						"bTrackPopulation": false,
+						"MaxPopulation": 2147483647,
+						"bDestroyAtWorldReset": false,
+						"SpawnLocationType":
+						{
+							"TagName": "SW.SpawnLocation.Owner"
+						},
+						"SpawnLocationIdentifier":
+						{
+							"TagName": "SW.Relation.SpawnLocation"
+						},
+						"SpawnRotationType":
+						{
+							"TagName": "SW.SpawnRotation.Default"
+						},
+						"RotateImage": false,
+						"ImageRotateOffset": 90,
+						"SpawnInstigatorHandlingMethod":
+						{
+							"TagName": "None"
+						},
+						"CollisionHandlingMethod": "AdjustIfPossibleButAlwaysSpawn",
+						"LocationHandlingMethod": "CopyOnActivation",
+						"bTraceToFloor": true,
+						"GroundChecks": "EnsureOnGroundInNavmesh",
+						"AsyncTraceLengthOverride": -1,
+						"SpawnHeightOffset": 0,
+						"SpawnDirectionOffset": 0,
+						"bRandomiseSpawnDirection": false,
+						"bRandomRadius": false,
+						"MinRadius": 0,
+						"MaxRadius": 0,
+						"bRoundCalculatedPositionToGrid": false,
+						"LaunchVector":
+						{
+							"X": 0,
+							"Y": 0,
+							"Z": 0
+						},
+						"bCheckIfItemPowerShouldBeApplied": false,
+						"EndDelay": 0,
+						"bSuicideOnEnd": false,
+						"RunAnimationIndependent": false,
+						"AnimStartSectionName": "None",
+						"AnimSpawnSectionName": "None",
+						"TargetToFocus":
+						{
+							"TagName": "SW.AI.FocusTarget.None"
+						},
+						"bRandomiseAIPrimaryTargetOnSpawn": false,
+						"PreSpawnGameplayCue":
+						{
+							"TagName": "None"
+						},
+						"MinTargetHorizontalDistance": -1,
+						"MaxTargetHorizontalDistance": -1,
+						"MinTargetVerticalDistance": -1,
+						"MaxTargetVerticalDistance": -1,
+						"bDistributeTargetsToSpawnedActors": false,
+						"EventToSendTargetWith":
+						{
+							"TagName": "None"
+						},
+						"ActivationChanceAttribute":
+						{
+							"TagName": "None"
+						},
+						"PostSpawnOwnerEventType": "None",
+						"PostSpawnActorOwnerEvent":
+						{
+							"TagName": "None"
+						},
+						"PostSpawnActorActorEvent":
+						{
+							"TagName": "None"
+						},
+						"SummonedActorLifetimeManagementFlags": 0,
+						"OverrideSpawnAnim":
+						{
+							"TagName": "None"
+						},
+						"OverrideSpawnVFX":
+						{
+							"TagName": "None"
+						},
+						"PerceptionInstanceData":
+						{
+							"PerceptionInstanceMode": "Append"
+						},
+						"bAttachToOwnerSocket": false,
+						"SocketName": "None",
+						"GameplayCue":
+						{
+							"TagName": "None"
+						}
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SoulstormPillarInternalSpawner",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.Soulstorm.StorminatorHealthThresholdSpawn"
+				},
+				"TriggeredByGameplayEvents":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.GameplayEvent.SoulStorm.Health.BelowTarget"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.GameplayEvent.SoulStorm.Health"
+						},
+						{
+							"TagName": "SW.GameplayEvent.SoulStorm"
+						},
+						{
+							"TagName": "SW.GameplayEvent"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "SpawnWaveAnim",
+								"Object": "/Game/Spicewood/Art/Characters/InWorldEvents/SoulStorm/Storminator/Animations/AM_Storminator_SpawnWave.AM_Storminator_SpawnWave"
+							},
+							{
+								"Name": "ActivationAnim",
+								"Object": "/Game/Spicewood/Art/Characters/InWorldEvents/SoulStorm/Storminator/Animations/AM_Storminator_Activate.AM_Storminator_Activate"
+							}
+						]
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_SoulstormPillarInternalData",
+						"WaveArray": [
+							{
+								"SpawnDefinition":
+								{
+									"TagName": "SW.SpawnDefinition.Creepers"
+								},
+								"SpawnFunctionOverride": "Circular_FacingTarget_StartingTargetDirection",
+								"MaxHealthPercentage": 100,
+								"MinHealthPercentage": 30,
+								"RandomInsideRadius": true,
+								"MaxRadius": 900,
+								"MinRadius": 900,
+								"SpawnInterval": 1,
+								"bForceUseMaxPopulation": false,
+								"MobBudgetForThisWave": 80,
+								"MobBudgetPlayerScaling": [ 1, 1.5, 2, 2.5 ]
+							},
+							{
+								"SpawnDefinition":
+								{
+									"TagName": "SW.SpawnDefinition.Storminator.Wave.Easy"
+								},
+								"SpawnFunctionOverride": "Circular_FacingTarget_StartingTargetDirection",
+								"MaxHealthPercentage": 100,
+								"MinHealthPercentage": 30,
+								"RandomInsideRadius": true,
+								"MaxRadius": 850,
+								"MinRadius": 850,
+								"SpawnInterval": 0.1,
+								"bForceUseMaxPopulation": false,
+								"MobBudgetForThisWave": 80,
+								"MobBudgetPlayerScaling": [ 1, 1.5, 2, 2.5 ]
+							},
+							{
+								"SpawnDefinition":
+								{
+									"TagName": "SW.SpawnDefinition.Storminator.Wave.SoulstatedUndead"
+								},
+								"SpawnFunctionOverride": "Circular_FacingTarget_StartingTargetDirection",
+								"MaxHealthPercentage": 75,
+								"MinHealthPercentage": 0,
+								"RandomInsideRadius": true,
+								"MaxRadius": 800,
+								"MinRadius": 800,
+								"SpawnInterval": 0.1,
+								"bForceUseMaxPopulation": false,
+								"MobBudgetForThisWave": 5,
+								"MobBudgetPlayerScaling": [ 0.5, 1.2, 1.5, 2 ]
+							},
+							{
+								"SpawnDefinition":
+								{
+									"TagName": "SW.SpawnDefinition.Sentinels.MeleeMix"
+								},
+								"SpawnFunctionOverride": "Circular_FacingTarget_StartingTargetDirection",
+								"MaxHealthPercentage": 100,
+								"MinHealthPercentage": 30,
+								"RandomInsideRadius": true,
+								"MaxRadius": 850,
+								"MinRadius": 850,
+								"SpawnInterval": 0.1,
+								"bForceUseMaxPopulation": false,
+								"MobBudgetForThisWave": 40,
+								"MobBudgetPlayerScaling": [ 1, 1.5, 1.75, 2 ]
+							}
+						],
+						"MobBudget": 80,
+						"MaxPopulation": 30,
+						"PostSpawnInjectionTags":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.SoulStorm.StorminatorSpawned"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW.SoulStorm"
+								},
+								{
+									"TagName": "SW"
+								}
+							]
+						},
+						"TotalMobBudgetPlayerScaling": [ 1, 1.5, 2, 2.5 ]
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_DropSoulsOnHealthLoss",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SoulsPerHealthLost"
+						},
+						"Type": "Float",
+						"Float": 0.1
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivateOnGive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_BindStorminatorEvents",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.Soulstorm.EventBinder"
+				},
+				"TriggeredByGameplayEvents":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.GameplayEvent.Spawn"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.GameplayEvent"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_AdditionalStorminatorDeathData",
+						"Difficulty": "Any",
+						"ShouldNotifyOwnerOnDeath": false,
+						"NotifyTag":
+						{
+							"TagName": "None"
+						}
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_ActivateAbilityOnTimer",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"TriggeredByGameplayEvents":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.GameplayEvent.SoulStorm.Pillar.Activated"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.GameplayEvent.SoulStorm.Pillar"
+						},
+						{
+							"TagName": "SW.GameplayEvent.SoulStorm"
+						},
+						{
+							"TagName": "SW.GameplayEvent"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer",
+						"GameplayTagContainer":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.State.SoulStorm.StorminatorActive"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW.State.SoulStorm"
+								},
+								{
+									"TagName": "SW.State"
+								},
+								{
+									"TagName": "SW"
+								}
+							]
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_ActivateAbilityOnTimerInternalData",
+						"TargetAbilityCallsign":
+						{
+							"TagName": "SW.AbilityCallsign.Soulstorm.StorminatorInternalSpawner"
+						},
+						"EventTag":
+						{
+							"TagName": "SW.GameplayEvent.StorminatorInternalSpawner"
+						},
+						"TimerDuration": 60,
+						"bLoop": true
+					}
+				]
+			}
+		],
+		"AIStateTree": "/Game/Spicewood/GameplayLogic/StateTrees/ST_Storminator.ST_Storminator",
+		"DeathReasons":
+		{
+		},
+		"ComponentDefinition":
+		{
+			"ClientComponents":
+			{
+				"(TagName=\"SW.ActorComponent.Health\")":
+				{
+					"Components": [
+						"/SpicewoodUI/Spicewood/UI/EnemyBossHealthbar/BP_EnemyBossHealthbarComponent.BP_EnemyBossHealthbarComponent_C"
+					]
+				}
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_SoulStormPropActorDefinition.csv\", \"SW_PropActor_SoulStorm_Storminator_Base_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.GMR.SoulStorm.Spawn\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.GMR.SoulStorm.End\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.GMR.SoulStorm.NewWave\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.GMR.SoulStorm.DamageThreshold\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.GMR.SoulStorm.Enter\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.GMR.SoulStorm.Exit\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+			"InstanceData": [
+				{
+					"InstancedStructScriptStruct": "/Script/Minimap.SWTypedMapMarkerInstanceData",
+					"WorldContext": "None",
+					"RegistrationData":
+					{
+						"WorldLocation":
+						{
+							"X": 0,
+							"Y": 0,
+							"Z": 0
+						},
+						"MarkerId": 0,
+						"MarkerType": "None",
+						"AlwaysVisibleInRegion": false,
+						"Payload":
+						{
+							"InstancedStructScriptStruct": "/Script/Minimap.SWTypedMapMarkerPayload",
+							"TypeTag":
+							{
+								"TagName": "None"
+							}
+						},
+						"ReplicationID": -1,
+						"ReplicationKey": -1,
+						"MostRecentArrayReplicationKey": -1
+					}
+				}
+			]
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+			"ContextConfigs":
+			{
+				"Minimap":
+				{
+					"WidgetClass": "None",
+					"WidgetClassMinimap": "None",
+					"Icon": "/SpicewoodUI/Spicewood/UI/Texture/Minimap/Icons/T_UI_Icon_Storminator.T_UI_Icon_Storminator",
+					"IconSize": "",
+					"EffectMaterial": "",
+					"EffectSize": "",
+					"AudioTag":
+					{
+						"TagName": "None"
+					}
+				},
+				"WorldMap":
+				{
+					"WidgetClass": "None",
+					"WidgetClassMinimap": "None",
+					"Icon": "/SpicewoodUI/Spicewood/UI/Texture/WorldMap/Icons/T_UI_Icon_Storminator.T_UI_Icon_Storminator",
+					"IconSize": "",
+					"EffectMaterial": "",
+					"EffectSize": "",
+					"AudioTag":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "Shieldinator",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.SoulStorm.Barrier"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Trait.NonBumpable"
+				},
+				{
+					"TagName": "SW.PropActor.Default.HostileMob"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.TargetingProperties.Attackable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Trait"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.PropActor.Default"
+				},
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.TargetingProperties"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/InWorldEvents/SoulStorm/Shieldinator/BP_Soulstorm_Shield.BP_Soulstorm_Shield_C",
+		"AbilitySpecialization":
+		{
+			"Specializations": [
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_HandleFinalDeath",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.HandleFinalDeath"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.OnDeathCueTag"
+								},
+								"Type": "GameplayTag",
+								"GameplayTag":
+								{
+									"TagName": "GameplayCue.SW.Death.Shieldinator"
+								}
+							},
+							"ModOp": "Override"
+						}
+					]
+				}
+			]
+		},
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.MobCost"
+				},
+				"Type": "Float",
+				"Float": 1
+			},
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.SpawnVerticalOffset"
+				},
+				"Type": "Float",
+				"Float": 110
+			}
+		],
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 55
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Resistance.KnockbackResistanceMultiplier"
+				},
+				"Value": 0
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.SoulDamageResistanceMultiplier"
+				},
+				"Value": 0.5
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.MeleeDamageResistanceMultiplier"
+				},
+				"Value": 0.8
+			}
+		],
+		"AttributeThresholds":
+		{
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SoulstormStorminatorBarrier",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"TriggeredByGameplayEvents":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.GameplayEvent.Spawn"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.GameplayEvent"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_SoulstormStorminatorBarrierInstanceData",
+						"EffectsToAdd":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.GameplayEffect.Invulnerable.Storminator"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW.GameplayEffect.Invulnerable"
+								},
+								{
+									"TagName": "SW.GameplayEffect"
+								},
+								{
+									"TagName": "SW"
+								}
+							]
+						},
+						"Radius": 1500,
+						"ValidTargets":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.PropActor.SoulStorm.Storminator"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW.PropActor.SoulStorm"
+								},
+								{
+									"TagName": "SW.PropActor"
+								},
+								{
+									"TagName": "SW"
+								}
+							]
+						},
+						"GameplayCueToRun":
+						{
+							"TagName": "GameplayCue.SW.StatusEffect.Enchanted.Storminator"
+						}
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_PlayAnimation",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.OnHitEffect"
+				},
+				"TriggeredByGameplayEvents":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.GameplayEvent.Hit"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.GameplayEvent"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"SpecificKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Section1Name"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Section1AnimationModifierTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Section2Name"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Section2AnimationModifierTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Section3Name"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Section3AnimationModifierTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Section4Name"
+						},
+						"Type": "String",
+						"String": "None"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.Section4AnimationModifierTag"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.LoopingSectionID"
+						},
+						"Type": "Int",
+						"Int": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.LoopSeconds"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationAddTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationRemoveTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.DeactivationAddTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.DeactivationRemoveTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.UseReplicationForTags"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 2
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "Anim",
+								"Object": "/Game/Spicewood/Art/Characters/InWorldEvents/SoulStorm/Shieldinator/Animations/AM_Shieldinator_Stagger.AM_Shieldinator_Stagger"
+							}
+						]
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_HandleOnSpawnCuesAndAnims",
+				"AbilityCallsign":
+				{
+					"TagName": "None"
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_OnSpawnCuesAndAnimationsParameters",
+						"SectionNameOverride": "None",
+						"AnimDelay": 0.5
+					}
+				]
+			}
+		],
+		"AIStateTree": "/Game/Spicewood/GameplayLogic/StateTrees/ST_StorminatorBarrier.ST_StorminatorBarrier",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+			"SpawnAnimations":
+			{
+				"(TagName=\"SW.SpawnEffects.Animation\")": "/Game/Spicewood/Art/Characters/InWorldEvents/SoulStorm/Shieldinator/Animations/AM_Shieldinator_Spawn.AM_Shieldinator_Spawn"
+			}
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+		}
+	},
+	{
+		"Name": "Storminator_Easy",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.SoulStorm.Storminator.Easy"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.PropActor.SoulStorm.Storminator.Base"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.PropActor.SoulStorm.Storminator"
+				},
+				{
+					"TagName": "SW.PropActor.SoulStorm"
+				},
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/InWorldEvents/SoulStorm/Storminator/BP_Soulstorm_Pillar_Easy.BP_Soulstorm_Pillar_Easy_C",
+		"AbilitySpecialization":
+		{
+			"Specializations": [
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_HandleFinalDeath",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.HandleFinalDeath"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.OnDeathCueTag"
+								},
+								"Type": "GameplayTag",
+								"GameplayTag":
+								{
+									"TagName": "GameplayCue.SW.Death.StorminatorEasy"
+								}
+							},
+							"ModOp": "Override"
+						}
+					]
+				},
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_SoulstormPillarInternalSpawner",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.Soulstorm.Hit"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.ActivationChance"
+								},
+								"Type": "Int",
+								"Int": 0
+							},
+							"ModOp": "Override"
+						}
+					],
+					"InstanceDataSpecializations": [
+						{
+							"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_SoulstormPillarInternalData"
+						}
+					]
+				},
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_BindStorminatorEvents",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.Soulstorm.EventBinder"
+					},
+					"InstanceDataSpecializations": [
+						{
+							"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_AdditionalStorminatorDeathData"
+						}
+					]
+				}
+			]
+		},
+		"AttributeThresholds":
+		{
+			"Thresholds": [
+				{
+					"Event":
+					{
+						"TagName": "SW.GameplayEvent.SoulStorm.Health.FinalThreshold"
+					},
+					"FireOnce": true,
+					"Attribute":
+					{
+						"TagName": "SW.Attribute.Health"
+					},
+					"Operator": "LessThan",
+					"CalculationType": "Relative",
+					"Value": 0.2
+				}
+			]
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SoulstormPillarInternalSpawner",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.Soulstorm.StorminatorHealthFinalThreshold"
+				},
+				"TriggeredByGameplayEvents":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.GameplayEvent.SoulStorm.Health.FinalThreshold"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.GameplayEvent.SoulStorm.Health"
+						},
+						{
+							"TagName": "SW.GameplayEvent.SoulStorm"
+						},
+						{
+							"TagName": "SW.GameplayEvent"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "SpawnWaveAnim",
+								"Object": "/Game/Spicewood/Art/Characters/InWorldEvents/SoulStorm/Storminator/Animations/AM_Storminator_SpawnWave.AM_Storminator_SpawnWave"
+							},
+							{
+								"Name": "ActivationAnim",
+								"Object": "/Game/Spicewood/Art/Characters/InWorldEvents/SoulStorm/Storminator/Animations/AM_Storminator_Activate.AM_Storminator_Activate"
+							}
+						]
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_SoulstormPillarInternalData",
+						"WaveArray": [
+							{
+								"SpawnDefinition":
+								{
+									"TagName": "SW.SpawnDefinition.Storminator.Wave.SoulstatedUndead"
+								},
+								"SpawnFunctionOverride": "Circular_FacingTarget_StartingTargetDirection",
+								"MaxHealthPercentage": 75,
+								"MinHealthPercentage": 0,
+								"RandomInsideRadius": true,
+								"MaxRadius": 800,
+								"MinRadius": 0,
+								"SpawnInterval": 0.1,
+								"bForceUseMaxPopulation": false,
+								"MobBudgetForThisWave": 1,
+								"MobBudgetPlayerScaling": [ 1, 1.2, 1.5, 2 ]
+							}
+						],
+						"MobBudget": 1,
+						"MaxPopulation": 1,
+						"PostSpawnInjectionTags":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.SoulStorm.StorminatorSpawned"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW.SoulStorm"
+								},
+								{
+									"TagName": "SW"
+								}
+							]
+						},
+						"TotalMobBudgetPlayerScaling": [ 1, 1.2, 1.5, 2 ]
+					}
+				]
+			}
+		],
+		"AIStateTree": "/Game/Spicewood/GameplayLogic/StateTrees/ST_Storminator.ST_Storminator",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.GMR.SoulStorm.Spawn\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.GMR.SoulStorm.End\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.GMR.SoulStorm.NewWave\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.GMR.SoulStorm.DamageThreshold\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.GMR.SoulStorm.Enter\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.GMR.SoulStorm.Exit\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+			"TagMap":
+			{
+				"(AttributeName=\"HealthMax\",Attribute=/Script/SpicewoodGAS.ATR_Health:HealthMax,AttributeOwner=None)":
+				{
+					"Multipliers": [ 1, 1.5, 2, 2.5 ]
+				}
+			}
+		}
+	},
+	{
+		"Name": "Storminator_Medium",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.SoulStorm.Storminator.Medium"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.PropActor.SoulStorm.Storminator.Base"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.PropActor.SoulStorm.Storminator"
+				},
+				{
+					"TagName": "SW.PropActor.SoulStorm"
+				},
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/InWorldEvents/SoulStorm/Storminator/BP_Soulstorm_Pillar_Medium.BP_Soulstorm_Pillar_Medium_C",
+		"AbilitySpecialization":
+		{
+			"Specializations": [
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_SpawnTypeSystemActors",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.Soulstorm.SpawnShield"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.ActivationChance"
+								},
+								"Type": "Int",
+								"Int": 16
+							},
+							"ModOp": "Override"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.CooldownDuration"
+								},
+								"Type": "Float",
+								"Float": 60
+							},
+							"ModOp": "Override"
+						}
+					],
+					"InstanceDataSpecializations": [
+						{
+							"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_SpawnTypeSystemActorsData"
+						}
+					]
+				},
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_SpawnTypeSystemActors",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.ApplyDeathEffects"
+					},
+					"InstanceDataSpecializations": [
+						{
+							"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_SpawnTypeSystemActorsData"
+						}
+					]
+				},
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_HandleFinalDeath",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.HandleFinalDeath"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.OnDeathCueTag"
+								},
+								"Type": "GameplayTag",
+								"GameplayTag":
+								{
+									"TagName": "GameplayCue.SW.Death.StorminatorMedium"
+								}
+							},
+							"ModOp": "Override"
+						}
+					]
+				},
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_BindStorminatorEvents",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.Soulstorm.EventBinder"
+					},
+					"InstanceDataSpecializations": [
+						{
+							"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_AdditionalStorminatorDeathData"
+						}
+					]
+				},
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_ActivateAbilityOnTimer",
+					"AbilityCallsign":
+					{
+						"TagName": "None"
+					},
+					"InstanceDataSpecializations": [
+						{
+							"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_ActivateAbilityOnTimerInternalData",
+							"TimerDuration": 45,
+							"ModOps": [
+								{
+									"PropertyName": "TimerDuration",
+									"ModOp": "Override"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 1000
+			}
+		],
+		"AttributeThresholds":
+		{
+			"Thresholds": [
+				{
+					"Event":
+					{
+						"TagName": "SW.GameplayEvent.SoulStorm.Health.FinalThreshold"
+					},
+					"FireOnce": true,
+					"Attribute":
+					{
+						"TagName": "SW.Attribute.Health"
+					},
+					"Operator": "LessThan",
+					"CalculationType": "Relative",
+					"Value": 0.4
+				},
+				{
+					"Event":
+					{
+						"TagName": "SW.GameplayEvent.SoulStorm.Health.HitActivator"
+					},
+					"FireOnce": false,
+					"Attribute":
+					{
+						"TagName": "SW.Attribute.Health"
+					},
+					"Operator": "LessThan",
+					"CalculationType": "Relative",
+					"Value": 0.7
+				},
+				{
+					"Event":
+					{
+						"TagName": "SW.GameplayEvent.SoulStorm.Health.BelowTarget"
+					},
+					"FireOnce": true,
+					"Attribute":
+					{
+						"TagName": "SW.Attribute.Health"
+					},
+					"Operator": "LessThan",
+					"CalculationType": "Relative",
+					"Value": 0.1
+				}
+			]
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SoulstormPillarInternalSpawner",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.Soulstorm.StorminatorHealthFinalThreshold"
+				},
+				"TriggeredByGameplayEvents":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.GameplayEvent.SoulStorm.Health.FinalThreshold"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.GameplayEvent.SoulStorm.Health"
+						},
+						{
+							"TagName": "SW.GameplayEvent.SoulStorm"
+						},
+						{
+							"TagName": "SW.GameplayEvent"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "SpawnWaveAnim",
+								"Object": "/Game/Spicewood/Art/Characters/InWorldEvents/SoulStorm/Storminator/Animations/AM_Storminator_SpawnWave.AM_Storminator_SpawnWave"
+							},
+							{
+								"Name": "ActivationAnim",
+								"Object": "/Game/Spicewood/Art/Characters/InWorldEvents/SoulStorm/Storminator/Animations/AM_Storminator_Activate.AM_Storminator_Activate"
+							}
+						]
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_SoulstormPillarInternalData",
+						"WaveArray": [
+							{
+								"SpawnDefinition":
+								{
+									"TagName": "SW.SpawnDefinition.Storminator.Wave.Type2"
+								},
+								"SpawnFunctionOverride": "Circular_FacingTarget_StartingTargetDirection",
+								"MaxHealthPercentage": 100,
+								"MinHealthPercentage": 0,
+								"RandomInsideRadius": true,
+								"MaxRadius": 800,
+								"MinRadius": 0,
+								"SpawnInterval": 0.1,
+								"bForceUseMaxPopulation": false,
+								"MobBudgetForThisWave": 1,
+								"MobBudgetPlayerScaling": [ 1, 1, 1, 1 ]
+							}
+						],
+						"MobBudget": 1,
+						"MaxPopulation": 1,
+						"PostSpawnInjectionTags":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.SoulStorm.StorminatorSpawned"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW.SoulStorm"
+								},
+								{
+									"TagName": "SW"
+								}
+							]
+						},
+						"TotalMobBudgetPlayerScaling": [ 1, 1, 1, 1 ]
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SoulstormPillarInternalSpawner",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.Soulstorm.HitActivator"
+				},
+				"TriggeredByGameplayEvents":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.GameplayEvent.SoulStorm.Health.HitActivator"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.GameplayEvent.SoulStorm.Health"
+						},
+						{
+							"TagName": "SW.GameplayEvent.SoulStorm"
+						},
+						{
+							"TagName": "SW.GameplayEvent"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 5
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 30
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "SpawnWaveAnim",
+								"Object": "/Game/Spicewood/Art/Characters/InWorldEvents/SoulStorm/Storminator/Animations/AM_Storminator_SpawnWave.AM_Storminator_SpawnWave"
+							},
+							{
+								"Name": "ActivationAnim",
+								"Object": "/Game/Spicewood/Art/Characters/InWorldEvents/SoulStorm/Storminator/Animations/AM_Storminator_Activate.AM_Storminator_Activate"
+							}
+						]
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_SoulstormPillarInternalData",
+						"WaveArray": [
+							{
+								"SpawnDefinition":
+								{
+									"TagName": "SW.SpawnDefinition.Storminator.Wave.Easy"
+								},
+								"SpawnFunctionOverride": "Circular_FacingTarget_StartingTargetDirection",
+								"MaxHealthPercentage": 100,
+								"MinHealthPercentage": 1,
+								"RandomInsideRadius": true,
+								"MaxRadius": 400,
+								"MinRadius": 1200,
+								"SpawnInterval": 1,
+								"bForceUseMaxPopulation": false,
+								"MobBudgetForThisWave": 30,
+								"MobBudgetPlayerScaling": [ 1, 1.15, 1.3, 1.45 ]
+							}
+						],
+						"MobBudget": 30,
+						"MaxPopulation": 10,
+						"PostSpawnInjectionTags":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.SoulStorm.StorminatorSpawned"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW.SoulStorm"
+								},
+								{
+									"TagName": "SW"
+								}
+							]
+						},
+						"TotalMobBudgetPlayerScaling": [ 1, 1.15, 1.3, 1.45 ]
+					}
+				]
+			}
+		],
+		"AIStateTree": "/Game/Spicewood/GameplayLogic/StateTrees/ST_Storminator.ST_Storminator",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.GMR.SoulStorm.Spawn\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.GMR.SoulStorm.End\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.GMR.SoulStorm.NewWave\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.GMR.SoulStorm.DamageThreshold\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.GMR.SoulStorm.Enter\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.GMR.SoulStorm.Exit\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+			"TagMap":
+			{
+				"(AttributeName=\"HealthMax\",Attribute=/Script/SpicewoodGAS.ATR_Health:HealthMax,AttributeOwner=None)":
+				{
+					"Multipliers": [ 1, 1.5, 2, 2.5 ]
+				}
+			}
+		}
+	},
+	{
+		"Name": "Storminator_Hard",
+		"TypeTag":
+		{
+			"TagName": "SW.PropActor.SoulStorm.Storminator.Hard"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.PropActor.SoulStorm.Storminator.Base"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.PropActor.SoulStorm.Storminator"
+				},
+				{
+					"TagName": "SW.PropActor.SoulStorm"
+				},
+				{
+					"TagName": "SW.PropActor"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"ActorReference": "/Game/Spicewood/Art/Characters/InWorldEvents/SoulStorm/Storminator/BP_Soulstorm_Pillar_Hard.BP_Soulstorm_Pillar_Hard_C",
+		"AbilitySpecialization":
+		{
+			"Specializations": [
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_SpawnTypeSystemActors",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.Soulstorm.SpawnShield"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.ActivationChance"
+								},
+								"Type": "Int",
+								"Int": 40
+							},
+							"ModOp": "Override"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.CooldownDuration"
+								},
+								"Type": "Float",
+								"Float": 45
+							},
+							"ModOp": "Override"
+						}
+					],
+					"InstanceDataSpecializations": [
+						{
+							"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_SpawnTypeSystemActorsData"
+						}
+					]
+				},
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_SpawnTypeSystemActors",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.ApplyDeathEffects"
+					},
+					"InstanceDataSpecializations": [
+						{
+							"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_SpawnTypeSystemActorsData"
+						}
+					]
+				},
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_HandleFinalDeath",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.HandleFinalDeath"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.OnDeathCueTag"
+								},
+								"Type": "GameplayTag",
+								"GameplayTag":
+								{
+									"TagName": "GameplayCue.SW.Death.StorminatorHard"
+								}
+							},
+							"ModOp": "Override"
+						}
+					]
+				},
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_BindStorminatorEvents",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.Soulstorm.EventBinder"
+					},
+					"InstanceDataSpecializations": [
+						{
+							"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_AdditionalStorminatorDeathData"
+						}
+					]
+				},
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_ActivateAbilityOnTimer",
+					"AbilityCallsign":
+					{
+						"TagName": "None"
+					},
+					"InstanceDataSpecializations": [
+						{
+							"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_ActivateAbilityOnTimerInternalData",
+							"TimerDuration": 30,
+							"ModOps": [
+								{
+									"PropertyName": "TimerDuration",
+									"ModOp": "Override"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 1200
+			}
+		],
+		"AttributeThresholds":
+		{
+			"Thresholds": [
+				{
+					"Event":
+					{
+						"TagName": "SW.GameplayEvent.SoulStorm.Health.FinalThreshold"
+					},
+					"FireOnce": true,
+					"Attribute":
+					{
+						"TagName": "SW.Attribute.Health"
+					},
+					"Operator": "LessThan",
+					"CalculationType": "Relative",
+					"Value": 0.4
+				},
+				{
+					"Event":
+					{
+						"TagName": "SW.GameplayEvent.SoulStorm.Health.HitActivator"
+					},
+					"FireOnce": false,
+					"Attribute":
+					{
+						"TagName": "SW.Attribute.Health"
+					},
+					"Operator": "LessThan",
+					"CalculationType": "Relative",
+					"Value": 0.7
+				},
+				{
+					"Event":
+					{
+						"TagName": "SW.GameplayEvent.SoulStorm.Health.BelowTarget"
+					},
+					"FireOnce": true,
+					"Attribute":
+					{
+						"TagName": "SW.Attribute.Health"
+					},
+					"Operator": "LessThan",
+					"CalculationType": "Relative",
+					"Value": 0.55
+				},
+				{
+					"Event":
+					{
+						"TagName": "SW.GameplayEvent.SoulStorm.Health.BelowTarget"
+					},
+					"FireOnce": true,
+					"Attribute":
+					{
+						"TagName": "SW.Attribute.Health"
+					},
+					"Operator": "LessThan",
+					"CalculationType": "Relative",
+					"Value": 0.75
+				},
+				{
+					"Event":
+					{
+						"TagName": "SW.GameplayEvent.SoulStorm.Health.BelowTarget"
+					},
+					"FireOnce": true,
+					"Attribute":
+					{
+						"TagName": "SW.Attribute.Health"
+					},
+					"Operator": "LessThan",
+					"CalculationType": "Relative",
+					"Value": 0.95
+				},
+				{
+					"Event":
+					{
+						"TagName": "SW.GameplayEvent.SoulStorm.Health.BelowTarget"
+					},
+					"FireOnce": true,
+					"Attribute":
+					{
+						"TagName": "SW.Attribute.Health"
+					},
+					"Operator": "LessThan",
+					"CalculationType": "Relative",
+					"Value": 0.1
+				},
+				{
+					"Event":
+					{
+						"TagName": "SW.GameplayEvent.SoulStorm.Health.BelowTarget"
+					},
+					"FireOnce": true,
+					"Attribute":
+					{
+						"TagName": "SW.Attribute.Health"
+					},
+					"Operator": "LessThan",
+					"CalculationType": "Relative",
+					"Value": 0.05
+				}
+			]
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"Abilities": [
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SoulstormPillarInternalSpawner",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.Soulstorm.StorminatorHealthFinalThreshold"
+				},
+				"TriggeredByGameplayEvents":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.GameplayEvent.SoulStorm.Health.FinalThreshold"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.GameplayEvent.SoulStorm.Health"
+						},
+						{
+							"TagName": "SW.GameplayEvent.SoulStorm"
+						},
+						{
+							"TagName": "SW.GameplayEvent"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 100
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "SpawnWaveAnim",
+								"Object": "/Game/Spicewood/Art/Characters/InWorldEvents/SoulStorm/Storminator/Animations/AM_Storminator_SpawnWave.AM_Storminator_SpawnWave"
+							},
+							{
+								"Name": "ActivationAnim",
+								"Object": "/Game/Spicewood/Art/Characters/InWorldEvents/SoulStorm/Storminator/Animations/AM_Storminator_Activate.AM_Storminator_Activate"
+							}
+						]
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_SoulstormPillarInternalData",
+						"WaveArray": [
+							{
+								"SpawnDefinition":
+								{
+									"TagName": "SW.SpawnDefinition.Storminator.Wave.Type3"
+								},
+								"SpawnFunctionOverride": "Circular_FacingTarget_StartingTargetDirection",
+								"MaxHealthPercentage": 100,
+								"MinHealthPercentage": 0,
+								"RandomInsideRadius": true,
+								"MaxRadius": 800,
+								"MinRadius": 500,
+								"SpawnInterval": 0.1,
+								"bForceUseMaxPopulation": false,
+								"MobBudgetForThisWave": 1,
+								"MobBudgetPlayerScaling": [ 1, 1, 1, 1 ]
+							}
+						],
+						"MobBudget": 1,
+						"MaxPopulation": 1,
+						"PostSpawnInjectionTags":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.SoulStorm.StorminatorSpawned"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW.SoulStorm"
+								},
+								{
+									"TagName": "SW"
+								}
+							]
+						},
+						"TotalMobBudgetPlayerScaling": [ 1, 1, 1, 1 ]
+					}
+				]
+			},
+			{
+				"Ability": "/Script/SpicewoodGAS.GA_SoulstormPillarInternalSpawner",
+				"AbilityCallsign":
+				{
+					"TagName": "SW.AbilityCallsign.Soulstorm.HitActivator"
+				},
+				"TriggeredByGameplayEvents":
+				{
+					"GameplayTags": [
+						{
+							"TagName": "SW.GameplayEvent.SoulStorm.Health.HitActivator"
+						}
+					],
+					"ParentTags": [
+						{
+							"TagName": "SW.GameplayEvent.SoulStorm.Health"
+						},
+						{
+							"TagName": "SW.GameplayEvent.SoulStorm"
+						},
+						{
+							"TagName": "SW.GameplayEvent"
+						},
+						{
+							"TagName": "SW"
+						}
+					]
+				},
+				"ActivationBoundToGrantingUID": false,
+				"EnhancedInputTag":
+				{
+					"TagName": "None"
+				},
+				"GameplayEffect":
+				{
+				},
+				"CommonKeyValues": [
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TimeOfDay"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.InteractionEvent"
+						},
+						"Type": "GameplayTag",
+						"GameplayTag":
+						{
+							"TagName": "None"
+						}
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMax"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetDistanceMin"
+						},
+						"Type": "Float",
+						"Float": 0
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationChance"
+						},
+						"Type": "Int",
+						"Int": 30
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.CooldownDuration"
+						},
+						"Type": "Float",
+						"Float": 30
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.ActivationFailedCues"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.SelfRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetBlockActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.TargetRequireActivationTags"
+						},
+						"Type": "GameplayTagContainer"
+					},
+					{
+						"TypeTag":
+						{
+							"TagName": "SW.KeyValue.AbilityCanBeRetriggeredWhenActive"
+						},
+						"Type": "Bool",
+						"Bool": false
+					}
+				],
+				"Assets": [
+					{
+						"Name": "Animation",
+						"Assets": [
+							{
+								"Name": "SpawnWaveAnim",
+								"Object": "/Game/Spicewood/Art/Characters/InWorldEvents/SoulStorm/Storminator/Animations/AM_Storminator_SpawnWave.AM_Storminator_SpawnWave"
+							},
+							{
+								"Name": "ActivationAnim",
+								"Object": "/Game/Spicewood/Art/Characters/InWorldEvents/SoulStorm/Storminator/Animations/AM_Storminator_Activate.AM_Storminator_Activate"
+							}
+						]
+					}
+				],
+				"InstanceData": [
+					{
+						"InstancedStructScriptStruct": "/Script/SpicewoodGAS.GA_SoulstormPillarInternalData",
+						"WaveArray": [
+							{
+								"SpawnDefinition":
+								{
+									"TagName": "SW.SpawnDefinition.Storminator.Wave.Easy"
+								},
+								"SpawnFunctionOverride": "Circular_FacingTarget_StartingTargetDirection",
+								"MaxHealthPercentage": 100,
+								"MinHealthPercentage": 1,
+								"RandomInsideRadius": true,
+								"MaxRadius": 400,
+								"MinRadius": 1200,
+								"SpawnInterval": 1,
+								"bForceUseMaxPopulation": false,
+								"MobBudgetForThisWave": 30,
+								"MobBudgetPlayerScaling": [ 1, 1.15, 1.3, 1.45 ]
+							}
+						],
+						"MobBudget": 30,
+						"MaxPopulation": 10,
+						"PostSpawnInjectionTags":
+						{
+							"GameplayTags": [
+								{
+									"TagName": "SW.SoulStorm.StorminatorSpawned"
+								}
+							],
+							"ParentTags": [
+								{
+									"TagName": "SW.SoulStorm"
+								},
+								{
+									"TagName": "SW"
+								}
+							]
+						},
+						"TotalMobBudgetPlayerScaling": [ 1, 1.15, 1.3, 1.45 ]
+					}
+				]
+			}
+		],
+		"AIStateTree": "/Game/Spicewood/GameplayLogic/StateTrees/ST_Storminator.ST_Storminator",
+		"DeathReasons":
+		{
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.GMR.SoulStorm.Spawn\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.GMR.SoulStorm.End\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.GMR.SoulStorm.NewWave\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.GMR.SoulStorm.DamageThreshold\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.GMR.SoulStorm.Enter\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.GMR.SoulStorm.Exit\")":
+				{
+					"VFX": "None",
+					"SFX": "None",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		},
+		"SetupLoadInfo":
+		{
+			"DelegateFunctionToRun":
+			{
+				"TagName": "None"
+			}
+		},
+		"InheritedInstanceDataDefinition":
+		{
+		},
+		"MapMarkerContextConfigDefinition":
+		{
+		},
+		"MultiplayerScalingDefinitions":
+		{
+			"TagMap":
+			{
+				"(AttributeName=\"HealthMax\",Attribute=/Script/SpicewoodGAS.ATR_Health:HealthMax,AttributeOwner=None)":
+				{
+					"Multipliers": [ 1, 1.5, 2, 2.5 ]
+				}
+			}
+		}
+	}
+]

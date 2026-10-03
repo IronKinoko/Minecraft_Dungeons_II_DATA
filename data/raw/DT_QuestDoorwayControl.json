@@ -1,0 +1,1228 @@
+[
+	{
+		"Name": "DeepDarkBubbleElevator",
+		"DoorwayIds":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Doorway.AreaLink.DeepDarkT1.TownA1"
+				},
+				{
+					"TagName": "SW.Doorway.TownA1.DeepDarkT1"
+				},
+				{
+					"TagName": "SW.Doorway.Temporary.BubbleElevator"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Doorway.AreaLink.DeepDarkT1"
+				},
+				{
+					"TagName": "SW.Doorway.AreaLink"
+				},
+				{
+					"TagName": "SW.Doorway"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Doorway.TownA1"
+				},
+				{
+					"TagName": "SW.Doorway.Temporary"
+				}
+			]
+		},
+		"Status": "Active",
+		"Triggers": [
+			{
+				"bUseQuestState": true,
+				"QuestName": "CA03",
+				"QuestState": "Completed",
+				"TaskName": "None",
+				"TaskState": "Completed",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			}
+		]
+	},
+	{
+		"Name": "DeepDarkEntranceInactive",
+		"DoorwayIds":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Doorway.ForestA1.BossZone.DeepDarkT1"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Doorway.ForestA1.BossZone"
+				},
+				{
+					"TagName": "SW.Doorway.ForestA1"
+				},
+				{
+					"TagName": "SW.Doorway"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"Status": "Inactive",
+		"Triggers": [
+			{
+				"bUseQuestState": true,
+				"QuestName": "CA02_B",
+				"QuestState": "Active",
+				"TaskName": "None",
+				"TaskState": "NotSet",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			}
+		]
+	},
+	{
+		"Name": "DeepDarkEntranceActive",
+		"DoorwayIds":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Doorway.ForestA1.BossZone.DeepDarkT1"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Doorway.ForestA1.BossZone"
+				},
+				{
+					"TagName": "SW.Doorway.ForestA1"
+				},
+				{
+					"TagName": "SW.Doorway"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"Status": "Active",
+		"Triggers": [
+			{
+				"bUseQuestState": true,
+				"QuestName": "CA02_B",
+				"QuestState": "Completed",
+				"TaskName": "None",
+				"TaskState": "NotSet",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			}
+		]
+	},
+	{
+		"Name": "MeadowR0Entrance",
+		"DoorwayIds":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Doorway.PlainsA1.Farm.MeadowR0.Entrance"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Doorway.PlainsA1.Farm.MeadowR0"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA1.Farm"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA1"
+				},
+				{
+					"TagName": "SW.Doorway"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"Status": "Active",
+		"Triggers": [
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA01",
+				"QuestState": "NotSet",
+				"TaskName": "CA01_Sequence02",
+				"TaskState": "Active",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			}
+		]
+	},
+	{
+		"Name": "MeadowR0Exit",
+		"DoorwayIds":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Doorway.MeadowR0.Exit"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Doorway.MeadowR0"
+				},
+				{
+					"TagName": "SW.Doorway"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"Status": "Active",
+		"Triggers": [
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA01",
+				"QuestState": "NotSet",
+				"TaskName": "CA01_AS02",
+				"TaskState": "Completed",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			}
+		]
+	},
+	{
+		"Name": "PlainsA1_SpookyBarnInactive",
+		"DoorwayIds":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Doorway.PlainsA1.SpookyBarn"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Doorway.PlainsA1"
+				},
+				{
+					"TagName": "SW.Doorway"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"Status": "Active",
+		"Triggers": [
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA02_B",
+				"QuestState": "Completed",
+				"TaskName": "CA02_B_AS03",
+				"TaskState": "Completed",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			}
+		]
+	},
+	{
+		"Name": "WitchInteriorInactive",
+		"DoorwayIds":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Doorway.ForestA1.Interior.WitchHut"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Doorway.ForestA1.Interior"
+				},
+				{
+					"TagName": "SW.Doorway.ForestA1"
+				},
+				{
+					"TagName": "SW.Doorway"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"Status": "Active",
+		"Triggers": [
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA02_B",
+				"QuestState": "Completed",
+				"TaskName": "CA02_B_AS03",
+				"TaskState": "Completed",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			}
+		]
+	},
+	{
+		"Name": "PlainsA2CentalTowerDoorInterior",
+		"DoorwayIds":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Doorway.PlainsA2.Interior.NoteblockTower.MiddleBottom"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Doorway.PlainsA2.Interior.NoteblockTower"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA2.Interior"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA2"
+				},
+				{
+					"TagName": "SW.Doorway"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"Status": "Active",
+		"Triggers": [
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA07",
+				"QuestState": "NotSet",
+				"TaskName": "CA07_I15",
+				"TaskState": "Completed",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			}
+		]
+	},
+	{
+		"Name": "PlainsA2CentalTowerDoorExterior",
+		"DoorwayIds":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Doorway.PlainsA2.NoteblockTower"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA2.Interior.NoteblockTower.Entrance"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Doorway.PlainsA2"
+				},
+				{
+					"TagName": "SW.Doorway"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA2.Interior.NoteblockTower"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA2.Interior"
+				}
+			]
+		},
+		"Status": "Active",
+		"Triggers": [
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA07",
+				"QuestState": "NotSet",
+				"TaskName": "CA07_E17",
+				"TaskState": "Completed",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			}
+		]
+	},
+	{
+		"Name": "DesertFortressGateActive",
+		"DoorwayIds":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Doorway.DesertA1.Fortress.Courtyard.MainHall"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1.Fortress.Junction.MainHall"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Doorway.DesertA1.Fortress.Courtyard"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1.Fortress"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1"
+				},
+				{
+					"TagName": "SW.Doorway"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1.Fortress.Junction"
+				}
+			]
+		},
+		"Status": "Inactive",
+		"Triggers": [
+			{
+				"bUseQuestState": true,
+				"QuestName": "CA05",
+				"QuestState": "Active",
+				"TaskName": "None",
+				"TaskState": "NotSet",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			},
+			{
+				"bUseQuestState": true,
+				"QuestName": "CA05",
+				"QuestState": "Available",
+				"TaskName": "None",
+				"TaskState": "NotSet",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			}
+		]
+	},
+	{
+		"Name": "DesertNoteblockRoomExit",
+		"DoorwayIds":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Doorway.DesertA1.Fortress.Interior.NoteRoom.ExitToMain"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Doorway.DesertA1.Fortress.Interior.NoteRoom"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1.Fortress.Interior"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1.Fortress"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1"
+				},
+				{
+					"TagName": "SW.Doorway"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"Status": "Active",
+		"Triggers": [
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA05",
+				"QuestState": "NotSet",
+				"TaskName": "CA05_I12",
+				"TaskState": "Completed",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			}
+		]
+	},
+	{
+		"Name": "ForestOutpostToMeadows",
+		"DoorwayIds":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Doorway.ForestA1.OutpostZone.MeadowR1"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Doorway.ForestA1.OutpostZone"
+				},
+				{
+					"TagName": "SW.Doorway.ForestA1"
+				},
+				{
+					"TagName": "SW.Doorway"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"Status": "Active",
+		"Triggers": [
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA02",
+				"QuestState": "NotSet",
+				"TaskName": "CA02_Sequence03",
+				"TaskState": "Active",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			},
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA02",
+				"QuestState": "NotSet",
+				"TaskName": "CA02_E04",
+				"TaskState": "Active",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			}
+		]
+	},
+	{
+		"Name": "DeepDarkA1Portal",
+		"DoorwayIds":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Doorway.AreaLink.DeepDarkT1.MeadowA1"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Doorway.AreaLink.DeepDarkT1"
+				},
+				{
+					"TagName": "SW.Doorway.AreaLink"
+				},
+				{
+					"TagName": "SW.Doorway"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"Status": "Active",
+		"Triggers": [
+			{
+				"bUseQuestState": true,
+				"QuestName": "CA06",
+				"QuestState": "Completed",
+				"TaskName": "None",
+				"TaskState": "NotSet",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			}
+		]
+	},
+	{
+		"Name": "ForestToWellExterior",
+		"DoorwayIds":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Doorway.ForestA1.Underwell.Exterior"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Doorway.ForestA1.Underwell"
+				},
+				{
+					"TagName": "SW.Doorway.ForestA1"
+				},
+				{
+					"TagName": "SW.Doorway"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"Status": "Active",
+		"Triggers": [
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA02_C",
+				"QuestState": "NotSet",
+				"TaskName": "CA02_C_E03",
+				"TaskState": "Active",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			},
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA02_C",
+				"QuestState": "NotSet",
+				"TaskName": "CA02_C_E04",
+				"TaskState": "Active",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			},
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA02_C",
+				"QuestState": "NotSet",
+				"TaskName": "CA02_C_E05",
+				"TaskState": "Active",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			},
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA02_C",
+				"QuestState": "NotSet",
+				"TaskName": "CA02_C_I03",
+				"TaskState": "Active",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			},
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA02_C",
+				"QuestState": "NotSet",
+				"TaskName": "CA02_C_AS01",
+				"TaskState": "Active",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			},
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA02_C",
+				"QuestState": "NotSet",
+				"TaskName": "CA02_C_AS01",
+				"TaskState": "Completed",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			}
+		]
+	},
+	{
+		"Name": "ForestSpiderCaveExt",
+		"DoorwayIds":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Doorway.ForestA1.SpiderCaves.Exterior.3a"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Doorway.ForestA1.SpiderCaves.Exterior"
+				},
+				{
+					"TagName": "SW.Doorway.ForestA1.SpiderCaves"
+				},
+				{
+					"TagName": "SW.Doorway.ForestA1"
+				},
+				{
+					"TagName": "SW.Doorway"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"Status": "Active",
+		"Triggers": [
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA02_B",
+				"QuestState": "NotSet",
+				"TaskName": "CA02_B_I01",
+				"TaskState": "Completed",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			}
+		]
+	},
+	{
+		"Name": "MeadowR1ToForestOutpost",
+		"DoorwayIds":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Doorway.MeadowR1.ForestA1"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Doorway.MeadowR1"
+				},
+				{
+					"TagName": "SW.Doorway"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"Status": "Active",
+		"Triggers": [
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA02",
+				"QuestState": "Completed",
+				"TaskName": "CA02_PC04",
+				"TaskState": "Completed",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			}
+		]
+	},
+	{
+		"Name": "ShadeBoss_CA09",
+		"DoorwayIds":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Doorway.CarapaceA1.Monarch.Entrance"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Doorway.CarapaceA1.Monarch"
+				},
+				{
+					"TagName": "SW.Doorway.CarapaceA1"
+				},
+				{
+					"TagName": "SW.Doorway"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"Status": "Active",
+		"Triggers": [
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA09",
+				"QuestState": "NotSet",
+				"TaskName": "CA09_Sequence05",
+				"TaskState": "Completed",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			},
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA09",
+				"QuestState": "NotSet",
+				"TaskName": "CA09_Sequence05",
+				"TaskState": "Active",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			},
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA09",
+				"QuestState": "NotSet",
+				"TaskName": "CA09_E20",
+				"TaskState": "Active",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			}
+		]
+	},
+	{
+		"Name": "DesertA1IceLagoonCave",
+		"DoorwayIds":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Doorway.DesertA1.IceLagoon.IceCaves"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Doorway.DesertA1.IceLagoon"
+				},
+				{
+					"TagName": "SW.Doorway.DesertA1"
+				},
+				{
+					"TagName": "SW.Doorway"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"Status": "Active",
+		"Triggers": [
+			{
+				"bUseQuestState": false,
+				"QuestName": "DEa1_S14_A",
+				"QuestState": "NotSet",
+				"TaskName": "DEa1_S14_A_I03",
+				"TaskState": "Completed",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			}
+		]
+	},
+	{
+		"Name": "PlainsA1_ScoutPointEntrance",
+		"DoorwayIds":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Doorway.PlainsA1.ScoutPoint"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Doorway.PlainsA1"
+				},
+				{
+					"TagName": "SW.Doorway"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"Status": "Active",
+		"Triggers": [
+			{
+				"bUseQuestState": false,
+				"QuestName": "PLa1_S08_A",
+				"QuestState": "NotSet",
+				"TaskName": "PLa1_S08_A_I02",
+				"TaskState": "Completed",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			}
+		]
+	},
+	{
+		"Name": "CarapaceA1_FirstShellEntrance",
+		"DoorwayIds":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Doorway.CarapaceA1.FirstLayer"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Doorway.CarapaceA1"
+				},
+				{
+					"TagName": "SW.Doorway"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"Status": "Active",
+		"Triggers": [
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA09",
+				"QuestState": "NotSet",
+				"TaskName": "CA09_E02B",
+				"TaskState": "Completed",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			}
+		]
+	},
+	{
+		"Name": "DeepDarkA2_Portal",
+		"DoorwayIds":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Doorway.MeadowA2.Portal"
+				},
+				{
+					"TagName": "SW.Doorway.DeepDarkA2.Portal"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Doorway.MeadowA2"
+				},
+				{
+					"TagName": "SW.Doorway"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Doorway.DeepDarkA2"
+				}
+			]
+		},
+		"Status": "Active",
+		"Triggers": [
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA10",
+				"QuestState": "NotSet",
+				"TaskName": "CA10_AS02",
+				"TaskState": "Completed",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			}
+		]
+	},
+	{
+		"Name": "DeepDarkA2_Portal_PostQuest",
+		"DoorwayIds":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Doorway.MeadowA2.Portal"
+				},
+				{
+					"TagName": "SW.Doorway.DeepDarkA2.Portal"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Doorway.MeadowA2"
+				},
+				{
+					"TagName": "SW.Doorway"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Doorway.DeepDarkA2"
+				}
+			]
+		},
+		"Status": "Inactive",
+		"Triggers": [
+			{
+				"bUseQuestState": true,
+				"QuestName": "CA10",
+				"QuestState": "Completed",
+				"TaskName": "CA10",
+				"TaskState": "Completed",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			}
+		]
+	},
+	{
+		"Name": "PlainsA2CopperMonstrosity",
+		"DoorwayIds":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Doorway.PlainsA2.Interior.NoteblockTower.Top"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Doorway.PlainsA2.Interior.NoteblockTower"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA2.Interior"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA2"
+				},
+				{
+					"TagName": "SW.Doorway"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"Status": "Active",
+		"Triggers": [
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA07",
+				"QuestState": "NotSet",
+				"TaskName": "CA07_AS01",
+				"TaskState": "Completed",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			}
+		]
+	},
+	{
+		"Name": "TownToDeepDarkA2",
+		"DoorwayIds":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Doorway.Town.ReturnFromDeepDark.A2"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Doorway.Town.ReturnFromDeepDark"
+				},
+				{
+					"TagName": "SW.Doorway.Town"
+				},
+				{
+					"TagName": "SW.Doorway"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"Status": "Active",
+		"Triggers": [
+			{
+				"bUseQuestState": true,
+				"QuestName": "CA10",
+				"QuestState": "Completed",
+				"TaskName": "None",
+				"TaskState": "NotSet",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			}
+		]
+	},
+	{
+		"Name": "TutorialDungeonEntranceInactive",
+		"DoorwayIds":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Doorway.PlainsA1.DeepDarkTutorial.Entrance"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Doorway.PlainsA1.DeepDarkTutorial"
+				},
+				{
+					"TagName": "SW.Doorway.PlainsA1"
+				},
+				{
+					"TagName": "SW.Doorway"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"Status": "Active",
+		"Triggers": [
+			{
+				"bUseQuestState": false,
+				"QuestName": "CA02_C",
+				"QuestState": "NotSet",
+				"TaskName": "CA02_C_Sequence05",
+				"TaskState": "Active",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			},
+			{
+				"bUseQuestState": true,
+				"QuestName": "CA02_C",
+				"QuestState": "Completed",
+				"TaskName": "None",
+				"TaskState": "NotSet",
+				"bShowAdditionalTags": false,
+				"AdditionalTags":
+				{
+					"GameplayTags": [],
+					"ParentTags": []
+				},
+				"OnlyMatchTagsNotState": false
+			}
+		]
+	}
+]

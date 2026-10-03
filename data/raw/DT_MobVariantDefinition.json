@@ -1,0 +1,4208 @@
+[
+	{
+		"Name": "VariantLevel1",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Variant.Level1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Default.Hostile"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob.Default"
+				},
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"CharacterReference": "None",
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.SoulYield"
+				},
+				"Value": 8
+			}
+		],
+		"PerceptionConfiguration":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		}
+	},
+	{
+		"Name": "VariantLevel2",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Variant.Level2"
+		},
+		"CharacterReference": "None",
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.SoulYield"
+				},
+				"Value": 12
+			}
+		],
+		"PerceptionConfiguration":
+		{
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		}
+	},
+	{
+		"Name": "ZombieMossy",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.ZombieMossy"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Zombie"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Mob.Variant.Level1"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Mob.Variant"
+				}
+			]
+		},
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Enemies/Zombie/BP_Zombie_Mossy.BP_Zombie_Mossy_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.MobCost"
+				},
+				"Type": "Float",
+				"Float": 15
+			}
+		],
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 30
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.LightningDamageResistanceMultiplier"
+				},
+				"Value": 1.25
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.PoisonDamageResistanceMultiplier"
+				},
+				"Value": 0.75
+			}
+		],
+		"AbilitySpecialization":
+		{
+			"Specializations": [
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_MeleeAttack",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.LightAttack"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.StatusToApplyToTargetOnHit"
+								},
+								"Type": "GameplayTagContainer",
+								"GameplayTagContainer":
+								{
+									"GameplayTags": [
+										{
+											"TagName": "SW.Status.Poisoned"
+										}
+									],
+									"ParentTags": [
+										{
+											"TagName": "SW.Status"
+										},
+										{
+											"TagName": "SW"
+										}
+									]
+								}
+							},
+							"ModOp": "Add"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.Damage"
+								},
+								"Type": "Float",
+								"Float": 10
+							},
+							"ModOp": "Override"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.DamageEffectTags"
+								},
+								"Type": "GameplayTagContainer",
+								"GameplayTagContainer":
+								{
+									"GameplayTags": [
+										{
+											"TagName": "SW.GameplayEffect.Damage.Instant.Poison"
+										},
+										{
+											"TagName": "SW.GameplayEffect.Damage.Instant.Melee"
+										}
+									],
+									"ParentTags": [
+										{
+											"TagName": "SW.GameplayEffect.Damage.Instant"
+										},
+										{
+											"TagName": "SW.GameplayEffect.Damage"
+										},
+										{
+											"TagName": "SW.GameplayEffect"
+										},
+										{
+											"TagName": "SW"
+										}
+									]
+								}
+							},
+							"ModOp": "Override"
+						}
+					]
+				}
+			]
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_MobVariantDefinition.csv\", \"SW_Mob_ZombieMossy_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Audio.Mob.AttackTelegraph\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Hostile/MobType1/JungleZombie/sfx_mob_jungleZombieAttack_Play.sfx_mob_jungleZombieAttack_Play",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.Audio.Mob.Step\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Hostile/MobType1/JungleZombie/sfx_mob_jungleZombieStep_Play.sfx_mob_jungleZombieStep_Play",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.Attack.Melee\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Hostile/MobType1/JungleZombie/sfx_mob_jungleZombiePoison_Play.sfx_mob_jungleZombiePoison_Play",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		}
+	},
+	{
+		"Name": "ZombieFrozen",
+		"TypeTag":
+		{
+			"TagName": "Sw.Mob.ZombieFrozen"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Zombie"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Mob.Variant.Level1"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Mob.Variant"
+				}
+			]
+		},
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Enemies/Zombie/BP_Zombie_Frozen.BP_Zombie_Frozen_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.MobCost"
+				},
+				"Type": "Float",
+				"Float": 20
+			}
+		],
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 35
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.FireDamageResistanceMultiplier"
+				},
+				"Value": 1.25
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.IceDamageResistanceMultiplier"
+				},
+				"Value": 0.75
+			}
+		],
+		"AbilitySpecialization":
+		{
+			"Specializations": [
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_MeleeAttack",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.LightAttack"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.StatusToApplyToTargetOnHit"
+								},
+								"Type": "GameplayTagContainer",
+								"GameplayTagContainer":
+								{
+									"GameplayTags": [
+										{
+											"TagName": "SW.Status.Freezing"
+										}
+									],
+									"ParentTags": [
+										{
+											"TagName": "SW.Status"
+										},
+										{
+											"TagName": "SW"
+										}
+									]
+								}
+							},
+							"ModOp": "Add"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.Damage"
+								},
+								"Type": "Float",
+								"Float": 11
+							},
+							"ModOp": "Override"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.DamageEffectTags"
+								},
+								"Type": "GameplayTagContainer",
+								"GameplayTagContainer":
+								{
+									"GameplayTags": [
+										{
+											"TagName": "SW.GameplayEffect.Damage.Instant.Ice"
+										},
+										{
+											"TagName": "SW.GameplayEffect.Damage.Instant.Melee"
+										}
+									],
+									"ParentTags": [
+										{
+											"TagName": "SW.GameplayEffect.Damage.Instant"
+										},
+										{
+											"TagName": "SW.GameplayEffect.Damage"
+										},
+										{
+											"TagName": "SW.GameplayEffect"
+										},
+										{
+											"TagName": "SW"
+										}
+									]
+								}
+							},
+							"ModOp": "Override"
+						}
+					]
+				}
+			]
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_MobVariantDefinition.csv\", \"Sw_Mob_ZombieFrozen_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Audio.Mob.AttackTelegraph\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Hostile/MobType1/FrozenZombie/sfx_mob_frozenZombieAttackVocal_Play.sfx_mob_frozenZombieAttackVocal_Play",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.Audio.Mob.Step\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Hostile/MobType1/FrozenZombie/sfx_mob_frozenZombieStep_Play.sfx_mob_frozenZombieStep_Play",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.Audio.Mob.AttackHit\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Hostile/MobType1/FrozenZombie/sfx_mob_frozenZombieBasicAttack_Play.sfx_mob_frozenZombieBasicAttack_Play",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		}
+	},
+	{
+		"Name": "ZombieCharred",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.ZombieCharred"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Zombie"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Mob.Variant.Level1"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Mob.Variant"
+				}
+			]
+		},
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Enemies/Zombie/BP_Zombie_Charred.BP_Zombie_Charred_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.MobCost"
+				},
+				"Type": "Float",
+				"Float": 25
+			}
+		],
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 42
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.IceDamageResistanceMultiplier"
+				},
+				"Value": 1.25
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.FireDamageResistanceMultiplier"
+				},
+				"Value": 0.75
+			}
+		],
+		"AbilitySpecialization":
+		{
+			"Specializations": [
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_MeleeAttack",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.LightAttack"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.StatusToApplyToTargetOnHit"
+								},
+								"Type": "GameplayTagContainer",
+								"GameplayTagContainer":
+								{
+									"GameplayTags": [
+										{
+											"TagName": "SW.Status.Burning"
+										}
+									],
+									"ParentTags": [
+										{
+											"TagName": "SW.Status"
+										},
+										{
+											"TagName": "SW"
+										}
+									]
+								}
+							},
+							"ModOp": "Add"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.Damage"
+								},
+								"Type": "Float",
+								"Float": 12
+							},
+							"ModOp": "Override"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.DamageEffectTags"
+								},
+								"Type": "GameplayTagContainer",
+								"GameplayTagContainer":
+								{
+									"GameplayTags": [
+										{
+											"TagName": "SW.GameplayEffect.Damage.Instant.Fire"
+										},
+										{
+											"TagName": "SW.GameplayEffect.Damage.Instant.Melee"
+										}
+									],
+									"ParentTags": [
+										{
+											"TagName": "SW.GameplayEffect.Damage.Instant"
+										},
+										{
+											"TagName": "SW.GameplayEffect.Damage"
+										},
+										{
+											"TagName": "SW.GameplayEffect"
+										},
+										{
+											"TagName": "SW"
+										}
+									]
+								}
+							},
+							"ModOp": "Override"
+						}
+					]
+				}
+			]
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_MobVariantDefinition.csv\", \"SW_Mob_ZombieCharred_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Audio.Mob.AttackTelegraph\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Hostile/MobType1/CharredZombie/sfx_mob_charredZombieTelegraph_Play.sfx_mob_charredZombieTelegraph_Play",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.Audio.Mob.Step\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Hostile/MobType1/CharredZombie/sfx_mob_charredZombieStep_Play.sfx_mob_charredZombieStep_Play",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.Audio.Mob.AttackHit\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Hostile/MobType1/CharredZombie/sfx_mob_charredZombieAttackWhoosh_Play.sfx_mob_charredZombieAttackWhoosh_Play",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		}
+	},
+	{
+		"Name": "Husk",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.Husk"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Zombie"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Mob.Variant.Level1"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Mob.Variant"
+				}
+			]
+		},
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Enemies/Zombie/BP_Zombie_Husk.BP_Zombie_Husk_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.MobCost"
+				},
+				"Type": "Float",
+				"Float": 10
+			}
+		],
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 42
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.MovementSpeed"
+				},
+				"Value": 175
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Poise"
+				},
+				"Value": 100
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Resistance.KnockbackResistanceMultiplier"
+				},
+				"Value": 0.9
+			}
+		],
+		"AbilitySpecialization":
+		{
+			"Specializations": [
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_MeleeAttack",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.LightAttack"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.Damage"
+								},
+								"Type": "Float",
+								"Float": 14
+							},
+							"ModOp": "Override"
+						}
+					],
+					"AssetSpecializations": [
+						{
+							"BundleName": "Animation",
+							"Name": "Anim",
+							"Object": "/Game/Spicewood/Art/Characters/Enemies/Zombie/Husk/Animations/AM_Husk_StrongAttack.AM_Husk_StrongAttack",
+							"ModOp": "Override"
+						}
+					]
+				}
+			]
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_MobVariantDefinition.csv\", \"SW_Mob_Husk_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"MobConditions":
+		{
+			"SoulStateTag":
+			{
+				"TagName": "SW.Mob.Husk.SoulStated"
+			},
+			"ExcludedSoulEnchantments":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Enchantment.SoulEnchantment.Ranged"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Enchantment.SoulEnchantment"
+					},
+					{
+						"TagName": "SW.Enchantment"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+			"SpawnAnimations":
+			{
+				"(TagName=\"SW.SpawnEffects.Animation\")": "/Game/Spicewood/Art/Characters/Enemies/Zombie/Husk/Animations/AM_Husk_Spawn.AM_Husk_Spawn"
+			}
+		}
+	},
+	{
+		"Name": "ZombieVariant1",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.ZombieVariant1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Zombie"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Mob.Variant.Level1"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Mob.Variant"
+				}
+			]
+		},
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Enemies/Zombie/BP_Zombie_Variant1.BP_Zombie_Variant1_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.MobCost"
+				},
+				"Type": "Float",
+				"Float": 13
+			}
+		],
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 36
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Poise"
+				},
+				"Value": 70
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Resistance.KnockbackResistanceMultiplier"
+				},
+				"Value": 0.8
+			}
+		],
+		"AbilitySpecialization":
+		{
+			"Specializations": [
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_MeleeAttack",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.LightAttack"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.Damage"
+								},
+								"Type": "Float",
+								"Float": 8
+							},
+							"ModOp": "Override"
+						}
+					],
+					"AssetSpecializations": [
+						{
+							"BundleName": "Animation",
+							"Name": "Anim",
+							"Object": "/Game/Spicewood/Art/Characters/Enemies/Zombie/Animations/AM_Zombie_BasicAttack_Variant1.AM_Zombie_BasicAttack_Variant1",
+							"ModOp": "Override"
+						}
+					]
+				}
+			]
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_MobVariantDefinition.csv\", \"SW_Mob_ZombieVariant1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"MobConditions":
+		{
+			"SoulStateTag":
+			{
+				"TagName": "SW.Mob.ZombieVariant1.SoulStated"
+			},
+			"ExcludedSoulEnchantments":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Enchantment.SoulEnchantment.Ranged"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Enchantment.SoulEnchantment"
+					},
+					{
+						"TagName": "SW.Enchantment"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Audio.Mob.AttackHit\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Hostile/MobType1/Zombie/sfx_mob_zombieVariantAttackKnife_Play.sfx_mob_zombieVariantAttackKnife_Play",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Mob.Hostile.Type1.Attack"
+					}
+				},
+				"(TagName=\"SW.Audio.Mob.Step\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Hostile/MobType1/Zombie/sfx_mob_zombieVariantStep_Play.sfx_mob_zombieVariantStep_Play",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Mob.Hostile.Type1.Locomotion"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		}
+	},
+	{
+		"Name": "ZombieVariant2",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.ZombieVariant2"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Zombie"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Mob.Variant.Level2"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Mob.Variant"
+				}
+			]
+		},
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Enemies/Zombie/BP_Zombie_Variant2.BP_Zombie_Variant2_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.MobCost"
+				},
+				"Type": "Float",
+				"Float": 19
+			}
+		],
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 52
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Poise"
+				},
+				"Value": 80
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Resistance.KnockbackResistanceMultiplier"
+				},
+				"Value": 0.6
+			}
+		],
+		"AbilitySpecialization":
+		{
+			"Specializations": [
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_MeleeAttack",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.LightAttack"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.Damage"
+								},
+								"Type": "Float",
+								"Float": 10
+							},
+							"ModOp": "Override"
+						}
+					],
+					"AssetSpecializations": [
+						{
+							"BundleName": "Animation",
+							"Name": "Anim",
+							"Object": "/Game/Spicewood/Art/Characters/Enemies/Zombie/Animations/AM_Zombie_BasicAttack_Variant2.AM_Zombie_BasicAttack_Variant2",
+							"ModOp": "Override"
+						}
+					]
+				}
+			]
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_MobVariantDefinition.csv\", \"SW_Mob_ZombieVariant2_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"MobConditions":
+		{
+			"SoulStateTag":
+			{
+				"TagName": "SW.Mob.ZombieVariant2.SoulStated"
+			},
+			"ExcludedSoulEnchantments":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Enchantment.SoulEnchantment.Ranged"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Enchantment.SoulEnchantment"
+					},
+					{
+						"TagName": "SW.Enchantment"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Audio.Mob.AttackHit\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Hostile/MobType1/Zombie/sfx_mob_zombieVariantAttackSword_Play.sfx_mob_zombieVariantAttackSword_Play",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Mob.Hostile.Type1.Attack"
+					}
+				},
+				"(TagName=\"SW.Audio.Mob.Step\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Hostile/MobType1/Zombie/sfx_mob_zombieVariantStep_Play.sfx_mob_zombieVariantStep_Play",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Mob.Hostile.Type1.Locomotion"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		}
+	},
+	{
+		"Name": "SkeletonMossy",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.SkeletonMossy"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Skeleton"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Mob.Variant.Level1"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Mob.Variant"
+				}
+			]
+		},
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Enemies/Skeleton/BP_Skeleton_Mossy.BP_Skeleton_Mossy_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.MobCost"
+				},
+				"Type": "Float",
+				"Float": 26
+			}
+		],
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 25
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.LightningDamageResistanceMultiplier"
+				},
+				"Value": 1.25
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.PoisonDamageResistanceMultiplier"
+				},
+				"Value": 0.75
+			}
+		],
+		"AbilitySpecialization":
+		{
+			"Specializations": [
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_RangedAttack",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.BaseRangedAttack"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.ProjectileDefinitionTag"
+								},
+								"Type": "GameplayTag",
+								"GameplayTag":
+								{
+									"TagName": "SW.Projectile.Type.SkeletonBow.Mossy"
+								}
+							},
+							"ModOp": "Override"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.StatusToApplyToTargetOnHit"
+								},
+								"Type": "GameplayTagContainer",
+								"GameplayTagContainer":
+								{
+									"GameplayTags": [
+										{
+											"TagName": "SW.Status.Poisoned"
+										}
+									],
+									"ParentTags": [
+										{
+											"TagName": "SW.Status"
+										},
+										{
+											"TagName": "SW"
+										}
+									]
+								}
+							},
+							"ModOp": "Add"
+						}
+					]
+				},
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_RangedAttack",
+					"AbilityCallsign":
+					{
+						"TagName": "None"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.ProjectileDefinitionTag"
+								},
+								"Type": "GameplayTag",
+								"GameplayTag":
+								{
+									"TagName": "SW.Projectile.Type.SkeletonBow.Mossy"
+								}
+							},
+							"ModOp": "Override"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.StatusToApplyToTargetOnHit"
+								},
+								"Type": "GameplayTagContainer",
+								"GameplayTagContainer":
+								{
+									"GameplayTags": [
+										{
+											"TagName": "SW.Status.Poisoned"
+										}
+									],
+									"ParentTags": [
+										{
+											"TagName": "SW.Status"
+										},
+										{
+											"TagName": "SW"
+										}
+									]
+								}
+							},
+							"ModOp": "Add"
+						}
+					]
+				}
+			]
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_MobVariantDefinition.csv\", \"SW_Mob_SkeletonMossy_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Audio.Mob.BowLoad\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Hostile/MobType1/Skeleton/sfx_mob_skeletonBowLoad_Play.sfx_mob_skeletonBowLoad_Play",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.Audio.Mob.BowFire\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Hostile/MobType1/SkeletonMossy/sfx_mob_skeletonMossyBowFire_Play.sfx_mob_skeletonMossyBowFire_Play",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.Audio.Mob.Step\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Hostile/MobType1/SkeletonMossy/sfx_mob_skeletonMossyStep_Play.sfx_mob_skeletonMossyStep_Play",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		}
+	},
+	{
+		"Name": "SkeletonStray",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.SkeletonStray"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Skeleton"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Mob.Variant.Level1"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Mob.Variant"
+				}
+			]
+		},
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Enemies/Skeleton/BP_Skeleton_Stray.BP_Skeleton_Stray_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.MobCost"
+				},
+				"Type": "Float",
+				"Float": 26
+			}
+		],
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 28
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.FireDamageResistanceMultiplier"
+				},
+				"Value": 1.25
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.IceDamageResistanceMultiplier"
+				},
+				"Value": 0.75
+			}
+		],
+		"AbilitySpecialization":
+		{
+			"Specializations": [
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_RangedAttack",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.BaseRangedAttack"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.ProjectileDefinitionTag"
+								},
+								"Type": "GameplayTag",
+								"GameplayTag":
+								{
+									"TagName": "SW.Projectile.Type.SkeletonBow.Stray"
+								}
+							},
+							"ModOp": "Override"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.StatusToApplyToTargetOnHit"
+								},
+								"Type": "GameplayTagContainer",
+								"GameplayTagContainer":
+								{
+									"GameplayTags": [
+										{
+											"TagName": "SW.Status.Freezing"
+										}
+									],
+									"ParentTags": [
+										{
+											"TagName": "SW.Status"
+										},
+										{
+											"TagName": "SW"
+										}
+									]
+								}
+							},
+							"ModOp": "Add"
+						}
+					]
+				},
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_RangedAttack",
+					"AbilityCallsign":
+					{
+						"TagName": "None"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.ProjectileDefinitionTag"
+								},
+								"Type": "GameplayTag",
+								"GameplayTag":
+								{
+									"TagName": "SW.Projectile.Type.SkeletonBow.Stray"
+								}
+							},
+							"ModOp": "Override"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.StatusToApplyToTargetOnHit"
+								},
+								"Type": "GameplayTagContainer",
+								"GameplayTagContainer":
+								{
+									"GameplayTags": [
+										{
+											"TagName": "SW.Status.Freezing"
+										}
+									],
+									"ParentTags": [
+										{
+											"TagName": "SW.Status"
+										},
+										{
+											"TagName": "SW"
+										}
+									]
+								}
+							},
+							"ModOp": "Add"
+						}
+					]
+				}
+			]
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_MobVariantDefinition.csv\", \"SW_Mob_SkeletonStray_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Audio.Mob.BowLoad\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Hostile/MobType1/Skeleton/sfx_mob_skeletonBowLoad_Play.sfx_mob_skeletonBowLoad_Play",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.Audio.Mob.BowFire\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Hostile/MobType1/Stray/sfx_mob_strayBowShoot_Play.sfx_mob_strayBowShoot_Play",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.Audio.Mob.Step\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Hostile/MobType1/Stray/sfx_mob_strayStep_Play.sfx_mob_strayStep_Play",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		}
+	},
+	{
+		"Name": "SkeletonCharred",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.SkeletonCharred"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Skeleton"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Mob.Variant.Level1"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Mob.Variant"
+				}
+			]
+		},
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Enemies/Skeleton/BP_Skeleton_Charred.BP_Skeleton_Charred_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.MobCost"
+				},
+				"Type": "Float",
+				"Float": 32
+			}
+		],
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 33
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.IceDamageResistanceMultiplier"
+				},
+				"Value": 1.25
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.FireDamageResistanceMultiplier"
+				},
+				"Value": 0.75
+			}
+		],
+		"AbilitySpecialization":
+		{
+			"Specializations": [
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_RangedAttack",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.BaseRangedAttack"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.ProjectileDefinitionTag"
+								},
+								"Type": "GameplayTag",
+								"GameplayTag":
+								{
+									"TagName": "SW.Projectile.Type.SkeletonBow.Charred"
+								}
+							},
+							"ModOp": "Override"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.StatusToApplyToTargetOnHit"
+								},
+								"Type": "GameplayTagContainer",
+								"GameplayTagContainer":
+								{
+									"GameplayTags": [
+										{
+											"TagName": "SW.Status.Burning"
+										}
+									],
+									"ParentTags": [
+										{
+											"TagName": "SW.Status"
+										},
+										{
+											"TagName": "SW"
+										}
+									]
+								}
+							},
+							"ModOp": "Add"
+						}
+					]
+				},
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_RangedAttack",
+					"AbilityCallsign":
+					{
+						"TagName": "None"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.ProjectileDefinitionTag"
+								},
+								"Type": "GameplayTag",
+								"GameplayTag":
+								{
+									"TagName": "SW.Projectile.Type.SkeletonBow.Charred"
+								}
+							},
+							"ModOp": "Override"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.StatusToApplyToTargetOnHit"
+								},
+								"Type": "GameplayTagContainer",
+								"GameplayTagContainer":
+								{
+									"GameplayTags": [
+										{
+											"TagName": "SW.Status.Burning"
+										}
+									],
+									"ParentTags": [
+										{
+											"TagName": "SW.Status"
+										},
+										{
+											"TagName": "SW"
+										}
+									]
+								}
+							},
+							"ModOp": "Add"
+						}
+					]
+				}
+			]
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_MobVariantDefinition.csv\", \"SW_Mob_SkeletonCharred_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Audio.Mob.BowLoad\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Hostile/MobType1/Skeleton/sfx_mob_skeletonBowLoad_Play.sfx_mob_skeletonBowLoad_Play",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.Audio.Mob.BowFire\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Hostile/MobType1/Skeleton/sfx_mob_skeletonBowFire_Play.sfx_mob_skeletonBowFire_Play",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.Audio.Mob.Step\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Hostile/MobType1/CharredSkeleton/sfx_mob_skeletonCharred_step_Play.sfx_mob_skeletonCharred_step_Play",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		}
+	},
+	{
+		"Name": "SkeletonVariant1",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.SkeletonVariant1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Skeleton"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Mob.Variant.Level1"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Mob.Variant"
+				}
+			]
+		},
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Enemies/Skeleton/BP_Skeleton_Variant1.BP_Skeleton_Variant1_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.MobCost"
+				},
+				"Type": "Float",
+				"Float": 24
+			}
+		],
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 23
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Poise"
+				},
+				"Value": 65
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Resistance.KnockbackResistanceMultiplier"
+				},
+				"Value": 0.9
+			}
+		],
+		"PerceptionConfiguration":
+		{
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_MobVariantDefinition.csv\", \"SW_Mob_SkeletonVariant1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"MobConditions":
+		{
+			"SoulStateTag":
+			{
+				"TagName": "SW.Mob.SkeletonVariant1.SoulStated"
+			},
+			"ExcludedSoulEnchantments":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Enchantment.SoulEnchantment.Melee"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Enchantment.SoulEnchantment"
+					},
+					{
+						"TagName": "SW.Enchantment"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Audio.Mob.BowLoad\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Hostile/MobType1/Skeleton/sfx_mob_skeletonBowLoad_Play.sfx_mob_skeletonBowLoad_Play",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.Audio.Mob.BowFire\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Hostile/MobType1/Skeleton/sfx_mob_skeletonBowFire_Play.sfx_mob_skeletonBowFire_Play",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.Audio.Mob.Step\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Hostile/MobType1/Skeleton/sfx_mob_skeletonVariantStep_Play.sfx_mob_skeletonVariantStep_Play",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Mob.Hostile.Type1.Locomotion"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		}
+	},
+	{
+		"Name": "SkeletonVariant2",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.SkeletonVariant2"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Skeleton"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Mob.Variant.Level2"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Mob.Variant"
+				}
+			]
+		},
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Enemies/Skeleton/BP_Skeleton_Variant2.BP_Skeleton_Variant2_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.MobCost"
+				},
+				"Type": "Float",
+				"Float": 30
+			}
+		],
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 37
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Poise"
+				},
+				"Value": 80
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Resistance.KnockbackResistanceMultiplier"
+				},
+				"Value": 0.7
+			}
+		],
+		"AbilitySpecialization":
+		{
+			"Specializations": [
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_RangedAttack",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.BaseRangedAttack"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.ProjectileDefinitionTag"
+								},
+								"Type": "GameplayTag",
+								"GameplayTag":
+								{
+									"TagName": "SW.Projectile.Type.SkeletonBow.Variant2"
+								}
+							},
+							"ModOp": "Override"
+						}
+					]
+				}
+			]
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_MobVariantDefinition.csv\", \"SW_Mob_SkeletonVariant2_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"MobConditions":
+		{
+			"SoulStateTag":
+			{
+				"TagName": "SW.Mob.SkeletonVariant2.SoulStated"
+			},
+			"ExcludedSoulEnchantments":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Enchantment.SoulEnchantment.Melee"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Enchantment.SoulEnchantment"
+					},
+					{
+						"TagName": "SW.Enchantment"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Audio.Mob.BowLoad\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Power_Bow/Powerbow_Unique/sfx_item_powerBow_unique_load_Play.sfx_item_powerBow_unique_load_Play",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.Audio.Mob.BowFire\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Power_Bow/Play_sfx_item_powerBow_fire.Play_sfx_item_powerBow_fire",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.Audio.Mob.Step\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Hostile/MobType1/Skeleton/sfx_mob_skeletonVariantStep_Play.sfx_mob_skeletonVariantStep_Play",
+					"SFXCategory":
+					{
+						"TagName": "SW.Audio.Category.Mob.Hostile.Type1.Locomotion"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		}
+	},
+	{
+		"Name": "PillagerVariant1",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.PillagerVariant1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Pillager"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Mob.Variant.Level1"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Mob.Variant"
+				}
+			]
+		},
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Enemies/Illagers/Pillager/BP_Pillager_Variant1.BP_Pillager_Variant1_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.MobCost"
+				},
+				"Type": "Float",
+				"Float": 30
+			}
+		],
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 33
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Poise"
+				},
+				"Value": 85
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Resistance.KnockbackResistanceMultiplier"
+				},
+				"Value": 0.8
+			}
+		],
+		"AbilitySpecialization":
+		{
+			"Specializations": [
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_RangedAttack",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.BaseRangedAttack"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.Damage"
+								},
+								"Type": "Float",
+								"Float": 7.5
+							},
+							"ModOp": "Override"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.ProjectileSpawnOffset"
+								},
+								"Type": "Vector",
+								"Vector":
+								{
+									"X": 120,
+									"Y": 20,
+									"Z": 80
+								}
+							},
+							"ModOp": "Override"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.NumberOfProjectiles"
+								},
+								"Type": "Int",
+								"Int": 3
+							},
+							"ModOp": "Override"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.AngleSpan"
+								},
+								"Type": "Float",
+								"Float": 20
+							},
+							"ModOp": "Override"
+						}
+					]
+				},
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_RangedAttack",
+					"AbilityCallsign":
+					{
+						"TagName": "None"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.Damage"
+								},
+								"Type": "Float",
+								"Float": 7.5
+							},
+							"ModOp": "Override"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.ProjectileSpawnOffset"
+								},
+								"Type": "Vector",
+								"Vector":
+								{
+									"X": 120,
+									"Y": 20,
+									"Z": 80
+								}
+							},
+							"ModOp": "Override"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.NumberOfProjectiles"
+								},
+								"Type": "Int",
+								"Int": 3
+							},
+							"ModOp": "Override"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.AngleSpan"
+								},
+								"Type": "Float",
+								"Float": 20
+							},
+							"ModOp": "Override"
+						}
+					]
+				}
+			]
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_MobVariantDefinition.csv\", \"SW_Mob_PillagerVariant1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"MobConditions":
+		{
+			"SoulStateTag":
+			{
+				"TagName": "SW.Mob.PillagerVariant1.SoulStated"
+			},
+			"ExcludedSoulEnchantments":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Enchantment.SoulEnchantment.Melee"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Enchantment.SoulEnchantment"
+					},
+					{
+						"TagName": "SW.Enchantment"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Audio.Mob.BowLoad\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Crossbow/Play_sfx_item_crossbow_load.Play_sfx_item_crossbow_load",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.Audio.Mob.BowFire\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Mobs/Mob_Hostile/MobType1/Pillager/Play_sfx_mob_pillagerProjectile.Play_sfx_mob_pillagerProjectile",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		}
+	},
+	{
+		"Name": "PillagerVariant2",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.PillagerVariant2"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Pillager"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Mob.Variant.Level2"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Mob.Variant"
+				}
+			]
+		},
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Enemies/Illagers/Pillager/BP_Pillager_Variant2.BP_Pillager_Variant2_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.MobCost"
+				},
+				"Type": "Float",
+				"Float": 40
+			}
+		],
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 52
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Poise"
+				},
+				"Value": 95
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Resistance.KnockbackResistanceMultiplier"
+				},
+				"Value": 0.6
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.RangedAttackSpeed"
+				},
+				"Value": 1.1
+			}
+		],
+		"AbilitySpecialization":
+		{
+			"Specializations": [
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_RangedAttack",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.BaseRangedAttack"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.Damage"
+								},
+								"Type": "Float",
+								"Float": 8
+							},
+							"ModOp": "Override"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.ProjectileSpawnOffset"
+								},
+								"Type": "Vector",
+								"Vector":
+								{
+									"X": 120,
+									"Y": 20,
+									"Z": 80
+								}
+							},
+							"ModOp": "Override"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.NumberOfProjectiles"
+								},
+								"Type": "Int",
+								"Int": 3
+							},
+							"ModOp": "Override"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.AngleSpan"
+								},
+								"Type": "Float",
+								"Float": 30
+							},
+							"ModOp": "Override"
+						}
+					]
+				},
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_RangedAttack",
+					"AbilityCallsign":
+					{
+						"TagName": "None"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.Damage"
+								},
+								"Type": "Float",
+								"Float": 8
+							},
+							"ModOp": "Override"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.ProjectileSpawnOffset"
+								},
+								"Type": "Vector",
+								"Vector":
+								{
+									"X": 120,
+									"Y": 20,
+									"Z": 80
+								}
+							},
+							"ModOp": "Override"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.NumberOfProjectiles"
+								},
+								"Type": "Int",
+								"Int": 3
+							},
+							"ModOp": "Override"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.AngleSpan"
+								},
+								"Type": "Float",
+								"Float": 30
+							},
+							"ModOp": "Override"
+						}
+					]
+				}
+			]
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_MobVariantDefinition.csv\", \"SW_Mob_PillagerVariant2_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"MobConditions":
+		{
+			"SoulStateTag":
+			{
+				"TagName": "SW.Mob.PillagerVariant2.SoulStated"
+			},
+			"ExcludedSoulEnchantments":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Enchantment.SoulEnchantment.Melee"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Enchantment.SoulEnchantment"
+					},
+					{
+						"TagName": "SW.Enchantment"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Audio.Mob.BowLoad\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Crossbow/Crossbow_Unique/sfx_item_crossbowUnique_load_Play.sfx_item_crossbowUnique_load_Play",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.Audio.Mob.BowFire\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Ranged/Crossbow/Crossbow_Unique/sfx_item_crossbowUnique_fire_Play.sfx_item_crossbowUnique_fire_Play",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		}
+	},
+	{
+		"Name": "FrogCold",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.FrogVariant1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Frog"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Friendlies/Frog/BP_Frog_Cold.BP_Frog_Cold_C",
+		"PerceptionConfiguration":
+		{
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_MobVariantDefinition.csv\", \"SW_Mob_FrogVariant1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		}
+	},
+	{
+		"Name": "FrogWarm",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.FrogVariant2"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Frog"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Friendlies/Frog/BP_Frog_Warm.BP_Frog_Warm_C",
+		"PerceptionConfiguration":
+		{
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_MobVariantDefinition.csv\", \"SW_Mob_FrogVariant2_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		}
+	},
+	{
+		"Name": "CreeperCharged",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.CreeperCharged"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Creeper"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Mob.Variant.Level2"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Mob.Variant"
+				}
+			]
+		},
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Enemies/Creeper/BP_Creeper_Charged.BP_Creeper_Charged_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.MobCost"
+				},
+				"Type": "Float",
+				"Float": 25
+			}
+		],
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.MovementSpeed"
+				},
+				"Value": 400
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.PoisonDamageResistanceMultiplier"
+				},
+				"Value": 1.25
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.LightningDamageResistanceMultiplier"
+				},
+				"Value": 0.75
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 30
+			}
+		],
+		"AbilitySpecialization":
+		{
+			"Specializations": [
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_ProximityAOE",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.Ignition"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.Damage"
+								},
+								"Type": "Float",
+								"Float": 75
+							},
+							"ModOp": "Override"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.StatusToApplyToTargetOnHit"
+								},
+								"Type": "GameplayTagContainer",
+								"GameplayTagContainer":
+								{
+									"GameplayTags": [
+										{
+											"TagName": "SW.Status.Conductive"
+										}
+									],
+									"ParentTags": [
+										{
+											"TagName": "SW.Status"
+										},
+										{
+											"TagName": "SW"
+										}
+									]
+								}
+							},
+							"ModOp": "Add"
+						},
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.WorldActorGameplayCueTag"
+								},
+								"Type": "GameplayTag",
+								"GameplayTag":
+								{
+									"TagName": "GameplayCue.SW.Explosion.ChargedCreeper"
+								}
+							},
+							"ModOp": "Override"
+						}
+					]
+				}
+			]
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_MobVariantDefinition.csv\", \"SW_Mob_CreeperCharged_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		}
+	},
+	{
+		"Name": "VindicatorVariant1",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.VindicatorVariant1"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Vindicator"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Mob.Variant.Level1"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Mob.Variant"
+				}
+			]
+		},
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Enemies/Illagers/Vindicator/BP_Vindicator_Variant1.BP_Vindicator_Variant1_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.MobCost"
+				},
+				"Type": "Float",
+				"Float": 25
+			}
+		],
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 48
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Poise"
+				},
+				"Value": 85
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Resistance.KnockbackResistanceMultiplier"
+				},
+				"Value": 0.8
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.MovementSpeed"
+				},
+				"Value": 950
+			}
+		],
+		"AbilitySpecialization":
+		{
+			"Specializations": [
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_MeleeAttack",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.LightAttack"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.Damage"
+								},
+								"Type": "Float",
+								"Float": 7
+							},
+							"ModOp": "Override"
+						}
+					]
+				},
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_MeleeAttack",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.HeavyAttack"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.Damage"
+								},
+								"Type": "Float",
+								"Float": 9
+							},
+							"ModOp": "Override"
+						}
+					]
+				}
+			]
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_MobVariantDefinition.csv\", \"SW_Mob_VindicatorVariant1_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"MobConditions":
+		{
+			"SoulStateTag":
+			{
+				"TagName": "SW.Mob.VindicatorVariant1.SoulStated"
+			},
+			"ExcludedSoulEnchantments":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Enchantment.SoulEnchantment.Ranged"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Enchantment.SoulEnchantment"
+					},
+					{
+						"TagName": "SW.Enchantment"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		}
+	},
+	{
+		"Name": "VindicatorVariant2",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.VindicatorVariant2"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Vindicator"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Mob.Variant.Level2"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW.Mob.Variant"
+				}
+			]
+		},
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Enemies/Illagers/Vindicator/BP_Vindicator_Variant2.BP_Vindicator_Variant2_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.MobCost"
+				},
+				"Type": "Float",
+				"Float": 32
+			}
+		],
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 64
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Poise"
+				},
+				"Value": 100
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Resistance.KnockbackResistanceMultiplier"
+				},
+				"Value": 0.6
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.MovementSpeed"
+				},
+				"Value": 800
+			}
+		],
+		"AbilitySpecialization":
+		{
+			"Specializations": [
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_MeleeAttack",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.LightAttack"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.Damage"
+								},
+								"Type": "Float",
+								"Float": 10
+							},
+							"ModOp": "Override"
+						}
+					]
+				},
+				{
+					"Ability": "/Script/SpicewoodGAS.GA_MeleeAttack",
+					"AbilityCallsign":
+					{
+						"TagName": "SW.AbilityCallsign.HeavyAttack"
+					},
+					"KeyValueSpecializations": [
+						{
+							"KeyValue":
+							{
+								"TypeTag":
+								{
+									"TagName": "SW.KeyValue.Damage"
+								},
+								"Type": "Float",
+								"Float": 12
+							},
+							"ModOp": "Override"
+						}
+					]
+				}
+			]
+		},
+		"PerceptionConfiguration":
+		{
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_MobVariantDefinition.csv\", \"SW_Mob_VindicatorVariant2_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"MobConditions":
+		{
+			"SoulStateTag":
+			{
+				"TagName": "SW.Mob.VindicatorVariant2.SoulStated"
+			},
+			"ExcludedSoulEnchantments":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Enchantment.SoulEnchantment.Ranged"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Enchantment.SoulEnchantment"
+					},
+					{
+						"TagName": "SW.Enchantment"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		},
+		"GameplayCueAssets":
+		{
+			"Assets":
+			{
+				"(TagName=\"SW.Audio.Mob.AttackHit\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Melee/6_weapons_melee_basicCombo/Attack2/sfx_axe_unique_combo_attack2_Play.sfx_axe_unique_combo_attack2_Play",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.Audio.Mob.AttackHitHeavy\")":
+				{
+					"VFX": "None",
+					"SFX": "/Game/Spicewood/Audio/Wwise/Events/SpiceWood/Items/Weapons/Weapon_Melee/6_weapons_melee_basicCombo/Attack3/sfx_axe_unique_combo_attack3_Play.sfx_axe_unique_combo_attack3_Play",
+					"SFXCategory":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"SpawnAnimations":
+		{
+		}
+	},
+	{
+		"Name": "DeepDarkIllagerBackpack",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.DeepDarkIllager.BackpackVariant"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.DeepDarkIllager"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Enemies/Illagers/DeepDarkIllager/BP_DeepDark_Illager_Variant1.BP_DeepDark_Illager_Variant1_C",
+		"KeyValues": [
+			{
+				"TypeTag":
+				{
+					"TagName": "SW.KeyValue.MobCost"
+				},
+				"Type": "Float",
+				"Float": 30
+			}
+		],
+		"PerceptionConfiguration":
+		{
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_MobVariantDefinition.csv\", \"SW_Mob_DeepDarkIllager_BackpackVariant_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"MobConditions":
+		{
+			"SoulStateTag":
+			{
+				"TagName": "SW.Mob.DeepDarkIllager.BackpackVariant.SoulStated"
+			},
+			"ExcludedSoulEnchantments":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Enchantment.SoulEnchantment.Ranged"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Enchantment.SoulEnchantment"
+					},
+					{
+						"TagName": "SW.Enchantment"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			}
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		}
+	},
+	{
+		"Name": "SingingBean_XS",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.SingingBeanXS"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.MusicalGolem"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Friendlies/SingingBean/BP_SingingBean_XS.BP_SingingBean_XS_C",
+		"PerceptionConfiguration":
+		{
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_MobVariantDefinition.csv\", \"SW_Mob_SingingBeanXS_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		}
+	},
+	{
+		"Name": "SingingBean_M",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.SingingBeanM"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.MusicalGolem"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Friendlies/SingingBean/BP_SingingBean_M.BP_SingingBean_M_C",
+		"PerceptionConfiguration":
+		{
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_MobVariantDefinition.csv\", \"SW_Mob_SingingBeanM_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		}
+	},
+	{
+		"Name": "SingingBean_XL",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.SingingBeanXL"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.MusicalGolem"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Friendlies/SingingBean/BP_SingingBean_XL.BP_SingingBean_XL_C",
+		"PerceptionConfiguration":
+		{
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_MobVariantDefinition.csv\", \"SW_Mob_SingingBeanXL_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		}
+	},
+	{
+		"Name": "ZombieSoulImbalance",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.ZombieSoulimbalance"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Zombie"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Enemies/Zombie/BP_Zombie.BP_Zombie_C",
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 12
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.AI.SightPerceptionRadius"
+				},
+				"Value": 3000
+			}
+		],
+		"PerceptionConfiguration":
+		{
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_MobVariantDefinition.csv\", \"SW_Mob_ZombieSoulimbalance_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		}
+	},
+	{
+		"Name": "SkeletonSoulImbalance",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.SkeletonSoulimbalance"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Skeleton"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Enemies/Skeleton/BP_Skeleton.BP_Skeleton_C",
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 6
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.AI.SightPerceptionRadius"
+				},
+				"Value": 3000
+			}
+		],
+		"PerceptionConfiguration":
+		{
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_MobVariantDefinition.csv\", \"SW_Mob_SkeletonSoulimbalance_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		}
+	},
+	{
+		"Name": "SpiderSoulImbalance",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.SpiderSoulImbalance"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Mob.Spider"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Mob"
+				}
+			]
+		},
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Enemies/Spider/BP_Spider.BP_Spider_C",
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 9
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.AI.SightPerceptionRadius"
+				},
+				"Value": 3000
+			}
+		],
+		"PerceptionConfiguration":
+		{
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_MobVariantDefinition.csv\", \"SW_Mob_SpiderSoulImbalance_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		}
+	},
+	{
+		"Name": "BabyZombieSoulImbalance",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.BabyZombieSoulImbalance"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Mob.BabyZombie"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Mob"
+				}
+			]
+		},
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Enemies/BabyZombie/BP_BabyZombie.BP_BabyZombie_C",
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 11
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.AI.SightPerceptionRadius"
+				},
+				"Value": 3000
+			}
+		],
+		"PerceptionConfiguration":
+		{
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_MobVariantDefinition.csv\", \"SW_Mob_BabyZombieSoulImbalance_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		}
+	},
+	{
+		"Name": "BloombudSoulImbalance",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.BloombudSoulImbalance"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Bloombud"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Enemies/Wellspring_Melee/BP_WellspringMelee.BP_WellspringMelee_C",
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 11
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.AI.SightPerceptionRadius"
+				},
+				"Value": 3000
+			}
+		],
+		"PerceptionConfiguration":
+		{
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_MobVariantDefinition.csv\", \"SW_Mob_BloombudSoulImbalance_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		}
+	},
+	{
+		"Name": "RoamrootSoulImbalance",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.RoamrootSoulImbalance"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Mob.Roamroot"
+				},
+				{
+					"TagName": "SW.Property.Spawnable"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Mob"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Property"
+				}
+			]
+		},
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Enemies/WellspringRangedFella/BP_WellspringRangedFella.BP_WellspringRangedFella_C",
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 6
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.AI.SightPerceptionRadius"
+				},
+				"Value": 3000
+			}
+		],
+		"PerceptionConfiguration":
+		{
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_MobVariantDefinition.csv\", \"SW_Mob_RoamrootSoulImbalance_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		}
+	},
+	{
+		"Name": "ScavengerMeleeSoulImbalance",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.ScavengerMeleeSoulImbalance"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Mob.ScavengerMelee"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Mob"
+				}
+			]
+		},
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Enemies/Scavengers/Melee/BP_Scavenger_Melee.BP_Scavenger_Melee_C",
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 12
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.AI.SightPerceptionRadius"
+				},
+				"Value": 3000
+			}
+		],
+		"PerceptionConfiguration":
+		{
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		}
+	},
+	{
+		"Name": "ScavengerRangedSoulImbalance",
+		"TypeTag":
+		{
+			"TagName": "SW.Mob.ScavengerRangedSoulImbalance"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Property.Spawnable"
+				},
+				{
+					"TagName": "SW.Mob.ScavengerRanged"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW.Property"
+				},
+				{
+					"TagName": "SW"
+				},
+				{
+					"TagName": "SW.Mob"
+				}
+			]
+		},
+		"CharacterReference": "/Game/Spicewood/Art/Characters/Enemies/Scavengers/Ranged/BP_Scavanger_Ranged.BP_Scavanger_Ranged_C",
+		"AttributeValues": [
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.Health"
+				},
+				"Value": 9
+			},
+			{
+				"Attribute":
+				{
+					"TagName": "SW.Attribute.AI.SightPerceptionRadius"
+				},
+				"Value": 3000
+			}
+		],
+		"PerceptionConfiguration":
+		{
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		},
+		"GameplayCueAssets":
+		{
+		},
+		"SpawnAnimations":
+		{
+		}
+	}
+]

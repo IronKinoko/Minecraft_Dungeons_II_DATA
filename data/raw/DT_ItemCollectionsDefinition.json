@@ -1,0 +1,123 @@
+[
+	{
+		"Name": "SecretTalismans",
+		"TypeTag":
+		{
+			"TagName": "SW.Collectibles.SecretTalismans"
+		},
+		"Traits":
+		{
+			"GameplayTags": [
+				{
+					"TagName": "SW.Collectibles"
+				}
+			],
+			"ParentTags": [
+				{
+					"TagName": "SW"
+				}
+			]
+		},
+		"CollectionDefinition":
+		{
+			"ItemsInCollection":
+			{
+				"GameplayTags": [
+					{
+						"TagName": "SW.Item.Talisman.DoubleDrop"
+					},
+					{
+						"TagName": "SW.Item.Talisman.PotionCooldown"
+					},
+					{
+						"TagName": "SW.Item.Talisman.SoulCapacity"
+					},
+					{
+						"TagName": "SW.Item.Talisman.EmeraldIncrease"
+					},
+					{
+						"TagName": "SW.Item.Talisman.Plummeting"
+					},
+					{
+						"TagName": "SW.Item.Talisman.FiringEmeralds"
+					},
+					{
+						"TagName": "SW.Item.Talisman.SpeedIncrement"
+					},
+					{
+						"TagName": "SW.Item.Talisman.RangedBuff"
+					}
+				],
+				"ParentTags": [
+					{
+						"TagName": "SW.Item.Talisman"
+					},
+					{
+						"TagName": "SW.Item"
+					},
+					{
+						"TagName": "SW"
+					}
+				]
+			},
+			"PanelToShow":
+			{
+				"TagName": "SW.UI.Onboarding.Panel.Talisman.SecretTalismans"
+			}
+		},
+		"TypeTextData":
+		{
+			"Texts":
+			{
+				"(TagName=\"SW.TextEntry.Name\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemCollectionsDefinition.csv\", \"SW_Collectibles_SecretTalismans_SW_TextEntry_Name\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"\")":
+				{
+					"Text": "",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description.Completion\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemCollectionsDefinition.csv\", \"SW_Collectibles_SecretTalismans_SW_TextEntry_Description_Completion\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description.Completion.Additional\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemCollectionsDefinition.csv\", \"SW_Collectibles_SecretTalismans_SW_TextEntry_Description_Completion_Additional\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.Description.Completion.Short\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemCollectionsDefinition.csv\", \"SW_Collectibles_SecretTalismans_SW_TextEntry_Description_Completion_Short\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				},
+				"(TagName=\"SW.TextEntry.EventLog\")":
+				{
+					"Text": "LOCTABLE(\"DT_ItemCollectionsDefinition.csv\", \"SW_Collectibles_SecretTalismans_SW_TextEntry_EventLog\")",
+					"DynamicDataGetterFunction":
+					{
+						"TagName": "None"
+					}
+				}
+			}
+		}
+	}
+]
